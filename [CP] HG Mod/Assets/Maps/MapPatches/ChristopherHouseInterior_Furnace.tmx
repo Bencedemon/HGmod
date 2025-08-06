@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="1" height="2" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="2">
+ <tileset firstgid="1" name="ChristopherHouseInteriorTilesheet" tilewidth="16" tileheight="16" tilecount="84" columns="6">
+  <image source="ChristopherHouseInteriorTilesheet.png" width="96" height="224"/>
+ </tileset>
+ <layer id="2" name="Buildings" width="1" height="2">
+  <data encoding="csv">
+0,
+82
+</data>
+ </layer>
+ <layer id="4" name="Front" width="1" height="2">
+  <data encoding="csv">
+76,
+0
+</data>
+ </layer>
+ <objectgroup id="3" name="Buildings"/>
+ <objectgroup id="5" name="Front"/>
+</map>

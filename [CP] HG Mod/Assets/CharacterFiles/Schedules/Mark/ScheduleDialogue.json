@@ -1,0 +1,16 @@
+{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Strings/schedules/Mark",
+        "Entries": 
+        {
+            "NightMarket_Mark": "{{i18n:Mark.NightMarket.01}}",
+            "DesertFestival_Mark1_marriage": "{{i18n:Mark.DesertFestival_marriage.01}}",
+            "DesertFestival_Mark2_marriage": "{{i18n:Mark.DesertFestival_marriage.02}}",
+            "DesertFestival_Mark1": "{{i18n:Mark.DesertFestival.01}}",
+            "DesertFestival_Mark2": "{{i18n:Mark.DesertFestival.02}}"
+        },
+      },
+    ]
+}

@@ -1,0 +1,59 @@
+{
+	"Changes": [
+        {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Olivia",
+			"TextOperations": [
+				{/*Dislike*/
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Olivia",
+						5
+					],
+					"Value": "Bencedemon.HG_CottonCandy Bencedemon.HG_Fries",
+					"Delimiter": " "
+				},
+				{/*Hate*/ 
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Olivia",
+						7
+					],
+					"Value": "Bencedemon.HG_Palinka",
+					"Delimiter": " "
+				},
+				{/*Neutral*/
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Olivia",
+						9
+					],
+					"Value": "Bencedemon.HG_Langos",
+					"Delimiter": " "
+				}
+			]
+		},
+        {
+            //OLIVIA 4 HEART EVENT
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "4000002/f Olivia 1000/f Jodi 250/f Caroline 250/w sunny/z winter/t 1200 1600": "springtown/-500 -500/farmer 29 89 0 Olivia 24 72 3 Jodi 22 72 1 Caroline 23 71 2 Penny 7 65 2 Lewis 31 67 1 Pierre 33 67 3 MarlonFay 33 103 2 Wizard 33 105 0 Gus 42 72 2 Abigail 47 88 0 Haley 16 90 3 Emily 14 90 1 Linus 104 104 2 Clint 97 77 0 Victor 40 16 0 Bence 43 77 2/pause 400/showFrame Penny 18/positionOffset Bence 0 16/skippable/showFrame Bence 32/viewport 23 72 true/pause 1000/move farmer 0 -16 3 true/speak Jodi \"{{i18n:Olivia.4hearts.01}}\"/speak Caroline \"{{i18n:Olivia.4hearts.02}}\"/speak Olivia \"{{i18n:Olivia.4hearts.03}}\"/emote Jodi 8/move Olivia 0 0 2/pause 200/move Olivia 0 0 1/pause 350/move Caroline 0 0 1/pause 750/emote farmer 32/speak Caroline \"{{i18n:Olivia.4hearts.04}}\"/speak Jodi \"{{i18n:Olivia.4hearts.05}}\"/speak Olivia \"{{i18n:Olivia.4hearts.06}}\"/emote farmer 20/textAboveHead Pierre \"{{i18n:Olivia.4hearts.07}}\"/pause 200/move farmer -6 0 0 true/pause 2400/move Olivia 0 0 3/pause 300/move Caroline 0 0 2/pause 1250/speak Caroline \"{{i18n:Olivia.4hearts.08}}\"/speak Jodi \"{{i18n:Olivia.4hearts.09}}\"/emote farmer 32/pause 300/speak Olivia \"{{i18n:Olivia.4hearts.10}}\"/speak Caroline \"{{i18n:Olivia.4hearts.11}}\"/speak Jodi \"!!!$0\"/pause 200/textAboveHead Lewis \"{{i18n:Olivia.4hearts.12}}\"/pause 750/speak Olivia \"{{i18n:Olivia.4hearts.13}}\"/emote Jodi 16 true/pause 200/emote Caroline 16 true/pause 100/emote farmer 16 true/pause 750/speak Olivia \"{{i18n:Olivia.4hearts.14}}\"/pause 200/emote farmer 16/pause 600/question fork0 \"{{i18n:Olivia.4hearts.15}}\"/fork 4000002_MakesWine/pause 500/speak Olivia \"{{i18n:Olivia.4hearts.16}}\"/pause 200/emote farmer 32/emote Olivia 32/pause 500/speak Caroline \"{{i18n:Olivia.4hearts.17}}\"/speak Jodi \"{{i18n:Olivia.4hearts.18}}\"/pause 600/textAboveHead Pierre \"{{i18n:Olivia.4hearts.19}}\"/pause 600/speak Olivia \"{{i18n:Olivia.4hearts.20}}\"/pause 200/emote farmer 16 true/pause 300/emote Jodi 16/speak Caroline \"{{i18n:Olivia.4hearts.21}}\"/pause 400/speak Jodi \"...$2\"/pause 200/emote farmer 28/pause 700/speak Olivia \"{{i18n:Olivia.4hearts.22}}\"/pause 1650/speak Olivia \"{{i18n:Olivia.4hearts.23}}\"/pause 250/speak Caroline \"{{i18n:Olivia.4hearts.24}}\"/speak Jodi \"{{i18n:Olivia.4hearts.25}}\"/pause 400/emote farmer 32/pause 300/move farmer 8 0 1 true/pause 1500/globalFade/viewport -1000 -1000/pause 800/friendship Olivia 25/end dialogue Olivia \"{{i18n:Olivia.4hearts.26}}\"",
+                "4000002_MakesWine": "pause 500/speak Olivia \"{{i18n:Olivia.4hearts.MakesWine.01}}\"/pause 600/emote farmer 32/emote Olivia 32/pause 500/speak Caroline \"{{i18n:Olivia.4hearts.MakesWine.02}}\"/speak Jodi \"{{i18n:Olivia.4hearts.MakesWine.03}}\"/pause 600/speak Olivia \"{{i18n:Olivia.4hearts.MakesWine.04}}\"/pause 200/emote farmer 16 true/pause 300/emote Jodi 16/speak Caroline \"{{i18n:Olivia.4hearts.MakesWine.05}}\"/pause 400/speak Jodi \"{{i18n:Olivia.4hearts.MakesWine.06}}\"/pause 400/speak Olivia \"{{i18n:Olivia.4hearts.MakesWine.07}}\"/pause 250/speak Caroline \"{{i18n:Olivia.4hearts.MakesWine.08}}\"/speak Jodi \"{{i18n:Olivia.4hearts.MakesWine.09}}\"/pause 400/emote farmer 32/pause 300/move farmer 8 0 1 true/pause 900/globalFade/viewport -1000 -1000/pause 800/friendship Olivia 25/end dialogue Olivia \"{{i18n:Olivia.4hearts.MakesWine.10}}\"",
+                //This event has so many people in it. What are they all up to!?  <(O_O")>
+            }
+        },
+        {
+            //OLIVIA 8 HEART EVENT
+            "Action": "EditData",
+            "Target": "Data/Events/Saloon",
+            "Entries": {
+                "4000003/e 4000004/d Mon Tue Wed Thu Sun/f Olivia 2000/t 1700 2300/w sunny": "Saloon1/-500 -500/farmer 14 24 0 Olivia 20 18 3 Victor 42 18 3 Sophia 8 20 0 Pierre 16 20 1 Susan 12 20 0 Andy 3 22 3 Caroline 17 20 3 Jodi 18 20 0 Willy 17 22 2 Clint 19 23 3 Shane 37 18 2 Robin 22 22 1 Wizard 7 6 1 MarlonFay 8 6 3 Demetrius 23 22 3 Lewis 9 22 3 Marnie 8 22 1 Pam 7 18 1 Elliott 4 19 2 Leah 2 20 1 Gus 10 18 2 Emily 14 17 0 Harvey 10 20 0 Haley 32 18 1 Alex 33 18 0 Sam 42 21 3 Sebastian 36 21 1 Abigail 40 18 1 Maru 14 20 0 Christopher 25 18 2 Bence 24 19 1 Mark 26 19 3/skippable/animate Christopher false true 100 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 25 26 26 26 27 27 26 26 27 27 26 25 24 24 24 24 24 24 24 24 24 24 24 24/animate Bence false true 100 36 36 36 36 36 36 36 36 37 38 39 39 40 41 41 41 41 42 42 40 40 42 43 43 39 39 43 43 39 39 40 41 41 41 41 42 42 40 40 42 43 43 39 39 43 43 39 39 38 37 36 36 36 36 36 36/animate Mark false true 100 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 33 34 35 35 35 35 35 35 35 35 35 35 34 33 32 32 32 32 32 32 32 32 32 32 32 33 34 35 35 35 35 34 33 32 32 32 32/positionOffset Haley 0 -20/animate Elliott false true 100 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 18 18 18 19 19 18 18 19 19 18 17 16 16 16 16 16 16 16 16 16 16 16 16/animate Lewis false true 100 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 22 23 23 23 23 23 22 22 22 23 23 23 23 23 23 23 23 23 23 23/animate Marnie false true 100 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 21 22 23 23 23 23 23 23 23 23 22 21/animate Andy false true 100 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 25 26 27 27 27 27 27 27 27 27 27 27 27 27 27 26 25 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24/animate Robin false true 100 20 20 21 21 22 22/animate Demetrius false true 100 24 24 25 25 26 26/animate Shane false true 100 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 24 24 24 23 22 21/animate Sam true true 1000 34 4/animate Olivia false true 150 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 18 19 19 19 19 19 18 17 16 16 16 16 16 16/animate Victor false true 150 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 25 26 27 27 27 27 26 25 24 24 24 24 24 24 24 24/showFrame MarlonFay 12/pause 600/viewport 14 19 true/pause 150/playSound doorClose/skippable/pause 400/emote farmer 16/pause 500/move farmer 0 -3 0/pause 400/move Emily -1 0 0/pause 200/textAboveHead Maru \"{{i18n:Olivia.8hearts.01}}\"/pause 900/textAboveHead Haley \"{{i18n:Olivia.8hearts.02}}\"/shake Haley 1250/pause 600/move Emily 0 0 2/pause 900/textAboveHead Emily \"{{i18n:Olivia.8hearts.03}}\"/pause 500/move Emily 2 0 0/pause 400/textAboveHead Gus \"{{i18n:Olivia.8hearts.04}}\"/pause 800/shake Alex 1500/textAboveHead Alex \"{{i18n:Olivia.8hearts.05}}\"/pause 700/shake Haley 500/pause 400/emote farmer 40 true/pause 300/textAboveHead Harvey \"{{i18n:Olivia.8hearts.06}}\"/pause 1250/speak Olivia \"{{i18n:Olivia.8hearts.07}}\"/move farmer 0 0 1/pause 600/viewport move 1 0 5000 true/move farmer 6 0 0 true/pause 800/textAboveHead Victor \"{{i18n:Olivia.8hearts.08}}\"/pause 2300/move Emily -1 0 0 true/pause 250/textAboveHead Lewis \"{{i18n:Olivia.8hearts.09}}\"/pause 200/shake Lewis 1250/pause 200/stopAnimation Olivia/move Olivia 0 0 2 true/speak Olivia \"{{i18n:Olivia.8hearts.10}}\"/pause 400/textAboveHead Caroline \"{{i18n:Olivia.8hearts.11}}\"/shake Caroline 1000/pause 400/speak Olivia \"{{i18n:Olivia.8hearts.12}}\"/pause 200/move Emily 0 1 2/pause 300/textAboveHead Emily \"{{i18n:Olivia.8hearts.13}}\"/move farmer 0 -2 0/pause 500/speak Olivia \"{{i18n:Olivia.8hearts.14}}\"/pause 400/textAboveHead Pam \"{{i18n:Olivia.8hearts.15}}\"/shake Pam 750/pause 600/move Gus 0 0 3/emote Gus 8 true/pause 400/move farmer 0 0 0/speak Olivia \"{{i18n:Olivia.8hearts.16}}\"/pause 250/textAboveHead MarlonFay \"{{i18n:Olivia.8hearts.17}}\"/pause 300/move Gus -1 0 3 true/pause 250/textAboveHead Maru \"{{i18n:Olivia.8hearts.18}}\"/pause 250/speak Olivia \"{{i18n:Olivia.8hearts.19}}\"/pause 300/emote farmer 40 true/pause 250/move Harvey 1 0 0 true/pause 500/textAboveHead Alex \"{{i18n:Olivia.8hearts.20}}\"/shake Alex 1000/pause 200/speak Olivia \"{{i18n:Olivia.8hearts.21}}\"/pause 200/move Emily 4 0 1 true/pause 250/textAboveHead Gus \"{{i18n:Olivia.8hearts.22}}\"/pause 300/move Olivia 0 0 3 true/pause 400/move farmer 0 0 3/move Gus 2 0 0/move Gus 0 -1 0 true/speak Emily \"{{i18n:Olivia.8hearts.23}}\"/pause 300/textAboveHead Pierre \"{{i18n:Olivia.8hearts.24}}\"/shake Pierre 1000/pause 500/speak Emily \"{{i18n:Olivia.8hearts.25}}\"/move Gus 0 1 2/move Gus -2 0 3 true/speak Emily \"{{i18n:Olivia.8hearts.26}}\"/pause 250/textAboveHead Gus \"{{i18n:Olivia.8hearts.27}}\"/shake Haley 700/pause 300/speak Emily \"{{i18n:Olivia.8hearts.28}}\"/speed Emily 2/move Emily -4 0 3 true/pause 350/textAboveHead Marnie \"{{i18n:Olivia.8hearts.29}}\"/pause 500/textAboveHead Pam \"{{i18n:Olivia.8hearts.30}}\"/shake Pam 700/pause 350/move Olivia 0 0 2 true/pause 500/move Emily 0 -1 0/pause 250/move farmer 0 0 0/pause 300/speak Olivia \"{{i18n:Olivia.8hearts.31}}\"/pause 300/textAboveHead Caroline \"{{i18n:Olivia.8hearts.32}}\"/shake Caroline 1000/pause 500/textAboveHead Wizard \"{{i18n:Olivia.8hearts.33}}\"/pause 500/shake Emily 500/pause 400/textAboveHead Sebastian \"{{i18n:Olivia.8hearts.34}}\"/pause 400/move Emily 0 1 2/move Emily 4 0 1 true/pause 800/move Gus 1 0 2 true/pause 400/move farmer 0 0 3/pause 500/move Olivia 0 0 3/pause 500/speak Emily \"{{i18n:Olivia.8hearts.35}}\"/pause 400/emote farmer 32/pause 200/move Emily 0 -1 0/move Emily -4 0 0 true/pause 400/move Olivia 0 0 2 true/pause 500/textAboveHead Lewis \"{{i18n:Olivia.8hearts.36}}\"/shake Lewis 800/move farmer 0 0 0/pause 500/speak Olivia \"{{i18n:Olivia.8hearts.37}}\"/pause 500/globalFade/viewport -1000 -1000/friendship Olivia 50/stopMusic/pause 1000/end dialogue Olivia \"{{i18n:Olivia.8hearts.38}}\"",
+            }
+        },
+	]
+}

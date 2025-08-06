@@ -1,0 +1,317 @@
+{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Data/Characters",
+        "Entries": {
+          "Mark": {
+            "DisplayName": "Márk",
+            "BirthSeason": "Summer",
+            "BirthDay": 26,
+            "HomeRegion": "Town",
+            "Language": "Default",
+            "Gender": "Male",
+            "Age": "Adult",
+            "Manner": "Polite",
+            "SocialAnxiety": "Neutral",
+            "Optimism": "Neutral",
+            "IsDarkSkinned": false,
+            "CanBeRomanced": true,
+            "KissSpriteIndex": 51,
+            "KissSpriteFacingDirection": false,
+            "LoveInterest": "Emily",
+            "Calendar": "AlwaysShown",
+            "SocialTab": "UnknownUntilMet",
+            "CanSocialize": true,
+            "CanVisitIsland": true,
+            "IntroductionsQuest": true,
+            "PerfectionScore": true,
+            "EndSlideShow": "MainGroup",
+            "SpouseRoom": {
+              "MapAsset": "Custom_MarkRoom",
+              "MapSourceRect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 6,
+                "Height": 9
+              }
+            },
+            "SpousePatio": {
+              "MapAsset": "Mark_Spouse_Area",
+              "MapSourceRect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 4,
+                "Height": 4
+              },
+              "SpriteAnimationFrames": [
+                [
+                  16,
+                  500
+                ]
+              ],
+              "SpriteAnimationPixelOffset": {
+                "X": 0,
+                "Y": 0
+              }
+            },
+            "FriendsAndFamily": {
+              "Bence": "",
+              "Christopher": ""
+            },
+            "UnlockConditions": null,
+            "SpawnIfMissing": true,
+            "Home": [
+              {
+                "Id": "Bencedemon.HG_MarkHouse",
+                "Condition": null,
+                "Location": "Custom_MarkHouseInterior",
+                "Tile": {
+                  "X": 15,
+                  "Y": 13
+                },
+                "Direction": "left"
+              }
+            ],
+            "Appearance": [
+              {
+                "Id": "Winter",
+                "Season": "Winter",
+                "Indoors": true,
+                "Outdoors": true,
+                "Portrait": "Portraits/Mark_Winter",
+                "Sprite": "Characters/Mark_Winter",
+                "IsIslandAttire": false,
+                "Precedence": -100,
+                "Weight": 0
+              }
+            ],
+            "TextureName": null,
+            "Size": {
+              "X": 16,
+              "Y": 32
+            },
+            "CustomFields": {}
+          },
+        },
+      },
+      {
+        //Mark's gift tastes
+        "Action": "EditData",
+        "Target": "Data/NPCGiftTastes",
+        "Entries": {
+          "Mark": "{{i18n:Mark.Gifts.Loved}}/Bencedemon.HG_Langos 206 241 224/
+          {{i18n:Mark.Gifts.Liked}}/223/
+          {{i18n:Mark.Gifts.Disliked}}/220 221/
+          {{i18n:Mark.Gifts.Hated}}/873/
+          {{i18n:Mark.Gifts.Neutral}}/235/"
+        }
+      },
+      {
+        //Mark's Animations
+        "Action": "EditData",
+        "Target": "Data/animationdescriptions",
+        "Entries": {
+            "mark_sleep": "43/43/43",
+            "mark_garden": "0/30 30 31 31 30 30 30 30 31 31 30 30 31 31 30 30/0",
+            "mark_garden_L": "28/24 24 25 25 24 24 24 24 25 25 24 24 25 25 24 24/28",
+            "mark_garden_R": "29/26 26 27 27 26 26 26 26 27 27 26 26 27 27 26 26/29",
+            "mark_drink": "32/32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 33 34 35 35 35 35 35 35 35 35 35 35 34 33 32 32 32 32 32 32 32 32 32 32 32 33 34 35 35 35 35 34 33 32 32 32 32/32",
+            "mark_computer": "36/36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 37 38 39 38 39 38 39 38 37 36 36 36/36",
+            "mark_music": "40/40/40",
+            "mark_music_R": "41/41/41",
+            "mark_music_L": "42/42/42"
+        }
+      },
+      {
+        //Mark's sleep animation - married to character
+        "Action": "EditData",
+        "Target": "Data/animationdescriptions",
+        "When": {
+          "Spouse": "Mark"
+        },
+        "Entries": {
+          "Mark_Sleep": "43/43/43"
+        }
+      },
+      //Spouse Room
+      {
+        "Action": "Load", "Priority": "Low",
+        "Target": "Maps/Custom_MarkRoom",
+        "FromFile": "Assets/Maps/SpouseRooms/MarkRoom.tmx"
+      },
+      //Spouse Patio
+      {
+        "Action": "Load", "Priority": "Low",
+        "Target": "Maps/Mark_Spouse_Area",
+        "FromFile": "Assets/Maps/SpouseRooms/Mark_Spouse_Area.tmx"
+      },
+      {
+        //Mark's Portraits
+        "Action": "Load", "Priority": "Low",
+        "Target": "Portraits/Mark",
+        "FromFile": "Assets/CharacterFiles/Portraits/Mark/Mark.png"
+      },
+      {
+        //Mark's Winter Portraits
+        "Action": "Load", "Priority": "Low",
+        "Target": "Portraits/Mark_Winter",
+        "FromFile": "Assets/CharacterFiles/Portraits/Mark/Mark_Winter.png"
+      },
+      {
+        //Mark's Sprites
+        "Action": "Load", "Priority": "Low",
+        "Target": "Characters/Mark",
+        "FromFile": "Assets/CharacterFiles/Sprites/Mark/Mark.png"
+      },
+      {
+        //Mark's Winter Sprites
+        "Action": "Load", "Priority": "Low",
+        "Target": "Characters/Mark_Winter",
+        "FromFile": "assets/CharacterFiles/Sprites/Mark/Mark_Winter.png"
+      },
+      {
+        //Mark's beach portraits
+        "Action": "Load", "Priority": "Low",
+        "Target": "Portraits/Mark_Beach",
+        "FromFile": "assets/CharacterFiles/Portraits/Mark/Mark_Beach.png"
+      },
+      {
+        //Mark's beach sprites
+        "Action": "Load", "Priority": "Low",
+        "Target": "Characters/Mark_Beach",
+        "FromFile": "assets/CharacterFiles/Sprites/Mark/Mark_Beach.png"
+      },
+      {
+        //Mark's Schedule
+        "Action": "Load",
+        "Target": "Characters/schedules/Mark",
+        "FromFile": "Assets/CharacterFiles/Schedules/Mark/Schedule.json"
+      },
+      {
+        //Mark's Engagement Dialogue
+        "Action": "EditData",
+        "Target": "Data/EngagementDialogue",
+        "Entries": {
+          "Mark0": "{{i18n:Mark.Engagement.1}}",
+          "Mark1": "{{i18n:Mark.Engagement.1}}",
+        }
+      },
+    //MOVIE THEATER
+    {
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "Mark": {
+          "Name": "Mark",
+          "LovedTags": [
+            "Healthy"
+          ],
+          "LikedTags": [
+            "Salty"
+          ],
+          "DislikedTags": [
+            "Sweet"
+          ]
+        },
+      },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "Mark": {
+          "NPCName": "Mark",
+          "Reactions": [
+            {
+              "Tag": "comedy",
+              "Response": "love",
+              "Whitelist": [],
+              "SpecialResponses": null,
+              "ID": "reaction_0"
+            },
+            {
+              "Tag": "action",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": null,
+              "ID": "reaction_1"
+            },
+            {
+              "Tag": "sci-fi",
+              "Response": "dislike",
+              "Whitelist": [],
+              "SpecialResponses": null,
+              "ID": "reaction_2"
+            },
+            {
+              "Tag": "love",
+              "Response": "love",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:Mark.Movies.01}}",
+                },
+                "DuringMovie": null,
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:Mark.Movies.02}}",
+                }
+              },
+              "ID": "reaction_3"
+            },
+            {
+              "Tag": "like",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:Mark.Movies.03}}",
+                },
+                "DuringMovie": null,
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:Mark.Movies.04}}",
+                }
+              },
+              "ID": "reaction_4"
+            },
+            {
+              "Tag": "dislike",
+              "Response": "dislike",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:Mark.Movies.05}}",
+                },
+                "DuringMovie": null,
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:Mark.Movies.06}}",
+                }
+              },
+              "ID": "reaction_5"
+            }
+          ]
+        },
+      }
+    },
+
+      { //2 heart event, 8:00 am - 12:00 am
+        "Action": "EditData",
+        "Target": "Data/Events/Custom_MarkFarm",
+        "Entries": {
+          "2001201/f Mark 500/t 800 1200/w sunny": "none/22 27/farmer 24 23 2 Mark 22 28 2/skippable/move farmer 0 5 2/speak Mark \"Nagyon jó innét a kilátás.\"/message \"???.\"/pause 600/end"
+        }
+      },
+    ]
+  }

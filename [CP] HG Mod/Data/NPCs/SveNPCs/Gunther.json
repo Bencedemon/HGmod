@@ -1,0 +1,41 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Gunther",
+			"TextOperations": [
+                {/*Love*/
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Gunther",
+                        1
+                    ],
+                    "Value": "Bencedemon.HG_Popcorn",
+                    "Delimiter": " "
+                },
+				{/*Dislike*/
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Gunther",
+						5
+					],
+					"Value": "Bencedemon.HG_Palinka Bencedemon.HG_CottonCandy",
+					"Delimiter": " "
+				},
+				{/*Neutral*/
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Gunther",
+						9
+					],
+					"Value": "Bencedemon.HG_StrawberrySundae",
+					"Delimiter": " "
+				}
+			]
+		}
+	]
+}

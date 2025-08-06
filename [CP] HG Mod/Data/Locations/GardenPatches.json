@@ -1,0 +1,222 @@
+{
+    "Changes":[
+        { //Bence garden - phase DEAD
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "Assets/Maps/CropPhases/BenceGardenPhaseDead.tmx",
+            "ToArea": {
+                "X": 9,
+                "Y": 69,
+                "Width": 3,
+                "Height": 4
+            },
+            "When": {
+                "Day": "1",
+                "Season": "Summer,Fall,Winter"
+            }
+        },
+        { //Bence garden - phase 0
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "Assets/Maps/CropPhases/BenceGardenPhase0.tmx",
+            "ToArea": {
+                "X": 9,
+                "Y": 69,
+                "Width": 3,
+                "Height": 4
+            },
+            "When": {
+                "Day": "2",
+                "Season": "Spring,Summer,Fall"
+            }
+        },
+        { //Bence garden - phase 1
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "Assets/Maps/CropPhases/BenceGardenPhase1.tmx",
+            "ToArea": {
+                "X": 9,
+                "Y": 69,
+                "Width": 3,
+                "Height": 4
+            },
+            "When": {
+                "Day": "{{Range: 3, 5}}",
+                "Season": "Spring,Summer,Fall"
+            }
+        },
+        { //Bence garden - phase 2
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "Assets/Maps/CropPhases/BenceGardenPhase2.tmx",
+            "ToArea": {
+                "X": 9,
+                "Y": 69,
+                "Width": 3,
+                "Height": 4
+            },
+            "When": {
+                "Day": "{{Range: 6, 9}}",
+                "Season": "Spring,Summer,Fall"
+            }
+        },
+        { //Bence garden - phase 3
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "Assets/Maps/CropPhases/BenceGardenPhase3.tmx",
+            "ToArea": {
+                "X": 9,
+                "Y": 69,
+                "Width": 3,
+                "Height": 4
+            },
+            "When": {
+                "Day": "{{Range: 10, 13}}",
+                "Season": "Spring,Summer,Fall"
+            }
+        },
+        { //Bence garden - phase 4
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "Assets/Maps/CropPhases/BenceGardenPhase4.tmx",
+            "ToArea": {
+                "X": 9,
+                "Y": 69,
+                "Width": 3,
+                "Height": 4
+            },
+            "When": {
+                "Day": "{{Range: 14, 17}}",
+                "Season": "Spring,Summer,Fall"
+            }
+        },
+        { //Bence garden - phase 5
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "Assets/Maps/CropPhases/BenceGardenPhase5.tmx",
+            "ToArea": {
+                "X": 9,
+                "Y": 69,
+                "Width": 3,
+                "Height": 4
+            },
+            "When": {
+                "Day": "{{Range: 18, 21}},{{Range: 26, 27}}",
+                "Season": "Spring,Summer,Fall"
+            }
+        },
+        { //Bence garden - phase 6
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "Assets/Maps/CropPhases/BenceGardenPhase6.tmx",
+            "ToArea": {
+                "X": 9,
+                "Y": 69,
+                "Width": 3,
+                "Height": 4
+            },
+            "When": {
+                "Day": "{{Range: 22, 25}},28",
+                "Season": "Spring,Summer,Fall"
+            }
+        },
+        { //Mark garden - phase 0
+            "Action": "EditMap",
+            "Target": "Maps/Custom_MarkFarm",
+            "FromFile": "Assets/Maps/CropPhases/MarkGardenPhase0.tmx",
+            "ToArea": {
+                "X": 16,
+                "Y": 12,
+                "Width": 8,
+                "Height": 5
+            },
+            "When": {
+                "Day": "1"
+            }
+        },
+        { //Mark garden - phase 1
+            "Action": "EditMap",
+            "Target": "Maps/Custom_MarkFarm",
+            "FromFile": "Assets/Maps/CropPhases/MarkGardenPhase1.tmx",
+            "ToArea": {
+                "X": 16,
+                "Y": 12,
+                "Width": 8,
+                "Height": 5
+            },
+            "When": {
+                "Day": "{{Range: 2, 5}}"
+            }
+        },
+        { //Mark garden - phase 2
+            "Action": "EditMap",
+            "Target": "Maps/Custom_MarkFarm",
+            "FromFile": "Assets/Maps/CropPhases/MarkGardenPhase2.tmx",
+            "ToArea": {
+                "X": 16,
+                "Y": 12,
+                "Width": 8,
+                "Height": 5
+            },
+            "When": {
+                "Day": "{{Range: 6, 9}}"
+            }
+        },
+        { //Mark garden - phase 3
+            "Action": "EditMap",
+            "Target": "Maps/Custom_MarkFarm",
+            "FromFile": "Assets/Maps/CropPhases/MarkGardenPhase3.tmx",
+            "ToArea": {
+                "X": 16,
+                "Y": 12,
+                "Width": 8,
+                "Height": 5
+            },
+            "When": {
+                "Day": "{{Range: 10, 13}}"
+            }
+        },
+        { //Mark garden - phase 4
+            "Action": "EditMap",
+            "Target": "Maps/Custom_MarkFarm",
+            "FromFile": "Assets/Maps/CropPhases/MarkGardenPhase4.tmx",
+            "ToArea": {
+                "X": 16,
+                "Y": 12,
+                "Width": 8,
+                "Height": 5
+            },
+            "When": {
+                "Day": "{{Range: 14, 17}}"
+            }
+        },
+        { //Mark garden - phase 5
+            "Action": "EditMap",
+            "Target": "Maps/Custom_MarkFarm",
+            "FromFile": "Assets/Maps/CropPhases/MarkGardenPhase5.tmx",
+            "ToArea": {
+                "X": 16,
+                "Y": 12,
+                "Width": 8,
+                "Height": 5
+            },
+            "When": {
+                "Day": "{{Range: 18, 21}},{{Range: 26, 27}}"
+            }
+        },
+        { //Mark garden - phase 6
+            "Action": "EditMap",
+            "Target": "Maps/Custom_MarkFarm",
+            "FromFile": "Assets/Maps/CropPhases/MarkGardenPhase6.tmx",
+            "ToArea": {
+                "X": 16,
+                "Y": 12,
+                "Width": 8,
+                "Height": 5
+            },
+            "When": {
+                "Day": "{{Range: 22, 25}},28"
+            }
+        },
+    ]
+}

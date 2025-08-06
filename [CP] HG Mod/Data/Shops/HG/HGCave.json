@@ -1,0 +1,536 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "Bencedemon.HG_CaveGiftShop": {
+                    "Owners": [
+                        {
+                            "Condition": null,
+                            "Portrait": "Mods/Bencedemon.HG/Bob",
+                            "Dialogues": [
+                            {
+                                "Id": "Default",
+                                "Condition": null,
+                                "Dialogue": null,
+                                "RandomDialogue": [
+                                    "{{i18n:CaveGiftShop.01}}",
+                                    "{{i18n:CaveGiftShop.02}}",
+                                    "{{i18n:CaveGiftShop.03}}"
+                                ]
+                            }
+                            ],
+                            "RandomizeDialogueOnOpen": true,
+                            "ClosedMessage": null,
+                            "Name": "Any"
+                        }
+                    ],
+                    "Items": [
+                        {
+                            "Id": "Bencedemon.HG_ChrisShirt",
+                            "ItemId": "Bencedemon.HG_ChrisShirt",
+                            "Condition": null,
+                            "Price": 500
+                        },
+                        {
+                            "Id": "Bencedemon.HG_BenceShirt",
+                            "ItemId": "Bencedemon.HG_BenceShirt",
+                            "Condition": null,
+                            "Price": 500
+                        },
+                        {
+                            "Id": "Bencedemon.HG_MarkShirt",
+                            "ItemId": "Bencedemon.HG_MarkShirt",
+                            "Condition": null,
+                            "Price": 500
+                        },
+                        {
+                            "Id": "Bencedemon.HG_ChrisMask",
+                            "ItemId": "Bencedemon.HG_ChrisMask",
+                            "Condition": null,
+                            "Price": 500
+                        },
+                        {
+                            "Id": "Bencedemon.HG_BenceMask",
+                            "ItemId": "Bencedemon.HG_BenceMask",
+                            "Condition": null,
+                            "Price": 500
+                        },
+                        {
+                            "Id": "Bencedemon.HG_MarkMask",
+                            "ItemId": "Bencedemon.HG_MarkMask",
+                            "Condition": null,
+                            "Price": 500
+                        },
+                        {
+                            "Id": "Bencedemon.HG_BarrelChair1",
+                            "ItemId": "Bencedemon.HG_BarrelChair1",
+                            "Condition": null,
+                            "Price": 500
+                        },
+                        {
+                            "Id": "Bencedemon.HG_BarrelChair2",
+                            "ItemId": "Bencedemon.HG_BarrelChair2",
+                            "Condition": null,
+                            "Price": 500
+                        },
+                        {
+                            "Id": "Bencedemon.HG_Table",
+                            "ItemId": "Bencedemon.HG_Table",
+                            "Condition": null,
+                            "Price": 1000
+                        },
+                        {
+                            "Id": "Bencedemon.HG_Lantern",
+                            "ItemId": "Bencedemon.HG_Lantern",
+                            "Condition": null,
+                            "Price": 1000
+                        },
+                        {
+                            "Id": "Bencedemon.HG_JukeboxB",
+                            "ItemId": "Bencedemon.HG_JukeboxB",
+                            "Condition": null,
+                            "Price": 1000
+                        },
+                        {
+                            "Id": "Bencedemon.HG_WallAxe",
+                            "ItemId": "Bencedemon.HG_WallAxe",
+                            "Condition": null,
+                            "Price": 1000
+                        },
+                        {
+                            "Id": "Bencedemon.HG_DevilMayCry",
+                            "ItemId": "Bencedemon.HG_DevilMayCry",
+                            "Condition": null,
+                            "Price": 2000
+                        },
+                        {
+                            "Id": "Bencedemon.HG_Desk",
+                            "ItemId": "Bencedemon.HG_Desk",
+                            "Condition": null,
+                            "Price": 1000
+                        },
+                        {
+                            "Id": "Bencedemon.HG_Furnance",
+                            "ItemId": "Bencedemon.HG_Furnance",
+                            "Condition": null,
+                            "Price": 1000
+                        },
+                        {
+                            "Id": "Bencedemon.HG_Pizza",
+                            "ItemId": "Bencedemon.HG_Pizza",
+                            "Condition": null,
+                            "Price": 500
+                        },
+                        {
+                            "Id": "Bencedemon.HG_RedCarpet",
+                            "ItemId": "Bencedemon.HG_RedCarpet",
+                            "Condition": null,
+                            "Price": 1000
+                        },
+                        {
+                            "Id": "Bencedemon.HG_BlackCarpet",
+                            "ItemId": "Bencedemon.HG_BlackCarpet",
+                            "Condition": null,
+                            "Price": 750
+                        },
+                        {
+                            "Id": "Bencedemon.HG_BeerPack",
+                            "ItemId": "Bencedemon.HG_BeerPack",
+                            "Condition": null,
+                            "Price": 500
+                        },
+                        {
+                            "Id": "Bencedemon.HG_BeerKeg",
+                            "ItemId": "Bencedemon.HG_BeerKeg",
+                            "Condition": null,
+                            "Price": 750
+                        },
+                        {
+                            "Id": "Bencedemon.HG_Drum",
+                            "ItemId": "Bencedemon.HG_Drum",
+                            "Condition": null,
+                            "Price": 1500
+                        },
+                        {
+                            "Id": "Bencedemon.HG_Poster1",
+                            "ItemId": "Bencedemon.HG_Poster1",
+                            "Condition": null,
+                            "Price": 500
+                        },
+                        {
+                            "Id": "Bencedemon.HG_Poster2",
+                            "ItemId": "Bencedemon.HG_Poster2",
+                            "Condition": null,
+                            "Price": 500
+                        }
+                    ]
+                },
+                "Bencedemon.HG_CaveBar": {
+                    "Owners": [
+                        {
+                            "Condition": null,
+                            "Portrait": "Mods/Bencedemon.HG/Dod",
+                            "Dialogues": [
+                            {
+                                "Id": "Default",
+                                "Condition": null,
+                                "Dialogue": null,
+                                "RandomDialogue": [
+                                    "{{i18n:CaveBar.01}}",
+                                    "{{i18n:CaveBar.02}}"
+                                ]
+                            }
+                            ],
+                            "RandomizeDialogueOnOpen": true,
+                            "ClosedMessage": null,
+                            "Name": "Any"
+                        }
+                    ],
+                    "Items": [
+                        {//Pizza
+                            "Id": "206",
+                            "ItemId": "206",
+                            "Condition": null,
+                            "Price": 750
+                        },
+                        {//Hotdog
+                            "Id": "Bencedemon.HG_Hotdog",
+                            "ItemId": "Bencedemon.HG_Hotdog",
+                            "Condition": null,
+                            "Price": 320
+                        },
+                        {//Survival Burger
+                            "Id": "241",
+                            "ItemId": "241",
+                            "Condition": null,
+                            "Price": 450
+                        },
+                        {//HG_Fries
+                            "Id": "Bencedemon.HG_Fries",
+                            "ItemId": "Bencedemon.HG_Fries",
+                            "Condition": null,
+                            "Price": 200
+                        },
+                        {//Pretzel
+                            "Id": "Bencedemon.HG_Pretzel",
+                            "ItemId": "Bencedemon.HG_Pretzel",
+                            "Condition": null,
+                            "Price": 200
+                        },
+                        {//HG_Popcorn
+                            "Id": "Bencedemon.HG_Popcorn",
+                            "ItemId": "Bencedemon.HG_Popcorn",
+                            "Condition": null,
+                            "Price": 240
+                        },
+                        {//Ice Cream
+                            "Id": "233",
+                            "ItemId": "233",
+                            "Condition": "SEASON Summer",
+                            "Price": 300
+                        },
+                        {//Ice Cream Sundae
+                            "Id": "FlashShifter.StardewValleyExpandedCP_Ice_Cream_Sundae",
+                            "ItemId": "FlashShifter.StardewValleyExpandedCP_Ice_Cream_Sundae",
+                            "Condition": "SEASON Summer",
+                            "Price": 1000
+                        },
+                        {//HG_StrawberrySundae
+                            "Id": "Bencedemon.HG_StrawberrySundae",
+                            "ItemId": "Bencedemon.HG_StrawberrySundae",
+                            "Condition": "SEASON Summer",
+                            "Price": 1000
+                        },
+                        {//HG_CottonCandy
+                            "Id": "Bencedemon.HG_CottonCandy",
+                            "ItemId": "Bencedemon.HG_CottonCandy",
+                            "Condition": null,
+                            "Price": 100
+                        },
+                        {//Lemonade
+                            "Id": "Bencedemon.HG_Lemonade",
+                            "ItemId": "Bencedemon.HG_Lemonade",
+                            "Condition": null,
+                            "Price": 200
+                        },
+                        {//IceTea
+                            "Id": "Bencedemon.HG_IceTea",
+                            "ItemId": "Bencedemon.HG_IceTea",
+                            "Condition": null,
+                            "Price": 300
+                        },
+                        {//Joja Cola
+                            "Id": "167",
+                            "ItemId": "167",
+                            "Condition": null,
+                            "Price": 100
+                        },
+                        {//Ginger Ale
+                            "Id": "903",
+                            "ItemId": "903",
+                            "Condition": null,
+                            "Price": 500
+                        },
+                        {//Beer
+                            "Id": "346",
+                            "ItemId": "346",
+                            "Condition": null,
+                            "Price": 500
+                        },
+                        {//Hotdog
+                            "Id": "Bencedemon.HG_Hotdog_Recipe",
+                            "ItemId": "Bencedemon.HG_Hotdog",
+                            "Condition": null,
+                            "Price": 160,
+                            "IsRecipe": "true"
+                        },
+                        {//HG_Fries recipe
+                            "Id": "Bencedemon.HG_Fries_Recipe",
+                            "ItemId": "Bencedemon.HG_Fries",
+                            "Condition": null,
+                            "Price": 100,
+                            "IsRecipe": "true"
+                        },
+                        {//Pretzel Recipe
+                            "Id": "Bencedemon.HG_Pretzel_Recipe",
+                            "ItemId": "Bencedemon.HG_Pretzel",
+                            "Condition": null,
+                            "Price": 100,
+                            "IsRecipe": "true"
+                        },
+                        {//HG_Popcorn Recipe
+                            "Id": "Bencedemon.HG_Popcorn_Recipe",
+                            "ItemId": "Bencedemon.HG_Popcorn",
+                            "Condition": null,
+                            "Price": 120,
+                            "IsRecipe": "true"
+                        },
+                        {//HG_StrawberrySundae Recipe
+                            "Id": "Bencedemon.HG_StrawberrySundae_Recipe",
+                            "ItemId": "Bencedemon.HG_StrawberrySundae",
+                            "Condition": "SEASON Summer",
+                            "Price": 500,
+                            "IsRecipe": "true"
+                        },
+                        {//HG_CottonCandy Recipe
+                            "Id": "Bencedemon.HG_CottonCandy_Recipe",
+                            "ItemId": "Bencedemon.HG_CottonCandy",
+                            "Condition": null,
+                            "Price": 50,
+                            "IsRecipe": "true"
+                        },
+                        {//Lemonade Recipe
+                            "Id": "Bencedemon.HG_Lemonade_Recipe",
+                            "ItemId": "Bencedemon.HG_Lemonade",
+                            "Condition": null,
+                            "Price": 100,
+                            "IsRecipe": "true"
+                        },
+                        {//IceTea Recipe
+                            "Id": "Bencedemon.HG_IceTea_Recipe",
+                            "ItemId": "Bencedemon.HG_IceTea",
+                            "Condition": null,
+                            "Price": 150,
+                            "IsRecipe": "true"
+                        },
+                    ]
+                },
+                "Bencedemon.HG_CaveMark": {
+                    "Owners": [
+                        {
+                            "Condition": null,
+                            "Portrait": null,
+                            "Dialogues": [
+                            {
+                                "Id": "Default",
+                                "Condition": null,
+                                "Dialogue": null,
+                                "RandomDialogue": [
+                                    "{{i18n:CaveMark.01}}",
+                                    "{{i18n:CaveMark.02}}"
+                                ]
+                            }
+                            ],
+                            "RandomizeDialogueOnOpen": true,
+                            "ClosedMessage": null,
+                            "Id": "Mark",
+                            "Name": "Mark"
+                        }
+                    ],
+                    "Items": [
+                        {//Cave Carrot 25g All
+                            "Condition": "SYNCED_RANDOM day CaveBar_cavecarrot 0.2",
+                            "TradeItemId": "(O)78",
+                            "TradeItemAmount": 20,
+                            "Price": -1,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Global",
+                            "Id": "(O)78",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                        },
+                        {//Eggplant 60g Fall
+                            "Condition": "SYNCED_RANDOM day CaveBar_eggplant 0.2",
+                            "TradeItemId": "(O)272",
+                            "TradeItemAmount": 8,
+                            "Price": -1,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Global",
+                            "Id": "(O)272",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                        },
+                        {//Potato 80g Spring
+                            "Condition": "SYNCED_RANDOM day CaveBar_potato 0.2",
+                            "TradeItemId": "(O)192",
+                            "TradeItemAmount": 6,
+                            "Price": -1,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Global",
+                            "Id": "(O)192",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                        },
+                        {//Tea 50g Spring, Summer, Fall
+                            "Condition": "SYNCED_RANDOM day CaveBar_tea 0.2",
+                            "TradeItemId": "(O)815",
+                            "TradeItemAmount": 10,
+                            "Price": -1,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Global",
+                            "Id": "(O)815",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                        },
+                        {//Corn 50g Summer, Fall
+                            "Condition": "SYNCED_RANDOM day CaveBar_corn 0.2",
+                            "TradeItemId": "(O)270",
+                            "TradeItemAmount": 10,
+                            "Price": -1,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Global",
+                            "Id": "(O)270",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                        },
+                        {//Tomato 60g Summer
+                            "Condition": "SYNCED_RANDOM day CaveBar_tomato 0.2",
+                            "TradeItemId": "(O)256",
+                            "TradeItemAmount": 8,
+                            "Price": -1,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Global",
+                            "Id": "(O)256",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                        },
+                        {//Strawberry 120g Spring
+                            "Condition": "SYNCED_RANDOM day CaveBar_strawberry 0.2",
+                            "TradeItemId": "(O)400",
+                            "TradeItemAmount": 4,
+                            "Price": -1,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Global",
+                            "Id": "(O)400",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                        },
+                        {//Lemon 70g All season
+                            "Condition": "SYNCED_RANDOM day CaveBar_lemon 0.2",
+                            "TradeItemId": "(O)Bencedemon.HG_Lemon",
+                            "TradeItemAmount": 7,
+                            "Price": -1,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Global",
+                            "Id": "(O)Bencedemon.HG_Lemon",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                        },
+                        {//Cherry 80g Spring
+                            "Condition": "SYNCED_RANDOM day CaveBar_cherry 0.1",
+                            "TradeItemId": "(O)638",
+                            "TradeItemAmount": 6,
+                            "Price": -1,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Global",
+                            "Id": "(O)638",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                        },
+                        {//Ginger 60g All
+                            "Condition": "PLAYER_VISITED_LOCATION Any IslandSouth,SYNCED_RANDOM day CaveBar_ginger 0.2",
+                            "TradeItemId": "(O)829",
+                            "TradeItemAmount": 8,
+                            "Price": -1,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Global",
+                            "Id": "(O)829",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                        },
+                        {//Hazelnut 90g Fall
+                            "Condition": "SYNCED_RANDOM day CaveBar_hazelnut 0.1",
+                            "TradeItemId": "(O)408",
+                            "TradeItemAmount": 5,
+                            "Price": -1,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Global",
+                            "Id": "(O)408",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                        },
+                        {//Cheese 230g All season
+                            "Condition": "SYNCED_RANDOM day CaveBar_cheese 0.2",
+                            "TradeItemId": "(O)424",
+                            "TradeItemAmount": 2,
+                            "Price": -1,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Global",
+                            "Id": "(O)424",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                        },
+                        {//Butter 215g All
+                            "Condition": "SYNCED_RANDOM day CaveBar_butter 0.2",
+                            "TradeItemId": "(O)FlashShifter.StardewValleyExpandedCP_Butter",
+                            "TradeItemAmount": 2,
+                            "Price": -1,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Global",
+                            "Id": "(O)FlashShifter.StardewValleyExpandedCP_Butter",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                        },
+                        {//Bread 60g Summer, Fall
+                            "Condition": "SYNCED_RANDOM day CaveBar_bread 0.2",
+                            "TradeItemId": "(O)216",
+                            "TradeItemAmount": 8,
+                            "Price": -1,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Global",
+                            "Id": "(O)216",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                        },
+                        {//Puppyfish 250g Spring, Summer, Fall
+                            "Condition": "SYNCED_RANDOM day CaveBar_puppyfish 0.1",
+                            "TradeItemId": "FlashShifter.StardewValleyExpandedCP_Puppyfish",
+                            "TradeItemAmount": 2,
+                            "Price": -1,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Global",
+                            "Id": "FlashShifter.StardewValleyExpandedCP_Puppyfish",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                        }
+                    ]
+                }
+            },
+            "Update": "OnTimeChange",
+            "When": {
+                "HasSeenEvent: anyPlayer|contains=2001302": true,
+                "Day": "6, 7, 13, 14, 20, 21, 27, 28",
+                "Time": "{{Range: 800, 2400}}"
+            }
+        },
+        {
+            //Bob's Portraits
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/Bob",
+            "FromFile": "Assets/CharacterFiles/Portraits/Dwarfs/Dwarf1.png"
+        },
+        {
+            //Dod's Portraits
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/Dod",
+            "FromFile": "Assets/CharacterFiles/Portraits/Dwarfs/Dwarf2.png"
+        }
+    ]
+}

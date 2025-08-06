@@ -1,0 +1,68 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Weddings",
+			//"When": { "Relationship: Christopher": "Engaged, Married" },
+            "TargetField": [
+                "Attendees"
+            ],
+            "Entries": {
+                "Bence": {
+                    "ID": "Bence",
+                    "Setup": "Bence 26 72 0"
+                },
+                "Mark": {
+                    "ID": "Mark",
+                    "Setup": "Mark 25 72 0"
+                },
+                "Christopher": {
+                    "ID": "Christopher",
+                    "Setup": "Christopher 24 72 0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "Custom_ChristopherHouseInterior": {
+                    "DisplayName": "{{i18n:ChristopherHouse.Name}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_ChristopherHouseInterior"
+                    }
+                },
+                "Custom_BenceCabinInterior": {
+                    "DisplayName": "{{i18n:BenceCabin.Name}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_BenceCabinInterior"
+                    }
+                },
+                "Custom_MarkFarm": {
+                    "DisplayName": "{{i18n:MarkFarm.Name}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_MarkFarm"
+                    }
+                },
+                "Custom_MarkHouseInterior": {
+                    "DisplayName": "{{i18n:MarkHouse.Name}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_MarkHouseInterior"
+                    }
+                },
+                "Custom_MarkFarmCave": {
+                    "DisplayName": "{{i18n:MarkFarmCave.Name}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_MarkFarmCave"
+                    }
+                },
+                "Custom_HGCave": {
+                    "DisplayName": "{{i18n:HGCave.Name}}",//"[LocalizedText Strings\\StringsFromCSFiles:Location.HGCave]",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_HGCave"
+                    }
+                }
+            }
+        },
+    ]
+}

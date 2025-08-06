@@ -1,0 +1,41 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Leo",
+			"TextOperations": [
+                {/*Love*/
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Leo",
+                        1
+                    ],
+                    "Value": "Bencedemon.HG_Lemon",
+                    "Delimiter": " "
+                },
+                {/*Dislike*/
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Leo",
+                        5
+                    ],
+                    "Value": "Bencedemon.HG_Hotdog",
+                    "Delimiter": " "
+                },
+                {/*Hate*/
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Leo",
+                        7
+                    ],
+                    "Value": "Bencedemon.HG_Palinka",
+                    "Delimiter": " "
+                }
+			]
+		},
+	]
+}

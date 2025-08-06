@@ -1,0 +1,21 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Robin",
+			"TextOperations": [
+                {/*Dislike*/
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Robin",
+                        5
+                    ],
+                    "Value": "Bencedemon.HG_CottonCandy",
+                    "Delimiter": " "
+                }
+			]
+		},
+	]
+}

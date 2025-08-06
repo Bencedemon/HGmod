@@ -1,0 +1,46 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/IncomingPhoneCalls",
+            "Entries": {
+                "2001": {
+                    "TriggerCondition": "PLAYER_FRIENDSHIP_POINTS Current Christopher 500",
+                    "RingCondition": "PLAYER_FRIENDSHIP_POINTS Current Christopher 500",
+                    "FromNpc": "Christopher",
+                    "FromPortrait": null,
+                    "FromDisplayName": null,
+                    "Dialogue": "{{i18n:Phone.Christopher}}",
+                    "IgnoreBaseChance": false,
+                    "SimpleDialogueSplitBy": null,
+                    "MaxCalls": 1,
+                    "CustomFields": null
+                },
+                "2101": {
+                    "TriggerCondition": "PLAYER_FRIENDSHIP_POINTS Current Bence 500",
+                    "RingCondition": "PLAYER_FRIENDSHIP_POINTS Current Bence 500",
+                    "FromNpc": "Bence",
+                    "FromPortrait": null,
+                    "FromDisplayName": null,
+                    "Dialogue": "{{i18n:Phone.Bence}}",
+                    "IgnoreBaseChance": false,
+                    "SimpleDialogueSplitBy": null,
+                    "MaxCalls": 1,
+                    "CustomFields": null
+                },
+                "2201": {
+                    "TriggerCondition": "PLAYER_FRIENDSHIP_POINTS Current Mark 500",
+                    "RingCondition": "PLAYER_FRIENDSHIP_POINTS Current Mark 500",
+                    "FromNpc": "Mark",
+                    "FromPortrait": null,
+                    "FromDisplayName": null,
+                    "Dialogue": "{{i18n:Phone.Mark}}",
+                    "IgnoreBaseChance": false,
+                    "SimpleDialogueSplitBy": null,
+                    "MaxCalls": 1,
+                    "CustomFields": null
+                }
+            }
+        }
+    ]
+}

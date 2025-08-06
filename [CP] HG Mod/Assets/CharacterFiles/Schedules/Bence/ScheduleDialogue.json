@@ -1,0 +1,14 @@
+{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Strings/schedules/Bence",
+        "Entries": 
+        {
+            "NightMarket_Bence": "{{i18n:Bence.NightMarket.01}}",
+            "DesertFestival_Bence_marriage": "{{i18n:Bence.DesertFestival_marriage.01}}",
+            "DesertFestival_Bence": "{{i18n:Bence.DesertFestival.01}}"
+        },
+      },
+    ]
+}

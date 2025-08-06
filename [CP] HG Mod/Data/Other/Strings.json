@@ -1,0 +1,67 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"ChrisHouseInterior.1": "{{i18n:ChristopherHI.2001}}",
+				"ChrisHouseInterior.2": "{{i18n:ChristopherHI.2002}}",
+				"ChrisHouseInterior.3": "{{i18n:ChristopherHI.2003}}",
+				"ChrisHouseInterior.4": "{{i18n:ChristopherHI.2004}}",
+				"ChrisHouseInterior.5": "{{i18n:ChristopherHI.2005}}",
+
+
+				"BenceCabin.Jukebox": "{{i18n:BenceCabin.Jukebox}}",
+				"BenceCabin.Axe": "{{i18n:BenceCabin.Axe}}",
+				"BenceCabin.Phone": "{{i18n:BenceCabin.Phone}}",
+				"BenceCabin.Laptop": "{{i18n:BenceCabin.Laptop}}",
+				"BenceCabin.Papers": "{{i18n:BenceCabin.Papers}}",
+				"BenceCabin.Fridge": "{{i18n:BenceCabin.Fridge}}",
+				"BenceCabin.Pizza": "{{i18n:BenceCabin.Pizza}}",
+				"BenceCabin.Firewood": "{{i18n:BenceCabin.Firewood}}",
+				"BenceCabin.Furnace": "{{i18n:BenceCabin.Furnace}}",
+				"BenceCabin.FurnaceLit": "{{i18n:BenceCabin.FurnaceLit}}",
+				"BenceCabin.Bookshelf": "{{i18n:BenceCabin.Bookshelf}}",
+
+				"BenceCabinOutside.Axe": "{{i18n:BenceCabinOutside.Axe}}",
+				"BenceCabinOutside.Mailbox": "{{i18n:BenceCabinOutside.Mailbox}}",
+				"BenceCabinOutside.Firewood": "{{i18n:BenceCabinOutside.Firewood}}",
+				"BenceCabinOutside.Firewood2": "{{i18n:BenceCabinOutside.Firewood2}}",
+
+
+				"MarkHouse.Geode1": "{{i18n:MarkHouse.Geode1}}",
+				"MarkHouse.Geode2": "{{i18n:MarkHouse.Geode2}}",
+				"MarkHouse.Geode3": "{{i18n:MarkHouse.Geode3}}",
+				"MarkHouse.Firewood": "{{i18n:MarkHouse.Firewood}}",
+				"MarkHouse.OldMonitor": "{{i18n:MarkHouse.OldMonitor}}",
+				"MarkHouse.PC": "{{i18n:MarkHouse.PC}}",
+				"MarkHouse.Lantern": "{{i18n:MarkHouse.Lantern}}",
+
+
+				"MarkFarm.Mailbox": "{{i18n:MarkFarm.Mailbox}}",
+
+				"MarkFarm.Sign": "{{i18n:MarkFarm.Sign}}",
+
+
+				"Sign.TownMarkFarm": "{{i18n:Sign.TownMarkFarm}}",
+				"Sign.Backwoods": "{{i18n:Sign.Backwoods|FarmName={{FarmName}}}}",
+
+				"HG_Cave.MinecartBroken": "{{i18n:HG_Cave.MinecartBroken}}",
+				"HG_Cave.EmptyBarrel": "{{i18n:HG_Cave.EmptyBarrel}}",
+				"HG_Cave.EmptyCreate": "{{i18n:HG_Cave.EmptyCreate}}",
+
+				"HG_Cave.EmployeesOnly": "{{i18n:HG_Cave.EmployeesOnly}}",
+				"HG_Cave.Telescope": "{{i18n:HG_Cave.Telescope}}",
+				"HG_Cave.MinecartRide": "{{i18n:HG_Cave.MinecartRide}}",
+				"HG_Cave.MinecartRideTicketMachine": "{{i18n:HG_Cave.MinecartRideTicketMachine}}",
+			}
+		},
+        {
+            "Action": "EditData",
+            "Target": "Strings/Objects",
+            "Entries": {
+				"PalinkaOutput": "{{i18n:Palinka.Flavored}}",
+            }
+        }
+	]
+}

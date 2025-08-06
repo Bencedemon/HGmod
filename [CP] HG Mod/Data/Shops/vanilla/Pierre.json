@@ -1,0 +1,23 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Priority": "Early - 100",
+            "TargetField": [
+                "SeedShop",
+                "Items"
+            ],
+            "Entries": {
+                "Bencedemon.HG_Lemon_Sapling": {
+                    "Id": "Bencedemon.HG_Lemon_Sapling",
+                    "ItemId": "Bencedemon.HG_Lemon_Sapling",
+                    "Price": "2500",
+                },
+            },
+			"MoveEntries": [
+				{ "Id": "Bencedemon.HG_Lemon_Sapling", "BeforeId": "FlashShifter.StardewValleyExpandedCP_Pear_Sapling" }
+		    ]
+        },
+    ]
+}

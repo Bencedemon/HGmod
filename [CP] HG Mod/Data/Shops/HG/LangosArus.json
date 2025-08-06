@@ -1,0 +1,42 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "Bencedemon.HG_LangosArus": {
+                    "Owners": [
+                        {
+                            "Name": "Lángosos",
+                            "Dialogues": [
+                                {
+                                    "Id": "Bencedemon.HG_Default",
+                                    "Dialogue": "Welcome to the only place in town for Langos!"
+                                }
+                            ]
+                        }
+                    ],
+
+                    "Items": [
+                        {
+                            "Id": "Bencedemon.HG_Langos",
+                            "ItemId": "Bencedemon.HG_Langos",
+                            "Price": 500
+                        },
+                        {
+                            "Id": "167",
+                            "ItemId": "167",
+                            "Price": 100
+                        },
+                        {
+                            "Id": "Bencedemon.HG_Langos_Recipe",
+                            "ItemId": "Bencedemon.HG_Langos",
+                            "Price": 250,
+                            "IsRecipe": "true"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

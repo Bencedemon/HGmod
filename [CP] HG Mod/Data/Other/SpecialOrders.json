@@ -1,0 +1,270 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add HG Emojis",
+            "Action": "Load",
+            "Target": "Mods/Bencedemon.HG/HGEmojis",
+            "FromFile": "Assets/Tilesheets/SpecialOrderEmojis.png"
+        },
+        {
+            "LogName": "Add HG Emojis Data",
+            "Action": "EditData",
+            "Target": "Mods/Bencedemon.HG/HGEmojisData",
+            "Entries": {
+                "Christopher": 0,
+                "Bence": 1,
+                "Mark": 2
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Entries": {
+                "Christopher": {
+                  "Name": "[Christopher_Name]",
+                  "Requester": "Christopher",
+                  "Duration": "Month",
+                  "Repeatable": "False",
+                  "RequiredTags": "",
+                  "OrderType": "",
+                  "SpecialRule": "",
+                  "Text": "[Christopher_Text]",
+                  "ItemToRemoveOnEnd": null,
+                  "MailToRemoveOnEnd": null,
+                  "RandomizedElements": [
+                    {
+                        "Name": "ChrisFishType",
+                        "Values": [
+                        {
+                            "RequiredTags": "season_spring",
+                            "Value": "PICK_ITEM Legend, Mutant Carp"
+                        },
+                        {
+                            "RequiredTags": "season_summer",
+                            "Value": "PICK_ITEM Crimsonfish, Mutant Carp"
+                        },
+                        {
+                            "RequiredTags": "season_fall",
+                            "Value": "PICK_ITEM Angler, Mutant Carp"
+                        },
+                        {
+                            "RequiredTags": "season_winter",
+                            "Value": "PICK_ITEM Glacierfish, Mutant Carp"
+                        }
+                        ]
+                    }
+                    ],
+                  "Objectives": [
+                    {
+                      "Type": "Fish",
+                      "Text": "[Christopher_Objective_0_Text]",
+                      "RequiredCount": "1",
+                      "Data": {
+                        "AcceptedContextTags": "{ChrisFishType:Tags}"
+                      }
+                    }
+                  ],
+                  "Rewards": [
+                    {
+                      "Type": "Money",
+                      "Data": {
+                        "Amount": "{ChrisFishType:Price}",
+                        "Multiplier": "2"
+                      }
+                    },
+                    {
+                      "Type": "Mail",
+                      "Data": {
+                        "MailReceived": "ChristopherReward",
+                        "NoLetter": "false"
+                      }
+                    }
+                  ]
+                },
+                "Bence": {
+                  "Name": "[Bence_Name]",
+                  "Requester": "Bence",
+                  "Duration": "TwoWeeks",
+                  "Repeatable": "True",
+                  "RequiredTags": "",
+                  "OrderType": "",
+                  "SpecialRule": "",
+                  "Text": "[Bence_Text]",
+                  "ItemToRemoveOnEnd": null,
+                  "MailToRemoveOnEnd": null,
+                  "RandomizedElements": [
+                    {
+                      "Name": "BenceRequest",
+                      "Values":[
+                        {
+                          "RequiredTags": "",
+                          "Value": "PICK_ITEM Maple Syrup, Oak Resin, Pine Tar",
+                        }
+                      ],
+                    }
+                  ],
+                  "Objectives": [
+                    {
+                      "Type": "Collect",
+                      "Text": "[Bence_Objective_0_Text]",
+                      "RequiredCount": "25",
+                      "Data": {
+                        "AcceptedContextTags": "{BenceRequest:Tags}"
+                      }
+                    },
+                    {
+                      "Type": "Deliver",
+                      "Text": "[Bence_Objective_1_Text]",
+                      "RequiredCount": "25",
+                      "Data": {
+                        "AcceptedContextTags": "{BenceRequest:Tags}",
+                        "TargetName": "Bence"
+                      }
+                    }
+                  ],
+                  "Rewards": [
+                    {
+                      "Type": "Money",
+                      "Data": {
+                        "Amount": "{BenceRequest:Price}",
+                        "Multiplier": "25"
+                      }
+                    },
+                    {
+                      "Type": "Friendship",
+                      "Data": {
+                          "Amount": "250",
+                          "TargetName": "Bence"
+                      }
+                    },
+                    {
+                      "Type": "Mail",
+                      "Data": {
+                        "MailReceived": "BenceReward",
+                        "NoLetter": "false"
+                      }
+                    }
+                  ]
+                },
+                "Mark": {
+                  "Name": "[Mark_Name]",
+                  "Requester": "Mark",
+                  "Duration": "Week",
+                  "Repeatable": "False",
+                  "RequiredTags": "",
+                  "OrderType": "",
+                  "SpecialRule": "",
+                  "Text": "[Mark_Text]",
+                  "ItemToRemoveOnEnd": null,
+                  "MailToRemoveOnEnd": null,
+                  "RandomizedElements": null,
+                  "Objectives": [
+                    {
+                        "Type": "Donate",
+                        "Text": "[Mark_Objective_0_Text]",
+                        "RequiredCount": "25",
+                        "Data": {
+                            "DropBox": "MarkFarm",
+                            "DropBoxGameLocation": "Custom_MarkFarm",
+                            "DropBoxIndicatorLocation": "34 14",
+                            "AcceptedContextTags": "item_bomb"
+                        }
+                    },
+                    {
+                        "Type": "Donate",
+                        "Text": "[Mark_Objective_1_Text]",
+                        "RequiredCount": "35",
+                        "Data": {
+                            "DropBox": "MarkFarm",
+                            "DropBoxGameLocation": "Custom_MarkFarm",
+                            "DropBoxIndicatorLocation": "34 14",
+                            "AcceptedContextTags": "item_torch"
+                        }
+                    },
+                    {
+                      "Type": "Donate",
+                      "Text": "[Mark_Objective_2_Text]",
+                      "RequiredCount": "5",
+                      "Data": {
+                        "DropBox": "MarkFarm",
+                        "DropBoxGameLocation": "Custom_MarkFarm",
+                        "DropBoxIndicatorLocation": "34 14",
+                        "AcceptedContextTags": "item_miners_treat"
+                      }
+                    }
+                  ],
+                  "Rewards": [
+                    {
+                      "Type": "Money",
+                      "Data": {
+                        "Amount": "6000"
+                      }
+                    },
+                    {
+                      "Type": "Friendship",
+                      "Data": {
+                          "Amount": "250", // integer
+                          "TargetName": "Mark" // string
+                      }
+                    },
+                    {
+                      "Type": "Mail",
+                      "Data": {
+                        "MailReceived": "MarkReward",
+                        "NoLetter": "false"
+                      }
+                    }
+                  ]
+                },
+                "Mark2": {
+                  "Name": "[Mark2_Name]",
+                  "Requester": "Mark",
+                  "Duration": "Week",
+                  "Repeatable": "False",
+                  "RequiredTags": "",
+                  "OrderType": "",
+                  "SpecialRule": "",
+                  "Text": "[Mark2_Text]",
+                  "ItemToRemoveOnEnd": null,
+                  "MailToRemoveOnEnd": null,
+                  "RandomizedElements": null,
+                  "Objectives": [
+                    {
+                        "Type": "Donate",
+                        "Text": "[Mark2_Objective_0_Text]",
+                        "RequiredCount": "50",
+                        "Data": {
+                            "DropBox": "MarkFarm",
+                            "DropBoxGameLocation": "Custom_MarkFarm",
+                            "DropBoxIndicatorLocation": "34 14",
+                            "AcceptedContextTags": "item_hardwood"
+                        }
+                    }
+                  ],
+                  "Rewards": [
+                    {
+                      "Type": "Money",
+                      "Data": {
+                        "Amount": "1500"
+                      }
+                    },
+                    {
+                      "Type": "Friendship",
+                      "Data": {
+                          "Amount": "250", // integer
+                          "TargetName": "Mark" // string
+                      }
+                    },
+                    {
+                      "Type": "Mail",
+                      "Data": {
+                        "MailReceived": "MarkReward2",
+                        "NoLetter": "false"
+                      }
+                    }
+                  ]
+                },
+            }
+        }
+    ]
+}

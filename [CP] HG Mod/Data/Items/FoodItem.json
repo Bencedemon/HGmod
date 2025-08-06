@@ -1,0 +1,270 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Bencedemon.HG_Langos": {
+                    "Name": "Langos",
+                    "DisplayName": "{{i18n:FoodItem.Langos.Name}}",
+                    "Description": "{{i18n:FoodItem.Langos.Desc}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 200,
+                    "Texture": "Mods\\Bencedemon.HG\\FoodSpritesheet",
+                    "SpriteIndex": 0,
+                    "Edibility": 50,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                },
+                "Bencedemon.HG_Palinka": {
+                    "Name": "Palinka",
+                    "DisplayName": "{{i18n:Palinka.Name}}",
+                    "Description": "{{i18n:Palinka.Desc}}",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 500,
+                    "Texture": "Mods\\Bencedemon.HG\\FoodSpritesheet",
+                    "SpriteIndex": 1,
+                    "ColorOverlayFromNextIndex": true,
+                    "Edibility": 20,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id": "Tipsy",
+                            "BuffId": "17",
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 0,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": null,
+                            "CustomFields": null
+                        }
+                    ],
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "CanBeGivenAsGift": true,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "alcohol_item",
+                        "drink_item",
+                        //"color_orange",
+                        "use_reverse_name_for_sorting"
+                    ],
+                    "CustomFields": null
+                },
+                "Bencedemon.HG_Hotdog": {
+                    "Name": "Hotdog",
+                    "DisplayName": "{{i18n:FoodItem.Hotdog.Name}}",
+                    "Description": "{{i18n:FoodItem.Hotdog.Desc}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 160,
+                    "Texture": "Mods\\Bencedemon.HG\\FoodSpritesheet",
+                    "SpriteIndex": 4,
+                    "Edibility": 40,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "food_party"
+                    ],
+                },
+                "Bencedemon.HG_Pretzel": {
+                    "Name": "Pretzel",
+                    "DisplayName": "{{i18n:FoodItem.Pretzel.Name}}",
+                    "Description": "{{i18n:FoodItem.Pretzel.Desc}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 100,
+                    "Texture": "Mods\\Bencedemon.HG\\FoodSpritesheet",
+                    "SpriteIndex": 5,
+                    "Edibility": 25,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_brown"
+                    ],
+                },
+                "Bencedemon.HG_Popcorn": {
+                    "Name": "Popcorn",
+                    "DisplayName": "{{i18n:FoodItem.Popcorn.Name}}",
+                    "Description": "{{i18n:FoodItem.Popcorn.Desc}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 120,
+                    "Texture": "Mods\\Bencedemon.HG\\FoodSpritesheet",
+                    "SpriteIndex": 6,
+                    "Edibility": 30,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_white"
+                    ],
+                },
+                "Bencedemon.HG_CottonCandy": {
+                    "Name": "CottonCandy",
+                    "DisplayName": "{{i18n:FoodItem.CottonCandy.Name}}",
+                    "Description": "{{i18n:FoodItem.CottonCandy.Desc}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 50,
+                    "Texture": "Mods\\Bencedemon.HG\\FoodSpritesheet",
+                    "SpriteIndex": 7,
+                    "Edibility": 10,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_pink"
+                    ],
+                },
+                "Bencedemon.HG_Fries": {
+                    "Name": "Fries",
+                    "DisplayName": "{{i18n:FoodItem.Fries.Name}}",
+                    "Description": "{{i18n:FoodItem.Fries.Desc}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 100,
+                    "Texture": "Mods\\Bencedemon.HG\\FoodSpritesheet",
+                    "SpriteIndex": 8,
+                    "Edibility": 25,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_pink"
+                    ],
+                },
+                "Bencedemon.HG_StrawberrySundae": {
+                    "Name": "StrawberrySundae",
+                    "DisplayName": "{{i18n:FoodItem.StrawberrySundae.Name}}",
+                    "Description": "{{i18n:FoodItem.StrawberrySundae.Desc}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 500,
+                    "Texture": "Mods\\Bencedemon.HG\\FoodSpritesheet",
+                    "SpriteIndex": 9,
+                    "Edibility": 125,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+					    "food_sweet",
+						"color_red"
+                    ],
+					"Buffs": [
+                        {
+                            "Duration": 600,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 50,
+                                "MagneticRadius": 0,
+                                "Speed": 1,
+                                "Defense": 1,
+                                "Attack": 1
+                            },
+                        },
+                    ]
+                },
+                "Bencedemon.HG_Lemonade": {
+                    "Name": "Lemonade",
+                    "DisplayName": "{{i18n:FoodItem.Lemonade.Name}}",
+                    "Description": "{{i18n:FoodItem.Lemonade.Desc}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 100,
+                    "Texture": "Mods\\Bencedemon.HG\\FoodSpritesheet",
+                    "SpriteIndex": 12,
+                    "Edibility": 10,
+                    "IsDrink": true,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "drink_item",
+						"color_yellow"
+                    ]
+                },
+                "Bencedemon.HG_IceTea": {
+                    "Name": "IceTea",
+                    "DisplayName": "{{i18n:FoodItem.IceTea.Name}}",
+                    "Description": "{{i18n:FoodItem.IceTea.Desc}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 150,
+                    "Texture": "Mods\\Bencedemon.HG\\FoodSpritesheet",
+                    "SpriteIndex": 13,
+                    "Edibility": 15,
+                    "IsDrink": true,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "drink_green",
+						"color_yellow"
+                    ]
+                },
+                "Bencedemon.HG_Sake": {
+                    "Name": "Sake",
+                    "DisplayName": "{{i18n:FoodItem.Sake.Name}}",
+                    "Description": "{{i18n:FoodItem.Sake.Desc}}",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 350,
+                    "Texture": "Mods\\Bencedemon.HG\\FoodSpritesheet",
+                    "SpriteIndex": 10,
+                    "ColorOverlayFromNextIndex": false,
+                    "Edibility": 15,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id": "Tipsy",
+                            "BuffId": "17",
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 0,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": null,
+                            "CustomFields": null
+                        }
+                    ],
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "CanBeGivenAsGift": true,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "alcohol_item",
+                        "drink_item"
+                        //"color_orange",
+                    ],
+                    "CustomFields": null
+                },
+            }
+        }
+    ]
+}

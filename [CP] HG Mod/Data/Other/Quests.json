@@ -1,0 +1,14 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Entries": {
+                "2001": "LostItem/{{i18n:ChristopherQuest.Title}}/{{i18n:ChristopherQuest.Description}}/{{i18n:ChristopherQuest.Hint}}/Christopher (O)Bencedemon.HG_ChrisFishingrod Mountain 91 2/-1/0/-1/false/{{i18n:ChristopherQuest.Reaction}}",
+                "2101": "Crafting/{{i18n:BenceQuest1.Title}}/{{i18n:BenceQuest1.Description}}/{{i18n:BenceQuest1.Hint}}/206/2102/0/-1/true",
+                "2102": "ItemDelivery/{{i18n:BenceQuest2.Title}}/{{i18n:BenceQuest2.Description}}/{{i18n:BenceQuest2.Hint}}/Bence 206 1/-1/700/-1/true/{{i18n:BenceQuest2.Reaction}}",
+                "2201": "ItemDelivery/{{i18n:MarkQuest.Title}}/{{i18n:MarkQuest.Description}}/{{i18n:MarkQuest.Hint}}/Mark 709 25/-1/750/-1/false/{{i18n:MarkQuest.Reaction}}"
+            }
+        },
+    ]
+}

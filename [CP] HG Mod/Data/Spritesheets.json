@@ -1,0 +1,30 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Mods/Bencedemon.HG/Craftables",
+            "FromFile": "Assets/Textures/Craftables.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/Bencedemon.HG/FoodSpritesheet",
+            "FromFile": "Assets/Textures/FoodSpritesheet.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/Bencedemon.HG/ObjectsSpritesheet",
+            "FromFile": "Assets/Textures/ObjectsSpritesheet.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/Bencedemon.HG/Weapons",
+            "FromFile": "Assets/Textures/Weapons.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/Projectiles",
+            "FromFile": "Assets/Textures/Projectiles.png",
+            "ToArea": { "X": 0, "Y": 48, "Width": 64, "Height": 16 },
+        }
+    ]
+}

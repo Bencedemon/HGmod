@@ -1,0 +1,72 @@
+{
+   "Changes": [
+        //HG Fish Data
+        {
+            "Action": "EditData",
+            "Target": "Data/Fish",
+            "Entries": {
+                "Bencedemon.HG_Asdfish": "Asd/1/sinker/1/2/600 1800/spring summer fall winter/sunny/683 .4/1/.03/.2/0/false",
+            }
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/AsdAquariumFish",
+            "FromFile": "Assets/TileSheets/HG_AquariumFish_Asdfish.png",
+        },
+        //AQUARIUM DATA
+        {
+            "Action": "EditData",
+            "Target": "Data/AquariumFish",
+            "Entries": {
+                "Bencedemon.HG_Asdfish": "0/fish/////Mods\\Bencedemon.HG\\AsdAquariumFish",
+            }
+        },
+        { //ASDFISH
+            "Action": "EditData",
+            "Target": "Data/FishPondData",
+            "Entries": {
+                "Bencedemon.HG_Asdfish": {
+                "ID": "Bencedemon.HG_Asdfish",
+                "RequiredTags": [
+                    "item_asdfish"
+                ],
+                "SpawnTime": -1,
+                "ProducedItems": [
+                    {
+                        "RequiredPopulation": 8,
+                        "Chance": 0.20,
+                        "ItemID": 109, //ancient sword
+                        "MinQuantity": 2,
+                        "MaxQuantity": 6
+                    },
+                    {
+                        "RequiredPopulation": 3,
+                        "Chance": 0.30,
+                        "ItemID": 109, //ancient sword
+                        "MinQuantity": 1,
+                        "MaxQuantity": 3
+                    },
+                    {
+                        "RequiredPopulation": 1,
+                        "Chance": 0.5,
+                        "ItemID": 812, //roe
+                        "MinQuantity": 1,
+                        "MaxQuantity": 2
+                    }
+                ],
+                "PopulationGates": {
+                    "7": [
+                        "335 5",
+                        "335 6",
+                    ], //iron bars
+                    "3": [
+                        "380 12",
+                        "380 10",
+                        "380 15"
+                    ], //iron ore
+                },
+                },
+            },
+        },
+    ]
+}

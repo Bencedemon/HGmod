@@ -1,0 +1,87 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shirts",
+            "Entries": {
+                "Bencedemon.HG_ChrisShirt": {
+                    "Name": "Chris's denim jacket",
+                    "DisplayName": "{{i18n:Shirt.ChrisShirt.Name}}",
+                    "Description": "{{i18n:Shirt.ChrisShirt.Desc}}",
+                    "Price": 50,
+                    "Texture": "Mods\\Bencedemon.HG\\Shirts",
+                    "SpriteIndex": 0,
+                    "DefaultColor": null,
+                    "CanBeDyed": false,
+                    "IsPrismatic": false,
+                    "HasSleeves": true,
+                    "CanChooseDuringCharacterCustomization": false,
+                    "CustomFields": null
+                },
+                "Bencedemon.HG_BenceShirt": {
+                    "Name": "Bence's cardigan",
+                    "DisplayName": "{{i18n:Shirt.BenceShirt.Name}}",
+                    "Description": "{{i18n:Shirt.BenceShirt.Desc}}",
+                    "Price": 50,
+                    "Texture": "Mods\\Bencedemon.HG\\Shirts",
+                    "SpriteIndex": 1,
+                    "DefaultColor": null,
+                    "CanBeDyed": false,
+                    "IsPrismatic": false,
+                    "HasSleeves": true,
+                    "CanChooseDuringCharacterCustomization": false,
+                    "CustomFields": null
+                },
+                "Bencedemon.HG_MarkShirt": {
+                    "Name": "Mark's kimono",
+                    "DisplayName": "{{i18n:Shirt.MarkShirt.Name}}",
+                    "Description": "{{i18n:Shirt.MarkShirt.Desc}}",
+                    "Price": 50,
+                    "Texture": "Mods\\Bencedemon.HG\\Shirts",
+                    "SpriteIndex": 2,
+                    "DefaultColor": "27 27 27",
+                    "CanBeDyed": true,
+                    "IsPrismatic": false,
+                    "HasSleeves": true,
+                    "CanChooseDuringCharacterCustomization": false,
+                    "CustomFields": null
+                },
+                "Bencedemon.HG_RedRokcetsShirt": {
+                    "Name": "Red Rokcets Shirt",
+                    "DisplayName": "{{i18n:Shirt.RedRokcetsShirt.Name}}",
+                    "Description": "{{i18n:Shirt.RedRokcetsShirt.Desc}}",
+                    "Price": 50,
+                    "Texture": "Mods\\Bencedemon.HG\\Shirts",
+                    "SpriteIndex": 4,
+                    "DefaultColor": "27 27 27",
+                    "CanBeDyed": false,
+                    "IsPrismatic": false,
+                    "HasSleeves": true,
+                    "CanChooseDuringCharacterCustomization": false,
+                    "CustomFields": null
+                },
+                "Bencedemon.HG_RedRokcetsShirtSleeveless": {
+                    "Name": "Red Rokcets Shirt Sleeveless",
+                    "DisplayName": "{{i18n:Shirt.RedRokcetsShirtSleeveless.Name}}",
+                    "Description": "{{i18n:Shirt.RedRokcetsShirtSleeveless.Desc}}",
+                    "Price": 50,
+                    "Texture": "Mods\\Bencedemon.HG\\Shirts",
+                    "SpriteIndex": 4,
+                    "DefaultColor": "27 27 27",
+                    "CanBeDyed": false,
+                    "IsPrismatic": false,
+                    "HasSleeves": false,
+                    "CanChooseDuringCharacterCustomization": false,
+                    "CustomFields": null
+                },
+            }
+            
+        },
+        // load Shirts tilesheet
+        {
+            "Action": "Load",
+            "Target": "Mods/Bencedemon.HG/Shirts",
+            "FromFile": "Assets/Textures/HG_Shirts.png"
+        }
+    ]
+}

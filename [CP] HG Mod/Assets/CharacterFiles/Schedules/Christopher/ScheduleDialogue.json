@@ -1,0 +1,14 @@
+{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Strings/schedules/Christopher",
+        "Entries": 
+        {
+            "NightMarket_Christopher": "{{i18n:Christopher.NightMarket.01}}",
+            "DesertFestival_Christopher_marriage": "{{i18n:Christopher.DesertFestival_marriage.01}}",
+            "DesertFestival_Christopher": "{{i18n:Christopher.DesertFestival.01}}"
+        },
+      },
+    ]
+}

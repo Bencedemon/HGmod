@@ -1,0 +1,41 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Marlon",
+			"TextOperations": [
+				{/*Dislike*/
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Marlon",
+						5
+					],
+					"Value": "Bencedemon.HG_CottonCandy",
+					"Delimiter": " "
+				},
+				{/*Hate*/ 
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Marlon",
+						7
+					],
+					"Value": "Bencedemon.HG_StrawberrySundae",
+					"Delimiter": " "
+				},
+				{/*Neutral*/
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Marlon",
+						9
+					],
+					"Value": "Bencedemon.HG_Lemonade",
+					"Delimiter": " "
+				}
+			]
+		}
+	]
+}

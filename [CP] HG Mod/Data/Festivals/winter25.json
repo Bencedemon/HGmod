@@ -1,0 +1,86 @@
+{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+        "Entries": {
+          "Christopher": "{{i18n:Christopher.Star}}",
+          "Christopher_y2": "{{i18n:Christopher.Star2}}",
+          "Bence": "{{i18n:Bence.Star}}",
+          "Bence_y2": "{{i18n:Bence.Star2}}",
+          "Mark": "{{i18n:Mark.Star}}",
+          "Mark_y2": "{{i18n:Mark.Star2}}",
+        }
+      },
+      //YEAR ONE SVE NPC festival data
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+        "When": {
+        },
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": [
+              "Entries",
+              "Set-Up_additionalCharacters"
+            ],
+            "Value": "Christopher 27 55 up",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": [
+              "Entries",
+              "Set-Up_additionalCharacters"
+            ],
+            "Value": "Bence 23 74 up",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": [
+              "Entries",
+              "Set-Up_additionalCharacters"
+            ],
+            "Value": "Mark 25 68 left",
+            "Delimiter": "/"
+          }
+        ]
+      },
+      //YEAR TWO SVE NPC festival data
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+        "TextOperations": [
+          { //Christopher
+            "Operation": "Append",
+            "Target": [
+              "Entries",
+              "Set-Up_additionalCharacters_y2"
+            ],
+            "Value": "Christopher 20 49 right",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": [
+              "Entries",
+              "Set-Up_additionalCharacters_y2"
+            ],
+            "Value": "Bence 22 49 left",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": [
+              "Entries",
+              "Set-Up_additionalCharacters_y2"
+            ],
+            "Value": "Mark 21 48 down",
+            "Delimiter": "/"
+          }
+        ]
+      }
+    ]
+  }

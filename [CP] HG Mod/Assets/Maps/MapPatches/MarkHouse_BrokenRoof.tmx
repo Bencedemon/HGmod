@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="2" height="2" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" name="MarkHouse" tilewidth="16" tileheight="16" tilecount="144" columns="12">
+  <image source="spring_MarkHouse.png" width="192" height="192"/>
+ </tileset>
+ <layer id="1" name="AlwaysFront" width="2" height="2">
+  <data encoding="csv">
+122,123,
+134,135
+</data>
+ </layer>
+ <objectgroup id="2" name="AlwaysFront"/>
+</map>

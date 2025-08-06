@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="2" height="3" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="3">
+ <tileset firstgid="1" name="BenceCabinInteriorTilesheet" tilewidth="16" tileheight="16" tilecount="196" columns="14">
+  <image source="BenceCabinInteriorTilesheet.png" width="224" height="224"/>
+ </tileset>
+ <layer id="2" name="Buildings" width="2" height="3">
+  <data encoding="csv">
+19,19,
+33,33,
+41,42
+</data>
+ </layer>
+ <layer id="4" name="Front" width="2" height="3">
+  <data encoding="csv">
+13,14,
+27,28,
+0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="Buildings">
+  <object id="1" name="TileData" x="0" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="Jukebox"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="16" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="Jukebox"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="Front"/>
+</map>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="4" height="4" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="1">
+ <tileset firstgid="1" name="ChristopherHouseInteriorTilesheet" tilewidth="16" tileheight="16" tilecount="84" columns="6">
+  <image source="ChristopherHouseInteriorTilesheet.png" width="96" height="224"/>
+ </tileset>
+ <tileset firstgid="85" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="149" name="spring_ChristopherHouseTilesheet" tilewidth="16" tileheight="16" tilecount="56" columns="8">
+  <image source="spring_ChristopherHouseTilesheet.png" width="128" height="112"/>
+ </tileset>
+ <layer id="2" name="Back" width="4" height="4">
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="Buildings" width="4" height="4">
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,181,182,183,
+0,35,0,0
+</data>
+ </layer>
+ <layer id="6" name="Paths" width="4" height="4">
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,92,0
+</data>
+ </layer>
+ <layer id="8" name="Front" width="4" height="4">
+  <data encoding="csv">
+0,0,0,0,
+0,173,174,175,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <layer id="11" name="AlwaysFront" width="4" height="4">
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="Back"/>
+ <objectgroup id="5" name="Buildings"/>
+ <objectgroup id="12" name="Paths"/>
+ <objectgroup id="9" name="Front"/>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>

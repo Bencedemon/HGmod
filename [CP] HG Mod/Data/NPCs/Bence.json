@@ -1,0 +1,385 @@
+{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Data/Characters",
+        "Entries": {
+          "Bence": {
+            "DisplayName": "Bence",
+            "BirthSeason": "Fall",
+            "BirthDay": 26,
+            "HomeRegion": "Town",
+            "Language": "Default",
+            "Gender": "Male",
+            "Age": "Adult",
+            "Manner": "Polite",
+            "SocialAnxiety": "Shy",
+            "Optimism": "Negative",
+            "IsDarkSkinned": false,
+            "CanBeRomanced": true,
+            "KissSpriteIndex": 35,
+            "KissSpriteFacingDirection": true,
+            "LoveInterest": "Leah",
+            "Calendar": "AlwaysShown",
+            "SocialTab": "UnknownUntilMet",
+            "CanSocialize": true,
+            "CanVisitIsland": true,
+            "IntroductionsQuest": true,
+            "PerfectionScore": true,
+            "EndSlideShow": "MainGroup",
+            "SpouseRoom": {
+              "MapAsset": "Custom_BenceRoom",
+              "MapSourceRect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 6,
+                "Height": 9
+              }
+            },
+            "SpousePatio": {
+              "MapAsset": "Bence_Spouse_Area",
+              "MapSourceRect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 4,
+                "Height": 4
+              },
+              "SpriteAnimationFrames": [
+                [30,500]
+              ],
+              "SpriteAnimationPixelOffset": {
+                "X": 0,
+                "Y": 0
+              }
+            },
+            "FriendsAndFamily": {
+              "Mark": "",
+              "Christopher": ""
+            },
+            "WinterStarGifts": [
+              {
+                "Condition": null,
+                "Id": "Iridium_Sprinkler",
+                "ItemId": "(O)645",
+                "RandomItemId": null,
+                "MaxItems": null,
+                "MinStack": 1,
+                "MaxStack": 2,
+                "Quality": -1,
+                "ObjectInternalName": null,
+                "ObjectDisplayName": null,
+                "ObjectColor": null,
+                "ToolUpgradeLevel": -1,
+                "IsRecipe": false,
+                "StackModifiers": null,
+                "StackModifierMode": "Stack",
+                "QualityModifiers": null,
+                "QualityModifierMode": "Stack",
+                "ModData": null,
+                "PerItemCondition": null
+              }
+            ],
+            "UnlockConditions": null,
+            "SpawnIfMissing": true,
+            "Home": [
+              {
+                "Id": "Bencedemon.HG_BenceCabin",
+                "Condition": null,
+                "Location": "Custom_BenceCabinInterior",
+                "Tile": {
+                  "X": 13,
+                  "Y": 7
+                },
+                "Direction": "left"
+              }
+            ],
+            "Appearance": [
+              {
+                "Id": "Winter",
+                "Season": "Winter",
+                "Indoors": true,
+                "Outdoors": true,
+                "Portrait": "Portraits/Bence_Winter",
+                "Sprite": "Characters/Bence_Winter",
+                "IsIslandAttire": false,
+                "Precedence": -100,
+                "Weight": 0
+              }
+            ],
+            "TextureName": null,
+            "Size": {
+              "X": 16,
+              "Y": 32
+            },
+            "HiddenProfileEmoteSound": null,
+            "HiddenProfileEmoteDuration": 1400,
+            "HiddenProfileEmoteStartFrame": 36,
+            "HiddenProfileEmoteFrameCount": 8,
+            "HiddenProfileEmoteFrameDuration": 200.0,
+            "CustomFields": {}
+          },
+        },
+      },
+      {
+        //Bence's gift tastes
+        "Action": "EditData",
+        "Target": "Data/NPCGiftTastes",
+        "Entries": {
+          "Bence": "{{i18n:Bence.Gifts.Loved}}/Bencedemon.HG_StrawberrySundae Bencedemon.HG_Langos 424 426 928 206 224/
+          {{i18n:Bence.Gifts.Liked}}/260 256 270 340 400 241/
+          {{i18n:Bence.Gifts.Disliked}}/alcohol_item Bencedemon.HG_Lemon Bencedemon.HG_Lemonade 834 220 221/
+          {{i18n:Bence.Gifts.Hated}}/Bencedemon.HG_IceTea 303 346 348 459 873 903/
+          {{i18n:Bence.Gifts.Neutral}}/Bencedemon.HG_Palinka 196/"
+        }
+      },
+      {
+        //Bence's Animations
+        "Action": "EditData",
+        "Target": "Data/animationdescriptions",
+        "Entries": {
+            //"Bence_Woodcut": "0/22 16 16 16 17 18 19 20 21 21 21 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22/0//offset 0 32",
+            "Bence_Woodcut": "0/22 23 19 17 16 16 16 18 20 21 21 21 23 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22/0//offset -6 0", //offset 0 -24
+            "Bence_Pizza": "36/36 36 36 36 36 36 36 36 37 38 39 39 40 41 41 41 41 42 42 40 40 42 43 43 39 39 43 43 39 39 40 41 41 41 41 42 42 40 40 42 43 43 39 39 43 43 39 39 38 37 36 36 36 36 36 36/36",
+            "Bence_Chill": "28/28/28",
+            "Bence_ChillR": "29/29/29",
+            "Bence_ChillL": "30/30/30",
+            "Bence_BenchRest": "31/31/31//laying_down/offset 10 -32",
+            "Bence_BenchChill": "32/32/32//laying_down/offset 0 0",
+            
+            "Bence_sleep": "51/51/51"
+        }
+      },
+      {
+        //Bence's sleep animation - married to character
+        "Action": "EditData",
+        "Target": "Data/animationdescriptions",
+        "When": {
+          "Spouse": "Bence"
+        },
+        "Entries": {
+          "Bence_Sleep": "51/51/51"
+        }
+      },
+      //Spouse Room
+      {
+        "Action": "Load", "Priority": "Low",
+        "Target": "Maps/Custom_BenceRoom",
+        "FromFile": "Assets/Maps/SpouseRooms/BenceRoom.tmx"
+      },
+      //Spouse Patio
+      {
+        "Action": "Load", "Priority": "Low",
+        "Target": "Maps/Bence_Spouse_Area",
+        "FromFile": "Assets/Maps/SpouseRooms/Bence_Spouse_Area.tmx"
+      },
+      {
+        //Bence's Portraits
+        "Action": "Load", "Priority": "Low",
+        "Target": "Portraits/Bence",
+        "FromFile": "Assets/CharacterFiles/Portraits/Bence/Bence.png"
+      },
+      {
+        //Bence's Winter Portraits
+        "Action": "Load", "Priority": "Low",
+        "Target": "Portraits/Bence_Winter",
+        "FromFile": "Assets/CharacterFiles/Portraits/Bence/Bence_Winter.png"
+      },
+      {
+        //Bence's Sprites
+        "Action": "Load", "Priority": "Low",
+        "Target": "Characters/Bence",
+        "FromFile": "Assets/CharacterFiles/Sprites/Bence/Bence.png"
+      },
+      {
+        //Bence's Winter Sprites
+        "Action": "Load", "Priority": "Low",
+        "Target": "Characters/Bence_Winter",
+        "FromFile": "assets/CharacterFiles/Sprites/Bence/Bence_Winter.png"
+      },
+      {
+        //Bence's beach portraits
+        "Action": "Load", "Priority": "Low",
+        "Target": "Portraits/Bence_Beach",
+        "FromFile": "assets/CharacterFiles/Portraits/Bence/Bence_Beach.png"
+      },
+      {
+        //Bence's beach sprites
+        "Action": "Load", "Priority": "Low",
+        "Target": "Characters/Bence_Beach",
+        "FromFile": "assets/CharacterFiles/Sprites/Bence/Bence_Beach.png"
+      },
+      {
+        //Bence's Schedule
+        "Action": "Load",
+        "Target": "Characters/schedules/Bence",
+        "FromFile": "Assets/CharacterFiles/Schedules/Bence/Schedule.json"
+      },
+      {
+        //Bence's Engagement Dialogue
+        "Action": "EditData",
+        "Target": "Data/EngagementDialogue",
+        "Entries": {
+          "Bence0": "{{i18n:Bence.Engagement.0}}",
+          "Bence1": "{{i18n:Bence.Engagement.1}}"
+        }
+      },
+  
+    //MOVIE THEATER
+    {
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "Bence": {
+          "Name": "Bence",
+          "LovedTags": [
+            "Salty",
+            "Chocolate Popcorn",
+            "Personal Pizza"
+          ],
+          "LikedTags": [
+            "Healthy",
+            "Sweet"
+          ],
+          "DislikedTags": [
+            "Jasmine Tea",
+            "Gourmet"
+          ]
+        },
+      },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "Bence": {
+          "NPCName": "Bence",
+          "Reactions": [
+            {
+              "Tag": "comedy",
+              "Response": "love",
+              "Whitelist": [],
+              "SpecialResponses": null,
+              "ID": "reaction_0"
+            },
+            {
+              "Tag": "action",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": null,
+              "ID": "reaction_1"
+            },
+            {
+              "Tag": "sci-fi",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": null,
+              "ID": "reaction_2"
+            },
+            {
+              "Tag": "romance",
+              "Response": "dislike",
+              "Whitelist": [],
+              "SpecialResponses": null,
+              "ID": "reaction_3"
+            },
+            {
+              "Tag": "love",
+              "Response": "love",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:Bence.Movies.01}}",
+                },
+                "DuringMovie": null,
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:Bence.Movies.02}}",
+                }
+              },
+              "ID": "reaction_4"
+            },
+            {
+              "Tag": "like",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:Bence.Movies.03}}",
+                },
+                "DuringMovie": null,
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:Bence.Movies.04}}",
+                }
+              },
+              "ID": "reaction_5"
+            },
+            {
+              "Tag": "dislike",
+              "Response": "dislike",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:Bence.Movies.05}}",
+                },
+                "DuringMovie": null,
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:Bence.Movies.06}}",
+                }
+              },
+              "ID": "reaction_6"
+            }
+          ]
+        },
+      }
+    },
+
+      { //2 heart event, 11:00 am - 18:00 pm Forest
+        "Action": "EditData",
+        "Target": "Data/Events/Forest",
+        "Entries": {
+          "2001101/f Bence 500/t 1100 1800/p Bence/w sunny": "spring_day_ambient/31 67/farmer 33 63 2 Bence 31 67 2/skippable/showFrame Bence 28/move farmer 0 3 2/move farmer -1 0 2/move farmer 0 1 2/speak Bence \"{{i18n:Bence.2heart.01}}\"/viewport move 1 1 8000/pause 4000/globalFade/viewport -1000 -1000/end"
+        }
+      },
+      { //4 heart event, 11:00 am - 18:00 pm
+        "Action": "EditData",
+        "Target": "Data/Events/Forest",
+        "Entries": {
+          "2001102/f Bence 1000/t 1100 1800/p Bence/z winter/w sunny": "50s/99 29/farmer 106 25 3 Bence 99 30 1/skippable/animate Bence false true 500 25 26 26 26 26/move farmer -7 0 3/pause 100/emote Bence 56 true/pause 100/faceDirection farmer 2 true/pause 100/speak Bence \"{{i18n:Bence.4heart.01}}\"/pause 100/move farmer 0 3 2/emote Bence 16 true/pause 100/stopAnimation Bence 24/pause 100/showFrame Bence 27/speak Bence \"{{i18n:Bence.4heart.02}}\"/pause 100/speak Bence \"{{i18n:Bence.4heart.03}}\"/pause 300/animate Bence false true 500 25 26 26 26 26/pause 300/question fork1 \"#{{i18n:Bence.4heart.Answer.01}}#{{i18n:Bence.4heart.Answer.02}}\"/fork helpBence/speak Bence \"{{i18n:Bence.4heart.04}}\"/move farmer 0 -3 3/move farmer -5 0 3 true/globalFade/viewport -1000 -1000/end",
+          "helpBence": "stopAnimation Bence 24/pause 100/showFrame Bence 27/speak Bence \"{{i18n:Bence.4heart.05}}\"/pause 100/showFrame Bence 24/pause 100/move farmer 0 1 1 true/pause 100/globalFade/viewport -1000 -1000/changeLocation Town/viewport 103 77 clamp true/showFrame Bence 0/faceDirection Bence 0 true/warp Bence 102 77 true/faceDirection farmer 0 true/warp farmer 103 77 true/pause 1000/speak Bence \"{{i18n:Bence.4heart.06}}\"/pause 300/faceDirection Bence 1/pause 100/faceDirection farmer 3/pause 200/speak Bence \"{{i18n:Bence.4heart.07}}\"/move Bence 0 5 2 true/faceDirection farmer 2 true/pause 200/friendship Bence 10/globalFade/viewport -1000 -1000/end"
+        }
+      },
+      { //6 heart event, Anytime 
+        "Action": "EditData",
+        "Target": "Data/Events/Custom_BenceCabinInterior",
+        "Entries": {
+          "2001103/f Bence 1500/p Bence": "none/11 6/farmer 9 10 0 Bence 12 5 0/skippable/changeMapTile Buildings 12 4 38/changeMapTile Buildings 13 4 39/changeMapTile Front 12 3 24/changeMapTile Front 13 3 25/changeMapTile Front 12 2 10/changeMapTile Front 13 2 11/pause 750/emote Bence 12 true/pause 100/speak Bence \"{{i18n:Bence.6heart.01}}\"/pause 300/faceDirection Bence 2/speak Bence \"{{i18n:Bence.6heart.02}}\"/move farmer 0 -2 0/move farmer 3 0 0/move farmer 0 -1 0/speak Bence \"{{i18n:Bence.6heart.03}}\"/pause 200/move farmer -1 0 0/move farmer 0 -3 1 true/pause 100/faceDirection Bence 0/speak Bence \"{{i18n:Bence.6heart.04}}\"/pause 200/emote Bence 12/pause 100/speak Bence \"{{i18n:Bence.6heart.05}}\"/shake Bence 100/playSound clubhit/emote farmer 16 true/playMusic Bencedemon.HG_BenceCabin/pause 2000/speak Bence \"{{i18n:Bence.6heart.06}}\"/globalFade/viewport -1000 -1000/end warpOut"
+        }
+      },
+      { //8 heart event, Anytime 
+        "Action": "EditData",
+        "Target": "Data/Events/Custom_BenceCabinInterior",
+        "Entries": {
+          "2001104/f Bence 2000/p Bence": "playful/9 6/farmer -50 -50 0 Bence 9 5 2/skippable/playSound keyboardTyping/pause 800/warp farmer 9 10/playSound keyboardTyping/playSound doorClose/pause 300/emote Bence 16/speak Bence \"Ó, szia @! Kerülj beljebb, kerülj beljebb.\"/move farmer 0 -3 0/pause 300/playSound keyboardTyping/speak Bence \"Éppen egy projektemen dolgozom, gyere nézd meg!\"/move farmer 2 0 0/move farmer 0 -2 3/playSound keyboardTyping/move farmer -1 0 3/speak Bence \"...\"/globalFade/viewport -1000 -1000/end",
+        }
+      },
+      { //10 heart event, 9pm - 12pm 
+        "Action": "EditData",
+        "Target": "Data/Events/Forest",
+        "Entries": {
+          "2001105/f Bence 2500/t 2100 2400/z winter/w sunny": "nightTime/69 25/farmer 77 25 3 Bence 68 25 1/skippable/move farmer -7 0 3/speak Bence \"Helló @!\"/speak Bence \"Reméltem hogy erre jársz majd, gyere mutatni akarok neked valamit!\"/move Bence 1 0 1/move Bence 0 -3 2 true/pause 200/faceDirection farmer 0 true/pause 1000/speak Bence \"Oké... tudom, hogy ez így most egy kicsit creepy, de igérem bízhatsz bennem.\"/pause 100/move farmer 0 -3 0/move farmer 0 -1 0 Bence 0 -1 0/globalFade 0.007 true/move farmer 0 -4 0 Bence 0 -4 0/viewport -1000 -1000/changeToTemporaryMap Custom_BenceStargazing false/warp Bence 14 31 true/warp farmer 14 33 true/viewport 15 29 clamp true/move Bence 0 -3 2 farmer 0 -3 0/speak Bence \"Nos hát... ez lenne az.\"/quickQuestion Remélem tetszik.#Igen tetszik.#Másra számítottam.#Annyira nem jön be.(break)--<answer1 script>\\emote Bence 32\\speak Bence \"Ennek örülök.\"(break)--<answer2 script>\\speak Bence \"Hát igen... nem gyakran csinálok ilyeneked. Ha.. Ha.. \"(break)--<answer3 script>\\emote Bence 28\\speak Bence \"Hát ez sajnálatos.$s\"\\speak Bence \"Azért adj neki egy próbát a kedvemért.$s\"/move farmer 0 -1 0/move farmer 1 0 0/faceDirection Bence 1 true/move farmer 0 -1 3/speak Bence \"...\"/globalFade/viewport -1000 -1000/changeToTemporaryMap Custom_BenceStargazingSky false/warp Bence -50 -50 true/warp farmer -50 -50 true/viewport 20 10 clamp true/pause 3000/speak Bence \"...\"/globalFade/viewport -1000 -1000/changeToTemporaryMap Custom_BenceStargazing false/warp Bence 14 28 true/faceDirection Bence 2 true/warp farmer 15 28 true/faceDirection farmer 2 true/viewport 15 29 clamp true/pause 2000/speak Bence \"...\"/globalFade/viewport -1000 -1000/end",
+        }
+      },
+    ]
+  }
+//(0 = up, 1 = right, 2 = down, 3 = left)

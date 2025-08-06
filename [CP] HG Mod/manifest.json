@@ -1,0 +1,21 @@
+{
+    "Name": "HelloGuys",
+    "Author": "Bencedemon",
+    "Version": "0.1.0",
+    "Description": "This mod ROCKS!",
+    "UniqueID": "Bencedemon.HG",
+    "UpdateKeys": ["Nexus:???"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "DLX.Bundles",
+            "IsRequired": true
+        }
+    ]
+}

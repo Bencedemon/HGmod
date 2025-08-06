@@ -1,0 +1,19 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Hats",
+            "Entries": {
+                "Bencedemon.HG_ChrisMask": "ChrisMask/{{i18n:Hat.ChrisMask.Desc}}/true/true//{{i18n:Hat.ChrisMask.Name}}/0/Mods\\Bencedemon.HG\\Hats",
+                "Bencedemon.HG_BenceMask": "BenceMask/{{i18n:Hat.BenceMask.Desc}}/true/true//{{i18n:Hat.BenceMask.Name}}/1/Mods\\Bencedemon.HG\\Hats",
+                "Bencedemon.HG_MarkMask": "MarkMask/{{i18n:Hat.MarkMask.Desc}}/true/true//{{i18n:Hat.MarkMask.Name}}/2/Mods\\Bencedemon.HG\\Hats"
+            }
+        },
+        {
+            //Hats
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/Hats",
+            "FromFile": "Assets/Textures/HG_Hats.png"
+        }
+    ]
+}

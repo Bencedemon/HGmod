@@ -1,0 +1,70 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "Bencedemon.HG_Concert": {
+                    "Owners": [
+                        {
+                            "Condition": null,
+                            "Portrait": "Mods/Bencedemon.HG/Bob",
+                            "Dialogues": [
+                            {
+                                "Id": "Default",
+                                "Condition": null,
+                                "Dialogue": null,
+                                "RandomDialogue": [
+                                    "{{i18n:CaveGiftShop.01}}",
+                                    "{{i18n:CaveGiftShop.02}}",
+                                    "{{i18n:CaveGiftShop.03}}"
+                                ]
+                            }
+                            ],
+                            "RandomizeDialogueOnOpen": true,
+                            "ClosedMessage": null,
+                            "Name": "Any"
+                        }
+                    ],
+                    "Items": [
+                        {
+                            "Id": "Bencedemon.HG_RedRocketsPoster",
+                            "ItemId": "Bencedemon.HG_RedRocketsPoster",
+                            "Price": 500
+                        },
+                        {
+                            "Id": "Bencedemon.HG_RedRokcetsShirt",
+                            "ItemId": "Bencedemon.HG_RedRokcetsShirt",
+                            "Price": 1500
+                        },
+                        {
+                            "Id": "Bencedemon.HG_RedRokcetsShirtSleeveless",
+                            "ItemId": "Bencedemon.HG_RedRokcetsShirtSleeveless",
+                            "Price": 1400
+                        },
+                        {
+                            "Id": "Bencedemon.HG_RedRocketsDrum",
+                            "ItemId": "Bencedemon.HG_RedRocketsDrum",
+                            "Price": 2000
+                        },
+                        {
+                            "Id": "Bencedemon.HG_RedRocketsGuitar",
+                            "ItemId": "Bencedemon.HG_RedRocketsGuitar",
+                            "Price": 1500
+                        },
+                        {
+                            "Id": "Bencedemon.HG_RedRocketsBass",
+                            "ItemId": "Bencedemon.HG_RedRocketsBass",
+                            "Price": 1000
+                        },
+                        {
+                            "Id": "Bencedemon.HG_RedRocketsSinger",
+                            "ItemId": "Bencedemon.HG_RedRocketsSinger",
+                            "Price": 1500
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Changes": [
+		{
+            "Action": "Load",
+            "Target": "Mods/Bencedemon.HG/HG_Furniture_TileSheet",
+            "FromFile": "assets/Textures/HG_Furniture_TileSheet.png"
+        },
+		{
+            "Action": "Load",
+            "Target": "Mods/Bencedemon.HG/HG_Portraits",
+            "FromFile": "assets/Textures/HG_Portraits.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "Bencedemon.HG_JukeboxB": "Jukebox/decor/2 3/2 1/1/999/-1/{{i18n:Furniture.JukeboxB}}/0/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                "Bencedemon.HG_WallAxe": "WallAxe/painting/3 1/3 1/1/999/-1/{{i18n:Furniture.WallAxe}}/2/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                "Bencedemon.HG_DevilMayCry": "DevilMayCry/painting/5 2/5 2/1/999/-1/{{i18n:Furniture.DevilMayCry}}/15/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                "Bencedemon.HG_Desk": "Desk/long table/3 2/3 1/1/999/-1/{{i18n:Furniture.Desk}}/7/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                "Bencedemon.HG_Furnance": "Furnance/lamp/1 2/1 1/1/999/-1/{{i18n:Furniture.Furnance}}/10/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                "Bencedemon.HG_Pizza": "Pizza/decor/1 1/1 1/1/999/-1/{{i18n:Furniture.Pizza}}/5/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                "Bencedemon.HG_RedCarpet": "RedCarpet/rug/5 3/5 3/1/999/-1/{{i18n:Furniture.RedCarpet}}/39/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                "Bencedemon.HG_BlackCarpet": "RedCarpet/rug/3 3/3 3/1/999/-1/{{i18n:Furniture.BlackCarpet}}/44/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                
+                "Bencedemon.HG_BeerPack": "BeerPack/decor/1 1/1 1/1/999/-1/{{i18n:Furniture.BeerPack}}/33/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                "Bencedemon.HG_BeerKeg": "BeerKeg/decor/1 2/1 1/1/999/-1/{{i18n:Furniture.BeerKeg}}/34/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                "Bencedemon.HG_Drum": "Drum/decor/2 2/2 1/1/999/-1/{{i18n:Furniture.Drum}}/35/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                "Bencedemon.HG_Poster1": "Poster1/painting/1 2/1 2/1/999/-1/{{i18n:Furniture.Poster1}}/37/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                "Bencedemon.HG_Poster2": "Poster2/painting/1 2/1 2/1/999/-1/{{i18n:Furniture.Poster2}}/38/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                
+                "Bencedemon.HG_BarrelChair1": "BarrelChair1/chair/1 1/1 1/1/999/-1/{{i18n:Furniture.BarrelChair1}}/60/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                "Bencedemon.HG_BarrelChair2": "BarrelChair2/chair/1 1/1 1/1/999/-1/{{i18n:Furniture.BarrelChair2}}/61/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                "Bencedemon.HG_Table": "Table/table/2 2/2 1/1/999/-1/{{i18n:Furniture.Table}}/62/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                "Bencedemon.HG_Lantern": "Lantern/lamp/1 1/1 1/1/999/-1/{{i18n:Furniture.Lantern}}/73/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                
+                "Bencedemon.HG_RedRocketsPoster": "RedRocketsPoster/painting/1 2/1 2/1/999/-1/{{i18n:Furniture.RedRocketsPoster}}/64/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+
+                "Bencedemon.HG_HorrorPoster": "HorrorPoster/painting/1 2/1 2/1/999/-1/{{i18n:HGHorror.Title}}/12/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+
+                "Bencedemon.HG_RedRocketsDrum": "RedRocketsDrum/decor/2 3/2 1/1/999/-1/{{i18n:Furniture.RedRocketsDrum}}/78/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                "Bencedemon.HG_RedRocketsGuitar": "RedRocketsGuitar/decor/1 3/1 1/1/999/-1/{{i18n:Furniture.RedRocketsGuitar}}/80/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                "Bencedemon.HG_RedRocketsBass": "RedRocketsBass/decor/1 3/1 1/1/999/-1/{{i18n:Furniture.RedRocketsBass}}/81/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                "Bencedemon.HG_RedRocketsSinger": "RedRocketsSinger/decor/1 3/1 1/1/999/-1/{{i18n:Furniture.RedRocketsSinger}}/82/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+
+                //HG SPOUSE PORTRAITS
+                "Bencedemon.HG_ChristopherPortrait": "ChristopherPortrait/painting/2 2/2 2/1/999/-1/{{i18n:Furniture.ChristopherPortrait}}/0/Mods\\Bencedemon.HG\\HG_Portraits/true",
+                "Bencedemon.HG_BencePortrait": "BencePortrait/painting/2 2/2 2/1/999/-1/{{i18n:Furniture.BencePortrait}}/2/Mods\\Bencedemon.HG\\HG_Portraits/true",
+                "Bencedemon.HG_MarkPortrait": "MarkPortrait/painting/2 2/2 2/1/999/-1/{{i18n:Furniture.MarkPortrait}}/4/Mods\\Bencedemon.HG\\HG_Portraits/true",
+            }
+        }
+    ]
+}

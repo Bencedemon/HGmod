@@ -1,0 +1,119 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "Bencedemon.HG_DesertBence": {
+                    "Currency": 0,
+                    "StackSizeVisibility": null,
+                    "OpenSound": null,
+                    "PurchaseSound": null,
+                    "PurchaseRepeatSound": null,
+                    "ApplyProfitMargins": null,
+                    "PriceModifiers": null,
+                    "PriceModifierMode": "Stack",
+                    "Owners": [
+                    {
+                        "Condition": null,
+                        "Portrait": null,
+                        "Dialogues": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "Dialogue": null,
+                            "RandomDialogue": [
+                                "{{i18n:Bence.DesertShop.01}}",
+                                "{{i18n:Bence.DesertShop.02}}",
+                                "{{i18n:Bence.DesertShop.03}}"
+                            ]
+                        }
+                        ],
+                        "RandomizeDialogueOnOpen": true,
+                        "ClosedMessage": null,
+                        "Id": "Bence",
+                        "Name": "Bence"
+                    }
+                    ],
+                    "VisualTheme": null,
+                    "SalableItemTags": null,
+                    "Items": [
+                        {
+                            "TradeItemId": "CalicoEgg",
+                            "TradeItemAmount": 120,
+                            "Price": -1,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Player",
+                            "Id": "(W)Bencedemon.HG_Rebellion",
+                            "ItemId": "(W)Bencedemon.HG_Rebellion",
+                        },
+                        {
+                            "TradeItemId": "CalicoEgg",
+                            "TradeItemAmount": 120,
+                            "Price": -1,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Player",
+                            "Id": "(W)Bencedemon.HG_Yamato",
+                            "ItemId": "(W)Bencedemon.HG_Yamato",
+                        },
+                        {
+                            "TradeItemId": "CalicoEgg",
+                            "TradeItemAmount": 150,
+                            "Price": -1,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Player",
+                            "Id": "(W)Bencedemon.HG_DragonSlayer",
+                            "ItemId": "(W)Bencedemon.HG_DragonSlayer",
+                        },
+                        {
+                            "TradeItemId": "CalicoEgg",
+                            "TradeItemAmount": 70,
+                            "Price": -1,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Player",
+                            "Id": "(W)Bencedemon.HG_DiamondSword",
+                            "ItemId": "(W)Bencedemon.HG_DiamondSword",
+                        },
+                        {
+                            "TradeItemId": "CalicoEgg",
+                            "TradeItemAmount": 40,
+                            "Price": -1,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Player",
+                            "Id": "(W)Bencedemon.HG_Shanker",
+                            "ItemId": "(W)Bencedemon.HG_Shanker",
+                        },
+                        {
+                            "TradeItemId": "CalicoEgg",
+                            "TradeItemAmount": 80,
+                            "Price": -1,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Player",
+                            "Id": "(W)Bencedemon.HG_SpectralSword",
+                            "ItemId": "(W)Bencedemon.HG_SpectralSword",
+                        },
+                        {
+                            "TradeItemId": "CalicoEgg",
+                            "TradeItemAmount": 70,
+                            "Price": -1,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Player",
+                            "Id": "(W)Bencedemon.HG_ChirstophersFishingrod",
+                            "ItemId": "(W)Bencedemon.HG_ChirstophersFishingrod",
+                        },
+                        {
+                            "TradeItemId": "CalicoEgg",
+                            "TradeItemAmount": 70,
+                            "Price": -1,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Player",
+                            "Id": "(W)Bencedemon.HG_BencesAxe",
+                            "ItemId": "(W)Bencedemon.HG_BencesAxe",
+                        },
+                    ],
+                    "CustomFields": null
+                },
+            }
+        }
+    ]
+}

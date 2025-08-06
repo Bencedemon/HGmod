@@ -1,0 +1,27 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/JukeboxTracks",
+            "Entries": {
+                "Bencedemon.HG_Horthy": {
+                    "Name": "{{i18n:Jukebox.Horthy}}",
+					"Available": true,
+                    "AlternativeTrackIds": ["Horthy"]
+                },
+                "Bencedemon.HG_Sif": {
+                    "Name": "{{i18n:Jukebox.Sif}}",
+                    "AlternativeTrackIds": ["Sif"]
+                },
+                "Bencedemon.HG_BenceCabin": {
+                    "Name": "{{i18n:Jukebox.Cabin}}",
+                    "AlternativeTrackIds": ["Cabin"]
+                },
+                "Bencedemon.HG_SotetUtakon": {
+                    "Name": "{{i18n:Jukebox.SotetUtakon}}",
+                    "AlternativeTrackIds": ["SotetUtakon"]
+                }
+            }
+        }
+    ]
+}

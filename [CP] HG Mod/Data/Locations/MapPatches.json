@@ -1,0 +1,569 @@
+{
+     "Changes": [
+          {
+               "Action": "EditMap",
+               "Target": "Maps/Beach",
+               "FromFile": "assets/Maps/MapPatches/ChristopherHouse.tmx",
+               "ToArea": {
+                    "X": 2,
+                    "Y": 17,
+                    "Width": 9,
+                    "Height": 9
+               },
+               "MapProperties": {
+                    "Light": "3 21 4 44 31 4 90 35 4 44 32 6 90 36 6",
+                    "DayTiles": "AlwaysFront 3 21 369 Front 44 31 369 Front 90 35 369",
+                    "NightTiles": "AlwaysFront 3 21 368 Front 44 31 368 Front 90 35 368"
+               }
+          },
+          {
+               "Action": "EditMap",
+               "Target": "Maps/Beach-NightMarket",
+               "FromFile": "assets/Maps/MapPatches/ChristopherHouse.tmx",
+               "ToArea": {
+                    "X": 2,
+                    "Y": 17,
+                    "Width": 9,
+                    "Height": 9
+               },
+               "MapProperties": {
+                    "Light": "3 21 4 44 31 4 90 35 4 44 32 6 90 36 6",
+                    "DayTiles": "AlwaysFront 3 21 369 Front 44 31 369 Front 90 35 369",
+                    "NightTiles": "AlwaysFront 3 21 368 Front 44 31 368 Front 90 35 368"
+               }
+          },
+          {
+               "Action": "EditMap",
+               "Target": "Maps/Beach-Jellies",
+               "FromFile": "assets/Maps/MapPatches/ChristopherHouseJellies.tmx",
+               "ToArea": {
+                    "X": 1,
+                    "Y": 17,
+                    "Width": 10,
+                    "Height": 10
+               },
+               "MapProperties": {
+                    "Light": "3 21 4 44 31 4 90 35 4 44 32 6 90 36 6",
+                    "DayTiles": "AlwaysFront 3 21 369 Front 44 31 369 Front 90 35 369",
+                    "NightTiles": "AlwaysFront 3 21 368 Front 44 31 368 Front 90 35 368"
+               }
+          },
+          {
+               "Action": "EditMap",
+               "Target": "Maps/Beach-Jellies2",
+               "FromFile": "assets/Maps/MapPatches/ChristopherHouseJellies.tmx",
+               "ToArea": {
+                    "X": 1,
+                    "Y": 17,
+                    "Width": 10,
+                    "Height": 10
+               },
+               "MapProperties": {
+                    "Light": "3 21 4 44 31 4 90 35 4 44 32 6 90 36 6",
+                    "DayTiles": "AlwaysFront 3 21 369 Front 44 31 369 Front 90 35 369",
+                    "NightTiles": "AlwaysFront 3 21 368 Front 44 31 368 Front 90 35 368"
+               }
+          },
+          {
+               "Action": "EditMap",
+               "Target": "Maps/Beach-Luau",
+               "FromFile": "assets/Maps/MapPatches/ChristopherHouse.tmx",
+               "ToArea": {
+                    "X": 2,
+                    "Y": 17,
+                    "Width": 9,
+                    "Height": 9
+               },
+               "MapProperties": {
+                    "Light": "3 21 4 44 31 4 90 35 4 44 32 6 90 36 6",
+                    "DayTiles": "AlwaysFront 3 21 369 Front 44 31 369 Front 90 35 369",
+                    "NightTiles": "AlwaysFront 3 21 368 Front 44 31 368 Front 90 35 368"
+               }
+          },
+          {
+               "Action": "EditMap",
+               "Target": "Maps/Beach-Luau2",
+               "FromFile": "assets/Maps/MapPatches/ChristopherHouse.tmx",
+               "ToArea": {
+                    "X": 2,
+                    "Y": 17,
+                    "Width": 9,
+                    "Height": 9
+               },
+               "MapProperties": {
+                    "Light": "3 21 4 44 31 4 90 35 4 44 32 6 90 36 6",
+                    "DayTiles": "AlwaysFront 3 21 369 Front 44 31 369 Front 90 35 369",
+                    "NightTiles": "AlwaysFront 3 21 368 Front 44 31 368 Front 90 35 368"
+               }
+          },
+          {
+               "Action": "EditMap",
+               "Target": "Maps/Forest",
+               "FromFile": "assets/Maps/MapPatches/BenceCabin.tmx",
+               "ToArea": {
+                    "X": 7,
+                    "Y": 58,
+                    "Width": 28,
+                    "Height": 16
+               },
+               "MapProperties": {
+                    "Light": "30 63 4 117 21 4 104 21 4 90 14 4 87 6 4 61 65 4 9 19 4",
+                    "DayTiles": "Buildings 30 63 80 AlwaysFront 104 19 907 AlwaysFront 117 19 907",
+                    "NightTiles": "Buildings 30 63 83 AlwaysFront 104 19 908 AlwaysFront 117 19 908"
+               }
+          },
+          { //Leaf patches Bence
+               "Action": "EditMap",
+               "Target": "Maps/Forest",
+               "FromFile": "assets/Maps/MapPatches/BenceCabin_Leaves.tbin",
+               "When": {
+                    "Season": "Fall",
+                    "SeasonalEdits": true
+               },
+               "ToArea": {
+                    "X": 7,
+                    "Y": 58,
+                    "Width": 28,
+                    "Height": 16
+               }
+          },
+          {
+               "Action": "EditMap",
+               "Target": "Maps/Backwoods",
+               "MapProperties": {
+                    "Warp": "50 10 Custom_MarkFarm 0 24 50 11 Custom_MarkFarm 0 24 50 12 Custom_MarkFarm 0 24 50 13 Custom_MarkFarm 0 24 50 14 Custom_MarkFarm 0 24 50 15 Custom_MarkFarm 0 24 50 16 Custom_MarkFarm 0 24 50 17 Custom_MarkFarm 0 24 13 40 Farm 40 0 14 40 Farm 40 0 15 40 Farm 40 0 50 28 BusStop 14 8 50 29 BusStop 14 8 50 30 BusStop 14 8 50 31 BusStop 14 8 50 32 BusStop 14 8 22 29 Tunnel 39 9 22 30 Tunnel 39 9 22 31 Tunnel 39 9 22 32 Tunnel 39 9"
+               }
+          },
+          {
+              "Action": "EditMap",
+              "Target": "Maps/Mountain",
+              "MapProperties": {
+                    "Warp": "29 6 Tent 2 5 14 41 Town 81 0 15 41 Town 81 0 16 41 Town 81 0 -1 13 Custom_MarkFarm 44 22 -1 12 Custom_MarkFarm 44 22 -1 14 Custom_MarkFarm 44 22 9 -1 Railroad 29 59 10 -1 Railroad 29 59 85 41 Town 98 1 57 41 Town 90 1 78 -1 Custom_AdventurerSummit 32 41 79 -1 Custom_AdventurerSummit 32 41 80 -1 Custom_AdventurerSummit 32 41"
+              }
+               /*"AddWarps": [
+                    "-1 13 Custom_MarkFarm 44 22",
+                    "-1 12 Custom_MarkFarm 44 22",
+                    "-1 14 Custom_MarkFarm 44 22"
+              ]*/
+          },
+          {
+               "Action": "EditMap",
+               "Target": "Maps/Town",
+               "FromFile": "assets/Maps/MapPatches/Langosos.tmx",
+               "ToArea": {
+                    "X": 57,
+                    "Y": 26,
+                    "Width": 9,
+                    "Height": 5
+               },
+               "Update": "OnLocationChange",
+               "When": {
+                    "Day": "4, 11, 18, 25",
+                    "Time": "{{Range: 0600, 1800}}"
+               }
+          },
+          { //Christopher Furnace
+               "Action": "EditMap",
+               "Target": "Maps/Custom_ChristopherHouseInterior",
+               "FromFile": "assets/Maps/MapPatches/ChristopherHouseInterior_Furnace.tmx",
+               "ToArea": {
+                    "X": 1,
+                    "Y": 5,
+                    "Width": 1,
+                    "Height": 2
+               },
+               "MapProperties": {
+                    "BrookSounds": "1 6 1",
+                    "Light": "2 6 2"
+               },
+               "When": {
+                    "Weather |contains=Rain, Storm": false,
+                    "Season": "Winter"
+               }
+          },
+          { //Christopher Furnace NON Winter
+               "Action": "EditMap",
+               "Target": "Maps/Custom_ChristopherHouseInterior",
+               "FromFile": "assets/Maps/MapPatches/ChristopherHouseInterior_Furnace.tmx",
+               "ToArea": {
+                    "X": 1,
+                    "Y": 5,
+                    "Width": 1,
+                    "Height": 2
+               },
+               "MapProperties": {
+                    "BrookSounds": "1 6 1",
+                    "Light": "2 6 2"
+               },
+               "When": {
+                    "Weather |contains=Rain, Storm": true,
+                    "Season": "Spring,Summer,Fall"
+               }
+          },
+          { //Bence Desert
+               "Action": "EditMap",
+               "Target": "Maps/Desert-Festival",
+               "FromFile": "assets/Maps/MapPatches/Desert_BenceShop.tmx",
+               "ToArea": {
+                    "X": 33,
+                    "Y": 48,
+                    "Width": 8,
+                    "Height": 10
+               }
+          },
+          { //Chris Bike
+               "Action": "EditMap",
+               "Target": "Maps/Beach",
+               "FromFile": "assets/Maps/MapPatches/ChrisBike.tmx",
+               "ToArea": {
+                    "X": 3,
+                    "Y": 20,
+                    "Width": 3,
+                    "Height": 2
+               },
+               "When": {
+                    "Weather |contains=Rain, Storm": false,
+                    "Season": "Summer"
+               }
+          },
+          /*{ //Chris heart event Bikes
+               "Action": "EditMap",
+               "Target": "Maps/BusStop",
+               "FromFile": "Assets/Maps/MapPatches/Bikes.tmx",
+               "ToArea": {
+                    "X": 23,
+                    "Y": 12,
+                    "Width": 5,
+                    "Height": 3
+               },
+               "Update": "OnLocationChange",
+               "When": {
+                    "HasSeenEvent: currentPlayer|contains=2001006": false,
+                    "Time": "{{Range: 1130, 1330}}",
+                    "Weather |contains=Rain, Storm": false,
+                    "Season": "Spring,Summer,Fall",
+                    "HasFlag": "BikeWChris"
+               }
+          },*/
+          { //Bence Furnace
+               "Action": "EditMap",
+               "Target": "Maps/Custom_BenceCabinInterior",
+               "FromFile": "assets/Maps/MapPatches/BenceCabinInterior_Furnace.tmx",
+               "ToArea": {
+                    "X": 1,
+                    "Y": 10,
+                    "Width": 1,
+                    "Height": 2
+               },
+               "MapProperties": {
+                    "BrookSounds": "1 11 1",
+                    "Light": "2 11 2"
+               },
+               "When": {
+                    "Season": "Winter"
+               }
+          },
+          { //Bence Jukebox
+               "Action": "EditMap",
+               "Target": "Maps/Custom_BenceCabinInterior",
+               "FromFile": "assets/Maps/MapPatches/BenceJukebox.tmx",
+               "ToArea": {
+                    "X": 12,
+                    "Y": 2,
+                    "Width": 2,
+                    "Height": 3
+               },
+               "Update": "OnLocationChange",
+               "When": {
+                    "HasSeenEvent: anyPlayer|contains=2001103": true
+               }
+          },
+          { //Bence axe
+               "Action": "EditMap",
+               "Target": "Maps/Forest",
+               "FromFile": "assets/Maps/MapPatches/BenceAxe.tmx",
+               "ToArea": {
+                    "X": 13,
+                    "Y": 66,
+                    "Width": 1,
+                    "Height": 3
+               },
+               "When": {
+                    "Day": "2, 4, 9, 11, 16, 18, 23, 25",
+                    "Weather |contains=Rain, Storm": false,
+                    "Season": "Spring,Summer,Fall"
+               }
+          },
+          { //Bence axe2
+               "Action": "EditMap",
+               "Target": "Maps/Forest",
+               "FromFile": "assets/Maps/MapPatches/BenceAxe2.tmx",
+               "ToArea": {
+                    "X": 16,
+                    "Y": 65,
+                    "Width": 1,
+                    "Height": 2
+               },
+               "When": {
+                    "Day": "6, 13, 20, 27",
+                    "Weather |contains=Rain, Storm": false,
+                    "Season": "Spring,Summer,Fall"
+               }
+          },
+          { //Bence axe3 Sunday
+               "Action": "EditMap",
+               "Target": "Maps/Custom_BenceCabinInterior",
+               "FromFile": "assets/Maps/MapPatches/BenceAxe3.tmx",
+               "ToArea": {
+                    "X": 8,
+                    "Y": 4,
+                    "Width": 2,
+                    "Height": 1
+               },
+               "When": {
+                    "Day": "7, 14, 21, 28",
+                    "Weather |contains=Rain, Storm": false,
+                    "Season": "Spring,Summer,Fall"
+               }
+          },
+          { //Bence axe3 Rain
+               "Action": "EditMap",
+               "Target": "Maps/Custom_BenceCabinInterior",
+               "FromFile": "assets/Maps/MapPatches/BenceAxe3.tmx",
+               "ToArea": {
+                    "X": 8,
+                    "Y": 4,
+                    "Width": 2,
+                    "Height": 1
+               },
+               "When": {
+                    "Weather |contains=Rain, Storm": true,
+                    "Season": "Spring,Summer,Fall"
+               }
+          },
+          { //Bence axe3 Winter
+               "Action": "EditMap",
+               "Target": "Maps/Custom_BenceCabinInterior",
+               "FromFile": "assets/Maps/MapPatches/BenceAxe3.tmx",
+               "ToArea": {
+                    "X": 8,
+                    "Y": 4,
+                    "Width": 2,
+                    "Height": 1
+               },
+               "When": {
+                    "Season": "Winter"
+               }
+          },
+          { //Mark Shortcut
+               "Action": "EditMap",
+               "Target": "Maps/Town",
+               "FromFile": "assets/Maps/MapPatches/Shortcut_MarkFarm.tmx",
+               "ToArea": {
+                    "X": 4,
+                    "Y": 0,
+                    "Width": 8,
+                    "Height": 21
+               }
+          },
+          {
+              "Action": "EditMap",
+              "Target": "Maps/Town",
+              "MapProperties": {
+                    "Warp": "-1 54 BusStop 42 23 -1 55 BusStop 42 24 81 -1 Mountain 15 40 79 -1 Mountain 15 40 80 -1 Mountain 15 40 82 -1 Mountain 15 40 83 -1 Mountain 15 40 7 -1 Custom_MarkFarm 42 34 6 -1 Custom_MarkFarm 42 34 8 -1 Custom_MarkFarm 42 34 -1 90 Forest 118 25 -1 89 Forest 118 25 -1 91 Forest 118 25 92 45 MovieTheater 13 4 119 72 Custom_ShearwaterBridge 0 20 119 73 Custom_ShearwaterBridge 0 20 119 74 Custom_ShearwaterBridge 0 20 119 75 Custom_ShearwaterBridge 0 20 119 76 Custom_ShearwaterBridge 0 20 57 116 Beach 38 0 58 116 Beach 38 0 59 116 Beach 38 0 60 116 Beach 38 0"
+              }
+              /*"AddWarps": [
+                    "7 -1 Custom_MarkFarm 42 34",
+                    "6 -1 Custom_MarkFarm 42 34",
+                    "8 -1 Custom_MarkFarm 42 34"
+              ]*/
+          },
+          { //Mark Shortcut EggFestival
+               "Action": "EditMap",
+               "Target": "Maps/Town-EggFestival",
+               "FromFile": "assets/Maps/MapPatches/Shortcut_MarkFarm.tmx",
+               "ToArea": {
+                    "X": 4,
+                    "Y": 0,
+                    "Width": 8,
+                    "Height": 21
+               }
+          },
+          { //Mark Shortcut EggFestival2
+               "Action": "EditMap",
+               "Target": "Maps/Town-EggFestival2",
+               "FromFile": "assets/Maps/MapPatches/Shortcut_MarkFarm.tmx",
+               "ToArea": {
+                    "X": 4,
+                    "Y": 0,
+                    "Width": 8,
+                    "Height": 21
+               }
+          },
+          { //Mark Shortcut Fair
+               "Action": "EditMap",
+               "Target": "Maps/Town-Fair",
+               "FromFile": "assets/Maps/MapPatches/Shortcut_MarkFarm-Fair.tmx",
+               "ToArea": {
+                    "X": 4,
+                    "Y": 0,
+                    "Width": 8,
+                    "Height": 21
+               }
+          },
+          { //Mark Shortcut Fair2
+               "Action": "EditMap",
+               "Target": "Maps/Town-Fair2",
+               "FromFile": "assets/Maps/MapPatches/Shortcut_MarkFarm.tmx",
+               "ToArea": {
+                    "X": 4,
+                    "Y": 0,
+                    "Width": 8,
+                    "Height": 21
+               }
+          },
+          { //Mark Shortcut Halloween
+               "Action": "EditMap",
+               "Target": "Maps/Town-Halloween",
+               "FromFile": "assets/Maps/MapPatches/Shortcut_MarkFarm-Halloween.tmx",
+               "ToArea": {
+                    "X": 4,
+                    "Y": 0,
+                    "Width": 8,
+                    "Height": 21
+               }
+          },
+          { //Mark Shortcut Halloween2
+               "Action": "EditMap",
+               "Target": "Maps/Town-Halloween2",
+               "FromFile": "assets/Maps/MapPatches/Shortcut_MarkFarm-Halloween2.tmx",
+               "ToArea": {
+                    "X": 4,
+                    "Y": 0,
+                    "Width": 7,
+                    "Height": 15
+               }
+          },
+          { //Mark Shortcut Christmas
+               "Action": "EditMap",
+               "Target": "Maps/Town-Christmas",
+               "FromFile": "assets/Maps/MapPatches/Shortcut_MarkFarm.tmx",
+               "ToArea": {
+                    "X": 4,
+                    "Y": 0,
+                    "Width": 8,
+                    "Height": 21
+               }
+          },
+          { //Mark Shortcut Christmas2
+               "Action": "EditMap",
+               "Target": "Maps/Town-Christmas2",
+               "FromFile": "assets/Maps/MapPatches/Shortcut_MarkFarm.tmx",
+               "ToArea": {
+                    "X": 4,
+                    "Y": 0,
+                    "Width": 8,
+                    "Height": 21
+               }
+          },
+          { //Leaf patches
+               "Action": "EditMap",
+               "Target": "Maps/Custom_MarkFarm",
+               "FromFile": "assets/Maps/MapPatches/MarkFarm_Leaves.tbin",
+               "When": {
+                    "Season": "Fall",
+                    "SeasonalEdits": true
+               },
+               "ToArea": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 45,
+                    "Height": 35
+               }
+          },
+          { //Mark Backwoods Sign
+               "Action": "EditMap",
+               "Target": "Maps/Backwoods",
+               "FromFile": "assets/Maps/MapPatches/Backwoods_Sign.tmx",
+               "ToArea": {
+                    "X": 43,
+                    "Y": 12,
+                    "Width": 1,
+                    "Height": 1
+               }
+          },
+          { //Mark House Roof on recive day
+               "Action": "EditMap",
+               "Target": "Maps/Custom_MarkFarm",
+               "FromFile": "Assets/Maps/MapPatches/MarkHouse_BrokenRoof.tmx",
+               "ToArea": {
+                    "X": 37,
+                    "Y": 7,
+                    "Width": 2,
+                    "Height": 2
+               },
+               "When": {
+                    //"Season": "Summer",
+                    //"Day": "27",
+                    //"Year": "1"
+                    "HasFlag": "summer_27_1",
+                    "HasReadLetter |contains=summer_27_1": false
+               }
+          },
+          { //Mark House Roof
+               "Action": "EditMap",
+               "Target": "Maps/Custom_MarkFarm",
+               "FromFile": "Assets/Maps/MapPatches/MarkHouse_BrokenRoof.tmx",
+               "ToArea": {
+                    "X": 37,
+                    "Y": 7,
+                    "Width": 2,
+                    "Height": 2
+               },
+               "When": {
+                    //"HasFlag": "summer_27_1",
+                    "HasActiveQuest": "2201"
+                    //"HasActiveQuest |contains=2201": true
+               }
+          },
+          {
+               "Action": "EditData",
+               "Target": "Data/ChairTiles",
+               "Entries": {
+                    "spring_BenceCabinTilesheet/5/10": "2/1/down/bench/0/0/true",
+                    "spring_BenceCabinTilesheet/4/4": "1/1/right/custom 0.1 0.3 0/0/0/true",
+                    "HG_Cave/0/7": "1/1/down/stool/-1/-1/false",
+                    "HG_Cave/1/7": "1/1/down/stool/-1/-1/false",
+               }
+          },
+          { //Mark Farm Sign
+               "Action": "EditMap",
+               "Target": "Maps/Custom_MarkFarm",
+               "FromFile": "Assets/Maps/MapPatches/MarkFarm_Sign.tbin",
+               "ToArea": {
+                    "X": 35,
+                    "Y": 18,
+                    "Width": 3,
+                    "Height": 2
+               },
+               "When": {
+                    "HasFlag": "MarkReward2"
+               }
+          },
+          { //HG_Cave Entrance
+               "Action": "EditMap",
+               "Target": "Maps/Custom_MarkFarmCave",
+               "FromFile": "assets/Maps/MapPatches/HGCave_Entrance.tbin",
+               "ToArea": {
+                    "X": 4,
+                    "Y": 1,
+                    "Width": 3,
+                    "Height": 4
+               },
+               "Update": "OnLocationChange",
+               "When": {
+                    "HasSeenEvent: anyPlayer|contains=2001301": true
+               }
+          },
+     ]
+}

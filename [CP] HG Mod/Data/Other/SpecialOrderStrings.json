@@ -1,0 +1,29 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Strings/SpecialOrderStrings",
+			"Entries": {
+        "Christopher_Name": "{{i18n:Christopher_SO.Name}}",
+        "Christopher_Text": "{{i18n:Christopher_SO.Text}}",
+        "Christopher_Objective_0_Text": "{{i18n:Christopher_SO.Objective}}",
+
+        "Bence_Name": "{{i18n:Bence_SO.Name}}",
+        "Bence_Text": "{{i18n:Bence_SO.Text}}",
+        "Bence_Objective_0_Text": "{{i18n:Bence_SO.Objective_0}}",
+        "Bence_Objective_1_Text": "{{i18n:Bence_SO.Objective_1}}",
+
+        "Mark_Name": "{{i18n:Mark_SO.Name}}",
+        "Mark_Text": "{{i18n:Mark_SO.Text}}",
+        "Mark_Objective_0_Text": "{{i18n:Mark_SO.Objective_0}}",
+        "Mark_Objective_1_Text": "{{i18n:Mark_SO.Objective_1}}",
+        "Mark_Objective_2_Text": "{{i18n:Mark_SO.Objective_2}}",
+
+        
+        "Mark2_Name": "{{i18n:Mark2_SO.Name}}",
+        "Mark2_Text": "{{i18n:Mark2_SO.Text}}",
+        "Mark2_Objective_0_Text": "{{i18n:Mark2_SO.Objective_0}}"
+      }
+    }
+  ]
+}

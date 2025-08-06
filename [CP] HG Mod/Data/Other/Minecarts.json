@@ -1,0 +1,25 @@
+{
+    "Changes": [
+        // add minecart destination
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [ "Default", "Destinations" ], // for the "Default" network, edit the "Destinations" field
+            "Entries": {
+                "HG_Cave": {
+                    "Id": "HG_Cave",
+                    "DisplayName": "{{i18n:HG_Cave.Minecart}}",
+                    "Condition": "LOCATION_ACCESSIBLE Custom_HGCave",
+
+                    "TargetLocation": "Custom_HGCave",
+                    "TargetTile": { "X": 12, "Y": 24 },
+                    "TargetDirection": "right",
+                }
+            },
+            "Update": "OnLocationChange",
+            "When":{
+                "DLX.Bundles/Purchased":"Bencedemon.Minecart" //(!)
+            }
+        }
+    ]
+}

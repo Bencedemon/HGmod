@@ -1,0 +1,21 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "LogName": "Gift tastes: Pam",
+            "TextOperations": [
+                {/*Love*/
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Pam",
+                        1
+                    ],
+                    "Value": "Bencedemon.HG_Palinka",
+                    "Delimiter": " "
+                }
+            ]
+        },
+    ]
+}

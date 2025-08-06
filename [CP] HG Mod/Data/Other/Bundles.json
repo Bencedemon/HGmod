@@ -1,0 +1,285 @@
+{
+   "Changes":[
+      {
+         "Action":"EditData",
+         "Target":"UnlockableBundles/Bundles",
+         "Entries":{
+            "Bencedemon.Minecart":{
+               "Location": "Custom_HGCave", //You can use the ub location command in the smapi console to get the current location name
+               "BundleName": "{{i18n:Bundle.Minecart.Name}}",
+               "BundleDescription": "{{i18n:Bundle.Minecart.Desc}}",
+               "BundleCompletedRibbon": "Bencedemon.Ribbon",
+               //"ShopTexture":"MyModName/BridgeChunk", //A game asset containing the bundles shop texture
+               "DrawQuestionMark": true, //Draws a yellow question mark above the shop texture
+               "QuestionMarkOffset": "32, 32", //The coordinates of the bundle shop the player interacts with
+               "ShopPosition":"13, 23",
+               "Price": {
+                  "335": 10, //335 is the ItemID for Iron; Price:120g
+                  "388": 50 //388 is the ItemID for Wood; Price:2g
+               },
+               "EditMap": "{{InternalAssetKey: Assets/Maps/MapPatches/HGCave_Minecart.tbin}}", //A map patch that will be applied after purchase
+               "EditMapPosition": "10, 22" //The top left coordinates of where the EditMap patch will be applied
+            },
+            "Bencedemon.MinecartRide":{
+               "Location": "Custom_HGCave", //You can use the ub location command in the smapi console to get the current location name
+               "BundleName": "{{i18n:Bundle.MinecartRide.Name}}",
+               "BundleDescription": "{{i18n:Bundle.MinecartRide.Desc}}",
+               "BundleCompletedRibbon": "Bencedemon.Ribbon",
+               //"ShopTexture":"MyModName/BridgeChunk", //A game asset containing the bundles shop texture
+               "DrawQuestionMark": true, //Draws a yellow question mark above the shop texture
+               "QuestionMarkOffset": "32, 32", //The coordinates of the bundle shop the player interacts with
+               "ShopPosition":"17, 19",
+               "Price": {
+                  "335": 25, //335 is the ItemID for Iron; Price:120g
+                  "388": 125, //388 is the ItemID for Wood; Price:2g
+                  "709": 50 //709 is the ItemID for Hardwood; Price:15g
+               },
+               "EditMap": "{{InternalAssetKey: Assets/Maps/MapPatches/HGCave_MinecartRide.tbin}}", //A map patch that will be applied after purchase
+               "EditMapPosition": "13, 15", //The top left coordinates of where the EditMap patch will be applied
+               "BundleReward": {
+                  "(BC)264": 1, //Heavy Tapper
+                  "money": 4000
+               }
+            },
+            "Bencedemon.GiftShop":{
+               "Location": "Custom_HGCave", //You can use the ub location command in the smapi console to get the current location name
+               "BundleName": "{{i18n:Bundle.GiftShop.Name}}",
+               "BundleDescription": "{{i18n:Bundle.GiftShop.Desc}}",
+               "BundleCompletedRibbon": "Bencedemon.Ribbon",
+               //"ShopTexture":"MyModName/BridgeChunk", //A game asset containing the bundles shop texture
+               "DrawQuestionMark": true, //Draws a yellow question mark above the shop texture
+               "QuestionMarkOffset": "32, 32", //The coordinates of the bundle shop the player interacts with
+               "ShopPosition":"14, 20",
+               "Price": {
+                  "334": 5, //334 is the ItemID for Copper; Price:60g
+                  "388": 100 //388 is the ItemID for Wood; Price:2g
+               },
+               "EditMap": "{{InternalAssetKey: Assets/Maps/MapPatches/HGCave_GiftShop.tbin}}", //A map patch that will be applied after purchase
+               "EditMapPosition": "12, 18", //The top left coordinates of where the EditMap patch will be applied
+               "BundleReward": {
+                  "(BC)BigChest": 1,
+                  "money": 500
+               }
+            },
+            "Bencedemon.Bar":{
+               "Location": "Custom_HGCave", //You can use the ub location command in the smapi console to get the current location name
+               "BundleName": "{{i18n:Bundle.Bar.Name}}",
+               "BundleDescription": "{{i18n:Bundle.Bar.Desc}}",
+               "BundleCompletedRibbon": "Bencedemon.Ribbon",
+               //"ShopTexture":"MyModName/BridgeChunk", //A game asset containing the bundles shop texture
+               "DrawQuestionMark": true, //Draws a yellow question mark above the shop texture
+               "QuestionMarkOffset": "32, 32", //The coordinates of the bundle shop the player interacts with
+               "ShopPosition":"38, 19",
+               "Price": {
+                  "335": 5, //335 is the ItemID for Iron; Price:120g
+                  "390": 150, //390 is the ItemID for Stone; Price:2g
+                  "388": 125, //388 is the ItemID for Wood; Price:2g
+                  "709": 50 //709 is the ItemID for Hardwood; Price:15g
+               },
+               "EditMap": "{{InternalAssetKey: Assets/Maps/MapPatches/HGCave_Bar.tbin}}", //A map patch that will be applied after purchase
+               "EditMapPosition": "35, 10", //The top left coordinates of where the EditMap patch will be applied
+               "EditMapMode": "ReplaceByLayer",
+               "BundleReward": {
+                  "(BC)Bencedemon.HG_PalinkaDistillery": 1,
+                  "money": 1900
+               }
+            },
+            "Bencedemon.Viewpoint":{
+               "Location": "Custom_HGCave", //You can use the ub location command in the smapi console to get the current location name
+               "BundleName": "{{i18n:Bundle.Viewpoint.Name}}",
+               "BundleDescription": "{{i18n:Bundle.Viewpoint.Desc}}",
+               "BundleCompletedRibbon": "Bencedemon.Ribbon",
+               //"ShopTexture":"MyModName/BridgeChunk", //A game asset containing the bundles shop texture
+               "DrawQuestionMark": true, //Draws a yellow question mark above the shop texture
+               "QuestionMarkOffset": "32, 32", //The coordinates of the bundle shop the player interacts with
+               "ShopPosition":"32, 16",
+               "Price": {
+                  "334": 10, //334 is the ItemID for Copper; Price:60g
+                  "388": 300, //388 is the ItemID for Wood; Price:2g
+                  "709": 50 //709 is the ItemID for Hardwood; Price:15g
+               },
+               "EditMap": "{{InternalAssetKey: Assets/Maps/MapPatches/HGCave_Viewpoint.tbin}}", //A map patch that will be applied after purchase
+               "EditMapPosition": "27, 10", //The top left coordinates of where the EditMap patch will be applied
+               "EditMapMode": "ReplaceByLayer",
+               "BundleReward": {
+                  "(BC)FishSmoker": 1,
+                  "money": 1950
+               }
+            },
+            "Bencedemon.Seats":{
+               "Location": "Custom_HGCave", //You can use the ub location command in the smapi console to get the current location name
+               "BundleName": "{{i18n:Bundle.Seats.Name}}",
+               "BundleDescription": "{{i18n:Bundle.Seats.Desc}}",
+               "BundleCompletedRibbon": "Bencedemon.Ribbon",
+               //"ShopTexture":"MyModName/BridgeChunk", //A game asset containing the bundles shop texture
+               "DrawQuestionMark": true, //Draws a yellow question mark above the shop texture
+               "QuestionMarkOffset": "32, 32", //The coordinates of the bundle shop the player interacts with
+               "ShopPosition":"45, 23",
+               "Price": {
+                  "428": 5, //428 is the ItemID for Cloth; Price:470g
+                  "388": 140 //388 is the ItemID for Wood; Price:2g
+               },
+               "EditMap": "{{InternalAssetKey: Assets/Maps/MapPatches/HGCave_Seats.tbin}}", //A map patch that will be applied after purchase
+               "EditMapPosition": "32, 19", //The top left coordinates of where the EditMap patch will be applied
+               //"EditMapMode": "ReplaceByLayer",
+               "BundleReward": {
+                  "628": 1,
+                  "629": 1,
+                  "630": 1,
+                  "631": 1,
+                  "632": 1,
+                  "633": 1,
+                  "FlashShifter.StardewValleyExpandedCP_Pear_Sapling": 1,
+                  "FlashShifter.StardewValleyExpandedCP_Nectarine_Sapling": 1,
+                  "FlashShifter.StardewValleyExpandedCP_Persimmon_Sapling": 1,
+                  "Bencedemon.HG_Lemon_Sapling": 1,
+                  "money": 2630
+               },
+               "RandomRewardEntries": 1
+            },
+            "Bencedemon.Final":{
+               "Location": "Custom_HGCave", //You can use the ub location command in the smapi console to get the current location name
+               "BundleName": "{{i18n:Bundle.Final.Name}}",
+               "BundleDescription": "{{i18n:Bundle.Final.Desc}}",
+               "BundleCompletedRibbon": "Bencedemon.Ribbon",
+               //"ShopTexture":"MyModName/BridgeChunk", //A game asset containing the bundles shop texture
+               "DrawQuestionMark": true, //Draws a yellow question mark above the shop texture
+               "QuestionMarkOffset": "32, 32", //The coordinates of the bundle shop the player interacts with
+               "ShopPosition":"29, 23",
+               "Price": {
+                  "346:Silver": 10, //346 is the ItemID for Beer; Price:250g(silver)
+                  "348": 10, //348 is the ItemID for Wine; Price:400g
+                  "Bencedemon.HG_Palinka": 10, //Bencedemon.HG_Palinka is the ItemID for Palinka; Price:500g
+                  "350": 25 //350 is the ItemID for Juice; Price:150g
+               },
+               "SpecialPlacementRequirements":  [
+                  {
+                     "Type": "BundleCompletion",
+                     "BundleKey": "Bencedemon.MinecartRide"
+                  },
+                  {
+                     "Type": "BundleCompletion",
+                     "BundleKey": "Bencedemon.GiftShop"
+                  },
+                  {
+                     "Type": "BundleCompletion",
+                     "BundleKey": "Bencedemon.Bar"
+                  },
+                  {
+                     "Type": "BundleCompletion",
+                     "BundleKey": "Bencedemon.Viewpoint"
+                  },
+                  {
+                     "Type": "BundleCompletion",
+                     "BundleKey": "Bencedemon.Seats"
+                  }
+               ],
+               "BundleCompletedActions": [
+                  "AddMail All HGCave_Opening"
+               ],
+               "BundleReward": {
+                  "money": 15250
+               },
+               "ShopEvent": "None"
+            }
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "UnlockableBundles/CompletionRibbons",
+         "Entries": {
+            "Bencedemon.Ribbon": { //The ribbon id should be unique.
+               "Texture": "{{InternalAssetKey: Assets/Textures/HG_BundleRibbon.png}}", 
+               "TextureSource": { "X": 0, "Y": 0, "Width": 161, "Height": 71 },
+               "CompletedTextPosition": "25, 33",//"80, 45",
+               "Effects": [
+                  {
+                     "Texture": "{{InternalAssetKey: Assets/Textures/HG_BundleRibbon_Animation00.png}}",
+                     "TextureSource": { "X": 0, "Y": 0, "Width": 1, "Height": 25 },
+                     "Animation": "0@500, 1-25@25",
+                     "Area": { "X": 86, "Y": 40, "Width": 0, "Height": 0 },
+                     "Repeat": true,
+                     "Drag": false,
+                  },
+                  {
+                     "Texture": "{{InternalAssetKey: Assets/Textures/HG_BundleRibbon_Animation01.png}}",
+                     "TextureSource": { "X": 0, "Y": 0, "Width": 1, "Height": 38 },
+                     "Animation": "0@850, 1-38@25",
+                     "Area": { "X": 47, "Y": 27, "Width": 0, "Height": 0 },
+                     "Repeat": true,
+                     "Drag": false,
+                  },
+               ]
+            }
+         }
+      },
+      { //HG_Cave Final
+         "Action": "EditMap",
+         "Target": "Maps/Custom_HGCave",
+         "FromFile": "assets/Maps/MapPatches/HGCave_Final.tbin",
+         "ToArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 50,
+            "Height": 30
+         },
+         "Update": "OnLocationChange",
+         "PatchMode": "Overlay",
+         "When": {
+            "HasFlag": "HGCave_Opening"
+         }
+      },
+      { //HG_Cave Dwarfs
+         "Action": "EditMap",
+         "Target": "Maps/Custom_HGCave",
+         "FromFile": "assets/Maps/MapPatches/HGCave_Dwarfs.tbin",
+         "ToArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 50,
+            "Height": 30
+         },
+         "Update": "OnLocationChange",
+         "PatchMode": "Overlay",
+         "When": {
+            "HasFlag": "HGCave_Opening",
+            "Day": "6, 7, 13, 14, 20, 21, 27, 28",
+         }
+      },
+      { //HG_Cave Visitors
+         "Action": "EditMap",
+         "Target": "Maps/Custom_HGCave",
+         "FromFile": "assets/Maps/MapPatches/HGCave_Visitors.tbin",
+         "ToArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 50,
+            "Height": 30
+         },
+         "Update": "OnLocationChange",
+         "PatchMode": "Overlay",
+         "When": {
+            "HasFlag": "HGCave_Opening",
+            "Day": "6, 7, 13, 14, 20, 21, 27, 28",
+            "Time": "{{Range: 800, 2400}}"
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Locations",
+         "Fields": {
+            "Custom_HGCave": {
+               "MusicDefault": "fallFest"
+            }
+         },
+         "Update": "OnLocationChange",
+         "When": {
+            "HasFlag": "HGCave_Opening",
+            "Day": "6, 7, 13, 14, 20, 21, 27, 28",
+            "Time": "{{Range: 800, 2400}}"
+         }
+      },
+
+   ]
+}
+ 

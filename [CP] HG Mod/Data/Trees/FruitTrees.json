@@ -1,0 +1,48 @@
+{
+    "Changes": [
+        
+        //Fruit Trees
+        {
+            "Action": "Load",
+            "Target": "Mods/Bencedemon.HG/HGLemonTree",
+            "FromFile": "Assets/Trees/HG_Lemon_Tree.png",
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/FruitTrees",
+            "Entries": {
+			    //Lemon Tree
+                "Bencedemon.HG_Lemon_Sapling": {
+                    "DisplayName": "{{i18n:Object.Lemon.Name}}",
+                    "Seasons": [
+                        "Spring", "Summer", "Fall", "Winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "Season": null,
+                            "Chance": 1.0,
+                            "Condition": null,
+                            "Id": "Bencedemon.HG_Lemon",
+                            "ItemId": "Bencedemon.HG_Lemon",
+                            "RandomItemId": null,
+                            "MinStack": -1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "ObjectInternalName": null,
+                            "ObjectDisplayName": null,
+                            "ToolUpgradeLevel": -1,
+                            "IsRecipe": false,
+                            "StackModifiers": null,
+                            "StackModifierMode": "Stack",
+                            "QualityModifiers": null,
+                            "QualityModifierMode": "Stack"
+                        }
+                    ],
+                    "Texture": "Mods\\Bencedemon.HG\\HGLemonTree",
+                    "TextureSpriteRow": 0,
+                    "CustomFields": {}
+                }
+            }
+        },
+    ]
+}

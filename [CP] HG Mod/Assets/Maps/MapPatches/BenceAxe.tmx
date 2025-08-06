@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="1" height="3" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="3">
+ <tileset firstgid="1" name="spring_BenceCabinTilesheet" tilewidth="16" tileheight="16" tilecount="187" columns="17">
+  <image source="spring_BenceCabinTilesheet.png" width="272" height="176"/>
+ </tileset>
+ <layer id="2" name="Buildings" width="1" height="3">
+  <data encoding="csv">
+0,
+186,
+142
+</data>
+ </layer>
+ <layer id="6" name="Buildings2" width="1" height="3">
+  <properties>
+   <property name="Draw" value="Buildings"/>
+  </properties>
+  <data encoding="csv">
+0,
+0,
+0
+</data>
+ </layer>
+ <layer id="4" name="Front" width="1" height="3">
+  <data encoding="csv">
+0,
+125,
+0
+</data>
+ </layer>
+ <objectgroup id="3" name="Buildings">
+  <object id="1" name="TileData" x="0" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;BenceCabinOutside.Axe&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="Buildings2"/>
+ <objectgroup id="5" name="Front"/>
+</map>

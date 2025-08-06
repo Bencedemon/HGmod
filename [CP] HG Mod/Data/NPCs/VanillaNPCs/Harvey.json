@@ -1,0 +1,21 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Harvey",
+			"TextOperations": [
+                {/*Dislike*/
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Harvey",
+                        5
+                    ],
+                    "Value": "Bencedemon.HG_Langos Bencedemon.HG_StrawberrySundae Bencedemon.HG_CottonCandy Bencedemon.HG_Fries Bencedemon.HG_Popcorn",
+                    "Delimiter": " "
+                }
+			]
+		},
+	]
+}

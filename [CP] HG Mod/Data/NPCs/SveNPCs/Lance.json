@@ -1,0 +1,41 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Lance",
+			"TextOperations": [
+                {/*Love*/
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Lance",
+                        1
+                    ],
+                    "Value": "Bencedemon.HG_Palinka",
+                    "Delimiter": " "
+                },
+				{/*Dislike*/
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Lance",
+						5
+					],
+					"Value": "Bencedemon.HG_CottonCandy",
+					"Delimiter": " "
+				},
+				{/*Hate*/ 
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Lance",
+						7
+					],
+					"Value": "Bencedemon.HG_StrawberrySundae Bencedemon.HG_Langos",
+					"Delimiter": " "
+				}
+			]
+		},
+	]
+}

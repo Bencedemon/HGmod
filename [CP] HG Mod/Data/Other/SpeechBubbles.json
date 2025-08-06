@@ -1,0 +1,13 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Strings/SpeechBubbles",
+			"Entries": {
+                "FishShop_Christopher_Greeting1": "Ó, szia!",
+                "FishShop_Christopher_Greeting2": "Helló.",
+                "FishShop_Christopher_Greeting3": "Szia, {0}"
+            } 
+        }
+    ]
+}

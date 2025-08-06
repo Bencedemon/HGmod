@@ -1,0 +1,31 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Morris",
+			"TextOperations": [
+				{/*Dislike*/
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Morris",
+						5
+					],
+					"Value": "Bencedemon.HG_Palinka",
+					"Delimiter": " "
+				},
+				{/*Hate*/ 
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Morris",
+						7
+					],
+					"Value": "Bencedemon.HG_Langos",
+					"Delimiter": " "
+				}
+			]
+		}
+	]
+}

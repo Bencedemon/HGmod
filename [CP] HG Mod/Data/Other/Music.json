@@ -1,0 +1,89 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries":{
+                "Bencedemon.HG_Horthy": {
+                    "ID": "Bencedemon.HG_Horthy",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Horthy.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "Bencedemon.HG_Sif": {
+                    "ID": "Bencedemon.HG_Sif",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Sif.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "Bencedemon.HG_ChrisDrum": {
+                    "ID": "Bencedemon.HG_ChrisDrum",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/ChrisDrum.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                },
+                "Bencedemon.HG_BenceCabin": {
+                    "ID": "Bencedemon.HG_BenceCabin",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/BenceCabin.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "Bencedemon.HG_SotetUtakon": {
+                    "ID": "Bencedemon.HG_SotetUtakon",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/SotetUtakon.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+            },
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Fields": {
+                "BusStop": {
+                    "MusicDefault": "Bencedemon.HG_Sif"
+                }
+            },
+            "When": {
+                "Day": "12"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Custom_BenceCabinInterior",
+            "Fields": {
+                "BusStop": {
+                    "MusicDefault": "Bencedemon.HG_BenceCabin"
+                }
+            },
+            "Update": "OnLocationChange",
+            "When": {
+                "HasSeenEvent: anyPlayer|contains=2001103": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Fields": {
+                "Custom_HGCave": {
+                    "MusicDefault": "Upper_Ambient"
+                }
+            }
+        }
+    ]
+}

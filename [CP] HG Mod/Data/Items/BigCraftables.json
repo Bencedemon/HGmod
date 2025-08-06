@@ -1,0 +1,66 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "Bencedemon.HG_PalinkaDistillery": {
+                    "Name": "PalinkaDistillery",
+                    "DisplayName": "{{i18n:BigCraftables.PalinkaDistillery.Name}}",
+                    "Description": "{{i18n:BigCraftables.PalinkaDistillery.Desc}}",
+                    "Price": 0,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\Bencedemon.HG\\Craftables",
+                    "SpriteIndex": 0,
+                    "ContextTags": null,
+                    "CustomFields": null
+                },
+                "Bencedemon.HG_DeluxBeeHive": {
+                    "Name": "DeluxBeeHive",
+                    "DisplayName": "{{i18n:BigCraftables.DeluxBeeHive.Name}}",
+                    "Description": "{{i18n:BigCraftables.DeluxBeeHive.Desc}}",
+                    "Price": 0,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\Bencedemon.HG\\Craftables",
+                    "SpriteIndex": 1,
+                    "ContextTags": null,
+                    "CustomFields": null
+                },
+                "Bencedemon.HG_Excavator": {
+                    "Name": "Excavator",
+                    "DisplayName": "{{i18n:BigCraftables.Excavator.Name}}",
+                    "Description": "{{i18n:BigCraftables.Excavator.Desc}}",
+                    "Price": 0,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\Bencedemon.HG\\Craftables",
+                    "SpriteIndex": 8,
+                    "ContextTags": null,
+                    "CustomFields": null
+                },
+                "Bencedemon.HG_SakeBarrel": {
+                    "Name": "PalinkaDSakeBarrelistillery",
+                    "DisplayName": "{{i18n:BigCraftables.SakeBarrel.Name}}",
+                    "Description": "{{i18n:BigCraftables.SakeBarrel.Desc}}",
+                    "Price": 0,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\Bencedemon.HG\\Craftables",
+                    "SpriteIndex": 3,
+                    "ContextTags": null,
+                    "CustomFields": null
+                },
+            }
+        }
+    ]
+}

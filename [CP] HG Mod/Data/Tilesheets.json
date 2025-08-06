@@ -1,0 +1,92 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Maps/ChristopherHouseInteriorTilesheet",
+            "FromFile": "Assets/Tilesheets/ChristopherHouseInteriorTilesheet.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/BenceCabinInteriorTilesheet",
+            "FromFile": "Assets/Tilesheets/BenceCabinInteriorTilesheet.png"
+        },
+        { //Adds custom tilesheets and allows other modders to target SVE assets
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Maps/spring_ChristopherHouseTilesheet,Maps/summer_ChristopherHouseTilesheet,Maps/fall_ChristopherHouseTilesheet,Maps/winter_ChristopherHouseTilesheet",
+            "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png",
+        },
+        {
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Maps/spring_LangososTilesheet,Maps/summer_LangososTilesheet,Maps/fall_LangososTilesheet,Maps/winter_LangososTilesheet",
+            "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png",
+        },
+        {
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Maps/spring_BenceCabinTilesheet,Maps/summer_BenceCabinTilesheet,Maps/fall_BenceCabinTilesheet,Maps/winter_BenceCabinTilesheet",
+            "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png",
+        },
+        {
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Maps/spring_MarkHouse,Maps/summer_MarkHouse,Maps/fall_MarkHouse,Maps/winter_MarkHouse",
+            "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png",
+        },
+        {
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Maps/spring_GardenCrops,Maps/summer_GardenCrops,Maps/fall_GardenCrops,Maps/winter_GardenCrops",
+            "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png",
+        },
+        {
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Maps/spring_HG_Shadows,Maps/summer_HG_Shadows,Maps/fall_HG_Shadows,Maps/winter_HG_Shadows",
+            "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png",
+        },
+        {
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Maps/chrisBiketourTiles",
+            "FromFile": "Assets/Tilesheets/chrisBiketourTiles.png"
+        },
+        {
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Maps/benceStargazing",
+            "FromFile": "Assets/Tilesheets/benceStargazing.png"
+        },
+        {
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Maps/mine_Extra",
+            "FromFile": "Assets/Tilesheets/mine_Extra.png"
+        },
+        {
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Maps/HG_Cave",
+            "FromFile": "Assets/Tilesheets/HG_Cave.png"
+        },
+        {
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Maps/HG_Concert",
+            "FromFile": "Assets/Tilesheets/HG_Concert.png"
+        },
+        //{
+        //    "Action": "Load",
+        //    "Priority": "Low",
+        //    "Target": "Maps/hg_mine",
+        //    "FromFile": "Assets/Tilesheets/hg_mine.png"
+        //},
+        {
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Maps/Desert_BenceShop",
+            "FromFile": "Assets/Tilesheets/Desert_BenceShop.png"
+        }
+    ]
+}
