@@ -4,6 +4,9 @@
 			"Action": "EditData",
 			"Target": "Data/NPCGiftTastes",
 			"LogName": "Gift tastes: Apples",
+			"When": {
+				"ApplesHere": "true"
+			},
 			"TextOperations": [
 				{/*Hate*/ 
 					"Operation": "Append",

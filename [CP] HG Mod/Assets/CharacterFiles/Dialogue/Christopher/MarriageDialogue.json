@@ -7,8 +7,8 @@
         //SPECIAL DIALOGUE
         "patio_Christopher": "{{i18n:Christopher.Patio}}",
         "spouseRoom_Christopher": "{{i18n:Christopher.spouseRoom.{{Random:{{Range:1,4}}}}}}",
-        "funLeave_Christopher": "{{i18n:Christopher.funLeave.{{DayCheck}}|default={{i18n:Christopher.funLeave.{{DayOfWeek}}.{{Random:{{Range:1,16}}}}|default={{i18n:Christopher.funLeave.default}}}}}}",
-        "funReturn_Christopher": "{{i18n:Christopher.funReturn.{{DayCheck}}|default={{i18n:Christopher.funReturn.{{DayOfWeek}}.{{Random:{{Range:1,10}}}}|default={{i18n:Christopher.funReturn.default}}}}}}",
+        "funLeave_Christopher": "{{i18n:Christopher.funLeave}}",
+        "funReturn_Christopher": "{{i18n:Christopher.funReturn}}",
         "OneKid_0": "{{i18n:Christopher.OneKid.00}}",
         "OneKid_1": "{{i18n:Christopher.OneKid.01}}",
         "OneKid_2": "{{i18n:Christopher.OneKid.02}}",

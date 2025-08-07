@@ -13,6 +13,7 @@
                 "ChristopherReward": "{{i18n:Mail.ChristopherReward}}",
                 "BenceReward": "{{i18n:Mail.BenceReward}}",
                 "MarkReward": "{{i18n:Mail.MarkReward}}",
+                "MarkReward_return": "{{i18n:Mail.MarkReward_return}}",
                 "MarkReward2": "{{i18n:Mail.MarkReward2}}",
 
                 "HGCave_Opening": "{{i18n:Mail.HGCaveOpening}}",

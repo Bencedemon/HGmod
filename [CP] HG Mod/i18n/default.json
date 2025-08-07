@@ -420,11 +420,11 @@
   "Shirt.MarkShirt.Name": "Kimonó",
   "Shirt.MarkShirt.Desc": "Márk kimonójának másoloata.",
 
-  "Shirt.RedRokcetsShirt.Name": "Red Rockets póló",
-  "Shirt.RedRokcetsShirt.Desc": "Red Rockets együttes hivatalos pólója.",
+  "Shirt.RedRocketsShirt.Name": "Red Rockets póló",
+  "Shirt.RedRocketsShirt.Desc": "Red Rockets együttes hivatalos pólója.",
 
-  "Shirt.RedRokcetsShirtSleeveless.Name": "Red Rockets póló (ujjatlan)",
-  "Shirt.RedRokcetsShirtSleeveless.Desc": "Red Rockets együttes hivatalos ujjatlan pólója.",
+  "Shirt.RedRocketsShirtSleeveless.Name": "Red Rockets póló (ujjatlan)",
+  "Shirt.RedRocketsShirtSleeveless.Desc": "Red Rockets együttes hivatalos ujjatlan pólója.",
 
   //Items (Furniture)
   "Furniture.JukeboxB": "Zenegép",
@@ -594,13 +594,28 @@
   "Mark_SO.Objective_1": "Helyezd a fáklyát Márk háza előtti fa ládába.",
   "Mark_SO.Objective_2": "Helyezd a Bányászok eledelét Márk háza előtti fa ládába.",
 
-  "Mail.MarkReward": "Csá @!^^Vissza tértem!^^Nem volt egyszerű de szerencsére rendesen fel voltam szerelkezve.^^Hogy a jövőben ne keljen kockáztatnom az életemet néhány ércért ezért kitaláltam egy új eszközt ami segíthet a nyersanyag szerzésben.^^Remélem te is hasznát tudod venni.^^ -Márk%item craftingRecipe Excavator%%[#]Márk köszönete",
+  "Mail.MarkReward": "Csá @!^^Köszönöm az adományodat.^^ -Márk[#]Márk köszönete",
+
+  "Mail.MarkReward_return": "Csá @!^^Vissza tértem!^^Nem volt egyszerű de szerencsére rendesen fel voltam szerelkezve.^^Hogy a jövőben ne keljen kockáztatnom az életemet néhány ércért ezért kitaláltam egy új eszközt ami segíthet a nyersanyag szerzésben.^^Remélem te is hasznát tudod venni.^^ -Márk%item craftingRecipe Excavator%%[#]Márk visszatérése",
 
   "Mark2_SO.Name": "Farm tábla",
   "Mark2_SO.Text": "Egy ideje már gondolkodok rajta és nem lenne rosz ha az én farmomnál is lenne egy tábla. Ha valaki tudna nekem szállítani néhány keményfát azt igazán megköszönném.",
   "Mark2_SO.Objective_0": "Helyezd a keményfát Márk háza előtti fa ládába.",
 
   "Mail.MarkReward2": "Csá @!^^Köszönöm a keményfát. Robinnal már neki is láttunk a tábla építéséhez ha van időd gyere és nézd meg mit alkottunk.^^ -Márk ^^UI: A segítségért cserébe megosztok veled egy igazán hasznos receptet ;)%item craftingRecipe SakeBarrel%%[#]Márk táblája",
+
+  //Special Order Events
+  "SO_Event.Mark.01": "Csá @.",
+  "SO_Event.Mark.02": "Most indulok a bányász kalandomra és gondoltam előtte beugrok, hogy személyesen is köszönetet tudjak mondani.",
+
+  "SO_Event.Mark2.01": "Csá @!#$b#Éppen most készültünk el a táblával.",
+  "SO_Event.Mark2.Question": "Szerinted milyen lett?",
+  "SO_Event.Mark2.Answer1": "Nagyon jól néz ki.",
+  "SO_Event.Mark2.02": "Köszönjük, sokat dolgoztunk vele.$h",
+  "SO_Event.Mark2.Answer2": "Egész jó.",
+  "SO_Event.Mark2.03": "Elég sok munkánk volt vele.#$b#De örülök hogy ezzel is megvagyunk.",
+  "SO_Event.Mark2.Answer3": "Nekem nem igazán tetszik.",
+  "SO_Event.Mark2.04": "Hát az kár, pedig sokat dolgoztunk vele.$s",
 
   //Movies
   "HGHorror.Title": "Szombat 13. - A megbügyülőző",
@@ -1030,19 +1045,13 @@
   //MarriageDialogue
   "Christopher.Patio": "Megint nem akar fogni a fék, de szerintem egyszerűbb lesz kicserélnem egy újra.",
 
-  "Christopher.spouseRoom.1": "",
+  "Christopher.spouseRoom.1": "#$c .5#Lehet később dobolok egy kicsit.#$e#Lenne kedved meghallgatni?",
   "Christopher.spouseRoom.2": "",
   "Christopher.spouseRoom.3": "",
   "Christopher.spouseRoom.4": "",
 
-  "Christopher.funLeave.Spring.1": "",
-  "Christopher.funLeave.Summer.1": "",
-  "Christopher.funLeave.Fall.1": "",
-  "Christopher.funLeave.Winter.1": "",
-  "Christopher.funReturn.Spring.1": "",
-  "Christopher.funReturn.Summer.1": "",
-  "Christopher.funReturn.Fall.1": "",
-  "Christopher.funReturn.Winter.1": "",
+  "Christopher.funLeave": "Elmegyek a szalonba inni a boyokkal, későn jövök szóval nem kell megvárnod.",
+  "Christopher.funReturn": "Nem... *böff* nem ittam... sokat.$6",
 
   "Christopher.OneKid.00": "Vajon %kid1 is ugyan olyan alkoholista lesz mint én? $h",
   "Christopher.OneKid.01": "Tegnap megkostoltattam a sört a gyerekünkel és ízlett neki. #$b#Csak viccelek. $h",
@@ -1163,8 +1172,8 @@
   "Bence.GreenRainFinished": "Úgytűnik semmi negatív hatása nem volt a tegnapi esőnek, *motyogva* azon kívül, hogy megint beázott a házam.",
   "Bence.GiftPizza": "Ezt később meg is eszem. Köszönöm. $h",
   "Bence.GiftLangos": "Imádlak. $h",
-  "Bence.AcceptBirthdayGift_Positive": "Oh... tudtad, hogy ma van a születésnapom. $h#$b#Köszönöm az ajádnékot @. $h",
-  "Bence.AcceptBirthdayGift_Negative": "Oh... tudtad, hogy ma van a születésnapom. $h#$b#Még ajádnékod is van... köszönöm... $s",
+  "Bence.AcceptBirthdayGift_Positive": "Oh... tudtad, hogy ma van a születésnapom? $h#$b#Köszönöm az ajádnékot @. $h",
+  "Bence.AcceptBirthdayGift_Negative": "Oh... tudtad, hogy ma van a születésnapom? $h#$b#Még ajádnékod is van... köszönöm... $s",
   "Bence.AcceptGift_alcohol_item": "Nem igazán rajongok az alkoholos italokért.$s",
   "Bence.DumpsterDiveComment": "Én nem ítélkezek.",
   "Bence.married_Christopher": "",
@@ -1208,7 +1217,7 @@
   "Bence.SummerCharacterDialogue.001": "Annyira nincs kedvem ma semmihez...",
   "Bence.SummerCharacterDialogue.002": "",
   "Bence.SummerCharacterDialogue.003": "",
-  "Bence.SummerCharacterDialogue.004": "Félek ha a fojó sodrása megváltozik a házam csak szimplán beledől a fojóba.#$b#Lehet nem kelett volna ilyen közel építkeznem hozzá.$u",
+  "Bence.SummerCharacterDialogue.004": "Félek ha a folyó sodrása megváltozik a házam csak szimplán beledől a folyóba.#$b#Lehet nem kelett volna ilyen közel építkeznem hozzá.$u",
   "Bence.SummerCharacterDialogue.005": "",
   "Bence.SummerCharacterDialogue.006": "",
   "Bence.SummerCharacterDialogue.007": "",

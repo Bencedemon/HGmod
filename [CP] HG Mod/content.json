@@ -57,6 +57,12 @@
             "FromMapFile":"Assets/Maps/NewLocations/BenceStargazingSky.tmx"
         }
     ],
+    "DynamicTokens": [
+      {
+        "Name": "ApplesHere",
+        "Value": "{{HasSeenEvent: currentPlayer, hostPlayer |contains=7775927}}"
+      },
+    ],
     "Changes": [
         {
           "Action": "EditImage",

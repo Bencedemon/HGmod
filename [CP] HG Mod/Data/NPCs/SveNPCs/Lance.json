@@ -4,6 +4,9 @@
 			"Action": "EditData",
 			"Target": "Data/NPCGiftTastes",
 			"LogName": "Gift tastes: Lance",
+			"When": {
+				"HasSeenEvent": "6951319"
+			},
 			"TextOperations": [
                 {/*Love*/
                     "Operation": "Append",

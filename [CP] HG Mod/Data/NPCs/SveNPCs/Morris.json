@@ -3,13 +3,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/NPCGiftTastes",
-			"LogName": "Gift tastes: Morris",
+			"LogName": "Gift tastes: MorrisTod",
 			"TextOperations": [
 				{/*Dislike*/
 					"Operation": "Append",
 					"Target": [
 						"Fields",
-						"Morris",
+						"MorrisTod",
 						5
 					],
 					"Value": "Bencedemon.HG_Palinka",
@@ -19,7 +19,7 @@
 					"Operation": "Append",
 					"Target": [
 						"Fields",
-						"Morris",
+						"MorrisTod",
 						7
 					],
 					"Value": "Bencedemon.HG_Langos",

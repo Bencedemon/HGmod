@@ -46,10 +46,10 @@
                     "CanChooseDuringCharacterCustomization": false,
                     "CustomFields": null
                 },
-                "Bencedemon.HG_RedRokcetsShirt": {
-                    "Name": "Red Rokcets Shirt",
-                    "DisplayName": "{{i18n:Shirt.RedRokcetsShirt.Name}}",
-                    "Description": "{{i18n:Shirt.RedRokcetsShirt.Desc}}",
+                "Bencedemon.HG_RedRocketsShirt": {
+                    "Name": "Red Rockets Shirt",
+                    "DisplayName": "{{i18n:Shirt.RedRocketsShirt.Name}}",
+                    "Description": "{{i18n:Shirt.RedRocketsShirt.Desc}}",
                     "Price": 50,
                     "Texture": "Mods\\Bencedemon.HG\\Shirts",
                     "SpriteIndex": 4,
@@ -60,10 +60,10 @@
                     "CanChooseDuringCharacterCustomization": false,
                     "CustomFields": null
                 },
-                "Bencedemon.HG_RedRokcetsShirtSleeveless": {
-                    "Name": "Red Rokcets Shirt Sleeveless",
-                    "DisplayName": "{{i18n:Shirt.RedRokcetsShirtSleeveless.Name}}",
-                    "Description": "{{i18n:Shirt.RedRokcetsShirtSleeveless.Desc}}",
+                "Bencedemon.HG_RedRocketsShirtSleeveless": {
+                    "Name": "Red Rockets Shirt Sleeveless",
+                    "DisplayName": "{{i18n:Shirt.RedRocketsShirtSleeveless.Name}}",
+                    "Description": "{{i18n:Shirt.RedRocketsShirtSleeveless.Desc}}",
                     "Price": 50,
                     "Texture": "Mods\\Bencedemon.HG\\Shirts",
                     "SpriteIndex": 4,

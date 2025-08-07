@@ -3,13 +3,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/NPCGiftTastes",
-			"LogName": "Gift tastes: Gunther",
+			"LogName": "Gift tastes: GuntherSilvian",
 			"TextOperations": [
                 {/*Love*/
                     "Operation": "Append",
                     "Target": [
                         "Fields",
-                        "Gunther",
+                        "GuntherSilvian",
                         1
                     ],
                     "Value": "Bencedemon.HG_Popcorn",
@@ -19,7 +19,7 @@
 					"Operation": "Append",
 					"Target": [
 						"Fields",
-						"Gunther",
+						"GuntherSilvian",
 						5
 					],
 					"Value": "Bencedemon.HG_Palinka Bencedemon.HG_CottonCandy",
@@ -29,7 +29,7 @@
 					"Operation": "Append",
 					"Target": [
 						"Fields",
-						"Gunther",
+						"GuntherSilvian",
 						9
 					],
 					"Value": "Bencedemon.HG_StrawberrySundae",
