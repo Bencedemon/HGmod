@@ -161,13 +161,6 @@
                     "SpriteIndex": 9,
                     "Edibility": 125,
                     "IsDrink": false,
-                    "ExcludeFromFishingCollection": true,
-                    "ExcludeFromShippingCollection": false,
-                    "ExcludeFromRandomSale": true,
-                    "ContextTags": [
-					    "food_sweet",
-						"color_red"
-                    ],
 					"Buffs": [
                         {
                             "Duration": 600,
@@ -184,6 +177,13 @@
                                 "Attack": 1
                             },
                         },
+                    ],
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+					    "food_sweet",
+						"color_red"
                     ]
                 },
                 "Bencedemon.HG_Lemonade": {
@@ -203,6 +203,38 @@
                     "ContextTags": [
                         "drink_item",
 						"color_yellow"
+                    ],
+                    "Buffs": [
+                        {
+                            "Id": "Drink",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 120,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "CombatLevel": 0.0,
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 0.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 0.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 30.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 1.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0,
+                                "AttackMultiplier": 0.0,
+                                "Immunity": 0.0,
+                                "KnockbackMultiplier": 0.0,
+                                "WeaponSpeedMultiplier": 0.0,
+                                "CriticalChanceMultiplier": 0.0,
+                                "CriticalPowerMultiplier": 0.0,
+                                "WeaponPrecisionMultiplier": 0.0
+                            },
+                            "CustomFields": null
+                        }
                     ]
                 },
                 "Bencedemon.HG_IceTea": {
@@ -216,12 +248,44 @@
                     "SpriteIndex": 13,
                     "Edibility": 15,
                     "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id": "Drink",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 120,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "CombatLevel": 0.0,
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 0.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 0.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 30.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 1.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0,
+                                "AttackMultiplier": 0.0,
+                                "Immunity": 0.0,
+                                "KnockbackMultiplier": 0.0,
+                                "WeaponSpeedMultiplier": 0.0,
+                                "CriticalChanceMultiplier": 0.0,
+                                "CriticalPowerMultiplier": 0.0,
+                                "WeaponPrecisionMultiplier": 0.0
+                            },
+                            "CustomFields": null
+                        }
+                    ],
                     "ExcludeFromFishingCollection": true,
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
-                        "drink_green",
-						"color_yellow"
+                        "drink_item",
+						"color_green"
                     ]
                 },
                 "Bencedemon.HG_Sake": {
@@ -232,7 +296,7 @@
                     "Category": -26,
                     "Price": 350,
                     "Texture": "Mods\\Bencedemon.HG\\FoodSpritesheet",
-                    "SpriteIndex": 10,
+                    "SpriteIndex": 3,
                     "ColorOverlayFromNextIndex": false,
                     "Edibility": 15,
                     "IsDrink": true,
@@ -263,6 +327,100 @@
                         //"color_orange",
                     ],
                     "CustomFields": null
+                },
+                "Bencedemon.HG_ChimneyCake": {
+                    "Name": "ChimneyCake",
+                    "DisplayName": "{{i18n:FoodItem.ChimneyCake.Name}}",
+                    "Description": "{{i18n:FoodItem.ChimneyCake.Desc}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 350,
+                    "Texture": "Mods\\Bencedemon.HG\\FoodSpritesheet",
+                    "SpriteIndex": 10,
+                    "Edibility": 65,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 400,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                            "CombatLevel": 0.0,
+                            "FarmingLevel": 0.0,
+                            "FishingLevel": 3.0,
+                            "MiningLevel": 0.0,
+                            "LuckLevel": 0.0,
+                            "ForagingLevel": 0.0,
+                            "MaxStamina": 0.0,
+                            "MagneticRadius": 0.0,
+                            "Speed": 0.0,
+                            "Defense": 0.0,
+                            "Attack": 0.0,
+                            "AttackMultiplier": 0.0,
+                            "Immunity": 0.0,
+                            "KnockbackMultiplier": 0.0,
+                            "WeaponSpeedMultiplier": 0.0,
+                            "CriticalChanceMultiplier": 0.0,
+                            "CriticalPowerMultiplier": 0.0,
+                            "WeaponPrecisionMultiplier": 0.0
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                },
+                "Bencedemon.HG_PizzaHun": {
+                    "Name": "PizzaHun",
+                    "DisplayName": "{{i18n:FoodItem.PizzaHun.Name}}",
+                    "Description": "{{i18n:FoodItem.PizzaHun.Desc}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 400,
+                    "Texture": "Mods\\Bencedemon.HG\\FoodSpritesheet",
+                    "SpriteIndex": 11,
+                    "Edibility": 75,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 600,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                            "CombatLevel": 0.0,
+                            "FarmingLevel": 0.0,
+                            "FishingLevel": 0.0,
+                            "MiningLevel": 0.0,
+                            "LuckLevel": 0.0,
+                            "ForagingLevel": 5.0,
+                            "MaxStamina": 0.0,
+                            "MagneticRadius": 0.0,
+                            "Speed": 0.0,
+                            "Defense": 0.0,
+                            "Attack": 0.0,
+                            "AttackMultiplier": 0.0,
+                            "Immunity": 0.0,
+                            "KnockbackMultiplier": 0.0,
+                            "WeaponSpeedMultiplier": 0.0,
+                            "CriticalChanceMultiplier": 0.0,
+                            "CriticalPowerMultiplier": 0.0,
+                            "WeaponPrecisionMultiplier": 0.0
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
                 },
             }
         }

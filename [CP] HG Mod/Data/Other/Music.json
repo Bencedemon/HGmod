@@ -65,9 +65,9 @@
         },
         {
             "Action": "EditData",
-            "Target": "Data/Custom_BenceCabinInterior",
+            "Target": "Data/Locations",
             "Fields": {
-                "BusStop": {
+                "Custom_BenceCabinInterior": {
                     "MusicDefault": "Bencedemon.HG_BenceCabin"
                 }
             },

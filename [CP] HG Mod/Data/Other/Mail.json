@@ -17,6 +17,10 @@
                 "MarkReward2": "{{i18n:Mail.MarkReward2}}",
 
                 "HGCave_Opening": "{{i18n:Mail.HGCaveOpening}}",
+
+                
+                "ChristopherCooking": "{{i18n:Mail.ChristopherRecipe}}",
+                "BenceCooking": "{{i18n:Mail.BenceRecipe}}",
             }
         }
     ]

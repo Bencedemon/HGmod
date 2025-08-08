@@ -26,6 +26,8 @@
           "IntroductionsQuest": true,
           "PerfectionScore": true,
           "EndSlideShow": "MainGroup",
+          "DumpsterDiveFriendshipEffect": 0,
+          "DumpsterDiveEmote": 8,
           "SpouseRoom": {
             "MapAsset": "Custom_ChristopherRoom",
             "MapSourceRect": {
@@ -129,7 +131,7 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-        "Christopher": "{{i18n:Christopher.Gifts.Loved}}/ Bencedemon.HG_Langos Bencedemon.HG_Palinka 163 254 346 681 727 DeluxBait
+        "Christopher": "{{i18n:Christopher.Gifts.Loved}}/Bencedemon.HG_ChimneyCake Bencedemon.HG_Langos Bencedemon.HG_Palinka 163 254 346 681 727 DeluxBait
         /{{i18n:Christopher.Gifts.Liked}}/alcohol_item -4 -6 -22
         /{{i18n:Christopher.Gifts.Disliked}}/142
         /{{i18n:Christopher.Gifts.Hated}}/-12
@@ -147,17 +149,6 @@
         "Christopher_bike": "37/37 37 37 37 37 38 38 39 39 38 38 39 38 37 37 37 37 37/37",
         "Christopher_gaming": "40/40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 41 42 42 43 43 43 42 42 41 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40/40//laying_down/offset 0 -32",
         "Christopher_Sleep": "51/51/51"
-      }
-    },
-    {
-      //Christopher's sleep animation - married to character
-      "Action": "EditData",
-      "Target": "Data/animationdescriptions",
-      "When": {
-        "Spouse": "Christopher"
-      },
-      "Entries": {
-        "Christopher_Sleep": "12/12/12"
       }
     },
     //Spouse Room

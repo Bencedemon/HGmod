@@ -1,0 +1,35 @@
+{
+    "Changes": [
+        //Adds sleep tiles to spouse's houses 
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_ChristopherHouseInterior",
+			"Priority": "Late",
+            "FromFile": "Assets/Maps/MapPatches/Christopher_SleepTile.tbin",
+            "When": {
+                "Relationship:Christopher": "Married, Engaged, Dating"
+            },
+            "ToArea": {
+                "X": 1,
+                "Y": 4,
+                "Width": 2,
+                "Height": 1
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_MarkHouseInterior",
+			"Priority": "Late",
+            "FromFile": "Assets/Maps/MapPatches/Mark_SleepTile.tbin",
+            "When": {
+                "Relationship:Mark": "Married, Engaged, Dating"
+            },
+            "ToArea": {
+                "X": 14,
+                "Y": 13,
+                "Width": 3,
+                "Height": 1
+            }
+        },
+    ]
+}

@@ -1,5 +1,22 @@
 {
 	"Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "LogName": "Gift tastes: Sam",
+            "TextOperations": [
+                {/*Love*/
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Sam",
+                        1
+                    ],
+                    "Value": "Bencedemon.HG_PizzaHun",
+                    "Delimiter": " "
+                }
+            ]
+        },
 		{ //Add Victor to Sam 8 heart (+HG)
 			"Action": "EditData",
 			"Target": "Data/Events/BusStop",

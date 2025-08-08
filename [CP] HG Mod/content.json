@@ -98,6 +98,11 @@
             "FromFile": "Data/Locations/GardenPatches.json"
         },
         {
+            "LogName": "SleepTiles",
+            "Action": "Include",
+            "FromFile": "Data/Locations/SleepTiles.json"
+        },
+        {
             "LogName": "Cooking",
             "Action": "Include",
             "FromFile": "Data/Items/FoodItem.json"

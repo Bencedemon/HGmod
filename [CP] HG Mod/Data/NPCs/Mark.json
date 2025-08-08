@@ -27,6 +27,8 @@
             "IntroductionsQuest": true,
             "PerfectionScore": true,
             "EndSlideShow": "MainGroup",
+            "DumpsterDiveFriendshipEffect": 10,
+            "DumpsterDiveEmote": 16,
             "SpouseRoom": {
               "MapAsset": "Custom_MarkRoom",
               "MapSourceRect": {
@@ -121,17 +123,6 @@
             "mark_music": "40/40/40",
             "mark_music_R": "41/41/41",
             "mark_music_L": "42/42/42"
-        }
-      },
-      {
-        //Mark's sleep animation - married to character
-        "Action": "EditData",
-        "Target": "Data/animationdescriptions",
-        "When": {
-          "Spouse": "Mark"
-        },
-        "Entries": {
-          "Mark_Sleep": "43/43/43"
         }
       },
       //Spouse Room

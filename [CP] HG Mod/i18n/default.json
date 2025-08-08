@@ -377,7 +377,13 @@
   "FoodItem.IceTea.Desc":"Citrommal ízesített hűsítő ital.",
 
   "FoodItem.Sake.Name":"Szaké",
-  "FoodItem.Sake.Desc":"Enyhén édes, tiszta lecsengésű, és finom (umami) ízzel rendelkezik",
+  "FoodItem.Sake.Desc":"Enyhén édes, tiszta lecsengésű, és finom (umami) ízzel rendelkezik.",
+
+  "FoodItem.ChimneyCake.Name":"Kürtöskalács",
+  "FoodItem.ChimneyCake.Desc":"Parázs fölött forgatott, dorongon sült sütemény.",
+
+  "FoodItem.PizzaHun.Name":"Magyaros pizza",
+  "FoodItem.PizzaHun.Desc":"Erős, füstös, és minden falatban ott a paprika.",
 
   //Items (Object)
   "Object.ChrisFishingrod.Name":"Elveszett horgászbot",
@@ -690,6 +696,12 @@
   "HG_Cave.Unlock.39": "Én meg beszélek a polgármesterrel, hogy engedélyezné e ezt nekünk.",
   "HG_Cave.Unlock.40": "Én meg beugrok aszalonba inni. $h",
 
+  //HG Cave Opening
+  "HG_Cave.Opening.01": "Hát @, megcsináltuk.",
+  "HG_Cave.Opening.02": "Szeretnék gratulálni mindegyikőtöknek.$0#$b#Hála nektek a völgy hamarosan felkerül a térképre.$h",
+  "HG_Cave.Opening.03": "Figyelj @, lehet sikerült mindent felépítenünk, de csak az én farmom nem lesz elég hogy fel is tudjuk tartani a helyet.#$b#Szóval ha esetleg be tudnál segíteni azt megköszönném.#$b#Vasárnaponként 10-től 18-ig itt leszek a bár mellett, hogy átvegyem amit leszállítasz.",
+  "HG_Cave.Opening.04": "Jólvan csak ennyit akartam, ideje szórakozni.$h",
+
   //Festivals -=Red Rockets koncert=-
   "Festival.Concert.Name": "Red Rockets koncert",
   "Festival.Concert.startedMessage": "A Red Rockets koncert elkezdődött a Hello Guys barlangban.",
@@ -926,6 +938,7 @@
 
   //Mails
   "Mail.Christopher" : "Hali @!^^Tegnap horgászás közben kicsit talán többet ittam mint amennyit kellett volna XD és elvesztettem az egyik kedvenc horgász botomat. Ha esetleg megtalálod valahol vissza tudnád hozni nekem? Ha ezt megteszed nekem akkor vendégem vagy egy sörre.^^ -Kristóf%item quest 2001 %%[#]Kristóf elveszett horgászbotja",
+  "Mail.ChristopherRecipe" : "Hali @!^^Szeretnék megosztani veled egy receptet.^^Remélem ízleni fog. ^^ -Kristóf%item cookingRecipe %%[#]Kristóf receptje",
   "Mail.BikeWChris" : "Hali @!^^Előkészítettem mindent a bicikli túránkra.^^11:30-13:30 között találkozzunk a buszmegállónál.^^ -Kristóf%%[#]Kristóf meghívója",
   //Phone
   "Phone.Christopher": "XD LOL *BÖFF* #$b# *click*",
@@ -1302,6 +1315,7 @@
 
   //Mails
   "Mail.Bence" : "Csá @!^^Kíváncsi vagyok milyen lehet egy pizza a farmodon nőtt termésekből. Tudnál nekem sütni egyet?^^Kössz!^-Bence%item quest 2101 %%[#]Bence pizza rendelése",
+  "Mail.BenceRecipe" : "Helló @!^^Gondoltam megosztok veled egy különleges receptet. ^^Ha elkészíted ne felejtkezz meg rólam. ;) ^^ -Bence%item cookingRecipe %%[#]Bence receptje",
   
   //Phone
   "Phone.Bence": "Halló, egy nagy magyaros pizzát szeretnék rendelni. $3#$b# Hoppá, téves szám. $3#$b# Attólmég @, tudnál nekem hozni egyet? $3#$b# *click* $3",

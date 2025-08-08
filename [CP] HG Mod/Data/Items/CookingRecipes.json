@@ -14,6 +14,9 @@
                 "StrawberrySundae": "245 1 -6 1 400 1 638 1/9999 9999/Bencedemon.HG_StrawberrySundae/null/{{i18n:FoodItem.StrawberrySundae.Name}}",
                 "Lemonade": "Bencedemon.HG_Lemon 1 245 1/9999 9999/Bencedemon.HG_Lemonade/null/{{i18n:FoodItem.Lemonade.Name}}",
                 "IceTea": "815 1 245 1 Bencedemon.HG_Lemon 1/9999 9999/Bencedemon.HG_IceTea/null/{{i18n:FoodItem.IceTea.Name}}",
+                
+                "ChimneyCake": "246 1 -6 1 245 1 -5 2 FlashShifter.StardewValleyExpandedCP_Butter 1/9999 9999/Bencedemon.HG_ChimneyCake/f Christopher 3/{{i18n:FoodItem.ChimneyCake.Name}}",
+                "PizzaHun": "246 1 256 1 424 1 248 1 260 1/9999 9999/Bencedemon.HG_PizzaHun/f Bence 3/{{i18n:FoodItem.PizzaHun.Name}}",
             }
         }
     ]
