@@ -473,7 +473,7 @@
   "Hat.BenceMask.Desc":"...",
 
   "Hat.MarkMask.Name":"Márk maszk",
-  "Hat.MarkMask.Desc":"...",
+  "Hat.MarkMask.Desc":"Kon'nichiwa. Watashinonamaeha Mākudesu.",
 
   //Weapons
   "Weapon.Rebellion.Name": "Rebellion",
@@ -540,19 +540,19 @@
 
   //Bundles
   "Bundle.Minecart.Name": "Csille",
-  "Bundle.Minecart.Desc": "...",
+  "Bundle.Minecart.Desc": "Megakarod javítani a csillét?",
   "Bundle.MinecartRide.Name": "Csille vasút",
-  "Bundle.MinecartRide.Desc": "...",
+  "Bundle.MinecartRide.Desc": "Magakarod építeni a csille vasútat?",
   "Bundle.GiftShop.Name": "Ajándék bolt",
-  "Bundle.GiftShop.Desc": "...",
+  "Bundle.GiftShop.Desc": "Magakarod építeni az ajándék boltot?",
   "Bundle.Bar.Name": "Bár",
-  "Bundle.Bar.Desc": "...",
+  "Bundle.Bar.Desc": "Magakarod építeni a bárt?",
   "Bundle.Viewpoint.Name": "Kilátó",
-  "Bundle.Viewpoint.Desc": "...",
+  "Bundle.Viewpoint.Desc": "Magakarod építeni a kilátót?",
   "Bundle.Seats.Name": "Ülőhelyek",
-  "Bundle.Seats.Desc": "...",
-  "Bundle.Final.Name": "Final",
-  "Bundle.Final.Desc": "...",
+  "Bundle.Seats.Desc": "Magakarod építeni az ülőhelyeket?",
+  "Bundle.Final.Name": "Megnyitó",
+  "Bundle.Final.Desc": "Oda akarod adományozni az italokat e magnyitóhoz?",
 
   //GenreralMails
   "Mail.HGCaveOpening": "Helló @!^^Mégegyszer szeretnénk megköszönni a segítségedet. A nélküled soha nem végeztünk volna.^A megnyitót a tervek szerint a hétvégén fogjuk tartani, reméljük eltudsz jönni.^^ -Hello Guys[#]Hello Guys Barlang megnyitó meghívás",
@@ -717,9 +717,9 @@
   "Festival.Concert.Alex_spouse": "",
   "Festival.Concert.Penny_spouse": "",
   "Festival.Concert.Haley_spouse": "",
-  "Festival.Concert.Emily_spouse": "",
+  "Festival.Concert.Emily_spouse": "*liheg* Lehet, hogy hamarosan pihennem kellene.$0#$e#Majd később együtt táncolhatnánk, oké?$1",//SUMMER11
   "Festival.Concert.Sandy_spouse": "",
-  "Festival.Concert.Christopher_spouse": "",
+  "Festival.Concert.Christopher_spouse": "Tudnál nekem hozni egy sört drágám?$7",
   "Festival.Concert.Bence_spouse": "",
   "Festival.Concert.Mark_spouse": "",
 
@@ -727,12 +727,12 @@
   "Festival.Concert.Elliott": "",
   "Festival.Concert.Leo": "",
 
-  "Festival.Concert.Abigail": "",
-  "Festival.Concert.Sam": "",
+  "Festival.Concert.Abigail": "Már három kört mertünka csillekocsikkal.$0#$b#Olyan izgalmas, nem tudok leállni.$h",
+  "Festival.Concert.Sam": "Ha megkérdezném Kristófot, hogy lehetnénk e a következő koncertjükön az előzenekar, szerinted igent mondana?",
   "Festival.Concert.Sebastian": "",
   
-  "Festival.Concert.Robin": "",
-  "Festival.Concert.Demetrius": "",
+  "Festival.Concert.Robin": "Aú... drágám, ráléptél a lábamra!",//SUMMER11
+  "Festival.Concert.Demetrius": "Ez fárasztó, édesem. Készen állsz meglátogatni a bárt? *liheg*",//SUMMER11
 
   "Festival.Concert.Harvey": "",
   "Festival.Concert.Shane": "",
@@ -744,21 +744,21 @@
   "Festival.Concert.Linus": "",
   
   "Festival.Concert.Alex": "",
-  "Festival.Concert.George": "",
-  "Festival.Concert.Evelyn": "",
+  "Festival.Concert.George": "Az én időmben sokkal jobb zenék voltak.",
+  "Festival.Concert.Evelyn": "Nagyon hideg van ebben a barlangban, remélem jól felöltöztél.",
 
   "Festival.Concert.Lewis": "",
   "Festival.Concert.Marnie": "",
   "Festival.Concert.Gus": "",
 
-  "Festival.Concert.Penny": "",
-  "Festival.Concert.Jas": "",
-  "Festival.Concert.Vincent": "",
+  "Festival.Concert.Penny": "Úgyfest a gyerekek is nagyon élvezik a koncertet.$h",
+  "Festival.Concert.Jas": "Sötét utakon...",
+  "Festival.Concert.Vincent": "...kergetem az állmom.",
 
-  "Festival.Concert.Pam": "",
+  "Festival.Concert.Pam": "*szürcsöl* Ó, igen! Valamiért sokkal finomabb itt a sör mint a szalonban!$1",
   
   "Festival.Concert.Haley": "",
-  "Festival.Concert.Emily": "",
+  "Festival.Concert.Emily": "*liheg* Csak a csípőmozgás számít!$0#$e#Azt hiszem hamarosan pihennem kell. Kezdek leizzadni!$0",//SUMMER11
   "Festival.Concert.Sandy": "",
 
   "Festival.Concert.Jodi": "",
@@ -767,16 +767,88 @@
   "Festival.Concert.Willy": "",
   "Festival.Concert.Clint": "",
 
-  "Festival.Concert.Dwarf": "",
+  "Festival.Concert.Dwarf": "Hogy jutottál be ide?",
 
   "Festival.Concert.Wizard": "",
 
-  "Festival.Concert.Christopher": "",
+  "Festival.Concert.Christopher": "%Kristóf most egy kicsit elfoglaltnak tűnik.",
   "Festival.Concert.Bence": "",
   "Festival.Concert.Mark": "",
 
   "Festival.Concert.Andy": "",
   "Festival.Concert.Susan": "",
+
+  "Festival.Concert.Leah_spouse_y2": "",
+  "Festival.Concert.Elliott_spouse_y2": "",
+  "Festival.Concert.Abigail_spouse_y2": "",
+  "Festival.Concert.Sam_spouse_y2": "",
+  "Festival.Concert.Sebastian_spouse_y2": "",
+  "Festival.Concert.Harvey_spouse_y2": "",
+  "Festival.Concert.Shane_spouse_y2": "",
+  "Festival.Concert.Maru_spouse_y2": "",
+  "Festival.Concert.Alex_spouse_y2": "",
+  "Festival.Concert.Penny_spouse_y2": "",
+  "Festival.Concert.Haley_spouse_y2": "",
+  "Festival.Concert.Emily_spouse_y2": "",
+  "Festival.Concert.Sandy_spouse_y2": "",
+  "Festival.Concert.Christopher_spouse_y2": "Két dal között tudnál hozni nekem egy sört?$7",
+  "Festival.Concert.Bence_spouse_y2": "",
+  "Festival.Concert.Mark_spouse_y2": "",
+
+  "Festival.Concert.Leah_y2": "",
+  "Festival.Concert.Elliott_y2": "",
+  "Festival.Concert.Leo_y2": "Még sose hallottam ehhez foghatót...$h",
+
+  "Festival.Concert.Abigail_y2": "",
+  "Festival.Concert.Sam_y2": "Lehet kérhetnék gitár leckéket a gitárostól.$0#$b#Úgyfest van még mit tanulnom.$h",
+  "Festival.Concert.Sebastian_y2": "Ó, üdv. Te is távol akarsz másoktól?$0",
+  
+  "Festival.Concert.Robin_y2": "",
+  "Festival.Concert.Demetrius_y2": "",
+
+  "Festival.Concert.Harvey_y2": "",
+  "Festival.Concert.Shane_y2": "",
+  "Festival.Concert.Maru_y2": "",
+
+  "Festival.Concert.Pierre_y2": "",
+  "Festival.Concert.Caroline_y2": "",
+
+  "Festival.Concert.Linus_y2": "",
+  
+  "Festival.Concert.Alex_y2": "",
+  "Festival.Concert.George_y2": "Borzalmas ez a zene.$a",
+  "Festival.Concert.Evelyn_y2": "",
+
+  "Festival.Concert.Lewis_y2": "",
+  "Festival.Concert.Marnie_y2": "",
+  "Festival.Concert.Gus_y2": "",
+
+  "Festival.Concert.Penny_y2": "",
+  "Festival.Concert.Jas_y2": "",
+  "Festival.Concert.Vincent_y2": "",
+
+  "Festival.Concert.Pam_y2": "",
+  
+  "Festival.Concert.Haley_y2": "",
+  "Festival.Concert.Emily_y2": "",
+  "Festival.Concert.Sandy_y2": "",
+
+  "Festival.Concert.Jodi_y2": "",
+  "Festival.Concert.Kent_y2": "",
+
+  "Festival.Concert.Willy_y2": "",
+  "Festival.Concert.Clint_y2": "",
+
+  "Festival.Concert.Dwarf_y2": "Hogy találtál meg?",
+
+  "Festival.Concert.Wizard_y2": "",
+
+  "Festival.Concert.Christopher_y2": "%Kristóf most egy kicsit elfoglaltnak tűnik.",
+  "Festival.Concert.Bence_y2": "",
+  "Festival.Concert.Mark_y2": "",
+
+  "Festival.Concert.Andy_y2": "",
+  "Festival.Concert.Susan_y2": "",
 
   //==================//
   // Christopher NPC  //
@@ -929,7 +1001,7 @@
   "Christopher.Spirit2": "Elég para idén az útvesztő. #$b#Töbször is majdnem össze szartam magam. $h",
 
   //Chris winter8 
-  "Christopher.Ice": "...",
+  "Christopher.Ice": "-",
   "Christopher.Ice2": "Remélem készen állsz a jéghorgász versenyre.#$e#Itt élsz már egy ideje szóval nem fogom visszafogni magamat.#$b# Győzőn a jobb horgász. $h",
 
   //Chris winter25
@@ -1059,9 +1131,9 @@
   "Christopher.Patio": "Megint nem akar fogni a fék, de szerintem egyszerűbb lesz kicserélnem egy újra.",
 
   "Christopher.spouseRoom.1": "#$c .5#Lehet később dobolok egy kicsit.#$e#Lenne kedved meghallgatni?",
-  "Christopher.spouseRoom.2": "",
-  "Christopher.spouseRoom.3": "",
-  "Christopher.spouseRoom.4": "",
+  "Christopher.spouseRoom.2": "#$c .5#Kéne Robloxozni.",
+  "Christopher.spouseRoom.3": "#$c .5#Az egészségünkre.[346]$h#$e#Olyan jó, hogy veled bármikor ihatok.",
+  "Christopher.spouseRoom.4": "#$c .5#Kellene gyakorolnom, hamarosan fellépünk a bandával.#$e#Neked van valami terved mára?",
 
   "Christopher.funLeave": "Elmegyek a szalonba inni a boyokkal, későn jövök szóval nem kell megvárnod.",
   "Christopher.funReturn": "Nem... *böff* nem ittam... sokat.$6",
@@ -1077,95 +1149,101 @@
   "Christopher.TwoKids.03": "Családi programként elvihetnénk a gyerekeket pecázni.",
   "Christopher.TwoKids.04": "Ne aggódj, majd megetetem %kid2-t. Te csak koncentrálj a farm üzemeltetésére. #$b#Na most, hol is lehet %kid2?",
   
-  "Christopher.MarriageDialogue.spring_Christopher": "",
-  "Christopher.MarriageDialogue.spring_1": "",
-  "Christopher.MarriageDialogue.spring_13": "",
-  "Christopher.MarriageDialogue.spring_24": "",
+  "Christopher.MarriageDialogue.spring_Christopher": "Idén lehet többet fogok gyakorolni gitáron.",
+  "Christopher.MarriageDialogue.spring_1": "Nos, eljött az újév. Van valami terved, hogy mit szeretnél elérni ebben az évben?#$e#Én tele vagyok reménnyel és sörrel.",
+  "Christopher.MarriageDialogue.spring_8": "Most, hogy vége van a télnek, rengeteg hasznos időnek nézünk elébe.",
+  "Christopher.MarriageDialogue.spring_23": "Holnap remélem felkérsz táncolni.$l",
 
-  "Christopher.MarriageDialogue.summer_Christopher": "",
-  "Christopher.MarriageDialogue.summer_1": "",
-  "Christopher.MarriageDialogue.summer_11": "",
-  "Christopher.MarriageDialogue.summer_28": "",
+  "Christopher.MarriageDialogue.summer_Christopher": "Eljött a nyár, ez tudod mit jelent?$0#$e#Ideje sört főzni!$h",
+  "Christopher.MarriageDialogue.summer_1": "Nehogy hőgutát kapj, kedvesem.#$e#Igyál sok sört, tessék itt is van egy.[346]",
+  "Christopher.MarriageDialogue.summer_8": "*szimat* Elnézést, megint alkohol szagom van... Tegnap nem tudtam aludni ezért egész este sört ittam.",
+  "Christopher.MarriageDialogue.summer_15": "Nyár van... vagyis a ház tele van legyekkel.#$e#Ne aggódj, párat fingok és egy se marad.",
 
-  "Christopher.MarriageDialogue.fall_Christopher": "",
-  "Christopher.MarriageDialogue.fall_1": "",
-  "Christopher.MarriageDialogue.fall_16": "",
-  "Christopher.MarriageDialogue.fall_27": "",
+  "Christopher.MarriageDialogue.fall_Christopher": "Sör, sör, sör, sör, sör, sör.",
+  "Christopher.MarriageDialogue.fall_1": "Igaz, hogy már nincs olyan meleg de egy hideg sör még mindig jól esik.",
+  "Christopher.MarriageDialogue.fall_8": "A tél itt van a sarkon. *böff* Meg kell néznünk a fűtőrendszert, el kell tekernünk a csapokat, és meg kell vizsgálnunk a szigetelést a ház körül.#$e#De ne aggódj, majd én mindent elintézek.",
+  "Christopher.MarriageDialogue.fall_15": "Ha még nincs semmi amit holnap ki tudnál állítani akkor még ma gyorsan foghatnánk pár halat.",
+  "Christopher.MarriageDialogue.fall_26": "Holnap már tényleg megcsinálom a labirintust, minden évben eltévedek.$s#$b#Lehet az a gond, hogy mindi részegen indulok neki.$h",
   
-  "Christopher.MarriageDialogue.winter_Christopher": "",
-  "Christopher.MarriageDialogue.winter_1": "",
-  "Christopher.MarriageDialogue.winter_8": "",
-  "Christopher.MarriageDialogue.winter_12": "",
-  "Christopher.MarriageDialogue.winter_25": "",
+  "Christopher.MarriageDialogue.winter_Christopher": "Most, hogy itt a tél és nem tudok biciklizni, szerintem többet fogok dobolni.",
+  "Christopher.MarriageDialogue.winter_1": "Kezd hideg lenni.#$b#De nincs semmi baj, az alkohol majd melegen tart.[346]",
+  "Christopher.MarriageDialogue.winter_7": "*tüsszent* Nagyon remélem nem betegedek le holnapra.$s",
+  "Christopher.MarriageDialogue.winter_28": "Ez egy csodálatos év volt @! Remélem még sok hasonlóban lesz részünk.$l",
   
-  "Christopher.MarriageDialogue.Rainy_Day": "",
-  "Christopher.MarriageDialogue.Rainy_Night": "",
-  "Christopher.MarriageDialogue.Indoor_Day": "",
-  "Christopher.MarriageDialogue.Indoor_Night": "",
+  "Christopher.MarriageDialogue.Rainy_Day": "Esik az eső... az aszt jelenti hogy a halak ma sokkal aktívabbak mist máskor.#$b#Lehet később elmegyek horgászni.",
+  "Christopher.MarriageDialogue.Rainy_Night": "Voltál horgászni?#$b#Igaz megázol de hidd el, megéri ilyenkor horgászni.",
+  "Christopher.MarriageDialogue.Indoor_Day": "Néha hiányzik a tengerparton élés, de mostmár meletted érzem magam igazán otthon.$l",
+  "Christopher.MarriageDialogue.Indoor_Night": "Ez egy remek nap volt, ideje összebújni az ágyban.",
   
-  "Christopher.MarriageDialogue.Indoor_Day_0": "",
-  "Christopher.MarriageDialogue.Indoor_Day_1": "",
-  "Christopher.MarriageDialogue.Indoor_Day_2": "",
-  "Christopher.MarriageDialogue.Indoor_Day_3": "",
-  "Christopher.MarriageDialogue.Indoor_Day_4": "",
+  //"Christopher.MarriageDialogue.Indoor_Day_0": "-",
+  "Christopher.MarriageDialogue.Indoor_Day_1": "Reggelt, édesem! Jó az illata, ugye? Készítettem reggelit! [198 209 211 214 225 226]#$e#Szükséged van az evésre, hogy egész nap tele legyél energiával.",
+  //"Christopher.MarriageDialogue.Indoor_Day_2": "-",
+  "Christopher.MarriageDialogue.Indoor_Day_3": "Van valami a füled mögöt... $0#$b#Egy sör.[346]$h",
+  //"Christopher.MarriageDialogue.Indoor_Day_4": "-",
 
-  "Christopher.MarriageDialogue.Outdoor_Christopher": "",
+  "Christopher.MarriageDialogue.Outdoor_Christopher": "Élvezem ezt a farmer életet.#$b#Friss ételek, gyümölcsök és persze nem felejthetem el a házi sört sem.",
 
-  "Christopher.MarriageDialogue.Outdoor_0": "",
-  "Christopher.MarriageDialogue.Outdoor_1": "",
-  "Christopher.MarriageDialogue.Outdoor_2": "",
-  "Christopher.MarriageDialogue.Outdoor_3": "",
-  "Christopher.MarriageDialogue.Outdoor_4": "",
+  "Christopher.MarriageDialogue.Outdoor_0": "Ma csodálatos napunk van, nemde?$h#$e#Az ilyen napok igazán jó dolgozni.",
+  "Christopher.MarriageDialogue.Outdoor_1": "Ma csak pihenné is inni fogok és körbenézni a farmon, ugye nem gond?",
+  //"Christopher.MarriageDialogue.Outdoor_2": "-",
+  //"Christopher.MarriageDialogue.Outdoor_3": "-",
+  "Christopher.MarriageDialogue.Outdoor_4": "Ne hajszold túl magad, drágám.#$e#Néha azért pihengess is egy kicsit, vagy igyál egy sört.$h",
 
-  "Christopher.MarriageDialogue.Rainy_Day_0": "",
-  "Christopher.MarriageDialogue.Rainy_Day_1": "",
-  "Christopher.MarriageDialogue.Rainy_Day_2": "",
-  "Christopher.MarriageDialogue.Rainy_Day_3": "",
+  //"Christopher.MarriageDialogue.Rainy_Day_0": "-",
+  //"Christopher.MarriageDialogue.Rainy_Day_1": "-",
+  "Christopher.MarriageDialogue.Rainy_Day_2": "Jó reggelt! Ma előbb megébredtem és úgy gondoltam készítetek neked reggelit. [198 209 211 214 225 226]  #$e#Tartsd magad melegen, és ne dolgozz túl keményen. Azt akarom, hogy maradj egészséges.",
+  "Christopher.MarriageDialogue.Rainy_Day_3": "Remélem hamarosan eláll az eső, elszeretnék elmenni biciklizni de nem akarok elázni.",
 
-  "Christopher.MarriageDialogue.Indoor_Night_0": "",
-  "Christopher.MarriageDialogue.Indoor_Night_1": "",
-  "Christopher.MarriageDialogue.Indoor_Night_2": "",
-  "Christopher.MarriageDialogue.Indoor_Night_3": "",
-  "Christopher.MarriageDialogue.Indoor_Night_4": "",
+  //"Christopher.MarriageDialogue.Indoor_Night_0": "-",
+  //"Christopher.MarriageDialogue.Indoor_Night_1": "-",
+  //"Christopher.MarriageDialogue.Indoor_Night_2": "-",
+  //"Christopher.MarriageDialogue.Indoor_Night_3": "-",
+  //"Christopher.MarriageDialogue.Indoor_Night_4": "-",
 
-  "Christopher.MarriageDialogue.Rainy_Night_0": "",
-  "Christopher.MarriageDialogue.Rainy_Night_1": "",
-  "Christopher.MarriageDialogue.Rainy_Night_2": "",
-  "Christopher.MarriageDialogue.Rainy_Night_3": "",
-  "Christopher.MarriageDialogue.Rainy_Night_4": "",
+  //"Christopher.MarriageDialogue.Rainy_Night_0": "-",
+  //"Christopher.MarriageDialogue.Rainy_Night_1": "-",
+  //"Christopher.MarriageDialogue.Rainy_Night_2": "-",
+  "Christopher.MarriageDialogue.Rainy_Night_3": "Olyan kellemes esténk van. A világért se cserélném el.#$b#Najó... talán egy életen át tartó söröshodóért, de nyugi megosztanám veled.",
+  "Christopher.MarriageDialogue.Rainy_Night_4": "Készítettem egy kis levest vacsorára. [219 456 728]$h#$e#Az ilyen napokon valami forróra van szükséged!$h",
+  //"Christopher.MarriageDialogue.Rainy_Night_5": "-",
 
-  "Christopher.MarriageDialogue.Good_0": "",
-  "Christopher.MarriageDialogue.Good_1": "",
-  "Christopher.MarriageDialogue.Good_2": "",
-  "Christopher.MarriageDialogue.Good_3": "",
-  "Christopher.MarriageDialogue.Good_4": "",
-  "Christopher.MarriageDialogue.Good_5": "",
-  "Christopher.MarriageDialogue.Good_6": "",
-  "Christopher.MarriageDialogue.Good_7": "",
-  "Christopher.MarriageDialogue.Good_8": "",
-  "Christopher.MarriageDialogue.Good_9": "",
+  //"Christopher.MarriageDialogue.Good_0": "-",
+  "Christopher.MarriageDialogue.Good_1": "Mikor először ittunk együtt már tudtam, hogy egy nap együtt leszünk.",
+  //"Christopher.MarriageDialogue.Good_2": "-",
+  //"Christopher.MarriageDialogue.Good_3": "-",
+  //"Christopher.MarriageDialogue.Good_4": "-",
+  "Christopher.MarriageDialogue.Good_5": "Épp az esküvői talizmánomat bámultam... A kagyló nagyon jól néz ki. Biztos egy vagyonba került!$l",
+  "Christopher.MarriageDialogue.Good_6": "Légy óvatos odakint! Néha aggódom, nehogy beleess a tengerbe.",
+  //"Christopher.MarriageDialogue.Good_7": "-",
+  "Christopher.MarriageDialogue.Good_8": "Ne aggódj miattam... Tudom, hogy rengeteg felelősséged van a házon kívül is. Remekül megvagyok egyedül is!$l#$b#*böff*$0",
+  //"Christopher.MarriageDialogue.Good_9": "-",
 
-  "Christopher.MarriageDialogue.Neutral_0": "",
-  "Christopher.MarriageDialogue.Neutral_1": "",
-  "Christopher.MarriageDialogue.Neutral_2": "",
-  "Christopher.MarriageDialogue.Neutral_3": "",
-  "Christopher.MarriageDialogue.Neutral_4": "",
-  "Christopher.MarriageDialogue.Neutral_5": "",
-  "Christopher.MarriageDialogue.Neutral_6": "",
-  "Christopher.MarriageDialogue.Neutral_7": "",
-  "Christopher.MarriageDialogue.Neutral_8": "",
-  "Christopher.MarriageDialogue.Neutral_9": "",
+  "Christopher.MarriageDialogue.Neutral_0": "Remélem akkor is szeretni fogsz, ha dagatt és alkoholista leszek.$s",
+  //"Christopher.MarriageDialogue.Neutral_1": "-",
+  //"Christopher.MarriageDialogue.Neutral_2": "-",
+  "Christopher.MarriageDialogue.Neutral_3": "Ha találkoznál Márkal vagy Bencével köszönnél nekik, mostanában nem találkozunk túl sokat.$s",
+  //"Christopher.MarriageDialogue.Neutral_4": "-",
+  //"Christopher.MarriageDialogue.Neutral_5": "-",
+  //"Christopher.MarriageDialogue.Neutral_6": "-",
+  //"Christopher.MarriageDialogue.Neutral_7": "-",
+  "Christopher.MarriageDialogue.Neutral_8": "*böff* Lehet az második rekesz már sok volt.$6",
+  //"Christopher.MarriageDialogue.Neutral_9": "-",
 
-  "Christopher.MarriageDialogue.Bad_0": "",
-  "Christopher.MarriageDialogue.Bad_1": "",
-  "Christopher.MarriageDialogue.Bad_2": "",
-  "Christopher.MarriageDialogue.Bad_3": "",
-  "Christopher.MarriageDialogue.Bad_4": "",
-  "Christopher.MarriageDialogue.Bad_5": "",
-  "Christopher.MarriageDialogue.Bad_6": "",
-  "Christopher.MarriageDialogue.Bad_7": "",
-  "Christopher.MarriageDialogue.Bad_8": "",
-  "Christopher.MarriageDialogue.Bad_9": "",
+  //"Christopher.MarriageDialogue.Bad_0": "-",
+  //"Christopher.MarriageDialogue.Bad_1": "-",
+  //"Christopher.MarriageDialogue.Bad_2": "-",
+  //"Christopher.MarriageDialogue.Bad_3": "-",
+  //"Christopher.MarriageDialogue.Bad_4": "-",
+  //"Christopher.MarriageDialogue.Bad_5": "-",
+  //"Christopher.MarriageDialogue.Bad_6": "-",
+  "Christopher.MarriageDialogue.Bad_7": "Régen midnig közösen ittunk... mostanság csak akkor iszunk ha én hívlak meg.$s",
+  //"Christopher.MarriageDialogue.Bad_8": "-",
+  //"Christopher.MarriageDialogue.Bad_9": "-",
+
+  "Christopher.MarriageDialogue.NoBed_0": "Mi történt az ággyal?#$b#Semmi gond én bárholt tudok aludni.",
+  "Christopher.MarriageDialogue.NoBed_1": "Beállt a hátam a földön alvástól, úgy tűnik már nem bírom olyan jól mint régen.$s",
+  "Christopher.MarriageDialogue.NoBed_2": "Tegnap este a padlón kellett aludnom...$0#$b#Szerencsére már megszoktam.$h",
+  "Christopher.MarriageDialogue.NoBed_3": "Történt valami az ágyunkkal...?",
 
   //************************
   // Bence NPC
@@ -1175,10 +1253,10 @@
   "Bence.Introduction": "Oh... Helló, te lennél az új farmer igaz? Örvendek a találkozásnak én Bence vagyok.",
   "Bence.Resort_Entering": "Néha nem árt pihenni. #$b#Mondjuk tegnap is elég sokat lazítottam. #$b#Mindegy is...",
   "Bence.Resort_Leaving": "*ásít*... ez jó esett.",
-  "Bence.Resort_Shore": "",
+  "Bence.Resort_Shore": "Minden olyan békés itt.$0#$b#Remélem nem fog lecsapni egy vihar most, hogy ezt mondtam.$u",
   "Bence.Resort_Chair": "*ásít*",
-  "Bence.Resort_Bar": "",
-  "Bence.Resort": "",
+  "Bence.Resort_Bar": "Kipróbálhatnék egy koktélt, neked melyik a kedvenced?",
+  "Bence.Resort": "%Úgynézki Bence nagyon elmélyedt a gondolataiban.",
   "Bence.AcceptBouquet": "...#$b#Ezzel most eléggé megleptél, de elfogadom.$l",
   "Bence.Reject_458": "Nem haladsz kicsit gyorsan? Előbb nem gondolod, hogy jobban meg kellene ismernünk egymást?",
   "Bence.GreenRain": "Elég furcsa időnk van ma nem?",

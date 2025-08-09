@@ -127,7 +127,7 @@
         "Action": "EditData",
         "Target": "Data/NPCGiftTastes",
         "Entries": {
-          "Bence": "{{i18n:Bence.Gifts.Loved}}/Bencedemon.HG_PizzaHun, Bencedemon.HG_StrawberrySundae Bencedemon.HG_Langos 424 426 928 206 224/
+          "Bence": "{{i18n:Bence.Gifts.Loved}}/Bencedemon.HG_PizzaHun Bencedemon.HG_StrawberrySundae Bencedemon.HG_Langos 424 426 928 206 224/
           {{i18n:Bence.Gifts.Liked}}/260 256 270 340 400 241/
           {{i18n:Bence.Gifts.Disliked}}/alcohol_item Bencedemon.HG_Lemon Bencedemon.HG_Lemonade 834 220 221/
           {{i18n:Bence.Gifts.Hated}}/Bencedemon.HG_IceTea 303 346 348 459 873 903/
