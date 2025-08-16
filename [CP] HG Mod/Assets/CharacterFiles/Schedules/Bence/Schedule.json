@@ -6,6 +6,8 @@
   "marriage_DesertFestival": "900 Desert 36 53 2 Bence_Chill \"Strings\\schedules\\Bence:DesertFestival_Bence_marriage\"/2400 bed",
   "DesertFestival": "700 Desert 36 53 2 Bence_Chill \"Strings\\schedules\\Bence:DesertFestival_Bence\"/2400 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
 
+  "marriage_Sat": "1810 Saloon 36 20 1 Bence_Pizza/2400 bed",
+
   "winter_15": "1100 Forest 31 67 2 Bence_Chill/1300 Forest 87 44 1 Bence_ChillR/1530 Beach 38 36 2 Bence_Chill \"Strings\\schedules\\Bence:NightMarket_Bence\"/2340 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
   
   "winter_Mon": "GOTO winter",

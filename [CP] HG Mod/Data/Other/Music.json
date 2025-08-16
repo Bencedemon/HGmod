@@ -49,6 +49,15 @@
                     "StreamedVorbis": true,
                     "Looped": true
                 },
+                "Bencedemon.HG_Uuuuus": {
+                    "ID": "Bencedemon.HG_Uuuuus",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Uuuuus.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                },
             },
         },
         {

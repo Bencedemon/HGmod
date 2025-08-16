@@ -326,6 +326,7 @@
   "Jukebox.Sif" : "Great Grey Wolf Sif",
   "Jukebox.Cabin" : "Bence kabinja",
   "Jukebox.SotetUtakon" : "Sötét utakon",
+  "Jukebox.Uuuuus" : "Uuuuus!",
 
   //Buildings -CUTCONTENT-
   "Building.Sawmill.Name": "Fűrészmalom",
@@ -519,16 +520,19 @@
   "BenceCabinOutside.Firewood2": "Aprításra váró farönkök.",
 
   //MarkFarm interacts for now
-  "MarkHouse.Geode1": "Geode1",
-  "MarkHouse.Geode2": "Geode2",
-  "MarkHouse.Geode3": "Geode3",
+  "MarkHouse.Geode": "Geode",
+  "MarkHouse.Copper": "Copper",
+  "MarkHouse.Gold": "Gold",
   "MarkHouse.Firewood": "Firewood",
-  "MarkHouse.OldMonitor": "OldMonitor",
   "MarkHouse.PC": "PC",
   "MarkHouse.Lantern": "Lantern",
+  "MarkHouse.PressBench": "PressBench",
 
   "MarkFarm.Mailbox": "-Márk rezidenciája-",
   "MarkFarm.Sign": "'GRACE FIELD FARM'",
+
+	"MarkFarmCave.Block": "Block",
+	"MarkFarmCave.Ore": "Ore",
 
   //WorldMap
   "ChristopherHouse.Name": "Kristóf háza",
@@ -537,6 +541,9 @@
   "MarkHouse.Name": "Márk háza",
   "MarkFarmCave.Name": "Márk barlangja",
   "HGCave.Name": "Hello Guys barlang",
+  "IslandNorthWest.Name": "Ginger Island North-West",
+  "Island_ShelterShelter.Name": "Isti",
+
 
   //Bundles
   "Bundle.Minecart.Name": "Csille",
@@ -611,8 +618,7 @@
   "Mail.MarkReward2": "Csá @!^^Köszönöm a keményfát. Robinnal már neki is láttunk a tábla építéséhez ha van időd gyere és nézd meg mit alkottunk.^^ -Márk ^^UI: A segítségért cserébe megosztok veled egy igazán hasznos receptet ;)%item craftingRecipe SakeBarrel%%[#]Márk táblája",
 
   //Special Order Events
-  "SO_Event.Mark.01": "Csá @.",
-  "SO_Event.Mark.02": "Most indulok a bányász kalandomra és gondoltam előtte beugrok, hogy személyesen is köszönetet tudjak mondani.",
+  "SO_Event.Mark.01": "Csá @.#$b#Most indulok a bányász kalandomra és gondoltam előtte beugrok, hogy személyesen is köszönetet tudjak mondani.",
 
   "SO_Event.Mark2.01": "Csá @!#$b#Éppen most készültünk el a táblával.",
   "SO_Event.Mark2.Question": "Szerinted milyen lett?",
@@ -672,29 +678,27 @@
   "HG_Cave.Unlock.15": "Gyere @, legyen tiéd a megtiszteltetés.",
   "HG_Cave.Unlock.16": "Hát, talán sikerült.",
   "HG_Cave.Unlock.17": "Menjünk nézzük meg!",
-  "HG_Cave.Unlock.18": "Wow, azt kell mondjam pozitívan csalódtam.",
-  "HG_Cave.Unlock.19": "Nem gondoltam volna, hogy egy ekkora barlangot fogunk találni.",
-  "HG_Cave.Unlock.20": "Mondjuk én egy kicsit több ércre számítottam.$s",
-  "HG_Cave.Unlock.21": "A ládákban sincs semmi.",
-  "HG_Cave.Unlock.22": "Hát ja, ez mondjuk tényleg nem túl jó.",
-  "HG_Cave.Unlock.23": "De basszus, tök menő ez a hely, valamit csak kéne kezdenünk vele.",
-  "HG_Cave.Unlock.24": "Csak magunknak azért egy kicsit nagy.",
-  "HG_Cave.Unlock.25": "Meg nem igazán látok halakat a vízben.",
-  "HG_Cave.Unlock.26": "Sajnos nincs itt sokminden, hogy bármit is lehessen csinálni.",
-  "HG_Cave.Unlock.27": "És mi lenne ha lenne.",
-  "HG_Cave.Unlock.28": "Mert mire gondolsz Bence?",
-  "HG_Cave.Unlock.29": "Nyithatnánk ide egy szórakozó helyet. Mint egy kis kaland parkot.",
-  "HG_Cave.Unlock.30": "Ide akár kerülhetne egy kilátó.",
-  "HG_Cave.Unlock.31": "Ide meg akár kerülhetne egy jó kis bár, piával meg mindennel.",
-  "HG_Cave.Unlock.32": "Akár.",
-  "HG_Cave.Unlock.33": "Valószínűleg sok munka lesz és rengeteg nyersanyagra lesz szükségünk.",
-  "HG_Cave.Unlock.34": "Akkor mindenki benne van?",
-  "HG_Cave.Unlock.35": "Menjen!",
-  "HG_Cave.Unlock.36": "Okés.",
-  "HG_Cave.Unlock.37": "Ha @ is segít nekünk hamar végzünk. $h",
-  "HG_Cave.Unlock.38": "Akkor most, hogy ezt megbeszéltük, megyek elmondom Robinnak a terveinket.",
-  "HG_Cave.Unlock.39": "Én meg beszélek a polgármesterrel, hogy engedélyezné e ezt nekünk.",
-  "HG_Cave.Unlock.40": "Én meg beugrok aszalonba inni. $h",
+  "HG_Cave.Unlock.18": "Wow, azt kell mondjam pozitívan csalódtam.#$b#Nem gondoltam volna, hogy egy ekkora barlangot fogunk találni.",
+  "HG_Cave.Unlock.19": "Mondjuk én egy kicsit több ércre számítottam.$s",
+  "HG_Cave.Unlock.20": "A ládákban sincs semmi.",
+  "HG_Cave.Unlock.21": "Hát ja, ez mondjuk tényleg nem túl jó.",
+  "HG_Cave.Unlock.22": "De basszus, tök menő ez a hely, valamit csak kéne kezdenünk vele.",
+  "HG_Cave.Unlock.23": "Csak magunknak azért egy kicsit nagy.",
+  "HG_Cave.Unlock.24": "Meg nem igazán látok halakat a vízben.",
+  "HG_Cave.Unlock.25": "Sajnos nincs itt sokminden, hogy bármit is lehessen csinálni.",
+  "HG_Cave.Unlock.26": "És mi lenne ha lenne.",
+  "HG_Cave.Unlock.27": "Mert mire gondolsz Bence?",
+  "HG_Cave.Unlock.28": "Nyithatnánk ide egy szórakozó helyet. Mint egy kis kaland parkot.#$b#Ide akár kerülhetne egy kilátó.",
+  "HG_Cave.Unlock.29": "Ide meg akár kerülhetne egy jó kis bár, piával meg mindennel.",
+  "HG_Cave.Unlock.30": "Akár.",
+  "HG_Cave.Unlock.31": "Valószínűleg sok munka lesz és rengeteg nyersanyagra lesz szükségünk.",
+  "HG_Cave.Unlock.32": "Akkor mindenki benne van?",
+  "HG_Cave.Unlock.33": "Menjen!",
+  "HG_Cave.Unlock.34": "Okés.",
+  "HG_Cave.Unlock.35": "Ha @ is segít nekünk hamar végzünk. $h",
+  "HG_Cave.Unlock.36": "Akkor most, hogy ezt megbeszéltük, megyek elmondom Robinnak a terveinket.",
+  "HG_Cave.Unlock.37": "Én meg beszélek a polgármesterrel, hogy engedélyezné e ezt nekünk.",
+  "HG_Cave.Unlock.38": "Én meg beugrok aszalonba inni. $h",
 
   //HG Cave Opening
   "HG_Cave.Opening.01": "Hát @, megcsináltuk.",
@@ -1027,9 +1031,7 @@
   //2heart
   "Christopher.2heart.01": "Csáó @!",
   "Christopher.2heart.02": "Nem bántad meg, hogy ide költöztél?", //Játékos kristóf felé fordul
-  "Christopher.2heart.03": "Én nem igazán bántam meg, bár azt se tagadhatom, hogy azért hiányzik a városi élet.$s",
-  "Christopher.2heart.04": "Mikor Bence először felvetette a költözés ötletét.",
-  "Christopher.2heart.05": "",
+  "Christopher.2heart.03": "Én nem igazán bántam meg, bár azt se tagadhatom, hogy azért hiányzik a városi élet.$s#$b#Mikor Bence először felvetette a költözés ötletét.",
 
   "Christopher.2heart.Question.01": "Kérsz egy sört?",
   "Christopher.2heart.Answer.01": "Igen, elfogadom.",
@@ -1049,11 +1051,9 @@
   "Christopher.4heart.Answer.02": "Igen, gyere kapaszkodj belém!",
 
   "Christopher.4heart.02": "Köszi, tudtam, hogy rád számíthatok. *böff*$6",
-  "Christopher.4heart.03": "Innét már azthiszem... *böff* boldogulok. $6",
-  "Christopher.4heart.04": "Köszönöm mégegyszer @. $6",
-  "Christopher.4heart.05": "Ha te nem vagy ma este is az utcán alszok. XD$h",
-  "Christopher.4heart.06": "Hová is tehettem a kulcsomat?$6",
-  "Christopher.4heart.07": "Oké megvan... $6",
+  "Christopher.4heart.03": "Innét már azthiszem... *böff* boldogulok. $6#$b#Köszönöm mégegyszer @. $6#$b#Ha te nem vagy ma este is az utcán alszok. XD$h",
+  "Christopher.4heart.04": "Hová is tehettem a kulcsomat?$6",
+  "Christopher.4heart.05": "Oké megvan... $6",
 
   //6heart
   "Christopher.6heart.01": "Csá @!$7",
@@ -1065,12 +1065,8 @@
   "Christopher.8heart.GusWelcome": "Jó estét. Hozhatok valamit?",
 
   "Christopher.8heart.01": "@! Ez én emberem, gyere ma ünnepelünk. $h",
-  "Christopher.8heart.02": "Képzeld sikerült kifognom az eddigi legnagyobb halamat.",
-  "Christopher.8heart.03": "Egy két méteres 68kg-os harcsát.",
-  "Christopher.8heart.04": "Gondolom mondanom se kell, hogy közel egy órán át fárasztottam.",
-  "Christopher.8heart.05": "Baszod, konkrétan nagyobb a hal mint én. $h",
-  "Christopher.8heart.06": "És hát elég nagy summát kaptam érte szóval...",
-  "Christopher.8heart.07": "Ennek örömére, MA MINDENKI A VENDÉGEM! $h",
+  "Christopher.8heart.02": "Képzeld sikerült kifognom az eddigi legnagyobb halamat.$0#$b#Egy két méteres 68kg-os harcsát.$0#$b#Gondolom mondanom se kell, hogy közel egy órán át fárasztottam.$0#$b#Baszod, konkrétan nagyobb a hal mint én. $h#$b#És hát elég nagy summát kaptam érte szóval...$0",
+  "Christopher.8heart.03": "Ennek örömére, MA MINDENKI A VENDÉGEM! $h",
 
   "Christopher.8heart.End": "Egy vedelős estével később.",
 
@@ -1083,21 +1079,15 @@
 
   "Christopher.10heartI.02": "Jól van, semmi gond. $s",
   
-  "Christopher.10heartI.03": "Király! $h",
-  "Christopher.10heartI.04": "Szerzek neked is egy biciklit aztán még majd írok a részletekről.",
-  "Christopher.10heartI.05": "Addig is, csá!",
+  "Christopher.10heartI.03": "Király! $h#$b#Szerzek neked is egy biciklit aztán még majd írok a részletekről.$0#$b#Addig is, csá!$0",
 
   //10heart II
   "Christopher.10heartII.01": "Csá, @.",
   "Christopher.10heartII.02": "Előkészültem mindennel szóval akár indulhatunk is.",
 
   "Christopher.10heartII.03": "Tudok errefelé egy jó helyet ahol megállhatunk pihenni.",
-  "Christopher.10heartII.04": "Hát igen... nincs is jobb mint egy finom frissítő sör egy kiadós biciklizés után. $h",
-  "Christopher.10heartII.05": "Örülök, hogy eljöttél velem biciklizni @.$l",
-  "Christopher.10heartII.06": "Többieket sosem tudom rá venni, hogy csatlakozzanak.$s",
-  "Christopher.10heartII.07": "De te @, teljesán más vagy mint a többiek. Persze jó értelemben.$l",
-  "Christopher.10heartII.08": "Eddig még senki iránt nem éretem így...$l",
-  "Christopher.10heartII.09": "De azt hiszem benned végre megtaláltam a lelkitársamat és emiatt nem is lehetnék boldogabb.$l",
+  "Christopher.10heartII.04": "Hát igen... nincs is jobb mint egy finom frissítő sör egy kiadós biciklizés után. $h#$b#Örülök, hogy eljöttél velem biciklizni @.$l#$b#Többieket sosem tudom rá venni, hogy csatlakozzanak.$s",
+  "Christopher.10heartII.05": "De te @, teljesán más vagy mint a többiek. Persze jó értelemben.$l#$b#Eddig még senki iránt nem éretem így...$l#$b#De azt hiszem benned végre megtaláltam a lelkitársamat és emiatt nem is lehetnék boldogabb.$l",
   
   //MoviesReactions
   "Christopher.Movies.01": "Már alig várom a filmet, úgy halottam nagyon jó.",
@@ -1135,8 +1125,11 @@
   "Christopher.spouseRoom.3": "#$c .5#Az egészségünkre.[346]$h#$e#Olyan jó, hogy veled bármikor ihatok.",
   "Christopher.spouseRoom.4": "#$c .5#Kellene gyakorolnom, hamarosan fellépünk a bandával.#$e#Neked van valami terved mára?",
 
-  "Christopher.funLeave": "Elmegyek a szalonba inni a boyokkal, későn jövök szóval nem kell megvárnod.",
-  "Christopher.funReturn": "Nem... *böff* nem ittam... sokat.$6",
+  "Christopher.funLeave.Saturday": "Elmegyek a szalonba inni a boyokkal, későn jövök szóval nem kell megvárnod.",
+  "Christopher.funReturn.Saturday": "Nem... *böff* nem ittam... sokat.$6",
+
+  "Christopher.funLeave.TroutDerby": "Elmegyek a pisztráng derbire.",
+  "Christopher.funReturn.TroutDerby": "Rengeteg pisztrángot fogtam ma.$h",
 
   "Christopher.OneKid.00": "Vajon %kid1 is ugyan olyan alkoholista lesz mint én? $h",
   "Christopher.OneKid.01": "Tegnap megkostoltattam a sört a gyerekünkel és ízlett neki. #$b#Csak viccelek. $h",
@@ -1288,15 +1281,16 @@
   //"Bence.Dating":"-",
 
   //SPECIFIC MAP AND COORDINATES DIALOGUE
-  "Bence.LocationDialogue.SeedShop": "",
+  "Bence.LocationDialogue.SeedShop": "Hmm... elfelejtettem mit akartam venni.$u",
+  "Bence.LocationDialogue.ScienceHouse": "",
 
   //SPRING AND GENERAL DIALOGUE
   "Bence.CharacterDialogue.001": "Üdv, segíthetek valamiben?",
   "Bence.CharacterDialogue.002": "Üdv farmer, segíthetek valamiben?",
   "Bence.CharacterDialogue.003": "Üdv @, segíthetek valamiben?$h",
-  "Bence.CharacterDialogue.004": "*ásít* Bocs csak egy kicsit fáratt vagyok.$6",
+  "Bence.CharacterDialogue.004": "*ásít* Bocs csak egy kicsit fáradt vagyok.$6",
   "Bence.CharacterDialogue.005": "Nem aludtam tegnap este valami jól.$6#$e#Lehet előbb kellene lefeküdnöm?$6",
-  "Bence.CharacterDialogue.006": "*tüsszent*#$b#*tüsszent* A francba már.$a",
+  "Bence.CharacterDialogue.006": "*tüsszent*$0#$e#*tüsszent* A francba már.$a",
   "Bence.CharacterDialogue.007": "*tüsszent* Valaki öljön meg! *tüsszent*",
   "Bence.CharacterDialogue.008": "Próbáltad már a helyi pizzát? #$b#Hidj nekem nagyon megéri.",
   "Bence.CharacterDialogue.009": "",
@@ -1305,19 +1299,19 @@
   "Bence.CharacterDialogue.012": "",
   "Bence.CharacterDialogue.013": "Jó érzés távol élni mindentől. Olyan békés, nem zavar senki, csak magam vagyok és a gondolatami.",
   //SUMMER DIALOGUE
-  "Bence.SummerCharacterDialogue.001": "Annyira nincs kedvem ma semmihez...",
-  "Bence.SummerCharacterDialogue.002": "",
-  "Bence.SummerCharacterDialogue.003": "",
-  "Bence.SummerCharacterDialogue.004": "Félek ha a folyó sodrása megváltozik a házam csak szimplán beledől a folyóba.#$b#Lehet nem kelett volna ilyen közel építkeznem hozzá.$u",
-  "Bence.SummerCharacterDialogue.005": "",
-  "Bence.SummerCharacterDialogue.006": "",
+  "Bence.SummerCharacterDialogue.001": "Félek ha a folyó sodrása megváltozik a házam csak szimplán beledől a folyóba.#$b#Lehet nem kelett volna ilyen közel építkeznem hozzá.$u",
+  "Bence.SummerCharacterDialogue.002": "Annyira nincs kedvem ma semmihez...$6",
+  "Bence.SummerCharacterDialogue.003": "*ásít* Bocs de most kicsit nyűgös vagyok, ezért nem sok kedvem van beszélgetni.$6",
+  "Bence.SummerCharacterDialogue.004": "*ásít* Oh... @! Most nem sok kedvem van beszélgetni.$6",
+  "Bence.SummerCharacterDialogue.005": "*ásít* Oh... Helló @! Mi a helyzet?#$b#Akarsz beszélgetni valamiről?$6",
+  "Bence.SummerCharacterDialogue.006": "Remélem hamarosan esni fog és lehül kicsit az idő.",
   "Bence.SummerCharacterDialogue.007": "",
-  "Bence.SummerCharacterDialogue.008": "",
-  "Bence.SummerCharacterDialogue.009": "",
+  "Bence.SummerCharacterDialogue.008": "Néha furcsa alakokat látok az erdőben, lehet kezdek megőrülni?$u#$b#Vagy csak többet kellene aludnom?$6",
+  "Bence.SummerCharacterDialogue.009": "*ásít* Semmit nem aludtam tegnap este, valami folyamatosan kaparta a házam oldalát de mikor kimentem semmi nem volt ott.$6#$b#Gondolom ez az egy hátránya ha az edőben él valaki.$6",
   "Bence.SummerCharacterDialogue.010": "",
   "Bence.SummerCharacterDialogue.011": "",
   //FALL DIALOGUE
-  "Bence.FallCharacterDialogue.001": "",
+  "Bence.FallCharacterDialogue.001": "Kellemes időnk van ma nem gondolod?",
   "Bence.FallCharacterDialogue.002": "",
   "Bence.FallCharacterDialogue.003": "",
   "Bence.FallCharacterDialogue.004": "",
@@ -1326,7 +1320,7 @@
   "Bence.FallCharacterDialogue.007": "",
   "Bence.FallCharacterDialogue.008": "",
   "Bence.FallCharacterDialogue.009": "",
-  "Bence.FallCharacterDialogue.010": "",
+  "Bence.FallCharacterDialogue.010": "Csá @. Tegnap találtam pár gombát az erdőben.#$b#$y Esetleg nem érdekel néhány?'_De igen, köszönöm._Oké, tessék. [281 404 420 422][281 404 420 422][281 404 420 422]_Kössz, de most nem kell._Oké, te tudod.'",
   "Bence.FallCharacterDialogue.011": "",
   "Bence.FallCharacterDialogue.012": "",
   //WINTER DIALOGUE
@@ -1346,11 +1340,11 @@
   "Bence.WinterCharacterDialogue.014": "",
 
   //Bence Gift Tastes
-  "Bence.Gifts.Loved": "",
-  "Bence.Gifts.Liked": "",
+  "Bence.Gifts.Loved": "Váó... hát... nem is tudom mit mondjak, ez egy nagyszerű ajándék. Köszönöm.$h",
+  "Bence.Gifts.Liked": "Oh... nagyon szépen köszönöm.$h",
   "Bence.Gifts.Disliked": "Aha... kössz, igazán nem kelett volna.$s",
   "Bence.Gifts.Hated": "Ez most komoly?$a",
-  "Bence.Gifts.Neutral": "",
+  "Bence.Gifts.Neutral": "Köszönöm.$0",
 
   //FESTIVALS
   "Bence.FlowerDance_Accept": "Hm... tudodmit, legyen. Táncolok veled. $h",
@@ -1360,36 +1354,36 @@
   //"Bence.WinterStar_ReceiveGift": "-",
 
   //Bence spring13
-  "Bence.Egg": "Toás",
-  "Bence.Egg2": "Toás",
+  "Bence.Egg": "",
+  "Bence.Egg2": "",
 
   //Bence spring24
-  "Bence.Flower": "Flower",
-  "Bence.Flower2": "Flower2",
+  "Bence.Flower": "",
+  "Bence.Flower2": "",
 
   //Bence summer11
-  "Bence.Luau": "Luau",
-  "Bence.Luau2": "Luau2",
+  "Bence.Luau": "",
+  "Bence.Luau2": "",
 
   //Bence summer28
-  "Bence.Jellies": "Jellies",
-  "Bence.Jellies2": "Jellies2",
+  "Bence.Jellies": "",
+  "Bence.Jellies2": "",
 
   //Bence fall16 
-  "Bence.Fair": "Hal",
-  "Bence.Fair2": "Hal2",
+  "Bence.Fair": "",
+  "Bence.Fair2": "",
 
   //Bence fall27
-  "Bence.Spirit": "Spirit",
-  "Bence.Spirit2": "Spirit2",
+  "Bence.Spirit": "",
+  "Bence.Spirit2": "",
 
   //Bence winter8 
   "Bence.Ice": "Jó hír, Kristóf lebetegedett szóval idén lehet esélyed nyerni.",
-  "Bence.Ice2": "Ice2",
+  "Bence.Ice2": "",
 
   //Bence winter25
-  "Bence.star": "Star",
-  "Bence.star2": "Star2",
+  "Bence.star": "",
+  "Bence.star2": "",
 
   //Mails
   "Mail.Bence" : "Csá @!^^Kíváncsi vagyok milyen lehet egy pizza a farmodon nőtt termésekből. Tudnál nekem sütni egyet?^^Kössz!^-Bence%item quest 2101 %%[#]Bence pizza rendelése",
@@ -1411,16 +1405,15 @@
 
   //4heart
   "Bence.4heart.01": "This is just a tribute...",
-  "Bence.4heart.02": "Oh... helló @!",
-  "Bence.4heart.03": "Éppen megbízásokat teljesítek és eléggé megvagyok velük csúszva szóval most nem igazán érek rá.",
+  "Bence.4heart.02": "Oh... helló @!#$b#Éppen megbízásokat teljesítek és eléggé megvagyok velük csúszva szóval most nem igazán érek rá.",
 
   "Bence.4heart.Answer.01": "Rendben, akkor nem is zavarlak tovább.",
   "Bence.4heart.Answer.02": "Esetleg kell segítség?",
   
-  "Bence.4heart.04": "Okés, majd még beszélünk.",
-  "Bence.4heart.05": "Öhm... azt mondjuk megköszönném. $h",
-  "Bence.4heart.06": "Jólvan, elvileg az volt az utolsó.",
-  "Bence.4heart.07": "Köszi, hogy segítettél. Így azért sokkal hamarabb végeztem. $h#$b#Akkor én most viszont indulok haza. Majd még úgyis beszélünk, na csá!",
+  "Bence.4heart.03": "Okés, majd még beszélünk.",
+  "Bence.4heart.04": "Öhm... azt mondjuk megköszönném. $h",
+  "Bence.4heart.05": "Jólvan, elvileg az volt az utolsó.",
+  "Bence.4heart.06": "Köszi, hogy segítettél. Így azért sokkal hamarabb végeztem. $h#$b#Akkor én most viszont indulok haza. Majd még úgyis beszélünk, na csá!",
 
   //6heart
   "Bence.6heart.01": "Mégis mi a francért nem működsz?!$a",
@@ -1446,15 +1439,15 @@
   "Bence.Engagement.1": "",
 
   //CommunityDay
-  "Bence.CommunityDay.01": "CommunityDay1",
-  "Bence.CommunityDay.02": "CommunityDay2",
-  "Bence.CommunityDay.03": "CommunityDay3",
-  "Bence.CommunityDay.04": "CommunityDay4",
+  "Bence.CommunityDay.01": "",
+  "Bence.CommunityDay.02": "",
+  "Bence.CommunityDay.03": "",
+  "Bence.CommunityDay.04": "",
   //CommunityDay - MARRIED
-  "Bence.CommunityDay.05": "CommunityDay5",
-  "Bence.CommunityDay.06": "CommunityDay6",
-  "Bence.CommunityDay.07": "CommunityDay7",
-  "Bence.CommunityDay.08": "CommunityDay8",
+  "Bence.CommunityDay.05": "",
+  "Bence.CommunityDay.06": "",
+  "Bence.CommunityDay.07": "",
+  "Bence.CommunityDay.08": "",
  
   //JojaDay
   "Bence.JojaDay.01": "Gondoltam elugrok egy-két energia italért.",
@@ -1744,6 +1737,45 @@
   //Mark Movie Dialogue 
 
   //Mark Events
+
+  //4heart
+  "Mark.4heart.01": "Helló @! Gyere csak beljebb!",
+  "Mark.4heart.02": "One Pieace maratont akarok tartani és éppen kukoricát pattogtatok.",
+  "Mark.4heart.Question": "Akarsz csatlakozni?",
+  "Mark.4heart.Answer.01": "Igen, jól hangzik.",
+  "Mark.4heart.Answer.02": "Bocsi de most nem érek rá.",
+  "Mark.4heart.Answer.03": "Nem akarok mesét nézni veled.",
+  "Mark.4heart.03": "Oké, meg tudom érteni.",
+  "Mark.4heart.04": "Hát... jól van.$s",
+  "Mark.4heart.05": "Jóóó.$h",
+  "Mark.4heart.06": "Oké, most jön a 1112. részt, és gyorsan elmondom, hol tartunk a történetben.",
+  "Mark.4heart.07": "Szóval Egghead-szigeten eldurvult a helyzet. #$b#A tengerészet már úton van teljes erővel, Kizaru vezeti a flottát, és vele jön a Gorosei egyik tagja, Saturn is ami hatalmas fenyegetés, mert ilyen rangú figura ritkán mozdul ki. #$b#Sentomaru meg egyenesen azt mondta, hogy ez rosszabb, mint az Ohara-incidens, ezért mindenki próbál menekülni.",
+  "Mark.4heart.08": "A szigeten közben több fronton is zajlik a harc:#$b#Franky próbálta megmenteni Pythagorast S-Snake kővé változtató támadása után, de nem sikerült, és Pythagoras testét teljesen összezúzta.#$b#Luffy és Zoro összefogtak Luccival és Kakúval (igen, most tényleg együtt harcolnak) S-Bear és S-Hawk ellen, de S-Hawk lelépett, hogy a gyengébbeket támadja.#$b#Sanji igazi hős módjára beállt Nami elé, és felfogta S-Shark támadását, mintha semmi sem történt volna.",
+  "Mark.4heart.09": "A legnagyobb fordulat viszont a végén jött: kiderült, hogy York, Vegapunk 'klónja', elárulta a többieket. #$b#Ő szivárogtatta ki az infókat a Goroseinek, ő hívta ide a tengerészetet, és világnemes akar lenni, még Stellát (az eredeti Vegapunkot) is kész lenne ezért feláldozni.",
+  "Mark.4heart.10": "Szóval most ott tartunk, hogy a flotta mindjárt megérkezik, a szigeten káosz van, és mindenki próbál túlélni innen indul most a 1112. rész.",
+  "Mark.4heart.11": "Márkal közösen megnéztetek 12db One Pieace részt.",
+  "Mark.4heart.12": "Nagyon élveztem a közös anime nézést.$h#$b#Tarthatnánk még ilyet valamikor.$0",
+
+  //6heart
+  "Mark.6heart.01": "Oh... Helló @!#$b#Te is bányászni jössz? Remélem igen, mert nem a leg biztonságosabb dolog egyedül menni.",
+  "Mark.6heart.Question": "Mit szeretnél bányászni?",
+  "Mark.6heart.Answer.01": "Rezet.",
+  "Mark.6heart.Answer.02": "Vasat.",
+  "Mark.6heart.Answer.03": "Aranyat.",
+  "Mark.6heart.02": "Az mondjuk nekem se jönne rosszul.#$b#Let's go!",
+  "Mark.6heart.03": "Vigyázz @!",
+  "Mark.6heart.04": "Ez közel volt.",
+  "Mark.6heart.05": "Kezdek kifáradni, szerintem idelye felmenni!",
+  "Mark.6heart.06": "Ez egy jó kör volt, elég sok ércet sikerült szerezni.#$b#Tessék, itt a részed. Még beszélünk, csáó!",
+
+  //6heartI
+  "Mark.8heartI.01": "Csá @!#$b#Van egy extra jegyem a Zuzu Városi Derbire.",
+  "Mark.8heartI.Question": "Arra gondoltam megkérdezem hogy nincs e kedved eljönni velem?",
+  "Mark.8heartI.Answer.01": "Elmegyek veled.",
+  "Mark.8heartI.Answer.02": "Bocsi de nincs kedvem hozzá.",
+  "Mark.8heartI.02": "Jólvan, akkor úgynézki egyedül megyek.$s",
+  "Mark.8heartI.03": "Oké, akkor majd délután találkozzunk a buszmegállónál.#$b#Addig is, good bye.",
+
   //Mark comments on Aurora Vineyard being overgrown
   "Mark.VineyardOvergrown.01": "",
 

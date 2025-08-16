@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="15" height="17" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="1">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="15" height="17" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="7">
  <properties>
   <property name="AmbientLight" value="80 80 40"/>
   <property name="ViewportFollowPlayer" type="bool" value="true"/>
@@ -45,7 +45,7 @@
 0,0,0,133,0,0,0,0,158,142,126,127,128,0,0,
 0,0,0,149,0,0,0,0,0,158,142,143,144,0,0,
 0,0,0,165,0,0,0,0,0,0,158,159,420,0,0,
-0,0,0,181,0,0,0,0,0,0,428,429,430,0,0,
+0,0,0,181,0,0,0,0,0,0,0,429,430,0,0,
 0,0,0,197,0,0,0,0,0,0,438,439,440,0,0,
 0,0,0,78,165,0,0,0,0,0,448,449,450,0,0,
 0,0,0,0,181,0,0,0,0,0,0,0,224,0,0,
@@ -90,7 +90,7 @@
 78,78,78,0,0,0,0,0,0,0,114,0,0,78,78,
 78,78,78,0,0,0,0,0,0,0,0,0,0,78,78,
 78,78,78,0,0,0,0,0,0,0,0,419,160,78,78,
-78,78,78,0,0,0,0,0,0,0,0,0,176,78,78,
+78,78,78,0,0,0,0,0,0,0,428,0,176,78,78,
 78,78,78,0,198,0,0,0,0,0,0,0,192,78,78,
 78,78,78,0,0,0,0,0,0,0,0,0,208,78,78,
 78,78,78,78,0,0,0,0,0,0,0,0,0,78,78,
@@ -109,8 +109,8 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,297,0,0,0,0,
-0,0,0,0,0,296,0,0,0,0,0,0,0,0,0,
-0,0,0,0,296,0,296,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -123,7 +123,28 @@
 </data>
  </layer>
  <objectgroup id="2" name="Back"/>
- <objectgroup id="3" name="Buildings"/>
+ <objectgroup id="3" name="Buildings">
+  <object id="1" name="TileData" x="80" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;MarkFarmCave.Block&quot;"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="160" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;MarkFarmCave.Ore&quot;"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="176" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;MarkFarmCave.Ore&quot;"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="176" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;MarkFarmCave.Ore&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="10" name="Buildings2"/>
  <objectgroup id="6" name="Front"/>
  <objectgroup id="8" name="Paths"/>

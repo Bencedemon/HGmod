@@ -565,5 +565,63 @@
                     "HasSeenEvent: anyPlayer|contains=2001301": true
                }
           },
+          { //Mark Furnace
+               "Action": "EditMap",
+               "Target": "Maps/Custom_MarkHouseInterior",
+               "FromFile": "assets/Maps/MapPatches/MarkHouseInterior_Furnace.tbin",
+               "ToArea": {
+                    "X": 8,
+                    "Y": 3,
+                    "Width": 2,
+                    "Height": 2
+               },
+               "MapProperties": {
+                    "BrookSounds": "8 4 1 9 4 1",
+                    "Light": "8 4 5 9 4 5"
+               },
+               "When": {
+                    "Weather |contains=Rain, Storm": false,
+                    "Season": "Winter"
+               }
+          },
+          { //Mark Furnace NON Winter
+               "Action": "EditMap",
+               "Target": "Maps/Custom_MarkHouseInterior",
+               "FromFile": "assets/Maps/MapPatches/MarkHouseInterior_Furnace.tbin",
+               "ToArea": {
+                    "X": 8,
+                    "Y": 3,
+                    "Width": 2,
+                    "Height": 2
+               },
+               "MapProperties": {
+                    "BrookSounds": "8 4 1 9 4 1",
+                    "Light": "8 4 5 9 4 5"
+               },
+               "When": {
+                    "Weather |contains=Rain, Storm": true,
+                    "Season": "Spring,Summer,Fall"
+               }
+          },
+
+          //=============//
+          //   Island    //
+          //=============//
+          {
+               "Action": "EditMap",
+               "Target": "Maps/Island_N",
+               "FromFile": "assets/Maps/MapPatches/Island_N_to_NW.tbin",
+               "ToArea": {
+                    "X": 0,
+                    "Y": 32,
+                    "Width": 11,
+                    "Height": 11
+               },
+               "AddWarps": [
+                    "-1 34 Custom_IslandNorthWest 43 30",
+                    "-1 35 Custom_IslandNorthWest 43 30",
+                    "-1 36 Custom_IslandNorthWest 43 30"
+               ]
+          }
      ]
 }

@@ -68,6 +68,11 @@
         "FromFile": "assets/Maps/WorldMaps/Patches/winter_MarkFarmMap.png"
     },
     {
+        "Action": "Load", "Priority": "Low",
+        "Target": "Mods/Bencedemon.HG/Island_NW",
+        "FromFile": "assets/Maps/WorldMaps/Patches/Island_NW.png"
+    },
+    {
         "Action": "EditData",
         "Target": "Data/WorldMap",
         "TargetField": [
@@ -78,10 +83,10 @@
             "Bencedemon.HG_ChristopherHouseOutside": {
                 "Id": "Custom_ChristopherHouseOutside",
                 "PixelArea": {
-                    "X": 187,
-                    "Y": 146,
-                    "Width": 4,
-                    "Height": 6
+                    "X": 186,
+                    "Y": 145,
+                    "Width": 6,
+                    "Height": 8
                 },
                 "ScrollText": "{{i18n:ChristopherHouse.Name}}",
                 "WorldPositions": [
@@ -101,10 +106,10 @@
                         "Id": "Custom_ChristopherHouseOutsideTooltip",
                         "Text": "{{i18n:ChristopherHouse.Name}}",
                         "PixelArea": {
-                            "X": 187,
-                            "Y": 146,
-                            "Width": 4,
-                            "Height": 6
+                            "X": 186,
+                            "Y": 145,
+                            "Width": 6,
+                            "Height": 8
                         },
                         "LeftNeighbor": "",
                         "RightNeighbor": "Beach/FishShop",
@@ -162,10 +167,10 @@
             "Bencedemon.HG_BenceCabinOutside": {
                 "Id": "Custom_BenceCabinOutside",
                 "PixelArea": {
-                    "X": 62,
-                    "Y": 128,
-                    "Width": 7,
-                    "Height": 5
+                    "X": 61,
+                    "Y": 127,
+                    "Width": 9,
+                    "Height": 7
                 },
                 "ScrollText": "{{i18n:BenceCabin.Name}}",
                 "WorldPositions": [
@@ -185,10 +190,10 @@
                         "Id": "Custom_BenceCabinOutsideTooltip",
                         "Text": "{{i18n:BenceCabin.Name}}",
                         "PixelArea": {
-                            "X": 62,
-                            "Y": 128,
-                            "Width": 7,
-                            "Height": 5
+                            "X": 61,
+                            "Y": 127,
+                            "Width": 9,
+                            "Height": 7
                         },
                         "LeftNeighbor": "Forest/WizardTower",
                         "RightNeighbor": "Forest/LeahCottage",
@@ -390,6 +395,97 @@
                 ],
             }
         }
+    },
+    {
+        "Action": "EditData",
+        "Target": "Data/WorldMap",
+        "TargetField": [
+            "GingerIsland",
+            "MapAreas",
+        ],
+        "Entries": {
+            "Bencedemon.HG_Island_NW": {
+                "Id": "Custom_IslandNorthWest",
+                "PixelArea": {
+                    "X": 95,
+                    "Y": 40,
+                    "Width": 34,
+                    "Height": 28
+                },
+                //"ScrollText": "{{i18n:Island_NW.Name}}",
+                "WorldPositions": [
+                    {
+                        "Id": "Custom_IslandNorthWest",
+                        "LocationName": "Custom_IslandNorthWest",
+                        "MapPixelArea": {
+                            "X": 95,
+                            "Y": 40,
+                            "Width": 34,
+                            "Height": 28
+                        }
+                    }
+                ],
+                "Textures": [
+                    {
+                        "Id": "Custom_IslandNorthWestTexture",
+                        "Texture": "Mods/Bencedemon.HG/Island_NW",
+                        "MapPixelArea": {
+                            "X": 82,
+                            "Y": 43,
+                            "Width": 55,
+                            "Height": 31
+                        },
+                    },
+                ]
+            },
+            "Bencedemon.HG_Island_Shelter": {
+                "Id": "Custom_Island_Shelter",
+                "PixelArea": {
+                    "X": 96,
+                    "Y": 45,
+                    "Width": 7,
+                    "Height": 8
+                },
+                //"ScrollText": "{{i18n:Island_Shelter.Name}}",
+                "WorldPositions": [
+                    {
+                        "Id": "Custom_Island_Shelter",
+                        "LocationName": "Custom_Island_Shelter",
+                        "MapPixelArea": {
+                            "X": 100,
+                            "Y": 48,
+                            "Width": 0,
+                            "Height": 0
+                        }
+                    }
+                ],
+                "Tooltips" : [
+                    {
+                        "Id": "Custom_Island_ShelterShelter",
+                        "Text": "???",
+                        "PixelArea": {
+                            "X": 96,
+                            "Y": 45,
+                            "Width": 7,
+                            "Height": 8
+                        },
+                        "Condition": "!PLAYER_HAS_SEEN_EVENT Current 2001302" 
+                    },
+                    {
+                        "Id": "Custom_Island_ShelterShelter",
+                        "Text": "{{i18n:Island_ShelterShelter.Name}}",
+                        "PixelArea": {
+                            "X": 96,
+                            "Y": 45,
+                            "Width": 7,
+                            "Height": 8
+                        },
+                        "Condition": "PLAYER_HAS_SEEN_EVENT Current 2001302" 
+                    }
+                ]
+            },
+        }
     }
+
     ]
 }

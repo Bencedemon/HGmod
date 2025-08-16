@@ -20,6 +20,10 @@
                 "Bencedemon.HG_SotetUtakon": {
                     "Name": "{{i18n:Jukebox.SotetUtakon}}",
                     "AlternativeTrackIds": ["SotetUtakon"]
+                },
+                "Bencedemon.HG_Uuuuus": {
+                    "Name": "{{i18n:Jukebox.Uuuuus}}",
+                    "AlternativeTrackIds": ["Uuuuus"]
                 }
             }
         }

@@ -55,6 +55,22 @@
         {
             "Name":"Custom_BenceStargazingSky",
             "FromMapFile":"Assets/Maps/NewLocations/BenceStargazingSky.tmx"
+        },
+        {
+            "Name":"Custom_MarkHorseRace",
+            "FromMapFile":"Assets/Maps/NewLocations/Derby.tmx"
+        },
+        {
+            "Name":"Custom_MarkHorseRace2",
+            "FromMapFile":"Assets/Maps/NewLocations/Derby2.tmx"
+        },
+        {
+            "Name":"Custom_IslandNorthWest",
+            "FromMapFile":"Assets/Maps/NewLocations/Island_NW.tmx"
+        },
+        {
+            "Name":"Custom_Island_Shelter",
+            "FromMapFile":"Assets/Maps/NewLocations/Island_Shelter.tmx"
         }
     ],
     "DynamicTokens": [
@@ -241,7 +257,7 @@
         {
           "LogName": "Events",
           "Action": "Include",
-          "FromFile": "Data/Events/HGCave.json, Data/Events/SO_Events.json, Data/Events/SVE_Events.json"
+          "FromFile": "Data/Events/HGCave.json, Data/Events/SO_Events.json, Data/Events/SVE_Events.json, Data/Events/SecretQuest.json"
         },
         {
           "LogName": "Festivals",

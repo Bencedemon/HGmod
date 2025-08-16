@@ -4,7 +4,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Farm",
             "Entries": {
-                "2001401/t 600 1400/n MarkReward": "continue/64 15/farmer 64 16 2 Mark 64 18 0/pause 1500/speak Mark \"{{i18n:SO_Event.Mark.01}}\"/speak Mark \"{{i18n:SO_Event.Mark.02}}\"/emote farmer 20/mail MarkReward_return/globalFade/viewport -1000 -1000/end invisible Mark"
+                "2001401/t 600 1400/n MarkReward": "continue/64 15/farmer 64 16 2 Mark 64 18 0/pause 1500/speak Mark \"{{i18n:SO_Event.Mark.01}}\"/emote farmer 20/mail MarkReward_return/globalFade/viewport -1000 -1000/end invisible Mark"
             }
         },
         {

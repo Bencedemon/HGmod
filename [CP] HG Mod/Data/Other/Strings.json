@@ -29,18 +29,19 @@
 				"BenceCabinOutside.Firewood2": "{{i18n:BenceCabinOutside.Firewood2}}",
 
 
-				"MarkHouse.Geode1": "{{i18n:MarkHouse.Geode1}}",
-				"MarkHouse.Geode2": "{{i18n:MarkHouse.Geode2}}",
-				"MarkHouse.Geode3": "{{i18n:MarkHouse.Geode3}}",
+				"MarkHouse.Geode": "{{i18n:MarkHouse.Geode}}",
+				"MarkHouse.Copper": "{{i18n:MarkHouse.Copper}}",
+				"MarkHouse.Gold": "{{i18n:MarkHouse.Gold}}",
 				"MarkHouse.Firewood": "{{i18n:MarkHouse.Firewood}}",
-				"MarkHouse.OldMonitor": "{{i18n:MarkHouse.OldMonitor}}",
 				"MarkHouse.PC": "{{i18n:MarkHouse.PC}}",
 				"MarkHouse.Lantern": "{{i18n:MarkHouse.Lantern}}",
-
+				"MarkHouse.PressBench": "{{i18n:MarkHouse.PressBench}}",
 
 				"MarkFarm.Mailbox": "{{i18n:MarkFarm.Mailbox}}",
-
 				"MarkFarm.Sign": "{{i18n:MarkFarm.Sign}}",
+
+				"MarkFarmCave.Block": "{{i18n:MarkFarmCave.Block}}",
+				"MarkFarmCave.Ore": "{{i18n:MarkFarmCave.Ore}}",
 
 
 				"Sign.TownMarkFarm": "{{i18n:Sign.TownMarkFarm}}",

@@ -87,6 +87,18 @@
             "Priority": "Low",
             "Target": "Maps/Desert_BenceShop",
             "FromFile": "Assets/Tilesheets/Desert_BenceShop.png"
+        },
+        {
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Maps/HG_fire",
+            "FromFile": "Assets/Tilesheets/HG_fire.png"
+        },
+        {
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Maps/MarkHouseInteriorTilesheet",
+            "FromFile": "Assets/Tilesheets/MarkHouseInteriorTilesheet.png"
         }
     ]
 }

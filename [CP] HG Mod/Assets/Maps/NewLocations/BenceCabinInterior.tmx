@@ -213,11 +213,6 @@
     <property name="Action" value="Message &quot;BenceCabin.Phone&quot;"/>
    </properties>
   </object>
-  <object id="19" name="TileData" x="160" y="96" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;BenceCabin.Papers&quot;"/>
-   </properties>
-  </object>
  </objectgroup>
  <objectgroup id="6" name="Front"/>
  <objectgroup id="15" name="Front2"/>

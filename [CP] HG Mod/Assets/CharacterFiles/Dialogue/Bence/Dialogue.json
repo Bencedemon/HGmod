@@ -48,7 +48,8 @@
           "WinterStar_GiveGift_After": "{{i18n:Bence.WinterStar_GiveGift_After}}",
           //"WinterStar_ReceiveGift": "{{i18n:Bence.WinterStar_ReceiveGift}}",
           //SPECIFIC MAP AND COORDINATES DIALOGUE
-          "SeedShop_37_22": "{{i18n:Bence.LocationDialogue.SeedShop}}",
+          "SeedShop": "{{i18n:Bence.LocationDialogue.SeedShop}}",
+          "ScienceHouse": "{{i18n:Bence.LocationDialogue.ScienceHouse}}",
           //SPRING AND GENERAL DIALOGUE
           "Mon": "{{i18n:Bence.CharacterDialogue.001}}",
           "Mon2": "{{i18n:Bence.CharacterDialogue.002}}",
