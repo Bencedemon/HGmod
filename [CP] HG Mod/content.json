@@ -183,14 +183,14 @@
           //Dialogue Blank Loads
           "Action": "Load",
           "Priority": "Low",
-          "Target": "Characters/Dialogue/Christopher, Characters/Dialogue/MarriageDialogueChristopher, Characters/Dialogue/Bence, Characters/Dialogue/MarriageDialogueBence, Characters/Dialogue/Mark, Characters/Dialogue/MarriageDialogueMark",
+          "Target": "Characters/Dialogue/Christopher, Characters/Dialogue/MarriageDialogueChristopher, Characters/Dialogue/Bence, Characters/Dialogue/MarriageDialogueBence, Characters/Dialogue/Mark, Characters/Dialogue/MarriageDialogueMark, Characters/Dialogue/Isti, Characters/Dialogue/MarriageDialogueIsti",
           "FromFile": "Assets/Blank.json"
         },
         {
           //Schedule Dialogue Blank Loads
           "Action": "Load",
           "Priority": "Low",
-          "Target": "Strings/schedules/Christopher, Strings/schedules/Bence, Strings/schedules/Mark",
+          "Target": "Strings/schedules/Christopher, Strings/schedules/Bence, Strings/schedules/Mark, Strings/schedules/Isti",
           "FromFile": "Assets/Blank.json"
         },
         {
@@ -202,17 +202,17 @@
         {
           "LogName": "Dialogue",
           "Action": "Include",
-          "FromFile": "Assets/CharacterFiles/Dialogue/Christopher/dialogue.json, Assets/CharacterFiles/Dialogue/Christopher/MarriageDialogue.json, Assets/CharacterFiles/Dialogue/Bence/dialogue.json, Assets/CharacterFiles/Dialogue/Bence/MarriageDialogue.json, Assets/CharacterFiles/Dialogue/Mark/dialogue.json, Assets/CharacterFiles/Dialogue/Mark/MarriageDialogue.json"
+          "FromFile": "Assets/CharacterFiles/Dialogue/Christopher/dialogue.json, Assets/CharacterFiles/Dialogue/Christopher/MarriageDialogue.json, Assets/CharacterFiles/Dialogue/Bence/dialogue.json, Assets/CharacterFiles/Dialogue/Bence/MarriageDialogue.json, Assets/CharacterFiles/Dialogue/Mark/dialogue.json, Assets/CharacterFiles/Dialogue/Mark/MarriageDialogue.json, Assets/CharacterFiles/Dialogue/Isti/dialogue.json, Assets/CharacterFiles/Dialogue/Isti/MarriageDialogue.json"
         },
         {
           "LogName": "ScheduleDialogue",
           "Action": "Include",
-          "FromFile": "Assets/CharacterFiles/Schedules/Christopher/ScheduleDialogue.json, Assets/CharacterFiles/Schedules/Bence/ScheduleDialogue.json, Assets/CharacterFiles/Schedules/Mark/ScheduleDialogue.json"
+          "FromFile": "Assets/CharacterFiles/Schedules/Christopher/ScheduleDialogue.json, Assets/CharacterFiles/Schedules/Bence/ScheduleDialogue.json, Assets/CharacterFiles/Schedules/Mark/ScheduleDialogue.json, Assets/CharacterFiles/Schedules/Isti/ScheduleDialogue.json"
         },
         {
           "LogName": "Characters",
           "Action": "Include",
-          "FromFile": "Data/NPCs/Christopher.json, Data/NPCs/Bence.json, Data/NPCs/Mark.json"
+          "FromFile": "Data/NPCs/Christopher.json, Data/NPCs/Bence.json, Data/NPCs/Mark.json, Data/NPCs/Isti.json"
         },
         {
           "LogName": "Vanilla Characters",
@@ -345,7 +345,7 @@
         {
           "Action": "Load",
           "Priority": "Low",
-          "Target": "Data/Events/Custom_ChristopherHouseInterior, Data/Events/Custom_BenceCabinInterior, Data/Events/Custom_MarkFarm, Data/Events/Custom_MarkHouseInterior, Data/Events/Custom_MarkFarmCave, Data/Events/Custom_HGCave",
+          "Target": "Data/Events/Custom_ChristopherHouseInterior, Data/Events/Custom_BenceCabinInterior, Data/Events/Custom_MarkFarm, Data/Events/Custom_MarkHouseInterior, Data/Events/Custom_MarkFarmCave, Data/Events/Custom_HGCave, Data/Events/Custom_IslandNorthWest, Data/Events/Custom_Island_Shelter",
           "FromFile": "Assets/Blank.json"
         },
     ]

@@ -1,0 +1,287 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "Isti": {
+          "DisplayName": "Isti",
+          "BirthSeason": "Summer",
+          "BirthDay": 19,
+          "HomeRegion": "Other",
+          "Language": "Default",
+          "Gender": "Male",
+          "Age": "Adult",
+          "Manner": "Polite",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Positive",
+          "IsDarkSkinned": false,
+          "CanBeRomanced": true,
+          "KissSpriteIndex": 36,
+          "LoveInterest": "",
+          "Calendar": "HiddenUntilMet",
+          "SocialTab": "HiddenUntilMet",
+          "CanSocialize": true,
+          "CanVisitIsland": false,
+          "IntroductionsQuest": false,
+          "PerfectionScore": true,
+          "EndSlideShow": "MainGroup",
+          "DumpsterDiveFriendshipEffect": 0,
+          "DumpsterDiveEmote": 8,
+          "SpouseRoom": {
+            "MapAsset": "Custom_IstiRoom",
+            "MapSourceRect": {
+              "X": 0,
+              "Y": 0,
+              "Width": 6,
+              "Height": 9
+            }
+          },
+          "SpousePatio": {
+            "MapAsset": "Isti_Spouse_Area",
+            "MapSourceRect": {
+              "X": 0,
+              "Y": 0,
+              "Width": 4,
+              "Height": 4
+            },
+            "SpriteAnimationFrames": [
+            ],
+            "SpriteAnimationPixelOffset": {
+              "X": 0,
+              "Y": 0
+            }
+          },
+          "FriendsAndFamily": {
+            "Christopher": "",
+            "Bence": "",
+            "Mark": ""
+          },
+          "WinterStarGifts": null,
+          "UnlockConditions": null,
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Bencedemon.HG_IstiHouse",
+              "Condition": null,
+              "Location": "Custom_Island_Shelter",
+              "Tile": {
+                "X": 4,
+                "Y": 4
+              },
+              "Direction": "down"
+            }
+          ],
+          "Appearance": null,
+          "TextureName": null,
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "HiddenProfileEmoteSound": null,
+          //"HiddenProfileEmoteDuration": 600,
+          //"HiddenProfileEmoteStartFrame": 24,
+          //"HiddenProfileEmoteFrameCount": 4,
+          //"HiddenProfileEmoteFrameDuration": 200.0,
+          "CustomFields": {}
+        },
+      },
+    },
+    {
+      //Isti's gift tastes
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Isti": "{{i18n:Isti.Gifts.Loved}}/
+        /{{i18n:Isti.Gifts.Liked}}/alcohol_item
+        /{{i18n:Isti.Gifts.Disliked}}/
+        /{{i18n:Isti.Gifts.Hated}}/
+        /{{i18n:Isti.Gifts.Neutral}}/
+        /"
+      }
+    },
+    {
+      //Isti's Animations
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+        "Isti_Sleep": "51/51/51"
+      }
+    },
+    //Spouse Room
+    {
+      "Action": "Load", "Priority": "Low",
+      "Target": "Maps/Custom_IstiRoom",
+      "FromFile": "Assets/Maps/SpouseRooms/IstiRoom.tmx"
+    },
+    //Spouse Patio
+    {
+      "Action": "Load", "Priority": "Low",
+      "Target": "Maps/Isti_Spouse_Area",
+      "FromFile": "Assets/Maps/SpouseRooms/Isti_Spouse_Area.tmx"
+    },
+    {
+      //Isti's Portraits
+      "Action": "Load", "Priority": "Low",
+      "Target": "Portraits/Isti",
+      "FromFile": "Assets/CharacterFiles/Portraits/Isti/Isti.png"
+    },
+    {
+      //Isti's Winter Portraits
+      "Action": "Load", "Priority": "Low",
+      "Target": "Portraits/Isti_Winter",
+      "FromFile": "Assets/CharacterFiles/Portraits/Isti/Isti_Winter.png"
+    },
+    {
+      //Isti's Sprites
+      "Action": "Load", "Priority": "Low",
+      "Target": "Characters/Isti",
+      "FromFile": "Assets/CharacterFiles/Sprites/Isti/Isti.png"
+    },
+    {
+      //Isti's Winter Sprites
+      "Action": "Load", "Priority": "Low",
+      "Target": "Characters/Isti_Winter",
+      "FromFile": "assets/CharacterFiles/Sprites/Isti/Isti_Winter.png"
+    },
+    {
+      //Isti's beach portraits
+      "Action": "Load", "Priority": "Low",
+      "Target": "Portraits/Isti_Beach",
+      "FromFile": "assets/CharacterFiles/Portraits/Isti/Isti_Beach.png"
+    },
+    {
+      //Isti's beach sprites
+      "Action": "Load", "Priority": "Low",
+      "Target": "Characters/Isti_Beach",
+      "FromFile": "assets/CharacterFiles/Sprites/Isti/Isti_Beach.png"
+    },
+    {
+      //Isti's Schedule
+      "Action": "Load",
+      "Target": "Characters/schedules/Isti",
+      "FromFile": "Assets/CharacterFiles/Schedules/Isti/Schedule.json"
+    },
+    {
+      //Isti's Engagement Dialogue
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Isti0": "{{i18n:Isti.Engagement.0}}",
+        "Isti1": "{{i18n:Isti.Engagement.1}}",
+      }
+    },
+    
+    //MOVIE THEATER
+    {
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "Isti": {
+          "Name": "Isti",
+          "LovedTags": [
+            "Salmon Burger"
+          ],
+          "LikedTags": [
+            "Salty",
+            "Sweet"
+          ],
+          "DislikedTags": [
+            "Healthy"
+          ]
+        },
+      },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "Isti": {
+          "NPCName": "Isti",
+          "Reactions": [
+            {
+              "Tag": "comedy",
+              "Response": "love",
+              "Whitelist": [],
+              "SpecialResponses": null,
+              "ID": "reaction_0"
+            },
+            {
+              "Tag": "action",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": null,
+              "ID": "reaction_1"
+            },
+            {
+              "Tag": "documentary",
+              "Response": "dislike",
+              "Whitelist": [],
+              "SpecialResponses": null,
+              "ID": "reaction_2"
+            },
+            {
+              "Tag": "love",
+              "Response": "love",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:Isti.Movies.01}}",
+                },
+                "DuringMovie": null,
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:Isti.Movies.02}}",
+                }
+              },
+              "ID": "reaction_3"
+            },
+            {
+              "Tag": "like",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:Isti.Movies.03}}",
+                },
+                "DuringMovie": null,
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:Isti.Movies.04}}",
+                }
+              },
+              "ID": "reaction_4"
+            },
+            {
+              "Tag": "dislike",
+              "Response": "dislike",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:Isti.Movies.05}}",
+                },
+                "DuringMovie": null,
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:Isti.Movies.06}}",
+                }
+              },
+              "ID": "reaction_5"
+            }
+          ]
+        },
+      }
+    },
+  ]
+}
+//(0 = up, 1 = right, 2 = down, 3 = left)
+ 

@@ -1,0 +1,14 @@
+{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Strings/schedules/Isti",
+        "Entries": 
+        {
+            "NightMarket_Isti": "{{i18n:Isti.NightMarket.01}}",
+            "DesertFestival_Isti_marriage": "{{i18n:Isti.DesertFestival_marriage.01}}",
+            "DesertFestival_Isti": "{{i18n:Isti.DesertFestival.01}}"
+        },
+      },
+    ]
+}
