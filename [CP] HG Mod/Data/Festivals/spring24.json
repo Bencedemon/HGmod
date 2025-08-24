@@ -12,14 +12,14 @@
           "Bence_y2": "{{i18n:Bence.Flower2}}",
           "Mark": "{{i18n:Mark.Flower}}",
           "Mark_y2": "{{i18n:Mark.Flower2}}",
+          "Isti": "{{i18n:Isti.Flower}}",
+          "Isti_y2": "{{i18n:Isti.Flower2}}",
         }
       },
-      //YEAR ONE SVE NPC flower festival data
+      //YEAR ONE HG NPC flower festival data
       {
         "Action": "EditData",
         "Target": "Data/Festivals/spring24",
-        "When": {
-        },
         "TextOperations": [
           { //Christopher
             "Operation": "Append",
@@ -77,7 +77,7 @@
           }
         ]
       },
-      //YEAR TWO SVE NPC flower festival data
+      //YEAR TWO HG NPC flower festival data
       {
         "Action": "EditData",
         "Target": "Data/Festivals/spring24",
@@ -97,7 +97,7 @@
               "Entries",
               "MainEvent_additionalCharacters_y2"
             ],
-            "Value": "Christopher 19 31 up",
+            "Value": "Christopher 18 32 up",
             "Delimiter": "/"
           },
           { //Bence
@@ -115,7 +115,7 @@
               "Entries",
               "MainEvent_additionalCharacters_y2"
             ],
-            "Value": "Bence 20 31 up",
+            "Value": "Bence 19 32 up",
             "Delimiter": "/"
           },
           { //Mark
@@ -134,6 +134,62 @@
               "MainEvent_additionalCharacters_y2"
             ],
             "Value": "Mark 23 23 left",
+            "Delimiter": "/"
+          }
+        ]
+      },
+      //YEAR ONE ISTI NPC flower festival data
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {
+          "HasSeenEvent: currentPlayer|contains=IstiReturn": true
+        },
+        "TextOperations": [
+          { //Isti
+            "Operation": "Append",
+            "Target": [
+              "Entries",
+              "Set-Up_additionalCharacters"
+            ],
+            "Value": "Isti 6 41 down",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": [
+              "Entries",
+              "MainEvent_additionalCharacters"
+            ],
+            "Value": "Isti 21 32 up",
+            "Delimiter": "/"
+          }
+        ]
+      },
+      //YEAR TWO ISTI NPC flower festival data
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {
+          "HasSeenEvent: currentPlayer|contains=IstiReturn": true
+        },
+        "TextOperations": [
+          { //Isti
+            "Operation": "Append",
+            "Target": [
+              "Entries",
+              "Set-Up_additionalCharacters_y2"
+            ],
+            "Value": "Isti 13 34 down",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": [
+              "Entries",
+              "MainEvent_additionalCharacters_y2"
+            ],
+            "Value": "Isti 22 21 down",
             "Delimiter": "/"
           }
         ]

@@ -163,6 +163,12 @@
       "Target": "Portraits/Isti",
       "FromFile": "Assets/CharacterFiles/Portraits/Isti/Isti.png"
     },
+    {
+      //Isti's Portraits
+      "Action": "Load", "Priority": "Low",
+      "Target": "Portraits/Isti_Regular",
+      "FromFile": "Assets/CharacterFiles/Portraits/Isti/Isti_Regular.png"
+    },
     /*{
       //Isti's Winter Portraits
       "Action": "Load", "Priority": "Low",

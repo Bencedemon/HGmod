@@ -11,14 +11,14 @@
           "Bence_y2": "{{i18n:Bence.Fair2}}",
           "Mark": "{{i18n:Mark.Fair}}",
           "Mark_y2": "{{i18n:Mark.Fair2}}",
+          "Isti": "{{i18n:Isti.Fair}}",
+          "Isti_y2": "{{i18n:Isti.Fair2}}",
         }
       },
-      //YEAR ONE SVE NPC festival data
+      //YEAR ONE HG NPC festival data
       {
         "Action": "EditData",
         "Target": "Data/Festivals/fall16",
-        "When": {
-        },
         "TextOperations": [
           {
             "Operation": "Append",
@@ -49,7 +49,7 @@
           }
         ]
       },
-      //YEAR TWO SVE NPC festival data
+      //YEAR TWO HG NPC festival data
       {
         "Action": "EditData",
         "Target": "Data/Festivals/fall16",
@@ -79,6 +79,44 @@
               "Set-Up_additionalCharacters_y2"
             ],
             "Value": "Mark 32 72 up",
+            "Delimiter": "/"
+          }
+        ]
+      },
+      //YEAR ONE ISTI NPC festival data
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": {
+          "HasSeenEvent: currentPlayer|contains=IstiReturn": true
+        },
+        "TextOperations": [
+          { //Isti
+            "Operation": "Append",
+            "Target": [
+              "Entries",
+              "Set-Up_additionalCharacters"
+            ],
+            "Value": "Isti 44 89 right",
+            "Delimiter": "/"
+          }
+        ]
+      },
+      //YEAR TWO ISTI NPC festival data
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": {
+          "HasSeenEvent: currentPlayer|contains=IstiReturn": true
+        },
+        "TextOperations": [
+          { //Isti
+            "Operation": "Append",
+            "Target": [
+              "Entries",
+              "Set-Up_additionalCharacters_y2"
+            ],
+            "Value": "Isti 19 77 right",
             "Delimiter": "/"
           }
         ]

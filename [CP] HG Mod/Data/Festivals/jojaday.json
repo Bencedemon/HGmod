@@ -126,5 +126,53 @@
 				"funLeave_Mark": "{{i18n:Mark.JojaDay.03}}",
 			},
 		},
+		{ //Isti Joja Day Schedule
+			"Action": "EditData",
+			"Target": "characters/schedules/Isti",
+			"When": {
+				"HasSeenEvent": "502261",
+				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+			},
+			"Entries": {
+				"22": "800 Custom_IstiHouseInterior 12 5 0/1040 JojaMart 22 18 1 \"Strings\\schedules\\Isti:JojaDay_Isti\"/1340 JojaMart 8 8 0 \"Strings\\schedules\\Isti:JojaDay_Isti\"/1440 JojaMart 17 6 3 \"Strings\\schedules\\Isti:JojaDay_Isti\"/1600 JojaMart 11 24 3 \"Strings\\schedules\\Isti:JojaDay1_Isti\"/1630 Custom_IstiHouseInterior 14 5 0 square_5_1_0/2200 Custom_IstiHouseInterior 15 13 3 Isti_sleep",
+			},
+		},
+		{ //Isti Joja Day Schedule - MARRIED
+			"Action": "EditData",
+			"Target": "characters/schedules/Isti",
+			"When": {
+				"HasSeenEvent": "502261",
+				"Spouse": "Isti",
+				"Day": "22",
+				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+			},
+			"Entries": {
+				"marriage_Mon": "1000 JojaMart 22 18 1 \"Strings\\schedules\\Isti:JojaDay_Isti\"/1340 JojaMart 8 8 0 \"Strings\\schedules\\Isti:JojaDay_Isti\"/1440 JojaMart 17 6 3 \"Strings\\schedules\\Isti:JojaDay_Isti\"/1600 JojaMart 11 24 3 \"Strings\\schedules\\Isti:JojaDay1_Isti\"/1630 bed",
+			},
+		},
+		{ //Schedule Strings
+			"Action": "EditData",
+			"Target": "strings/schedules/Isti",
+			"Entries": {
+				"JojaDay_Isti": "{{i18n:Isti.JojaDay.01}}",
+				"JojaDay1_Isti": "{{i18n:Isti.JojaDay.02}}",
+			},
+			"When": {
+				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+			},
+		},
+		{ //Isti Joja Day Marriage Dialogue
+			"Action": "EditData",
+			"Target": "characters/Dialogue/MarriageDialogueIsti",
+			"When": {
+				"HasSeenEvent": "502261",
+				"Spouse": "Isti",
+				"Day": "22",
+				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+			},
+			"Entries": {
+				"funLeave_Isti": "{{i18n:Isti.JojaDay.03}}",
+			},
+		},
     ]
 }

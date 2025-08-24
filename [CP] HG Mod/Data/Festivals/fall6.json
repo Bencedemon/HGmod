@@ -61,6 +61,7 @@
                 "Christopher": "{{i18n:Festival.Concert.Christopher}}",
                 "Bence": "{{i18n:Festival.Concert.Bence}}",
                 "Mark": "{{i18n:Festival.Concert.Mark}}",
+                "Isti": "{{i18n:Festival.Concert.Isti}}",
                 "Andy": "{{i18n:Festival.Concert.Andy}}",
                 "Susan": "{{i18n:Festival.Concert.Susan}}",
 
@@ -137,6 +138,7 @@
                 "Christopher_y2": "{{i18n:Festival.Concert.Christopher_y2}}",
                 "Bence_y2": "{{i18n:Festival.Concert.Bence_y2}}",
                 "Mark_y2": "{{i18n:Festival.Concert.Mark_y2}}",
+                "Isti_y2": "{{i18n:Festival.Concert.Isti_y2}}",
 
                 "Andy_y2": "{{i18n:Festival.Concert.Andy_y2}}",
                 "Susan_y2": "{{i18n:Festival.Concert.Susan_y2}}",
@@ -179,6 +181,44 @@
                 "HasFlag": "HGCave_Opening",
                 "DLX.Bundles/Purchased":"Bencedemon.Minecart" //(!)
             }
+        },
+        //YEAR ONE ISTI NPC festival data
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall6",
+            "When": {
+                "HasSeenEvent: currentPlayer|contains=IstiReturn": true
+            },
+            "TextOperations": [
+                { //Isti
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Isti 10 10 down",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        //YEAR TWO ISTI NPC festival data
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall6",
+            "When": {
+                "HasSeenEvent: currentPlayer|contains=IstiReturn": true
+            },
+            "TextOperations": [
+                { //Isti
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Isti 10 10 down",
+                    "Delimiter": "/"
+                }
+            ]
         }
     ]
 }

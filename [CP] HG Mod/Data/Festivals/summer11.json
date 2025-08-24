@@ -10,14 +10,14 @@
         "Bence_y2": "{{i18n:Bence.Luau2}}",
         "Mark": "{{i18n:Mark.Luau}}",
         "Mark_y2": "{{i18n:Mark.Luau2}}",
+        "Isti": "{{i18n:Isti.Luau}}",
+        "Isti_y2": "{{i18n:Isti.Luau2}}",
       }
     },
-    //YEAR ONE SVE NPC festival data
+    //YEAR ONE HG NPC festival data
     {
       "Action": "EditData",
       "Target": "Data/Festivals/summer11",
-      "When": {
-      },
       "TextOperations": [
         { //Christopher
           "Operation": "Append",
@@ -75,7 +75,7 @@
         }
       ]
     },
-    //YEAR TWO SVE NPC festival data
+    //YEAR TWO HG NPC festival data
     {
       "Action": "EditData",
       "Target": "Data/Festivals/summer11",
@@ -132,6 +132,62 @@
             "MainEvent_additionalCharacters_y2"
           ],
           "Value": "Mark 33 11 left",
+          "Delimiter": "/"
+        }
+      ]
+    },
+    //YEAR ONE ISTI NPC festival data
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "When": {
+        "HasSeenEvent: currentPlayer|contains=IstiReturn": true
+      },
+      "TextOperations": [
+        { //Isti
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "Isti 17 6 left",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "Isti 36 6 down",
+          "Delimiter": "/"
+        }
+      ]
+    },
+    //YEAR TWO ISTI NPC festival data
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "When": {
+        "HasSeenEvent: currentPlayer|contains=IstiReturn": true
+      },
+      "TextOperations": [
+        { //Isti
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters_y2"
+          ],
+          "Value": "Isti 29 6 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters_y2"
+          ],
+          "Value": "Isti 16 13 right",
           "Delimiter": "/"
         }
       ]

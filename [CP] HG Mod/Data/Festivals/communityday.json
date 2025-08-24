@@ -316,5 +316,122 @@
 				"CommunityDay_Mark_Married": "{{i18n:Mark.CommunityDay.08}}"
 			}
 		},
+		
+		{ //Isti Community Day Schedule
+			"Action": "EditData",
+			"Target": "characters/schedules/Isti",
+			"Entries": {
+				"FlashShifter.StardewValleyExpandedCP_CommunityDay": "800 Custom_IstiHouseInterior 14 5 0/1030 CommunityCenter 9 6 3 Isti_drink \"Strings\\schedules\\Isti:CommunityDay_Isti\"/1600 CommunityCenter 13 27 3 \"Strings\\schedules\\Isti:CommunityDay_Isti\"/1800 Custom_IstiHouseInterior 15 13 3 Isti_sleep",
+			},
+			"When": {
+				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+			}
+		},
+		{ //Spring Dialogue
+			"Action": "EditData",
+			"Target": "strings/schedules/Isti",
+			"When": {
+				"Season": "Spring",
+				"Season |contains=Summer, Fall, Winter": false,
+				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+			},
+			"Entries": {
+				"CommunityDay_Isti": "{{i18n:Isti.CommunityDay.01}}"
+			}
+		},
+		{ //Summer Dialogue
+			"Action": "EditData",
+			"Target": "strings/schedules/Isti",
+			"When": {
+				"Season": "Summer",
+				"Season |contains=Spring, Fall, Winter": false,
+				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+			},
+			"Entries": {
+				"CommunityDay_Isti": "{{i18n:Isti.CommunityDay.02}}"
+			}
+		},
+		{ //Fall Dialogue
+			"Action": "EditData",
+			"Target": "strings/schedules/Isti",
+			"When": {
+				"Season": "Fall",
+				"Season |contains=Spring, Summer, Winter": false,
+				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+			},
+			"Entries": {
+				"CommunityDay_Isti": "{{i18n:Isti.CommunityDay.03}}"
+			}
+		},
+		{ //Winter Dialogue
+			"Action": "EditData",
+			"Target": "strings/schedules/Isti",
+			"When": {
+				"Season": "Winter",
+				"Season |contains=Spring, Summer, Fall": false,
+				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+			},
+			"Entries": {
+				"CommunityDay_Isti": "{{i18n:Isti.CommunityDay.04}}"
+			}
+		},
+		{ //Isti Community Day Schedule - MARRIED
+			"Action": "EditData",
+			"Target": "characters/schedules/Isti",
+			"Entries": {
+				"marriage_FlashShifter.StardewValleyExpandedCP_CommunityDay": "1030 CommunityCenter 9 6 3 Isti_drink \"Strings\\schedules\\Isti:CommunityDay_Isti_Married\"/1300 CommunityCenter 44 14 3 Isti_music_L \"Strings\\schedules\\Isti:CommunityDay_Isti_Married\"/1610 CommunityCenter 37 11 0/1800 bed",
+			},
+			"When": {
+				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+			}
+		},
+		{ //Spring Dialogue - MARRIED
+			"Action": "EditData",
+			"Target": "strings/schedules/Isti",
+			"When": {
+				"Season": "Spring",
+				"Season |contains=Summer, Fall, Winter": false,
+				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+			},
+			"Entries": {
+				"CommunityDay_Isti_Married": "{{i18n:Isti.CommunityDay.05}}"
+			}
+		},
+		{ //Summer Dialogue - MARRIED
+			"Action": "EditData",
+			"Target": "strings/schedules/Isti",
+			"When": {
+				"Season": "Summer",
+				"Season |contains=Spring, Fall, Winter": false,
+				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+			},
+			"Entries": {
+				"CommunityDay_Isti_Married": "{{i18n:Isti.CommunityDay.06}}"
+			}
+		},
+		{ //Fall Dialogue - MARRIED
+			"Action": "EditData",
+			"Target": "strings/schedules/Isti",
+			"When": {
+				"Season": "Fall",
+				"Season |contains=Spring, Summer, Winter": false,
+				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+			},
+			"Entries": {
+				"CommunityDay_Isti_Married": "{{i18n:Isti.CommunityDay.07}}"
+			}
+		},
+		{ //Winter Dialogue - MARRIED
+			"Action": "EditData",
+			"Target": "strings/schedules/Isti",
+			"When": {
+				"Season": "Winter",
+				"Season |contains=Spring, Summer, Fall": false,
+				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+			},
+			"Entries": {
+				"CommunityDay_Isti_Married": "{{i18n:Isti.CommunityDay.08}}"
+			}
+		},
     ]
 }
