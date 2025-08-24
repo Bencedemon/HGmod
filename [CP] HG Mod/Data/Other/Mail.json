@@ -21,6 +21,10 @@
                 
                 "ChristopherCooking": "{{i18n:Mail.ChristopherRecipe}}",
                 "BenceCooking": "{{i18n:Mail.BenceRecipe}}",
+
+                "IstiGuitar": "{{i18n:Mail.Isti}}",
+
+                "IstiReturnReminder": "{{i18n:Mail.IstiReturnReminder}}",
             }
         }
     ]

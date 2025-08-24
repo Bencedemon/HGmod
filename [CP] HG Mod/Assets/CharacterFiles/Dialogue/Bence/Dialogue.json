@@ -75,7 +75,8 @@
           "summer_Thu2": "{{i18n:Bence.SummerCharacterDialogue.008}}",
           "summer_Fri": "{{i18n:Bence.SummerCharacterDialogue.009}}",
           "summer_Sat": "{{i18n:Bence.SummerCharacterDialogue.010}}",
-          "summer_Sun": "{{i18n:Bence.SummerCharacterDialogue.011}}",
+          "summer_Sat4": "{{i18n:Bence.SummerCharacterDialogue.011}}",
+          "summer_Sun": "{{i18n:Bence.SummerCharacterDialogue.012}}",
           //FALL DIALOGUE
           "fall_Mon": "{{i18n:Bence.FallCharacterDialogue.001}}",
           "fall_Tue": "{{i18n:Bence.FallCharacterDialogue.002}}",
@@ -83,7 +84,7 @@
           "fall_Wed4": "{{i18n:Bence.FallCharacterDialogue.004}}",
           "fall_Thu": "{{i18n:Bence.FallCharacterDialogue.005}}",
           "fall_Fri": "{{i18n:Bence.FallCharacterDialogue.006}}",
-          "fall_Fri2": "{{i18n:Bence.FallCharacterDialogue.007}}",
+          "fall_Fri4": "{{i18n:Bence.FallCharacterDialogue.007}}",
           "fall_Fri8": "{{i18n:Bence.FallCharacterDialogue.008}}",
           "fall_Sat": "{{i18n:Bence.FallCharacterDialogue.009}}",
           "fall_Sat6": "{{i18n:Bence.FallCharacterDialogue.010}}",
@@ -106,5 +107,12 @@
           "winter_Sun": "{{i18n:Bence.WinterCharacterDialogue.014}}",
         },
       },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/rainy",
+        "Entries": {
+            "Bence": "{{i18n:Bence.Rainy}}",
+        }
+      }
     ]
   }

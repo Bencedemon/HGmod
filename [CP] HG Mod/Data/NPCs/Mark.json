@@ -142,37 +142,109 @@
         //Mark's Portraits
         "Action": "Load", "Priority": "Low",
         "Target": "Portraits/Mark",
+        "When": {
+          "MarkLegacyLook": false
+        },
         "FromFile": "Assets/CharacterFiles/Portraits/Mark/Mark.png"
+      },
+      {
+        //Mark's Portraits Legacy
+        "Action": "Load", "Priority": "Low",
+        "Target": "Portraits/Mark",
+        "When": {
+          "MarkLegacyLook": true
+        },
+        "FromFile": "Assets/CharacterFiles/Portraits/Mark/Mark_Legacy.png"
       },
       {
         //Mark's Winter Portraits
         "Action": "Load", "Priority": "Low",
         "Target": "Portraits/Mark_Winter",
+        "When": {
+          "MarkLegacyLook": false
+        },
         "FromFile": "Assets/CharacterFiles/Portraits/Mark/Mark_Winter.png"
+      },
+      {
+        //Mark's Winter Portraits Legacy
+        "Action": "Load", "Priority": "Low",
+        "Target": "Portraits/Mark_Winter",
+        "When": {
+          "MarkLegacyLook": true
+        },
+        "FromFile": "Assets/CharacterFiles/Portraits/Mark/Mark_Winter_Legacy.png"
       },
       {
         //Mark's Sprites
         "Action": "Load", "Priority": "Low",
         "Target": "Characters/Mark",
+        "When": {
+          "MarkLegacyLook": false
+        },
         "FromFile": "Assets/CharacterFiles/Sprites/Mark/Mark.png"
+      },
+      {
+        //Mark's Sprites Legacy
+        "Action": "Load", "Priority": "Low",
+        "Target": "Characters/Mark",
+        "When": {
+          "MarkLegacyLook": true
+        },
+        "FromFile": "Assets/CharacterFiles/Sprites/Mark/Mark_Legacy.png"
       },
       {
         //Mark's Winter Sprites
         "Action": "Load", "Priority": "Low",
         "Target": "Characters/Mark_Winter",
+        "When": {
+          "MarkLegacyLook": false
+        },
         "FromFile": "assets/CharacterFiles/Sprites/Mark/Mark_Winter.png"
+      },
+      {
+        //Mark's Winter Sprites Legacy
+        "Action": "Load", "Priority": "Low",
+        "Target": "Characters/Mark_Winter",
+        "When": {
+          "MarkLegacyLook": true
+        },
+        "FromFile": "assets/CharacterFiles/Sprites/Mark/Mark_Winter_Legacy.png"
       },
       {
         //Mark's beach portraits
         "Action": "Load", "Priority": "Low",
         "Target": "Portraits/Mark_Beach",
+        "When": {
+          "MarkLegacyLook": false
+        },
         "FromFile": "assets/CharacterFiles/Portraits/Mark/Mark_Beach.png"
+      },
+      {
+        //Mark's beach portraits Legacy
+        "Action": "Load", "Priority": "Low",
+        "Target": "Portraits/Mark_Beach",
+        "When": {
+          "MarkLegacyLook": true
+        },
+        "FromFile": "assets/CharacterFiles/Portraits/Mark/Mark_Beach_Legacy.png"
       },
       {
         //Mark's beach sprites
         "Action": "Load", "Priority": "Low",
         "Target": "Characters/Mark_Beach",
+        "When": {
+          "MarkLegacyLook": false
+        },
         "FromFile": "assets/CharacterFiles/Sprites/Mark/Mark_Beach.png"
+      },
+      {
+        //Mark's beach sprites Legacy
+        "Action": "Load", "Priority": "Low",
+        "Target": "Characters/Mark_Beach",
+        "When": {
+          "MarkLegacyLook": true
+        },
+        "FromFile": "assets/CharacterFiles/Sprites/Mark/Mark_Beach_Legacy.png"
       },
       {
         //Mark's Schedule

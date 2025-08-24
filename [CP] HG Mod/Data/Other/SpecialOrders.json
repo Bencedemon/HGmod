@@ -4,7 +4,19 @@
             "LogName": "Add HG Emojis",
             "Action": "Load",
             "Target": "Mods/Bencedemon.HG/HGEmojis",
+            "When": {
+              "MarkLegacyLook": false
+            },
             "FromFile": "Assets/Tilesheets/SpecialOrderEmojis.png"
+        },
+        {// Legacy
+            "LogName": "Add HG Emojis",
+            "Action": "Load",
+            "Target": "Mods/Bencedemon.HG/HGEmojis",
+            "When": {
+              "MarkLegacyLook": true
+            },
+            "FromFile": "Assets/Tilesheets/SpecialOrderEmojis_Legacy.png"
         },
         {
             "LogName": "Add HG Emojis Data",

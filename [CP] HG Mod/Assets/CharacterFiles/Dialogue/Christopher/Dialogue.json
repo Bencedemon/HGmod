@@ -28,9 +28,9 @@
           "AcceptBirthdayGift_Positive": "{{i18n:Christopher.AcceptBirthdayGift_Positive}}",
           "AcceptBirthdayGift_Negative": "{{i18n:Christopher.AcceptBirthdayGift_Negative}}",
           "AcceptGift_alcohol_item": "{{i18n:Christopher.AcceptGift_alcohol_item}}",
-          "DumpsterDiveComment": "{{i18n:Christopher.DumpsterDive}}",
-          "married_Bence": "{{i18n:Christopher.MarriedBence}}",
-          "married_Mark": "{{i18n:Christopher.MarriedMark}}",
+          "DumpsterDiveComment": "{{i18n:Christopher.DumpsterDiveComment}}",
+          "married_Bence": "{{i18n:Christopher.married_Bence}}",
+          "married_Mark": "{{i18n:Christopher.married_Mark}}",
           "breakUp": "{{i18n:Christopher.breakUp}}",
           "divorced": "{{i18n:Christopher.divorced}}",
           "MovieInvitation": "{{i18n:Christopher.MovieInvitation}}",
@@ -117,6 +117,13 @@
           "winter_Sat": "{{i18n:Christopher.CharacterDialogue.042}}",
           "winter_Sat4": "{{i18n:Christopher.CharacterDialogue.043}}",
           "winter_Sun": "{{i18n:Christopher.CharacterDialogue.044}}"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/rainy",
+        "Entries": {
+            "Christopher": "{{i18n:Christopher.Rainy}}",
         }
       }
     ]

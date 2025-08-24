@@ -1085,63 +1085,15 @@
               {
                 "MinimumFriendshipThreshold": 1000,
                 "Weight": 1.0,
-                "QualifiedItemID": "(O)881",
-                "Stack": 3
-              },
-              {
-                "MinimumFriendshipThreshold": 1000,
-                "Weight": 1.0,
-                "QualifiedItemID": "(O)881",
-                "Stack": 4
-              },
-              {
-                "MinimumFriendshipThreshold": 1000,
-                "Weight": 1.0,
-                "QualifiedItemID": "(O)330",
-                "Stack": 2
-              },
-              {
-                "MinimumFriendshipThreshold": 1000,
-                "Weight": 1.0,
-                "QualifiedItemID": "(O)709",
+                "QualifiedItemID": "(O)768",
                 "Stack": 1
               },
               {
                 "MinimumFriendshipThreshold": 1000,
                 "Weight": 1.0,
-                "QualifiedItemID": "(O)169",
+                "QualifiedItemID": "(O)769",
                 "Stack": 1
               },
-              {
-                "MinimumFriendshipThreshold": 1000,
-                "Weight": 1.0,
-                "QualifiedItemID": "(O)390",
-                "Stack": 1
-              },
-              {
-                "MinimumFriendshipThreshold": 1000,
-                "Weight": 0.1,
-                "QualifiedItemID": "RANDOM_ITEMS (O) 579 585",
-                "Stack": 1
-              },
-              {
-                "MinimumFriendshipThreshold": 1000,
-                "Weight": 0.2,
-                "QualifiedItemID": "RANDOM_ITEMS (O) 103 113",
-                "Stack": 1
-              },
-              {
-                "MinimumFriendshipThreshold": 1000,
-                "Weight": 0.1,
-                "QualifiedItemID": "RANDOM_ITEMS (O) 100 101",
-                "Stack": 1
-              },
-              {
-                "MinimumFriendshipThreshold": 1000,
-                "Weight": 0.05,
-                "QualifiedItemID": "(O)275",
-                "Stack": 1
-              }
             ],
             "Breeds": [
               {
@@ -1154,7 +1106,7 @@
                     "Width": 16,
                     "Height": 16
                   },
-                  "CanBeChosenAtStart": true,
+                  "CanBeChosenAtStart": false,
                   "CanBeAdoptedFromMarnie": true,
                   "AdoptionPrice": 40000,
                   "BarkOverride": null,
@@ -1162,14 +1114,17 @@
               },
             ]
           }
+        },
+        "When":{
+          "ExtraPets": true
         }
       },
 
-        //AudioChanges
-        {
-            "Action": "EditData",
-            "Target": "Data/AudioChanges",
-            "Entries": {
+      //AudioChanges
+      {
+          "Action": "EditData",
+          "Target": "Data/AudioChanges",
+          "Entries": {
             "Bencedemon.HG_BarkOrb": {
                 "ID": "Bencedemon.HG_BarkOrb",
                 "Category": "Ambient",
@@ -1177,30 +1132,27 @@
                 "StreamedVorbis": false,
                 "Looped": false
             }
-            }
-        },
-      
-        //LoadAudio
-        {
-            "LogName": "Load audio",
-            "Action": "Load",
-            "Target": "Mods/Bencedemon.HG/BarkOrb",
-            "FromFile": "Assets/BarkOrb.ogg"
-        },
-    
-        
-        //LoadImages
-        {
-            "LogName": "Load orb",
-            "Action": "Load",
-            "Target": "Mods/Bencedemon.HG/Orb",
-            "FromFile": "Assets/Animals/orb.png"
-        },
-        {
-            "LogName": "Load OrbIcon",
-            "Action": "Load",
-            "Target": "Mods/Bencedemon.HG/OrbIcon",
-            "FromFile": "Assets/Animals/OrbIcon.png"
-        },
+          }
+      },
+      //LoadAudio
+      {
+          "LogName": "Load audio",
+          "Action": "Load",
+          "Target": "Mods/Bencedemon.HG/BarkOrb",
+          "FromFile": "Assets/BarkOrb.ogg"
+      },
+      //LoadImages
+      {
+          "LogName": "Load orb",
+          "Action": "Load",
+          "Target": "Mods/Bencedemon.HG/Orb",
+          "FromFile": "Assets/Animals/orb.png"
+      },
+      {
+          "LogName": "Load OrbIcon",
+          "Action": "Load",
+          "Target": "Mods/Bencedemon.HG/OrbIcon",
+          "FromFile": "Assets/Animals/OrbIcon.png"
+      },
     ]
 }

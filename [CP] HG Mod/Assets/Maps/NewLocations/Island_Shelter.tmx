@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="9" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="1">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="9" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="7">
  <properties>
   <property name="DayTiles" value="Buildings 2 1 19 Buildings 2 2 24 Buildings 6 1 19 Buildings 6 2 24 Back 3 3 13 Back 6 1 14"/>
   <property name="LocationContext" value="Island"/>
+  <property name="NPCWarp" value="3 3 Desert 18 27"/>
   <property name="NightTiles" value="Buildings 2 1 18 Buildings 2 2 23 Buildings 6 1 18 Buildings 6 2 23 Back 3 3 8 Back 6 1 9"/>
   <property name="SeasonOverride" value="summer"/>
   <property name="Warp" value="4 10 Custom_IslandNorthWest 7 13"/>
@@ -10,6 +11,11 @@
  </properties>
  <tileset firstgid="1" name="Island_Shelter_tilesheet" tilewidth="16" tileheight="16" tilecount="60" columns="5">
   <image source="Island_Shelter_tilesheet.png" width="80" height="192"/>
+  <tile id="41">
+   <properties>
+    <property name="Draw" value="Back"/>
+   </properties>
+  </tile>
  </tileset>
  <layer id="1" name="Back" width="9" height="10">
   <data encoding="csv">
@@ -25,18 +31,49 @@
 0,0,0,0,27,0,0,0,0
 </data>
  </layer>
+ <layer id="11" name="Back2" width="9" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,41,42,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
  <layer id="3" name="Buildings" width="9" height="10">
   <data encoding="csv">
 1,2,2,2,2,2,2,2,3,
 6,0,20,0,0,0,20,0,8,
 6,0,25,0,0,0,25,0,8,
 6,28,28,28,28,28,28,28,8,
-6,0,0,0,0,0,0,0,8,
-6,0,0,0,0,0,0,0,8,
-6,0,0,0,0,0,0,0,8,
-6,0,0,0,0,0,0,0,8,
+6,0,0,0,43,38,39,40,8,
+6,46,47,0,0,0,0,0,8,
+6,48,0,0,0,0,0,0,8,
+6,53,0,0,0,0,0,0,8,
 11,0,0,0,0,0,0,0,13,
 7,7,7,11,0,13,7,7,7
+</data>
+ </layer>
+ <layer id="13" name="Buildings2" width="9" height="10">
+  <properties>
+   <property name="Draw" value="Buildings"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,31,32,0,0,0,0,0,0,
+0,36,37,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0
 </data>
  </layer>
  <layer id="5" name="Front" width="9" height="10">
@@ -44,8 +81,8 @@
 0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
+0,51,52,0,0,33,34,35,0,
+0,56,57,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,
@@ -82,7 +119,35 @@
 </data>
  </layer>
  <objectgroup id="2" name="Back"/>
- <objectgroup id="4" name="Buildings"/>
+ <objectgroup id="12" name="Back2"/>
+ <objectgroup id="4" name="Buildings">
+  <object id="1" name="TileData" x="80" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Island_Shelter.Craft&quot;"/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="64" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Island_Shelter.Crate&quot;"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="96" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Island_Shelter.Craft&quot;"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="112" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Island_Shelter.Craft&quot;"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="16" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Island_Shelter.Banana&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="14" name="Buildings2"/>
  <objectgroup id="6" name="Front"/>
  <objectgroup id="8" name="Paths"/>
  <objectgroup id="10" name="AlwaysFront"/>

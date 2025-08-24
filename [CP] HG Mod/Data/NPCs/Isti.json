@@ -57,22 +57,58 @@
             "Bence": "",
             "Mark": ""
           },
+          "WinterStarParticipant": "PLAYER_HAS_SEEN_EVENT Any IstiReturn",
           "WinterStarGifts": null,
-          "UnlockConditions": null,
+          "UnlockConditions": null, //"PLAYER_HAS_SEEN_EVENT Any 2001500",
           "SpawnIfMissing": true,
           "Home": [
             {
-              "Id": "Bencedemon.HG_IstiHouse",
+              "Id": "Valley",
+              "Condition": "PLAYER_HAS_SEEN_EVENT Any IstiReturn",
+              "Location": "Custom_AbandonedCabinInterior",
+              "Tile": {
+                "X": 1,
+                "Y": 4
+              },
+              "Direction": "down"
+            },
+            {
+              "Id": "Default",
               "Condition": null,
               "Location": "Custom_Island_Shelter",
               "Tile": {
-                "X": 4,
+                "X": 1,
                 "Y": 4
               },
               "Direction": "down"
             }
           ],
-          "Appearance": null,
+          "Appearance": [
+            /*{
+              "Id": "Winter",
+              "Season": "Winter",
+              "Indoors": true,
+              "Outdoors": true,
+              "Portrait": "Portraits/Isti_Winter",
+              "Sprite": "Characters/Isti_Winter",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0,
+              "Condition": "PLAYER_HAS_SEEN_EVENT Any IstiReturn"
+            },*/
+            {
+              "Id": "Regular",
+              "Season": null,
+              "Indoors": true,
+              "Outdoors": true,
+              "Portrait": "Portraits/Isti_Regular",
+              "Sprite": "Characters/Isti_Regular",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0,
+              "Condition": "PLAYER_HAS_SEEN_EVENT Any IstiReturn"
+            }
+          ],
           "TextureName": null,
           "Size": {
             "X": 16,
@@ -92,12 +128,11 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-        "Isti": "{{i18n:Isti.Gifts.Loved}}/
-        /{{i18n:Isti.Gifts.Liked}}/alcohol_item
-        /{{i18n:Isti.Gifts.Disliked}}/
-        /{{i18n:Isti.Gifts.Hated}}/
-        /{{i18n:Isti.Gifts.Neutral}}/
-        /"
+        "Isti": "{{i18n:Isti.Gifts.Loved}}/88 346/
+        {{i18n:Isti.Gifts.Liked}}/alcohol_item 223/
+        {{i18n:Isti.Gifts.Disliked}}/834/
+        {{i18n:Isti.Gifts.Hated}}/651/
+        {{i18n:Isti.Gifts.Neutral}}/227/"
       }
     },
     {
@@ -105,6 +140,8 @@
       "Action": "EditData",
       "Target": "Data/animationdescriptions",
       "Entries": {
+        "Isti_drink": "24/24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 25 26 26 26 27 27 26 26 27 27 26 25 24 24 24 24 24 24 24 24 24 24 24 24/24",
+        "Isti_sit": "37/37 37 37 37 37 37 37 37 37 37 37 37 37 37 38 38 37 37 39 39 37 37 38 38 37 37 39 39/37//laying_down/offset 0 56",
         "Isti_Sleep": "51/51/51"
       }
     },
@@ -126,25 +163,37 @@
       "Target": "Portraits/Isti",
       "FromFile": "Assets/CharacterFiles/Portraits/Isti/Isti.png"
     },
-    {
+    /*{
       //Isti's Winter Portraits
       "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Isti_Winter",
       "FromFile": "Assets/CharacterFiles/Portraits/Isti/Isti_Winter.png"
     },
     {
+      //Isti's Winter Portraits
+      "Action": "Load", "Priority": "Low",
+      "Target": "Portraits/Isti_Regular",
+      "FromFile": "Assets/CharacterFiles/Portraits/Isti/Isti_Regular.png"
+    },*/
+    {
       //Isti's Sprites
       "Action": "Load", "Priority": "Low",
       "Target": "Characters/Isti",
       "FromFile": "Assets/CharacterFiles/Sprites/Isti/Isti.png"
     },
-    {
+    /*{
       //Isti's Winter Sprites
       "Action": "Load", "Priority": "Low",
       "Target": "Characters/Isti_Winter",
       "FromFile": "assets/CharacterFiles/Sprites/Isti/Isti_Winter.png"
-    },
+    },*/
     {
+      //Isti's Regular Sprites
+      "Action": "Load", "Priority": "Low",
+      "Target": "Characters/Isti_Regular",
+      "FromFile": "assets/CharacterFiles/Sprites/Isti/Isti_Regular.png"
+    },
+    /*{
       //Isti's beach portraits
       "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Isti_Beach",
@@ -155,12 +204,25 @@
       "Action": "Load", "Priority": "Low",
       "Target": "Characters/Isti_Beach",
       "FromFile": "assets/CharacterFiles/Sprites/Isti/Isti_Beach.png"
-    },
+    },*/
     {
       //Isti's Schedule
       "Action": "Load",
       "Target": "Characters/schedules/Isti",
       "FromFile": "Assets/CharacterFiles/Schedules/Isti/Schedule.json"
+    },
+    {//Isti SCHEDULE EDIT
+        "Action": "EditData", 
+        "Target": "Characters/Schedules/Isti",
+        "Entries":{
+            "Mon": "610 Custom_IslandNorthWest 19 17 2 dick_fish/1000 Custom_IslandNorthWest 22 10 0/1200 IslandNorth 18 13 0/2100 Custom_Island_Shelter 1 4 2 Isti_Sleep",
+            "Wed": "GOTO Mon",
+            "Fri": "GOTO Mon",
+            "Sat": "610 Custom_IslandNorthWest 19 17 2 dick_fish/1100 Custom_IslandNorthWest 22 10 0/1300 IslandNorth 33 72 0 Isti_drink/2100 Custom_Island_Shelter 1 4 2 Isti_Sleep"
+        },
+        "When": {
+            "HasSeenEvent: anyPlayer|contains=2001500": true
+        }
     },
     {
       //Isti's Engagement Dialogue
@@ -279,6 +341,34 @@
             }
           ]
         },
+      }
+    },
+    { //0 heart event
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_IslandNorthWest",
+      "Entries": {
+        "2001500": "IslandMusic/23 28/farmer 32 31 3 Isti 23 27 0/skippable/move farmer -5 0 3/emote farmer 8 true/doAction 22 26/move farmer 0 -1 0/move farmer -1 0 3/doAction 22 26/move farmer 0 -1 0/doAction 22 26/move farmer -3 0 0/doAction 22 26/pause 200/question null \"#Isti?\"/emote Isti 16 true/pause 200/faceDirection Isti 2/speak Isti \"Helló? Te meg, hogy kerültél ide?$0#$b#Te is hajótörött lettél?$h#$b#Várjunk egy kicsit, tudod a nevemet?#$b#Akkor ez azt jelenti, hogy a Pelikán városból jöttél?#$b#Az menő, régen én is ott éltem.\"/faceDirection Isti 0/doAction 22 26/pause 1000/doAction 22 26/speak Isti \"És mi újság a völgyben?\"/emote farmer 8/pause 100/question null \"#Mindenki azt hiszi meghaltál.\"/speak Isti \"Hmm... Ja azt gondoltam\"/doAction 22 26/pause 1200/doAction 22 26/pause 100/quickQuestion #Meglepően jól kezeled a hírt.#Nem erre a reakcióra számítottam.#Nem is örülsz, hogy megmenekültél?(break)--<answer1 script>\\speak Isti \"Hát persze. Teljesen jól vagyok, szerencsémre túléltem. Ez az ami számít, nem igaz?\"(break)--<answer2 script>\\speak Isti \"Mit is mondhatnék, mennyi idő telhetett el? Egy év? Vagy kettő?#$b#Teljesen elvesztettem az időérzékemet.\"(break)--<answer3 script>\\speak Isti \"Megmenekülni? Nem vagyok veszélyben.\"/faceDirection Isti 2/speak Isti \"Még ételt kell szereznem holnapra.#$b#De örülök hogy benéztél, gyere máskor is.\"/pause 200/move Isti -5 0 3 true/pause 500/faceDirection farmer 3/pause 200/question null \"#Várj, most akkor nem jösz haza a völgybe?\"/proceedPosition Isti/faceDirection Isti 1/pause 200/emote Isti 28/speak Isti \"*sóhaj* Nos tudod nagyon sok idő eltelt már azóta.#$b#Valószínűleg mindenki továbblépett már#$b#Nem hiszem, hogy képes lennék visszatérni a völgybe, legalábbis nem most.\"/pause 100/quickQuestion #Rendben, de azért ne mondjam el, hogy jól vagy?#Hát... oké.#Szerintem nagy hibát követsz el.(break)--<answer1 script>\\speak Isti \"Kérlek tartsd, titokban hogy találkoztunk.#$b#Szeretném egynap személyesen elmondani mindenkinek hogy jól vagyok.\"(break)--<answer2 script>\\speak Isti \"Köszönöm, hogy megérted.\"(break)--<answer3 script>\\speak Isti \"*sóhaj* Nem ez lenne az első.$s\"\\emote Isti 28 true/pause 200/advancedMove Isti false -7 0 0 -10/viewport move 0 -1 8000/pause 4000/globalFade/viewport -1000 -1000/end",
+      }
+    },
+    { //2 heart event - Coconut
+      "Action": "EditData",
+      "Target": "Data/Events/IslandNorth",
+      "Entries": {
+        "2001501/e 2001500/f Isti 500/w sunny/t 600 2200": "IslandMusic/56 69/farmer 50 74 1 Isti 57 70 0/addObject 57 64 88/skippable/jump Isti/move farmer 3 0 1/jump Isti/move farmer 4 0 0/jump Isti/move farmer 0 -2 0/emote Isti 28/faceDirection Isti 2/speak Isti \"Oh... Csá @!#$b#Éppen azt a kókuszdiót próbálom megszerezni.\"/faceDirection Isti 0/move farmer 0 -1 3/move farmer -1 0 0/move farmer 0 -1 0/jump Isti/speak Isti \"Nem... ez így nem jó, egyedül nem érem el.\"/faceDirection Isti 3/faceDirection farmer 1/speak Isti \"Ha tartok neked bakot megpróbálod leszedni?\"/emote farmer 32/pause 500/faceDirection Isti 0 true/faceDirection farmer 0 true/warp farmer 57 69/pause 200/jump farmer 10/pause 200/removeObject 57 64/pause 700/faceDirection farmer 2 true/faceDirection Isti 3 true/warp farmer 56 70/pause 200/itemAboveHead 88/pause 1500/faceDirection farmer 1/speak Isti \"Köszönöm @!$h#$b#Áh... igen, mindig jól esik egy kis frissítő kókuszvíz.#$b#Mióta itt vagyok ez számít nekem 'különleges' italnak. Nem túl gyakran tudok hozzájutni, nem terem valami gyakran.#$b#Mit megnem adnék most egy sörért.\"/pause 500/emote Isti 16/speak Isti \"Várjunk csak.#$b#Most, hogy megtaláltál esetleg tudnál nekem hozni a szigetre néhány sört?\"/pause 100/quickQuestion #Hát persze.#Gyere inkább haza!#Nem leszek a futárod.(break)--<answer1 script>\\emote Isti 20\\speak Isti \"Király, kössz$h\"\\addQuest 2501(break)--<answer2 script>\\emote Isti 28\\speak Isti \"Akkor inkább hagyjuk.$s\"\\friendship Isti -10(break)--<answer3 script>\\emote Isti 12\\speak Isti \"Azt hittem rád számíthatok.$s\"\\friendship Isti -50/pause 500/globalFade/viewport -1000 -1000/end",
+      }
+    },
+    { //4 heart event - Willy
+      "Action": "EditData",
+      "Target": "Data/Events/IslandSouth",
+      "Entries": {
+        "2001502/e 2001501/f Isti 1000/w sunny/t 600 2200": "tropical_island_day_ambient/22 43/farmer 21 42 0 Willy 17 43 2 Isti -100 -100 2/mail IstiGuitar/skippable/move farmer 0 -20 0/emote Willy 16/move Willy 4 0 0/speak Willy \"...\"/pause 100/globalFade 0.007 true/move Willy 0 -4 0/viewport -1000 -1000/proceedPosition farmer/pause 100/changeLocation Custom_IslandNorthWest/warp farmer 23 29 true/warp Isti 23 27 true/warp Willy 38 31/faceDirection Willy 3/playMusic IslandMusic/viewport 23 28 true/pause 100/emote farmer 40 true/emote Isti 40 true/pause 100/move Willy -3 0 3/textAboveHead Willy \"ISTI?!\"/faceDirection Isti 1/faceDirection farmer 1 true/move Willy -7 0 2/move Willy 0 -3 3/speak Willy \"Hát életben vagy?\"/globalFade/viewport -1000 -1000/end",
+      }
+    },
+    { //6 heart event
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_IslandNorthWest",
+      "Entries": {
+        "2001503/e 2001502/f Isti 1500/p Isti/w sunny/t 600 2200": "IslandMusic/19 17/farmer 20 12 2 Isti 19 17 2/broadcastEvent/mail IstiReturnReminder/move farmer 0 5 2/speak Isti \"Tudod @, mostanában elég sokat gondolkodtam és úgy érzem végre készen állok arra, hogy vissza térjek Pelikán városba.\"/faceDirection Isti 1/faceDirection farmer 3/speak Isti \"Jó lesz találkozni újra a srácokkal.$h#$b#Ma este összepakolom pár cuccomat és holnap hazamegyek Willy-vel.\"/faceDirection Isti 2 true/faceDirection farmer 2/viewport move 1 1 4000/pause 2000/globalFade/viewport -1000 -1000/end",
       }
     },
   ]

@@ -110,6 +110,16 @@
                             "Id": "(W)Bencedemon.HG_BencesAxe",
                             "ItemId": "(W)Bencedemon.HG_BencesAxe",
                         },
+                        {
+                            "TradeItemId": "CalicoEgg",
+                            "TradeItemAmount": 70,
+                            "Price": -1,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Player",
+                            "Id": "(W)Bencedemon.HG_IstisGuitar",
+                            "ItemId": "(W)Bencedemon.HG_IstisGuitar",
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Any 2001500"
+                        },
                     ],
                     "CustomFields": null
                 },

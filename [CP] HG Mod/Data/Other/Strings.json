@@ -55,6 +55,23 @@
 				"HG_Cave.Telescope": "{{i18n:HG_Cave.Telescope}}",
 				"HG_Cave.MinecartRide": "{{i18n:HG_Cave.MinecartRide}}",
 				"HG_Cave.MinecartRideTicketMachine": "{{i18n:HG_Cave.MinecartRideTicketMachine}}",
+				
+				"AbandonedCabin.Door": "{{i18n:AbandonedCabin.Door}}",
+				"AbandonedCabin.Window": "{{i18n:AbandonedCabin.Window}}",
+				"AbandonedCabin.Mailbox": "{{i18n:AbandonedCabin.Mailbox}}",
+
+				"AbandonedCabin.PC": "{{i18n:AbandonedCabin.PC}}",
+				"AbandonedCabin.Firewood": "{{i18n:AbandonedCabin.Firewood}}",
+				"AbandonedCabin.Box": "{{i18n:AbandonedCabin.Box}}",
+				"AbandonedCabin.Fridge": "{{i18n:AbandonedCabin.Fridge}}",
+				"AbandonedCabin.TV": "{{i18n:AbandonedCabin.TV}}",
+
+				"Island_NW.Fish": "{{i18n:Island_NW.Fish}}",
+				"Island_NW.FishCrate": "{{i18n:Island_NW.FishCrate}}",
+
+				"Island_Shelter.Crate": "{{i18n:Island_Shelter.Crate}}",
+				"Island_Shelter.Craft": "{{i18n:Island_Shelter.Craft}}",
+				"Island_Shelter.Banana": "{{i18n:Island_Shelter.Banana}}",
 			}
 		},
         {

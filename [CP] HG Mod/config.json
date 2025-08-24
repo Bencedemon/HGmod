@@ -1,3 +1,5 @@
 {
-  "SeasonalEdits": "true"
+  "MarkLegacyLook": "true",
+  "SeasonalEdits": "true",
+  "ExtraPets": "false"
 }

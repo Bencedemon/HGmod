@@ -13,7 +13,19 @@
             //Hats
             "Action": "Load", "Priority": "Low",
             "Target": "Mods/Bencedemon.HG/Hats",
+            "When": {
+                "MarkLegacyLook": false
+            },
             "FromFile": "Assets/Textures/HG_Hats.png"
+        },
+        {
+            //Hats Legacy
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/Hats",
+            "When": {
+                "MarkLegacyLook": true
+            },
+            "FromFile": "Assets/Textures/HG_Hats_Legacy.png"
         }
     ]
 }

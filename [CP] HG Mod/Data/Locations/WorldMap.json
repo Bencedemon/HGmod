@@ -1,491 +1,602 @@
 {
     "Changes": [
-    //Edits journey map to fern isles
-    {
-        "Action": "EditImage",
-        "Target": "Minigames/boatJourneyMap",
-        "FromFile": "Assets/Maps/WorldMaps/boatJourney/{{season}}_HG_boatJourneyMap.png",
-        "PatchMode": "Replace",
-    },
-    {
-        "Action": "Load", "Priority": "Low",
-        "Target": "Mods/Bencedemon.HG/spring_ChristopherHouseMap",
-        "FromFile": "assets/Maps/WorldMaps/Patches/spring_ChristopherHouseMap.png"
-    },
-    {
-        "Action": "Load", "Priority": "Low",
-        "Target": "Mods/Bencedemon.HG/summer_ChristopherHouseMap",
-        "FromFile": "assets/Maps/WorldMaps/Patches/summer_ChristopherHouseMap.png"
-    },
-    {
-        "Action": "Load", "Priority": "Low",
-        "Target": "Mods/Bencedemon.HG/fall_ChristopherHouseMap",
-        "FromFile": "assets/Maps/WorldMaps/Patches/fall_ChristopherHouseMap.png"
-    },
-    {
-        "Action": "Load", "Priority": "Low",
-        "Target": "Mods/Bencedemon.HG/winter_ChristopherHouseMap",
-        "FromFile": "assets/Maps/WorldMaps/Patches/winter_ChristopherHouseMap.png"
-    },
-    {
-        "Action": "Load", "Priority": "Low",
-        "Target": "Mods/Bencedemon.HG/spring_BenceCabinMap",
-        "FromFile": "assets/Maps/WorldMaps/Patches/spring_BenceCabinMap.png"
-    },
-    {
-        "Action": "Load", "Priority": "Low",
-        "Target": "Mods/Bencedemon.HG/summer_BenceCabinMap",
-        "FromFile": "assets/Maps/WorldMaps/Patches/summer_BenceCabinMap.png"
-    },
-    {
-        "Action": "Load", "Priority": "Low",
-        "Target": "Mods/Bencedemon.HG/fall_BenceCabinMap",
-        "FromFile": "assets/Maps/WorldMaps/Patches/fall_BenceCabinMap.png"
-    },
-    {
-        "Action": "Load", "Priority": "Low",
-        "Target": "Mods/Bencedemon.HG/winter_BenceCabinMap",
-        "FromFile": "assets/Maps/WorldMaps/Patches/winter_BenceCabinMap.png"
-    },
-    {
-        "Action": "Load", "Priority": "Low",
-        "Target": "Mods/Bencedemon.HG/spring_MarkFarmMap",
-        "FromFile": "assets/Maps/WorldMaps/Patches/spring_MarkFarmMap.png"
-    },
-    {
-        "Action": "Load", "Priority": "Low",
-        "Target": "Mods/Bencedemon.HG/summer_MarkFarmMap",
-        "FromFile": "assets/Maps/WorldMaps/Patches/summer_MarkFarmMap.png"
-    },
-    {
-        "Action": "Load", "Priority": "Low",
-        "Target": "Mods/Bencedemon.HG/fall_MarkFarmMap",
-        "FromFile": "assets/Maps/WorldMaps/Patches/fall_MarkFarmMap.png"
-    },
-    {
-        "Action": "Load", "Priority": "Low",
-        "Target": "Mods/Bencedemon.HG/winter_MarkFarmMap",
-        "FromFile": "assets/Maps/WorldMaps/Patches/winter_MarkFarmMap.png"
-    },
-    {
-        "Action": "Load", "Priority": "Low",
-        "Target": "Mods/Bencedemon.HG/Island_NW",
-        "FromFile": "assets/Maps/WorldMaps/Patches/Island_NW.png"
-    },
-    {
-        "Action": "EditData",
-        "Target": "Data/WorldMap",
-        "TargetField": [
-            "Valley",
-            "MapAreas",
-        ],
-        "Entries": {
-            "Bencedemon.HG_ChristopherHouseOutside": {
-                "Id": "Custom_ChristopherHouseOutside",
-                "PixelArea": {
-                    "X": 186,
-                    "Y": 145,
-                    "Width": 6,
-                    "Height": 8
+        //Edits journey map to fern isles
+        {
+            "Action": "EditImage",
+            "Target": "Minigames/boatJourneyMap",
+            "FromFile": "Assets/Maps/WorldMaps/boatJourney/{{season}}_HG_boatJourneyMap.png",
+            "PatchMode": "Replace",
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/spring_ChristopherHouseMap",
+            "FromFile": "assets/Maps/WorldMaps/Patches/spring_ChristopherHouseMap.png"
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/summer_ChristopherHouseMap",
+            "FromFile": "assets/Maps/WorldMaps/Patches/summer_ChristopherHouseMap.png"
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/fall_ChristopherHouseMap",
+            "FromFile": "assets/Maps/WorldMaps/Patches/fall_ChristopherHouseMap.png"
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/winter_ChristopherHouseMap",
+            "FromFile": "assets/Maps/WorldMaps/Patches/winter_ChristopherHouseMap.png"
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/spring_BenceCabinMap",
+            "FromFile": "assets/Maps/WorldMaps/Patches/spring_BenceCabinMap.png"
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/summer_BenceCabinMap",
+            "FromFile": "assets/Maps/WorldMaps/Patches/summer_BenceCabinMap.png"
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/fall_BenceCabinMap",
+            "FromFile": "assets/Maps/WorldMaps/Patches/fall_BenceCabinMap.png"
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/winter_BenceCabinMap",
+            "FromFile": "assets/Maps/WorldMaps/Patches/winter_BenceCabinMap.png"
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/spring_MarkFarmMap",
+            "FromFile": "assets/Maps/WorldMaps/Patches/spring_MarkFarmMap.png"
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/summer_MarkFarmMap",
+            "FromFile": "assets/Maps/WorldMaps/Patches/summer_MarkFarmMap.png"
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/fall_MarkFarmMap",
+            "FromFile": "assets/Maps/WorldMaps/Patches/fall_MarkFarmMap.png"
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/winter_MarkFarmMap",
+            "FromFile": "assets/Maps/WorldMaps/Patches/winter_MarkFarmMap.png"
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/spring_AbandonedCabinMap",
+            "FromFile": "assets/Maps/WorldMaps/Patches/spring_AbandonedCabinMap.png"
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/summer_AbandonedCabinMap",
+            "FromFile": "assets/Maps/WorldMaps/Patches/summer_AbandonedCabinMap.png"
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/fall_AbandonedCabinMap",
+            "FromFile": "assets/Maps/WorldMaps/Patches/fall_AbandonedCabinMap.png"
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/winter_AbandonedCabinMap",
+            "FromFile": "assets/Maps/WorldMaps/Patches/winter_AbandonedCabinMap.png"
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/Island_NW",
+            "FromFile": "assets/Maps/WorldMaps/Patches/Island_NW.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/WorldMap",
+            "TargetField": [
+                "Valley",
+                "MapAreas",
+            ],
+            "Entries": {
+                "Bencedemon.HG_ChristopherHouseOutside": {
+                    "Id": "Custom_ChristopherHouseOutside",
+                    "PixelArea": {
+                        "X": 186,
+                        "Y": 145,
+                        "Width": 6,
+                        "Height": 8
+                    },
+                    "ScrollText": "{{i18n:ChristopherHouse.Name}}",
+                    "WorldPositions": [
+                        {
+                            "Id": "Custom_ChristopherHouseOutside",
+                            "LocationName": "Custom_ChristopherHouseInterior",
+                            "MapPixelArea": {
+                                "X": 189,
+                                "Y": 150,
+                                "Width": 0,
+                                "Height": 0
+                            }
+                        }
+                    ],
+                    "Tooltips" : [
+                        {
+                            "Id": "Custom_ChristopherHouseOutsideTooltip",
+                            "Text": "{{i18n:ChristopherHouse.Name}}",
+                            "PixelArea": {
+                                "X": 186,
+                                "Y": 145,
+                                "Width": 6,
+                                "Height": 8
+                            },
+                            "LeftNeighbor": "",
+                            "RightNeighbor": "Beach/FishShop",
+                            "UpNeighbor": "Beach/ElliottCabin",
+                            "DownNeighbor": "Beach/LonelyStone"
+                        }
+                    ],
+                    "Textures": [
+                        {
+                            "Id": "Custom_ChristopherHouseOutsideTexture",
+                            "Texture": "Mods/Bencedemon.HG/spring_ChristopherHouseMap",
+                            "MapPixelArea": {
+                                "X": 183,
+                                "Y": 146,
+                                "Width": 8,
+                                "Height": 9
+                            },
+                            "Condition": "SEASON Spring"  
+                        },
+                        {
+                            "Id": "Custom_ChristopherHouseOutsideTexture",
+                            "Texture": "Mods/Bencedemon.HG/summer_ChristopherHouseMap",
+                            "MapPixelArea": {
+                                "X": 183,
+                                "Y": 146,
+                                "Width": 8,
+                                "Height": 9
+                            },
+                            "Condition": "SEASON Summer"  
+                        },
+                        {
+                            "Id": "Custom_ChristopherHouseOutsideTexture",
+                            "Texture": "Mods/Bencedemon.HG/fall_ChristopherHouseMap",
+                            "MapPixelArea": {
+                                "X": 183,
+                                "Y": 146,
+                                "Width": 8,
+                                "Height": 9
+                            },
+                            "Condition": "SEASON Fall"  
+                        },
+                        {
+                            "Id": "Custom_ChristopherHouseOutsideTexture",
+                            "Texture": "Mods/Bencedemon.HG/winter_ChristopherHouseMap",
+                            "MapPixelArea": {
+                                "X": 183,
+                                "Y": 146,
+                                "Width": 8,
+                                "Height": 9
+                            },
+                            "Condition": "SEASON Winter"  
+                        }
+                    ]
                 },
-                "ScrollText": "{{i18n:ChristopherHouse.Name}}",
-                "WorldPositions": [
-                    {
-                        "Id": "Custom_ChristopherHouseOutside",
-                        "LocationName": "Custom_ChristopherHouseInterior",
-                        "MapPixelArea": {
-                            "X": 189,
-                            "Y": 150,
-                            "Width": 0,
-                            "Height": 0
+                "Bencedemon.HG_BenceCabinOutside": {
+                    "Id": "Custom_BenceCabinOutside",
+                    "PixelArea": {
+                        "X": 61,
+                        "Y": 127,
+                        "Width": 9,
+                        "Height": 7
+                    },
+                    "ScrollText": "{{i18n:BenceCabin.Name}}",
+                    "WorldPositions": [
+                        {
+                            "Id": "Custom_BenceCabinOutside",
+                            "LocationName": "Custom_BenceCabinInterior",
+                            "MapPixelArea": {
+                                "X": 65,
+                                "Y": 131,
+                                "Width": 0,
+                                "Height": 0
+                            }
                         }
-                    }
-                ],
-                "Tooltips" : [
-                    {
-                        "Id": "Custom_ChristopherHouseOutsideTooltip",
-                        "Text": "{{i18n:ChristopherHouse.Name}}",
-                        "PixelArea": {
-                            "X": 186,
-                            "Y": 145,
-                            "Width": 6,
-                            "Height": 8
+                    ],
+                    "Tooltips" : [
+                        {
+                            "Id": "Custom_BenceCabinOutsideTooltip",
+                            "Text": "{{i18n:BenceCabin.Name}}",
+                            "PixelArea": {
+                                "X": 61,
+                                "Y": 127,
+                                "Width": 9,
+                                "Height": 7
+                            },
+                            "LeftNeighbor": "Forest/WizardTower",
+                            "RightNeighbor": "Forest/LeahCottage",
+                            "UpNeighbor": "Forest/MarnieRanch",
+                            "DownNeighbor": "Forest/AbandonedHouse"
+                        }
+                    ],
+                    "Textures": [
+                        {
+                            "Id": "Custom_BenceCabinOutsideTexture",
+                            "Texture": "Mods/Bencedemon.HG/spring_BenceCabinMap",
+                            "MapPixelArea": {
+                                "X": 48,
+                                "Y": 120,
+                                "Width": 22,
+                                "Height": 25
+                            },
+                            "Condition": "SEASON Spring"  
                         },
-                        "LeftNeighbor": "",
-                        "RightNeighbor": "Beach/FishShop",
-                        "UpNeighbor": "Beach/ElliottCabin",
-                        "DownNeighbor": "Beach/LonelyStone"
-                    }
-                ],
-                "Textures": [
-                    {
-                        "Id": "Custom_ChristopherHouseOutsideTexture",
-                        "Texture": "Mods/Bencedemon.HG/spring_ChristopherHouseMap",
-                        "MapPixelArea": {
-                            "X": 183,
-                            "Y": 146,
-                            "Width": 8,
-                            "Height": 9
+                        {
+                            "Id": "Custom_BenceCabinOutsideTexture",
+                            "Texture": "Mods/Bencedemon.HG/summer_BenceCabinMap",
+                            "MapPixelArea": {
+                                "X": 48,
+                                "Y": 120,
+                                "Width": 22,
+                                "Height": 25
+                            },
+                            "Condition": "SEASON Summer"  
                         },
-                        "Condition": "SEASON Spring"  
-                    },
-                    {
-                        "Id": "Custom_ChristopherHouseOutsideTexture",
-                        "Texture": "Mods/Bencedemon.HG/summer_ChristopherHouseMap",
-                        "MapPixelArea": {
-                            "X": 183,
-                            "Y": 146,
-                            "Width": 8,
-                            "Height": 9
+                        {
+                            "Id": "Custom_BenceCabinOutsideTexture",
+                            "Texture": "Mods/Bencedemon.HG/fall_BenceCabinMap",
+                            "MapPixelArea": {
+                                "X": 48,
+                                "Y": 120,
+                                "Width": 22,
+                                "Height": 25
+                            },
+                            "Condition": "SEASON Fall"  
                         },
-                        "Condition": "SEASON Summer"  
-                    },
-                    {
-                        "Id": "Custom_ChristopherHouseOutsideTexture",
-                        "Texture": "Mods/Bencedemon.HG/fall_ChristopherHouseMap",
-                        "MapPixelArea": {
-                            "X": 183,
-                            "Y": 146,
-                            "Width": 8,
-                            "Height": 9
-                        },
-                        "Condition": "SEASON Fall"  
-                    },
-                    {
-                        "Id": "Custom_ChristopherHouseOutsideTexture",
-                        "Texture": "Mods/Bencedemon.HG/winter_ChristopherHouseMap",
-                        "MapPixelArea": {
-                            "X": 183,
-                            "Y": 146,
-                            "Width": 8,
-                            "Height": 9
-                        },
-                        "Condition": "SEASON Winter"  
-                    }
-                ]
-            },
-            "Bencedemon.HG_BenceCabinOutside": {
-                "Id": "Custom_BenceCabinOutside",
-                "PixelArea": {
-                    "X": 61,
-                    "Y": 127,
-                    "Width": 9,
-                    "Height": 7
+                        {
+                            "Id": "Custom_BenceCabinOutsideTexture",
+                            "Texture": "Mods/Bencedemon.HG/winter_BenceCabinMap",
+                            "MapPixelArea": {
+                                "X": 48,
+                                "Y": 120,
+                                "Width": 22,
+                                "Height": 25
+                            },
+                            "Condition": "SEASON Winter"  
+                        }
+                    ]
                 },
-                "ScrollText": "{{i18n:BenceCabin.Name}}",
-                "WorldPositions": [
-                    {
-                        "Id": "Custom_BenceCabinOutside",
-                        "LocationName": "Custom_BenceCabinInterior",
-                        "MapPixelArea": {
-                            "X": 65,
-                            "Y": 131,
-                            "Width": 0,
-                            "Height": 0
+                "Bencedemon.HG_MarkFarm": {
+                    "Id": "Custom_MarkFarm",
+                    "PixelArea": {
+                        "X": 126,
+                        "Y": 22,
+                        "Width": 22,
+                        "Height": 23
+                    },
+                    "ScrollText": "{{i18n:MarkFarm.Name}}",
+                    "WorldPositions": [
+                        {
+                            "Id": "Custom_MarkFarm",
+                            "LocationName": "Custom_MarkFarm",
+                            "MapPixelArea": {
+                                "X": 126,
+                                "Y": 27,
+                                "Width": 22,
+                                "Height": 20
+                            }
                         }
-                    }
-                ],
-                "Tooltips" : [
-                    {
-                        "Id": "Custom_BenceCabinOutsideTooltip",
-                        "Text": "{{i18n:BenceCabin.Name}}",
-                        "PixelArea": {
-                            "X": 61,
-                            "Y": 127,
-                            "Width": 9,
-                            "Height": 7
+                    ],
+                    "Tooltips" : [
+                        {
+                            "Id": "Custom_MarkFarmTooltip",
+                            "Text": "{{i18n:MarkFarm.Name}}",
+                            "PixelArea": {
+                                "X": 131,
+                                "Y": 34,
+                                "Width": 15,
+                                "Height": 7
+                            }
+                        }
+                    ],
+                    "Textures": [
+                        {
+                            "Id": "Custom_MarkFarmTexture",
+                            "Texture": "Mods/Bencedemon.HG/spring_MarkFarmMap",
+                            "MapPixelArea": {
+                                "X": 126,
+                                "Y": 22,
+                                "Width": 30,
+                                "Height": 41
+                            },
+                            "Condition": "SEASON Spring"  
                         },
-                        "LeftNeighbor": "Forest/WizardTower",
-                        "RightNeighbor": "Forest/LeahCottage",
-                        "UpNeighbor": "Forest/MarnieRanch",
-                        "DownNeighbor": "Forest/AbandonedHouse"
-                    }
-                ],
-                "Textures": [
-                    {
-                        "Id": "Custom_BenceCabinOutsideTexture",
-                        "Texture": "Mods/Bencedemon.HG/spring_BenceCabinMap",
-                        "MapPixelArea": {
-                            "X": 48,
-                            "Y": 120,
-                            "Width": 22,
-                            "Height": 25
+                        {
+                            "Id": "Custom_MarkFarmTexture",
+                            "Texture": "Mods/Bencedemon.HG/summer_MarkFarmMap",
+                            "MapPixelArea": {
+                                "X": 126,
+                                "Y": 22,
+                                "Width": 30,
+                                "Height": 41
+                            },
+                            "Condition": "SEASON Summer"  
                         },
-                        "Condition": "SEASON Spring"  
-                    },
-                    {
-                        "Id": "Custom_BenceCabinOutsideTexture",
-                        "Texture": "Mods/Bencedemon.HG/summer_BenceCabinMap",
-                        "MapPixelArea": {
-                            "X": 48,
-                            "Y": 120,
-                            "Width": 22,
-                            "Height": 25
+                        {
+                            "Id": "Custom_MarkFarmTexture",
+                            "Texture": "Mods/Bencedemon.HG/fall_MarkFarmMap",
+                            "MapPixelArea": {
+                                "X": 126,
+                                "Y": 22,
+                                "Width": 30,
+                                "Height": 41
+                            },
+                            "Condition": "SEASON Fall"  
                         },
-                        "Condition": "SEASON Summer"  
-                    },
-                    {
-                        "Id": "Custom_BenceCabinOutsideTexture",
-                        "Texture": "Mods/Bencedemon.HG/fall_BenceCabinMap",
-                        "MapPixelArea": {
-                            "X": 48,
-                            "Y": 120,
-                            "Width": 22,
-                            "Height": 25
-                        },
-                        "Condition": "SEASON Fall"  
-                    },
-                    {
-                        "Id": "Custom_BenceCabinOutsideTexture",
-                        "Texture": "Mods/Bencedemon.HG/winter_BenceCabinMap",
-                        "MapPixelArea": {
-                            "X": 48,
-                            "Y": 120,
-                            "Width": 22,
-                            "Height": 25
-                        },
-                        "Condition": "SEASON Winter"  
-                    }
-                ]
-            },
-            "Bencedemon.HG_MarkFarm": {
-                "Id": "Custom_MarkFarm",
-                "PixelArea": {
-                    "X": 126,
-                    "Y": 22,
-                    "Width": 22,
-                    "Height": 23
+                        {
+                            "Id": "Custom_MarkFarmTexture",
+                            "Texture": "Mods/Bencedemon.HG/winter_MarkFarmMap",
+                            "MapPixelArea": {
+                                "X": 126,
+                                "Y": 22,
+                                "Width": 30,
+                                "Height": 41
+                            },
+                            "Condition": "SEASON Winter"  
+                        }
+                    ]
                 },
-                "ScrollText": "{{i18n:MarkFarm.Name}}",
-                "WorldPositions": [
-                    {
-                        "Id": "Custom_MarkFarm",
-                        "LocationName": "Custom_MarkFarm",
-                        "MapPixelArea": {
-                            "X": 126,
-                            "Y": 27,
-                            "Width": 22,
-                            "Height": 20
-                        }
-                    }
-                ],
-                "Tooltips" : [
-                    {
-                        "Id": "Custom_MarkFarmTooltip",
-                        "Text": "{{i18n:MarkFarm.Name}}",
-                        "PixelArea": {
-                            "X": 131,
-                            "Y": 34,
-                            "Width": 15,
-                            "Height": 7
-                        }
-                    }
-                ],
-                "Textures": [
-                    {
-                        "Id": "Custom_MarkFarmTexture",
-                        "Texture": "Mods/Bencedemon.HG/spring_MarkFarmMap",
-                        "MapPixelArea": {
-                            "X": 126,
-                            "Y": 22,
-                            "Width": 30,
-                            "Height": 41
-                        },
-                        "Condition": "SEASON Spring"  
+                "Bencedemon.HG_MarkHouseInterior": {
+                    "Id": "Custom_MarkHouseInterior",
+                    "PixelArea": {
+                        "X": 140,
+                        "Y": 34,
+                        "Width": 5,
+                        "Height": 3
                     },
-                    {
-                        "Id": "Custom_MarkFarmTexture",
-                        "Texture": "Mods/Bencedemon.HG/summer_MarkFarmMap",
-                        "MapPixelArea": {
-                            "X": 126,
-                            "Y": 22,
-                            "Width": 30,
-                            "Height": 41
-                        },
-                        "Condition": "SEASON Summer"  
+                    "ScrollText": "{{i18n:MarkHouse.Name}}",
+                    "WorldPositions": [
+                        {
+                            "Id": "Custom_MarkHouseInterior",
+                            "LocationName": "Custom_MarkHouseInterior",
+                            "MapPixelArea": {
+                                "X": 144,
+                                "Y": 34,
+                                "Width": 0,
+                                "Height": 0
+                            }
+                        }
+                    ],
+                },
+                "Bencedemon.HG_MarkFarmCave": {
+                    "Id": "Custom_MarkFarmCave",
+                    "PixelArea": {
+                        "X": 137,
+                        "Y": 31,
+                        "Width": 3,
+                        "Height": 3
                     },
-                    {
-                        "Id": "Custom_MarkFarmTexture",
-                        "Texture": "Mods/Bencedemon.HG/fall_MarkFarmMap",
-                        "MapPixelArea": {
-                            "X": 126,
-                            "Y": 22,
-                            "Width": 30,
-                            "Height": 41
-                        },
-                        "Condition": "SEASON Fall"  
+                    "ScrollText": "{{i18n:MarkFarmCave.Name}}",
+                    "WorldPositions": [
+                        {
+                            "Id": "Custom_MarkFarmCave",
+                            "LocationName": "Custom_MarkFarmCave",
+                            "MapPixelArea": {
+                                "X": 138,
+                                "Y": 32,
+                                "Width": 0,
+                                "Height": 0
+                            }
+                        }
+                    ],
+                },
+                "Bencedemon.HG_Cave": {
+                    "Id": "Custom_HGCave",
+                    "PixelArea": {
+                        "X": 134,
+                        "Y": 26,
+                        "Width": 8,
+                        "Height": 6
                     },
-                    {
-                        "Id": "Custom_MarkFarmTexture",
-                        "Texture": "Mods/Bencedemon.HG/winter_MarkFarmMap",
-                        "MapPixelArea": {
-                            "X": 126,
-                            "Y": 22,
-                            "Width": 30,
-                            "Height": 41
+                    "ScrollText": "{{i18n:HGCave.Name}}",
+                    "WorldPositions": [
+                        {
+                            "Id": "Custom_HGCave",
+                            "LocationName": "Custom_HGCave",
+                            "MapPixelArea": {
+                                "X": 138,
+                                "Y": 28,
+                                "Width": 0,
+                                "Height": 0
+                            }
+                        }
+                    ],
+                },
+                "Bencedemon.HG_AbandonedCabin": {
+                    "Id": "Custom_AbandonedCabin",
+                    "PixelArea": {
+                        "X": 211,
+                        "Y": 23,
+                        "Width": 6,
+                        "Height": 8
+                    },
+                    //"ScrollText": "{{i18n:AbandonedCabin.Name}}",
+                    "WorldPositions": [
+                        {
+                            "Id": "Custom_AbandonedCabinInterior",
+                            "LocationName": "Custom_AbandonedCabinInterior",
+                            "MapPixelArea": {
+                                "X": 214,
+                                "Y": 26,
+                                "Width": 0,
+                                "Height": 0
+                            }
+                        }
+                    ],
+                    "Tooltips" : [
+                        {
+                            "Id": "Custom_AbandonedCabinTooltip",
+                            "Text": "{{i18n:AbandonedCabin.Name}}",
+                            "PixelArea": {
+                                "X": 211,
+                                "Y": 23,
+                                "Width": 6,
+                                "Height": 8
+                            },
+                            "Condition": "!PLAYER_HAS_SEEN_EVENT Current 2001303"  
                         },
-                        "Condition": "SEASON Winter"  
-                    }
-                ]
-            },
-            "Bencedemon.HG_MarkHouseInterior": {
-                "Id": "Custom_MarkHouseInterior",
-                "PixelArea": {
-                    "X": 140,
-                    "Y": 34,
-                    "Width": 5,
-                    "Height": 3
-                },
-                "ScrollText": "{{i18n:MarkHouse.Name}}",
-                "WorldPositions": [
-                    {
-                        "Id": "Custom_MarkHouseInterior",
-                        "LocationName": "Custom_MarkHouseInterior",
-                        "MapPixelArea": {
-                            "X": 144,
-                            "Y": 34,
-                            "Width": 0,
-                            "Height": 0
+                        {
+                            "Id": "Custom_AbandonedCabinTooltip",
+                            "Text": "{{i18n:IstiCabin.Name}}",
+                            "PixelArea": {
+                                "X": 211,
+                                "Y": 23,
+                                "Width": 6,
+                                "Height": 8
+                            },
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Current 2001303"  
+                        },
+                    ],
+                    "Textures": [
+                        {
+                            "Id": "Custom_AbandonedCabinTexture",
+                            "Texture": "Mods/Bencedemon.HG/spring_AbandonedCabinMap",
+                            "MapPixelArea": {
+                                "X": 212,
+                                "Y": 24,
+                                "Width": 6,
+                                "Height": 6
+                            },
+                            "Condition": "SEASON Spring"  
+                        },
+                        {
+                            "Id": "Custom_AbandonedCabinTexture",
+                            "Texture": "Mods/Bencedemon.HG/summer_AbandonedCabinMap",
+                            "MapPixelArea": {
+                                "X": 212,
+                                "Y": 24,
+                                "Width": 6,
+                                "Height": 6
+                            },
+                            "Condition": "SEASON Summer"  
+                        },
+                        {
+                            "Id": "Custom_AbandonedCabinTexture",
+                            "Texture": "Mods/Bencedemon.HG/fall_AbandonedCabinMap",
+                            "MapPixelArea": {
+                                "X": 212,
+                                "Y": 24,
+                                "Width": 6,
+                                "Height": 6
+                            },
+                            "Condition": "SEASON Fall"  
+                        },
+                        {
+                            "Id": "Custom_AbandonedCabinTexture",
+                            "Texture": "Mods/Bencedemon.HG/winter_AbandonedCabinMap",
+                            "MapPixelArea": {
+                                "X": 212,
+                                "Y": 24,
+                                "Width": 6,
+                                "Height": 6
+                            },
+                            "Condition": "SEASON Winter"  
                         }
-                    }
-                ],
-            },
-            "Bencedemon.HG_MarkFarmCave": {
-                "Id": "Custom_MarkFarmCave",
-                "PixelArea": {
-                    "X": 137,
-                    "Y": 31,
-                    "Width": 3,
-                    "Height": 3
-                },
-                "ScrollText": "{{i18n:MarkFarmCave.Name}}",
-                "WorldPositions": [
-                    {
-                        "Id": "Custom_MarkFarmCave",
-                        "LocationName": "Custom_MarkFarmCave",
-                        "MapPixelArea": {
-                            "X": 138,
-                            "Y": 32,
-                            "Width": 0,
-                            "Height": 0
+                    ]
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/WorldMap",
+            "TargetField": [
+                "GingerIsland",
+                "MapAreas",
+            ],
+            "Entries": {
+                "Bencedemon.HG_Island_NW": {
+                    "Id": "Custom_IslandNorthWest",
+                    "PixelArea": {
+                        "X": 95,
+                        "Y": 40,
+                        "Width": 34,
+                        "Height": 28
+                    },
+                    //"ScrollText": "{{i18n:Island_NW.Name}}",
+                    "WorldPositions": [
+                        {
+                            "Id": "Custom_IslandNorthWest",
+                            "LocationName": "Custom_IslandNorthWest",
+                            "MapPixelArea": {
+                                "X": 95,
+                                "Y": 40,
+                                "Width": 34,
+                                "Height": 28
+                            }
                         }
-                    }
-                ],
-            },
-            "Bencedemon.HG_Cave": {
-                "Id": "Custom_HGCave",
-                "PixelArea": {
-                    "X": 134,
-                    "Y": 26,
-                    "Width": 8,
-                    "Height": 6
+                    ],
+                    "Textures": [
+                        {
+                            "Id": "Custom_IslandNorthWestTexture",
+                            "Texture": "Mods/Bencedemon.HG/Island_NW",
+                            "MapPixelArea": {
+                                "X": 82,
+                                "Y": 43,
+                                "Width": 55,
+                                "Height": 31
+                            },
+                        },
+                    ]
                 },
-                "ScrollText": "{{i18n:HGCave.Name}}",
-                "WorldPositions": [
-                    {
-                        "Id": "Custom_HGCave",
-                        "LocationName": "Custom_HGCave",
-                        "MapPixelArea": {
-                            "X": 138,
-                            "Y": 28,
-                            "Width": 0,
-                            "Height": 0
+                "Bencedemon.HG_Island_Shelter": {
+                    "Id": "Custom_Island_Shelter",
+                    "PixelArea": {
+                        "X": 96,
+                        "Y": 45,
+                        "Width": 7,
+                        "Height": 8
+                    },
+                    //"ScrollText": "{{i18n:Island_Shelter.Name}}",
+                    "WorldPositions": [
+                        {
+                            "Id": "Custom_Island_Shelter",
+                            "LocationName": "Custom_Island_Shelter",
+                            "MapPixelArea": {
+                                "X": 100,
+                                "Y": 48,
+                                "Width": 0,
+                                "Height": 0
+                            }
                         }
-                    }
-                ],
+                    ],
+                    "Tooltips" : [
+                        {
+                            "Id": "Custom_Island_ShelterShelter",
+                            "Text": "???",
+                            "PixelArea": {
+                                "X": 96,
+                                "Y": 45,
+                                "Width": 7,
+                                "Height": 8
+                            },
+                            "Condition": "!PLAYER_HAS_SEEN_EVENT Current 2001500" 
+                        },
+                        {
+                            "Id": "Custom_Island_ShelterShelter",
+                            "Text": "{{i18n:Island_ShelterShelter.Name}}",
+                            "PixelArea": {
+                                "X": 96,
+                                "Y": 45,
+                                "Width": 7,
+                                "Height": 8
+                            },
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Current 2001500" 
+                        }
+                    ]
+                },
             }
         }
-    },
-    {
-        "Action": "EditData",
-        "Target": "Data/WorldMap",
-        "TargetField": [
-            "GingerIsland",
-            "MapAreas",
-        ],
-        "Entries": {
-            "Bencedemon.HG_Island_NW": {
-                "Id": "Custom_IslandNorthWest",
-                "PixelArea": {
-                    "X": 95,
-                    "Y": 40,
-                    "Width": 34,
-                    "Height": 28
-                },
-                //"ScrollText": "{{i18n:Island_NW.Name}}",
-                "WorldPositions": [
-                    {
-                        "Id": "Custom_IslandNorthWest",
-                        "LocationName": "Custom_IslandNorthWest",
-                        "MapPixelArea": {
-                            "X": 95,
-                            "Y": 40,
-                            "Width": 34,
-                            "Height": 28
-                        }
-                    }
-                ],
-                "Textures": [
-                    {
-                        "Id": "Custom_IslandNorthWestTexture",
-                        "Texture": "Mods/Bencedemon.HG/Island_NW",
-                        "MapPixelArea": {
-                            "X": 82,
-                            "Y": 43,
-                            "Width": 55,
-                            "Height": 31
-                        },
-                    },
-                ]
-            },
-            "Bencedemon.HG_Island_Shelter": {
-                "Id": "Custom_Island_Shelter",
-                "PixelArea": {
-                    "X": 96,
-                    "Y": 45,
-                    "Width": 7,
-                    "Height": 8
-                },
-                //"ScrollText": "{{i18n:Island_Shelter.Name}}",
-                "WorldPositions": [
-                    {
-                        "Id": "Custom_Island_Shelter",
-                        "LocationName": "Custom_Island_Shelter",
-                        "MapPixelArea": {
-                            "X": 100,
-                            "Y": 48,
-                            "Width": 0,
-                            "Height": 0
-                        }
-                    }
-                ],
-                "Tooltips" : [
-                    {
-                        "Id": "Custom_Island_ShelterShelter",
-                        "Text": "???",
-                        "PixelArea": {
-                            "X": 96,
-                            "Y": 45,
-                            "Width": 7,
-                            "Height": 8
-                        },
-                        "Condition": "!PLAYER_HAS_SEEN_EVENT Current 2001302" 
-                    },
-                    {
-                        "Id": "Custom_Island_ShelterShelter",
-                        "Text": "{{i18n:Island_ShelterShelter.Name}}",
-                        "PixelArea": {
-                            "X": 96,
-                            "Y": 45,
-                            "Width": 7,
-                            "Height": 8
-                        },
-                        "Condition": "PLAYER_HAS_SEEN_EVENT Current 2001302" 
-                    }
-                ]
-            },
-        }
-    }
-
     ]
 }

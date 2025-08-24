@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="10" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="3">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="10" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="4">
  <tileset firstgid="1" name="spring_ChristopherHouseTilesheet" tilewidth="16" tileheight="16" tilecount="56" columns="8">
   <image source="spring_ChristopherHouseTilesheet.png" width="128" height="112"/>
  </tileset>
@@ -1042,7 +1042,7 @@
 166,148,164,164,164,164,164,164,164,164,
 166,166,148,164,205,164,222,164,164,188,
 166,166,166,148,181,147,147,181,147,181,
-166,166,545,545,545,166,166,166,186,166,
+166,166,476,477,478,166,166,166,186,166,
 183,149,545,528,545,545,545,545,545,545,
 132,132,545,545,545,545,545,545,545,545,
 532,132,545,545,545,52,53,54,55,56,
@@ -1088,6 +1088,11 @@
   <object id="2" name="TileData" x="112" y="80" width="16" height="16">
    <properties>
     <property name="Action" value="LockedDoorWarp 3 9 Custom_ChristopherHouseInterior 800 2400 Christopher 500"/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="80" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Garbage Christopher"/>
    </properties>
   </object>
  </objectgroup>

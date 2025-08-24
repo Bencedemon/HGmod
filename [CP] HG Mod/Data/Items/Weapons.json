@@ -196,6 +196,27 @@
                     "SpriteIndex": 9,
                     "CustomFields": {}
                 },
+                "Bencedemon.HG_IstisGuitar": {
+                    "Name": "Isti's Guitar",
+                    "DisplayName": "{{i18n:Weapon.IstisGuitar.Name}}",
+                    "Description": "{{i18n:Weapon.IstisGuitar.Description}}",
+                    "MinDamage": 33,
+                    "MaxDamage": 66,
+                    "Knockback": 1.0,
+                    "Speed": 0,
+                    "Precision": 0,
+                    "Defense": 0,
+                    "Type": 0,
+                    "MineBaseLevel": -1,
+                    "MineMinLevel": -1,
+                    "AreaOfEffect": 0,
+                    "CritChance": 0.1,
+                    "CritMultiplier": 1.5,
+                    "CanBeLostOnDeath": true,
+                    "Texture": "Mods\\Bencedemon.HG\\Weapons",
+                    "SpriteIndex": 11,
+                    "CustomFields": {}
+                },
             }
         }
     ]

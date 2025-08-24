@@ -263,7 +263,31 @@
                         "color_yellow"
                     ],
                     "CustomFields": null
-                }
+                },
+                "Bencedemon.HG_IstiGuitar": {
+                    "Name": "IstiGuitar",
+                    "DisplayName": "{{i18n:Object.IstiGuitar.Name}}",
+                    "Description": "{{i18n:Object.IstiGuitar.Desc}}",
+                    "Type": "Quest",
+                    "Category": 0,
+                    "Price": 0,
+                    "Texture": "Mods\\Bencedemon.HG\\ObjectsSpritesheet",
+                    "SpriteIndex": 6,
+                    "ColorOverlayFromNextIndex": false,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "CanBeGivenAsGift": true,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": null,
+                    "CustomFields": null
+                },
             }
         }
     ]

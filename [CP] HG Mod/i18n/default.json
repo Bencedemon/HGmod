@@ -417,6 +417,9 @@
   "Object.HGToken.Name":"Hello Guys Zseton",
   "Object.HGToken.Desc":"A zseton segítségével értékes jutalmakat válthatsz ki a Hello Guys barlangban.",
 
+  "Object.IstiGuitar.Name":"Régi gitár",
+  "Object.IstiGuitar.Desc":"Isti régi gitárja.",
+
   //Items (Shirts)
   "Shirt.ChrisShirt.Name": "Farmer dzseki",
   "Shirt.ChrisShirt.Desc": "Kristóf farmer dzsekijének másolata.",
@@ -501,6 +504,9 @@
   "Weapon.BencesAxe.Name": "Bence baltája",
   "Weapon.BencesAxe.Description": "Here's Johnny!", //Here's Johnny
 
+  "Weapon.IstisGuitar.Name": "Isti gitárja",
+  "Weapon.IstisGuitar.Description": "Let's rock!",
+
   //Bence interacts for now
   "BenceCabin.Jukebox": "Egy elromlott zenegép.",
   "BenceCabin.Axe": "Régi fejsze.",
@@ -520,19 +526,39 @@
   "BenceCabinOutside.Firewood2": "Aprításra váró farönkök.",
 
   //MarkFarm interacts for now
-  "MarkHouse.Geode": "Geode",
-  "MarkHouse.Copper": "Copper",
-  "MarkHouse.Gold": "Gold",
-  "MarkHouse.Firewood": "Firewood",
-  "MarkHouse.PC": "PC",
-  "MarkHouse.Lantern": "Lantern",
-  "MarkHouse.PressBench": "PressBench",
+  "MarkHouse.Geode": "Egy omni-geóda.",
+  "MarkHouse.Copper": "Valódi kopper érc.",
+  "MarkHouse.Gold": "Valódi arany érc.",
+  "MarkHouse.Firewood": "Frissen vágott fahasábok.",
+  "MarkHouse.PC": "Márk számító gépe. Animés háttérképpel.",
+  "MarkHouse.Lantern": "Egy régi bányában haszált lámpás.",
+  "MarkHouse.PressBench": "Fekvenyomó pad, ahogy látom mindkét oldalán 60kg van.",//Nem tudom Márk mennyit tud kinyomni. 
 
   "MarkFarm.Mailbox": "-Márk rezidenciája-",
   "MarkFarm.Sign": "'GRACE FIELD FARM'",
 
-	"MarkFarmCave.Block": "Block",
-	"MarkFarmCave.Ore": "Ore",
+	"MarkFarmCave.Block": "Itt más a fal mint a barlang többi részén.",
+	"MarkFarmCave.Ore": "Egy hatalmas kőkupac tele mindenféle értékes drágakővel.",
+
+  //AbandonedCabin
+  "AbandonedCabin.Door": "Az ajtó teljesen le van deszkázvan.",
+  "AbandonedCabin.Window": "Az ablak be van deszkázva, de mintha látnék egy lyukat a hátsó falon.",
+  "AbandonedCabin.Mailbox": "Ha tippelnem kellene azt mondanám, hogy itt valószínüleg egy postaláda volt.",
+
+  "AbandonedCabin.PC": "Poros számítógép, egy ideje biztos nem volt elindítva.",
+  "AbandonedCabin.Firewood": "Régi poros fahasábok.",
+  "AbandonedCabin.Box": "A dobozok tele vannak személyes tárgyakkal.",
+  "AbandonedCabin.Fridge": "Egy lejárt sörösrekeszen kívül nincs benne semmi.",
+  "AbandonedCabin.TV": "Nem tudom bekapcsolni. Valószínűleg elromlott.",
+
+  //Island North-West
+  "Island_NW.Fish": "Frissen fogott halak.",
+  "Island_NW.FishCrate": "Isti halas ládája.",
+
+  //Island Shelter
+  "Island_Shelter.Crate": "Üres láda.",
+  "Island_Shelter.Craft": "Isti barkács asztala.",
+  "Island_Shelter.Banana": "Egy láda tele banánnal.",
 
   //WorldMap
   "ChristopherHouse.Name": "Kristóf háza",
@@ -541,9 +567,10 @@
   "MarkHouse.Name": "Márk háza",
   "MarkFarmCave.Name": "Márk barlangja",
   "HGCave.Name": "Hello Guys barlang",
+  "AbandonedCabin.Name": "Elhagyatott kabin",
+  "IstiCabin.Name": "Isti háza",
   "IslandNorthWest.Name": "Ginger Island North-West",
-  "Island_ShelterShelter.Name": "Isti",
-
+  "Island_ShelterShelter.Name": "Isti menedéke",
 
   //Bundles
   "Bundle.Minecart.Name": "Csille",
@@ -561,8 +588,9 @@
   "Bundle.Final.Name": "Megnyitó",
   "Bundle.Final.Desc": "Oda akarod adományozni az italokat e magnyitóhoz?",
 
-  //GenreralMails
+  //GeneralMails
   "Mail.HGCaveOpening": "Helló @!^^Mégegyszer szeretnénk megköszönni a segítségedet. A nélküled soha nem végeztünk volna.^A megnyitót a tervek szerint a hétvégén fogjuk tartani, reméljük eltudsz jönni.^^ -Hello Guys[#]Hello Guys Barlang megnyitó meghívás",
+  "Mail.IstiReturnReminder" : "@!^^Ha nem esik ma az eső reggel elmegyek Istiért.^Ha minden jól megy 8:00-ra a parton leszünk.^Már szóltam Kristóféknak is, hogy jöjjenek a partra^Természetesen nem lőttem le nekik a meglepetést.^^-Willy[#]Isti vissza térése",
 
   //Quests
   "ChristopherQuest.Title": "Kristóf horgászbotja",
@@ -582,7 +610,17 @@
   "MarkQuest.Title": "Törött tető",
   "MarkQuest.Description": "A nyári vihar megrongálta Márk házának a tetejét és szüksége lenne keményfára, hogy megtudja javítani.",
   "MarkQuest.Hint": "Vigyél Márkank 25db keményfát.",
-  "MarkQuest.Reaction": "Kösz! #$b#Most már csak a mosómedvéktől kell megszabadulnom.",
+  "MarkQuest.Reaction": "Kösz! #$b#Most már csak a mosómedvéktől kell megszabadulnom.$0",
+
+  "IstiQuest.Title": "Sör szállítás",
+  "IstiQuest.Description": "Istinek már egy ideje nem volt lehetősége sört inni és arra kért, hogy vigyél neki néhányat.",
+  "IstiQuest.Hint": "Vigyél Istinek 6db sört.",
+  "IstiQuest.Reaction": "Kösz! #$b#Pénzem nincs de remélem ez is megfelel. [(O)73]",
+
+  "IstiQuest2.Title": "Isti gitárja",
+  "IstiQuest2.Description": "Isti megkért, hogy szerezd meg neki a régi gitárját.",
+  "IstiQuest2.Hint": "Keresd meg Isti gitárját.",
+  "IstiQuest2.Reaction": "Kösz! #$b#Tessék a jutalmad. [(O)73][(O)73]",
 
   //SpecialOrders
   "Christopher_SO.Name": "Horgász kihívás",
@@ -721,7 +759,7 @@
   "Festival.Concert.Alex_spouse": "",
   "Festival.Concert.Penny_spouse": "",
   "Festival.Concert.Haley_spouse": "",
-  "Festival.Concert.Emily_spouse": "*liheg* Lehet, hogy hamarosan pihennem kellene.$0#$e#Majd később együtt táncolhatnánk, oké?$1",//SUMMER11
+  "Festival.Concert.Emily_spouse": "",
   "Festival.Concert.Sandy_spouse": "",
   "Festival.Concert.Christopher_spouse": "Tudnál nekem hozni egy sört drágám?$7",
   "Festival.Concert.Bence_spouse": "",
@@ -762,7 +800,7 @@
   "Festival.Concert.Pam": "*szürcsöl* Ó, igen! Valamiért sokkal finomabb itt a sör mint a szalonban!$1",
   
   "Festival.Concert.Haley": "",
-  "Festival.Concert.Emily": "*liheg* Csak a csípőmozgás számít!$0#$e#Azt hiszem hamarosan pihennem kell. Kezdek leizzadni!$0",//SUMMER11
+  "Festival.Concert.Emily": "",
   "Festival.Concert.Sandy": "",
 
   "Festival.Concert.Jodi": "",
@@ -793,7 +831,7 @@
   "Festival.Concert.Alex_spouse_y2": "",
   "Festival.Concert.Penny_spouse_y2": "",
   "Festival.Concert.Haley_spouse_y2": "",
-  "Festival.Concert.Emily_spouse_y2": "",
+  "Festival.Concert.Emily_spouse_y2": "*liheg* Lehet, hogy hamarosan pihennem kellene.$0#$e#Majd később együtt táncolhatnánk, oké?$1",//SUMMER11
   "Festival.Concert.Sandy_spouse_y2": "",
   "Festival.Concert.Christopher_spouse_y2": "Két dal között tudnál hozni nekem egy sört?$7",
   "Festival.Concert.Bence_spouse_y2": "",
@@ -805,7 +843,7 @@
 
   "Festival.Concert.Abigail_y2": "",
   "Festival.Concert.Sam_y2": "Lehet kérhetnék gitár leckéket a gitárostól.$0#$b#Úgyfest van még mit tanulnom.$h",
-  "Festival.Concert.Sebastian_y2": "Ó, üdv. Te is távol akarsz másoktól?$0",
+  "Festival.Concert.Sebastian_y2": "Ó, üdv. Te is távol akarsz lenni másoktól?$0",
   
   "Festival.Concert.Robin_y2": "",
   "Festival.Concert.Demetrius_y2": "",
@@ -834,7 +872,7 @@
   "Festival.Concert.Pam_y2": "",
   
   "Festival.Concert.Haley_y2": "",
-  "Festival.Concert.Emily_y2": "",
+  "Festival.Concert.Emily_y2": "*liheg* Csak a csípőmozgás számít!$0#$e#Azt hiszem hamarosan pihennem kell. Kezdek leizzadni!$0",//SUMMER11
   "Festival.Concert.Sandy_y2": "",
 
   "Festival.Concert.Jodi_y2": "",
@@ -965,6 +1003,9 @@
   "Christopher.CharacterDialogue.042": "Csak a sör ad neked erőt és mindent lebíró akaratot.",
   "Christopher.CharacterDialogue.043": "Nincs is jobb mint egy jó meleg kávé mikor ilyen idő van.#$e#Mi az? Miért nézel így rám? Csak nem azt gondoltad, hogy mindig sört iszok. Néha a májamat is kíméni kell. $h#$b#Csak szórakozok veled ma már megittam egy rekesz sört. $h",
   "Christopher.CharacterDialogue.044": "Csak egy jobb dolog van a sörnél.#$b#Két sör. $h",
+
+  //RAINY
+  "Christopher.Rainy": "Esőben a halak sokkal aktívabbak, így esős napokon több halat lehet kifogni.",
 
   //Christopher Gift Tastes
   "Christopher.Gifts.Loved": "Wow, honnan tudtad, hogy ez a kedvencem?$h",
@@ -1163,7 +1204,7 @@
   "Christopher.MarriageDialogue.winter_7": "*tüsszent* Nagyon remélem nem betegedek le holnapra.$s",
   "Christopher.MarriageDialogue.winter_28": "Ez egy csodálatos év volt @! Remélem még sok hasonlóban lesz részünk.$l",
   
-  "Christopher.MarriageDialogue.Rainy_Day": "Esik az eső... az aszt jelenti hogy a halak ma sokkal aktívabbak mist máskor.#$b#Lehet később elmegyek horgászni.",
+  "Christopher.MarriageDialogue.Rainy_Day": "Esik az eső... az aszt jelenti, hogy a halak ma sokkal aktívabbak mist máskor.#$b#Lehet később elmegyek horgászni.",
   "Christopher.MarriageDialogue.Rainy_Night": "Voltál horgászni?#$b#Igaz megázol de hidd el, megéri ilyenkor horgászni.",
   "Christopher.MarriageDialogue.Indoor_Day": "Néha hiányzik a tengerparton élés, de mostmár meletted érzem magam igazán otthon.$l",
   "Christopher.MarriageDialogue.Indoor_Night": "Ez egy remek nap volt, ideje összebújni az ágyban.",
@@ -1260,8 +1301,8 @@
   "Bence.AcceptBirthdayGift_Negative": "Oh... tudtad, hogy ma van a születésnapom? $h#$b#Még ajádnékod is van... köszönöm... $s",
   "Bence.AcceptGift_alcohol_item": "Nem igazán rajongok az alkoholos italokért.$s",
   "Bence.DumpsterDiveComment": "Én nem ítélkezek.",
-  "Bence.married_Christopher": "",
-  "Bence.married_Mark": "",
+  "Bence.married_Christopher": "Remélem nem azért mész hozzá mert úgy gondolod, hogy \"I can fix him\".",
+  "Bence.married_Mark": "Hallottam összeházasodtok Márkal.$0#$b#*szipog* Olyan gyorsan felnőnek.$s",
   "Bence.breakUp": "Oké... $a",
   "Bence.divorced": "Nem igazán akarok beszélni veled.$a",
   "Bence.MovieInvitation": "Mozi? Miért is ne, úgyis ráérek ma. $h",
@@ -1293,10 +1334,10 @@
   "Bence.CharacterDialogue.006": "*tüsszent*$0#$e#*tüsszent* A francba már.$a",
   "Bence.CharacterDialogue.007": "*tüsszent* Valaki öljön meg! *tüsszent*",
   "Bence.CharacterDialogue.008": "Próbáltad már a helyi pizzát? #$b#Hidj nekem nagyon megéri.",
-  "Bence.CharacterDialogue.009": "",
+  "Bence.CharacterDialogue.009": "Oh @! Na csá, kicsit megijesztettél, éppen elvoltam mélyültve a gondolataimban.",
   "Bence.CharacterDialogue.010": "Légy óvatos ha bemész az erdőbe, elég sok arrafelé a vadállat. Ha meg mégis összetalálkoznál egyel remélem jó futó vagy.",
   "Bence.CharacterDialogue.011": "Ha kivágsz egy fát ne felejtsd el visszaültetni.",
-  "Bence.CharacterDialogue.012": "",
+  "Bence.CharacterDialogue.012": "*nyújtózkodik* Végre itt a hérvége.",
   "Bence.CharacterDialogue.013": "Jó érzés távol élni mindentől. Olyan békés, nem zavar senki, csak magam vagyok és a gondolatami.",
   //SUMMER DIALOGUE
   "Bence.SummerCharacterDialogue.001": "Félek ha a folyó sodrása megváltozik a házam csak szimplán beledől a folyóba.#$b#Lehet nem kelett volna ilyen közel építkeznem hozzá.$u",
@@ -1305,39 +1346,43 @@
   "Bence.SummerCharacterDialogue.004": "*ásít* Oh... @! Most nem sok kedvem van beszélgetni.$6",
   "Bence.SummerCharacterDialogue.005": "*ásít* Oh... Helló @! Mi a helyzet?#$b#Akarsz beszélgetni valamiről?$6",
   "Bence.SummerCharacterDialogue.006": "Remélem hamarosan esni fog és lehül kicsit az idő.",
-  "Bence.SummerCharacterDialogue.007": "",
+  "Bence.SummerCharacterDialogue.007": "Még annyi mindent kellene ma csinálnom, de se kedvem se időm ninncs rá.#$b#Majd holnap megcsinálom.",
   "Bence.SummerCharacterDialogue.008": "Néha furcsa alakokat látok az erdőben, lehet kezdek megőrülni?$u#$b#Vagy csak többet kellene aludnom?$6",
   "Bence.SummerCharacterDialogue.009": "*ásít* Semmit nem aludtam tegnap este, valami folyamatosan kaparta a házam oldalát de mikor kimentem semmi nem volt ott.$6#$b#Gondolom ez az egy hátránya ha az edőben él valaki.$6",
-  "Bence.SummerCharacterDialogue.010": "",
-  "Bence.SummerCharacterDialogue.011": "",
+  "Bence.SummerCharacterDialogue.010": "Az idei nyár nem érződik annyira forrónak mint a tavalyi.#$e#A sok fa miatt elég árnyékos a terület a kabinom körül, szóval megeshet, hogy csak emiatt nem érzem a hőséget.",
+  "Bence.SummerCharacterDialogue.011": "Néha elviselhetetlenül nagy a forróság van, hogy még este is.#$b#Emlékszek egyik nyáron láttam Leah-t beleugrani a folyóba.",
+  "Bence.SummerCharacterDialogue.012": "Ennek a hétnek is mindjárt vége, gyorsan mennek a hetek nem igaz?",
   //FALL DIALOGUE
   "Bence.FallCharacterDialogue.001": "Kellemes időnk van ma nem gondolod?",
-  "Bence.FallCharacterDialogue.002": "",
-  "Bence.FallCharacterDialogue.003": "",
-  "Bence.FallCharacterDialogue.004": "",
+  "Bence.FallCharacterDialogue.002": "Össze kellene söpörnöm ezt a sok levelet a házam körül.#$b#Habár... Mindegy is, a szél majd úgyis elfújja.",
+  "Bence.FallCharacterDialogue.003": "27. én lesz az egyik kedvenc ünnepem.#$b#És... most jut ezsembe, hogy megigértem Lewis-nak, hogy idén segítek előkészíteni a fesztivált. *sóhaj*",
+  "Bence.FallCharacterDialogue.004": "@!#$b# Valamit akartam mondani de elfelejtettem.#$e#Nem, sajnos még nem jutott eszembe amit mondani akartam.",
   "Bence.FallCharacterDialogue.005": "",
   "Bence.FallCharacterDialogue.006": "",
-  "Bence.FallCharacterDialogue.007": "",
-  "Bence.FallCharacterDialogue.008": "",
-  "Bence.FallCharacterDialogue.009": "",
+  "Bence.FallCharacterDialogue.007": "Sosem tudhatod, hogy mi jön veled szembe az erdőben.$u#$b#Csak viccelek.$h#$b#Vagy mégsem?$u",
+  "Bence.FallCharacterDialogue.008": "*ásít* Tegnap este hajnalig fent voltam és projektemen dolgoztam.$6#$e#Miért érzem azt, hogy lassan tönkreteszem magam.$6",
+  "Bence.FallCharacterDialogue.009": "Áh... végre szombat van, ezen a napon szeretek csak úgy bojongani a városban és ellenni a gondolataimmal.",
   "Bence.FallCharacterDialogue.010": "Csá @. Tegnap találtam pár gombát az erdőben.#$b#$y Esetleg nem érdekel néhány?'_De igen, köszönöm._Oké, tessék. [281 404 420 422][281 404 420 422][281 404 420 422]_Kössz, de most nem kell._Oké, te tudod.'",
   "Bence.FallCharacterDialogue.011": "",
   "Bence.FallCharacterDialogue.012": "",
   //WINTER DIALOGUE
   "Bence.WinterCharacterDialogue.001": "",
-  "Bence.WinterCharacterDialogue.002": "",
-  "Bence.WinterCharacterDialogue.003": "",
+  "Bence.WinterCharacterDialogue.002": "Remélem vágtam elég vát, hogy elég legyen télre.$u",
+  "Bence.WinterCharacterDialogue.003": "Nincs is szebb látvány a téli látképnél.#$b#Mondjuk a nagy fehérségtől mindgyárt kiég a szemem, de a látványért megéri.",
   "Bence.WinterCharacterDialogue.004": "",
   "Bence.WinterCharacterDialogue.005": "",
   "Bence.WinterCharacterDialogue.006": "",
-  "Bence.WinterCharacterDialogue.007": "",
-  "Bence.WinterCharacterDialogue.008": "",
+  "Bence.WinterCharacterDialogue.007": "*tüsszent* Remek... Azt hiszem megfáztam.#$b#Mindegy, holnapra úgyis kiheverem.",
+  "Bence.WinterCharacterDialogue.008": "Hidegben mindig jobban tudok koncentrálni.",
   "Bence.WinterCharacterDialogue.009": "",
   "Bence.WinterCharacterDialogue.010": "",
   "Bence.WinterCharacterDialogue.011": "",
   "Bence.WinterCharacterDialogue.012": "",
   "Bence.WinterCharacterDialogue.013": "",
   "Bence.WinterCharacterDialogue.014": "",
+
+  //RAINY
+  "Bence.Rainy": "Szeretem az esőt, ilyen kor sokkal tisztábbnak érződik a levegő.",
 
   //Bence Gift Tastes
   "Bence.Gifts.Loved": "Váó... hát... nem is tudom mit mondjak, ez egy nagyszerű ajándék. Köszönöm.$h",
@@ -1424,18 +1469,18 @@
   "Bence.6heart.06": "Hm...$u#$b#Hát, úgyfest néha a legegyszerűbb dolgok működnek a legjobban.",
 
   //Bence comments on Aurora Vineyard being overgrown
-  "Bence.VineyardOvergrown.01": "",
+  //"Bence.VineyardOvergrown.01": "-",
 
   //MoviesReactions
-  "Bence.Movies.01": "Love Bence",
-  "Bence.Movies.02": "Love Bence",
-  "Bence.Movies.03": "Like Bence",
-  "Bence.Movies.04": "Like Bence",
-  "Bence.Movies.05": "Hate Bence",
-  "Bence.Movies.06": "Hate Bence",
+  "Bence.Movies.01": "Kíványcsi vagyok, vajon olyan jó lesz ez a film ahogy mondják?",
+  "Bence.Movies.02": "Ez egy tök király film volt.#$b#Örülök, hogy meghívtál.$h",
+  "Bence.Movies.03": "Nem hallottam még erről a filmről.#$b#Remélem jó lesz.",
+  "Bence.Movies.04": "Ez egy egész jó film volt.#$b#Köszönöm a meghívást.",
+  "Bence.Movies.05": "Nem is tudom, ez a film nem valószínű, hogy a kedvencem lesz.",
+  "Bence.Movies.06": "Hát... azért köszönöm hogy meghívtál.$s",
 
   //Engagement
-  "Bence.Engagement.0": "",
+  "Bence.Engagement.0": "Kíváncsi vagyok milyen lesz majd a farmon élni.",
   "Bence.Engagement.1": "",
 
   //CommunityDay
@@ -1455,7 +1500,7 @@
   "Bence.JojaDay.funLeave": "Leugrok a Joja Martba, neked kell valami?",
   
   //MarriageDialogue
-  "Bence.Patio": "",
+  "Bence.Patio": "Olyan békés itt.",
 
   "Bence.spouseRoom.1": "",
   "Bence.spouseRoom.2": "",
@@ -1471,7 +1516,7 @@
   "Bence.funReturn.Fall.1": "",
   "Bence.funReturn.Winter.1": "",
 
-  "Bence.OneKid.00": "",
+  "Bence.OneKid.00": "Kíváncsi vagyok hogy %kid1 melyikünkre fog hasonlítani, ha szerencsénk van rád.",
   "Bence.OneKid.01": "",
   "Bence.OneKid.02": "",
   "Bence.OneKid.03": "",
@@ -1923,6 +1968,292 @@
   "Mark.MarriageDialogue.Bad_6": "",
   "Mark.MarriageDialogue.Bad_7": "",
   "Mark.MarriageDialogue.Bad_8": "",
-  "Mark.MarriageDialogue.Bad_9": ""
+  "Mark.MarriageDialogue.Bad_9": "",
 
+  //==================//
+  // Isti NPC  //
+  //==================//
+
+  //SPECIAL DIALOGUE
+  "Isti.Introduction": "",
+  "Isti.AcceptBouquet": "",
+  "Isti.Reject_458": "",
+  "Isti.GreenRain": "",
+  "Isti.GreenRainFinished": "",
+  "Isti.GiftBeer": "",
+  "Isti.GiftLangos": "",
+  "Isti.GiftPalinka": "",
+  "Isti.AcceptBirthdayGift_Positive": "",
+  "Isti.AcceptBirthdayGift_Negative": "",
+  "Isti.AcceptGift_alcohol_item": "",
+  "Isti.DumpsterDiveComment": "",
+  "Isti.married_Christopher": "",
+  "Isti.married_Bence": "",
+  "Isti.married_Mark": "",
+  "Isti.breakUp": "",
+  "Isti.divorced": "",
+  "Isti.MovieInvitation": "",
+  //"Isti.RejectBouquet_NpcAlreadyMarried": "-",
+  //"Isti.RejectBouquet_AlreadyAccepted": "-",
+  //"Isti.RejectBouquet_Divorced": "-",
+  //"Isti.RejectBouquet_VeryLowHearts": "-",
+  //"Isti.RejectBouquet_LowHearts": "-",
+  "Isti.RejectGift_Divorced": "",
+  //"Isti.RejectMermaidPendant_AlreadyAccepted": "-",
+  //"Isti.RejectMermaidPendant_Divorced": "-",
+  //"Isti.RejectMermaidPendant_NeedHouseUpgrade": "-",
+  //"Isti.RejectMermaidPendant_NpcWithSomeoneElse": "-",
+  //"Isti.RejectMermaidPendant_Under8Hearts": "-",
+  //"Isti.RejectMermaidPendant_Under10Hearts": "-",
+  //"Isti.RejectMermaidPendant": "-",
+  //"Isti.Dating":"-",
+
+  //FESTIVALS
+  "Isti.FlowerDance_Accept": "",
+  "Isti.FlowerDance_Decline": "",
+  "Isti.WinterStar_GiveGift_Before": "",
+  "Isti.WinterStar_GiveGift_After": "",
+  //"Isti.WinterStar_ReceiveGift": "-",
+  "Isti.TroutDerby1": "",
+  "Isti.TroutDerby2": "",
+  "Isti.SquidFest1": "",
+  "Isti.SquidFest2": "",
+
+  //SPECIFIC MAP AND COORDINATES DIALOGUE
+  "Isti.LocationDialogue.Saloon": "",
+
+  //SPRING AND GENERAL DIALOGUE
+  "Isti.CharacterDialogue.001": "",
+  "Isti.CharacterDialogue.002": "",
+  "Isti.CharacterDialogue.003": "",
+  "Isti.CharacterDialogue.004": "",
+  "Isti.CharacterDialogue.005": "",
+  "Isti.CharacterDialogue.006": "",
+  "Isti.CharacterDialogue.007": "",
+  //SUMMER DIALOGUE
+  "Isti.CharacterDialogue.008": "",
+  "Isti.CharacterDialogue.009": "",
+  "Isti.CharacterDialogue.010": "",
+  "Isti.CharacterDialogue.011": "",
+  "Isti.CharacterDialogue.012": "",
+  "Isti.CharacterDialogue.013": "",
+  "Isti.CharacterDialogue.014": "",
+  //FALL DIALOGUE
+  "Isti.CharacterDialogue.015": "",
+  "Isti.CharacterDialogue.016": "",
+  "Isti.CharacterDialogue.017": "",
+  "Isti.CharacterDialogue.018": "",
+  "Isti.CharacterDialogue.019": "",
+  "Isti.CharacterDialogue.020": "",
+  "Isti.CharacterDialogue.021": "",
+  //WINTER DIALOGUE
+  "Isti.CharacterDialogue.022": "",
+  "Isti.CharacterDialogue.023": "",
+  "Isti.CharacterDialogue.024": "",
+  "Isti.CharacterDialogue.025": "",
+  "Isti.CharacterDialogue.026": "",
+  "Isti.CharacterDialogue.027": "",
+  "Isti.CharacterDialogue.028": "",
+
+  //Isti Gift Tastes
+  "Isti.Gifts.Loved": "",
+  "Isti.Gifts.Liked": "",
+  "Isti.Gifts.Disliked": "",
+  "Isti.Gifts.Hated": "",
+  "Isti.Gifts.Neutral": "",
+
+  //Isti spring13
+  "Isti.Egg": "",
+  "Isti.Egg2": "",
+
+  //Isti spring24
+  "Isti.Flower": "",
+  "Isti.Flower2": "",
+
+  //Isti summer11
+  "Isti.Luau": "",
+  "Isti.Luau2": "",
+
+  //Isti summer28
+  "Isti.Jellies": "",
+  "Isti.Jellies2": "",
+
+  //Isti fall16 
+  "Isti.Fair": "",
+  "Isti.Fair2": "",
+
+  //Isti fall27
+  "Isti.Spirit": "",
+  "Isti.Spirit2": "",
+
+  //Isti winter8 
+  "Isti.Ice": "",
+  "Isti.Ice2": "",
+
+  //Isti winter25
+  "Isti.star": "",
+  "Isti.star2": "",
+
+  //Mails
+  "Mail.Isti" : "Csá @!^Lenne egy kérésem. Volt régen egy gitárom, valószínüleg még mindig ott kell lennie a régi házamban. Ha megkérlek eltudnád hozni nekem?^^-Isti%item quest 2502%%[#]Isti kérése",
+  
+  //ScheduleDialogue
+  "Isti.NightMarket.01": "",
+  "Isti.DesertFestival_marriage.01": "",
+  "Isti.DesertFestival.01": "",
+  
+  //Isti Movie Dialogue 
+
+  //Isti Events
+  
+  //MoviesReactions
+  "Isti.Movies.01": "",
+  "Isti.Movies.02": "",
+  "Isti.Movies.03": "",
+  "Isti.Movies.04": "",
+  "Isti.Movies.05": "",
+  "Isti.Movies.06": "",
+
+  //Engagement
+  "Isti.Engagement.0": "",
+  "Isti.Engagement.1": "",
+
+  //CommunityDay
+  "Isti.CommunityDay.01": "",
+  "Isti.CommunityDay.02": "",
+  "Isti.CommunityDay.03": "",
+  "Isti.CommunityDay.04": "",
+  //CommunityDay - MARRIED
+  "Isti.CommunityDay.05": "",
+  "Isti.CommunityDay.06": "",
+  "Isti.CommunityDay.07": "",
+  "Isti.CommunityDay.08": "",
+
+  //JojaDay
+  "Isti.JojaDay.01": "",
+  "Isti.JojaDay.02": "",
+  "Isti.JojaDay.funLeave": "",
+
+  //MarriageDialogue
+  "Isti.Patio": "",
+
+  "Isti.spouseRoom.1": "",
+  "Isti.spouseRoom.2": "",
+  "Isti.spouseRoom.3": "",
+  "Isti.spouseRoom.4": "",
+
+  "Isti.funLeave.Spring.1": "",
+  "Isti.funLeave.Summer.1": "",
+  "Isti.funLeave.Fall.1": "",
+  "Isti.funLeave.Winter.1": "",
+  "Isti.funReturn.Spring.1": "",
+  "Isti.funReturn.Summer.1": "",
+  "Isti.funReturn.Fall.1": "",
+  "Isti.funReturn.Winter.1": "",
+
+  "Isti.OneKid.00": "",
+  "Isti.OneKid.01": "",
+  "Isti.OneKid.02": "",
+  "Isti.OneKid.03": "",
+  "Isti.OneKid.04": "",
+  "Isti.TwoKids.00": "",
+  "Isti.TwoKids.01": "",
+  "Isti.TwoKids.02": "",
+  "Isti.TwoKids.03": "",
+  "Isti.TwoKids.04": "",
+  
+  "Isti.MarriageDialogue.spring_Isti": "",
+  "Isti.MarriageDialogue.spring_1": "",
+  "Isti.MarriageDialogue.spring_13": "",
+  "Isti.MarriageDialogue.spring_24": "",
+
+  "Isti.MarriageDialogue.summer_Isti": "",
+  "Isti.MarriageDialogue.summer_1": "",
+  "Isti.MarriageDialogue.summer_11": "",
+  "Isti.MarriageDialogue.summer_28": "",
+
+  "Isti.MarriageDialogue.fall_Isti": "",
+  "Isti.MarriageDialogue.fall_1": "",
+  "Isti.MarriageDialogue.fall_16": "",
+  "Isti.MarriageDialogue.fall_27": "",
+  
+  "Isti.MarriageDialogue.winter_Isti": "",
+  "Isti.MarriageDialogue.winter_1": "",
+  "Isti.MarriageDialogue.winter_8": "",
+  "Isti.MarriageDialogue.winter_12": "",
+  "Isti.MarriageDialogue.winter_25": "",
+  
+  "Isti.MarriageDialogue.Rainy_Day": "",
+  "Isti.MarriageDialogue.Rainy_Night": "",
+  "Isti.MarriageDialogue.Indoor_Day": "",
+  "Isti.MarriageDialogue.Indoor_Night": "",
+  
+  "Isti.MarriageDialogue.Indoor_Day_0": "",
+  "Isti.MarriageDialogue.Indoor_Day_1": "",
+  "Isti.MarriageDialogue.Indoor_Day_2": "",
+  "Isti.MarriageDialogue.Indoor_Day_3": "",
+  "Isti.MarriageDialogue.Indoor_Day_4": "",
+
+  "Isti.MarriageDialogue.Outdoor_Isti": "",
+
+  "Isti.MarriageDialogue.Outdoor_0": "",
+  "Isti.MarriageDialogue.Outdoor_1": "",
+  "Isti.MarriageDialogue.Outdoor_2": "",
+  "Isti.MarriageDialogue.Outdoor_3": "",
+  "Isti.MarriageDialogue.Outdoor_4": "",
+
+  "Isti.MarriageDialogue.Rainy_Day_0": "",
+  "Isti.MarriageDialogue.Rainy_Day_1": "",
+  "Isti.MarriageDialogue.Rainy_Day_2": "",
+  "Isti.MarriageDialogue.Rainy_Day_3": "",
+
+  "Isti.MarriageDialogue.Indoor_Night_0": "",
+  "Isti.MarriageDialogue.Indoor_Night_1": "",
+  "Isti.MarriageDialogue.Indoor_Night_2": "",
+  "Isti.MarriageDialogue.Indoor_Night_3": "",
+  "Isti.MarriageDialogue.Indoor_Night_4": "",
+
+  "Isti.MarriageDialogue.Rainy_Night_0": "",
+  "Isti.MarriageDialogue.Rainy_Night_1": "",
+  "Isti.MarriageDialogue.Rainy_Night_2": "",
+  "Isti.MarriageDialogue.Rainy_Night_3": "",
+  "Isti.MarriageDialogue.Rainy_Night_4": "",
+
+  "Isti.MarriageDialogue.Good_0": "",
+  "Isti.MarriageDialogue.Good_1": "",
+  "Isti.MarriageDialogue.Good_2": "",
+  "Isti.MarriageDialogue.Good_3": "",
+  "Isti.MarriageDialogue.Good_4": "",
+  "Isti.MarriageDialogue.Good_5": "",
+  "Isti.MarriageDialogue.Good_6": "",
+  "Isti.MarriageDialogue.Good_7": "",
+  "Isti.MarriageDialogue.Good_8": "",
+  "Isti.MarriageDialogue.Good_9": "",
+
+  "Isti.MarriageDialogue.Neutral_0": "",
+  "Isti.MarriageDialogue.Neutral_1": "",
+  "Isti.MarriageDialogue.Neutral_2": "",
+  "Isti.MarriageDialogue.Neutral_3": "",
+  "Isti.MarriageDialogue.Neutral_4": "",
+  "Isti.MarriageDialogue.Neutral_5": "",
+  "Isti.MarriageDialogue.Neutral_6": "",
+  "Isti.MarriageDialogue.Neutral_7": "",
+  "Isti.MarriageDialogue.Neutral_8": "",
+  "Isti.MarriageDialogue.Neutral_9": "",
+
+  "Isti.MarriageDialogue.Bad_0": "",
+  "Isti.MarriageDialogue.Bad_1": "",
+  "Isti.MarriageDialogue.Bad_2": "",
+  "Isti.MarriageDialogue.Bad_3": "",
+  "Isti.MarriageDialogue.Bad_4": "",
+  "Isti.MarriageDialogue.Bad_5": "",
+  "Isti.MarriageDialogue.Bad_6": "",
+  "Isti.MarriageDialogue.Bad_7": "",
+  "Isti.MarriageDialogue.Bad_8": "",
+  "Isti.MarriageDialogue.Bad_9": "",
+
+  "Isti.MarriageDialogue.NoBed_0": "",
+  "Isti.MarriageDialogue.NoBed_1": "",
+  "Isti.MarriageDialogue.NoBed_2": "",
+  "Isti.MarriageDialogue.NoBed_3": "",
 }

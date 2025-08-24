@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="9" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="3">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="9" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="6">
  <tileset firstgid="1" name="spring_ChristopherHouseTilesheet" tilewidth="16" tileheight="16" tilecount="56" columns="8">
   <image source="spring_ChristopherHouseTilesheet.png" width="128" height="112"/>
  </tileset>
@@ -1073,6 +1073,11 @@
   <object id="2" name="TileData" x="96" y="80" width="16" height="16">
    <properties>
     <property name="Action" value="LockedDoorWarp 3 9 Custom_ChristopherHouseInterior 800 2400 Christopher 500"/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="64" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Garbage Christopher"/>
    </properties>
   </object>
  </objectgroup>

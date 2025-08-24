@@ -1,10 +1,20 @@
 {
     "Format": "2.3.0",
     "ConfigSchema": {
+        "MarkLegacyLook": {
+            "Default": "false",
+            "AllowValues": "true, false",
+            "Description": "Uses the old version of Mark's sprite and portrait."
+        },
         "SeasonalEdits": {
             "Default": "true",
             "AllowValues": "true, false",
             "Description": "Adds leafs on the ground in certain areas."
+        },
+        "ExtraPets": {
+            "Default": "false",
+            "AllowValues": "true, false",
+            "Description": "Adds a new \"strange\" pet into the game. WARNING The pet is not 100% complete!"
         }
     },
     "CustomLocations":[
@@ -63,6 +73,10 @@
         {
             "Name":"Custom_MarkHorseRace2",
             "FromMapFile":"Assets/Maps/NewLocations/Derby2.tmx"
+        },
+        {
+            "Name":"Custom_AbandonedCabinInterior",
+            "FromMapFile":"Assets/Maps/NewLocations/AbandonedCabinInterior.tmx"
         },
         {
             "Name":"Custom_IslandNorthWest",
@@ -178,6 +192,11 @@
           "Action": "Include",
           "FromFile": "Data/Locations/Edits.json"
         },
+        {
+          "LogName": "ChairTiles",
+          "Action": "Include",
+          "FromFile": "Data/Locations/ChairTiles.json"
+        },
         //Character Loads
         {
           //Dialogue Blank Loads
@@ -257,7 +276,7 @@
         {
           "LogName": "Events",
           "Action": "Include",
-          "FromFile": "Data/Events/HGCave.json, Data/Events/SO_Events.json, Data/Events/SVE_Events.json, Data/Events/SecretQuest.json"
+          "FromFile": "Data/Events/HG_Events.json, Data/Events/SO_Events.json, Data/Events/SVE_Events.json, Data/Events/SecretQuest.json"
         },
         {
           "LogName": "Festivals",
@@ -345,7 +364,7 @@
         {
           "Action": "Load",
           "Priority": "Low",
-          "Target": "Data/Events/Custom_ChristopherHouseInterior, Data/Events/Custom_BenceCabinInterior, Data/Events/Custom_MarkFarm, Data/Events/Custom_MarkHouseInterior, Data/Events/Custom_MarkFarmCave, Data/Events/Custom_HGCave, Data/Events/Custom_IslandNorthWest, Data/Events/Custom_Island_Shelter",
+          "Target": "Data/Events/Custom_ChristopherHouseInterior, Data/Events/Custom_BenceCabinInterior, Data/Events/Custom_MarkFarm, Data/Events/Custom_MarkHouseInterior, Data/Events/Custom_MarkFarmCave, Data/Events/Custom_HGCave, Data/Events/Custom_AbandonedCabinInterior, Data/Events/Custom_IslandNorthWest, Data/Events/Custom_Island_Shelter",
           "FromFile": "Assets/Blank.json"
         },
     ]

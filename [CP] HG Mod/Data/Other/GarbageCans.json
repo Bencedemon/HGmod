@@ -21,6 +21,106 @@
               },
             ]
           },
+          "Mark": {
+            "Items": [
+              {
+                "IgnoreBaseChance": true,
+                "Id": "Mark Broken CD",
+                "Condition": "RANDOM 0.05",
+                "ItemId": "(O)171"
+              },
+              {
+                "IgnoreBaseChance": true,
+                "Id": "Mark Energy Tonic",
+                "Condition": "RANDOM 0.02",
+                "ItemId": "(O)349"
+              },
+              {
+                "IgnoreBaseChance": true,
+                "Id": "Mark Stone",
+                "Condition": "RANDOM 0.04",
+                "ItemId": "(O)390"
+              },
+              {
+                "IgnoreBaseChance": true,
+                "Id": "Mark Copper",
+                "Condition": "RANDOM 0.02",
+                "ItemId": "(O)378"
+              },
+              {
+                "IgnoreBaseChance": true,
+                "Id": "Mark Geode",
+                "Condition": "RANDOM 0.01",
+                "ItemId": "(O)535"
+              },
+              {
+                "IgnoreBaseChance": true,
+                "Id": "Mark Tea Sapling",
+                "Condition": "RANDOM 0.01",
+                "ItemId": "(O)251"
+              }
+            ]
+          },
+          "Christopher": {
+            "Items": [
+              {
+                "IgnoreBaseChance": true,
+                "Id": "Christopher Carp",
+                "Condition": "RANDOM 0.15",
+                "ItemId": "(O)142"
+              },
+              {
+                "IgnoreBaseChance": true,
+                "Id": "Christopher Chub",
+                "Condition": "RANDOM 0.1",
+                "ItemId": "(O)702"
+              },
+              {
+                "IgnoreBaseChance": true,
+                "Id": "Christopher Bream",
+                "Condition": "RANDOM 0.05",
+                "ItemId": "(O)132"
+              },
+              {
+                "IgnoreBaseChance": true,
+                "Id": "Christopher Wild Bait",
+                "Condition": "RANDOM 0.1",
+                "ItemId": "(O)774"
+              },
+              {
+                "IgnoreBaseChance": true,
+                "Id": "Christopher Bait",
+                "Condition": "RANDOM 0.5",
+                "ItemId": "(O)685"
+              }
+            ]
+          },
+          "Abandoned_Cabin": {
+            "Items": [
+              {
+                "IgnoreBaseChance": true,
+                "Id": "Abandoned_Cabin Trash",
+                "Condition": "RANDOM 0.01",
+                "ItemId": "(O)168"
+              },
+              {
+                "IgnoreBaseChance": true,
+                "Id": "Abandoned_Cabin Pine Cone",
+                "Condition": "RANDOM 0.01",
+                "ItemId": "(O)311"
+              },
+            ]
+          },
+          "Isti": {
+            "Items": [
+              {
+                "IgnoreBaseChance": true,
+                "Id": "Isti Trash",
+                "Condition": "RANDOM 0.15",
+                "ItemId": "(O)168"
+              },
+            ]
+          },
         }
       }
     ]

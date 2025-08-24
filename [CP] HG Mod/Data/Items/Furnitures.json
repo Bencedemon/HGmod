@@ -8,7 +8,18 @@
 		{
             "Action": "Load",
             "Target": "Mods/Bencedemon.HG/HG_Portraits",
+            "When": {
+                "MarkLegacyLook": false
+            },
             "FromFile": "assets/Textures/HG_Portraits.png"
+        },
+		{// Legacy
+            "Action": "Load",
+            "Target": "Mods/Bencedemon.HG/HG_Portraits",
+            "When": {
+                "MarkLegacyLook": true
+            },
+            "FromFile": "assets/Textures/HG_Portraits_Legacy.png"
         },
         {
             "Action": "EditData",

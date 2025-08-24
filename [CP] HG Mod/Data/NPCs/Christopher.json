@@ -132,12 +132,11 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-        "Christopher": "{{i18n:Christopher.Gifts.Loved}}/Bencedemon.HG_ChimneyCake Bencedemon.HG_Langos Bencedemon.HG_Palinka 163 254 346 681 727 DeluxBait
-        /{{i18n:Christopher.Gifts.Liked}}/alcohol_item -4 -6 -22
-        /{{i18n:Christopher.Gifts.Disliked}}/142
-        /{{i18n:Christopher.Gifts.Hated}}/-12
-        /{{i18n:Christopher.Gifts.Neutral}}/Bencedemon.HG_Fishing_Elixir -2 -21 -75
-        /"
+        "Christopher": "{{i18n:Christopher.Gifts.Loved}}/Bencedemon.HG_ChimneyCake Bencedemon.HG_Langos Bencedemon.HG_Palinka 163 254 346 681 727 DeluxBait/
+        {{i18n:Christopher.Gifts.Liked}}/alcohol_item -4 -6 -22/
+        {{i18n:Christopher.Gifts.Disliked}}/142/
+        {{i18n:Christopher.Gifts.Hated}}/-12/
+        {{i18n:Christopher.Gifts.Neutral}}/Bencedemon.HG_Fishing_Elixir -2 -21 -75/"
       }
     },
     {

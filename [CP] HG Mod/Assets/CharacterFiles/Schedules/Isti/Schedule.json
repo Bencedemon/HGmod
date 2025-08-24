@@ -1,5 +1,6 @@
 {  
-  "spring": "800 Custom_IslandNorthWest 19 17 2 dick_fish/1400 Custom_IslandNorthWest 32 23 2/1600 Custom_IslandNorthWest 26 9 0/1700 Custom_IslandNorthWest 19 17 2/2200 Custom_Island_Shelter 4 4 2 Isti_Sleep"
+  "rain": "610 Custom_Island_Shelter 6 5 0/1200 Custom_Island_Shelter 2 7 3/1400 Custom_IslandNorthWest 6 13 2 Isti_drink/1600 Custom_Island_Shelter 5 6 2 square_5_3/2200 Custom_Island_Shelter 1 4 2 Isti_Sleep",
+  "spring": "610 Custom_IslandNorthWest 6 13 2 Isti_drink/800 Custom_IslandNorthWest 19 17 2 dick_fish/1000 Custom_IslandNorthWest 22 10 0/1200 Custom_IslandNorthWest 32 23 2/1400 Custom_IslandNorthWest 26 9 0/1500 Custom_IslandNorthWest 19 17 2 Isti_sit/2200 Custom_Island_Shelter 1 4 2 Isti_Sleep"
 }
 
 //(0 = up, 1 = right, 2 = down, 3 = left)

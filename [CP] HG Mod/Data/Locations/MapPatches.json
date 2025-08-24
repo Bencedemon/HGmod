@@ -526,16 +526,6 @@
                     //"HasActiveQuest |contains=2201": true
                }
           },
-          {
-               "Action": "EditData",
-               "Target": "Data/ChairTiles",
-               "Entries": {
-                    "spring_BenceCabinTilesheet/5/10": "2/1/down/bench/0/0/true",
-                    "spring_BenceCabinTilesheet/4/4": "1/1/right/custom 0.1 0.3 0/0/0/true",
-                    "HG_Cave/0/7": "1/1/down/stool/-1/-1/false",
-                    "HG_Cave/1/7": "1/1/down/stool/-1/-1/false",
-               }
-          },
           { //Mark Farm Sign
                "Action": "EditMap",
                "Target": "Maps/Custom_MarkFarm",
@@ -602,6 +592,21 @@
                     "Weather |contains=Rain, Storm": true,
                     "Season": "Spring,Summer,Fall"
                }
+          },
+          
+          {
+               "Action": "EditMap",
+               "Target": "Maps/Mountain",
+               "FromFile": "assets/Maps/MapPatches/AbandonedCabin.tmx",
+               "ToArea": {
+                    "X": 61,
+                    "Y": 0,
+                    "Width": 11,
+                    "Height": 12
+               },
+               "AddWarps": [
+                    "67 5 Custom_AbandonedCabinInterior 3 4"
+               ]
           },
 
           //=============//

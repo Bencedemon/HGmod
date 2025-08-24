@@ -35,6 +35,20 @@
                 viewport 30 17 clamp true/move farmer 0 -6 0/pause 100/speak Bence \"{{i18n:HG_Cave.Opening.01}}\"/pause 100/speak Lewis \"{{i18n:HG_Cave.Opening.02}}\"/pause 100/globalFade/viewport -1000 -1000/warp Robin 39 18 true/faceDirection Robin 0 true/warp Lewis 43 23 true/warp Bence 45 19 true/faceDirection Bence 1 true/warp Christopher 46 18 true/viewport 30 17 clamp true/pause 1000/speak Mark \"{{i18n:HG_Cave.Opening.03}}\"/pause 400/speak Mark \"{{i18n:HG_Cave.Opening.04}}\"/pause 100/move Mark 5 0 1 true/move farmer 5 0 1 true/globalFade/viewport -1000 -1000/end"
             }
         },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Mountain",
+            "Entries": {
+                "2001303/Year 2": "sadpiano/68 10/farmer 59 11 1 Christopher 68 12 0 Bence 67 12 0 Mark 66 12 0/move farmer 4 0 1 true/pause 1000/emote Christopher 28 true/emote Bence 28 true/emote Mark 28/pause 1000/speak Bence \"Jólvan, én szerintem megindulok haza.$s\"/speak Mark \"Nekem is mennem kell, még elég sok dolgom van a farmon.$s\"/speak Christopher \"Jólvan boys, majd még találkozunk.$s\"/advancedMove Mark false -6 0 0 -2 -1 0 0 -1 -1 0 0 -1 -15 0 0 2 -1 0 0 7 -2 0 13 -16 0/pause 400/advancedMove Bence false -7 0 0 -2 -1 0 0 -1 -1 0 0 -1 -15 0 0 2 -1 0 0 7 -2 0 13 -16 0/textAboveHead Mark \"Csá farmer!\"/pause 400/textAboveHead Bence \"Helló!\"/pause 1000/emote Christopher 28 true/move farmer 2 0 1/move farmer 0 1 1/move farmer 2 0 0/pause 500/speak Christopher \"*sóhaj* Van valamit amit ideje lenne elmesélnem.$s\"/viewport move -1 1 8000/pause 4000/globalFade/viewport -1000 -1000/end"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Beach",
+            "Entries": {
+                "IstiReturn/n IstiReturnReminder/t 800 2400/w sunny": "ocean/-1000 -1000/farmer 40 36 0 Christopher 40 34 2 Bence 42 34 2 Mark 43 35 3 Isti -100 -100 2 Willy -100 -100 2/positionOffset Mark 0 -16/positionOffset Bence 0 16/showFrame Bence 32/viewport 38 35 true/pause 2000/speak Christopher \"@! Nem tudod miért hívott minket ide Willy?\"/pause 1000/warp Willy 30 34/playSound doorClose/faceDirection Christopher 3/move Willy 0 1 1/move Willy 8 0 1/faceDirection farmer 3/speak Willy \"Nos üdv.\"/pause 200/move Mark -2 0 3/pause 200/speak Mark \"Mi folyik itt Willy?\"/pause 200/speak Willy \"Nos, hogy is mondjam...#$b#@ talált valamit a szigeten amit most szeretnénk meg mutatni nektek.#$b#Vagy mondjam inkább azt, hogy valakit.\"/move Bence 0 2 3/move Bence -1 0 3/pause 200/move Willy 0 -1 2/warp Isti 30 34/playSound doorClose/move Isti 0 1 2/emote Christopher 16 true/emote Bence 16 true/emote Mark 16 true/move Isti 7 0 1/speak Isti \"Helló srácok.$h\"/end"
+            }
+        }
     ]
 }
 //(0 = up, 1 = right, 2 = down, 3 = left)
