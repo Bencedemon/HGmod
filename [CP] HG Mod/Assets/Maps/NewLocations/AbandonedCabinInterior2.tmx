@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="10" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="19">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="10" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="20">
  <properties>
   <property name="AmbientLight" value="140 110 90"/>
   <property name="TreatAsOutdoors" value="T"/>
-  <property name="Warp" value="3 3 Mountain 67 4"/>
+  <property name="Warp" value="3 11 Mountain 67 8"/>
   <property name="WindowLight" value="6 9 6"/>
  </properties>
  <tileset firstgid="1" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
@@ -33,9 +33,9 @@
   <data encoding="csv">
 10,3,3,3,2122,3,3,3,3,12,
 65,0,0,0,0,0,0,0,1646,69,
-65,2177,2178,2241,0,0,0,0,0,69,
-65,2187,2188,2251,2179,2180,0,0,0,69,
-65,0,0,0,2189,2190,2191,2257,2258,69,
+65,2177,2178,2246,0,0,0,0,0,69,
+65,2187,2188,2256,2179,2180,0,0,0,69,
+65,0,0,0,2189,2190,2196,2269,2270,69,
 2153,2267,2268,0,2221,0,0,0,0,69,
 65,0,0,0,0,0,0,0,0,2154,
 65,2148,0,0,2249,2209,2210,2211,0,69,
@@ -48,51 +48,68 @@
  <objectgroup id="4" name="Buildings">
   <object id="4" name="TileData" x="64" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;AbandonedCabin.PC&quot;"/>
+    <property name="Action" value="Message &quot;AbandonedCabin2.PC&quot;"/>
    </properties>
   </object>
   <object id="9" name="TileData" x="80" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;AbandonedCabin.PC&quot;"/>
+    <property name="Action" value="Message &quot;AbandonedCabin2.PC&quot;"/>
    </properties>
   </object>
   <object id="10" name="TileData" x="96" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;AbandonedCabin.Firewood&quot;"/>
+    <property name="Action" value="Message &quot;AbandonedCabin2.Firewood&quot;"/>
    </properties>
   </object>
   <object id="11" name="TileData" x="64" y="112" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;AbandonedCabin.Fridge&quot;"/>
+    <property name="Action" value="Message &quot;AbandonedCabin2.Fridge&quot;"/>
    </properties>
   </object>
   <object id="12" name="TileData" x="16" y="112" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;AbandonedCabin.Box&quot;"/>
+    <property name="Action" value="Message &quot;AbandonedCabin2.Box&quot;"/>
    </properties>
   </object>
   <object id="13" name="TileData" x="16" y="128" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;AbandonedCabin.Box&quot;"/>
+    <property name="Action" value="Message &quot;AbandonedCabin2.Box&quot;"/>
    </properties>
   </object>
   <object id="14" name="TileData" x="96" y="144" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;AbandonedCabin.TV&quot;"/>
+    <property name="Action" value="Message &quot;AbandonedCabin2.TV&quot;"/>
    </properties>
   </object>
-  <object id="17" name="TileData" x="48" y="176" width="16" height="16">
+  <object id="19" name="TileData" x="48" y="48" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;AbandonedCabin.Door&quot;"/>
+    <property name="Action" value="Message &quot;AbandonedCabin2.WallPlanks&quot;"/>
    </properties>
   </object>
  </objectgroup>
+ <layer id="12" name="Buildings2" width="10" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="11" name="Buildings2"/>
  <layer id="5" name="Front" width="10" height="12">
   <data encoding="csv">
 0,0,0,0,0,0,0,2217,2218,0,
 0,1587,0,0,0,1824,0,2227,2228,0,
 0,0,0,0,0,1856,0,2237,2238,0,
-0,2197,2198,0,2219,2220,2181,2247,2248,0,
+0,2197,2198,0,2219,2220,2186,2259,2260,0,
 0,2207,2208,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,
 0,2116,0,0,2239,2199,2200,2201,0,0,

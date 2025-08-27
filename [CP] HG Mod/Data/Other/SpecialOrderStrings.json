@@ -18,11 +18,15 @@
         "Mark_Objective_0_Text": "{{i18n:Mark_SO.Objective_0}}",
         "Mark_Objective_1_Text": "{{i18n:Mark_SO.Objective_1}}",
         "Mark_Objective_2_Text": "{{i18n:Mark_SO.Objective_2}}",
-
         
         "Mark2_Name": "{{i18n:Mark2_SO.Name}}",
         "Mark2_Text": "{{i18n:Mark2_SO.Text}}",
-        "Mark2_Objective_0_Text": "{{i18n:Mark2_SO.Objective_0}}"
+        "Mark2_Objective_0_Text": "{{i18n:Mark2_SO.Objective_0}}",
+
+        "Isti_Name": "{{i18n:Isti_SO.Name}}",
+        "Isti_Text": "{{i18n:Isti_SO.Text}}",
+        "Isti_Objective_0_Text": "{{i18n:Isti_SO.Objective_0}}",
+        "Isti_Objective_1_Text": "{{i18n:Isti_SO.Objective_1}}",
       }
     }
   ]

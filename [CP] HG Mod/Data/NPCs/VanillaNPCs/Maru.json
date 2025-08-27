@@ -14,7 +14,17 @@
                     ],
                     "Value": "Bencedemon.HG_StrawberrySundae",
                     "Delimiter": " "
-                }
+                },
+				{/*Neutral*/
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Maru",
+						9
+					],
+					"Value": "Bencedemon.HG_TropicThunder",
+					"Delimiter": " "
+				}
             ]
         },
     ]

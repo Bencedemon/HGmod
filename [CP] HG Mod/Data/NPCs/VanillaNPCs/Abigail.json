@@ -1,10 +1,27 @@
 {
     "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "LogName": "Gift tastes: Abigail",
+            "TextOperations": [
+                {/*Dislike*/
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Abigail",
+                        5
+                    ],
+                    "Value": "Bencedemon.HG_TropicThunder",
+                    "Delimiter": " "
+                }
+            ]
+        },
         { //ABIGAIL EVENT 2
             "Action": "EditData",
             "Target": "Data/Events/SeedShop",
             "Entries": {
-                "3/f Abigail 2000/p Abigail/t 2000 2200/n abbySpiritBoard": "echos/-1000 -1000/farmer 13 6 3 Abigail 6 8 1 Bence -50 -50 0 Mark -50 -50 0/skippable/specificTemporarySprite abbyOuijaCandles/viewport 7 5/speak Abigail \"Hé! Reméltem, hogy felbukkansz. Mutatni akarok neked valamit.\"/move farmer -5 0 0/move farmer 0 2 3/faceDirection Abigail 2/speak Abigail \"Látod ezt? Ez egy boszorkánytábla. Használtál már ilyet?\"/emote farmer 8/move Abigail 0 2 1/move farmer 0 2 3/pause 500/speak Abigail \"Rakd a kezedet az írótáblára...$l\"/showFrame Abigail 30/pause 200/animate farmer true true 9999 89/pause 600/speak Abigail \"És most a lelkek elvezényelnek minket egy...$h\"/showFrame Abigail 31/pause 500/speak Abigail \"NÉZD, megmozdult!$7\"/emote farmer 16/speak Abigail \"Az első szó... 'Én' ...\"/pause 600/speak Abigail \"Most meg... '<' ...\"/pause 800/speak Abigail \"Váó, nézd hogy megy! Valamit ki akar írni... '%firstnameletter'...#$b#Én < %firstnameletter...?\"/emote Abigail 16/showFrame Abigail 12/faceDirection Abigail 3/stopMusic/pause 200/stopAnimation farmer/faceDirection Abigail 1/pause 400/specificTemporarySprite abbyOuija/playSound swordswipe/pause 900/playSound seeds/pause 500/speak Abigail \"Hoppá, véletlenül fellöktem a táblát! Heh heh...$h#$b#Ez csak egy buta játék, semmit se jelent.$9\"/faceDirection Abigail 3/emote Abigail 60/faceDirection Abigail 1/speak Abigail \"Én, izé, most dolgom van. El kell menned... Bocsi.$9\"/faceDirection Abigail 2/emote farmer 28/pause 500/move farmer 0 -3 0/pause 800/faceDirection farmer 2/pause 1000/move farmer 5 0 1 true/globalFade/viewport -1000 -1000/warp farmer -50 -50 true/warp Mark 13 8 true/warp Bence 13 10 true/viewport 7 5/move Bence 0 -4 3 true/advancedMove Mark false 0 -2 -5 0/faceDirection Abigail 0 true/showFrame Mark 32/emote Abigail 8 true/pause 1000/speak Mark \"Van szellem gömb.\"/showFrame Mark 0 true/faceDirection Mark 1/speak Bence \"Oké, hozok be D.O.T.S.-ot meg könyvet.\"/move Bence 0 4 2/doAction 13 11/move Bence 1 0 2/move Bence 0 3 2 true/globalFade/viewport -1000 -1000/end invisibleWarpOut Abigail",
+                "3/f Abigail 2000/p Abigail/t 2000 2200/n abbySpiritBoard": "echos/-1000 -1000/farmer 13 6 3 Abigail 6 8 1 Bence -50 -50 0 Mark -50 -50 0/skippable/specificTemporarySprite abbyOuijaCandles/viewport 7 5/speak Abigail \"{{i18n:Abigail.8hearts.01}}\"/move farmer -5 0 0/move farmer 0 2 3/faceDirection Abigail 2/speak Abigail \"{{i18n:Abigail.8hearts.02}}\"/emote farmer 8/move Abigail 0 2 1/move farmer 0 2 3/pause 500/speak Abigail \"{{i18n:Abigail.8hearts.03}}\"/showFrame Abigail 30/pause 200/animate farmer true true 9999 89/pause 600/speak Abigail \"{{i18n:Abigail.8hearts.04}}\"/showFrame Abigail 31/pause 500/speak Abigail \"{{i18n:Abigail.8hearts.05}}\"/emote farmer 16/speak Abigail \"{{i18n:Abigail.8hearts.06}}\"/pause 600/speak Abigail \"{{i18n:Abigail.8hearts.07}}\"/pause 800/speak Abigail \"{{i18n:Abigail.8hearts.08}}\"/emote Abigail 16/showFrame Abigail 12/faceDirection Abigail 3/stopMusic/pause 200/stopAnimation farmer/faceDirection Abigail 1/pause 400/specificTemporarySprite abbyOuija/playSound swordswipe/pause 900/playSound seeds/pause 500/speak Abigail \"{{i18n:Abigail.8hearts.09}}\"/faceDirection Abigail 3/emote Abigail 60/faceDirection Abigail 1/speak Abigail \"{{i18n:Abigail.8hearts.10}}\"/faceDirection Abigail 2/emote farmer 28/pause 500/move farmer 0 -3 0/pause 800/faceDirection farmer 2/pause 1000/move farmer 5 0 1 true/globalFade/warp farmer -50 -50 true/warp Mark 13 8 true/warp Bence 13 10 true/fade true/move Bence 0 -4 3 true/advancedMove Mark false 0 -2 -5 0/pause 1500/faceDirection Abigail 0 true/proceedPosition Mark/showFrame Mark 52/emote Abigail 8 true/pause 2000/speak Mark \"{{i18n:Abigail.8hearts.11}}\"/pause 100/faceDirection Mark 1/speak Bence \"{{i18n:Abigail.8hearts.12}}\"/pause 100/showFrame Mark 52/move Bence 0 6 0 true/globalFade/viewport -1000 -1000/end invisibleWarpOut Abigail",
             }
         },
     ]

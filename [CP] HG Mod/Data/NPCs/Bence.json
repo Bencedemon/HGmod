@@ -115,7 +115,7 @@
               "Y": 32
             },
             "HiddenProfileEmoteSound": null,
-            "HiddenProfileEmoteDuration": 1400,
+            "HiddenProfileEmoteDuration": 3000,//1400,
             "HiddenProfileEmoteStartFrame": 36,
             "HiddenProfileEmoteFrameCount": 8,
             "HiddenProfileEmoteFrameDuration": 200.0,

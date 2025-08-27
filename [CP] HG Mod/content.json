@@ -79,6 +79,10 @@
             "FromMapFile":"Assets/Maps/NewLocations/AbandonedCabinInterior.tmx"
         },
         {
+            "Name":"Custom_IstiCabinInterior",
+            "FromMapFile":"Assets/Maps/NewLocations/AbandonedCabinInterior2.tmx"
+        },
+        {
             "Name":"Custom_IslandNorthWest",
             "FromMapFile":"Assets/Maps/NewLocations/Island_NW.tmx"
         },

@@ -12,6 +12,20 @@
   "Olivia.OrderEvent.03": "I sense my friendship with the reception's guests has increased. I've also learned how to properly sample wine - increasing health and stamina healed when I drink it!",
   "Olivia.OrderEvent.04": "My reception was a huge success! Thank you, @.$3#$e#I must watch my pocket book for the time being. The event was fun, but was quite expensive!$6",
   
+  //Abigail 8 Heart Event
+  "Abigail.8hearts.01": "Hé! Reméltem, hogy felbukkansz. Mutatni akarok neked valamit.",
+  "Abigail.8hearts.02": "Látod ezt? Ez egy boszorkánytábla. Használtál már ilyet?",
+  "Abigail.8hearts.03": "Rakd a kezedet az írótáblára...$l",
+  "Abigail.8hearts.04": "És most a lelkek elvezényelnek minket egy...$h",
+  "Abigail.8hearts.05": "NÉZD, megmozdult!$7",
+  "Abigail.8hearts.06": "Az első szó... 'Én' ...",
+  "Abigail.8hearts.07": "Most meg... '<' ...",
+  "Abigail.8hearts.08": "Váó, nézd hogy megy! Valamit ki akar írni... '%firstnameletter'...#$b#Én < %firstnameletter...?",
+  "Abigail.8hearts.09": "Hoppá, véletlenül fellöktem a táblát! Heh heh...$h#$b#Ez csak egy buta játék, semmit se jelent.$9",
+  "Abigail.8hearts.10": "Én, izé, most dolgom van. El kell menned... Bocsi.$9",
+  "Abigail.8hearts.11": "Van szellem gömb.",
+  "Abigail.8hearts.12": "Oké, hozok be D.O.T.S.-ot meg könyvet.",
+
   //Emily Event Saloon 
   "Emily.Event.01": "Hey!",
   "Emily.Event.02": "@! It's great to see you!$1",
@@ -29,6 +43,45 @@
   "Emily.Event.13": "How was the beverage? Did you like it?#The drink was amazing.#It tasted horrible...",
   "Emily.Event.14": "Oh... I'm sorry, @.$2#$b#Well umm... I'm going to get back to work. I'm really sorry it didn't turn out well.$2",
   "Emily.Event.15": "I'm sorry that drink wasn't up your alley... Let's try a different one next time.$2",
+
+  //Emily 8 Heart Event
+  "Emily.8hearts.01": "Üdvözlünk a ruhaterápián!",
+  "Emily.8hearts.02": "Bizonyára most eltűnődtél... mi az a ruhaterápia?#$b#Megpróbálom elmagyarázni.",
+  "Emily.8hearts.03": "Olyan sokan vagyunk tele személyes problémákkal... olyan dolgok tartanak vissza minket, amiktől nehezen tudunk úgy élni ahogyan akarunk.$u#$b#Fontos számomra, hogy mindenkinek szabad és boldog élete legyen... ezért kitaláltam egy újfajta terápiát, ami segít az embereknek elérni ezt.$u",
+  "Emily.8hearts.04": "Ez az önkifejezés bámulatos erején alapszik. Az önkifejezés csodálatos gyógyító eszköz, ezt tudtad?",
+  "Emily.8hearts.05": "Ezen függöny mögött rengeteg ruhát találhatsz. Végtelen választási lehetőséged van.",
+  "Emily.8hearts.06": "A feladatod egyszerű: találd meg a hozzád illő öltözéket, és vedd fel.#$b#Bízz önmagadban és a választásodban. Mindenkinek egyedi stílusa van, amit megoszthat a világgal!#$b#Shane, te leszel az első!$h",
+  "Emily.8hearts.07": "Oké",
+  "Emily.8hearts.08": "Ah, @. Pont időben érkeztél. Csak figyelj és légy nyitott... oké?",
+  "Emily.8hearts.09": "Váó...",
+  "Emily.8hearts.10": "Laza",
+  "Emily.8hearts.11": "Shane, ez egy olyan oldalad, amiről sose tudtunk. Ez nagyszerű!#$b#Most menj ki tele önbizalommal, és mutasd meg a világnak!",
+  "Emily.8hearts.12": "Persze",
+  "Emily.8hearts.13": "Oké, mindenki sorra kerül!",
+  "Emily.8hearts.14": "Jaj ne...",
+  "Emily.8hearts.15": "Heehee",
+  "Emily.8hearts.16": "Ó egek!",
+  "Emily.8hearts.17": "Gyönyörű!",
+  "Emily.8hearts.18": "Nézzük mit gondol Demetrius...",
+  "Emily.8hearts.19": "Miért is ne...",
+  "Emily.8hearts.20": "Hehe... nem is rossz!",
+  "Emily.8hearts.21": "Jól nézünk ki!",
+  "Emily.8hearts.22": "Na nézzük!",
+  "Emily.8hearts.23": "Hmm... érdekes.",
+  "Emily.8hearts.24": "Jól áll rajtad!",
+  "Emily.8hearts.25": "Én jövök!",
+  "Emily.8hearts.26": "Nagyon jó!",
+  "Emily.8hearts.27": "Meleg van idebent...",
+  "Emily.8hearts.28": "Clint? Te következel!",
+  "Emily.8hearts.29": "É... Én?",
+  "Emily.8hearts.30": "*nyel*... Oké, Emily. Megcsinálom.$4",
+  "Emily.8hearts.31": "Ajjj, cuki!",
+  "Emily.8hearts.32": "Ajjj? Cuki? ...*sóhaj*...$7",
+  "Emily.8hearts.33": "Nos, ez egész jól ment!#$b#Remélem ez a tapasztalat segít egy kicsit mindenkinek előtörni a páncéljából.",
+  "Emily.8hearts.34": "@... izé...$4",
+  "Emily.8hearts.35": "Nem tudtam megtenni! Nem akarok kitörni a páncélomból!$6",
+  "Emily.8hearts.36": "...Óh. Én... Én azt hiszem, hogy most megzavartam valamit, ugye?$7",
+  "Emily.8hearts.37": "Értem most már. Most elmegyek... Gratulálok, @.$7",
 
   //Sam 8 Heart Event
   "Sam.8hearts.01": "Hi @. Thanks for coming.",
@@ -386,6 +439,9 @@
   "FoodItem.PizzaHun.Name":"Magyaros pizza",
   "FoodItem.PizzaHun.Desc":"Erős, füstös, és minden falatban ott a paprika.",
 
+  "FoodItem.TropicThunder.Name":"Trópusi vihar",
+  "FoodItem.TropicThunder.Desc":"...",
+
   //Items (Object)
   "Object.ChrisFishingrod.Name":"Elveszett horgászbot",
   "Object.ChrisFishingrod.Desc":"Kristóf elveszett horgászbotja.",
@@ -428,7 +484,10 @@
   "Shirt.BenceShirt.Desc": "Bence kardigánjának másolata.",
 
   "Shirt.MarkShirt.Name": "Kimonó",
-  "Shirt.MarkShirt.Desc": "Márk kimonójának másoloata.",
+  "Shirt.MarkShirt.Desc": "Márk kimonójának másolata.",
+
+  "Shirt.IstiShirt.Name": "Bőrkabát",
+  "Shirt.IstiShirt.Desc": "Isti bőrkabátjának másolata.",
 
   "Shirt.RedRocketsShirt.Name": "Red Rockets póló",
   "Shirt.RedRocketsShirt.Desc": "Red Rockets együttes hivatalos pólója.",
@@ -468,6 +527,7 @@
   "Furniture.ChristopherPortrait": "Kristóf portréja",
   "Furniture.BencePortrait": "Bence portréja",
   "Furniture.MarkPortrait": "Márk portréja",
+  "Furniture.IstiPortrait": "Isti portréja",
 
   //Hats
   "Hat.ChrisMask.Name":"Kristóf maszk",
@@ -478,6 +538,9 @@
 
   "Hat.MarkMask.Name":"Márk maszk",
   "Hat.MarkMask.Desc":"Kon'nichiwa. Watashinonamaeha Mākudesu.",
+
+  "Hat.IstiMask.Name":"Isti maszk",
+  "Hat.IstiMask.Desc":"...",
 
   //Weapons
   "Weapon.Rebellion.Name": "Rebellion",
@@ -550,6 +613,13 @@
   "AbandonedCabin.Box": "A dobozok tele vannak személyes tárgyakkal.",
   "AbandonedCabin.Fridge": "Egy lejárt sörösrekeszen kívül nincs benne semmi.",
   "AbandonedCabin.TV": "Nem tudom bekapcsolni. Valószínűleg elromlott.",
+
+  "AbandonedCabin2.WallPlanks": "Igénytelenül bedeszkázott fal. De legalább senki nem jöhet be hivatlanul.",
+  "AbandonedCabin2.PC": "Isti számítógépe.",
+  "AbandonedCabin2.Firewood": "Frissen vágott fahasábok.",
+  "AbandonedCabin2.Box": "A dobozok tele vannak Isti személyes tárgyaival.",
+
+  "IstiCabin.Mailbox": "-Isti rezidenciája-",
 
   //Island North-West
   "Island_NW.Fish": "Frissen fogott halak.",
@@ -631,8 +701,8 @@
 
   "Bence_SO.Name": "Beteg fák",
   "Bence_SO.Text": "Mostanában feltűnt, hogy néhány fa a völgyben nem tűnik túlzottan egészségesnek. Valaki tudna segíteni mintákat gyűjteni?",
-  "Bence_SO.Objective_0": "Szerezz 25db-ot a következőből: {BenceRequest:Text}.",
-  "Bence_SO.Objective_1": "Szállíts le Bencének a 25db {BenceRequest:Text}-t.",
+  "Bence_SO.Objective_0": "Szerezz 10db-ot a következőből: {BenceRequest:Text}.",
+  "Bence_SO.Objective_1": "Szállíts le Bencének a 10db {BenceRequest:Text}-t.",
 
   "Mail.BenceReward": "Helló @!^^Egy ideje dolgozok egy kisseb projekten. Mivel segítettél mintát gyűjteni volt időm befejezni a projektet és most szeretném ezt megosztani veled.^^ -Bence%item craftingRecipe DeluxBeeHive%%[#]Bence köszönete",
 
@@ -654,6 +724,13 @@
   "Mark2_SO.Objective_0": "Helyezd a keményfát Márk háza előtti fa ládába.",
 
   "Mail.MarkReward2": "Csá @!^^Köszönöm a keményfát. Robinnal már neki is láttunk a tábla építéséhez ha van időd gyere és nézd meg mit alkottunk.^^ -Márk ^^UI: A segítségért cserébe megosztok veled egy igazán hasznos receptet ;)%item craftingRecipe SakeBarrel%%[#]Márk táblája",
+
+  "Isti_SO.Name": "Trópusi vihar",
+  "Isti_SO.Text": "Újra el szeretném készíteni a régi italomat amit még a szigeten ittam. Valaki tudna nekem hozni hozzá alapanyagot?",
+  "Isti_SO.Objective_0": "Gyűjts be 25 '{Isti_Fruit:Text}'-t.",
+  "Isti_SO.Objective_1": "Szállíts le Istinek a 25db '{Isti_Fruit:Text}'-t.",
+
+  "Mail.IstiReward": "Csá @!^Köszönöm az alapanyagokat. ^^ -Isti%item cookingRecipe TropicThunder%%[#]Trópusi vihar",
 
   //Special Order Events
   "SO_Event.Mark.01": "Csá @.#$b#Most indulok a bányász kalandomra és gondoltam előtte beugrok, hogy személyesen is köszönetet tudjak mondani.",
@@ -2054,6 +2131,39 @@
   "Isti.CharacterDialogue.026": "",
   "Isti.CharacterDialogue.027": "",
   "Isti.CharacterDialogue.028": "",
+
+  //SPRING AND GENERAL DIALOGUE (REGULAR)
+  "Isti.CharacterDialogue_regular.001": "",
+  "Isti.CharacterDialogue_regular.002": "",
+  "Isti.CharacterDialogue_regular.003": "",
+  "Isti.CharacterDialogue_regular.004": "",
+  "Isti.CharacterDialogue_regular.005": "",
+  "Isti.CharacterDialogue_regular.006": "",
+  "Isti.CharacterDialogue_regular.007": "",
+  //SUMMER DIALOGUE (REGULAR)
+  "Isti.CharacterDialogue_regular.008": "",
+  "Isti.CharacterDialogue_regular.009": "",
+  "Isti.CharacterDialogue_regular.010": "",
+  "Isti.CharacterDialogue_regular.011": "",
+  "Isti.CharacterDialogue_regular.012": "",
+  "Isti.CharacterDialogue_regular.013": "",
+  "Isti.CharacterDialogue_regular.014": "",
+  //FALL DIALOGUE (REGULAR)
+  "Isti.CharacterDialogue_regular.015": "",
+  "Isti.CharacterDialogue_regular.016": "",
+  "Isti.CharacterDialogue_regular.017": "",
+  "Isti.CharacterDialogue_regular.018": "",
+  "Isti.CharacterDialogue_regular.019": "",
+  "Isti.CharacterDialogue_regular.020": "",
+  "Isti.CharacterDialogue_regular.021": "",
+  //WINTER DIALOGUE (REGULAR)
+  "Isti.CharacterDialogue_regular.022": "",
+  "Isti.CharacterDialogue_regular.023": "",
+  "Isti.CharacterDialogue_regular.024": "",
+  "Isti.CharacterDialogue_regular.025": "",
+  "Isti.CharacterDialogue_regular.026": "",
+  "Isti.CharacterDialogue_regular.027": "",
+  "Isti.CharacterDialogue_regular.028": "",
 
   //Isti Gift Tastes
   "Isti.Gifts.Loved": "",

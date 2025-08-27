@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="11" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="9">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="11" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="10">
  <tileset firstgid="1" name="untitled tile sheet2" tilewidth="16" tileheight="16" tilecount="1120" columns="16">
   <image source="spring_outdoorsTileSheet2.png" width="256" height="1120"/>
   <tile id="728">
@@ -2057,9 +2057,9 @@
 1631,1552,1578,1677,1577,1603,1530,1702,1530,1530,1702,
 1677,1577,1603,1702,1602,1628,1727,1728,1555,1727,1728,
 1702,1602,1628,1728,1627,0,0,0,0,0,0,
-1727,1627,0,0,0,3200,3201,3202,3203,3204,0,
-0,0,0,0,3241,3210,3211,3212,3213,3214,0,
-0,0,0,0,0,3220,3221,3222,3223,3224,0,
+1727,1627,0,0,0,3237,3238,3239,3203,3204,0,
+0,0,0,0,3241,3247,3248,3249,3213,3214,0,
+0,0,0,0,0,3257,3258,3259,3223,3224,0,
 0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,3240,0,0,0,
@@ -2067,16 +2067,6 @@
 </data>
  </layer>
  <objectgroup id="8" name="Buildings">
-  <object id="3" name="TileData" x="96" y="112" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;AbandonedCabin.Door&quot;"/>
-   </properties>
-  </object>
-  <object id="6" name="TileData" x="128" y="112" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;AbandonedCabin.Window&quot;"/>
-   </properties>
-  </object>
   <object id="7" name="TileData" x="112" y="160" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;AbandonedCabin.Mailbox&quot;"/>
@@ -2084,7 +2074,12 @@
   </object>
   <object id="8" name="TileData" x="64" y="96" width="16" height="16">
    <properties>
-    <property name="Action" value="Garbage Abandoned_Cabin"/>
+    <property name="Action" value="Garbage Isti"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="96" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="LockedDoorWarp 3 9 Custom_IstiCabinInterior 800 2400 Isti 500"/>
    </properties>
   </object>
  </objectgroup>
@@ -2115,10 +2110,10 @@
 0,0,1132,1146,0,0,0,0,0,0,0,
 1155,0,1143,0,0,0,0,0,0,0,1146,
 0,1146,0,1143,0,0,0,0,0,0,0,
-0,0,1143,0,1147,0,1143,1143,0,1143,1143,
-0,1143,0,1143,0,1143,0,0,1143,0,1143,
-0,0,0,0,1132,0,1143,0,0,0,0,
-0,0,0,0,0,1143,0,0,1143,1155,0
+0,0,1143,0,1147,0,0,0,0,1143,1143,
+0,1143,0,1143,0,0,0,0,1143,0,1143,
+0,0,0,0,1132,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,1143,1155,0
 </data>
  </layer>
  <objectgroup id="10" name="Paths">

@@ -422,6 +422,56 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                 },
+                "Bencedemon.HG_TropicThunder": {
+                    "Name": "TropicThunder",
+                    "DisplayName": "{{i18n:FoodItem.TropicThunder.Name}}",
+                    "Description": "{{i18n:FoodItem.TropicThunder.Desc}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 200,
+                    "Texture": "Mods\\Bencedemon.HG\\FoodSpritesheet",
+                    "SpriteIndex": 14,
+                    "Edibility": 15,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id": "Drink",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 120,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "CombatLevel": 0.0,
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 0.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 0.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 50.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 1.0,
+                                "Defense": 0.0,
+                                "Attack": 1.0,
+                                "AttackMultiplier": 0.0,
+                                "Immunity": 0.0,
+                                "KnockbackMultiplier": 0.0,
+                                "WeaponSpeedMultiplier": 0.0,
+                                "CriticalChanceMultiplier": 0.0,
+                                "CriticalPowerMultiplier": 0.0,
+                                "WeaponPrecisionMultiplier": 0.0
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "drink_item"
+                    ]
+                },
             }
         }
     ]

@@ -1,38 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="6" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="1">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="6" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="1">
  <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior.png" width="512" height="1088"/>
  </tileset>
  <tileset firstgid="2177" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
   <image source="paths.png" width="64" height="256"/>
  </tileset>
- <tileset firstgid="2241" name="ChristopherHouseInteriorTilesheet" tilewidth="16" tileheight="16" tilecount="84" columns="6">
-  <image source="ChristopherHouseInteriorTilesheet.png" width="96" height="224"/>
+ <tileset firstgid="2241" name="AbandonedCabinInteriorTilesheet" tilewidth="16" tileheight="16" tilecount="100" columns="10">
+  <image source="AbandonedCabinInteriorTilesheet.png" width="160" height="160"/>
  </tileset>
  <layer id="2" name="Back" width="6" height="9">
   <data encoding="csv">
-2244,2244,2244,2244,2244,2250,
-2250,2244,2244,2244,2244,2244,
-2244,2244,2244,2244,2250,2244,
-2319,2319,2292,2319,2319,2319,
-2298,2248,2248,2298,2248,2248,
-2248,2248,2248,2248,2298,2248,
-2248,2298,2248,2248,2248,2248,
-2298,2248,2248,2248,2248,2248,
-2248,2248,2248,2248,2298,2248
+302,302,302,302,302,302,
+302,302,302,302,302,302,
+302,302,302,302,302,302,
+200,201,200,201,200,201,
+232,233,249,250,251,233,
+264,265,281,282,283,265,
+232,233,232,233,232,233,
+264,265,264,265,264,265,
+232,233,232,233,232,233
 </data>
  </layer>
  <layer id="4" name="Buildings" width="6" height="9">
   <data encoding="csv">
+155,0,0,0,0,156,
+187,81,81,81,81,188,
+219,113,113,113,113,220,
+402,0,2148,2258,2259,0,
+0,0,0,2290,0,0,
+0,0,0,0,0,0,
+0,2278,2279,2280,2318,0,
+0,0,0,0,0,0,
+0,2298,2299,2300,0,364
+</data>
+ </layer>
+ <layer id="12" name="Buildings2" width="6" height="9">
+  <properties>
+   <property name="Draw" value="Buildings"/>
+  </properties>
+  <data encoding="csv">
 0,0,0,0,0,0,
 0,0,0,0,0,0,
-2289,2289,2289,2289,2289,2289,
-535,2169,0,2170,2251,2252,
+0,0,0,2248,2249,0,
 0,0,0,0,0,0,
 0,0,0,0,0,0,
-0,0,0,0,2263,2264,
-0,0,0,0,2269,2270,
-0,0,2275,0,0,2279
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,2170,2319,708,0,0
 </data>
  </layer>
  <layer id="6" name="Paths" width="6" height="9">
@@ -41,28 +57,29 @@
 0,0,0,0,0,0,
 0,0,0,0,0,0,
 0,0,0,0,0,0,
-0,2184,0,0,0,0,
 0,0,0,0,0,0,
 0,0,0,0,0,0,
 0,0,0,0,0,0,
+0,0,0,0,2184,0,
 0,0,0,0,0,0
 </data>
  </layer>
  <layer id="8" name="Front" width="6" height="9">
   <data encoding="csv">
-2302,0,2285,2301,2261,2262,
-0,0,2291,0,2267,2268,
-503,2137,0,0,2245,2246,
+0,257,0,2328,2329,0,
+0,289,0,2338,2339,0,
+370,0,2116,2288,2289,0,
 0,0,0,0,0,0,
 0,0,0,0,0,0,
-0,0,0,0,0,2258,
+0,2268,2269,2270,2308,0,
 0,0,0,0,0,0,
-0,0,0,0,0,2273,
-2307,2308,0,0,0,0
+0,0,2309,0,0,332,
+0,0,0,0,0,0
 </data>
  </layer>
  <objectgroup id="3" name="Back"/>
  <objectgroup id="5" name="Buildings"/>
+ <objectgroup id="13" name="Buildings2"/>
  <objectgroup id="7" name="Paths"/>
  <objectgroup id="9" name="Front"/>
 </map>

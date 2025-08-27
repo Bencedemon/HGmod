@@ -324,7 +324,7 @@
 				"FlashShifter.StardewValleyExpandedCP_CommunityDay": "800 Custom_IstiHouseInterior 14 5 0/1030 CommunityCenter 9 6 3 Isti_drink \"Strings\\schedules\\Isti:CommunityDay_Isti\"/1600 CommunityCenter 13 27 3 \"Strings\\schedules\\Isti:CommunityDay_Isti\"/1800 Custom_IstiHouseInterior 15 13 3 Isti_sleep",
 			},
 			"When": {
-				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+				"HasSeenEvent: anyPlayer|contains=IstiReturn": true
 			}
 		},
 		{ //Spring Dialogue
@@ -333,7 +333,7 @@
 			"When": {
 				"Season": "Spring",
 				"Season |contains=Summer, Fall, Winter": false,
-				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+				"HasSeenEvent: anyPlayer|contains=IstiReturn": true
 			},
 			"Entries": {
 				"CommunityDay_Isti": "{{i18n:Isti.CommunityDay.01}}"
@@ -345,7 +345,7 @@
 			"When": {
 				"Season": "Summer",
 				"Season |contains=Spring, Fall, Winter": false,
-				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+				"HasSeenEvent: anyPlayer|contains=IstiReturn": true
 			},
 			"Entries": {
 				"CommunityDay_Isti": "{{i18n:Isti.CommunityDay.02}}"
@@ -357,7 +357,7 @@
 			"When": {
 				"Season": "Fall",
 				"Season |contains=Spring, Summer, Winter": false,
-				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+				"HasSeenEvent: anyPlayer|contains=IstiReturn": true
 			},
 			"Entries": {
 				"CommunityDay_Isti": "{{i18n:Isti.CommunityDay.03}}"
@@ -369,7 +369,7 @@
 			"When": {
 				"Season": "Winter",
 				"Season |contains=Spring, Summer, Fall": false,
-				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+				"HasSeenEvent: anyPlayer|contains=IstiReturn": true
 			},
 			"Entries": {
 				"CommunityDay_Isti": "{{i18n:Isti.CommunityDay.04}}"
@@ -382,7 +382,7 @@
 				"marriage_FlashShifter.StardewValleyExpandedCP_CommunityDay": "1030 CommunityCenter 9 6 3 Isti_drink \"Strings\\schedules\\Isti:CommunityDay_Isti_Married\"/1300 CommunityCenter 44 14 3 Isti_music_L \"Strings\\schedules\\Isti:CommunityDay_Isti_Married\"/1610 CommunityCenter 37 11 0/1800 bed",
 			},
 			"When": {
-				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+				"HasSeenEvent: anyPlayer|contains=IstiReturn": true
 			}
 		},
 		{ //Spring Dialogue - MARRIED
@@ -391,7 +391,7 @@
 			"When": {
 				"Season": "Spring",
 				"Season |contains=Summer, Fall, Winter": false,
-				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+				"HasSeenEvent: anyPlayer|contains=IstiReturn": true
 			},
 			"Entries": {
 				"CommunityDay_Isti_Married": "{{i18n:Isti.CommunityDay.05}}"
@@ -403,7 +403,7 @@
 			"When": {
 				"Season": "Summer",
 				"Season |contains=Spring, Fall, Winter": false,
-				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+				"HasSeenEvent: anyPlayer|contains=IstiReturn": true
 			},
 			"Entries": {
 				"CommunityDay_Isti_Married": "{{i18n:Isti.CommunityDay.06}}"
@@ -415,7 +415,7 @@
 			"When": {
 				"Season": "Fall",
 				"Season |contains=Spring, Summer, Winter": false,
-				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+				"HasSeenEvent: anyPlayer|contains=IstiReturn": true
 			},
 			"Entries": {
 				"CommunityDay_Isti_Married": "{{i18n:Isti.CommunityDay.07}}"
@@ -427,7 +427,7 @@
 			"When": {
 				"Season": "Winter",
 				"Season |contains=Spring, Summer, Fall": false,
-				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+				"HasSeenEvent: anyPlayer|contains=IstiReturn": true
 			},
 			"Entries": {
 				"CommunityDay_Isti_Married": "{{i18n:Isti.CommunityDay.08}}"

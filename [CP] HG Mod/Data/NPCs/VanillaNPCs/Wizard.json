@@ -14,7 +14,17 @@
                     ],
                     "Value": "Bencedemon.HG_Fries Bencedemon.HG_Popcorn",
                     "Delimiter": " "
-                }
+                },
+				{/*Neutral*/
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Wizard",
+						9
+					],
+					"Value": "Bencedemon.HG_TropicThunder",
+					"Delimiter": " "
+				}
 			]
 		},
 	]

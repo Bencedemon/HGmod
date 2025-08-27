@@ -14,7 +14,17 @@
                     ],
                     "Value": "Bencedemon.HG_PizzaHun",
                     "Delimiter": " "
-                }
+                },
+				{/*Neutral*/
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Sam",
+						9
+					],
+					"Value": "Bencedemon.HG_TropicThunder",
+					"Delimiter": " "
+				}
             ]
         },
 		{ //Add Victor to Sam 8 heart (+HG)

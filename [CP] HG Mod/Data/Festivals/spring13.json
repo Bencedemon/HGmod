@@ -144,7 +144,7 @@
       "Action": "EditData",
       "Target": "Data/Festivals/spring13",
       "When": {
-        "HasSeenEvent: currentPlayer|contains=IstiReturn": true
+        "HasSeenEvent: anyPlayer|contains=IstiReturn": true
       },
       "TextOperations": [
         { //Isti
@@ -172,7 +172,7 @@
       "Action": "EditData",
       "Target": "Data/Festivals/spring13",
       "When": {
-        "HasSeenEvent: currentPlayer|contains=IstiReturn": true
+        "HasSeenEvent: anyPlayer|contains=IstiReturn": true
       },
       "TextOperations": [
         { //Isti

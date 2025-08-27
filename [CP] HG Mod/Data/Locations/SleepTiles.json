@@ -31,5 +31,50 @@
                 "Height": 1
             }
         },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_AbandonedCabinInterior",
+			"Priority": "Late",
+            "FromFile": "Assets/Maps/MapPatches/Shelter_SleepTile.tbin",
+            "When": {
+                "Relationship:Mark": "Married, Engaged, Dating"
+            },
+            "ToArea": {
+                "X": 1,
+                "Y": 4,
+                "Width": 2,
+                "Height": 1
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Island_Shelter",
+			"Priority": "Late",
+            "FromFile": "Assets/Maps/MapPatches/Shelter_SleepTile.tbin",
+            "When": {
+                "Relationship:Isti": "Married, Engaged, Dating"
+            },
+            "ToArea": {
+                "X": 1,
+                "Y": 4,
+                "Width": 2,
+                "Height": 1
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_IstiCabinInterior",
+			"Priority": "Late",
+            "FromFile": "Assets/Maps/MapPatches/Isti_SleepTile.tbin",
+            "When": {
+                "Relationship:Isti": "Married, Engaged, Dating"
+            },
+            "ToArea": {
+                "X": 1,
+                "Y": 4,
+                "Width": 2,
+                "Height": 1
+            }
+        },
     ]
 }

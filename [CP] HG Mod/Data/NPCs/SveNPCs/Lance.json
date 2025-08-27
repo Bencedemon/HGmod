@@ -37,6 +37,16 @@
 					],
 					"Value": "Bencedemon.HG_ChimneyCake Bencedemon.HG_PizzaHun Bencedemon.HG_StrawberrySundae Bencedemon.HG_Langos",
 					"Delimiter": " "
+				},
+				{/*Neutral*/
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Lance",
+						9
+					],
+					"Value": "Bencedemon.HG_TropicThunder",
+					"Delimiter": " "
 				}
 			]
 		},

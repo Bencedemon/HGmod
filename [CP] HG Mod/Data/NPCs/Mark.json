@@ -94,6 +94,11 @@
               "X": 16,
               "Y": 32
             },
+            "HiddenProfileEmoteSound": null,
+            "HiddenProfileEmoteDuration": 1000,
+            "HiddenProfileEmoteStartFrame": 40,
+            "HiddenProfileEmoteFrameCount": 1,
+            "HiddenProfileEmoteFrameDuration": 200.0,
             "CustomFields": {}
           },
         },

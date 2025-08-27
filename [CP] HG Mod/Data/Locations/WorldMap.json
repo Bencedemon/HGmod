@@ -89,6 +89,26 @@
         },
         {
             "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/spring_IstiCabinMap",
+            "FromFile": "assets/Maps/WorldMaps/Patches/spring_IstiCabinMap.png"
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/summer_IstiCabinMap",
+            "FromFile": "assets/Maps/WorldMaps/Patches/summer_IstiCabinMap.png"
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/fall_IstiCabinMap",
+            "FromFile": "assets/Maps/WorldMaps/Patches/fall_IstiCabinMap.png"
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/winter_IstiCabinMap",
+            "FromFile": "assets/Maps/WorldMaps/Patches/winter_IstiCabinMap.png"
+        },
+        {
+            "Action": "Load", "Priority": "Low",
             "Target": "Mods/Bencedemon.HG/Island_NW",
             "FromFile": "assets/Maps/WorldMaps/Patches/Island_NW.png"
         },
@@ -458,6 +478,17 @@
                             },
                             "Condition": "PLAYER_HAS_SEEN_EVENT Current 2001303"  
                         },
+                        {
+                            "Id": "Custom_AbandonedCabinTooltip",
+                            "Text": "{{i18n:IstiCabin.Name}}",
+                            "PixelArea": {
+                                "X": 211,
+                                "Y": 23,
+                                "Width": 6,
+                                "Height": 8
+                            },
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Any IstiReturn"  
+                        },
                     ],
                     "Textures": [
                         {
@@ -503,6 +534,50 @@
                                 "Height": 6
                             },
                             "Condition": "SEASON Winter"  
+                        },
+                        {
+                            "Id": "Custom_IstiCabinTexture",
+                            "Texture": "Mods/Bencedemon.HG/spring_IstiCabinMap",
+                            "MapPixelArea": {
+                                "X": 212,
+                                "Y": 24,
+                                "Width": 6,
+                                "Height": 6
+                            },
+                            "Condition": "SEASON Spring, PLAYER_HAS_SEEN_EVENT Any IstiReturn"  
+                        },
+                        {
+                            "Id": "Custom_IstiCabinTexture",
+                            "Texture": "Mods/Bencedemon.HG/summer_IstiCabinMap",
+                            "MapPixelArea": {
+                                "X": 212,
+                                "Y": 24,
+                                "Width": 6,
+                                "Height": 6
+                            },
+                            "Condition": "SEASON Summer, PLAYER_HAS_SEEN_EVENT Any IstiReturn"  
+                        },
+                        {
+                            "Id": "Custom_IstiCabinTexture",
+                            "Texture": "Mods/Bencedemon.HG/fall_IstiCabinMap",
+                            "MapPixelArea": {
+                                "X": 212,
+                                "Y": 24,
+                                "Width": 6,
+                                "Height": 6
+                            },
+                            "Condition": "SEASON Fall, PLAYER_HAS_SEEN_EVENT Any IstiReturn"  
+                        },
+                        {
+                            "Id": "Custom_IstiCabinTexture",
+                            "Texture": "Mods/Bencedemon.HG/winter_IstiCabinMap",
+                            "MapPixelArea": {
+                                "X": 212,
+                                "Y": 24,
+                                "Width": 6,
+                                "Height": 6
+                            },
+                            "Condition": "SEASON Winter, PLAYER_HAS_SEEN_EVENT Any IstiReturn"  
                         }
                     ]
                 }

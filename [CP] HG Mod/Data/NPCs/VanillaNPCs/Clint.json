@@ -14,7 +14,17 @@
                     ],
                     "Value": "Bencedemon.HG_Fries",
                     "Delimiter": " "
-                }
+                },
+				{/*Neutral*/
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Clint",
+						9
+					],
+					"Value": "Bencedemon.HG_TropicThunder",
+					"Delimiter": " "
+				}
 			]
 		},
 		{ //CLINT EVENT

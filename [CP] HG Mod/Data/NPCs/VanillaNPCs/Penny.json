@@ -24,7 +24,17 @@
                     ],
                     "Value": "Bencedemon.HG_Palinka Bencedemon.HG_Sake",
                     "Delimiter": " "
-                }
+                },
+				{/*Neutral*/
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Penny",
+						9
+					],
+					"Value": "Bencedemon.HG_TropicThunder",
+					"Delimiter": " "
+				}
 			]
 		},
 	]

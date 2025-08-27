@@ -24,6 +24,16 @@
 					],
 					"Value": "Bencedemon.HG_Hotdog",
 					"Delimiter": " "
+				},
+				{/*Neutral*/
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Krobus",
+						9
+					],
+					"Value": "Bencedemon.HG_TropicThunder",
+					"Delimiter": " "
 				}
 			]
 		},

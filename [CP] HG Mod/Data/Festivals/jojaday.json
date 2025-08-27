@@ -131,7 +131,7 @@
 			"Target": "characters/schedules/Isti",
 			"When": {
 				"HasSeenEvent": "502261",
-				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+				"HasSeenEvent: anyPlayer|contains=IstiReturn": true
 			},
 			"Entries": {
 				"22": "800 Custom_IstiHouseInterior 12 5 0/1040 JojaMart 22 18 1 \"Strings\\schedules\\Isti:JojaDay_Isti\"/1340 JojaMart 8 8 0 \"Strings\\schedules\\Isti:JojaDay_Isti\"/1440 JojaMart 17 6 3 \"Strings\\schedules\\Isti:JojaDay_Isti\"/1600 JojaMart 11 24 3 \"Strings\\schedules\\Isti:JojaDay1_Isti\"/1630 Custom_IstiHouseInterior 14 5 0 square_5_1_0/2200 Custom_IstiHouseInterior 15 13 3 Isti_sleep",
@@ -144,7 +144,7 @@
 				"HasSeenEvent": "502261",
 				"Spouse": "Isti",
 				"Day": "22",
-				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+				"HasSeenEvent: anyPlayer|contains=IstiReturn": true
 			},
 			"Entries": {
 				"marriage_Mon": "1000 JojaMart 22 18 1 \"Strings\\schedules\\Isti:JojaDay_Isti\"/1340 JojaMart 8 8 0 \"Strings\\schedules\\Isti:JojaDay_Isti\"/1440 JojaMart 17 6 3 \"Strings\\schedules\\Isti:JojaDay_Isti\"/1600 JojaMart 11 24 3 \"Strings\\schedules\\Isti:JojaDay1_Isti\"/1630 bed",
@@ -158,7 +158,7 @@
 				"JojaDay1_Isti": "{{i18n:Isti.JojaDay.02}}",
 			},
 			"When": {
-				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+				"HasSeenEvent: anyPlayer|contains=IstiReturn": true
 			},
 		},
 		{ //Isti Joja Day Marriage Dialogue
@@ -168,7 +168,7 @@
 				"HasSeenEvent": "502261",
 				"Spouse": "Isti",
 				"Day": "22",
-				"HasSeenEvent: currentPlayer|contains=IstiReturn": true
+				"HasSeenEvent: anyPlayer|contains=IstiReturn": true
 			},
 			"Entries": {
 				"funLeave_Isti": "{{i18n:Isti.JojaDay.03}}",

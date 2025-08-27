@@ -24,7 +24,17 @@
                     ],
                     "Value": "Bencedemon.HG_CottonCandy",
                     "Delimiter": " "
-                }
+                },
+				{/*Neutral*/
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Gus",
+						9
+					],
+					"Value": "Bencedemon.HG_TropicThunder",
+					"Delimiter": " "
+				}
 			]
 		},
 	]

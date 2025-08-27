@@ -46,6 +46,20 @@
                     "CanChooseDuringCharacterCustomization": false,
                     "CustomFields": null
                 },
+                "Bencedemon.HG_IstiShirt": {
+                    "Name": "Isti's jacket",
+                    "DisplayName": "{{i18n:Shirt.IstiShirt.Name}}",
+                    "Description": "{{i18n:Shirt.IstiShirt.Desc}}",
+                    "Price": 50,
+                    "Texture": "Mods\\Bencedemon.HG\\Shirts",
+                    "SpriteIndex": 0,
+                    "DefaultColor": null,
+                    "CanBeDyed": false,
+                    "IsPrismatic": false,
+                    "HasSleeves": true,
+                    "CanChooseDuringCharacterCustomization": false,
+                    "CustomFields": null
+                },
                 "Bencedemon.HG_RedRocketsShirt": {
                     "Name": "Red Rockets Shirt",
                     "DisplayName": "{{i18n:Shirt.RedRocketsShirt.Name}}",

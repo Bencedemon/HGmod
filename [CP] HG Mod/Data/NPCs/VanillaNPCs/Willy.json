@@ -34,7 +34,17 @@
                     ],
                     "Value": "Bencedemon.HG_ChimneyCake Bencedemon.HG_PizzaHun Bencedemon.HG_CottonCandy Bencedemon.HG_Hotdog",
                     "Delimiter": " "
-                }
+                },
+				{/*Neutral*/
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Willy",
+						9
+					],
+					"Value": "Bencedemon.HG_TropicThunder",
+					"Delimiter": " "
+				}
 			]
 		},
         {//WILLY SCHEDULE EDIT

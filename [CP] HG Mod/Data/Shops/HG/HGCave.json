@@ -46,6 +46,12 @@
                             "Price": 500
                         },
                         {
+                            "Id": "Bencedemon.HG_IstiShirt",
+                            "ItemId": "Bencedemon.HG_IstiShirt",
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Any IstiReturn",
+                            "Price": 500
+                        },
+                        {
                             "Id": "Bencedemon.HG_ChrisMask",
                             "ItemId": "Bencedemon.HG_ChrisMask",
                             "Condition": null,
@@ -61,6 +67,12 @@
                             "Id": "Bencedemon.HG_MarkMask",
                             "ItemId": "Bencedemon.HG_MarkMask",
                             "Condition": null,
+                            "Price": 500
+                        },
+                        {
+                            "Id": "Bencedemon.HG_IstiMask",
+                            "ItemId": "Bencedemon.HG_IstiMask",
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Any IstiReturn",
                             "Price": 500
                         },
                         {

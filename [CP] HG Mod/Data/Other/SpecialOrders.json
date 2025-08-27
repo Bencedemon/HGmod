@@ -25,7 +25,8 @@
             "Entries": {
                 "Christopher": 0,
                 "Bence": 1,
-                "Mark": 2
+                "Mark": 2,
+                "Isti": 3
             }
         },
         {
@@ -110,7 +111,7 @@
                       "Values":[
                         {
                           "RequiredTags": "",
-                          "Value": "PICK_ITEM Maple Syrup, Oak Resin, Pine Tar",
+                          "Value": "PICK_ITEM Maple Syrup, Oak Resin, Pine Tar, Birch Water",
                         }
                       ],
                     }
@@ -119,7 +120,7 @@
                     {
                       "Type": "Collect",
                       "Text": "[Bence_Objective_0_Text]",
-                      "RequiredCount": "25",
+                      "RequiredCount": "10",
                       "Data": {
                         "AcceptedContextTags": "{BenceRequest:Tags}"
                       }
@@ -127,7 +128,7 @@
                     {
                       "Type": "Deliver",
                       "Text": "[Bence_Objective_1_Text]",
-                      "RequiredCount": "25",
+                      "RequiredCount": "10",
                       "Data": {
                         "AcceptedContextTags": "{BenceRequest:Tags}",
                         "TargetName": "Bence"
@@ -139,7 +140,7 @@
                       "Type": "Money",
                       "Data": {
                         "Amount": "{BenceRequest:Price}",
-                        "Multiplier": "25"
+                        "Multiplier": "15"
                       }
                     },
                     {
@@ -271,6 +272,71 @@
                       "Type": "Mail",
                       "Data": {
                         "MailReceived": "MarkReward2",
+                        "NoLetter": "false"
+                      }
+                    }
+                  ]
+                },
+                "Isti": {
+                  "Name": "[Isti_Name]",
+                  "Requester": "Isti",
+                  "Duration": "TwoWeeks",
+                  "Repeatable": "False",
+                  "RequiredTags": "island, event_IstiReturn",
+                  "OrderType": "",
+                  "SpecialRule": "",
+                  "Text": "[Isti_Text]",
+                  "ItemToRemoveOnEnd": null,
+                  "MailToRemoveOnEnd": null,
+                  "RandomizedElements": [
+                    {
+                      "Name": "Isti_Fruit",
+                      "Values": [
+                        {
+                          "RequiredTags": "",
+                          "Value": "PICK_ITEM Banana, Mango, Coconut"
+                        }
+                      ]
+                    }
+                  ],
+                  "Objectives": [
+                    {
+                      "Type": "Collect",
+                      "Text": "[Isti_Objective_0_Text]",
+                      "RequiredCount": "25",
+                      "Data": {
+                        "AcceptedContextTags": "{Isti_Fruit:Tags}"
+                      }
+                    },
+                    {
+                      "Type": "Deliver",
+                      "Text": "[Isti_Objective_1_Text]",
+                      "RequiredCount": "25",
+                      "Data": {
+                        "AcceptedContextTags": "{Isti_Fruit:Tags}",
+                        "TargetName": "Isti"
+                      }
+                    }
+                  ],
+                  "Rewards": [
+                    {
+                      "Type": "Money",
+                      "Data": {
+                        "Amount": "{Isti_Fruit:Price}",
+                        "Multiplier": "50"
+                      }
+                    },
+                    {
+                      "Type": "Friendship",
+                      "Data": {
+                          "Amount": "250", // integer
+                          "TargetName": "Isti" // string
+                      }
+                    },
+                    {
+                      "Type": "Mail",
+                      "Data": {
+                        "MailReceived": "IstiReward",
                         "NoLetter": "false"
                       }
                     }

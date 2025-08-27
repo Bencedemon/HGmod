@@ -118,7 +118,7 @@
                             "AvailableStockLimit": "Player",
                             "Id": "(W)Bencedemon.HG_IstisGuitar",
                             "ItemId": "(W)Bencedemon.HG_IstisGuitar",
-                            "Condition": "PLAYER_HAS_SEEN_EVENT Any 2001500"
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Any IstiReturn"
                         },
                     ],
                     "CustomFields": null

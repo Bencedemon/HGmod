@@ -88,7 +88,7 @@
         "Action": "EditData",
         "Target": "Data/Festivals/fall16",
         "When": {
-          "HasSeenEvent: currentPlayer|contains=IstiReturn": true
+          "HasSeenEvent: anyPlayer|contains=IstiReturn": true
         },
         "TextOperations": [
           { //Isti
@@ -107,7 +107,7 @@
         "Action": "EditData",
         "Target": "Data/Festivals/fall16",
         "When": {
-          "HasSeenEvent: currentPlayer|contains=IstiReturn": true
+          "HasSeenEvent: anyPlayer|contains=IstiReturn": true
         },
         "TextOperations": [
           { //Isti

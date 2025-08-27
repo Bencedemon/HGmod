@@ -24,6 +24,22 @@
         },
         {
             "Action": "EditData",
+            "Target": "Data/Weddings",
+			"When": { 
+                "HasSeenEvent: anyPlayer|contains=IstiReturn": true
+            },
+            "TargetField": [
+                "Attendees"
+            ],
+            "Entries": {
+                "Isti": {
+                    "ID": "Isti",
+                    "Setup": "Isti 23 72 0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
             "Target": "Data/Locations",
             "Entries": {
                 "Custom_ChristopherHouseInterior": {
@@ -64,8 +80,18 @@
                 },
                 "Custom_AbandonedCabinInterior": {
                     "DisplayName": "{{i18n:AbandonedCabin.Name}}",
+                    "DefaultArrivalTile": {
+                        "X": 3,
+                        "Y": 4
+                    },
                     "CreateOnLoad": {
                         "MapPath": "Maps/Custom_AbandonedCabinInterior"
+                    }
+                },
+                "Custom_IstiCabinInterior": {
+                    "DisplayName": "{{i18n:IstiCabin.Name}}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_IstiCabinInterior"
                     }
                 },
                 "Custom_IslandNorthWest": {

@@ -17,6 +17,7 @@
                 
                 "ChimneyCake": "246 1 -6 1 245 1 -5 2 FlashShifter.StardewValleyExpandedCP_Butter 1/9999 9999/Bencedemon.HG_ChimneyCake/f Christopher 3/{{i18n:FoodItem.ChimneyCake.Name}}",
                 "PizzaHun": "246 1 256 1 424 1 248 1 260 1/9999 9999/Bencedemon.HG_PizzaHun/f Bence 3/{{i18n:FoodItem.PizzaHun.Name}}",
+                "TropicThunder": "88 1 91 1 834 1/9999 9999/Bencedemon.HG_TropicThunder/null/{{i18n:FoodItem.TropicThunder.Name}}"
             }
         }
     ]

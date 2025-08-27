@@ -14,7 +14,17 @@
                     ],
                     "Value": "Bencedemon.HG_Lemonade Bencedemon.HG_IceTea",
                     "Delimiter": " "
-                }
+                },
+				{/*Neutral*/
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Vincent",
+						9
+					],
+					"Value": "Bencedemon.HG_TropicThunder",
+					"Delimiter": " "
+				}
 			]
 		},
 	]

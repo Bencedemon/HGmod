@@ -66,6 +66,13 @@
 				"AbandonedCabin.Fridge": "{{i18n:AbandonedCabin.Fridge}}",
 				"AbandonedCabin.TV": "{{i18n:AbandonedCabin.TV}}",
 
+				"AbandonedCabin2.WallPlanks": "{{i18n:AbandonedCabin2.WallPlanks}}",
+				"AbandonedCabin2.PC": "{{i18n:AbandonedCabin2.PC}}",
+				"AbandonedCabin2.Firewood": "{{i18n:AbandonedCabin2.Firewood}}",
+				"AbandonedCabin2.Box": "{{i18n:AbandonedCabin2.Box}}",
+
+				"IstiCabin.Mailbox": "{{i18n:IstiCabin.Mailbox}}",
+
 				"Island_NW.Fish": "{{i18n:Island_NW.Fish}}",
 				"Island_NW.FishCrate": "{{i18n:Island_NW.FishCrate}}",
 
