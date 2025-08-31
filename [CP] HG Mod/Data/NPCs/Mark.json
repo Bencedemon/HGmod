@@ -108,11 +108,11 @@
         "Action": "EditData",
         "Target": "Data/NPCGiftTastes",
         "Entries": {
-          "Mark": "{{i18n:Mark.Gifts.Loved}}/Bencedemon.HG_Langos 206 241 224/
-          {{i18n:Mark.Gifts.Liked}}/223/
-          {{i18n:Mark.Gifts.Disliked}}/220 221/
-          {{i18n:Mark.Gifts.Hated}}/873/
-          {{i18n:Mark.Gifts.Neutral}}/235/"
+          "Mark": "{{i18n:Mark.Gifts.Loved}}/Bencedemon.HG_Sake 227 341 614/
+          {{i18n:Mark.Gifts.Liked}}/251/
+          {{i18n:Mark.Gifts.Disliked}}/16 220/
+          {{i18n:Mark.Gifts.Hated}}/456 457/
+          {{i18n:Mark.Gifts.Neutral}}/349 -4 -6/"
         }
       },
       {
@@ -274,7 +274,7 @@
         "Mark": {
           "Name": "Mark",
           "LovedTags": [
-            "Healthy"
+            "Hot"
           ],
           "LikedTags": [
             "Salty"
@@ -293,21 +293,21 @@
           "NPCName": "Mark",
           "Reactions": [
             {
-              "Tag": "comedy",
+              "Tag": "documentary",
               "Response": "love",
               "Whitelist": [],
               "SpecialResponses": null,
               "ID": "reaction_0"
             },
             {
-              "Tag": "action",
+              "Tag": "comedy",
               "Response": "like",
               "Whitelist": [],
               "SpecialResponses": null,
               "ID": "reaction_1"
             },
             {
-              "Tag": "sci-fi",
+              "Tag": "romance",
               "Response": "dislike",
               "Whitelist": [],
               "SpecialResponses": null,

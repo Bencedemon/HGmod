@@ -6,9 +6,9 @@
       "Entries": {
         //SPECIAL DIALOGUE
         "patio_Mark": "{{i18n:Mark.Patio}}",
-        "spouseRoom_Mark": "{{i18n:Mark.spouseRoom.{{Random:{{Range:1,16}}}}}}",
-        "funLeave_Mark": "{{i18n:Mark.funLeave.{{DayCheck}}|default={{i18n:Mark.funLeave.{{DayOfWeek}}.{{Random:{{Range:1,16}}}}|default={{i18n:Mark.funLeave.default}}}}}}",
-        "funReturn_Mark": "{{i18n:Mark.funReturn.{{DayCheck}}|default={{i18n:Mark.funReturn.{{DayOfWeek}}.{{Random:{{Range:1,10}}}}|default={{i18n:Mark.funReturn.default}}}}}}",
+        "spouseRoom_Mark": "{{i18n:Mark.spouseRoom.{{Random:{{Range:1,4}}}}}}",
+        "funLeave_Mark": "{{i18n:Mark.funLeave.{{Season}}}}",
+        "funReturn_Mark": "{{i18n:Mark.funReturn.{{Season}}}}",
         "OneKid_0": "{{i18n:Mark.OneKid.00}}",
         "OneKid_1": "{{i18n:Mark.OneKid.01}}",
         "OneKid_2": "{{i18n:Mark.OneKid.02}}",

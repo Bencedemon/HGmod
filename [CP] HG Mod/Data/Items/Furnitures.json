@@ -40,6 +40,16 @@
                 "Bencedemon.HG_Poster1": "Poster1/painting/1 2/1 2/1/999/-1/{{i18n:Furniture.Poster1}}/37/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
                 "Bencedemon.HG_Poster2": "Poster2/painting/1 2/1 2/1/999/-1/{{i18n:Furniture.Poster2}}/38/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
                 
+                "Bencedemon.HG_PosterNaruto": "Naruto/painting/1 2/1 2/1/999/-1/{{i18n:Furniture.PosterNaruto}}/83/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                "Bencedemon.HG_PosterChainsaw": "Chainsaw/painting/1 2/1 2/1/999/-1/{{i18n:Furniture.PosterChainsaw}}/84/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                "Bencedemon.HG_PosterUma": "Uma/painting/1 2/1 2/1/999/-1/{{i18n:Furniture.PosterUma}}/85/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                "Bencedemon.HG_PressBench": "PressBench/decor/2 3/2 1/1/999/-1/{{i18n:Furniture.PressBench}}/86/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+
+                "Bencedemon.HG_Bed": "ShelterBed/bed/2 4/2 3/1/999/-1/{{i18n:Furniture.Bed}}/117/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                "Bencedemon.HG_CraftingTable": "CraftingTable/decor/3 2/3 1/1/999/-1/{{i18n:Furniture.CraftingTable}}/121/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                "Bencedemon.HG_PosterNeuropsy": "Neuropsy/painting/1 2/1 2/1/999/-1/{{i18n:Furniture.PosterNeuropsy}}/124/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                "Bencedemon.HG_PosterDoom": "PosterDoom/painting/1 2/1 2/1/999/-1/{{i18n:Furniture.PosterDoom}}/125/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
+                
                 "Bencedemon.HG_BarrelChair1": "BarrelChair1/chair/1 1/1 1/1/999/-1/{{i18n:Furniture.BarrelChair1}}/60/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
                 "Bencedemon.HG_BarrelChair2": "BarrelChair2/chair/1 1/1 1/1/999/-1/{{i18n:Furniture.BarrelChair2}}/61/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",
                 "Bencedemon.HG_Table": "Table/table/2 2/2 1/1/999/-1/{{i18n:Furniture.Table}}/62/Mods\\Bencedemon.HG\\HG_Furniture_TileSheet/true",

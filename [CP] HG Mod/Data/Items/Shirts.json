@@ -52,7 +52,7 @@
                     "Description": "{{i18n:Shirt.IstiShirt.Desc}}",
                     "Price": 50,
                     "Texture": "Mods\\Bencedemon.HG\\Shirts",
-                    "SpriteIndex": 0,
+                    "SpriteIndex": 3,
                     "DefaultColor": null,
                     "CanBeDyed": false,
                     "IsPrismatic": false,

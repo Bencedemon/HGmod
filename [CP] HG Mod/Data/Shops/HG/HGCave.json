@@ -176,6 +176,54 @@
                             "ItemId": "Bencedemon.HG_Poster2",
                             "Condition": null,
                             "Price": 500
+                        },
+                        {
+                            "Id": "Bencedemon.HG_PosterNaruto",
+                            "ItemId": "Bencedemon.HG_PosterNaruto",
+                            "Condition": null,
+                            "Price": 500
+                        },
+                        {
+                            "Id": "Bencedemon.HG_PosterChainsaw",
+                            "ItemId": "Bencedemon.HG_PosterChainsaw",
+                            "Condition": null,
+                            "Price": 500
+                        },
+                        {
+                            "Id": "Bencedemon.HG_PosterUma",
+                            "ItemId": "Bencedemon.HG_PosterUma",
+                            "Condition": null,
+                            "Price": 500
+                        },
+                        {
+                            "Id": "Bencedemon.HG_PressBench",
+                            "ItemId": "Bencedemon.HG_PressBench",
+                            "Condition": null,
+                            "Price": 1000
+                        },
+                        {
+                            "Id": "Bencedemon.HG_Bed",
+                            "ItemId": "Bencedemon.HG_Bed",
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Any IstiReturn",
+                            "Price": 2000
+                        },
+                        {
+                            "Id": "Bencedemon.HG_CraftingTable",
+                            "ItemId": "Bencedemon.HG_CraftingTable",
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Any IstiReturn",
+                            "Price": 1000
+                        },
+                        {
+                            "Id": "Bencedemon.HG_PosterNeuropsy",
+                            "ItemId": "Bencedemon.HG_PosterNeuropsy",
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Any IstiReturn",
+                            "Price": 500
+                        },
+                        {
+                            "Id": "Bencedemon.HG_PosterDoom",
+                            "ItemId": "Bencedemon.HG_PosterDoom",
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Any IstiReturn",
+                            "Price": 500
                         }
                     ]
                 },

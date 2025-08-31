@@ -89,7 +89,7 @@
           "fall_Sat": "{{i18n:Bence.FallCharacterDialogue.009}}",
           "fall_Sat6": "{{i18n:Bence.FallCharacterDialogue.010}}",
           "fall_Sun": "{{i18n:Bence.FallCharacterDialogue.011}}",
-          "fall_Sun2": "{{i18n:Bence.FallCharacterDialogue.012}}",
+          "fall_Sun4": "{{i18n:Bence.FallCharacterDialogue.012}}",
           //WINTER DIALOGUE
           "winter_Mon": "{{i18n:Bence.WinterCharacterDialogue.001}}",
           "winter_Mon4": "{{i18n:Bence.WinterCharacterDialogue.002}}",
