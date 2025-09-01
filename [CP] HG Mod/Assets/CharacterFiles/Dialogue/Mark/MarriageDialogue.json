@@ -6,7 +6,7 @@
       "Entries": {
         //SPECIAL DIALOGUE
         "patio_Mark": "{{i18n:Mark.Patio}}",
-        "spouseRoom_Mark": "{{i18n:Mark.spouseRoom.{{Random:{{Range:1,4}}}}}}",
+        "spouseRoom_Mark": "{{i18n:Mark.spouseRoom.{{Random:{{Range:1,3}}}}}}",
         "funLeave_Mark": "{{i18n:Mark.funLeave.{{Season}}}}",
         "funReturn_Mark": "{{i18n:Mark.funReturn.{{Season}}}}",
         "OneKid_0": "{{i18n:Mark.OneKid.00}}",

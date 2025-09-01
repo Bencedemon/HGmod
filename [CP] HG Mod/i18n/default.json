@@ -1746,49 +1746,54 @@
   //SPRING AND GENERAL DIALOGUE
   "Mark.CharacterDialogue.001": "Szép színesek a virágok.",
   "Mark.CharacterDialogue.002": "Láttál mostanában valami jó animét?",
-  "Mark.CharacterDialogue.003": "Neked is van pollen allergiád?",
-  "Mark.CharacterDialogue.004": "",
+  "Mark.CharacterDialogue.003": "Helló.#$q Shonen/Isekai/Action/Fantasy/Non Tue_old#Neked mi a kedvenc anime műfajod?#$r Shonen 5 Tue_Shonen#Shonen.#$r Isekai -5 Tue_Isekai#Isekai.#$r Action 5 Tue_Action#Action.#$r Fantasy 5 Tue_Fantasy#Fantasy.#$r Non -10 Tue_Non#Nem szeretem az animéket.",
+  "Mark.CharacterDialogue.004": "Nézel mostanában animét?",//Tue_old
+  "Mark.CharacterDialogue.Shonen": "Shonen? Az egy nagyon jó műfaj.$h",
+  "Mark.CharacterDialogue.Isekai": "Isekai...? Hát van néhány jó, de manapság nincsenek jó isekai animék.$s",
+  "Mark.CharacterDialogue.Action": "Akció, azok nagyon menők.$h",
+  "Mark.CharacterDialogue.Fantasy": "Azt láttad amiben a főhősről mindenki azt gondolja, hogy gyenge, de szerez egy legendás kardot és op lesz?$0#$b#Nekem az a kedvencem.$h",
+  "Mark.CharacterDialogue.Non": "Hát jó...$s",
   "Mark.CharacterDialogue.005": "Halottad már a Legenda Hal legendáját?",
   "Mark.CharacterDialogue.006": "Mi újság @?",
-  "Mark.CharacterDialogue.007": "",
-  "Mark.CharacterDialogue.008": "",
-  "Mark.CharacterDialogue.009": "",
+  "Mark.CharacterDialogue.007": "Neked is van pollen allergiád?",
+  "Mark.CharacterDialogue.008": "Arittake no jume vó kaki acúme... #$b#Szagasi mono szagasi ni juku nó szá- #$b#Oh csá, @!",
+  "Mark.CharacterDialogue.009": "*sóhaj* Valószínűleg a hétvégén is kell dolgoznom a farmon.#$b#Nehéz ez a farmer élte, igaz?",
   "Mark.CharacterDialogue.010": "Van bármi terved a hétvégére?",
   "Mark.CharacterDialogue.011": "Iszunk egy kis Saket?",
   "Mark.CharacterDialogue.012": "Ma pihenünk.",
   //SUMMER DIALOGUE
   "Mark.SummerCharacterDialogue.001": "KUUUUURVA MELEG VAN.",
-  "Mark.SummerCharacterDialogue.002": "",
+  "Mark.SummerCharacterDialogue.002": "Kibirhatatlanul meleg van. Te hogy bírod @?",
   "Mark.SummerCharacterDialogue.003": "Megint le vagyok égve, pedig tegnap csak a boltig mentem.",
   "Mark.SummerCharacterDialogue.004": "Remélem ma nem fogok megint leégni.",
-  "Mark.SummerCharacterDialogue.005": "",
+  "Mark.SummerCharacterDialogue.005": "Szerencsére a bányákban még nyáron is hideg van.$h",
   "Mark.SummerCharacterDialogue.006": "Meghalok ettől a hőségtől.",
   "Mark.SummerCharacterDialogue.007": "Van otthon behűtve söröm, jössz?",
   "Mark.SummerCharacterDialogue.008": "Mit meg nem adnék most egy hideg italért.",
   "Mark.SummerCharacterDialogue.009": "Nem fehér embernek való ez az idő.",
   "Mark.SummerCharacterDialogue.010": "A Nap is JoJo reference.$u",
-  "Mark.SummerCharacterDialogue.011": "Hogy bírod ezt a meleget?",
+  "Mark.SummerCharacterDialogue.011": "Ilyen időben több időt kell töltenem a házban nehogy leégjek.",
   //FALL DIALOGUE
   "Mark.FallCharacterDialogue.001": "Kellemes ez az idő.",
   "Mark.FallCharacterDialogue.002": "Megiszunk egy sört?",
   "Mark.FallCharacterDialogue.003": "Ilyenkor már egyre hamarabb sötétedik.",
-  "Mark.FallCharacterDialogue.004": "",
+  "Mark.FallCharacterDialogue.004": "Már alig várom a téli animéket, lesz néhány nagyon menő amit már régóta várok.",
   "Mark.FallCharacterDialogue.005": "Mi a kedvenc őszi termésed?",
   "Mark.FallCharacterDialogue.006": "Várod már az idei Lelkek Éjszakáját?",
   "Mark.FallCharacterDialogue.007": "Dattebayo.",
-  "Mark.FallCharacterDialogue.008": "",
-  "Mark.FallCharacterDialogue.009": "",
+  "Mark.FallCharacterDialogue.008": "Elég furcsát álmodtam tegnap este, te is benne voltál, meg a Kristóf is.#$b#Érdekes álom volt, kint horgásztunk a parton majd egyszer csak megjelent a kraken.$h",
+  "Mark.FallCharacterDialogue.009": "Ha van kedved lolozhatnánk együtt.",
   "Mark.FallCharacterDialogue.010": "Ki a kedvenc Umamusumed?",
   //WINTER DIALOGUE
   "Mark.WinterCharacterDialogue.001": "Elég hideg van már ahhoz, hogy felvegyek egy kabátot.",
-  "Mark.WinterCharacterDialogue.002": "",
+  "Mark.WinterCharacterDialogue.002": "Tegnap olyan kicsiszet szar csapatot kaptam lolban.",//(!)
   "Mark.WinterCharacterDialogue.003": "Lesz elég fád tüzelni?",
   "Mark.WinterCharacterDialogue.004": "Iszunk egy sört?",
   "Mark.WinterCharacterDialogue.005": "Csá @, iszunk egy sört?",
   "Mark.WinterCharacterDialogue.006": "Építünk hóembereket?",
-  "Mark.WinterCharacterDialogue.007": "",
+  "Mark.WinterCharacterDialogue.007": "Kon'nichiwa. Watashinonamaeha mākudesu.$h#$b#Próbálok megtanulni japánul.$0",//(!)
   "Mark.WinterCharacterDialogue.008": "Ilyen hidegben fűteni kell?",
-  "Mark.WinterCharacterDialogue.009": "",
+  "Mark.WinterCharacterDialogue.009": "Egyszer annyi hó esett, hogy bent ragadtam a bányákban.#$b#Három napba telt mire kiástak.",//(!) hóesés helyett lavina
   "Mark.WinterCharacterDialogue.010": "Remélem idén nem fagy be a kerti tavam.",
   "Mark.WinterCharacterDialogue.011": "Vajon az idei hó is hamar el fog olvadni?",
 
@@ -1845,11 +1850,11 @@
   "Phone.Mark": "Koni chiva, watashiwa Mark-desu. $3#$b#*click* $3",
   
   //ScheduleDialogue
-  "Mark.NightMarket.01": "",
-  "Mark.DesertFestival_marriage.01": "",
-  "Mark.DesertFestival_marriage.02": "",
-  "Mark.DesertFestival.01": "",
-  "Mark.DesertFestival.02": "",
+  "Mark.NightMarket.01": "Vajon árul itt valaki mangát?",
+  "Mark.DesertFestival_marriage.01": "Van nálad naptej, én elfelejtettem hozni magamnak.",
+  "Mark.DesertFestival_marriage.02": "Ha bemész a bralangba kérlek vigyázz magadra, nem akarok őzvegy lenni.",
+  "Mark.DesertFestival.01": "Le fogok égni.",
+  "Mark.DesertFestival.02": "Voltál már az itteni bányában?#$b#Sokkal keményebb mint az otthoni.",
   //Mark Movie Dialogue 
 
   //Mark Events
@@ -1893,10 +1898,10 @@
   "Mark.8heartI.03": "Oké, akkor majd délután találkozzunk a buszmegállónál.#$b#Addig is, good bye.",
 
   //MoviesReactions
-  "Mark.Movies.01": "Naygon Kíváncsi vagyok erre a filmre.",
+  "Mark.Movies.01": "Naygon kíváncsi vagyok erre a filmre.",
   "Mark.Movies.02": "Nagyon jó volt megismerni a történetét.",
-  "Mark.Movies.03": "",
-  "Mark.Movies.04": "",
+  "Mark.Movies.03": "Kíváncsi vagyok a filmre.",
+  "Mark.Movies.04": "Jó volt ez a film.",
   "Mark.Movies.05": "Nem várok sokat a filmtől.",
   "Mark.Movies.06": "Ugyanaz a sablonos, unalmas történet újra és újra.",
 
@@ -1905,15 +1910,15 @@
   "Mark.Engagement.1": "Remélem mindenki el tud jönni az esküvőre.",
 
   //CommunityDay
-  "Mark.CommunityDay.01": "",
+  "Mark.CommunityDay.01": "Mikor ideköltöztem ez a hely egy romhalmaz volt.#$b#Most pedig jobb mint valaha.",
   "Mark.CommunityDay.02": "Emily megígérte hogy készít nekem új kimonót.",
-  "Mark.CommunityDay.03": "",
-  "Mark.CommunityDay.04": "",
+  "Mark.CommunityDay.03": "Emlékszek mikor ideköltöztünk néha esténként belógtunk a többiekkel piálni.$0#$b#Azok voltak a szép idők.$h",
+  "Mark.CommunityDay.04": "$y 'Kérsz egy sört?_Igen, kérek._Tessék![346] $h_Köszönöm, de most nem kérek._Oké...'",//(!)
   //CommunityDay - MARRIED
-  "Mark.CommunityDay.05": "",
-  "Mark.CommunityDay.06": "",
-  "Mark.CommunityDay.07": "",
-  "Mark.CommunityDay.08": "",
+  "Mark.CommunityDay.05": "Szeretnénk elosonni és egy kis időt lopni magunknak?$l",//(!)
+  "Mark.CommunityDay.06": "Ha gondolod elmehetnénk sétálni kettesben.$l",
+  "Mark.CommunityDay.07": "Összel olyan szépek a fák a hegyekben, ha gondolod később megleshetnénk.$l",
+  "Mark.CommunityDay.08": "Igyunk az egészségünkre.[346]$h",
 
   //JojaDay
   "Mark.JojaDay.01": "Egyik protein por sincs leárazva, hát ez sajnálatos.",
@@ -1926,15 +1931,14 @@
   "Mark.spouseRoom.1": "#$c .5#Ma mit fogsz csinálni?",
   "Mark.spouseRoom.2": "#$c .5#Ha gondolod segíthetek ma a munkában!",
   "Mark.spouseRoom.3": "#$c .5#Legyen szép napod!",
-  "Mark.spouseRoom.4": "-",
 
-  "Mark.funLeave.spring": "",
-  "Mark.funReturn.spring": "",
-  "Mark.funLeave.summer": "",
-  "Mark.funReturn.summer": "Nagyon meleg van kint.",
-  "Mark.funLeave.fall": "",
-  "Mark.funReturn.fall": "",
-  "Mark.funLeave.winter": "Ellapátoltad az összes havat az útból.",
+  "Mark.funLeave.spring": "Elmegyek inni a szalonba. Nem tartasz velem?",
+  "Mark.funReturn.spring": "Ez jó móka volt. De most ledőlök aludni. #$e#Kicsit részeg vagyok.",
+  "Mark.funLeave.summer": "*sóhaj* Le fogok égni mire elérek a szalonba.",
+  "Mark.funReturn.summer": "Huh... Nagyon meleg van kint.",
+  "Mark.funLeave.fall": "Később jövök.#$e#Elmegyek inni a többiekkel a szalonba.",
+  "Mark.funReturn.fall": "*böff* Lehet a tekila már nem kelett volna.",//(!)
+  "Mark.funLeave.winter": "Ellapátoltad az összes havat az útból?",
   "Mark.funReturn.winter": "Öltözz fel melegen, hideg van!",
 
   "Mark.OneKid.00": "Kíváncsi vagyok, hogy %kid1 olyan farmer lesz-e, mint te?",
