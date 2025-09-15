@@ -7,8 +7,8 @@
         //SPECIAL DIALOGUE
         "patio_Isti": "{{i18n:Isti.Patio}}",
         "spouseRoom_Isti": "{{i18n:Isti.spouseRoom.{{Random:{{Range:1,4}}}}}}",
-        "funLeave_Isti": "{{i18n:Isti.funLeave.Saturday}}",
-        "funReturn_Isti": "{{i18n:Isti.funReturn.Saturday}}",
+        "funLeave_Isti": "{{i18n:Isti.funLeave.{{Season}}}}",
+        "funReturn_Isti": "{{i18n:Isti.funReturn.{{Season}}}}",
         "OneKid_0": "{{i18n:Isti.OneKid.00}}",
         "OneKid_1": "{{i18n:Isti.OneKid.01}}",
         "OneKid_2": "{{i18n:Isti.OneKid.02}}",
