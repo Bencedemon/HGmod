@@ -1889,13 +1889,73 @@
   "Mark.6heart.05": "Kezdek kifáradni, szerintem idelye felmenni!",
   "Mark.6heart.06": "Ez egy jó kör volt, elég sok ércet sikerült szerezni.#$b#Tessék, itt a részed. Még beszélünk, csáó!",
 
-  //6heartI
+  //8heartI
   "Mark.8heartI.01": "Csá @!#$b#Van egy extra jegyem a Zuzu Városi Derbire.",
   "Mark.8heartI.Question": "Arra gondoltam megkérdezem hogy nincs e kedved eljönni velem?",
   "Mark.8heartI.Answer.01": "Elmegyek veled.",
   "Mark.8heartI.Answer.02": "Bocsi de nincs kedvem hozzá.",
   "Mark.8heartI.02": "Jólvan, akkor úgynézki egyedül megyek.$s",
   "Mark.8heartI.03": "Oké, akkor majd délután találkozzunk a buszmegállónál.#$b#Addig is, good bye.",
+
+  //8heartII
+  "Mark.8heartII.01": "@!#$b#Örülök, hogy itt vagy. Indulnunk kellene...",
+  "Mark.8heartII.02": "Hamarosan megérkezünk.",
+  "Mark.8heartII.03": "Örülök hogy eljöttél @.#$b#Egyedül nem lett volna olyan izgalmas.",
+  "Mark.8heartII.04": "Hmm... Elég sok idő van még a kezdésig, elszaladok gyors teszekfel tétet az egyik lóra.",
+
+  "Mark.8heartII.Horse.Question": "Szerinted melyik ló fog nyerni?",
+  "Mark.8heartII.Horse.00": "Silver Boat",//Silver Boat - Gold Ship
+  "Mark.8heartII.Horse.01": "Unique Month",//Unique Month - Special Week
+  "Mark.8heartII.Horse.02": "Tokaj Tejo",//Tokaj Tejo - Tokai Teio
+  "Mark.8heartII.Horse.03": "Oguri Hat",//Oguri Hat - Oguri Cap
+  "Mark.8heartII.Horse.04": "Tequila",//Tequila - Vodka
+  "Mark.8heartII.Horse.05": "Turf Miracle",//Turf Miracle - Grass Wonder
+  "Mark.8heartII.Horse.06": "Haru Urara",//Haru Urara - Haru Urara
+  "Mark.8heartII.Horse.07": "Wheat Bath",//Wheat Bath - Rice Shower
+
+  "Mark.8heartII.05": "Okézsoké.$u",
+  //ALT: Nice Nature
+
+  "Mark.8heartII.Narrator.01": "Üdvözlünk mindenkit a mai nagy futamon!",
+  "Mark.8heartII.Narrator.02": "A lelátó tele van, a közönség izgatottan várja a rajtot.",
+  "Mark.8heartII.Narrator.03": "Nyolc remek ló áll a startvonalnál, mindannyian készen a küzdelemre.",
+  "Mark.8heartII.Narrator.04": "És elindult a mezőny! A startnál Unique Month és Turf Miracle az élre tör.",
+  "Mark.8heartII.Narrator.05": "Silver Boat is szépen rajtol, a többiek szorosan mögöttük.",
+  "Mark.8heartII.Narrator.06": "Haru Urara kissé lemarad, de még van bőven idő a felzárkózásra.",
+  "Mark.8heartII.Narrator.07": "Az első kanyarban Unique Month vezet, mögötte Turf Miracle és Silver Boat fej-fej mellett.",
+  "Mark.8heartII.Narrator.08": "Tokaj Tejo és Tequila is ott vannak a boly közepén, tartják a tempót.",
+  "Mark.8heartII.Narrator.09": "Oguri Hat a mezőny végén, úgy tűnik, kivárásra játszik.",
+  "Mark.8heartII.Narrator.10": "Az egyenesre fordulva Unique Month még mindig magabiztosan vezet.",
+  "Mark.8heartII.Narrator.11": "Turf Miracle próbál támadni, de Silver Boat keményen védekezik.",
+  "Mark.8heartII.Narrator.12": "Wheat Bath lassan feljebb jön, megelőzi Haru Urara-t.",
+  "Mark.8heartII.Narrator.13": "Féltávnál Unique Month és Turf Miracle fej-fej mellett, mögöttük Silver Boat és Tokaj Tejo.",
+  "Mark.8heartII.Narrator.14": "Tequila és Wheat Bath is közel, Oguri Hat még mindig hátrébb, de gyorsít.",
+  "Mark.8heartII.Narrator.15": "A hátsó egyenesben Unique Month nyomja a tempót, Turf Miracle nem enged.",
+  "Mark.8heartII.Narrator.16": "Silver Boat kicsit leszakad, Tokaj Tejo kezd közeledni.",
+  "Mark.8heartII.Narrator.17": "Oguri Hat fokozatosan zárkózik, már a hetedik helyen!",
+  "Mark.8heartII.Narrator.18": "A kanyarban Unique Month, Turf Miracle és Tokaj Tejo harcol az első három helyért.",
+  "Mark.8heartII.Narrator.19": "Oguri Hat újabb lovat előz, már az ötödik helyen van!",
+  "Mark.8heartII.Narrator.20": "Tequila fárad, Oguri Hat kihasználja és feljön negyediknek.",
+  "Mark.8heartII.Narrator.21": "Közeledünk a célegyeneshez, Unique Month és Turf Miracle fej-fej mellett.",
+  "Mark.8heartII.Narrator.22": "Tokaj Tejo harmadik, de Oguri Hat már a nyakán liheg!",
+  "Mark.8heartII.Narrator.23": "Célegyenes kezdete – Oguri Hat hatalmas hajrába kezd!",
+  "Mark.8heartII.Narrator.24": "Előzi Tokaj Tejo-t... már a harmadik helyen!",
+  "Mark.8heartII.Narrator.25": "Unique Month és Turf Miracle még mindig együtt, de Oguri Hat villámként száguld!",
+  "Mark.8heartII.Narrator.26": "Utoléri Turf Miracle-t, fél hosszal mögötte Unique Month!",
+  "Mark.8heartII.Narrator.27": "Az utolsó 100 méteren Oguri Hat már Unique Month mellett!",
+  "Mark.8heartII.Narrator.28": "Fej-fej mellett a célig!",
+  "Mark.8heartII.Narrator.29": "És az utolsó pillanatban... Oguri Hat átlép a célvonalon elsőként!",
+  "Mark.8heartII.Narrator.30": "Micsoda hajrá!",
+  "Mark.8heartII.Narrator.31": "Második helyen Unique Month, harmadik Turf Miracle.",
+  "Mark.8heartII.Narrator.32": "A többiek szétszóródva érkeznek meg.",
+  "Mark.8heartII.Narrator.33": "Ez a futam bizony Oguri Hat nevétől lesz emlékezetes!",
+  "Mark.8heartII.Narrator.34": "A közönség állva ünnepel, hatalmas taps fogadja a győztest.",
+  "Mark.8heartII.Narrator.35": "Oguri Hat bizonyította, hogy a kitartás mindig meghozza gyümölcsét.",
+  "Mark.8heartII.Narrator.36": "Köszönjük, hogy velünk tartottak, találkozunk a következő futamon!",
+
+  "Mark.8heartII.06": "Hát úgyfest sajnos vesztettünk.$s#$b#De azért jó móka volt.$h#$b#Viszont lassan indulnunk kell.$0",
+  "Mark.8heartII.07": "Nyertünk...$h#$b#Elsem hiszem nyertünk @!$h#$b#Menjünk vegyük át a jutalmat.",
+  "Mark.8heartII.08": "Remekül éreztem magam ma veled.$h#$b#Majd még jöjjünk máskor is.$h",
 
   //MoviesReactions
   "Mark.Movies.01": "Naygon kíváncsi vagyok erre a filmre.",
@@ -1926,7 +1986,7 @@
   "Mark.JojaDay.03": "Mindjárt jövök.#$b#Neked hozzak valamit a boltból?",
 
   //MarriageDialogue
-  "Mark.Patio": "You utter fool! German science is the greatest in the world!",
+  "Mark.Patio": "You utter fool! German science is the greatest in the world!$u",
 
   "Mark.spouseRoom.1": "#$c .5#Ma mit fogsz csinálni?",
   "Mark.spouseRoom.2": "#$c .5#Ha gondolod segíthetek ma a munkában!",
@@ -2361,4 +2421,8 @@
   "Isti.MarriageDialogue.NoBed_1": "",
   "Isti.MarriageDialogue.NoBed_2": "",
   "Isti.MarriageDialogue.NoBed_3": "",
+
+  //==================//
+  //   Vanilla NPCs   //
+  //==================//
 }

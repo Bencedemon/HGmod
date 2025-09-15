@@ -48,7 +48,7 @@
               },
               "SpriteAnimationFrames": [
                 [
-                  16,
+                  40,
                   500
                 ]
               ],
@@ -128,7 +128,9 @@
             "mark_computer": "36/36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 37 38 39 38 39 38 39 38 37 36 36 36/36//laying_down/offset -6 20",
             "mark_music": "40/40/40",
             "mark_music_R": "41/41/41",
-            "mark_music_L": "42/42/42"
+            "mark_music_L": "42/42/42",
+            "mark_read": "54/53 53 53 53 53 53 53 53 53 53 54 54 53 53 53 53 53 53 53 53 53 53/54//laying_down/offset -10 -12",
+            "mark_read2": "54/53 53 53 53 53 53 53 53 53 53 54 54 53 53 53 53 53 53 53 53 53 53/54//laying_down/offset 0 -12",
         }
       },
       //Spouse Room
@@ -375,47 +377,112 @@
       }
     },
 
-      { //2 heart event, 8:00 am - 16:00 am
-        "Action": "EditData",
-        "Target": "Data/Events/Custom_MarkFarm",
-        "Entries": {
-          "2001201/f Mark 500/p Mark/t 800 1600/w sunny": "spring_day_ambient/22 27/farmer 24 23 2 Mark 22 28 2/skippable/move farmer 0 5 2/speak Mark \"Nagyon jó innét a kilátás.\"/message \"???.\"/pause 600/end"
-        }
-      },
-      { //4 heart event, 8:00 am - 24:00 am
-        "Action": "EditData",
-        "Target": "Data/Events/Custom_MarkHouseInterior",
-        "Entries": {
-          "2001202/f Mark 1000/p Mark/t 800 2400/": "playful/10 9/farmer -50 -50 0 Mark 12 5 0/pause 2000/warp farmer 3 9/playSound doorClose/pause 500/move farmer 0 -2 1/faceDirection Mark 3/speak Mark \"{{i18n:Mark.4heart.01}}\"/move farmer 3 0 1/move farmer 0 -1 1/move farmer 3 0 1/move farmer 0 -1 1/move farmer 1 0 1 true/speak Mark \"{{i18n:Mark.4heart.02}}\"/pause 100/quickQuestion {{i18n:Mark.4heart.Question}}#{{i18n:Mark.4heart.Answer.01}}#{{i18n:Mark.4heart.Answer.02}}#{{i18n:Mark.4heart.Answer.03}}(break)--<answer1 script>\\Friendship Mark 25\\switchEvent animeMark(break)--<answer2 script>\\speak Mark \"{{i18n:Mark.4heart.03}}\"(break)--<answer3 script>\\Friendship Mark -25\\speak Mark \"{{i18n:Mark.4heart.04}}\"\\emote Mark 28 true/pause 100/switchEvent animeLeave",
-          "animeMark": "pause 100/emote Mark 32 true/pause 500/speak Mark \"{{i18n:Mark.4heart.05}}\"/pause 100/fade/warp Mark 8 15/warp farmer 8 16/faceDirection Mark 3 true/faceDirection farmer 3 true/showFrame Mark 36/addObject 7 15 Bencedemon.HG_Popcorn/fade false/viewport 8 15/pause 500/playSound mouseClick/pause 400/playSound mouseClick/pause 500/speak Mark \"{{i18n:Mark.4heart.06}}\"/pause 100/speak Mark \"{{i18n:Mark.4heart.07}}\"/pause 100/speak Mark \"{{i18n:Mark.4heart.08}}\"/pause 100/speak Mark \"{{i18n:Mark.4heart.09}}\"/pause 100/speak Mark \"{{i18n:Mark.4heart.10}}\"/pause 300/playSound mouseClick/playMusic Bencedemon.HG_Uuuuus/pause 10000/globalFade/viewport -1000 -1000/message \"{{i18n:Mark.4heart.11}}\"/end dialogueWarpOut Mark \"{{i18n:Mark.4heart.12}}\"",
-          "animeLeave": "pause 100/faceDirection Mark 0/move farmer 0 1 3/move farmer -5 0 2 true/globalFade/viewport -1000 -1000/end warpOut"
-        }
-      },
-      { //6 heart event, 8:00 am - 18:00 am
-        "Action": "EditData",
-        "Target": "Data/Events/Mine",
-        "Entries": {
-          "2001203/f Mark 1500/t 800 1800/": "Upper_Ambient/18 7/farmer -1000 -1000 0 Mark 18 11 0/skippable/move Mark 0 -3 0/warp farmer 18 13/move Mark 0 -1 0/faceDirection Mark 2/speak Mark \"{{i18n:Mark.6heart.01}}\"/pause 100/quickQuestion {{i18n:Mark.6heart.Question}}#{{i18n:Mark.6heart.Answer.01}}#{{i18n:Mark.6heart.Answer.02}}#{{i18n:Mark.6heart.Answer.03}}(break)--<answer1 script>\\switchEvent mineCopper(break)--<answer2 script>\\switchEvent mineIron(break)--<answer3 script>\\switchEvent mineGold",
-          "mineCopper": "pause 100/speak Mark \"{{i18n:Mark.6heart.02}}\"/fade/viewport -1000 -1000/pause 1000/playSound stairsdown/playMusic EarthMine/pause 2000/playSound hammer/pause 600/playSound hammer/pause 1000/playSound hammer/pause 800/playSound hammer/pause 1200/playSound hammer/pause 1000/playSound hammer/pause 700/playSound barrelBreak/pause 1500/playSound hammer/pause 600/playSound hammer/pause 1200/playSound hammer/pause 2000/playSound batScreech/pause 400/playSound batFlap/pause 400/playSound batFlap/pause 400/playSound batFlap/speak Mark \"{{i18n:Mark.6heart.03}}\"/pause 300/playSound swordswipe/pause 200/playSound batScreech/pause 500/speak Mark \"{{i18n:Mark.6heart.04}}\"/pause 1000/playSound hammer/pause 1200/playSound hammer/pause 900/playSound barrelBreak/pause 1300/playSound hammer/pause 1200/playSound hammer/pause 600/playSound hammer/pause 2000/speak Mark \"{{i18n:Mark.6heart.05}}\"/warp farmer 16 6/faceDirection farmer 1 true/warp Mark 18 6/faceDirection Mark 3 true/playSound stairsdown/pause 500/playMusic Upper_Ambient/fade false/viewport 18 7/pause 1000/speak Mark \"{{i18n:Mark.6heart.06}}\"/addItem (O)378 30/addItem (0)767 1/addItem (0)535 6/pause 500/globalFade/viewport -1000 -1000/end",
-          "mineIron": "pause 100/speak Mark \"{{i18n:Mark.6heart.02}}\"/fade/viewport -1000 -1000/pause 1000/playSound stairsdown/playMusic FrostMine/pause 2000/playSound hammer/pause 600/playSound hammer/pause 1000/playSound hammer/pause 800/playSound hammer/pause 1200/playSound hammer/pause 1000/playSound hammer/pause 700/playSound barrelBreak/pause 1500/playSound hammer/pause 600/playSound hammer/pause 1200/playSound hammer/pause 2000/playSound batScreech/pause 400/playSound batFlap/pause 400/playSound batFlap/pause 400/playSound batFlap/speak Mark \"{{i18n:Mark.6heart.03}}\"/pause 300/playSound swordswipe/pause 200/playSound batScreech/pause 500/speak Mark \"{{i18n:Mark.6heart.04}}\"/pause 1000/playSound hammer/pause 1200/playSound hammer/pause 900/playSound barrelBreak/pause 1300/playSound hammer/pause 1200/playSound hammer/pause 600/playSound hammer/pause 2000/speak Mark \"{{i18n:Mark.6heart.05}}\"/warp farmer 16 6/faceDirection farmer 1 true/warp Mark 18 6/faceDirection Mark 3 true/playSound stairsdown/pause 500/playMusic Upper_Ambient/fade false/viewport 18 7/pause 1000/speak Mark \"{{i18n:Mark.6heart.06}}\"/addItem (O)380 20/addItem (0)767 1/addItem (0)536 4/pause 500/globalFade/viewport -1000 -1000/end",
-          "mineGold": "pause 100/speak Mark \"{{i18n:Mark.6heart.02}}\"/fade/viewport -1000 -1000/pause 1000/playSound stairsdown/playMusic LavaMine/pause 2000/playSound hammer/pause 600/playSound hammer/pause 1000/playSound hammer/pause 800/playSound hammer/pause 1200/playSound hammer/pause 1000/playSound hammer/pause 700/playSound barrelBreak/pause 1500/playSound hammer/pause 600/playSound hammer/pause 1200/playSound hammer/pause 2000/playSound batScreech/pause 400/playSound batFlap/pause 400/playSound batFlap/pause 400/playSound batFlap/speak Mark \"{{i18n:Mark.6heart.03}}\"/pause 300/playSound swordswipe/pause 200/playSound batScreech/pause 500/speak Mark \"{{i18n:Mark.6heart.04}}\"/pause 1000/playSound hammer/pause 1200/playSound hammer/pause 900/playSound barrelBreak/pause 1300/playSound hammer/pause 1200/playSound hammer/pause 600/playSound hammer/pause 2000/speak Mark \"{{i18n:Mark.6heart.05}}\"/warp farmer 16 6/faceDirection farmer 1 true/warp Mark 18 6/faceDirection Mark 3 true/playSound stairsdown/pause 500/playMusic Upper_Ambient/fade false/viewport 18 7/pause 1000/speak Mark \"{{i18n:Mark.6heart.06}}\"/addItem (O)384 10/addItem (0)767 1/addItem (0)537 2/pause 500/globalFade/viewport -1000 -1000/end"
-        }
-      },
-      { //8 heart event I, 6:00 am - 11:30 am
-        "Action": "EditData",
-        "Target": "Data/Events/Farm",
-        "Entries": {
-          "2001204/t 600 1130/f Mark 2000/z winter/w sunny": "continue/64 15/farmer 64 16 2 Mark 64 18 0/pause 1500/speak Mark \"{{i18n:Mark.8heartI.01}}\"/question fork0 \"{{i18n:Mark.8heartI.Question}}#{{i18n:Mark.8heartI.Answer.01}}#{{i18n:Mark.8heartI.Answer.02}}\"/fork horseRace/speak Mark \"{{i18n:Mark.8heartI.02}}\"/pause 50/pause 50/end",
-          "horseRace": "speak Mark \"{{i18n:Mark.8heartI.03}}\"/pause 100/eventSeen horseRace true/end"
-        }
-      },
-      { //8 heart event II, 12:00 am - 18:00 am
-        "Action": "EditData",
-        "Target": "Data/Events/BusStop",
-        "Entries": {
-          "2001205/t 1200 1800/z winter/w sunny/e horseRace": "continue/-1000 -1000/farmer 22 19 0 Mark 23 10 2 Gus 19 11 1 Pam 20 10 2/viewport 22 11 clamp true/skippable/move farmer 0 -5 0/move Mark 0 1 2/speak Mark \"Hé, hát itt vagy!$6#$b#Örülök, hogy úgy döntöttél eljössz. Indulnunk kellene...$6\"/move Pam 2 0 0/move Pam 0 -1 0/warp Pam -100 -100/playSound thudStep/move Gus 3 0 0/move Gus 0 -2 0/faceDirection Mark 3 true/playSound thudStep/warp Gus -100 -100/move farmer 0 -4 0 true/globalFade/viewport -1000 -1000/playMusic none/pause 800/playSound busDriveOff/pause 4000/changeToTemporaryMap Custom_MarkHorseRace false/speak Mark \"Nemsokára ott vagyunk...\"/pause 1000/warp farmer 25 19/faceDirection farmer 2/positionOffset farmer 0 16/warp Mark 26 19/faceDirection Mark 2/positionOffset Mark 0 0/warp Gus 32 12/faceDirection Gus 2/pause 3000/viewport 26 19 clamp true/pause 2000/speak Mark \"Örülök hogy eljöttél @.#$b#Egyedül nem lett volna olyan izgalmas.\"/pause 2000/speak Mark \"Hmm... Elég sok idő van még a kezdésig, elszaladok gyors teszekfel tétet az egyik lóra.\"/advancedMove Mark false 2 0/proceedPosition Mark/faceDirection Mark 3/faceDirection farmer 1 true/question fork0 \"Szerinted melyik ló fog nyerni?#answer0#answer1#answer3#answer4\"/speak Mark \"Okézsoké.$u\"/faceDirection farmer 2/move Mark 0 -7 0 true/pause 1000/globalFade/viewport -1000 -1000/pause 1000/changeToTemporaryMap Custom_MarkHorseRace2 false/playMusic Stadium_ambient/warp Mark 28 12/faceDirection Mark 2 true/advancedMove Mark false 0 7 -2 0/viewport 26 19 clamp true/proceedPosition Mark/faceDirection Mark 2/fork winnerBet/pause 100/speak Mark \"Vesztettünk.\"/globalFade/viewport -1000 -1000/end",
-          "winnerBet": "pause 100/speak Mark \"Nyertünk.\"/globalFade/viewport -1000 -1000/end"
-        }
-      },
+    { //2 heart event, 8:00 am - 16:00 am
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_MarkFarm",
+      "Entries": {
+        "2001201/f Mark 500/p Mark/t 800 1600/w sunny": "spring_day_ambient/22 27/farmer 13 23 2 Mark 22 27 2/addTemporaryActor Manga 32 16 -50 -50 2 false/hideShadow Manga true/ignoreMovementAnimation Manga/showFrame Mark 53/hideShadow Mark true/skippable/move farmer 6 0 2/playSound windstorm/pause 500/showFrame Mark 2/textAboveHead Mark \"Jaj, ne!\"/warp Manga 21 26 true/animate Manga false false 90 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 0 0 0 0/move Manga 0 -3 2/stopSound windstorm/move Mark 0 1 0/move farmer 1 0 1/showFrame farmer 58/pause 500/playSound coin/warp Manga -50 -50/pause 100/faceDirection farmer 2/move farmer 0 3 2/faceDirection Mark 3 true/move farmer 0 2 2/move farmer 1 0 1/playSound coin/pause 200/speak Mark \"Köszönöm, @.\"/viewport move 1 -1 6000/pause 2000/globalFade/viewport -1000 -1000/end"
+      }
+    },
+    {
+      "Action": "Load", "Priority": "Low", //32x16
+      "Target": "Characters/Manga",
+      "FromFile": "Assets/CharacterFiles/Sprites/Miscellaneous/Manga.png"
+    },
+    { //4 heart event, 8:00 am - 24:00 am
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_MarkHouseInterior",
+      "Entries": {
+        "2001202/f Mark 1000/p Mark/t 800 2400/": "playful/10 9/farmer -50 -50 0 Mark 12 5 0/pause 2000/warp farmer 3 9/playSound doorClose/pause 500/move farmer 0 -2 1/faceDirection Mark 3/speak Mark \"{{i18n:Mark.4heart.01}}\"/move farmer 3 0 1/move farmer 0 -1 1/move farmer 3 0 1/move farmer 0 -1 1/move farmer 1 0 1 true/speak Mark \"{{i18n:Mark.4heart.02}}\"/pause 100/quickQuestion {{i18n:Mark.4heart.Question}}#{{i18n:Mark.4heart.Answer.01}}#{{i18n:Mark.4heart.Answer.02}}#{{i18n:Mark.4heart.Answer.03}}(break)--<answer1 script>\\Friendship Mark 25\\switchEvent animeMark(break)--<answer2 script>\\speak Mark \"{{i18n:Mark.4heart.03}}\"(break)--<answer3 script>\\Friendship Mark -25\\speak Mark \"{{i18n:Mark.4heart.04}}\"\\emote Mark 28 true/pause 100/switchEvent animeLeave",
+        "animeMark": "pause 100/emote Mark 32 true/pause 500/speak Mark \"{{i18n:Mark.4heart.05}}\"/pause 100/fade/warp Mark 8 15/warp farmer 8 16/faceDirection Mark 3 true/faceDirection farmer 3 true/showFrame Mark 36/addObject 7 15 Bencedemon.HG_Popcorn/fade false/viewport 8 15/pause 500/playSound mouseClick/pause 400/playSound mouseClick/pause 500/speak Mark \"{{i18n:Mark.4heart.06}}\"/pause 100/speak Mark \"{{i18n:Mark.4heart.07}}\"/pause 100/speak Mark \"{{i18n:Mark.4heart.08}}\"/pause 100/speak Mark \"{{i18n:Mark.4heart.09}}\"/pause 100/speak Mark \"{{i18n:Mark.4heart.10}}\"/pause 300/playSound mouseClick/playMusic Bencedemon.HG_Uuuuus/pause 10000/globalFade/viewport -1000 -1000/message \"{{i18n:Mark.4heart.11}}\"/end dialogueWarpOut Mark \"{{i18n:Mark.4heart.12}}\"",
+        "animeLeave": "pause 100/faceDirection Mark 0/move farmer 0 1 3/move farmer -5 0 2 true/globalFade/viewport -1000 -1000/end warpOut"
+      }
+    },
+    { //6 heart event, 8:00 am - 18:00 am
+      "Action": "EditData",
+      "Target": "Data/Events/Mine",
+      "Entries": {
+        "2001203/f Mark 1500/t 800 1800/": "Upper_Ambient/18 7/farmer -1000 -1000 0 Mark 18 11 0/skippable/move Mark 0 -3 0/warp farmer 18 13/move Mark 0 -1 0/faceDirection Mark 2/speak Mark \"{{i18n:Mark.6heart.01}}\"/pause 100/quickQuestion {{i18n:Mark.6heart.Question}}#{{i18n:Mark.6heart.Answer.01}}#{{i18n:Mark.6heart.Answer.02}}#{{i18n:Mark.6heart.Answer.03}}(break)--<answer1 script>\\switchEvent mineCopper(break)--<answer2 script>\\switchEvent mineIron(break)--<answer3 script>\\switchEvent mineGold",
+        "mineCopper": "pause 100/speak Mark \"{{i18n:Mark.6heart.02}}\"/fade/viewport -1000 -1000/pause 1000/playSound stairsdown/playMusic EarthMine/pause 2000/playSound hammer/pause 600/playSound hammer/pause 1000/playSound hammer/pause 800/playSound hammer/pause 1200/playSound hammer/pause 1000/playSound hammer/pause 700/playSound barrelBreak/pause 1500/playSound hammer/pause 600/playSound hammer/pause 1200/playSound hammer/pause 2000/playSound batScreech/pause 400/playSound batFlap/pause 400/playSound batFlap/pause 400/playSound batFlap/speak Mark \"{{i18n:Mark.6heart.03}}\"/pause 300/playSound swordswipe/pause 200/playSound batScreech/pause 500/speak Mark \"{{i18n:Mark.6heart.04}}\"/pause 1000/playSound hammer/pause 1200/playSound hammer/pause 900/playSound barrelBreak/pause 1300/playSound hammer/pause 1200/playSound hammer/pause 600/playSound hammer/pause 2000/speak Mark \"{{i18n:Mark.6heart.05}}\"/warp farmer 16 6/faceDirection farmer 1 true/warp Mark 18 6/faceDirection Mark 3 true/playSound stairsdown/pause 500/playMusic Upper_Ambient/fade false/viewport 18 7/pause 1000/speak Mark \"{{i18n:Mark.6heart.06}}\"/addItem (O)378 30/addItem (0)767 1/addItem (0)535 6/pause 500/globalFade/viewport -1000 -1000/end",
+        "mineIron": "pause 100/speak Mark \"{{i18n:Mark.6heart.02}}\"/fade/viewport -1000 -1000/pause 1000/playSound stairsdown/playMusic FrostMine/pause 2000/playSound hammer/pause 600/playSound hammer/pause 1000/playSound hammer/pause 800/playSound hammer/pause 1200/playSound hammer/pause 1000/playSound hammer/pause 700/playSound barrelBreak/pause 1500/playSound hammer/pause 600/playSound hammer/pause 1200/playSound hammer/pause 2000/playSound batScreech/pause 400/playSound batFlap/pause 400/playSound batFlap/pause 400/playSound batFlap/speak Mark \"{{i18n:Mark.6heart.03}}\"/pause 300/playSound swordswipe/pause 200/playSound batScreech/pause 500/speak Mark \"{{i18n:Mark.6heart.04}}\"/pause 1000/playSound hammer/pause 1200/playSound hammer/pause 900/playSound barrelBreak/pause 1300/playSound hammer/pause 1200/playSound hammer/pause 600/playSound hammer/pause 2000/speak Mark \"{{i18n:Mark.6heart.05}}\"/warp farmer 16 6/faceDirection farmer 1 true/warp Mark 18 6/faceDirection Mark 3 true/playSound stairsdown/pause 500/playMusic Upper_Ambient/fade false/viewport 18 7/pause 1000/speak Mark \"{{i18n:Mark.6heart.06}}\"/addItem (O)380 20/addItem (0)767 1/addItem (0)536 4/pause 500/globalFade/viewport -1000 -1000/end",
+        "mineGold": "pause 100/speak Mark \"{{i18n:Mark.6heart.02}}\"/fade/viewport -1000 -1000/pause 1000/playSound stairsdown/playMusic LavaMine/pause 2000/playSound hammer/pause 600/playSound hammer/pause 1000/playSound hammer/pause 800/playSound hammer/pause 1200/playSound hammer/pause 1000/playSound hammer/pause 700/playSound barrelBreak/pause 1500/playSound hammer/pause 600/playSound hammer/pause 1200/playSound hammer/pause 2000/playSound batScreech/pause 400/playSound batFlap/pause 400/playSound batFlap/pause 400/playSound batFlap/speak Mark \"{{i18n:Mark.6heart.03}}\"/pause 300/playSound swordswipe/pause 200/playSound batScreech/pause 500/speak Mark \"{{i18n:Mark.6heart.04}}\"/pause 1000/playSound hammer/pause 1200/playSound hammer/pause 900/playSound barrelBreak/pause 1300/playSound hammer/pause 1200/playSound hammer/pause 600/playSound hammer/pause 2000/speak Mark \"{{i18n:Mark.6heart.05}}\"/warp farmer 16 6/faceDirection farmer 1 true/warp Mark 18 6/faceDirection Mark 3 true/playSound stairsdown/pause 500/playMusic Upper_Ambient/fade false/viewport 18 7/pause 1000/speak Mark \"{{i18n:Mark.6heart.06}}\"/addItem (O)384 10/addItem (0)767 1/addItem (0)537 2/pause 500/globalFade/viewport -1000 -1000/end"
+      }
+    },
+    { //8 heart event I, 6:00 am - 11:30 am
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "2001204/t 600 1130/f Mark 2000/z winter/w sunny": "continue/64 15/farmer 64 16 2 Mark 64 18 0/pause 1500/speak Mark \"{{i18n:Mark.8heartI.01}}\"/question fork0 \"{{i18n:Mark.8heartI.Question}}#{{i18n:Mark.8heartI.Answer.01}}#{{i18n:Mark.8heartI.Answer.02}}\"/fork horseRace/speak Mark \"{{i18n:Mark.8heartI.02}}\"/pause 50/pause 50/end",
+        "horseRace": "speak Mark \"{{i18n:Mark.8heartI.03}}\"/pause 100/eventSeen horseRace true/end"
+      }
+    },
+    { //8 heart event II, 12:00 am - 18:00 am
+      "Action": "EditData",
+      "Target": "Data/Events/BusStop",
+      "Entries": {
+        "2001205/t 1200 1800/z winter/w sunny/e horseRace": "continue/-1000 -1000/farmer 22 19 0 Mark 23 10 2 Gus 19 11 1 Pam 20 10 2/viewport 22 11 clamp true/skippable/move farmer 0 -5 0/move Mark 0 1 2/speak Mark \"{{i18n:Mark.8heartII.01}}\"/move Pam 2 0 0/move Pam 0 -1 0/warp Pam -100 -100/playSound thudStep/move Gus 3 0 0/move Gus 0 -2 0/faceDirection Mark 3 true/playSound thudStep/warp Gus -100 -100/move farmer 0 -4 0 true/globalFade/viewport -1000 -1000/playMusic none/pause 800/playSound busDriveOff/pause 4000/changeToTemporaryMap Custom_MarkHorseRace false/pause 500/speak Mark \"{{i18n:Mark.8heartII.02}}\"/pause 500/warp farmer 25 19/faceDirection farmer 2/positionOffset farmer 0 16/warp Mark 26 19/faceDirection Mark 2/positionOffset Mark 0 0/warp Gus 32 12/faceDirection Gus 2/positionOffset Gus 0 16/pause 3000/viewport 26 19 clamp true/pause 2000/speak Mark \"{{i18n:Mark.8heartII.03}}\"/pause 2000/speak Mark \"{{i18n:Mark.8heartII.04}}\"/advancedMove Mark false 2 0/proceedPosition Mark/faceDirection Mark 3/faceDirection farmer 1 true/question fork3 \"{{i18n:Mark.8heartII.Horse.Question}}#{{i18n:Mark.8heartII.Horse.00}}#{{i18n:Mark.8heartII.Horse.01}}#{{i18n:Mark.8heartII.Horse.02}}#{{i18n:Mark.8heartII.Horse.03}}#{{i18n:Mark.8heartII.Horse.04}}#{{i18n:Mark.8heartII.Horse.05}}#{{i18n:Mark.8heartII.Horse.06}}#{{i18n:Mark.8heartII.Horse.07}}\"/speak Mark \"{{i18n:Mark.8heartII.05}}\"/faceDirection farmer 2/move Mark 0 -7 0 true/pause 1000/globalFade/viewport -1000 -1000/pause 1000/changeToTemporaryMap Custom_MarkHorseRace2 false/playMusic Stadium_ambient/warp Mark 28 12/faceDirection Mark 2 true/advancedMove Mark false 0 7 -2 0/viewport 26 19 clamp true/proceedPosition Mark/faceDirection Mark 2/pause 1000/
+        message \"{{i18n:Mark.8heartII.Narrator.01}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.02}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.03}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.04}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.05}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.06}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.07}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.08}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.09}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.10}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.11}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.12}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.13}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.14}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.15}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.16}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.17}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.18}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.19}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.20}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.21}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.22}}\"/
+        fork winnerBet/pause 100/
+        message \"{{i18n:Mark.8heartII.Narrator.23}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.24}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.25}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.26}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.27}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.28}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.29}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.30}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.31}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.32}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.33}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.34}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.35}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.36}}\"/
+        faceDirection Mark 3 true/faceDirection farmer 1/speak Mark \"{{i18n:Mark.8heartII.06}}\"/switchEvent horseRaceEnd",
+      }
+    },
+    { //8 heart event II, Temp
+      "Action": "EditData",
+      "Target": "Data/Events/Temp",
+      "Entries": {
+        "winnerBet": "pause 100/jump Mark/
+        message \"{{i18n:Mark.8heartII.Narrator.23}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.24}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.25}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.26}}\"/jump Mark/
+        message \"{{i18n:Mark.8heartII.Narrator.27}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.28}}\"/jump Mark/
+        message \"{{i18n:Mark.8heartII.Narrator.29}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.30}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.31}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.32}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.33}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.34}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.35}}\"/
+        message \"{{i18n:Mark.8heartII.Narrator.36}}\"/
+        faceDirection Mark 3 true/faceDirection farmer 1/speak Mark \"{{i18n:Mark.8heartII.07}}\"/action AddMoney 10000/switchEvent horseRaceEnd",
+        "horseRaceEnd": "pause 100/advancedMove Mark false 2 0 0 -5/advancedMove farmer false 3 0 0 -5/globalFade/viewport -1000 -1000/playMusic none/pause 2000/playSound busDriveOff/pause 2000/speak Mark \"{{i18n:Mark.8heartII.08}}\"/pause 1000/end",
+      }
+    },
   ]
 }

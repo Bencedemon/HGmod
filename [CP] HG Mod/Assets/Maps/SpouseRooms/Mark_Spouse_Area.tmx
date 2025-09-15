@@ -3,8 +3,8 @@
  <tileset firstgid="1" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
   <image source="paths.png" width="64" height="256"/>
  </tileset>
- <tileset firstgid="65" name="mine_Extra" tilewidth="16" tileheight="16" tilecount="64" columns="8">
-  <image source="mine_Extra.png" width="128" height="128"/>
+ <tileset firstgid="65" name="spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>
  </tileset>
  <layer id="2" name="Back" width="4" height="4">
   <data encoding="csv">
@@ -16,18 +16,18 @@
  </layer>
  <layer id="4" name="Buildings" width="4" height="4">
   <data encoding="csv">
-0,0,0,66,
-0,0,73,74,
-0,0,81,82,
-0,0,89,90
+0,0,0,0,
+0,0,0,0,
+1163,0,0,1164,
+0,0,0,0
 </data>
  </layer>
  <layer id="6" name="Paths" width="4" height="4">
   <data encoding="csv">
 0,0,0,0,
 0,0,0,0,
-0,0,0,0,
-0,8,0,0
+0,8,0,0,
+0,0,0,0
 </data>
  </layer>
  <layer id="8" name="Front" width="4" height="4">
