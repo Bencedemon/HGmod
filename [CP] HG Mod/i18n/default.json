@@ -835,149 +835,149 @@
   "Festival.Concert.Name": "Red Rockets koncert",
   "Festival.Concert.startedMessage": "A Red Rockets koncert elkezdődött a Hello Guys barlangban.",
 
-  "Festival.Concert.Leah_spouse": "",
-  "Festival.Concert.Elliott_spouse": "",
-  "Festival.Concert.Abigail_spouse": "",
-  "Festival.Concert.Sam_spouse": "",
-  "Festival.Concert.Sebastian_spouse": "",
-  "Festival.Concert.Harvey_spouse": "",
-  "Festival.Concert.Shane_spouse": "",
-  "Festival.Concert.Maru_spouse": "",
-  "Festival.Concert.Alex_spouse": "",
-  "Festival.Concert.Penny_spouse": "",
-  "Festival.Concert.Haley_spouse": "",
-  "Festival.Concert.Emily_spouse": "",
-  "Festival.Concert.Sandy_spouse": "",
+  "Festival.Concert.Leah_spouse": "Ez a zene annyira megfogott! Örülök, hogy együtt élvezhetjük.",//(AI)
+  "Festival.Concert.Elliott_spouse": "Micsoda dallamok! Olyan, mintha egy teljesen más világban lennénk.",//(AI)
+  "Festival.Concert.Abigail_spouse": "Imádom! Tökéletes koncert egy kis izgalomhoz.",//(AI)
+  "Festival.Concert.Sam_spouse": "Ez tényleg a mi stílusunk! Szívesen táncolnék rá veled is.",//(AI)
+  "Festival.Concert.Sebastian_spouse": "A sötét hangulat teljesen magával ragad... és jó érzés veled együtt hallgatni.",//(AI)
+  "Festival.Concert.Harvey_spouse": "Nagyszerű élmény! Jó, hogy együtt osztozhatunk ezen a pillanatot.",//(AI)
+  "Festival.Concert.Shane_spouse": "Ez üt! Örülök, hogy itt vagyok veled, és élvezhetjük együtt.",//(AI)
+  "Festival.Concert.Maru_spouse": "Érdekes hangzás, minden részlet lenyűgöz. Örülök, hogy veled nézhetem.",//(AI)
+  "Festival.Concert.Alex_spouse": "Ez feldobta a napomat! Szuper, hogy együtt hallgatjuk.",//(AI)
+  "Festival.Concert.Penny_spouse": "A dallamok gyönyörűek és elgondolkodtatóak... örülök, hogy melletted lehetek.",//(AI)
+  "Festival.Concert.Haley_spouse": "Ez a szám kicsit sötét, de valahogy mégis élvezem, főleg veled.",//(AI)
+  "Festival.Concert.Emily_spouse": "A ritmusok varázslatosak... szeretem, hogy együtt élvezhetjük a koncertet.",//(AI)
+  "Festival.Concert.Sandy_spouse": "Nagyszerű hangulat, kár lenne kihagyni! Jó, hogy együtt vagyunk.",//(AI)
   "Festival.Concert.Christopher_spouse": "Tudnál nekem hozni egy sört drágám?$7",
   "Festival.Concert.Bence_spouse": "",
   "Festival.Concert.Mark_spouse": "",
 
-  "Festival.Concert.Leah": "",
-  "Festival.Concert.Elliott": "",
-  "Festival.Concert.Leo": "",
+  "Festival.Concert.Leah": "Annyira inspiráló! A zene tele van szenvedéllyel... akár egy festmény, csak hangokkal.",//(AI)
+  "Festival.Concert.Elliott": "A szöveg mélyebb, mint vártam... szinte költői. Határozottan megérintett.",//(AI)
+  "Festival.Concert.Leo": "Olyan hangos... de valahogy mégis tetszik! A szívem hevesebben ver tőle.",//(AI)
 
   "Festival.Concert.Abigail": "Már három kört mertünka csillekocsikkal.$0#$b#Olyan izgalmas, nem tudok leállni.$h",
   "Festival.Concert.Sam": "Ha megkérdezném Kristófot, hogy lehetnénk e a következő koncertjükön az előzenekar, szerinted igent mondana?",
-  "Festival.Concert.Sebastian": "",
+  "Festival.Concert.Sebastian": "Komor hangulat, erős dallam... pontosan az én világom.",//(AI)
   
   "Festival.Concert.Robin": "Aú... drágám, ráléptél a lábamra!",//SUMMER11
   "Festival.Concert.Demetrius": "Ez fárasztó, édesem. Készen állsz meglátogatni a bárt? *liheg*",//SUMMER11
 
-  "Festival.Concert.Harvey": "",
-  "Festival.Concert.Shane": "",
-  "Festival.Concert.Maru": "",
+  "Festival.Concert.Harvey": "Kicsit hangos nekem... de be kell vallanom, a dallam magával ragadó.",//(AI)
+  "Festival.Concert.Shane": "Végre egy banda, ami tényleg odateszi magát. Ez ütött, mint egy korsó hideg sör!",//(AI)
+  "Festival.Concert.Maru": "Az effektek lenyűgözőek! Szívesen szétszedném a hangrendszert, hogy megnézzem, hogyan működik.",//(AI)
 
-  "Festival.Concert.Pierre": "",
-  "Festival.Concert.Caroline": "",
+  "Festival.Concert.Pierre": "Hm... ha ilyen sok embert hoz be a fesztivál, talán meg kéne fontolnom, hogy vinyleket áruljak a boltban.",//(AI)
+  "Festival.Concert.Caroline": "Érdekes... nem pont az én stílusom, de látom, mennyire lelkesít mindenkit.",//(AI)
 
-  "Festival.Concert.Linus": "",
-  
-  "Festival.Concert.Alex": "",
-  "Festival.Concert.George": "Az én időmben sokkal jobb zenék voltak.",
-  "Festival.Concert.Evelyn": "Nagyon hideg van ebben a barlangban, remélem jól felöltöztél.",
+  "Festival.Concert.Linus": "A zene nyers ereje emlékeztet a természet vad ritmusaira. Van benne valami őszinte.",//(AI)
 
-  "Festival.Concert.Lewis": "",
-  "Festival.Concert.Marnie": "",
-  "Festival.Concert.Gus": "",
+  "Festival.Concert.Alex": "Ez feldobott! Már majdnem olyan, mintha egy meccsen lennék a stadionban!",//(AI)
+  "Festival.Concert.George": "Túl hangos! Az én időmben még lehetett érteni a szöveget a dalokban.$a",//(AI) "Az én időmben sokkal jobb zenék voltak.",
+  "Festival.Concert.Evelyn": "Drágáim, ez nekem kicsit harsány... de örülök, hogy mindenki jól érzi magát.",//(AI) "Nagyon hideg van ebben a barlangban, remélem jól felöltöztél.",
+
+  "Festival.Concert.Lewis": "Remek ötlet volt ez a koncert. A városnak szüksége van ilyen közösségi élményekre.",//(AI)
+  "Festival.Concert.Marnie": "Micsoda energia! Ritkán látni a fiatalokat ennyire egy hullámhosszon.",//(AI)
+  "Festival.Concert.Gus": "Ez a buli szomjassá teszi az embert... szerencsére a pultomnál mindig van valami hűsítő!",//(AI)
 
   "Festival.Concert.Penny": "Úgyfest a gyerekek is nagyon élvezik a koncertet.$h",
   "Festival.Concert.Jas": "Sötét utakon...",
   "Festival.Concert.Vincent": "...kergetem az állmom.",
 
-  "Festival.Concert.Pam": "*szürcsöl* Ó, igen! Valamiért sokkal finomabb itt a sör mint a szalonban!$1",
+  "Festival.Concert.Pam": "*szürcsöl* Hehe, ez aztán az igazi zene! Jobban csúszik rá a sör is.$1",//(AI) "*szürcsöl* Ó, igen! Valamiért sokkal finomabb itt a sör mint a szalonban!$1",
   
-  "Festival.Concert.Haley": "",
-  "Festival.Concert.Emily": "",
-  "Festival.Concert.Sandy": "",
+  "Festival.Concert.Haley": "Hm... nem rossz, de szerintem túl sötét. Én valami vidámabbat hallgatnék inkább.",//(AI)
+  "Festival.Concert.Emily": "A ritmusok teljesen elvarázsoltak... olyan, mintha egy másik világban járnék.",//(AI)
+  "Festival.Concert.Sandy": "Végre egy kis pezsgés! A sivatagban ritkán hallok ilyesmit.",//(AI)
 
-  "Festival.Concert.Jodi": "",
-  "Festival.Concert.Kent": "",
+  "Festival.Concert.Jodi": "Kicsit kemény nekem, de legalább a gyerekek élvezik.",//(AI)
+  "Festival.Concert.Kent": "Erőteljes hangzás. Emlékeztet a katonai indulók nyers erejére.",//(AI)
 
-  "Festival.Concert.Willy": "",
-  "Festival.Concert.Clint": "",
+  "Festival.Concert.Willy": "Hah! A hullámok dübörgését idézi fel bennem. Ez aztán a muzsika!",//(AI)
+  "Festival.Concert.Clint": "Ez... tényleg jó. Talán ha többet járnék ilyen helyekre, nem lennék mindig egyedül.",//(AI)
 
   "Festival.Concert.Dwarf": "Hogy jutottál be ide?",
 
-  "Festival.Concert.Wizard": "",
+  "Festival.Concert.Wizard": "A sötét hangzás mélyebb erőket idéz meg... veszélyes, de lenyűgöző.",//(AI)
 
   "Festival.Concert.Christopher": "%Kristóf most egy kicsit elfoglaltnak tűnik.",
   "Festival.Concert.Bence": "",
   "Festival.Concert.Mark": "",
 
-  "Festival.Concert.Andy": "",
-  "Festival.Concert.Susan": "",
+  "Festival.Concert.Andy": "Huh, nem gondoltam volna, hogy ennyire el tud ragadni a zene. Ez ütős volt.",//(AI)
+  "Festival.Concert.Susan": "Ez fantasztikus! Rég nem éreztem magam ennyire szabadnak.",//(AI)
 
-  "Festival.Concert.Leah_spouse_y2": "",
-  "Festival.Concert.Elliott_spouse_y2": "",
-  "Festival.Concert.Abigail_spouse_y2": "",
-  "Festival.Concert.Sam_spouse_y2": "",
-  "Festival.Concert.Sebastian_spouse_y2": "",
-  "Festival.Concert.Harvey_spouse_y2": "",
-  "Festival.Concert.Shane_spouse_y2": "",
-  "Festival.Concert.Maru_spouse_y2": "",
-  "Festival.Concert.Alex_spouse_y2": "",
-  "Festival.Concert.Penny_spouse_y2": "",
-  "Festival.Concert.Haley_spouse_y2": "",
-  "Festival.Concert.Emily_spouse_y2": "*liheg* Lehet, hogy hamarosan pihennem kellene.$0#$e#Majd később együtt táncolhatnánk, oké?$1",//SUMMER11
-  "Festival.Concert.Sandy_spouse_y2": "",
+  "Festival.Concert.Leah_spouse_y2": "A zene egyszerre nyers és gyönyörű... jó érzés, hogy veled együtt élvezhetem.",//(AI)
+  "Festival.Concert.Elliott_spouse_y2": "Ez a dallam... igazi művészi élmény, és örülök, hogy mellettem vagy.",//(AI)
+  "Festival.Concert.Abigail_spouse_y2": "Ez az! Pont ilyen zenét szeretek hallgatni, veled együtt még jobb!",//(AI)
+  "Festival.Concert.Sam_spouse_y2": "Ez zseniális! Szívesen próbálnék én is játszani ilyet.",//(AI)
+  "Festival.Concert.Sebastian_spouse_y2": "Komor és erőteljes... jó érzés, hogy veled élvezhetem.",//(AI)
+  "Festival.Concert.Harvey_spouse_y2": "Kicsit hangos, de a dallam magával ragad. Örülök, hogy veled hallgathatom.",//(AI)
+  "Festival.Concert.Shane_spouse_y2": "Ez üt! Igazi rock energia, amit veled együtt még jobban élvezek.",//(AI)
+  "Festival.Concert.Maru_spouse_y2": "Lenyűgöző technika a hangszerek mögött... jó, hogy veled nézhetem.",//(AI)
+  "Festival.Concert.Alex_spouse_y2": "Ez feldob! A dobok minden ütését veled együtt érzem a szívemben.",//(AI)(!)
+  "Festival.Concert.Penny_spouse_y2": "A szöveg kicsit szomorkás, de veled mellettem teljesen szépséget találok benne.",//(AI)
+  "Festival.Concert.Haley_spouse_y2": "Kicsit túl sötét a számomra, de veled látni, hogy mindenki lelkes, nagyszerű érzés.",//(AI)
+  "Festival.Concert.Emily_spouse_y2": "A ritmusok varázslatosak... veled együtt elgondolkodtatnak és megnyugtatnak.",//(AI) "*liheg* Lehet, hogy hamarosan pihennem kellene.$0#$e#Majd később együtt táncolhatnánk, oké?$1",//SUMMER11
+  "Festival.Concert.Sandy_spouse_y2": "Végre pezsgő hangulat! Jó, hogy veled élvezhetjük a fesztivált.",//(AI)
   "Festival.Concert.Christopher_spouse_y2": "Két dal között tudnál hozni nekem egy sört?$7",
   "Festival.Concert.Bence_spouse_y2": "",
   "Festival.Concert.Mark_spouse_y2": "",
 
-  "Festival.Concert.Leah_y2": "",
-  "Festival.Concert.Elliott_y2": "",
-  "Festival.Concert.Leo_y2": "Még sose hallottam ehhez foghatót...$h",
+  "Festival.Concert.Leah_y2": "A zene egyszerre nyers és gyönyörű... alig tudom levenni róla a tekintetem.",//(AI)(!)
+  "Festival.Concert.Elliott_y2": "Ez a dallam... igazi művészi élmény! Mélyen megérintett.",//(AI)(!)
+  "Festival.Concert.Leo_y2": "Még sose hallottam ehhez foghatót...$h#$b#Olyan lendületes! A szívem is gyorsabban ver tőle.$0",//(HALF AI)
 
-  "Festival.Concert.Abigail_y2": "",
+  "Festival.Concert.Abigail_y2": "Ez az! Pont ilyen zenét szeretek hallgatni, kirázott a hideg!",
   "Festival.Concert.Sam_y2": "Lehet kérhetnék gitár leckéket a gitárostól.$0#$b#Úgyfest van még mit tanulnom.$h",
   "Festival.Concert.Sebastian_y2": "Ó, üdv. Te is távol akarsz lenni másoktól?$0",
   
-  "Festival.Concert.Robin_y2": "",
-  "Festival.Concert.Demetrius_y2": "",
+  "Festival.Concert.Robin_y2": "Fantasztikus energia árad belőlük! Ez a hangulat egyszerűen ragadós.",//(AI)
+  "Festival.Concert.Demetrius_y2": "Érdekes ritmusok és szöveg... elgondolkodtató és izgalmas.",//(AI)
 
-  "Festival.Concert.Harvey_y2": "",
-  "Festival.Concert.Shane_y2": "",
-  "Festival.Concert.Maru_y2": "",
+  "Festival.Concert.Harvey_y2": "Kicsit hangos, de a dallam magával ragad. Érdekes élmény.",//(AI)
+  "Festival.Concert.Shane_y2": "Ez üt! Igazi rock energia, amitől felpezsdülök!",//(AI)
+  "Festival.Concert.Maru_y2": "Lenyűgöző technika a hangszerek mögött... nagyon izgalmas elemezni.",//(AI)
 
-  "Festival.Concert.Pierre_y2": "",
-  "Festival.Concert.Caroline_y2": "",
+  "Festival.Concert.Pierre_y2": "Hm... talán érdemes lenne több ilyen eseményt szervezni a városban.",//(AI)
+  "Festival.Concert.Caroline_y2": "Érdekes... nem az én stílusom, de látom, mennyire élvezik a fiatalok.",//(AI)
 
-  "Festival.Concert.Linus_y2": "",
-  
-  "Festival.Concert.Alex_y2": "",
+  "Festival.Concert.Linus_y2": "A zene ereje a természet ritmusait idézi. Valami igazán különleges van benne.",//(AI)
+
+  "Festival.Concert.Alex_y2": "Ez feldob! A dobok minden ütését érzem a szívemben.",//(AI)
   "Festival.Concert.George_y2": "Borzalmas ez a zene.$a",
-  "Festival.Concert.Evelyn_y2": "",
+  "Festival.Concert.Evelyn_y2": "Olyan erős és lelkesítő a hangulat! Örülök, hogy mindenki élvezi.",//(AI)
 
-  "Festival.Concert.Lewis_y2": "",
-  "Festival.Concert.Marnie_y2": "",
-  "Festival.Concert.Gus_y2": "",
+  "Festival.Concert.Lewis_y2": "Remek közösségi élmény! A városnak szüksége van az ilyen rendezvényekre.",//(AI)
+  "Festival.Concert.Marnie_y2": "Micsoda energia! Szívesen csatlakoznék a tánchoz is.",//(AI)
+  "Festival.Concert.Gus_y2": "Ez a buli igazán szórakoztató... a pultnál mindenki vidám!",//(AI)
 
-  "Festival.Concert.Penny_y2": "",
-  "Festival.Concert.Jas_y2": "",
-  "Festival.Concert.Vincent_y2": "",
+  "Festival.Concert.Penny_y2": "A szöveg kicsit szomorkás, de szépséget találok benne.",//(AI)
+  "Festival.Concert.Jas_y2": "Olyan hangos! De annyira izgalmas, hogy nehéz nem élvezni.",//(AI)
+  "Festival.Concert.Vincent_y2": "Ez fantasztikus! A ritmus teljesen magával ragad.",//(AI)
 
-  "Festival.Concert.Pam_y2": "",
-  
-  "Festival.Concert.Haley_y2": "",
-  "Festival.Concert.Emily_y2": "*liheg* Csak a csípőmozgás számít!$0#$e#Azt hiszem hamarosan pihennem kell. Kezdek leizzadni!$0",//SUMMER11
-  "Festival.Concert.Sandy_y2": "",
+  "Festival.Concert.Pam_y2": "Hehe, ez a zene feldob! Tökéletes egy kis bulizáshoz.",//(AI)
 
-  "Festival.Concert.Jodi_y2": "",
-  "Festival.Concert.Kent_y2": "",
+  "Festival.Concert.Haley_y2": "Kicsit túl sötét a számomra, de látom, hogy mindenki lelkes.",//(AI)
+  "Festival.Concert.Emily_y2": "A ritmusok varázslatosak... elgondolkodtatnak és megnyugtatnak egyszerre.",//(AI)"*liheg* Csak a csípőmozgás számít!$0#$e#Azt hiszem hamarosan pihennem kell. Kezdek leizzadni!$0",//SUMMER11
+  "Festival.Concert.Sandy_y2": "Végre egy pezsgő hangulat! Igazi fesztivál érzés.",//(AI)
 
-  "Festival.Concert.Willy_y2": "",
-  "Festival.Concert.Clint_y2": "",
+  "Festival.Concert.Jodi_y2": "Kicsit hangos, de örülök, hogy a gyerekek élvezik.",//(AI)
+  "Festival.Concert.Kent_y2": "Erőteljes hangzás! Lenyűgöző az energia, amit árasztanak.",//(AI)
+
+  "Festival.Concert.Willy_y2": "A hangzás emlékeztet a hullámok dübörgésére. Igazán nagyszerű!",//(AI)
+  "Festival.Concert.Clint_y2": "Ez tényleg jó! Nem minden nap hallok ilyen zenét.",//(AI)
 
   "Festival.Concert.Dwarf_y2": "Hogy találtál meg?",
 
-  "Festival.Concert.Wizard_y2": "",
+  "Festival.Concert.Wizard_y2": "A sötét hangok különös erőket idéznek... lenyűgöző és veszélyes egyszerre.",//(AI)
 
   "Festival.Concert.Christopher_y2": "%Kristóf most egy kicsit elfoglaltnak tűnik.",
   "Festival.Concert.Bence_y2": "",
   "Festival.Concert.Mark_y2": "",
 
-  "Festival.Concert.Andy_y2": "",
-  "Festival.Concert.Susan_y2": "",
+  "Festival.Concert.Andy_y2": "Huh, a zene minden ütemét érzem! Ez igazán ütős.",//(AI)
+  "Festival.Concert.Susan_y2": "Ez fantasztikus! Olyan felszabadító érzés.",//(AI)
 
   //==================//
   // Christopher NPC  //
