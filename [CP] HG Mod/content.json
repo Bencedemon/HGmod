@@ -181,11 +181,11 @@
           "Action": "Include",
           "FromFile": "Data/Items/Weapons.json"
         },
-        /*{
+        {
           "LogName": "AdditionalWallpaperFlooring",
           "Action": "Include",
           "FromFile": "Data/Items/AdditionalWallpaperFlooring.json"
-        },*/
+        },
         {
           "LogName": "Maps",
           "Action": "Include",

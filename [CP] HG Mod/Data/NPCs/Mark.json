@@ -47,10 +47,9 @@
                 "Height": 4
               },
               "SpriteAnimationFrames": [
-                [
-                  40,
-                  500
-                ]
+                [53,1000],
+                [54,100],
+                [53,1000]
               ],
               "SpriteAnimationPixelOffset": {
                 "X": 0,
@@ -96,7 +95,7 @@
             },
             "HiddenProfileEmoteSound": null,
             "HiddenProfileEmoteDuration": 1000,
-            "HiddenProfileEmoteStartFrame": 40,
+            "HiddenProfileEmoteStartFrame": 53,
             "HiddenProfileEmoteFrameCount": 1,
             "HiddenProfileEmoteFrameDuration": 200.0,
             "CustomFields": {}

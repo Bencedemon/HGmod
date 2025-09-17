@@ -399,67 +399,67 @@
   "BigCraftables.SakeBarrel.Desc": "Rakj bele egy rizst. Idővel szaké lesz belőle.",
 
   //Items (Food)
-  "FoodItem.Langos.Name":"Lángos",
-  "FoodItem.Langos.Desc":"A magyar konyha hagyományos, lágy kelt tésztából készülő, sült lepény.",//A delicious Hungarian deep-fried bread.
+  "FoodItem.Langos.Name": "Lángos",
+  "FoodItem.Langos.Desc": "A magyar konyha hagyományos, lágy kelt tésztából készülő, sült lepénye.",//A delicious Hungarian deep-fried bread.
 
-  "Palinka.Name":"Pálinka",
-  "Palinka.Flavored":"{0} Pálinka",
-  "Palinka.Desc":"Hagyományos magyar gyümölcspárlat, melyet kizárólag erjesztett gyümölcscefre vagy gyümölcsvelő lepárlásával készítenek.",
+  "Palinka.Name": "Pálinka",
+  "Palinka.Flavored": "{0} Pálinka",
+  "Palinka.Desc": "Hagyományos magyar gyümölcspárlat, melyet kizárólag erjesztett gyümölcscefre vagy gyümölcsvelő lepárlásával készítenek.",
 
-  "FoodItem.Hotdog.Name":"Hotdog",
-  "FoodItem.Hotdog.Desc":"Népszerű, gyorséttermi étel, mely egy virsli és egy puha, hosszúkás kifli kombinációjából áll",
+  "FoodItem.Hotdog.Name": "Hotdog",
+  "FoodItem.Hotdog.Desc": "Népszerű, gyorséttermi étel, mely egy virsli és egy puha, hosszúkás kifli kombinációjából áll",
 
-  "FoodItem.Pretzel.Name":"Perec",
-  "FoodItem.Pretzel.Desc":"Sós péksütemény, melynek jellegzetes formája egy összefonódó, majd visszaforduló tésztacsíkból áll.",
+  "FoodItem.Pretzel.Name": "Perec",
+  "FoodItem.Pretzel.Desc": "Sós péksütemény, melynek jellegzetes formája egy összefonódó, majd visszaforduló tésztacsíkból áll.",
   
-  "FoodItem.Popcorn.Name":"Pattogatott kukorica",
-  "FoodItem.Popcorn.Desc":"Pattogatott kukoricamag, könnyed sóba hintve és vajjal megkenve.", //Popped kernels of corn, dusted lightly with salt and drizzled with butter.
+  "FoodItem.Popcorn.Name": "Pattogatott kukorica",
+  "FoodItem.Popcorn.Desc": "Pattogatott kukoricamag, könnyed sóba hintve és vajjal megkenve.", //Popped kernels of corn, dusted lightly with salt and drizzled with butter.
   
-  "FoodItem.CottonCandy.Name":"Vattacukor",//Cotton Candy
-  "FoodItem.CottonCandy.Desc":"Egy hatalmas, rózsaszín felhőnyi fonott cukor.", //A large pink cloud of spun sugar.
+  "FoodItem.CottonCandy.Name": "Vattacukor",//Cotton Candy
+  "FoodItem.CottonCandy.Desc": "Egy hatalmas, rózsaszín felhőnyi fonott cukor.", //A large pink cloud of spun sugar.
   
   "FoodItem.Fries.Name": "Sültkrumpli",
   "FoodItem.Fries.Desc": "Vékony burgonyaszeletek, amiket jól átsütnek, majd könnyedén megsóznak.", //Thin slices of potato, deep fried and then lightly salted.
 
-  "FoodItem.StrawberrySundae.Name":"Strawberry Sundae",
-  "FoodItem.StrawberrySundae.Desc":"Nem csak gyerekeknek való.",
+  "FoodItem.StrawberrySundae.Name": "Strawberry Sundae",
+  "FoodItem.StrawberrySundae.Desc": "Nem csak gyerekeknek.",//Not just for kids.
 
-  "FoodItem.Lemonade.Name":"Limonádé",
-  "FoodItem.Lemonade.Desc":"Frissítő ital.",
+  "FoodItem.Lemonade.Name": "Limonádé",
+  "FoodItem.Lemonade.Desc": "Frissítő ital.",
 
-  "FoodItem.IceTea.Name":"Jeges tea",
-  "FoodItem.IceTea.Desc":"Citrommal ízesített hűsítő ital.",
+  "FoodItem.IceTea.Name": "Jeges tea",
+  "FoodItem.IceTea.Desc": "Citrommal ízesített hűsítő ital.",
 
-  "FoodItem.Sake.Name":"Szaké",
-  "FoodItem.Sake.Desc":"Enyhén édes, tiszta lecsengésű, és finom (umami) ízzel rendelkezik.",
+  "FoodItem.Sake.Name": "Szaké",
+  "FoodItem.Sake.Desc": "Enyhén édes, tiszta lecsengésű, és finom (umami) ízzel rendelkezik.",
 
-  "FoodItem.ChimneyCake.Name":"Kürtöskalács",
-  "FoodItem.ChimneyCake.Desc":"Parázs fölött forgatott, dorongon sült sütemény.",
+  "FoodItem.ChimneyCake.Name": "Kürtöskalács",
+  "FoodItem.ChimneyCake.Desc": "Parázs fölött forgatott, dorongon sült sütemény.",
 
-  "FoodItem.PizzaHun.Name":"Magyaros pizza",
-  "FoodItem.PizzaHun.Desc":"Erős, füstös, és minden falatban ott a paprika.",
+  "FoodItem.PizzaHun.Name": "Magyaros pizza",
+  "FoodItem.PizzaHun.Desc": "Erős, füstös, és minden falatban ott a paprika.",
 
-  "FoodItem.TropicThunder.Name":"Trópusi vihar",
-  "FoodItem.TropicThunder.Desc":"...",
+  "FoodItem.TropicThunder.Name": "Trópusi vihar",
+  "FoodItem.TropicThunder.Desc": "Különleges ital, a szigeten találató növényekből készül.",
 
   //Items (Object)
-  "Object.ChrisFishingrod.Name":"Elveszett horgászbot",
-  "Object.ChrisFishingrod.Desc":"Kristóf elveszett horgászbotja.",
+  "Object.ChrisFishingrod.Name": "Elveszett horgászbot",
+  "Object.ChrisFishingrod.Desc": "Kristóf elveszett horgászbotja.",
 
-  "Object.PizzaBox.Name":"Üres pizzás doboz",
-  "Object.PizzaBox.Desc":"Ez csak szemét.",
+  "Object.PizzaBox.Name": "Üres pizzás doboz",
+  "Object.PizzaBox.Desc": "Ez csak szemét.",
 
-  "Object.Sawdust.Name":"Fűrészpor",
-  "Object.Sawdust.Desc":"(Csak eladás)",
+  "Object.Sawdust.Name": "Fűrészpor",
+  "Object.Sawdust.Desc": "(Csak eladás)",
 
-  "Object.Plankwood.Name":"Fa deszka",
-  "Object.Plankwood.Desc":"(Csak eladás)",
+  "Object.Plankwood.Name": "Fa deszka",
+  "Object.Plankwood.Desc": "(Csak eladás)",
 
-  "Object.SawdustHW.Name":"Fűrészpor (Keményfa)",
-  "Object.SawdustHW.Desc":"(Csak eladás)",
+  "Object.SawdustHW.Name": "Fűrészpor (Keményfa)",
+  "Object.SawdustHW.Desc": "(Csak eladás)",
 
-  "Object.PlankwoodHW.Name":"Keményfa deszka",
-  "Object.PlankwoodHW.Desc":"(Csak eladás)",
+  "Object.PlankwoodHW.Name": "Keményfa deszka",
+  "Object.PlankwoodHW.Desc": "(Csak eladás)",
 
   "Object.Fishing-elixir.Name": "Horgász Elixír",
   "Object.Fishing-elixir.Desc": "Kristóf saját készítésű elixírje. (Én nem innám meg.)",
@@ -470,11 +470,11 @@
   "Object.Lemon-sapling.Name": "Citromfa csemete",
   "Object.Lemon-sapling.Desc": "28 nap múlva érik meg, és citromfa lesz belőle. Minden évszakban hoz gyümölcsöt. Csak akkor nő meg, ha a 8 környező \"négyzet\" üres.",
 
-  "Object.HGToken.Name":"Hello Guys Zseton",
-  "Object.HGToken.Desc":"A zseton segítségével értékes jutalmakat válthatsz ki a Hello Guys barlangban.",
+  "Object.HGToken.Name": "Hello Guys Zseton",
+  "Object.HGToken.Desc": "A zseton segítségével értékes jutalmakat válthatsz ki a Hello Guys barlangban.",
 
-  "Object.IstiGuitar.Name":"Régi gitár",
-  "Object.IstiGuitar.Desc":"Isti régi gitárja.",
+  "Object.IstiGuitar.Name": "Régi gitár",
+  "Object.IstiGuitar.Desc": "Isti régi gitárja.",
 
   //Items (Shirts)
   "Shirt.ChrisShirt.Name": "Farmer dzseki",
@@ -540,17 +540,17 @@
   "Furniture.IstiPortrait": "Isti portréja",
 
   //Hats
-  "Hat.ChrisMask.Name":"Kristóf maszk",
-  "Hat.ChrisMask.Desc":"Sziasztók én Kristóf vagyók.",
+  "Hat.ChrisMask.Name": "Kristóf maszk",
+  "Hat.ChrisMask.Desc": "Sziasztók én Kristóf vagyók.",
 
-  "Hat.BenceMask.Name":"Bence maszk",
-  "Hat.BenceMask.Desc":"...",
+  "Hat.BenceMask.Name": "Bence maszk",
+  "Hat.BenceMask.Desc": "...",
 
-  "Hat.MarkMask.Name":"Márk maszk",
-  "Hat.MarkMask.Desc":"Kon'nichiwa. Watashinonamaeha Mākudesu.",
+  "Hat.MarkMask.Name": "Márk maszk",
+  "Hat.MarkMask.Desc": "Kon'nichiwa. Watashinonamaeha Mākudesu.",
 
-  "Hat.IstiMask.Name":"Isti maszk",
-  "Hat.IstiMask.Desc":"...",
+  "Hat.IstiMask.Name": "Isti maszk",
+  "Hat.IstiMask.Desc": "Omae wa mou shindeiru.",
 
   //Weapons
   "Weapon.Rebellion.Name": "Rebellion",
@@ -572,7 +572,7 @@
   "Weapon.SpectralSword.Description": "Ez a kísérteties kard képes kísértetpengéket kilőni.", //This ghastly sword has the power to shoot out spectral blades.
   
   "Weapon.CF.Name": "Kristóf horgászbotja",
-  "Weapon.CF.Description": "...", 
+  "Weapon.CF.Description": "Horgászásra alkalmatlan.", 
   
   "Weapon.BencesAxe.Name": "Bence baltája",
   "Weapon.BencesAxe.Description": "Here's Johnny!", //Here's Johnny
@@ -586,7 +586,7 @@
   "BenceCabin.Phone": "Önnek 3db nem fogadott üzenete van.",
   "BenceCabin.Laptop": "Bence laptopja.",
   "BenceCabin.Papers": "Papers", //DELTED
-  "BenceCabin.Fridge": "Fridge",
+  "BenceCabin.Fridge": "Egy eléggé üres hűtőszekrény, csak nagyon kevés dolog van benne.",
   "BenceCabin.Pizza": "Egy pizza valószínüleg a szalonból.",
   "BenceCabin.Firewood": "Frissen vágott fahasábok.",
   "BenceCabin.Furnace": "Furnace", //DELTED
@@ -736,11 +736,11 @@
   "Mail.MarkReward2": "Csá @!^^Köszönöm a keményfát. Robinnal már neki is láttunk a tábla építéséhez ha van időd gyere és nézd meg mit alkottunk.^^ -Márk ^^UI: A segítségért cserébe megosztok veled egy igazán hasznos receptet ;)%item craftingRecipe SakeBarrel%%[#]Márk táblája",
 
   "Isti_SO.Name": "Trópusi vihar",
-  "Isti_SO.Text": "Újra el szeretném készíteni a régi italomat amit még a szigeten ittam. Valaki tudna nekem hozni hozzá alapanyagot?",
+  "Isti_SO.Text": "Újra el szeretném készíteni a régi italomat amit még a szigeten ittam. Valaki tudna nekem hozni hozzá alapanyagokat?",
   "Isti_SO.Objective_0": "Gyűjts be 25 '{Isti_Fruit:Text}'-t.",
   "Isti_SO.Objective_1": "Szállíts le Istinek a 25db '{Isti_Fruit:Text}'-t.",
 
-  "Mail.IstiReward": "Csá @!^Köszönöm az alapanyagokat. ^^ -Isti%item cookingRecipe TropicThunder%%[#]Trópusi vihar",
+  "Mail.IstiReward": "Csá @!^Köszönöm az alapanyagokat. Ez az ital sok régi emléket hoz vissza. Ha te is ki szeretnéd próbálni, elküldtem a receptjét.^^ -Isti%item cookingRecipe TropicThunder%%[#]Trópusi vihar",
 
   //Special Order Events
   "SO_Event.Mark.01": "Csá @.#$b#Most indulok a bányász kalandomra és gondoltam előtte beugrok, hogy személyesen is köszönetet tudjak mondani.",
@@ -799,7 +799,7 @@
   "HG_Cave.Unlock.11": "Biztos jó ötlet, hogy én itt bütykölöm a dentonátort miközben a Márk, tudod...",
   "HG_Cave.Unlock.12": "Csak nem lesz gond.",
   "HG_Cave.Unlock.13": "Oké, kész vagyok.",
-  "HG_Cave.Unlock.14": "Oké, én is megvagyok.",
+  "HG_Cave.Unlock.14": "Oké... én is megvagyok.",
   "HG_Cave.Unlock.15": "Gyere @, legyen tiéd a megtiszteltetés.",
   "HG_Cave.Unlock.16": "Hát, talán sikerült.",
   "HG_Cave.Unlock.17": "Menjünk nézzük meg!",
@@ -807,13 +807,13 @@
   "HG_Cave.Unlock.19": "Mondjuk én egy kicsit több ércre számítottam.$s",
   "HG_Cave.Unlock.20": "A ládákban sincs semmi.",
   "HG_Cave.Unlock.21": "Hát ja, ez mondjuk tényleg nem túl jó.",
-  "HG_Cave.Unlock.22": "De basszus, tök menő ez a hely, valamit csak kéne kezdenünk vele.",
-  "HG_Cave.Unlock.23": "Csak magunknak azért egy kicsit nagy.",
-  "HG_Cave.Unlock.24": "Meg nem igazán látok halakat a vízben.",
-  "HG_Cave.Unlock.25": "Sajnos nincs itt sokminden, hogy bármit is lehessen csinálni.",
+  "HG_Cave.Unlock.22": "De basszus, tök menő ez a hely, valamire csak jó.",
+  "HG_Cave.Unlock.23": "Csak magunknak azért egy kicsit nagy.",//(!)
+  "HG_Cave.Unlock.24": "Meg nem igazán látok halakat a vízben.",//(!)
+  "HG_Cave.Unlock.25": "Sajnos nincs itt sokminden, hogy bármit is lehessen csinálni.",//(!)
   "HG_Cave.Unlock.26": "És mi lenne ha lenne.",
   "HG_Cave.Unlock.27": "Mert mire gondolsz Bence?",
-  "HG_Cave.Unlock.28": "Nyithatnánk ide egy szórakozó helyet. Mint egy kis kaland parkot.#$b#Ide akár kerülhetne egy kilátó.",
+  "HG_Cave.Unlock.28": "Nyithatnánk ide egy szórakozó helyet. Mondjuk egy kaland parkot.#$b#Ide akár kerülhetne akár egy kilátó.",
   "HG_Cave.Unlock.29": "Ide meg akár kerülhetne egy jó kis bár, piával meg mindennel.",
   "HG_Cave.Unlock.30": "Akár.",
   "HG_Cave.Unlock.31": "Valószínűleg sok munka lesz és rengeteg nyersanyagra lesz szükségünk.",
@@ -827,7 +827,7 @@
 
   //HG Cave Opening
   "HG_Cave.Opening.01": "Hát @, megcsináltuk.",
-  "HG_Cave.Opening.02": "Szeretnék gratulálni mindegyikőtöknek.$0#$b#Hála nektek a völgy hamarosan felkerül a térképre.$h",
+  "HG_Cave.Opening.02": "Szeretnék gratulálni mindegyikőtöknek.$0#$b#Hála nektek a kis városunk hamarosan felkerül a térképre.$h",
   "HG_Cave.Opening.03": "Figyelj @, lehet sikerült mindent felépítenünk, de csak az én farmom nem lesz elég hogy fel is tudjuk tartani a helyet.#$b#Szóval ha esetleg be tudnál segíteni azt megköszönném.#$b#Vasárnaponként 10-től 18-ig itt leszek a bár mellett, hogy átvegyem amit leszállítasz.",
   "HG_Cave.Opening.04": "Jólvan csak ennyit akartam, ideje szórakozni.$h",
 
@@ -849,9 +849,9 @@
   "Festival.Concert.Emily_spouse": "A ritmusok varázslatosak... szeretem, hogy együtt élvezhetjük a koncertet.",//(AI)
   "Festival.Concert.Sandy_spouse": "Nagyszerű hangulat, kár lenne kihagyni! Jó, hogy együtt vagyunk.",//(AI)
   "Festival.Concert.Christopher_spouse": "Tudnál nekem hozni egy sört drágám?$7",
-  "Festival.Concert.Bence_spouse": "",
-  "Festival.Concert.Mark_spouse": "",
-  "Festival.Concert.Isti_spouse": "",
+  "Festival.Concert.Bence_spouse": "Na drágám? Te élvezed a koncertet?$h",//(!)
+  "Festival.Concert.Mark_spouse": "Tessék kedvesem![346]$0#$b#Ne aggódj, ház ajándéka.$h",//(!)
+  "Festival.Concert.Isti_spouse": "Mióta vissza költöztem nem hagytam ki bátysz egyetlen koncertjét sem.$h",//(!)
 
   "Festival.Concert.Leah": "Annyira inspiráló! A zene tele van szenvedéllyel... akár egy festmény, csak hangokkal.",//(AI)
   "Festival.Concert.Elliott": "A szöveg mélyebb, mint vártam... szinte költői. Határozottan megérintett.",//(AI)
@@ -902,9 +902,9 @@
   "Festival.Concert.Wizard": "A sötét hangzás mélyebb erőket idéz meg... veszélyes, de lenyűgöző.",//(AI)
 
   "Festival.Concert.Christopher": "%Kristóf most egy kicsit elfoglaltnak tűnik.",
-  "Festival.Concert.Bence": "",
-  "Festival.Concert.Mark": "",
-  "Festival.Concert.Isti": "",
+  "Festival.Concert.Bence": "Na @? Te élvezed a koncertet?$h",//(!)
+  "Festival.Concert.Mark": "Tessék @![346]$0#$b#Ne aggódj, ház ajándéka.$h",//(!)
+  "Festival.Concert.Isti": "Mióta vissza költöztem nem hagytam ki bátysz egyetlen koncertjét sem.$h",
 
   "Festival.Concert.Andy": "Huh, nem gondoltam volna, hogy ennyire el tud ragadni a zene. Ez ütős volt.",//(AI)
   "Festival.Concert.Susan": "Ez fantasztikus! Rég nem éreztem magam ennyire szabadnak.",//(AI)
@@ -917,18 +917,18 @@
   "Festival.Concert.Harvey_spouse_y2": "Kicsit hangos, de a dallam magával ragad. Örülök, hogy veled hallgathatom.",//(AI)
   "Festival.Concert.Shane_spouse_y2": "Ez üt! Igazi rock energia, amit veled együtt még jobban élvezek.",//(AI)
   "Festival.Concert.Maru_spouse_y2": "Lenyűgöző technika a hangszerek mögött... jó, hogy veled nézhetem.",//(AI)
-  "Festival.Concert.Alex_spouse_y2": "Ez feldob! A dobok minden ütését veled együtt érzem a szívemben.",//(AI)(!)
+  "Festival.Concert.Alex_spouse_y2": "Ez feldob! A dobok minden ütését érzem a szívemben.",//(AI)
   "Festival.Concert.Penny_spouse_y2": "A szöveg kicsit szomorkás, de veled mellettem teljesen szépséget találok benne.",//(AI)
   "Festival.Concert.Haley_spouse_y2": "Kicsit túl sötét a számomra, de veled látni, hogy mindenki lelkes, nagyszerű érzés.",//(AI)
   "Festival.Concert.Emily_spouse_y2": "A ritmusok varázslatosak... veled együtt elgondolkodtatnak és megnyugtatnak.",//(AI) "*liheg* Lehet, hogy hamarosan pihennem kellene.$0#$e#Majd később együtt táncolhatnánk, oké?$1",//SUMMER11
   "Festival.Concert.Sandy_spouse_y2": "Végre pezsgő hangulat! Jó, hogy veled élvezhetjük a fesztivált.",//(AI)
   "Festival.Concert.Christopher_spouse_y2": "Két dal között tudnál hozni nekem egy sört?$7",
-  "Festival.Concert.Bence_spouse_y2": "",
-  "Festival.Concert.Mark_spouse_y2": "",
-  "Festival.Concert.Isti_spouse_y2": "",
+  "Festival.Concert.Bence_spouse_y2": "Légy óvatos a színpadnál drágám.$0#$b#Nehogy Kristóf stage dive-oljon egyet.$u",
+  "Festival.Concert.Mark_spouse_y2": "Gyere drágám! Igyunk egy sört.[346]$h",
+  "Festival.Concert.Isti_spouse_y2": "Elég metál egy barlangban koncertezni.",//(!)
 
   "Festival.Concert.Leah_y2": "A zene egyszerre nyers és gyönyörű... alig tudom levenni róla a tekintetem.",//(AI)(!)
-  "Festival.Concert.Elliott_y2": "Ez a dallam... igazi művészi élmény! Mélyen megérintett.",//(AI)(!)
+  "Festival.Concert.Elliott_y2": "Ez a dallam... igazi művészi élmény! Mélyen megérintett.",//(AI)
   "Festival.Concert.Leo_y2": "Még sose hallottam ehhez foghatót...$h#$b#Olyan lendületes! A szívem is gyorsabban ver tőle.$0",//(HALF AI)
 
   "Festival.Concert.Abigail_y2": "Ez az! Pont ilyen zenét szeretek hallgatni, kirázott a hideg!",
@@ -976,9 +976,9 @@
   "Festival.Concert.Wizard_y2": "A sötét hangok különös erőket idéznek... lenyűgöző és veszélyes egyszerre.",//(AI)
 
   "Festival.Concert.Christopher_y2": "%Kristóf most egy kicsit elfoglaltnak tűnik.",
-  "Festival.Concert.Bence_y2": "",
-  "Festival.Concert.Mark_y2": "",
-  "Festival.Concert.Isti_y2": "",
+  "Festival.Concert.Bence_y2": "Légy óvatos a színpadnál.$0#$b#Nehogy Kristóf stage dive-oljon egyet.$u",
+  "Festival.Concert.Mark_y2": "Gyere @! Igyunk egy sört.[346]$h",
+  "Festival.Concert.Isti_y2": "Elég metál egy barlangban koncertezni.",//(!)
 
   "Festival.Concert.Andy_y2": "Huh, a zene minden ütemét érzem! Ez igazán ütős.",//(AI)
   "Festival.Concert.Susan_y2": "Ez fantasztikus! Olyan felszabadító érzés.",//(AI)
@@ -1030,7 +1030,7 @@
   //"Christopher.RejectMermaidPendant_Under8Hearts": "-",
   //"Christopher.RejectMermaidPendant_Under10Hearts": "-",
   //"Christopher.RejectMermaidPendant": "-",
-  //"Christopher.Dating":"-",
+  //"Christopher.Dating": "-",
 
   //FESTIVALS
   "Christopher.FlowerDance_Accept": "Tényleg velem akarsz táncolni? $l#$b#Addig még megiszok pár sört aztán csapathatjuk. $h",
@@ -1411,7 +1411,7 @@
   //"Bence.RejectMermaidPendant_Under8Hearts": "-",
   //"Bence.RejectMermaidPendant_Under10Hearts": "-",
   //"Bence.RejectMermaidPendant": "-",
-  //"Bence.Dating":"-",
+  //"Bence.Dating": "-",
 
   //SPECIFIC MAP AND COORDINATES DIALOGUE
   "Bence.LocationDialogue.SeedShop": "Hmm... elfelejtettem mit akartam venni.$u",
@@ -1741,8 +1741,8 @@
   //"Mark.RejectMermaidPendant_Under8Hearts": "-",
   //"Mark.RejectMermaidPendant_Under10Hearts": "-",
   //"Mark.RejectMermaidPendant": "-",
-  //"Mark.Dating":"-",
-  //"Mark.SpouseStardrop":"-",
+  //"Mark.Dating": "-",
+  //"Mark.SpouseStardrop": "-",
 
   //SPECIFIC MAP AND COORDINATES DIALOGUE
   "Mark.LocationDialogue.SeedShop": "Eljött az ideje a heti bevásárlásnak.",
@@ -1797,7 +1797,7 @@
   "Mark.WinterCharacterDialogue.006": "Építünk hóembereket?",
   "Mark.WinterCharacterDialogue.007": "Kon'nichiwa. Watashinonamaeha mākudesu.$h#$b#Próbálok megtanulni japánul.$0",//(!)
   "Mark.WinterCharacterDialogue.008": "Ilyen hidegben fűteni kell?",
-  "Mark.WinterCharacterDialogue.009": "Egyszer annyi hó esett, hogy bent ragadtam a bányákban.#$b#Három napba telt mire kiástak.",//(!) hóesés helyett lavina
+  "Mark.WinterCharacterDialogue.009": "Egyszer egy kisseb lavina miatt bent ragadtam a bányákban.#$b#Három napba telt mire kiástak.",
   "Mark.WinterCharacterDialogue.010": "Remélem idén nem fagy be a kerti tavam.",
   "Mark.WinterCharacterDialogue.011": "Vajon az idei hó is hamar el fog olvadni?",
 
@@ -1977,9 +1977,9 @@
   "Mark.CommunityDay.01": "Mikor ideköltöztem ez a hely egy romhalmaz volt.#$b#Most pedig jobb mint valaha.",
   "Mark.CommunityDay.02": "Emily megígérte hogy készít nekem új kimonót.",
   "Mark.CommunityDay.03": "Emlékszek mikor ideköltöztünk néha esténként belógtunk a többiekkel piálni.$0#$b#Azok voltak a szép idők.$h",
-  "Mark.CommunityDay.04": "$y 'Kérsz egy sört?_Igen, kérek._Tessék![346] $h_Köszönöm, de most nem kérek._Oké...'",//(!)
+  "Mark.CommunityDay.04": "$y 'Kérsz egy sört?_Igen, kérek._Tessék![346] $h_Köszönöm, de most nem kérek._Oké...'",
   //CommunityDay - MARRIED
-  "Mark.CommunityDay.05": "Szeretnénk elosonni és egy kis időt lopni magunknak?$l",//(!)
+  "Mark.CommunityDay.05": "Szeretnél elosonni és egy kis időt lopni magunknak?$l",
   "Mark.CommunityDay.06": "Ha gondolod elmehetnénk sétálni kettesben.$l",
   "Mark.CommunityDay.07": "Összel olyan szépek a fák a hegyekben, ha gondolod később megleshetnénk.$l",
   "Mark.CommunityDay.08": "Igyunk az egészségünkre.[346]$h",
@@ -2001,7 +2001,7 @@
   "Mark.funLeave.summer": "*sóhaj* Le fogok égni mire elérek a szalonba.",
   "Mark.funReturn.summer": "Huh... Nagyon meleg van kint.",
   "Mark.funLeave.fall": "Később jövök.#$e#Elmegyek inni a többiekkel a szalonba.",
-  "Mark.funReturn.fall": "*böff* Lehet a tekila már nem kelett volna.",//(!)
+  "Mark.funReturn.fall": "*böff* Lehet a tekila már nem kelett volna.",
   "Mark.funLeave.winter": "Ellapátoltad az összes havat az útból?",
   "Mark.funReturn.winter": "Öltözz fel melegen, hideg van!",
 
@@ -2142,7 +2142,7 @@
   //"Isti.RejectMermaidPendant_Under8Hearts": "-",
   //"Isti.RejectMermaidPendant_Under10Hearts": "-",
   //"Isti.RejectMermaidPendant": "-",
-  //"Isti.Dating":"-",
+  //"Isti.Dating": "-",
 
   //FESTIVALS
   "Isti.FlowerDance_Accept": "Na, ez lesz ám az igazi headbangelős tánc, készülj! $h",

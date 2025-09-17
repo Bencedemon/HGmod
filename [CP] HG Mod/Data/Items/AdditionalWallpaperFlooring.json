@@ -1,0 +1,36 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/AdditionalWallpaperFlooring",
+            "Entries": {
+                "HG_ExtraWallpapers": { // for technical reasons, you need to specify the ID here *and* in the "ID" field
+                    "ID": "HG_ExtraWallpapers",
+                    "Texture": "Mods/Bencedemon.HG/HG_Wallpapers",
+                    "IsFlooring": false,
+                    "Count": 2
+                },
+                "HG_ExtraFloorings": { // for technical reasons, you need to specify the ID here *and* in the "ID" field
+                    "ID": "HG_ExtraFloorings",
+                    "Texture": "Mods/Bencedemon.HG/HG_Floorings",
+                    "IsFlooring": true,
+                    "Count": 4
+                }
+            }
+        },
+
+        // load wallpaper tilesheet
+        {
+            "Action": "Load",
+            "Target": "Mods/Bencedemon.HG/HG_Wallpapers",
+            "FromFile": "Assets/Textures/HG_Wallpapers.png"
+        },
+
+        // load flooring tilesheet
+        {
+            "Action": "Load",
+            "Target": "Mods/Bencedemon.HG/HG_Floorings",
+            "FromFile": "Assets/Textures/HG_Floorings.png"
+        }
+    ]
+}
