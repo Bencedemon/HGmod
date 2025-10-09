@@ -1161,19 +1161,17 @@
   //Christopher Events
   
   //2heart
-  "Christopher.2heart.01": "Csáó @!",
-  "Christopher.2heart.02": "Nem bántad meg, hogy ide költöztél?", //Játékos kristóf felé fordul
-  "Christopher.2heart.03": "Én nem igazán bántam meg, bár azt se tagadhatom, hogy azért hiányzik a városi élet.$s#$b#Mikor Bence először felvetette a költözés ötletét.",
+  "Christopher.2heart.01": "Kéne egy kis segítség!",
+  "Christopher.2heart.02": "Tartsad, mindjárt megvan!",
+  "Christopher.2heart.03": "Francba, leakadt.$s",
+  "Christopher.2heart.04": "Azért köszi a segítséget @.$h",
 
   "Christopher.2heart.Question.01": "Kérsz egy sört?",
   "Christopher.2heart.Answer.01": "Igen, elfogadom.",
   "Christopher.2heart.Answer.02": "Köszönöm, de most nem kérek.",
 
-  "Christopher.2heart.Question.02": "(Mit válaszolsz?)",
-  "Christopher.2heart.Answer.03": "Igen, egy kicsit.",
-  "Christopher.2heart.Answer.04": "Nem, eggyáltalán nem bántam meg.",
-
-  "Christopher.2heart.10": "Okés, így legalább több jut nekem. $h",
+  "Christopher.2heart.05": "Okés, így legalább több jut nekem. $h",
+  "Christopher.2heart.06": "Akkor egészségünkre! $h",
 
   //4heart
   "Christopher.4heart.01": "Öhh... *böff* te vagy az @?$6",
@@ -1188,10 +1186,13 @@
   "Christopher.4heart.05": "Oké megvan... $6",
 
   //6heart
-  "Christopher.6heart.01": "Csá @!$7",
-  "Christopher.6heart.02": "Gyere csak nyugodtan beljebb.$7",
-  "Christopher.6heart.03": "Éppen most végeztem a gyakorlással.$7",
-  "Christopher.6heart.04": "Szerintem még nem is meséltem neked róla, hogy zenélek egy bandában.$7",
+  "Christopher.6heart.01": "Csá @!$7#$b#Gyere csak nyugodtan beljebb.$7",
+  "Christopher.6heart.02": "Éppen most végeztem a gyakorlással.$7#$b#Szerintem még nem is meséltem neked róla, hogy zenélek egy bandában. Semmi nagyon különleges csak egy egyszerűbanda.$7#$b#Egyik közeli barátom bekerült hozzájuk mikor a gitárosuk kilépett a bandábol. $7#$b#Rajta keresztül ismertem meg őket, néhányszor zenéltünk együtt és mikor a dobosuk is ott hagyta a bandát egyből csatlakoztam.$7#$b#Naggyából ennyi a történet. Majd ha lesz kedved eljöhetnél az egyik koncertünkre.$7",
+  "Christopher.6heart.03": "Viszont nagyon megszomjaztam a gyakorlástól.$7",
+
+  "Christopher.6heart.Question.01": "Neked is adhatok sört?",
+  "Christopher.6heart.Answer.01": "Igen, jöhet nekem is.",
+  "Christopher.6heart.Answer.02": "Köszönöm, de most kihagynám.",
 
   //8heart
   "Christopher.8heart.GusWelcome": "Jó estét. Hozhatok valamit?",
@@ -1863,6 +1864,12 @@
 
   //Mark Events
 
+  //2heart
+  "Mark.2heart.01": "Jaj, ne!",
+  "Mark.2heart.02": "Köszönöm, @.$h#$b#Mostanában kezdtem el újra mangát olvasni.$0#$b#Most éppen az eggyik kedvencemet a 'Steel Ball Run'-t olvasom.$h#$b#Sajnos a farm mellett nem mindig marad rá időm.$s",
+  "Mark.2heart.03": "Márk elővesz a zsebéből egy zöld acél golyót.",
+  "Mark.2heart.04": "De ha a jövőben jobban ráérek elmehetnénk egy kontinentális ló versenyre ahol majd megtanítalak, hogy hogyan kell használni ezt a zöld acél golyót.$6",
+
   //4heart
   "Mark.4heart.01": "Helló @! Gyere csak beljebb!",
   "Mark.4heart.02": "One Pieace maratont akarok tartani és éppen kukoricát pattogtatok.",
@@ -1960,6 +1967,12 @@
   "Mark.8heartII.06": "Hát úgyfest sajnos vesztettünk.$s#$b#De azért jó móka volt.$h#$b#Viszont lassan indulnunk kell.$0",
   "Mark.8heartII.07": "Nyertünk...$h#$b#Elsem hiszem nyertünk @!$h#$b#Menjünk vegyük át a jutalmat.",
   "Mark.8heartII.08": "Remekül éreztem magam ma veled.$h#$b#Majd még jöjjünk máskor is.$h",
+
+  //10heartI
+  "Mark.10heartI.01": "@! Helló!$0#$b#Öhm... éppen egy meglepetést készítek elő.$s#$b#Szóval... ha nem gond majd vissza tudnál jönni este?$s",
+
+  //10heartII
+  "Mark.10heartII.01": "Csá @!",
 
   //MoviesReactions
   "Mark.Movies.01": "Naygon kíváncsi vagyok erre a filmre.",
@@ -2424,9 +2437,11 @@
   "Isti.MarriageDialogue.NoBed_0": "Huh, nincs ágy... talán a földön is lehet riffet játszani. $h",
   "Isti.MarriageDialogue.NoBed_1": "Semmi ágy, de legalább a zene itt van velem. $u",
   "Isti.MarriageDialogue.NoBed_2": "Talán a kanapén... vagy a padlón... mindenhol jó a riff. $h",
-  "Isti.MarriageDialogue.NoBed_3": "Nincs ágy, de a hangulat nem csorbul. $a"
+  "Isti.MarriageDialogue.NoBed_3": "Nincs ágy, de a hangulat nem csorbul. $a",
 
   //==================//
   //   Vanilla NPCs   //
   //==================//
+
+  "Haley.CharacterDialogue.01": "Egyszer láttam, hogy a Kristóf megevett egy nárciszt.$0#$b#Elég furcsa volt, dehát végülis a Kristófról beszélünk."
 }

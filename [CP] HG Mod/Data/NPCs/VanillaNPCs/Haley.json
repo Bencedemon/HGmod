@@ -17,5 +17,13 @@
                 }
 			]
 		},
+        {
+            //Haley's Extra Dialogue
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Haley",
+            "Entries": {
+                "Wed2": "{{i18n:Haley.CharacterDialogue.01}}"
+            }
+        }
 	]
 }

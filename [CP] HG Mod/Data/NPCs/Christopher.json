@@ -329,10 +329,15 @@
       "Action": "EditData",
       "Target": "Data/Events/Beach",
       "Entries": {
-        "2001001/f Christopher 500/p Christopher/t 700 1600/w sunny": "ocean/11 43/farmer 12 32 2 Christopher 11 39 2/skippable/showFrame Christopher 24/animate Christopher false false 100 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 25 26 26 26 27 27 26 26 27 27 26 25 24/move farmer 0 7 2/speak Christopher \"{{i18n:Christopher.2heart.01}}\"/pause 300/question fork0 \"{{i18n:Christopher.2heart.Question.01}}#{{i18n:Christopher.2heart.Answer.01}}#{{i18n:Christopher.2heart.Answer.02}}\"/fork drinkWChris/pause 300/speak Christopher \"{{i18n:Christopher.2heart.10}}\"/pause 300/switchEvent continueChris",
-        "drinkWChris": "pause 300/farmerEat 346/pause 1600/switchEvent continueChris",
-        "continueChris": "pause 300/speak Christopher \"{{i18n:Christopher.2heart.02}}\"/faceDirection farmer 3/emote farmer 8/question null \"{{i18n:Christopher.2heart.Question.02}}#{{i18n:Christopher.2heart.Answer.03}}#{{i18n:Christopher.2heart.Answer.04}}\"/pause 900/animate Christopher false false 100 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 25 26 26 26 27 27 26 26 27 27 26 25 24/viewport move 1 -1 8000/pause 4000/globalFade/viewport -1000 -1000/end"
+        "2001001/f Christopher 500/p Christopher/t 700 1600/z winter/w sunny": "ocean/11 40/farmer 11 28 2 Christopher 11 39 2/skippable/showFrame Christopher 53/addTemporaryActor ChrisArm 16 80 11 41 2 false/shake ChrisArm 10000/playSound fastReel/move farmer 0 5 2/playSound fishingRodBend/textAboveHead Christopher \"{{i18n:Christopher.2heart.01}}\"/playSound fishingRodBend/pause 300/speed farmer 3/move farmer 0 5 2/showFrame farmer 55/animate farmer false true 200 55 55 55 55 54 54/playSound fishingRodBend/pause 2000/playSound fishingRodBend/textAboveHead Christopher \"{{i18n:Christopher.2heart.02}}\"/pause 1000/playSound fishingRodBend/pause 1000/stopSound fastReel true/playSound fishEscape/pause 500/warp ChrisArm -50 -50/showFrame Christopher 0/stopAnimation farmer/faceDirection farmer 2/speak Christopher \"{{i18n:Christopher.2heart.03}}\"/speed farmer 0/move farmer 1 0 2/move farmer 0 1 2/speak Christopher \"{{i18n:Christopher.2heart.04}}\"/showFrame Christopher 24/animate Christopher false false 100 24 24 24 24 24 24 25 26 26 26 27 27 26 26 27 27 26 25 24/pause 2000/question fork0 \"{{i18n:Christopher.2heart.Question.01}}#{{i18n:Christopher.2heart.Answer.01}}#{{i18n:Christopher.2heart.Answer.02}}\"/fork drinkWChris/pause 300/speak Christopher \"{{i18n:Christopher.2heart.05}}\"/pause 300/animate Christopher false false 100 24 24 24 24 24 24 24 24 24 24 24 24 25 26 26 26 27 27 26 26 27 27 26 25 24/switchEvent continueChris",
+        "drinkWChris": "pause 300/speak Christopher \"{{i18n:Christopher.2heart.06}}\"/pause 300/animate Christopher false false 100 24 24 24 24 24 24 25 26 26 26 27 27 26 26 27 27 26 25 24/farmerEat 346/pause 1600/switchEvent continueChris",
+        "continueChris": "pause 300/viewport move 1 -1 8000/pause 4000/globalFade/viewport -1000 -1000/end"
       }
+    },
+    {
+      "Action": "Load", "Priority": "Low", //16x80
+      "Target": "Characters/ChrisArm",
+      "FromFile": "Assets/CharacterFiles/Sprites/Miscellaneous/ChrisArm.png"
     },
     { //4 heart event, 22:00 am - 26:00 am
       "Action": "EditData",
@@ -356,7 +361,7 @@
       "Action": "EditData",
       "Target": "Data/Events/Beach",
       "Entries": {
-        "2001003/f Christopher 1500/t 700 1600": "ocean/8 23/farmer 12 17 2 Christopher -10 -10 2/skippable/playSound Bencedemon.HG_ChrisDrum/move farmer 0 6 3/emote farmer 8/move farmer -4 0 0/faceDirection farmer 0/playSound doorClose/warp farmer -1 -1/globalFade/viewport -1000 -1000/changeLocation Custom_ChristopherHouseInterior/stopMusic/stopSound Bencedemon.HG_ChrisDrum/warp farmer 3 8/warp Christopher 4 5/playMusic playful/showFrame Christopher 54/viewport 3 6 true/pause 1000/speak Christopher \"{{i18n:Christopher.6heart.01}}\"/speak Christopher \"{{i18n:Christopher.6heart.02}}\"/pause 100/move farmer 0 -2 1 true/pause 100/speak Christopher \"{{i18n:Christopher.6heart.03}}\"/pause 600/globalFade/viewport -1000 -1000/end warpOut",
+        "2001003/f Christopher 1500/t 700 1600": "ocean/8 23/farmer 12 17 2 Christopher -10 -10 2/skippable/playSound Bencedemon.HG_ChrisDrum/move farmer 0 6 3/emote farmer 8/move farmer -4 0 0/faceDirection farmer 0/playSound doorClose/warp farmer -1 -1/globalFade/viewport -1000 -1000/changeLocation Custom_ChristopherHouseInterior/stopMusic/stopSound Bencedemon.HG_ChrisDrum/warp farmer 3 8/warp Christopher 4 5/playMusic playful/showFrame Christopher 54/viewport 3 6 true/pause 1000/speak Christopher \"{{i18n:Christopher.6heart.01}}\"/pause 100/move farmer 0 -2 1 true/pause 100/speak Christopher \"{{i18n:Christopher.6heart.02}}\"/pause 100/speak Christopher \"{{i18n:Christopher.6heart.03}}\"/pause 100/quickQuestion {{i18n:Christopher.6heart.Question.01}}#{{i18n:Christopher.6heart.Answer.01}}#{{i18n:Christopher.6heart.Answer.02}}(break)--<answer1 script>\\emote Christopher 20\\fade\\viewport -1000 -1000\\farmerEat 346\\pause 500(break)--<answer2 script>\\emote Christopher 28\\fade\\viewport -1000 -1000/end warpOut",
       }
     },
     { //8 heart event, Anytime

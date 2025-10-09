@@ -380,7 +380,7 @@
       "Action": "EditData",
       "Target": "Data/Events/Custom_MarkFarm",
       "Entries": {
-        "2001201/f Mark 500/p Mark/t 800 1600/w sunny": "spring_day_ambient/22 27/farmer 13 23 2 Mark 22 27 2/addTemporaryActor Manga 32 16 -50 -50 2 false/hideShadow Manga true/ignoreMovementAnimation Manga/showFrame Mark 53/hideShadow Mark true/skippable/move farmer 6 0 2/playSound windstorm/pause 500/showFrame Mark 2/textAboveHead Mark \"Jaj, ne!\"/warp Manga 21 26 true/animate Manga false false 90 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 0 0 0 0/move Manga 0 -3 2/stopSound windstorm/move Mark 0 1 0/move farmer 1 0 1/showFrame farmer 58/pause 500/playSound coin/warp Manga -50 -50/pause 100/faceDirection farmer 2/move farmer 0 3 2/faceDirection Mark 3 true/move farmer 0 2 2/move farmer 1 0 1/playSound coin/pause 200/speak Mark \"Köszönöm, @.\"/viewport move 1 -1 6000/pause 2000/globalFade/viewport -1000 -1000/end"
+        "2001201/f Mark 500/p Mark/t 800 1600/w sunny": "spring_day_ambient/22 27/farmer 13 23 2 Mark 22 27 2/addTemporaryActor Manga 32 16 -50 -50 2 false/hideShadow Manga true/ignoreMovementAnimation Manga/showFrame Mark 53/hideShadow Mark true/skippable/move farmer 6 0 2/playSound windstorm/pause 500/showFrame Mark 2/textAboveHead Mark \"{{i18n:Mark.2heart.01}}\"/warp Manga 21 26 true/animate Manga false false 90 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 0 0 0 0/move Manga 0 -3 2/hideShadow Mark false/move Mark 0 1 0/move farmer 1 0 1/showFrame farmer 58/pause 300/playSound coin/stopSound windstorm/warp Manga -50 -50/pause 100/faceDirection farmer 2/move farmer 0 3 2/faceDirection Mark 3 true/move farmer 0 2 1/move Mark -1 0 3/playSound coin/pause 200/speak Mark \"{{i18n:Mark.2heart.02}}\"/pause 200/playSound dwop/message \"{{i18n:Mark.2heart.03}}\"/speak Mark \"{{i18n:Mark.2heart.04}}\"/emote farmer 8 true/pause 500/viewport move 0 -1 6000/pause 2000/globalFade/viewport -1000 -1000/end"
       }
     },
     {
@@ -483,5 +483,25 @@
         "horseRaceEnd": "pause 100/advancedMove Mark false 2 0 0 -5/advancedMove farmer false 3 0 0 -5/globalFade/viewport -1000 -1000/playMusic none/pause 2000/playSound busDriveOff/pause 2000/speak Mark \"{{i18n:Mark.8heartII.08}}\"/pause 1000/end",
       }
     },
+    {
+      //10 heart event part I and II, 8:00 am - 20:00 am and 20:00 am - 26:00 am
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_MarkFarm",
+      "Entries": {
+        "2001206/f Mark 2500/t 800 2000/w sunny": "50s/26 19/farmer 22 22 1 Mark 26 18 0/addTemporaryActor Preparation 96 144 25 16 2 false/hideShadow Preparation true/skippable/move farmer 4 0 0/emote farmer 8/faceDirection Mark 2 true/jump Mark/speak Mark \"{{i18n:Mark.10heartI.01}}\"/emote Mark 60 true/pause 500/globalFade/viewport -1000 -1000/end",
+        "2001207/f Mark 2500/t 2000 2600/w sunny/e 2001206": "spring_night_ambient/26 19/farmer 26 22 0 Mark 26 18 2/addTemporaryActor Theater 96 144 25 16 2 false/hideShadow Theater true/skippable/move farmer 0 -2 0/speak Mark \"{{i18n:Mark.10heartII.01}}\"/fade/viewport -1000 -1000/warp farmer 26 15 true/positionOffset farmer 0 28 true/warp Mark 27 15 true/faceDirection Mark 0/positionOffset Mark 0 16 true/fade false/viewport 26 13 clamp true/playMusic Bencedemon.HG_Again/pause 1500/animate Theater false true 1000 1 1 2 2 3 3 4 4 5 5 6 6 7 7/pause 10000/positionOffset Mark -2 0/positionOffset farmer 2 0/pause 100/positionOffset Mark -2 0/positionOffset farmer 2 0/pause 100/positionOffset Mark -2 0/positionOffset farmer 2 0/pause 100/positionOffset Mark -2 0/positionOffset farmer 2 0/pause 100/positionOffset Mark -2 0/positionOffset farmer 2 0/pause 100/positionOffset Mark -2 0/positionOffset farmer 2 0/pause 100/positionOffset Mark -2 0/positionOffset farmer 2 0/pause 3000/viewport move 0 1 6000/pause 3000/globalFade/viewport -1000 -1000/end"
+      }
+    },
+    {
+      "Action": "Load", "Priority": "Low", //96x144
+      "Target": "Characters/Preparation",
+      "FromFile": "Assets/CharacterFiles/Sprites/Miscellaneous/Preparation.png"
+    },
+    {
+      "Action": "Load", "Priority": "Low", //96x144
+      "Target": "Characters/Theater",
+      "FromFile": "Assets/CharacterFiles/Sprites/Miscellaneous/Theater.png"
+    }
   ]
 }
+//(0 = up, 1 = right, 2 = down, 3 = left)
