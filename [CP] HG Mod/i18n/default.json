@@ -380,6 +380,8 @@
   "Jukebox.Cabin" : "Bence kabinja",
   "Jukebox.SotetUtakon" : "Sötét utakon",
   "Jukebox.Uuuuus" : "Uuuuus!",
+  "Jukebox.Again" : "Again",
+  "Jukebox.Kchan" : "Kurisutofu-chan",
 
   //Buildings -CUTCONTENT-
   "Building.Sawmill.Name": "Fűrészmalom",
@@ -813,7 +815,7 @@
   "HG_Cave.Unlock.25": "Sajnos nincs itt sokminden, hogy bármit is lehessen csinálni.",//(!)
   "HG_Cave.Unlock.26": "És mi lenne ha lenne.",
   "HG_Cave.Unlock.27": "Mert mire gondolsz Bence?",
-  "HG_Cave.Unlock.28": "Nyithatnánk ide egy szórakozó helyet. Mondjuk egy kaland parkot.#$b#Ide akár kerülhetne akár egy kilátó.",
+  "HG_Cave.Unlock.28": "Nyithatnánk ide egy szórakozó helyet. Mondjuk egy kaland parkot.#$b#Ide akár kerülhetne akár egy kilátó.",//(!)
   "HG_Cave.Unlock.29": "Ide meg akár kerülhetne egy jó kis bár, piával meg mindennel.",
   "HG_Cave.Unlock.30": "Akár.",
   "HG_Cave.Unlock.31": "Valószínűleg sok munka lesz és rengeteg nyersanyagra lesz szükségünk.",
@@ -1187,7 +1189,7 @@
 
   //6heart
   "Christopher.6heart.01": "Csá @!$7#$b#Gyere csak nyugodtan beljebb.$7",
-  "Christopher.6heart.02": "Éppen most végeztem a gyakorlással.$7#$b#Szerintem még nem is meséltem neked róla, hogy zenélek egy bandában. Semmi nagyon különleges csak egy egyszerűbanda.$7#$b#Egyik közeli barátom bekerült hozzájuk mikor a gitárosuk kilépett a bandábol. $7#$b#Rajta keresztül ismertem meg őket, néhányszor zenéltünk együtt és mikor a dobosuk is ott hagyta a bandát egyből csatlakoztam.$7#$b#Naggyából ennyi a történet. Majd ha lesz kedved eljöhetnél az egyik koncertünkre.$7",
+  "Christopher.6heart.02": "Éppen most végeztem a gyakorlással.$7#$b#Szerintem még nem is meséltem neked róla, hogy zenélek egy bandában. Semmi nagyon különleges csak egy egyszerűbanda.$7#$b#Egyik közeli barátom bekerült hozzájuk mikor a gitárosuk kilépett a bandábol. $7#$b#Rajta keresztül ismertem meg őket, néhányszor zenéltünk együtt és mikor a dobosuk is ott hagyta a bandát egyből csatlakoztam.$7#$b#Naggyából ennyi a történet. Majd ha lesz kedved eljöhetnél az egyik koncertünkre.$7",//(!)
   "Christopher.6heart.03": "Viszont nagyon megszomjaztam a gyakorlástól.$7",
 
   "Christopher.6heart.Question.01": "Neked is adhatok sört?",
@@ -1561,6 +1563,45 @@
   "Bence.6heart.05": "Ez már kezd annyira felcseszni, hogy mindjárt-$a",
   "Bence.6heart.06": "Hm...$u#$b#Hát, úgyfest néha a legegyszerűbb dolgok működnek a legjobban.",
 
+  //8heart
+  "Bence.8heart.01": "Ó, csá @!",
+  "Bence.8heart.02": "Éppen egy projektemen dolgozom, gyere nézd meg!",
+  "Bence.8heart.03": "Tessék... nyugotan próbáld csak ki.",
+
+  "Bence.8heart.Game.01": "Egy újabb átlagos nap az iskolában.#Éppen úton vagyok az osztálytermem felé miközben azon merengek vajon mit tartogat a mai nap a számomra.#Hirtelen egy ismerős érzés lesz úrrá rajtam, a gyomrom összeszorul, szívem hevesen dobog mikor megpillantom Senpai-t.#(Nyugodj meg Kristóf-chan minden rendben lesz, nem szabad elszúrnom, megint...)",
+  "Bence.8heart.Game.Question.01": "Mit teszel most?#Oda megyek Senpai-hoz.#Nem megyek oda Senpai-hoz.",
+  "Bence.8heart.Game.Ending.01": "Ending 1.",
+  "Bence.8heart.Game.02": "Rákóczi: Szia Kristóf-chan! Mi újság?",
+  "Bence.8heart.Game.03": "Ahogy ezt Senpai kimondta az idő hirtelen megállt körülöttem.#(Össze kell szednem magam.)#(Meg tudom csinálni.)#Vettem egy nagy levegőt, nyeltem egy nagyot és...",
+  "Bence.8heart.Game.Question.02": "Mit modasz most?#Helló Senpai.#Csá...",
+  "Bence.8heart.Game.04": "",
+  "Bence.8heart.Game.05": "",
+  "Bence.8heart.Game.06": "",
+  "Bence.8heart.Game.07": "",
+  "Bence.8heart.Game.Question.Reset": "Újrakezded?#Igen.#Nem.",
+
+  "Bence.8heart.Question.01": "Nos? Hogy tetszett?#Nagyon jó volt.#Van még min dolgozni, de amúgy jó lesz.#Hát... ez nem lett valami jó.",
+  "Bence.8heart.Reaction.01": "Ezt örömmel hallom.$h",
+  "Bence.8heart.Reaction.02": "Hát igen... még sok munka van vele.",
+  "Bence.8heart.Reaction.03": "...$s",
+  
+  "Bence.8heart.4": "Csak kár, hogy megakadtam vele.$s#$b#Nem tudom miért van ez de néha leblokkolok és nem tudom, hogyan tovább.$0#$b#A kódolással soha sincs baj csak mikor szöveget vagy párbeszédet kell írnom.#$b#Az a gond, hogy a szünet tartás sem segít mert miután vissza térek ugyanúgy leblokkolok.$0#$b#De mindegy is örülök, hogy benéztél.$h#$b#Gyere máskor is.$h",
+
+  //10heart
+  "Bence.10heart.01": "Helló @!#$b#Reméltem hogy erre jársz majd, gyere mutatni akarok neked valamit!",
+  "Bence.10heart.02": "Oké... tudom, hogy ez így most egy kicsit váratlanul ért, de jó móka lesz igérem.",
+  "Bence.10heart.03": "Nos hát... ez lenne az.",
+
+  "Bence.10heart.Question.01": "Remélem tetszik.#Igen tetszik.#Másra számítottam.#Annyira nem jön be.",
+  "Bence.10heart.Reaction.01": "Ennek örülök.",
+  "Bence.10heart.Reaction.02": "Hát igen... nem gyakran csinálok ilyeneked. Ha.. Ha.. ",
+  "Bence.10heart.Reaction.03": "Hát ez sajnálatos.$s#$b#Azért adj neki egy próbát a kedvemért.$s",
+
+  "Bence.10heart.04": "Készítettem... Na jó rendeltem pár ételt.#$b#De nem is e a fő atrakció az estére.",
+  "Bence.10heart.05": "Néha esténként ki szoktam jönni ide mikor nem tudok aludni.#$b#",//(!)
+  "Bence.10heart.06": "Te vagy az első akivel megosztottam ezt az élményt.",
+  "Bence.10heart.07": "Emlékszek mikor először találkoztunk.$h#$b#Eltelt azóta egy kis idő mi?$l#$b#Akkor még nem tudtam, hogy ekkora hatással leszel rám.$l#$b#Mióta igazán közel kerültünk egymáshoz úgy érzem új ember lettem.$l#$b#Sokkal boldogabnak éreztem magam az elmúlt hetekben mint bármikor máskor életem során és ezt neked köszönhetem @.$l",//(!)
+
   //MoviesReactions
   "Bence.Movies.01": "Kíványcsi vagyok, vajon olyan jó lesz ez a film ahogy mondják?",
   "Bence.Movies.02": "Ez egy tök király film volt.#$b#Örülök, hogy meghívtál.$h",
@@ -1902,15 +1943,15 @@
 
   //8heartI
   "Mark.8heartI.01": "Csá @!#$b#Van egy extra jegyem a Zuzu Városi Derbire.",
-  "Mark.8heartI.Question": "Arra gondoltam megkérdezem hogy nincs e kedved eljönni velem?",
+  "Mark.8heartI.Question": "Arra gondoltam megkérdezem, hogy nincs e kedved eljönni velem?",
   "Mark.8heartI.Answer.01": "Elmegyek veled.",
   "Mark.8heartI.Answer.02": "Bocsi de nincs kedvem hozzá.",
   "Mark.8heartI.02": "Jólvan, akkor úgynézki egyedül megyek.$s",
   "Mark.8heartI.03": "Oké, akkor majd délután találkozzunk a buszmegállónál.#$b#Addig is, good bye.",
 
   //8heartII
-  "Mark.8heartII.01": "@!#$b#Örülök, hogy itt vagy. Indulnunk kellene...",
-  "Mark.8heartII.02": "Hamarosan megérkezünk.",
+  "Mark.8heartII.01": "@!#$b#Örülök, hogy itt vagy. Lassam indulnunk kellene...",
+  "Mark.8heartII.02": "Hamarosan megérkezünk.$0#$b#Már alig várom.$h",
   "Mark.8heartII.03": "Örülök hogy eljöttél @.#$b#Egyedül nem lett volna olyan izgalmas.",
   "Mark.8heartII.04": "Hmm... Elég sok idő van még a kezdésig, elszaladok gyors teszekfel tétet az egyik lóra.",
 
@@ -1964,7 +2005,7 @@
   "Mark.8heartII.Narrator.35": "Oguri Hat bizonyította, hogy a kitartás mindig meghozza gyümölcsét.",
   "Mark.8heartII.Narrator.36": "Köszönjük, hogy velünk tartottak, találkozunk a következő futamon!",
 
-  "Mark.8heartII.06": "Hát úgyfest sajnos vesztettünk.$s#$b#De azért jó móka volt.$h#$b#Viszont lassan indulnunk kell.$0",
+  "Mark.8heartII.06": "Hát, úgyfest sajnos vesztettünk.$s#$b#De azért jó móka volt.$h#$b#Viszont lassan indulnunk kell.$0",
   "Mark.8heartII.07": "Nyertünk...$h#$b#Elsem hiszem nyertünk @!$h#$b#Menjünk vegyük át a jutalmat.",
   "Mark.8heartII.08": "Remekül éreztem magam ma veled.$h#$b#Majd még jöjjünk máskor is.$h",
 
@@ -1972,7 +2013,7 @@
   "Mark.10heartI.01": "@! Helló!$0#$b#Öhm... éppen egy meglepetést készítek elő.$s#$b#Szóval... ha nem gond majd vissza tudnál jönni este?$s",
 
   //10heartII
-  "Mark.10heartII.01": "Csá @!",
+  "Mark.10heartII.01": "Csá @!$0#$b#Hát, ez lenne a meglepetésem.$l#$b#Szeretném megmutatni neked a kedvenc animémet és gondoltam mi lenne ha kicsit romantikusabbá tenném.$l#$b#Örülök, hogy találtam valakit, akivel ennyire megegyezik az izlésünk.$l#$b#De nem is húzom tovább az időt, lássunk is neki.$h",
 
   //MoviesReactions
   "Mark.Movies.01": "Naygon kíváncsi vagyok erre a filmre.",
@@ -2443,5 +2484,24 @@
   //   Vanilla NPCs   //
   //==================//
 
-  "Haley.CharacterDialogue.01": "Egyszer láttam, hogy a Kristóf megevett egy nárciszt.$0#$b#Elég furcsa volt, dehát végülis a Kristófról beszélünk."
+  "Haley.CharacterDialogue.01": "Egyszer láttam, hogy a Kristóf megevett egy nárciszt.$0#$b#Elég furcsa volt, dehát végülis a Kristófról beszélünk.",
+  "Haley.CharacterDialogue.02": "A Kristóf?#$b#Fura egy izlésed van.",//married_Christopher
+
+  "Leah.CharacterDialogue.01": "",//fall_Tue2
+  "Leah.CharacterDialogue.02": "",//married_Bence
+
+  "Emily.CharacterDialogue.01": "",//summer_Tue2
+  "Emily.CharacterDialogue.02": "",//married_Mark
+
+  "Willy.CharacterDialogue.01": "Üdvözletem! Jó látni fiatalokat költözni a völgybe. Manapság nem ez a megszokott.",//Introduction //(!)
+  "Willy.CharacterDialogue.02": "",//Sat4
+  "Willy.CharacterDialogue.03": "",//married_Christopher
+
+  "Robin.CharacterDialogue.01": "",//houseUpgrade_1_memory_oneweek
+  
+  "Gus.CharacterDialogue.01": "Pam és Kristóf majd minden este betérnek a szalonba.#$e#Valószínűleg tönkremennék, ha nem jönnének többet.$h#$e#Szóval kérlek ne üldözd el őket!",//Thu //(!)
+  "Gus.CharacterDialogue.02": "",//Thu4
+  "Gus.CharacterDialogue.03": "",//Sat4
+
+  "Clint.CharacterDialogue.01": ""//Fri4
 }

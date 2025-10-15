@@ -67,6 +67,15 @@
                     "StreamedVorbis": true,
                     "Looped": false
                 },
+                "Bencedemon.HG_Kchan": {
+                    "ID": "Bencedemon.HG_Kchan",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Kchan.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                },
             },
         },
         {

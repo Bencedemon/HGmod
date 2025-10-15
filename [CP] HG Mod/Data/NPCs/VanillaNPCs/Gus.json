@@ -37,5 +37,15 @@
 				}
 			]
 		},
+        {
+            //Gus's Extra Dialogue
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Gus",
+            "Entries": {
+                "Thu": "{{i18n:Gus.CharacterDialogue.01}}",
+                "Thu4": "{{i18n:Gus.CharacterDialogue.02}}",
+                "Sat4": "{{i18n:Gus.CharacterDialogue.03}}"
+            }
+        }
 	]
 }

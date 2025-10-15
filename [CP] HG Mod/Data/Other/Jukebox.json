@@ -24,6 +24,14 @@
                 "Bencedemon.HG_Uuuuus": {
                     "Name": "{{i18n:Jukebox.Uuuuus}}",
                     "AlternativeTrackIds": ["Uuuuus"]
+                },
+                "Bencedemon.HG_Again": {
+                    "Name": "{{i18n:Jukebox.Again}}",
+                    "AlternativeTrackIds": ["Again"]
+                },
+                "Bencedemon.HG_Kchan": {
+                    "Name": "{{i18n:Jukebox.Kchan}}",
+                    "AlternativeTrackIds": ["Kchan"]
                 }
             }
         }

@@ -17,5 +17,13 @@
                 }
 			]
 		},
+        {
+            //Robin's Extra Dialogue
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+                "houseUpgrade_1_memory_oneweek": "{{i18n:Robin.CharacterDialogue.01}}"
+            }
+        }
 	]
 }

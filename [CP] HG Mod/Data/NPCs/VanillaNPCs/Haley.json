@@ -22,7 +22,8 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Haley",
             "Entries": {
-                "Wed2": "{{i18n:Haley.CharacterDialogue.01}}"
+                "Wed2": "{{i18n:Haley.CharacterDialogue.01}}",
+                "married_Christopher": "{{i18n:Haley.CharacterDialogue.02}}"
             }
         }
 	]
