@@ -238,7 +238,9 @@
         "Target": "Characters/Schedules/Isti",
         "Entries":{
             "rain": "610 Custom_IstiCabinInterior 2 4 2 Isti_Sleep/800 Custom_IstiCabinInterior 6 7 2 Isti_sit2/2300 Custom_IstiCabinInterior 1 4 2 Isti_Sleep",
-
+            
+            "winter_10": "610 Custom_IstiCabinInterior 2 4 2 Isti_Sleep/800 Mountain 65 14 2 dick_fish/1030 Hospital 12 14 0 \"Strings\\schedules\\Isti:Hospital.01\"/1330 Hospital 4 6 1 \"Strings\\schedules\\Isti:Hospital.02\"/1600 Mountain 65 14 2 dick_fish/2300 Custom_IstiCabinInterior 1 4 2 Isti_Sleep",
+  
             "Mon": "GOTO spring",
             "Tue": "610 Custom_IstiCabinInterior 2 4 2 Isti_Sleep/800 Mountain 65 14 2 dick_fish/1800 Saloon 39 22 0/2400 Custom_IstiCabinInterior 1 4 2 Isti_Sleep",
             "Wed": "GOTO spring",

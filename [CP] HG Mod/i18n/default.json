@@ -1157,6 +1157,10 @@
   "Christopher.NightMarket.01": "Nem igazán rajongok az Éjszakai piacért, ne ércs félre mókás meg minden, de sajnos a sok ember elriasztja a halakat.$s#$e#A tengeralattjáróból meg a tavalyi incidens óta ki vagyok tiltva.$s",
   "Christopher.DesertFestival_marriage.01": "Nyugi drágám, nem fogok itt északázni.",
   "Christopher.DesertFestival.01": "Nem járok gyakran a sivatagba horgászni, de azért itt is vannak elég érdekes halak.",
+  "Christopher.Hospital.01": "",
+  "Christopher.Hospital.02": "",
+  "Christopher.Saloon_marriage": "",
+  "Christopher.TroutDerby_marriage": "",
   
   //Christopher Movie Dialogue 
 
@@ -1417,7 +1421,7 @@
   //"Bence.Dating": "-",
 
   //SPECIFIC MAP AND COORDINATES DIALOGUE
-  "Bence.LocationDialogue.SeedShop": "Hmm... elfelejtettem mit akartam venni.$u",
+  "Bence.LocationDialogue.BlueMoonVineyard": "",
   "Bence.LocationDialogue.ScienceHouse": "Helló, @! Csak nem épület fejlesztés miatt vagy itt?#$e#Én csak pár adag fát jöttem leszállítani.",
 
   //SPRING AND GENERAL DIALOGUE
@@ -1536,6 +1540,13 @@
   "Bence.NightMarket.01": "Nem hiszem, hogy fogok venni bármit is, de azért kijöttem körülnézni.",
   "Bence.DesertFestival_marriage.01": "Rohadt meleg van. Tudnál nekem hozni valamit inni drágám?",
   "Bence.DesertFestival.01": "Gyűlölöm a sivatagot, melegvan és tele a cipőm homokkal.",
+  "Bence.Hospital.01": "",
+  "Bence.Hospital.02": "",
+  "Bence.SeedShop.01": "Hmm... elfelejtettem mit akartam venni.$u",//Spring Fall
+  "Bence.SeedShop.02": "",//Summer
+  "Bence.SeedShop.03": "",//Winter
+  "Bence.Saloon_marriage": "",
+
   //Bence Movie Dialogue 
 
   //Bence Events
@@ -1901,6 +1912,10 @@
   "Mark.DesertFestival_marriage.02": "Ha bemész a bralangba kérlek vigyázz magadra, nem akarok őzvegy lenni.",
   "Mark.DesertFestival.01": "Le fogok égni.",
   "Mark.DesertFestival.02": "Voltál már az itteni bányában?#$b#Sokkal keményebb mint az otthoni.",
+  "Mark.Hospital.01": "",
+  "Mark.Hospital.02": "",
+  "Mark.Saloon_marriage": "",
+
   //Mark Movie Dialogue 
 
   //Mark Events
@@ -2324,6 +2339,9 @@
   "Isti.NightMarket.01": "Az éjszakai piac? Remek, mintha egy titkos metál koncertről lenne szó. bátysz biztos örülne! $a",
   "Isti.DesertFestival_marriage.01": "Huh, házasokként a sivatagi fesztivál... hát, legalább a riffek még mindig szólhatnak! $h",
   "Isti.DesertFestival.01": "Ez a sivatagi buli tényleg extrém! Ha lenne söröm... vagy kókusztejem, tuti nagyobb lenne a hangulat. $u",
+  "Isti.Hospital.01": "",
+  "Isti.Hospital.02": "",
+  "Isti.Saloon_marriage": "",
   
   //Isti Movie Dialogue 
 

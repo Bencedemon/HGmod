@@ -7,7 +7,11 @@
         {
             "NightMarket_Christopher": "{{i18n:Christopher.NightMarket.01}}",
             "DesertFestival_Christopher_marriage": "{{i18n:Christopher.DesertFestival_marriage.01}}",
-            "DesertFestival_Christopher": "{{i18n:Christopher.DesertFestival.01}}"
+            "DesertFestival_Christopher": "{{i18n:Christopher.DesertFestival.01}}",
+            "Hospital.01": "{{i18n:Christopher.Hospital.01}}",
+            "Hospital.02": "{{i18n:Christopher.Hospital.02}}",
+            "Saloon_marriage": "{{i18n:Christopher.Saloon_marriage}}",
+            "TroutDerby_marriage": "{{i18n:Christopher.TroutDerby_marriage}}"
         },
       },
     ]

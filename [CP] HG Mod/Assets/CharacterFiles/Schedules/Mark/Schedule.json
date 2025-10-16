@@ -8,8 +8,9 @@
 
   "hg_cave": "900 Custom_HGCave 44 18 2/1800 Custom_MarkHouseInterior 8 15 3 mark_computer/2400 Custom_MarkHouseInterior 15 13 3 mark_sleep",
   
-  "marriage_Sat": "1750 Saloon 42 20 3 mark_drink/2400 bed",
+  "marriage_Sat": "1750 Saloon 42 20 3 mark_drink \"Strings\\schedules\\Mark:Saloon_marriage\"/2400 bed",
 
+  "spring_10": "900 Custom_MarkFarm 24 13 3 mark_garden_L/1030 Hospital 12 14 0 \"Strings\\schedules\\Mark:Hospital.01\"/1330 Hospital 4 6 1 \"Strings\\schedules\\Mark:Hospital.02\"/1600 Custom_MarkHouseInterior 8 15 3 mark_computer/2400 Custom_MarkHouseInterior 15 13 3 mark_sleep",
   "winter_17": "900 Custom_MarkFarmCave 9 9 1 clint_hammer/1530 Beach 40 36 2 \"Strings\\schedules\\Mark:NightMarket_Mark\"/2300 Custom_MarkHouseInterior 15 13 3 mark_sleep",
 
   "winter_Mon": "GOTO Mon",

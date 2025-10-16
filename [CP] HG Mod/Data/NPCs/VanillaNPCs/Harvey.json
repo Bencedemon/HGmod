@@ -17,5 +17,24 @@
                 }
 			]
 		},
+        {//HARVEY SCHEDULE EDIT
+            "Action": "EditData", 
+            "Target": "Characters/Schedules/Harvey",
+            "Entries":{
+                "spring_10": "GOTO Tue",
+                "summer_10": "GOTO Tue",
+                "fall_10": "GOTO Tue"
+            }
+        },
+        {//HARVEY SCHEDULE EDIT
+            "Action": "EditData", 
+            "Target": "Characters/Schedules/Harvey",
+            "Entries":{
+                "winter_10": "GOTO Tue"
+            },
+            "When": {
+                "HasSeenEvent: anyPlayer|contains=IstiReturn": true
+            }
+        }
 	]
 }
