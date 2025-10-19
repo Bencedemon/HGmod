@@ -1,5 +1,6 @@
 {  
   "rain": "610 Beach 11 39 2 dick_fish/1000 FishShop 4 6 0/1130 Beach 11 39 2 dick_fish/2400 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
+  "rain2": "610 Beach 11 39 2 dick_fish/1000 FishShop 4 6 0/1130 Beach 11 39 2 dick_fish/1800 Saloon 39 19 2 Christopher_drink/2400 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
   "GreenRain": "GOTO rain",
 
   "marriage_DesertFestival": "900 Desert 32 55 2 dick_fish \"Strings\\schedules\\Christopher:DesertFestival_Christopher_marriage\"/2430 bed",

@@ -671,8 +671,8 @@
   "Bundle.Final.Desc": "Oda akarod adományozni az italokat e magnyitóhoz?",
 
   //GeneralMails
-  "Mail.HGCaveOpening": "Helló @!^^Mégegyszer szeretnénk megköszönni a segítségedet. A nélküled soha nem végeztünk volna.^A megnyitót a tervek szerint a hétvégén fogjuk tartani, reméljük eltudsz jönni.^^ -Hello Guys[#]Hello Guys Barlang megnyitó meghívás",
-  "Mail.IstiReturnReminder" : "@!^^Ha nem esik ma az eső reggel elmegyek Istiért.^Ha minden jól megy 8:00-ra a parton leszünk.^Már szóltam Kristóféknak is, hogy jöjjenek a partra^Természetesen nem lőttem le nekik a meglepetést.^^-Willy[#]Isti vissza térése",
+  "Mail.HGCaveOpening": "Helló @!^Mégegyszer szeretnénk megköszönni a segítségedet. A nélküled soha nem végeztünk volna.^A megnyitót a tervek szerint a hétvégén fogjuk tartani, reméljük eltudsz jönni.^ -Hello Guys[#]Hello Guys Barlang megnyitó meghívás",
+  "Mail.IstiReturnReminder" : "@!^Ha nem esik ma az eső reggel elmegyek Istiért.^Ha minden jól megy 8:00-ra a parton leszünk.^Már szóltam Kristóféknak is, hogy jöjjenek a partra^Természetesen nem lőttem le nekik a meglepetést.^-Willy[#]Isti vissza térése",
 
   //Quests
   "ChristopherQuest.Title": "Kristóf horgászbotja",
@@ -709,7 +709,7 @@
   "Christopher_SO.Text": "Bárki aki ki tud fogni egy {ChrisFishType:Text}-t egy hónap alatt, különleges jutalomban részesülhet.",
   "Christopher_SO.Objective": "Fogd ki a következő halat: {ChrisFishType:Text}.",
   
-  "Mail.ChristopherReward": "Csáó @!^^Hallottam sikerült teljesítened a kihívásomat.^^Jutalmul megosztok veled egy titkos elixír receptet amit én magak kisérleteztem ki.^^ -Kristóf%item craftingRecipe FishingElixir%%[#]Kristóf köszönete",
+  "Mail.ChristopherReward": "Csáó @!^Hallottam sikerült teljesítened a kihívásomat.^Jutalmul megosztok veled egy titkos elixír receptet amit én magak kisérleteztem ki.^ -Kristóf%item craftingRecipe FishingElixir%%[#]Kristóf köszönete",
 
   "Bence_SO.Name": "Beteg fák",
   "Bence_SO.Text": "Mostanában feltűnt, hogy néhány fa a völgyben nem tűnik túlzottan egészségesnek. Valaki tudna segíteni mintákat gyűjteni?",
@@ -727,15 +727,15 @@
   "Mark_SO.Objective_1": "Helyezd a fáklyát Márk háza előtti fa ládába.",
   "Mark_SO.Objective_2": "Helyezd a Bányászok eledelét Márk háza előtti fa ládába.",
 
-  "Mail.MarkReward": "Csá @!^^Köszönöm az adományodat.^^ -Márk[#]Márk köszönete",
+  "Mail.MarkReward": "Csá @!^Köszönöm az adományodat.^ -Márk[#]Márk köszönete",//(!)
 
-  "Mail.MarkReward_return": "Csá @!^^Vissza tértem!^^Nem volt egyszerű de szerencsére rendesen fel voltam szerelkezve.^^Hogy a jövőben ne keljen kockáztatnom az életemet néhány ércért ezért kitaláltam egy új eszközt ami segíthet a nyersanyag szerzésben.^^Remélem te is hasznát tudod venni.^^ -Márk%item craftingRecipe Excavator%%[#]Márk visszatérése",
+  "Mail.MarkReward_return": "Csá @!^Vissza tértem!^Nem volt egyszerű de szerencsére rendesen fel voltam szerelkezve.^^Hogy a jövőben ne keljen kockáztatnom az életemet néhány ércért ezért kitaláltam egy új eszközt ami segíthet a nyersanyag szerzésben.^Remélem te is hasznát tudod venni.^ -Márk%item craftingRecipe Excavator%%[#]Márk visszatérése",
 
   "Mark2_SO.Name": "Farm tábla",
   "Mark2_SO.Text": "Egy ideje már gondolkodok rajta és nem lenne rosz ha az én farmomnál is lenne egy tábla. Ha valaki tudna nekem szállítani néhány keményfát azt igazán megköszönném.",
   "Mark2_SO.Objective_0": "Helyezd a keményfát Márk háza előtti fa ládába.",
 
-  "Mail.MarkReward2": "Csá @!^^Köszönöm a keményfát. Robinnal már neki is láttunk a tábla építéséhez ha van időd gyere és nézd meg mit alkottunk.^^ -Márk ^^UI: A segítségért cserébe megosztok veled egy igazán hasznos receptet ;)%item craftingRecipe SakeBarrel%%[#]Márk táblája",
+  "Mail.MarkReward2": "Csá @!^Köszönöm a keményfát. Robinnal már neki is láttunk a tábla építéséhez ha van időd gyere és nézd meg mit alkottunk.^ -Márk ^^UI: A segítségért cserébe megosztok veled egy igazán hasznos receptet ;)%item craftingRecipe SakeBarrel%%[#]Márk táblája",
 
   "Isti_SO.Name": "Trópusi vihar",
   "Isti_SO.Text": "Újra el szeretném készíteni a régi italomat amit még a szigeten ittam. Valaki tudna nekem hozni hozzá alapanyagokat?",
@@ -1147,9 +1147,9 @@
   "Christopher.star2": "Csááá... %firstnameletter...? $6#$b#@, bocsi csak *böff* sokat ittam.$6",
 
   //Mails
-  "Mail.Christopher" : "Hali @!^^Tegnap horgászás közben kicsit talán többet ittam mint amennyit kellett volna XD és elvesztettem az egyik kedvenc horgász botomat. Ha esetleg megtalálod valahol vissza tudnád hozni nekem? Ha ezt megteszed nekem akkor vendégem vagy egy sörre.^^ -Kristóf%item quest 2001 %%[#]Kristóf elveszett horgászbotja",
-  "Mail.ChristopherRecipe" : "Hali @!^^Szeretnék megosztani veled egy receptet.^^Remélem ízleni fog. ^^ -Kristóf%item cookingRecipe %%[#]Kristóf receptje",
-  "Mail.BikeWChris" : "Hali @!^^Előkészítettem mindent a bicikli túránkra.^^11:30-13:30 között találkozzunk a buszmegállónál.^^ -Kristóf%%[#]Kristóf meghívója",
+  "Mail.Christopher" : "Hali @!^Tegnap horgászás közben kicsit talán többet ittam mint amennyit kellett volna XD és elvesztettem az egyik kedvenc horgász botomat. Ha esetleg megtalálod valahol vissza tudnád hozni nekem? Ha ezt megteszed nekem akkor vendégem vagy egy sörre.^ -Kristóf%item quest 2001 %%[#]Kristóf elveszett horgászbotja",
+  "Mail.ChristopherRecipe" : "Hali @!^Szeretnék megosztani veled egy receptet.^^Remélem ízleni fog. ^ -Kristóf%item cookingRecipe %%[#]Kristóf receptje",
+  "Mail.BikeWChris" : "Hali @!^Előkészítettem mindent a bicikli túránkra.^^11:30-13:30 között találkozzunk a buszmegállónál.^ -Kristóf%%[#]Kristóf meghívója",
   //Phone
   "Phone.Christopher": "XD LOL *BÖFF* #$b#*click*",
   
@@ -1157,10 +1157,10 @@
   "Christopher.NightMarket.01": "Nem igazán rajongok az Éjszakai piacért, ne ércs félre mókás meg minden, de sajnos a sok ember elriasztja a halakat.$s#$e#A tengeralattjáróból meg a tavalyi incidens óta ki vagyok tiltva.$s",
   "Christopher.DesertFestival_marriage.01": "Nyugi drágám, nem fogok itt északázni.",
   "Christopher.DesertFestival.01": "Nem járok gyakran a sivatagba horgászni, de azért itt is vannak elég érdekes halak.",
-  "Christopher.Hospital.01": "",
-  "Christopher.Hospital.02": "",
-  "Christopher.Saloon_marriage": "",
-  "Christopher.TroutDerby_marriage": "",
+  "Christopher.Hospital.01": "Ha megint azt fogom hallani hogy kevesebbet kéne innom kiborulok.$a#$b#Utána persze megyek is egyből a szalonba.$h",
+  "Christopher.Hospital.02": "Mi a gond azzal hogy sokat iszok?#$b#A sör egészséges.",
+  "Christopher.Saloon_marriage": "Gyere @! Csatlakozz hozzánk!",
+  "Christopher.TroutDerby_marriage": "Van valami ami tetszik a bódéból?$0#$e#Tessék egy Arany cédula.[TroutDerbyTag]$0#$b#Nekem már minden megvan ami kellett.$h",
   
   //Christopher Movie Dialogue 
 
@@ -1434,7 +1434,7 @@
   "Bence.CharacterDialogue.007": "*tüsszent* Valaki öljön meg! *tüsszent*",
   "Bence.CharacterDialogue.008": "Próbáltad már a helyi pizzát? #$b#Higgy nekem nagyon megéri.",
   "Bence.CharacterDialogue.009": "Oh... @! Na csá, kicsit megijesztettél, éppen elvoltam mélyültve a gondolataimban.",
-  "Bence.CharacterDialogue.010": "Légy óvatos ha bemész az erdőbe, elég sok arrafelé a vadállat. Ha meg mégis összetalálkoznál egyel remélem jó futó vagy.",
+  "Bence.CharacterDialogue.010": "Légy óvatos ha bemész az erdőbe, elég sok arrafelé a vadállat. #$b#Ha meg mégis összetalálkoznál egyel remélem jó futó vagy.",
   "Bence.CharacterDialogue.011": "Ha kivágsz egy fát ne felejtsd el visszaültetni.",
   "Bence.CharacterDialogue.012": "*nyújtózkodik* Végre itt a hérvége.",
   "Bence.CharacterDialogue.013": "Jó érzés távol élni mindentől. Olyan békés, nem zavar senki, csak magam vagyok és a gondolatami.",
@@ -1843,7 +1843,7 @@
   "Mark.FallCharacterDialogue.010": "Ki a kedvenc Umamusumed?",
   //WINTER DIALOGUE
   "Mark.WinterCharacterDialogue.001": "Elég hideg van már ahhoz, hogy felvegyek egy kabátot.",
-  "Mark.WinterCharacterDialogue.002": "Tegnap olyan kicsiszet szar csapatot kaptam lolban.",//(!)
+  "Mark.WinterCharacterDialogue.002": "Tegnap olyan kicseszet szar csapatot kaptam lolban.",//(!)Folytatni
   "Mark.WinterCharacterDialogue.003": "Lesz elég fád tüzelni?",
   "Mark.WinterCharacterDialogue.004": "Iszunk egy sört?",
   "Mark.WinterCharacterDialogue.005": "Csá @, iszunk egy sört?",
@@ -1901,7 +1901,7 @@
   "Mark.star2": "Te kinek adsz ajándékot?",
 
   //Mails
-  "Mail.Mark" : "Csá @!^^Szükségem lenne a segítségedre.^^A tegnapi vihar erősen megrongálta a házam tetőjét. Ha megkérhetlek tudnál nekem hozni keményfát, hogy minél hamarabb nekiállhassak a javításnak.^^Előre is köszönöm.^-Márk%item quest 2201 %%[#]Törött tető",
+  "Mail.Mark" : "Csá @!^Szükségem lenne a segítségedre.^^A tegnapi vihar erősen megrongálta a házam tetőjét. Ha megkérhetlek tudnál nekem hozni keményfát, hogy minél hamarabb nekiállhassak a javításnak.^^Előre is köszönöm.^-Márk%item quest 2201 %%[#]Törött tető",
   
   //Phone
   "Phone.Mark": "Koni chiva, watashiwa Mark-desu. $3#$b#*click* $3",
@@ -2503,7 +2503,7 @@
   //==================//
 
   "Haley.CharacterDialogue.01": "Egyszer láttam, hogy a Kristóf megevett egy nárciszt.$0#$b#Elég furcsa volt, dehát végülis a Kristófról beszélünk.",
-  "Haley.CharacterDialogue.02": "A Kristóf?#$b#Fura egy izlésed van.",//married_Christopher
+  "Haley.CharacterDialogue.02": "Tényleg hozzá mentél a Kristófhoz?#$b#Fura egy izlésed van.",//married_Christopher
 
   "Leah.CharacterDialogue.01": "",//fall_Tue2
   "Leah.CharacterDialogue.02": "",//married_Bence
@@ -2517,7 +2517,7 @@
 
   "Robin.CharacterDialogue.01": "",//houseUpgrade_1_memory_oneweek
   
-  "Gus.CharacterDialogue.01": "Pam és Kristóf majd minden este betérnek a szalonba.#$e#Valószínűleg tönkremennék, ha nem jönnének többet.$h#$e#Szóval kérlek ne üldözd el őket!",//Thu //(!)
+  "Gus.CharacterDialogue.01": "Pam és Kristóf majd minden este betérnek a szalonba.#$e#Valószínűleg tönkremennék, ha nem jönnének többet.$h#$e#Szóval kérlek ne üldözd el őket!",//Thu
   "Gus.CharacterDialogue.02": "",//Thu4
   "Gus.CharacterDialogue.03": "",//Sat4
 

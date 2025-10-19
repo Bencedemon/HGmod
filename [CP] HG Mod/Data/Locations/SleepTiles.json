@@ -37,7 +37,7 @@
 			"Priority": "Late",
             "FromFile": "Assets/Maps/MapPatches/Shelter_SleepTile.tbin",
             "When": {
-                "Relationship:Mark": "Married, Engaged, Dating"
+                "Relationship:Isti": "Married, Engaged, Dating"
             },
             "ToArea": {
                 "X": 1,

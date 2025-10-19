@@ -59,6 +59,10 @@
             "FromMapFile":"Assets/Maps/NewLocations/ChrisBiketourStop.tmx"
         },
         {
+            "Name":"Custom_BenceGame",
+            "FromMapFile":"Assets/Maps/NewLocations/BenceGame.tmx"
+        },
+        {
             "Name":"Custom_BenceStargazing",
             "FromMapFile":"Assets/Maps/NewLocations/BenceStargazing.tmx"
         },
