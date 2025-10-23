@@ -263,23 +263,7 @@
             "Day": "6, 7, 13, 14, 20, 21, 27, 28",
             "Time": "{{Range: 800, 2400}}"
          }
-      },
-      {
-         "Action": "EditData",
-         "Target": "Data/Locations",
-         "Fields": {
-            "Custom_HGCave": {
-               "MusicDefault": "fallFest"
-            }
-         },
-         "Update": "OnLocationChange",
-         "When": {
-            "HasFlag": "HGCave_Opening",
-            "Day": "6, 7, 13, 14, 20, 21, 27, 28",
-            "Time": "{{Range: 800, 2400}}"
-         }
-      },
-
+      }
    ]
 }
  

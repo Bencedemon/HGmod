@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="9" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="7">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="9" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="7">
  <properties>
   <property name="DayTiles" value="Buildings 2 1 19 Buildings 2 2 24 Buildings 6 1 19 Buildings 6 2 24 Back 3 3 13 Back 6 1 14"/>
   <property name="LocationContext" value="Island"/>
   <property name="NightTiles" value="Buildings 2 1 18 Buildings 2 2 23 Buildings 6 1 18 Buildings 6 2 23 Back 3 3 8 Back 6 1 9"/>
   <property name="SeasonOverride" value="summer"/>
+  <property name="TreatAsOutdoors" value="T"/>
   <property name="Warp" value="4 10 Custom_IslandNorthWest 7 13"/>
   <property name="WindowLight" value="2 2 6 6 2 6 2 8 6 6 8 6 4 9 6"/>
  </properties>

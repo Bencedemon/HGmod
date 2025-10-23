@@ -5,7 +5,7 @@
             "Target": "Data/Festivals/fall6",
             "Entries": {
                 "name": "{{i18n:Festival.Concert.Name}}",
-                "conditions": "Custom_HGCave/2000 2200",
+                "conditions": "Custom_HGCave/1900 2200",
                 "startedMessage": "{{i18n:Festival.Concert.startedMessage}}",
                 "set-up": "Bencedemon.HG_SotetUtakon/29 27/farmer 29 27 0/changeToTemporaryMap Custom_HGCave-Concert/viewport -1000 -1000/loadActors Set-Up/positionOffset Christopher 40 -24/animate Christopher false true 200 56 58 56 58 56 58 56 58 56 58 57 59 57 59 57 59/animate Robin false true 500 20 21 20 22/animate Demetrius false true 500 24 25 24 26/animate Marnie false true 100 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 21 22 23 23 23 23 23 23 23 23 22 21/animate Shane false true 100 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 24 24 24 23 22 21/animate Bence false true 100 36 36 36 36 36 36 36 36 37 38 39 39 40 41 41 41 41 42 42 40 40 42 43 43 39 39 43 43 39 39 40 41 41 41 41 42 42 40 40 42 43 43 39 39 43 43 39 39 38 37 36 36 36 36 36 36/animate Mark false true 100 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 33 34 35 35 35 35 35 35 35 35 35 35 34 33 32 32 32 32 32 32 32 32 32 32 32 33 34 35 35 35 35 34 33 32 32 32 32/advancedMove Vincent true 0 2 -1 0 0 -2 1 0/advancedMove Jas true 0 -2 1 0 0 2 -1 0/playerControl halloween/viewport player clamp true unfreeze/globalFadeToClear",
                 "Set-Up_additionalCharacters": "Christopher 30 14 down/Bence 36 18 right/Mark 38 18 left/Andy 47 22 left/Susan 45 22 right",

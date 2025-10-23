@@ -106,11 +106,38 @@
                     "Width": 28,
                     "Height": 16
                },
-               "MapProperties": {
+               "TextOperations": [
+                    {
+                         "Operation": "Append",
+                         "Target": [
+                              "MapProperties",
+                              "Light"
+                         ],
+                         "Value": "30 63 4",
+                         "Delimiter": " "
+                    },{
+                         "Operation": "Append",
+                         "Target": [
+                              "MapProperties",
+                              "DayTiles"
+                         ],
+                         "Value": "Front 30 63 80",
+                         "Delimiter": " "
+                    },{
+                         "Operation": "Append",
+                         "Target": [
+                              "MapProperties",
+                              "NightTiles"
+                         ],
+                         "Value": "Front 30 63 83",
+                         "Delimiter": " "
+                    },
+               ]
+               /*"MapProperties": {
                     "Light": "30 63 4 117 21 4 104 21 4 90 14 4 87 6 4 61 65 4 9 19 4",
                     "DayTiles": "Buildings 30 63 80 AlwaysFront 104 19 907 AlwaysFront 117 19 907",
                     "NightTiles": "Buildings 30 63 83 AlwaysFront 104 19 908 AlwaysFront 117 19 908"
-               }
+               }*/
           },
           { //Leaf patches Bence
                "Action": "EditMap",
@@ -369,9 +396,20 @@
           {
               "Action": "EditMap",
               "Target": "Maps/Town",
-              "MapProperties": {
+              "TextOperations": [
+                    {
+                         "Operation": "Append",
+                         "Target": [
+                              "MapProperties",
+                              "Warp"
+                         ],
+                         "Value": "7 -1 Custom_MarkFarm 42 34 6 -1 Custom_MarkFarm 42 34 8 -1 Custom_MarkFarm 42 34",
+                         "Delimiter": " "
+                    },
+               ]
+              /*"MapProperties": {
                     "Warp": "-1 54 BusStop 42 23 -1 55 BusStop 42 24 81 -1 Mountain 15 40 79 -1 Mountain 15 40 80 -1 Mountain 15 40 82 -1 Mountain 15 40 83 -1 Mountain 15 40 7 -1 Custom_MarkFarm 42 34 6 -1 Custom_MarkFarm 42 34 8 -1 Custom_MarkFarm 42 34 -1 90 Forest 118 25 -1 89 Forest 118 25 -1 91 Forest 118 25 92 45 MovieTheater 13 4 119 72 Custom_ShearwaterBridge 0 20 119 73 Custom_ShearwaterBridge 0 20 119 74 Custom_ShearwaterBridge 0 20 119 75 Custom_ShearwaterBridge 0 20 119 76 Custom_ShearwaterBridge 0 20 57 116 Beach 38 0 58 116 Beach 38 0 59 116 Beach 38 0 60 116 Beach 38 0"
-              }
+              }*/
               /*"AddWarps": [
                     "7 -1 Custom_MarkFarm 42 34",
                     "6 -1 Custom_MarkFarm 42 34",

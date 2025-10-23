@@ -10,7 +10,8 @@
             "DesertFestival_Christopher": "{{i18n:Christopher.DesertFestival.01}}",
             "Hospital.01": "{{i18n:Christopher.Hospital.01}}",
             "Hospital.02": "{{i18n:Christopher.Hospital.02}}",
-            "Saloon_marriage": "{{i18n:Christopher.Saloon_marriage}}",
+            "marriage_Sat.01": "{{i18n:Christopher.marriage_Sat.01}}",
+            "marriage_Sat.02": "{{i18n:Christopher.marriage_Sat.02}}",
             "TroutDerby_marriage": "{{i18n:Christopher.TroutDerby_marriage}}"
         },
       },

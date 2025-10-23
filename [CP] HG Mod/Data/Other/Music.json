@@ -111,6 +111,25 @@
                     "MusicDefault": "Upper_Ambient"
                 }
             }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Fields": {
+                "Custom_HGCave": {
+                    "Music": [
+                        {
+                            "Id": "OpenHours",
+                            "Track": "fallFest",
+                            "Condition": "TIME 800 2400"
+                        }
+                    ]
+                }
+            },
+            "When": {
+                "HasSeenEvent: anyPlayer|contains=2001302": true,
+                "Day": "6, 7, 13, 14, 20, 21, 27, 28"
+            }
         }
     ]
 }

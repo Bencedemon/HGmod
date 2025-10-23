@@ -12,7 +12,7 @@
   "marriage_TroutDerby": "610 Forest 62 51 2 dick_fish \"Strings\\schedules\\Christopher:TroutDerby_marriage\"/2530 bed",
   //"marriage_SquidFest": "610 Beach 11 39 2 dick_fish/2530 bed",
 
-  "marriage_Sat": "1800 Saloon 39 19 2 Christopher_drink \"Strings\\schedules\\Christopher:Saloon_marriage\"/2400 bed",
+  "marriage_Sat": "800 Beach 11 39 2 dick_fish \"Strings\\schedules\\Christopher:marriage_Sat.01\"/1800 Saloon 39 19 2 Christopher_drink \"Strings\\schedules\\Christopher:marriage_Sat.02\"/2400 bed",
 
   "summer_10": "700 Beach 11 39 2 dick_fish/1030 Hospital 12 14 0 \"Strings\\schedules\\Christopher:Hospital.01\"/1330 Hospital 4 6 1 \"Strings\\schedules\\Christopher:Hospital.02\"/1600 Saloon 26 18 2 Christopher_drink/2400 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
   "winter_15": "800 Beach 11 39 2 dick_fish/1000 FishShop 4 6 0/1130 Beach 11 39 2 dick_fish/1630 Saloon 26 18 2 Christopher_drink \"Strings\\schedules\\Christopher:NightMarket_Christopher\"/2200 Town 50 70 3 Christopher_smoke/2400 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",

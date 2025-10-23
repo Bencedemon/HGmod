@@ -302,7 +302,8 @@
           "LogName": "Festival Data",
           "Action": "Load",
           "Target": "Data/Festivals/fall6",
-          "FromFile": "Assets/Blank.json"
+          "FromFile": "Assets/Blank.json",
+          "When": { "HasFlag": "HGCave_Opening", }
         },
         {
           "LogName": "fall6",

@@ -13,7 +13,8 @@
             "SeedShop.01": "{{i18n:Bence.SeedShop.01}}",
             "SeedShop.02": "{{i18n:Bence.SeedShop.02}}",
             "SeedShop.03": "{{i18n:Bence.SeedShop.03}}",
-            "Saloon_marriage": "{{i18n:Bence.Saloon_marriage}}"
+            "marriage_Sat.01": "{{i18n:Bence.marriage_Sat.01}}",
+            "marriage_Sat.02": "{{i18n:Bence.marriage_Sat.02}}"
         },
       },
     ]

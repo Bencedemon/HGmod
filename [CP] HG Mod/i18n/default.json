@@ -364,15 +364,15 @@
   "Bence.DesertShop.02": "Got some rare things on sale, stranger!",
   "Bence.DesertShop.03": "Got a selection of good things on sale, stranger!",
 
-  "CaveGiftShop.01": "Mit vesz?",
-  "CaveGiftShop.02": "Lenni jó termékek olcsó.",
-  "CaveGiftShop.03": "Lep meg szeretteit jó ajándék.",
+  "CaveGiftShop.01": "Mit vesz?",//(!)
+  "CaveGiftShop.02": "Lenni jó termékek olcsó.",//(!)
+  "CaveGiftShop.03": "Lep meg szeretteit jó ajándék.",//(!)
 
-  "CaveBar.01": "Én mit ad önnek?",
-  "CaveBar.02": "Lenni szomjas, lenni éhes?",
+  "CaveBar.01": "Én mit ad önnek?",//(!)
+  "CaveBar.02": "Lenni szomjas, lenni éhes?",//(!)
 
-  "CaveMark.01": "Szükségünk lenne néhány dologra.",
-  "CaveMark.02": "Jó lenne ha ezeket le tudnád szállítani.",
+  "CaveResupply.01": "Szükségünk lenne néhány dologra.",
+  "CaveResupply.02": "Jó lenne ha ezeket le tudnád szállítani.",
 
   //Jukebox
   "Jukebox.Horthy" : "Horthy Miklós katonája vagyok",
@@ -671,7 +671,7 @@
   "Bundle.Final.Desc": "Oda akarod adományozni az italokat e magnyitóhoz?",
 
   //GeneralMails
-  "Mail.HGCaveOpening": "Helló @!^Mégegyszer szeretnénk megköszönni a segítségedet. A nélküled soha nem végeztünk volna.^A megnyitót a tervek szerint a hétvégén fogjuk tartani, reméljük eltudsz jönni.^ -Hello Guys[#]Hello Guys Barlang megnyitó meghívás",
+  "Mail.HGCaveOpening": "Helló @!^Mégegyszer szeretnénk megköszönni a segítségedet. Nélküled soha nem végeztünk volna.^A megnyitót a tervek szerint a hétvégén fogjuk tartani, reméljük eltudsz jönni.^ -Hello Guys[#]Hello Guys Barlang megnyitó meghívás",
   "Mail.IstiReturnReminder" : "@!^Ha nem esik ma az eső reggel elmegyek Istiért.^Ha minden jól megy 8:00-ra a parton leszünk.^Már szóltam Kristóféknak is, hogy jöjjenek a partra^Természetesen nem lőttem le nekik a meglepetést.^-Willy[#]Isti vissza térése",
 
   //Quests
@@ -830,7 +830,7 @@
   //HG Cave Opening
   "HG_Cave.Opening.01": "Hát @, megcsináltuk.",
   "HG_Cave.Opening.02": "Szeretnék gratulálni mindegyikőtöknek.$0#$b#Hála nektek a kis városunk hamarosan felkerül a térképre.$h",
-  "HG_Cave.Opening.03": "Figyelj @, lehet sikerült mindent felépítenünk, de csak az én farmom nem lesz elég hogy fel is tudjuk tartani a helyet.#$b#Szóval ha esetleg be tudnál segíteni azt megköszönném.#$b#Vasárnaponként 10-től 18-ig itt leszek a bár mellett, hogy átvegyem amit leszállítasz.",
+  "HG_Cave.Opening.03": "Figyelj @, lehet sikerült mindent felépítenünk, de csak az én farmom nem lesz elég hogy fel is tudjuk tartani a helyet.#$b#Szóval ha esetleg be tudnál segíteni azt megköszönném.#$b#Vasárnaponként a bár melletti ládára ki lesz írva, hogy mire lenne szükség.",
   "HG_Cave.Opening.04": "Jólvan csak ennyit akartam, ideje szórakozni.$h",
 
   //Festivals -=Red Rockets koncert=-
@@ -1159,7 +1159,8 @@
   "Christopher.DesertFestival.01": "Nem járok gyakran a sivatagba horgászni, de azért itt is vannak elég érdekes halak.",
   "Christopher.Hospital.01": "Ha megint azt fogom hallani hogy kevesebbet kéne innom kiborulok.$a#$b#Utána persze megyek is egyből a szalonba.$h",
   "Christopher.Hospital.02": "Mi a gond azzal hogy sokat iszok?#$b#A sör egészséges.",
-  "Christopher.Saloon_marriage": "Gyere @! Csatlakozz hozzánk!",
+  "Christopher.marriage_Sat.01": "Már most annyi halat fogtam, hogy legalább egy hétig nem fogunk éhezni.$h",
+  "Christopher.marriage_Sat.02": "Gyere @! Csatlakozz hozzánk!$h",
   "Christopher.TroutDerby_marriage": "Van valami ami tetszik a bódéból?$0#$e#Tessék egy Arany cédula.[TroutDerbyTag]$0#$b#Nekem már minden megvan ami kellett.$h",
   
   //Christopher Movie Dialogue 
@@ -1264,7 +1265,7 @@
   "Christopher.spouseRoom.3": "#$c .5#Az egészségünkre.[346]$h#$e#Olyan jó, hogy veled bármikor ihatok.",
   "Christopher.spouseRoom.4": "#$c .5#Kellene gyakorolnom, hamarosan fellépünk a bandával.#$e#Neked van valami terved mára?",
 
-  "Christopher.funLeave.Saturday": "Elmegyek a szalonba inni a boyokkal, későn jövök szóval nem kell megvárnod.",
+  "Christopher.funLeave.Saturday": "Elmegyek a szalonba inni a boyokkal, későn jövök szóval nem kell megvárnod.",//(!)
   "Christopher.funReturn.Saturday": "Nem... *böff* nem ittam... sokat.$6",
 
   "Christopher.funLeave.TroutDerby": "Elmegyek a pisztráng derbire.",
@@ -1421,7 +1422,7 @@
   //"Bence.Dating": "-",
 
   //SPECIFIC MAP AND COORDINATES DIALOGUE
-  "Bence.LocationDialogue.BlueMoonVineyard": "",
+  "Bence.LocationDialogue.BlueMoonVineyard": "Oh... Helló @! Eléggé megleptél.#$b#Nem gyakran találkozok errefelé másokkal.",//(!)
   "Bence.LocationDialogue.ScienceHouse": "Helló, @! Csak nem épület fejlesztés miatt vagy itt?#$e#Én csak pár adag fát jöttem leszállítani.",
 
   //SPRING AND GENERAL DIALOGUE
@@ -1540,12 +1541,13 @@
   "Bence.NightMarket.01": "Nem hiszem, hogy fogok venni bármit is, de azért kijöttem körülnézni.",
   "Bence.DesertFestival_marriage.01": "Rohadt meleg van. Tudnál nekem hozni valamit inni drágám?",
   "Bence.DesertFestival.01": "Gyűlölöm a sivatagot, melegvan és tele a cipőm homokkal.",
-  "Bence.Hospital.01": "",
-  "Bence.Hospital.02": "",
+  "Bence.Hospital.01": "*ásít* Csá @!$6#$b#Majdnem sikerült innét is elkésnem.$6",
+  "Bence.Hospital.02": "Mondom nincs semmi bajom doki, csak nem aludtam sokat.$6",//(!)
   "Bence.SeedShop.01": "Hmm... elfelejtettem mit akartam venni.$u",//Spring Fall
-  "Bence.SeedShop.02": "",//Summer
-  "Bence.SeedShop.03": "",//Winter
-  "Bence.Saloon_marriage": "",
+  "Bence.SeedShop.02": "De jólesne most egy jó hideg üdítő.",//Summer
+  "Bence.SeedShop.03": "Remek átázott a cipőm.$0#$b#Ezt hangosan mondtam?$u",//Winter
+  "Bence.marriage_Sat.01": "Jó érzés néha kimozdulni a farmról.",
+  "Bence.marriage_Sat.02": "Kérsz a pizzából?",
 
   //Bence Movie Dialogue 
 
@@ -1585,10 +1587,10 @@
   "Bence.8heart.Game.02": "Rákóczi: Szia Kristóf-chan! Mi újság?",
   "Bence.8heart.Game.03": "Ahogy ezt Senpai kimondta az idő hirtelen megállt körülöttem.#(Össze kell szednem magam.)#(Meg tudom csinálni.)#Vettem egy nagy levegőt, nyeltem egy nagyot és...",
   "Bence.8heart.Game.Question.02": "Mit modasz most?#Helló Senpai.#Csá...",
-  "Bence.8heart.Game.04": "",
-  "Bence.8heart.Game.05": "",
-  "Bence.8heart.Game.06": "",
-  "Bence.8heart.Game.07": "",
+  "Bence.8heart.Game.04": "...",
+  "Bence.8heart.Game.05": "...",
+  "Bence.8heart.Game.06": "...",
+  "Bence.8heart.Game.07": "...",
   "Bence.8heart.Game.Question.Reset": "Újrakezded?#Igen.#Nem.",
 
   "Bence.8heart.Question.01": "Nos? Hogy tetszett?#Nagyon jó volt.#Van még min dolgozni, de amúgy jó lesz.#Hát... ez nem lett valami jó.",
@@ -1646,7 +1648,7 @@
 
   "Bence.spouseRoom.1": "#$c .5#Szerintem ma az egyik projektemen fogok dolgozni.",
 
-  "Bence.funLeave.Sat": "Elmentem a szalonba, majd este jövök.",
+  "Bence.funLeave.Sat": "Elmentem a szalonba, majd este jövök.",//(!) Outdated
   "Bence.funReturn.Sat": "Jól érzés találkozni a régi haverokkal.",
 
   "Bence.OneKid.00": "Te és %kid1 tudtatok ma játszani?",
@@ -1912,9 +1914,10 @@
   "Mark.DesertFestival_marriage.02": "Ha bemész a bralangba kérlek vigyázz magadra, nem akarok őzvegy lenni.",
   "Mark.DesertFestival.01": "Le fogok égni.",
   "Mark.DesertFestival.02": "Voltál már az itteni bányában?#$b#Sokkal keményebb mint az otthoni.",
-  "Mark.Hospital.01": "",
-  "Mark.Hospital.02": "",
-  "Mark.Saloon_marriage": "",
+  "Mark.Hospital.01": "Csá! Te is az orvoshoz jőttél?#$e#Én csak az éves vizsgálat miatt vagyok itt.",
+  "Mark.Hospital.02": "Nos mit gondol doki? Fogok még nőlni?",
+  "Mark.marriage_Sat.01": "Gondoltam változatosság kedvéért kijövök ide olvasni.",
+  "Mark.marriage_Sat.02": "Gyere igyunk együtt!$h",
 
   //Mark Movie Dialogue 
 
@@ -2065,13 +2068,13 @@
   "Mark.spouseRoom.2": "#$c .5#Ha gondolod segíthetek ma a munkában!",
   "Mark.spouseRoom.3": "#$c .5#Legyen szép napod!",
 
-  "Mark.funLeave.spring": "Elmegyek inni a szalonba. Nem tartasz velem?",
+  "Mark.funLeave.spring": "Elmegyek inni a szalonba. Nem tartasz velem?",//(!)
   "Mark.funReturn.spring": "Ez jó móka volt. De most ledőlök aludni. #$e#Kicsit részeg vagyok.",
-  "Mark.funLeave.summer": "*sóhaj* Le fogok égni mire elérek a szalonba.",
+  "Mark.funLeave.summer": "*sóhaj* Le fogok égni mire elérek a szalonba.",//(!)
   "Mark.funReturn.summer": "Huh... Nagyon meleg van kint.",
-  "Mark.funLeave.fall": "Később jövök.#$e#Elmegyek inni a többiekkel a szalonba.",
+  "Mark.funLeave.fall": "Később jövök.#$e#Elmegyek inni a többiekkel a szalonba.",//(!)
   "Mark.funReturn.fall": "*böff* Lehet a tekila már nem kelett volna.",
-  "Mark.funLeave.winter": "Ellapátoltad az összes havat az útból?",
+  "Mark.funLeave.winter": "Ellapátoltad az összes havat az útból?",//(!)
   "Mark.funReturn.winter": "Öltözz fel melegen, hideg van!",
 
   "Mark.OneKid.00": "Kíváncsi vagyok, hogy %kid1 olyan farmer lesz-e, mint te?",
@@ -2339,9 +2342,10 @@
   "Isti.NightMarket.01": "Az éjszakai piac? Remek, mintha egy titkos metál koncertről lenne szó. bátysz biztos örülne! $a",
   "Isti.DesertFestival_marriage.01": "Huh, házasokként a sivatagi fesztivál... hát, legalább a riffek még mindig szólhatnak! $h",
   "Isti.DesertFestival.01": "Ez a sivatagi buli tényleg extrém! Ha lenne söröm... vagy kókusztejem, tuti nagyobb lenne a hangulat. $u",
-  "Isti.Hospital.01": "",
-  "Isti.Hospital.02": "",
-  "Isti.Saloon_marriage": "",
+  "Isti.Hospital.01": "Csak egy éves ellenőrzés, semmi komoly! Remélem a doki nem próbál rábeszélni a zöldségekre... $h",
+  "Isti.Hospital.02": "Őszintén, ez a sztetoszkóp hidegebb, mint a tenger télen! $a",
+  "Isti.marriage_Sat.01": "Ma csak lazítok egy kicsit a városban. Néha jó más embereket is látni, nem csak a tyúkokat! $h",
+  "Isti.marriage_Sat.02": "A szalonban vagyok a többiekkel. Csak pár sört iszunk... vagy hármat. $h",
   
   //Isti Movie Dialogue 
 
@@ -2505,21 +2509,20 @@
   "Haley.CharacterDialogue.01": "Egyszer láttam, hogy a Kristóf megevett egy nárciszt.$0#$b#Elég furcsa volt, dehát végülis a Kristófról beszélünk.",
   "Haley.CharacterDialogue.02": "Tényleg hozzá mentél a Kristófhoz?#$b#Fura egy izlésed van.",//married_Christopher
 
-  "Leah.CharacterDialogue.01": "",//fall_Tue2
-  "Leah.CharacterDialogue.02": "",//married_Bence
+  "Leah.CharacterDialogue.01": "Tavaly készítettem Bencének pár dekorációt de ahogy láttam nem tette ki őket.#$b#Vajon nem tetszett neki... vagy csak lusta volt kitenni őket?",//fall_Tue2
+  "Leah.CharacterDialogue.02": "Bence nagyon kreatí személy... Biztos vagyok benne, hogy egyik napod sem lesz unalmas.$h",//married_Bence
 
   "Emily.CharacterDialogue.01": "",//summer_Tue2
-  "Emily.CharacterDialogue.02": "",//married_Mark
+  "Emily.CharacterDialogue.02": "Csodálatos volt az esküvő... Mindig is éreztem, hogy összetartoztok a Márkal.$h",//married_Mark
 
-  "Willy.CharacterDialogue.01": "Üdvözletem! Jó látni fiatalokat költözni a völgybe. Manapság nem ez a megszokott.",//Introduction //(!)
-  "Willy.CharacterDialogue.02": "",//Sat4
-  "Willy.CharacterDialogue.03": "",//married_Christopher
+  "Willy.CharacterDialogue.01": "Üdvözletem! Jó látni fiatalokat költözni a völgybe. Manapság nem ez a megszokott.#$e#Kristófék óta te vagy az első és hát ök se multhéten költöztek ide.",//Introduction
+  "Willy.CharacterDialogue.02": "Kristóf nélkül valószínűleg már be kellett volna zárnom a boltomat.$0#$e#Nem sok fiatal mutat érdeklődést a horgászat iránt.$s",//Sat4
+  "Willy.CharacterDialogue.03": "Felhagysz ${az agglegény^a szingli}$ élettel, mi?#$b#Csak ne felejtsetek időt szakítani Kristóffal a horgászásra...$0#$b#Bár nem hiszem, hogy ő az a fajta ember lenne aki csak úgy felhagy az ilyesmivel.$h",//married_Christopher
 
-  "Robin.CharacterDialogue.01": "",//houseUpgrade_1_memory_oneweek
+  "Robin.CharacterDialogue.01": "Bence kabinja óta nem volt ekkora projektemen.",//houseUpgrade_1_memory_oneweek
   
   "Gus.CharacterDialogue.01": "Pam és Kristóf majd minden este betérnek a szalonba.#$e#Valószínűleg tönkremennék, ha nem jönnének többet.$h#$e#Szóval kérlek ne üldözd el őket!",//Thu
-  "Gus.CharacterDialogue.02": "",//Thu4
-  "Gus.CharacterDialogue.03": "",//Sat4
+  "Gus.CharacterDialogue.02": "Kristóf minden nap bejön a Szalonba és egy rakat pénzt költ.$0#$b#Nem gondoltam volna, hogy ennyi pénz lehet e horgászatban.$h",//Thu4
 
-  "Clint.CharacterDialogue.01": ""//Fri4
+  "Clint.CharacterDialogue.01": "Márk az egyik leggyakoribb vásárlóm.#$b#Tegnap például hozott egy nagyon érdekes geódát, amit aztán kinyitottunk és egy elég értékes ásványt találtunk benne."//Fri4
 }

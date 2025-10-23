@@ -12,7 +12,8 @@
             "DesertFestival_Mark2": "{{i18n:Mark.DesertFestival.02}}",
             "Hospital.01": "{{i18n:Mark.Hospital.01}}",
             "Hospital.02": "{{i18n:Mark.Hospital.02}}",
-            "Saloon_marriage": "{{i18n:Mark.Saloon_marriage}}",
+            "marriage_Sat.01": "{{i18n:Mark.marriage_Sat.01}}",
+            "marriage_Sat.02": "{{i18n:Mark.marriage_Sat.02}}",
         },
       },
     ]

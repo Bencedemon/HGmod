@@ -396,8 +396,20 @@
                             "IsRecipe": "true"
                         },
                     ]
-                },
-                "Bencedemon.HG_CaveMark": {
+                }
+            },
+            "Update": "OnTimeChange",
+            "When": {
+                "HasSeenEvent: anyPlayer|contains=2001302": true,
+                "Day": "6, 7, 13, 14, 20, 21, 27, 28",
+                "Time": "{{Range: 800, 2400}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "Bencedemon.HG_CaveResupply": {
                     "Owners": [
                         {
                             "Condition": null,
@@ -408,20 +420,19 @@
                                 "Condition": null,
                                 "Dialogue": null,
                                 "RandomDialogue": [
-                                    "{{i18n:CaveMark.01}}",
-                                    "{{i18n:CaveMark.02}}"
+                                    "{{i18n:CaveResupply.01}}",
+                                    "{{i18n:CaveResupply.02}}"
                                 ]
                             }
                             ],
                             "RandomizeDialogueOnOpen": true,
                             "ClosedMessage": null,
-                            "Id": "Mark",
-                            "Name": "Mark"
+                            "Name": "None"
                         }
                     ],
                     "Items": [
                         {//Cave Carrot 25g All
-                            "Condition": "SYNCED_RANDOM day CaveBar_cavecarrot 0.2",
+                            "Condition": "SYNCED_RANDOM day Resupply_cavecarrot 0.2",
                             "TradeItemId": "(O)78",
                             "TradeItemAmount": 20,
                             "Price": -1,
@@ -431,7 +442,7 @@
                             "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
                         },
                         {//Eggplant 60g Fall
-                            "Condition": "SYNCED_RANDOM day CaveBar_eggplant 0.2",
+                            "Condition": "SYNCED_RANDOM day Resupply_eggplant 0.2",
                             "TradeItemId": "(O)272",
                             "TradeItemAmount": 8,
                             "Price": -1,
@@ -441,7 +452,7 @@
                             "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
                         },
                         {//Potato 80g Spring
-                            "Condition": "SYNCED_RANDOM day CaveBar_potato 0.2",
+                            "Condition": "SYNCED_RANDOM day Resupply_potato 0.2",
                             "TradeItemId": "(O)192",
                             "TradeItemAmount": 6,
                             "Price": -1,
@@ -451,7 +462,7 @@
                             "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
                         },
                         {//Tea 50g Spring, Summer, Fall
-                            "Condition": "SYNCED_RANDOM day CaveBar_tea 0.2",
+                            "Condition": "SYNCED_RANDOM day Resupply_tea 0.2",
                             "TradeItemId": "(O)815",
                             "TradeItemAmount": 10,
                             "Price": -1,
@@ -461,7 +472,7 @@
                             "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
                         },
                         {//Corn 50g Summer, Fall
-                            "Condition": "SYNCED_RANDOM day CaveBar_corn 0.2",
+                            "Condition": "SYNCED_RANDOM day Resupply_corn 0.2",
                             "TradeItemId": "(O)270",
                             "TradeItemAmount": 10,
                             "Price": -1,
@@ -471,7 +482,7 @@
                             "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
                         },
                         {//Tomato 60g Summer
-                            "Condition": "SYNCED_RANDOM day CaveBar_tomato 0.2",
+                            "Condition": "SYNCED_RANDOM day Resupply_tomato 0.2",
                             "TradeItemId": "(O)256",
                             "TradeItemAmount": 8,
                             "Price": -1,
@@ -481,7 +492,7 @@
                             "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
                         },
                         {//Strawberry 120g Spring
-                            "Condition": "SYNCED_RANDOM day CaveBar_strawberry 0.2",
+                            "Condition": "SYNCED_RANDOM day Resupply_strawberry 0.2",
                             "TradeItemId": "(O)400",
                             "TradeItemAmount": 4,
                             "Price": -1,
@@ -491,7 +502,7 @@
                             "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
                         },
                         {//Lemon 70g All season
-                            "Condition": "SYNCED_RANDOM day CaveBar_lemon 0.2",
+                            "Condition": "SYNCED_RANDOM day Resupply_lemon 0.2",
                             "TradeItemId": "(O)Bencedemon.HG_Lemon",
                             "TradeItemAmount": 7,
                             "Price": -1,
@@ -501,7 +512,7 @@
                             "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
                         },
                         {//Cherry 80g Spring
-                            "Condition": "SYNCED_RANDOM day CaveBar_cherry 0.1",
+                            "Condition": "SYNCED_RANDOM day Resupply_cherry 0.1",
                             "TradeItemId": "(O)638",
                             "TradeItemAmount": 6,
                             "Price": -1,
@@ -511,7 +522,7 @@
                             "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
                         },
                         {//Ginger 60g All
-                            "Condition": "PLAYER_VISITED_LOCATION Any IslandSouth,SYNCED_RANDOM day CaveBar_ginger 0.2",
+                            "Condition": "PLAYER_VISITED_LOCATION Any IslandSouth,SYNCED_RANDOM day Resupply_ginger 0.2",
                             "TradeItemId": "(O)829",
                             "TradeItemAmount": 8,
                             "Price": -1,
@@ -521,7 +532,7 @@
                             "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
                         },
                         {//Hazelnut 90g Fall
-                            "Condition": "SYNCED_RANDOM day CaveBar_hazelnut 0.1",
+                            "Condition": "SYNCED_RANDOM day Resupply_hazelnut 0.1",
                             "TradeItemId": "(O)408",
                             "TradeItemAmount": 5,
                             "Price": -1,
@@ -531,7 +542,7 @@
                             "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
                         },
                         {//Cheese 230g All season
-                            "Condition": "SYNCED_RANDOM day CaveBar_cheese 0.2",
+                            "Condition": "SYNCED_RANDOM day Resupply_cheese 0.2",
                             "TradeItemId": "(O)424",
                             "TradeItemAmount": 2,
                             "Price": -1,
@@ -541,7 +552,7 @@
                             "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
                         },
                         {//Butter 215g All
-                            "Condition": "SYNCED_RANDOM day CaveBar_butter 0.2",
+                            "Condition": "SYNCED_RANDOM day Resupply_butter 0.2",
                             "TradeItemId": "(O)FlashShifter.StardewValleyExpandedCP_Butter",
                             "TradeItemAmount": 2,
                             "Price": -1,
@@ -551,7 +562,7 @@
                             "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
                         },
                         {//Bread 60g Summer, Fall
-                            "Condition": "SYNCED_RANDOM day CaveBar_bread 0.2",
+                            "Condition": "SYNCED_RANDOM day Resupply_bread 0.2",
                             "TradeItemId": "(O)216",
                             "TradeItemAmount": 8,
                             "Price": -1,
@@ -561,7 +572,7 @@
                             "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
                         },
                         {//Puppyfish 250g Spring, Summer, Fall
-                            "Condition": "SYNCED_RANDOM day CaveBar_puppyfish 0.1",
+                            "Condition": "SYNCED_RANDOM day Resupply_puppyfish 0.1",
                             "TradeItemId": "FlashShifter.StardewValleyExpandedCP_Puppyfish",
                             "TradeItemAmount": 2,
                             "Price": -1,
@@ -573,11 +584,10 @@
                     ]
                 }
             },
-            "Update": "OnTimeChange",
+            //"Update": "OnTimeChange",
             "When": {
                 "HasSeenEvent: anyPlayer|contains=2001302": true,
-                "Day": "6, 7, 13, 14, 20, 21, 27, 28",
-                "Time": "{{Range: 800, 2400}}"
+                "Day": "7, 14, 21, 28"
             }
         },
         {
