@@ -18,7 +18,7 @@
             "IsDarkSkinned": false,
             "CanBeRomanced": true,
             "KissSpriteIndex": 51,
-            "KissSpriteFacingDirection": true,
+            "KissSpriteFacingRight": false,
             "LoveInterest": "Emily",
             "Calendar": "AlwaysShown",
             "SocialTab": "UnknownUntilMet",
