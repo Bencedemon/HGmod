@@ -60,7 +60,7 @@
           },
           "WinterStarParticipant": "PLAYER_HAS_SEEN_EVENT Any IstiReturn",
           "WinterStarGifts": null,
-          "UnlockConditions": null, //"PLAYER_HAS_SEEN_EVENT Any 2001500",
+          "UnlockConditions": "PLAYER_VISITED_LOCATION Any IslandSouth",
           "SpawnIfMissing": true,
           "Home": [
             {
@@ -420,7 +420,7 @@
       "Action": "EditData",
       "Target": "Data/Events/Custom_IslandNorthWest",
       "Entries": {
-        "2001500": "IslandMusic/23 28/farmer 32 31 3 Isti 23 27 0/skippable/move farmer -5 0 3/emote farmer 8 true/doAction 22 26/move farmer 0 -1 0/move farmer -1 0 3/doAction 22 26/move farmer 0 -1 0/doAction 22 26/move farmer -3 0 0/doAction 22 26/pause 200/question null \"#Isti?\"/emote Isti 16 true/pause 200/faceDirection Isti 2/speak Isti \"Helló? Te meg, hogy kerültél ide?$0#$b#Te is hajótörött lettél?$h#$b#Várjunk egy kicsit, tudod a nevemet?#$b#Akkor ez azt jelenti, hogy a Pelikán városból jöttél?#$b#Az menő, régen én is ott éltem.\"/faceDirection Isti 0/doAction 22 26/pause 1000/doAction 22 26/speak Isti \"És mi újság a völgyben?\"/emote farmer 8/pause 100/question null \"#Mindenki azt hiszi meghaltál.\"/speak Isti \"Hmm... Ja azt gondoltam\"/doAction 22 26/pause 1200/doAction 22 26/pause 100/quickQuestion #Meglepően jól kezeled a hírt.#Nem erre a reakcióra számítottam.#Nem is örülsz, hogy megmenekültél?(break)--<answer1 script>\\speak Isti \"Hát persze. Teljesen jól vagyok, szerencsémre túléltem. Ez az ami számít, nem igaz?\"(break)--<answer2 script>\\speak Isti \"Mit is mondhatnék, mennyi idő telhetett el? Egy év? Vagy kettő?#$b#Teljesen elvesztettem az időérzékemet.\"(break)--<answer3 script>\\speak Isti \"Megmenekülni? Nem vagyok veszélyben.\"/faceDirection Isti 2/speak Isti \"Még ételt kell szereznem holnapra.#$b#De örülök hogy benéztél, gyere máskor is.\"/pause 200/move Isti -5 0 3 true/pause 500/faceDirection farmer 3/pause 200/question null \"#Várj, most akkor nem jösz haza a völgybe?\"/proceedPosition Isti/faceDirection Isti 1/pause 200/emote Isti 28/speak Isti \"*sóhaj* Nos tudod nagyon sok idő eltelt már azóta.#$b#Valószínűleg mindenki továbblépett már#$b#Nem hiszem, hogy képes lennék visszatérni a völgybe, legalábbis nem most.\"/pause 100/quickQuestion #Rendben, de azért ne mondjam el, hogy jól vagy?#Hát... oké.#Szerintem nagy hibát követsz el.(break)--<answer1 script>\\speak Isti \"Kérlek tartsd, titokban hogy találkoztunk.#$b#Szeretném egynap személyesen elmondani mindenkinek hogy jól vagyok.\"(break)--<answer2 script>\\speak Isti \"Köszönöm, hogy megérted.\"(break)--<answer3 script>\\speak Isti \"*sóhaj* Nem ez lenne az első.$s\"\\emote Isti 28 true/pause 200/advancedMove Isti false -7 0 0 -10/viewport move 0 -1 8000/pause 4000/globalFade/viewport -1000 -1000/end",
+        "2001500": "IslandMusic/23 28/farmer 32 31 3 Isti 23 27 0/skippable/move farmer -5 0 3/emote farmer 8 true/doAction 22 26/move farmer 0 -1 0/move farmer -1 0 3/doAction 22 26/move farmer 0 -1 0/doAction 22 26/move farmer -3 0 0/doAction 22 26/pause 200/question null \"#Isti?\"/emote Isti 16 true/pause 200/faceDirection Isti 2/speak Isti \"Helló? Te meg, hogy kerültél ide?$0#$b#Te is hajótörött lettél?$h#$b#Várjunk egy kicsit, tudod a nevemet?#$b#Akkor ez azt jelenti, hogy a Pelikán városból jöttél?#$b#Az menő, régen én is ott éltem.\"/faceDirection Isti 0/doAction 22 26/pause 1000/doAction 22 26/speak Isti \"És mi újság a völgyben?\"/emote farmer 8/pause 100/question null \"#Mindenki azt hiszi meghaltál.\"/speak Isti \"Hmm... Ja azt gondoltam\"/doAction 22 26/pause 1200/doAction 22 26/pause 100/quickQuestion #Meglepően jól kezeled a hírt.#Nem erre a reakcióra számítottam.#Nem is örülsz, hogy megmenekültél?(break)--<answer1 script>\\speak Isti \"Hát persze. Teljesen jól vagyok, szerencsémre túléltem. Ez az ami számít, nem igaz?\"(break)--<answer2 script>\\speak Isti \"Mit is mondhatnék, mennyi idő telhetett el? Egy év? Vagy kettő?#$b#Teljesen elvesztettem az időérzékemet.\"(break)--<answer3 script>\\speak Isti \"Megmenekülni? Nem vagyok veszélyben.\"/faceDirection Isti 2/speak Isti \"Még ételt kell szereznem holnapra.#$b#De örülök hogy benéztél, gyere máskor is.\"/pause 200/move Isti -5 0 3 true/pause 500/faceDirection farmer 3/pause 200/question null \"#Várj, most akkor nem jösz haza a völgybe?\"/proceedPosition Isti/emote Isti 28/faceDirection Isti 1/pause 200/speak Isti \"*sóhaj* Nos tudod nagyon sok idő eltelt már azóta.#$b#Valószínűleg mindenki továbblépett már#$b#Nem hiszem, hogy képes lennék visszatérni a völgybe, legalábbis nem most.\"/pause 100/quickQuestion #Rendben, de azért ne mondjam el, hogy jól vagy?#Hát... oké.#Szerintem nagy hibát követsz el.(break)--<answer1 script>\\speak Isti \"Kérlek tartsd, titokban hogy találkoztunk.#$b#Szeretném egynap személyesen elmondani mindenkinek hogy jól vagyok.\"(break)--<answer2 script>\\speak Isti \"Köszönöm, hogy megérted.\"(break)--<answer3 script>\\speak Isti \"*sóhaj* Nem ez lenne az első.$s\"\\emote Isti 28 true/pause 200/advancedMove Isti false -7 0 0 -10/viewport move 0 -1 8000/pause 4000/globalFade/viewport -1000 -1000/end",
       }
     },
     { //2 heart event - Coconut
@@ -444,6 +444,20 @@
         "2001503/e 2001502/f Isti 1500/p Isti/w sunny/t 600 2200": "IslandMusic/19 17/farmer 20 12 2 Isti 19 17 2/broadcastEvent/mail IstiReturnReminder/move farmer 0 5 2/speak Isti \"Tudod @, mostanában elég sokat gondolkodtam és úgy érzem végre készen állok arra, hogy vissza térjek Pelikán városba.\"/faceDirection Isti 1/faceDirection farmer 3/speak Isti \"Jó lesz találkozni újra a srácokkal.$h#$b#Ma este összepakolom pár cuccomat és holnap hazamegyek Willy-vel.\"/faceDirection Isti 2 true/faceDirection farmer 2/viewport move 1 1 4000/pause 2000/globalFade/viewport -1000 -1000/end",
       }
     },
+    { //8 heart event I, 6:00 am - 11:30 am
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "2001504/t 600 1130/f Isti 2000/w sunny/e IstiReturn": "continue/64 15/farmer 64 16 2 Robin 64 18 0/skippable/pause 1500/speak Robin \"...\"/pause 50/pause 50/end",
+      }
+    },
+    { //8 heart event II, 12:00 am - 18:00 am
+      "Action": "EditData",
+      "Target": "Data/Events/Town",
+      "Entries": {
+        "2001505/t 1200 1800/w sunny/e 2001504": "none/29 67/farmer 27 67 1 Isti 30 67 3/skippable/pause 1500/speak Isti \"...\"/pause 300/viewport move 1 -1 8000/pause 4000/globalFade/viewport -1000 -1000/end",
+      }
+    }
   ]
 }
 //(0 = up, 1 = right, 2 = down, 3 = left)

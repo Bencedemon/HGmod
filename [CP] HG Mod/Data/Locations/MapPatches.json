@@ -654,13 +654,50 @@
                "Target": "Maps/Mountain",
                "FromFile": "assets/Maps/MapPatches/AbandonedCabin2.tmx",
                "When":{
-                    "HasSeenEvent: anyPlayer|contains=IstiReturn": true
+                    "HasSeenEvent: anyPlayer|contains=IstiReturn": true,
+                    "HasSeenEvent: anyPlayer|contains=2001505": false
                },
                "ToArea": {
                     "X": 61,
                     "Y": 0,
                     "Width": 11,
                     "Height": 12
+               }
+          },
+          {
+               "Action": "EditMap",
+               "Target": "Maps/Mountain",
+               "FromFile": "assets/Maps/MapPatches/AbandonedCabin_Refurbished.tmx",
+               "When":{
+                    "HasSeenEvent: anyPlayer|contains=2001505": true
+               },
+               "Update": "OnLocationChange",
+               "ToArea": {
+                    "X": 61,
+                    "Y": 0,
+                    "Width": 11,
+                    "Height": 12
+               }
+          },
+          {
+               "Action": "EditMap",
+               "Target": "Maps/Custom_IstiCabinInterior",
+               "FromFile": "assets/Maps/MapPatches/AbandonedCabinInterior_Refurbished.tmx",
+               "When":{
+                    "HasSeenEvent: anyPlayer|contains=2001505": true
+               },
+               "Update": "OnLocationChange",
+               "ToArea": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 10,
+                    "Height": 12
+               },
+               "MapProperties": {
+                    "DayTiles": "Front 5 1 256 Front 5 2 288",
+                    "NightTiles": "Front 5 1 1253 Front 5 2 1285",
+                    "AmbientLight": "95 95 95",
+                    "WindowLight": "6 9 6 5 2 6"
                }
           },
           { //Isti Furnace

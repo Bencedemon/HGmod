@@ -70,6 +70,13 @@
 				"AbandonedCabin2.PC": "{{i18n:AbandonedCabin2.PC}}",
 				"AbandonedCabin2.Firewood": "{{i18n:AbandonedCabin2.Firewood}}",
 				"AbandonedCabin2.Box": "{{i18n:AbandonedCabin2.Box}}",
+				"AbandonedCabin2.Fridge": "{{i18n:AbandonedCabin2.Fridge}}",
+				"AbandonedCabin2.TV": "{{i18n:AbandonedCabin2.TV}}",
+
+				"IstiCabin.PC": "{{i18n:IstiCabin.PC}}",
+				"IstiCabin.Firewood": "{{i18n:IstiCabin.Firewood}}",
+				"IstiCabin.Fridge": "{{i18n:IstiCabin.Fridge}}",
+				"IstiCabin.TV": "{{i18n:IstiCabin.TV}}",
 
 				"IstiCabin.Mailbox": "{{i18n:IstiCabin.Mailbox}}",
 

@@ -350,6 +350,24 @@
   "Sophia.4hearts.Dusty.05": "!!!$4",
   "Sophia.4hearts.Dusty.06": "We gave Dusty many pets. Sophia laughed a lot. She feels better.",
   "Sophia.4hearts.Dusty.07": "Dusty is such a good boy.$1#$b#Um. Petting him cheered me up.$9#$e#Thanks, @.$1",
+
+  //Willy Boat Event
+  "Willy.Boat.01": "Ahoy!",
+  "Willy.Boat.02": "Kerülj beljebb... érezd magad otthonosan...",
+  "Willy.Boat.03": "Aye... az ám a jó cucc. A halak teljesen megőrülnek érte.#$b#Csak... öhm... alaposan moss majd kezet, miután abban a lében nyúlkáltál...$s",
+  "Willy.Boat.04": "Az aromája képes akár hét héten át tartani, ${fiacskám^kisasszony}$...",
+  "Willy.Boat.05": "Szóval... sok halat fogtál ki mostanság?",
+  "Willy.Boat.06": "#Igen#Nem#Túl nehéz...",
+  "Willy.Boat.07": "Aha! Csak nem ${a kedvemben akarsz járni^el akarsz engem csábítani}$...$h",
+  "Willy.Boat.08": "Mindig bízhatsz egy ${horgászban^hölgyben, aki tud horgászni}$...",
+  "Willy.Boat.09": "Legalábbis az öregem mindig ezt mondta. Haha!$h#$b#Nos, csak így tovább... ha képes vagy kifogni az összes halat ezekből a vizekből, akkor egy különleges jutalmat adok neked...",
+  "Willy.Boat.10": "Nem vagy nagy horgász, mi? Az nagy kár...$s",
+  "Willy.Boat.11": "Igen, nehéz sportnak minősül... főleg egy kezdő számára.#$b#Próbáltad már az 'edző horgászbotot'? Nálam is van pár készleten, és olcsón kínálom őket.#$b#Használhatnál egy 'edző horgászbotot', amíg nem leszel kissé tapasztaltabb.",
+  "Willy.Boat.12": "#Mi a baj?#Minden rendben van?",
+  "Willy.Boat.13": "Aye... nos, mostanság elég rosszul ment az üzlet.$s#$b#Akkor kezdődött minden, amikor az a régi közösségi központ tönkrement... nem veszik annyira a halaimat, mint régen tették...#$b#Kétszer annyit dolgozom pusztán azért, hogy meglegyen a napi betevőre való!",
+  "Willy.Boat.14": "Nincs időm a saját projektjeimre...$s#$b#De ha a dolgok ismét a régi kerékvágásba kerülnének, talán mutathatnék neked valamit...",
+  "Willy.Boat.15": "Heh heh... bizony. Ott hátul van... egy 'öreg barátom', aki látott már szebb napokat is...$h#$b#És hát, már elég sok idő eltelt az incidens óta.$s#$b#Ideje tovább lépni.$s",//(!)
+  "Willy.Boat.16": "*sóhaj* Egy nap, ${fiacskám^kisasszony}$... majd te is megérted, hogy miről beszélek.",
   
   //================//
   // HG Mod Content //
@@ -630,6 +648,13 @@
   "AbandonedCabin2.PC": "Isti számítógépe.",
   "AbandonedCabin2.Firewood": "Frissen vágott fahasábok.",
   "AbandonedCabin2.Box": "A dobozok tele vannak Isti személyes tárgyaival.",
+	"AbandonedCabin2.Fridge": "Isti hűtőszekrénye. Tele van sörrel.",
+	"AbandonedCabin2.TV": "Nem tudom bekapcsolni. Valószínűleg még nem lett megjavítva.",
+
+  "IstiCabin.PC": "Isti számítógépe.",
+  "IstiCabin.Firewood": "Frissen vágott fahasábok.",
+	"IstiCabin.Fridge": "Isti hűtőszekrénye. Tele van sörrel.",
+	"IstiCabin.TV": "Isti TV-je. Már működőképes állapotban.",
 
   "IstiCabin.Mailbox": "-Isti rezidenciája-",
 

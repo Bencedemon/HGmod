@@ -41,6 +41,9 @@
             "Entries": {
                 "2001303/Year 2": "sadpiano/68 10/farmer 59 11 1 Christopher 68 12 0 Bence 67 12 0 Mark 66 12 0/move farmer 4 0 1 true/pause 1000/emote Christopher 28 true/emote Bence 28 true/emote Mark 28/pause 1000/speak Bence \"Jólvan, én szerintem megindulok haza.$s\"/speak Mark \"Nekem is mennem kell, még elég sok dolgom van a farmon.$s\"/speak Christopher \"Jólvan boys, majd még találkozunk.$s\"/advancedMove Mark false -6 0 0 -2 -1 0 0 -1 -1 0 0 -1 -15 0 0 2 -1 0 0 7 -2 0 13 -16 0/pause 400/advancedMove Bence false -7 0 0 -2 -1 0 0 -1 -1 0 0 -1 -15 0 0 2 -1 0 0 7 -2 0 13 -16 0/textAboveHead Mark \"Csá farmer!\"/pause 400/textAboveHead Bence \"Helló!\"/pause 1000/emote Christopher 28 true/move farmer 2 0 1/move farmer 0 1 1/move farmer 2 0 0/pause 500/speak Christopher \"*sóhaj* Van valamit amit ideje lenne elmesélnem.$s\"/viewport move -1 1 8000/pause 4000/globalFade/viewport -1000 -1000/end",
                 "2001304/HasItem Bencedemon.HG_IstiGuitar/t 600 2000": "none/74 5/farmer 67 4 3 Mark 79 -1 2/skippable/move Mark 0 6 3/playSound leafrustle/emote Mark 8/speak Mark \"@!?\"/pause 100/quickQuestion Mit csinálsz te ott?#Semmit.#Csak kíváncsi voltam mi van bent.#(Nem válaszolsz)(break)--<answer1 script>\\speak Mark \"Oké...\"(break)--<answer2 script>\\speak Mark \"Illetlenség más házában kutakodni.$0#$b#Még akkor is ha az illető nincs többé.$s\"(break)--<answer3 script>\\speak Mark \"Erre most nincs időm @.\"/move Mark 0 5 2 true/globalFade/viewport -1000 -1000/end",
+            },
+            "When": {
+                "HasSeenEvent: anyPlayer|contains=IstiReturn": false
             }
         },
         {

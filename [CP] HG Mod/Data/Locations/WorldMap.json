@@ -453,6 +453,16 @@
                                 "Width": 0,
                                 "Height": 0
                             }
+                        },
+                        {
+                            "Id": "Custom_IstiCabinInterior",
+                            "LocationName": "Custom_IstiCabinInterior",
+                            "MapPixelArea": {
+                                "X": 214,
+                                "Y": 26,
+                                "Width": 0,
+                                "Height": 0
+                            }
                         }
                     ],
                     "Tooltips" : [
