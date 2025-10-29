@@ -22,7 +22,9 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Robin",
             "Entries": {
-                "houseUpgrade_1_memory_oneweek": "{{i18n:Robin.CharacterDialogue.01}}"
+                "houseUpgrade_1_memory_oneweek": "{{i18n:Robin.CharacterDialogue.01}}",
+                "eventSeen_2001101_memory_oneweek": "{{i18n:Robin.Bence.2heart}}",
+                "eventSeen_2001102_memory_oneweek": "{{i18n:Robin.Bence.4heart}}"
             }
         }
 	]

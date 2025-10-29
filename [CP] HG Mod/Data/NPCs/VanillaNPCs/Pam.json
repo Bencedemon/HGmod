@@ -17,5 +17,13 @@
                 }
             ]
         },
+        {
+            //Pam's Extra Dialogue
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pam",
+            "Entries": {
+                "eventSeen_2001004_memory_oneweek": "{{i18n:Pam.Christopher.8heart}}"
+            }
+        }
     ]
 }

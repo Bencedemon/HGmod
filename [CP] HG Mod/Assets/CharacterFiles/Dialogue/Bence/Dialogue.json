@@ -105,6 +105,15 @@
           "winter_Sat": "{{i18n:Bence.WinterCharacterDialogue.012}}",
           "winter_Sat4": "{{i18n:Bence.WinterCharacterDialogue.013}}",
           "winter_Sun": "{{i18n:Bence.WinterCharacterDialogue.014}}",
+          //Conversation topics
+          "eventSeen_2001101_memory_oneday": "{{i18n:Bence.2heart.Topic}}",
+          "eventSeen_2001103_memory_oneweek": "{{i18n:Bence.6heart.Topic}}",
+          "eventSeen_2001104_memory_oneday": "{{i18n:Bence.8heart.Topic}}",
+          "eventSeen_2001105_memory_oneday": "{{i18n:Bence.10heart.Topic}}",
+          "eventSeen_4081148_memory_oneweek": "{{i18n:Bence.Sam.Concert}}",
+          "eventSeen_2001006_memory_oneweek": "{{i18n:Bence.Christopher.10heart}}",
+          "houseUpgrade_1_memory_oneweek": "{{i18n:Bence.houseUpgrade_1}}",
+          "structureBuilt_Coop_memory_oneweek": "{{i18n:Bence.structureBuilt_Coop}}"
         },
       },
       {

@@ -284,7 +284,7 @@
         {
           "LogName": "Events",
           "Action": "Include",
-          "FromFile": "Data/Events/HG_Events.json, Data/Events/SO_Events.json, Data/Events/SVE_Events.json, Data/Events/SecretQuest.json"
+          "FromFile": "Data/Events/HG_Events.json, Data/Events/SO_Events.json, Data/Events/SVE_Events.json"
         },
         {
           "LogName": "Festivals",

@@ -68,7 +68,9 @@
             "Entries": {
                 "Introduction": "{{i18n:Willy.CharacterDialogue.01}}",
                 "Sat4": "{{i18n:Willy.CharacterDialogue.02}}",
-                "married_Christopher": "{{i18n:Willy.CharacterDialogue.03}}"
+                "married_Christopher": "{{i18n:Willy.CharacterDialogue.03}}",
+                "eventSeen_2001001_memory_oneweek": "{{i18n:Willy.Christopher.2heart}}",
+                "eventSeen_2001004_memory_oneweek": "{{i18n:Willy.Christopher.8heart}}"
             }
         }
 	]

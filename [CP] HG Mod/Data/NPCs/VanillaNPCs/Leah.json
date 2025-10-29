@@ -40,7 +40,8 @@
             "Target": "Characters/Dialogue/Leah",
             "Entries": {
                 "fall_Tue2": "{{i18n:Leah.CharacterDialogue.01}}",
-                "married_Bence": "{{i18n:Leah.CharacterDialogue.02}}"
+                "married_Bence": "{{i18n:Leah.CharacterDialogue.02}}",
+                "eventSeen_2001102_memory_oneweek": "{{i18n:Leah.Bence.4heart}}"
             }
         }
     ]

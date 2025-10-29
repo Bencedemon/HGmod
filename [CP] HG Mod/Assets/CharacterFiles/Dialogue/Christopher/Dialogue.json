@@ -116,7 +116,18 @@
           "winter_Fri": "{{i18n:Christopher.CharacterDialogue.041}}",
           "winter_Sat": "{{i18n:Christopher.CharacterDialogue.042}}",
           "winter_Sat4": "{{i18n:Christopher.CharacterDialogue.043}}",
-          "winter_Sun": "{{i18n:Christopher.CharacterDialogue.044}}"
+          "winter_Sun": "{{i18n:Christopher.CharacterDialogue.044}}",
+          //Conversation topics 
+          "eventSeen_2001001_memory_oneday": "{{i18n:Christopher.2heart.Topic}}",
+          "eventSeen_2001002_memory_oneday": "{{i18n:Christopher.4heart.Topic}}",
+          "eventSeen_2001006_memory_oneweek": "{{i18n:Christopher.10heart.Topic}}",
+          "eventSeen_4081148": "{{i18n:Christopher.Sam.Concert}}",
+          "eventSeen_2001104_memory_oneweek": "{{i18n:Christopher.Bence.8heart}}",
+          "fishCaught_143": "{{i18n:Christopher.fishCaught_Catfish}}",
+          "fishCaught_800": "{{i18n:Christopher.fishCaught_Blobfish}}",
+          "fishCaught_142": "{{i18n:Christopher.fishCaught_Carp}}",
+          "structureBuilt_Fish Pond": "{{i18n:Christopher.structureBuilt_FishPond}}",
+          "cc_Bus": "{{i18n:Christopher.cc_Bus}}"
         }
       },
       {

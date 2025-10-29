@@ -44,5 +44,13 @@
                 "5000003/w sunny/f Andy 2000/z winter/t 900 1500": "spring_day_ambient/-500 -500/farmer 91 74 2 Andy 77 84 0 MarlonFay 7 20 2 Wizard 7 22 0 Abigail 8 29 0 Marnie 54 21 0 Leah 112 34 0 Bence 21 29 1 Shane 86 54 3/pause 500/skippable/showFrame Bence 29/viewport 90 84 true/move farmer 0 10 3 true/move Andy 3 0 0 true/pause 1600/playSound leafrustle/pause 800/move Andy 4 0 0 true/pause 2300/playSound leafrustle/pause 600/emote farmer 8/pause 400/move Andy 0 0 1/pause 300/emote Andy 16/pause 250/speak Andy \"{{i18n:Andy.8hearts.01}}\"/pause 500/move farmer -3 0 3/pause 400/speak Andy \"{{i18n:Andy.8hearts.02}}\"/pause 1000/move Andy 0 0 2/pause 1200/move Andy 0 0 1/pause 500/speak Andy \"{{i18n:Andy.8hearts.03}}\"/pause 750/globalFade/viewport -1000 -1000/pause 300/warp Andy 44 106/warp farmer 44 108/pause 100/faceDirection Andy 1 true/positionOffset Andy 22 0 true/faceDirection farmer 1 true/pause 100/viewport 45 108 clamp true/playMusic ocean/pause 3500/speak Andy \"{{i18n:Andy.8hearts.04}}\"/pause 300/emote Andy 40/pause 400/speak Andy \"{{i18n:Andy.8hearts.05}}\"/pause 500/faceDirection farmer 0/pause 650/shake Andy 700/pause 1100/stopMusic/speak Andy \"{{i18n:Andy.8hearts.06}}\"/pause 1300/playMusic musicboxsong/pause 500/speak Andy \"{{i18n:Andy.8hearts.07}}\"/pause 800/faceDirection Andy 2 true/pause 500/speak Andy \"{{i18n:Andy.8hearts.08}}\"/pause 600/faceDirection Andy 1 true/pause 800/shake Andy 700/pause 1000/speak Andy \"{{i18n:Andy.8hearts.09}}\"/pause 750/faceDirection Andy 2 true/pause 750/showFrame Andy 22/pause 1000/speak Andy \"{{i18n:Andy.8hearts.10}}\"/pause 1000/faceDirection Andy 2 true/pause 700/speak Andy \"{{i18n:Andy.8hearts.11}}\"/pause 500/emote farmer 32/playMusic ocean/pause 1000/faceDirection Andy 1/pause 1000/faceDirection farmer 1 true/pause 2000/speak Andy \"{{i18n:Andy.8hearts.12}}\"/pause 1500/globalFade/viewport -1000 -1000/pause 250/friendship Andy 50/end dialogue Andy \"{{i18n:Andy.8hearts.13}}\"",
             },
         },
+        {
+            //Andy's Extra Dialogue
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Andy",
+            "Entries": {
+                "eventSeen_2001103": "{{i18n:Andy.Bence.6heart}}"
+            }
+        }
     ]
 }

@@ -19,6 +19,7 @@
           "Reject_458": "{{i18n:Mark.Reject_458}}",
           "GreenRain": "{{i18n:Mark.GreenRain}}",
           "GreenRainFinished": "{{i18n:Mark.GreenRainFinished}}",
+          "fishCaught_163": "{{i18n:Mark.fishCaught_Legend}}",
           "AcceptGift_(O)341": "{{i18n:Mark.GiftTeaSet}}",
           "AcceptBirthdayGift_Positive": "{{i18n:Mark.AcceptBirthdayGift_Positive}}",
           "AcceptBirthdayGift_Negative": "{{i18n:Mark.AcceptBirthdayGift_Negative}}",
@@ -104,6 +105,18 @@
           "winter_Fri8": "{{i18n:Mark.WinterCharacterDialogue.009}}",
           "winter_Sat": "{{i18n:Mark.WinterCharacterDialogue.010}}",
           "winter_Sun": "{{i18n:Mark.WinterCharacterDialogue.011}}",
+          //Conversation topics
+          "eventSeen_2001201_memory_oneday": "{{i18n:Mark.2heart.Topic}}",
+          "eventSeen_2001203_memory_oneday": "{{i18n:Mark.6heart.Topic}}",
+          "eventSeen_2001205_memory_oneday": "{{i18n:Mark.8heart.Topic}}",
+          "eventSeen_winnerBet_memory_oneweek": "{{i18n:Mark.8heart.Topic.Win}}",
+          "eventSeen_2001207_memory_oneday": "{{i18n:Mark.10heart.Topic}}",
+          "eventSeen_2123243_memory_oneweek": "{{i18n:Mark.Emily.8heart}}",
+          "eventSeen_2001104_memory_oneweek": "{{i18n:Mark.Bence.8heart}}",
+          "eventSeen_2001006_memory_oneweek": "{{i18n:Mark.Christopher.10heart}}",
+          "eventSeen_4081148": "{{i18n:Mark.Sam.Concert}}",
+          "mineArea_80_memory_oneweek": "{{i18n:Mark.mineArea_80}}",
+          "structureBuilt_Stable_memory_oneweek": "{{i18n:Mark.structureBuilt_Stable}}"
         },
       },
     ]
