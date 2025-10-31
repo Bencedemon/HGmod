@@ -373,6 +373,12 @@
   // HG Mod Content //
   //================//
 
+  //CONFIGS
+  "Config.MarkLegacyLook.name": "Mark Legacy Look",
+  "Config.MarkLegacyLook.description": "Uses the old version of Mark's sprite and portrait.",
+  "Config.SeasonalEdits.name": "Seasonal Edits",
+  "Config.SeasonalEdits.description": "Adds leafs on the ground in certain areas.",
+
   //Signs
   "Sign.TownMarkFarm": "` Grace Field Farm^> Pelikánváros",
   "Sign.Backwoods": "= {{FarmName}} Farm^> Grace Field Farm^> Mountain",

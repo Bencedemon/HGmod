@@ -282,6 +282,11 @@
           "FromFile": "Data/Other/SpeechBubbles.json, Data/Other/Strings.json, Data/Other/SpecialOrderStrings.json"
         },
         {
+          "LogName": "OtherMods",
+          "Action": "Include",
+          "FromFile": "Data/OtherMods/CJBCheatsMenu.json, Data/OtherMods/NPCMapLocations.json"
+        },
+        {
           "LogName": "Events",
           "Action": "Include",
           "FromFile": "Data/Events/HG_Events.json, Data/Events/SO_Events.json, Data/Events/SVE_Events.json"

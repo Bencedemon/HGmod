@@ -1,0 +1,35 @@
+{
+	"Changes": [
+		//NPC MAP LOCATIONS TRACKING
+		{
+			"Action": "EditData",
+			"Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			"Entries": {
+				"Christopher": {
+					"MarkerCropOffset": 0
+				},
+				"Bence": {
+					"MarkerCropOffset": 0
+				},
+				"Mark": {
+					"MarkerCropOffset": 2
+				},
+				"Isti": {
+					"MarkerCropOffset": 0
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			"When": {
+				"HasSeenEvent |contains=2001500": false
+			},
+			"Entries": {
+				"Isti": {
+					"Exclude": true
+				}
+			}
+		},
+    ]
+}

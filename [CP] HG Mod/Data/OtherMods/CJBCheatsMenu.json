@@ -1,0 +1,90 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+            "Entries": {
+                "Bencedemon.HG_MarkFarmSection": {
+                    "Id": "Bencedemon.HG_MarkFarmSection",
+                    "DisplayName": "{{i18n:MarkFarm.Name}}"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Mods/CJBok.CheatsMenu/Warps",
+            "Entries": {
+                "Bencedemon.HG_ChristopherHouse": {
+                    "Id": "Bencedemon.HG_ChristopherHouse",
+                    "DisplayName": "{{i18n:ChristopherHouse.Name}}",
+                    "Location": "Custom_ChristopherHouseInterior",
+                    "Tile": "3, 9",
+                    "SectionId": "Beach"
+                },
+                "Bencedemon.HG_BenceCabin": {
+                    "Id": "Bencedemon.HG_BenceCabin",
+                    "DisplayName": "{{i18n:BenceCabin.Name}}",
+                    "Location": "Custom_BenceCabinInterior",
+                    "Tile": "9, 10",
+                    "SectionId": "Forest"
+                },
+                "Bencedemon.HG_MarkFarm": {
+                    "Id": "Bencedemon.HG_MarkFarm",
+                    "DisplayName": "{{i18n:MarkFarm.Name}}",
+                    "Location": "Custom_MarkFarm",
+                    "Tile": "0, 24",
+                    "SectionId": "Bencedemon.HG_MarkFarmSection"
+                },
+                "Bencedemon.HG_MarkHouse": {
+                    "Id": "Bencedemon.HG_MarkHouse",
+                    "DisplayName": "{{i18n:MarkHouse.Name}}",
+                    "Location": "Custom_MarkHouseInterior",
+                    "Tile": "3, 9",
+                    "SectionId": "Bencedemon.HG_MarkFarmSection"
+                },
+                "Bencedemon.HG_MarkFarmCave": {
+                    "Id": "Bencedemon.HG_MarkFarmCave",
+                    "DisplayName": "{{i18n:MarkFarmCave.Name}}",
+                    "Location": "Custom_MarkFarmCave",
+                    "Tile": "7, 14",
+                    "SectionId": "Bencedemon.HG_MarkFarmSection"
+                },
+                "Bencedemon.HG_HGCave": {
+                    "Id": "Bencedemon.HG_HGCave",
+                    "DisplayName": "{{i18n:HGCave.Name}}",
+                    "Location": "Custom_HGCave",
+                    "Tile": "29, 27",
+                    "SectionId": "Bencedemon.HG_MarkFarmSection"
+                },
+                "Bencedemon.HG_AbandonedCabin": {
+                    "Id": "Bencedemon.HG_AbandonedCabin",
+                    "DisplayName": "{{i18n:AbandonedCabin.Name}}",
+                    "Location": "Custom_AbandonedCabinInterior",
+                    "Tile": "3, 4",
+                    "SectionId": "Mountain"
+                },
+                "Bencedemon.HG_IstiCabin": {
+                    "Id": "Bencedemon.HG_IstiCabin",
+                    "DisplayName": "{{i18n:IstiCabin.Name}}",
+                    "Location": "Custom_IstiCabinInterior",
+                    "Tile": "3, 9",
+                    "SectionId": "Mountain"
+                },
+                "Bencedemon.HG_IslandNorthWest": {
+                    "Id": "Bencedemon.HG_IslandNorthWest",
+                    "DisplayName": "{{i18n:IslandNorthWest.Name}}",
+                    "Location": "Custom_IslandNorthWest",
+                    "Tile": "43, 30",
+                    "SectionId": "Island"
+                },
+                "Bencedemon.HG_Island_Shelter": {
+                    "Id": "Bencedemon.HG_Island_Shelter",
+                    "DisplayName": "{{i18n:Island_ShelterShelter.Name}}",
+                    "Location": "Custom_Island_Shelter",
+                    "Tile": "4, 8",
+                    "SectionId": "Island"
+                }
+            }
+        }
+    ]
+}
