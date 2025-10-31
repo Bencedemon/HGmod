@@ -1460,8 +1460,8 @@
   //"Bence.Dating": "-",
 
   //SPECIFIC MAP AND COORDINATES DIALOGUE
-  "Bence.LocationDialogue.BlueMoonVineyard": "Oh... Helló @! #$b#Eléggé megleptél.#$e#Nem gyakran találkozok errefelé másokkal.",
-  "Bence.LocationDialogue.ScienceHouse": "Helló, @! Csak nem épület fejlesztés miatt vagy itt?#$e#Én csak pár adag fát jöttem leszállítani.",
+  "Bence.LocationDialogue.BlueMoonVineyard": "Oh... Helló @! #$b#Eléggé megleptél.#$b#Nem gyakran találkozok errefelé másokkal.",
+  "Bence.LocationDialogue.ScienceHouse": "Helló, @! Csak nem épület fejlesztés miatt vagy itt?#$b#Én csak pár adag fát jöttem leszállítani.",
 
   //SPRING AND GENERAL DIALOGUE
   "Bence.CharacterDialogue.001": "Üdv, segíthetek valamiben?",
@@ -1583,7 +1583,7 @@
   "Bence.Hospital.02": "Mondom, hogy nincs semmi bajom doki, csak nem aludtam valami sokat előző este.$6",
   "Bence.SeedShop.01": "Hmm... elfelejtettem mit akartam venni.$u",//Spring Fall
   "Bence.SeedShop.02": "De jólesne most egy jó hideg üdítő.",//Summer
-  "Bence.SeedShop.03": "Remek átázott a cipőm.$0#$b#Ezt hangosan mondtam?$u",//Winter
+  "Bence.SeedShop.03": "Remek, átázott a cipőm.$s#$b#Ezt hangosan mondtam?$u",//Winter
   "Bence.marriage_Sat.01": "Jó érzés néha kimozdulni a farmról.",
   "Bence.marriage_Sat.02": "Kérsz a pizzából?",
 
@@ -1707,8 +1707,8 @@
 
   "Bence.spouseRoom.1": "#$c .5#Szerintem ma az egyik projektemen fogok dolgozni.",
 
-  "Bence.funLeave.Sat": "Később elmegyek sétálni, estefele meg beugrok a szalonba.#$b#Majd este jövök.",
-  "Bence.funReturn.Sat": "Jól érzés találkozni a régi haverokkal.",
+  "Bence.funLeave.Saturday": "Később elmegyek sétálni, estefele meg beugrok a szalonba.#$b#Majd este jövök.",
+  "Bence.funReturn.Saturday": "Jól érzés találkozni a régi haverokkal.",
 
   "Bence.OneKid.00": "Te és %kid1 tudtatok ma játszani?",
   "Bence.OneKid.01": "Kíváncsi vagyok, hogy %kid1 melyikünkre fog hasonlítani, ha szerencsénk van rád.",
@@ -2594,7 +2594,7 @@
   "Robin.CharacterDialogue.01": "Bence kabinja óta nem volt ekkora projektemen.",//houseUpgrade_1_memory_oneweek
   
   "Gus.CharacterDialogue.01": "Pam és Kristóf majd minden este betérnek a szalonba.#$e#Valószínűleg tönkremennék, ha nem jönnének többet.$h#$e#Szóval kérlek ne üldözd el őket!",//Thu
-  "Gus.CharacterDialogue.02": "Kristóf minden nap bejön a Szalonba és egy rakat pénzt költ.$0#$b#Nem gondoltam volna, hogy ennyi pénz lehet e horgászatban.$h",//Thu4
+  "Gus.CharacterDialogue.02": "Kristóf majd minden nap bejön a Szalonba és egy rakat pénzt költ.$0#$b#Nem gondoltam volna, hogy ennyi pénz lehet e horgászatban.$h",//Thu4
 
   "Clint.CharacterDialogue.01": "Márk az egyik leggyakoribb vásárlóm.#$b#Tegnap például hozott egy nagyon érdekes geódát, amit aztán kinyitottunk és egy elég értékes ásványt találtunk benne.",//Fri4
 

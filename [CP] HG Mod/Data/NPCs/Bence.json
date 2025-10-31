@@ -18,7 +18,7 @@
             "IsDarkSkinned": false,
             "CanBeRomanced": true,
             "KissSpriteIndex": 35,
-            "KissSpriteFacingDirection": true,
+            "KissSpriteFacingRight": false,
             "LoveInterest": "Leah",
             "Calendar": "AlwaysShown",
             "SocialTab": "UnknownUntilMet",

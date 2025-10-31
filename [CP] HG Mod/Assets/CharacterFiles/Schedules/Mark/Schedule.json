@@ -1,5 +1,5 @@
 {  
-  "rain": "GOTO normalWinter_Sun",
+  "rain": "GOTO winter_Sun",
 
   "marriage_DesertFestival_2": "900 Desert 10 7 2 \"Strings\\schedules\\Mark:DesertFestival_Mark1_marriage\"/2400 bed",
   "marriage_DesertFestival_3": "900 Desert 37 55 0 \"Strings\\schedules\\Mark:DesertFestival_Mark2_marriage\"/2400 bed",
@@ -8,34 +8,29 @@
 
   //"hg_cave": "900 Custom_HGCave 44 18 2/1800 Custom_MarkHouseInterior 8 15 3 mark_computer/2400 Custom_MarkHouseInterior 15 13 3 mark_sleep",
   
-  "marriage_Sat": "900 Town 45 77 2 mark_read \"Strings\\schedules\\Mark:marriage_Sat.01\"/1800 Saloon 42 20 3 mark_drink \"Strings\\schedules\\Mark:marriage_Sat.02\"/2400 bed",
+  "marriage_Sat": "900 Town 45 77 2 mark_read \"Strings\\schedules\\Mark:marriage_Sat.01\"/1730 Saloon 42 20 3 mark_drink \"Strings\\schedules\\Mark:marriage_Sat.02\"/2330 bed",
 
   "spring_10": "900 Custom_MarkFarm 24 13 3 mark_garden_L/1030 Hospital 12 14 0 \"Strings\\schedules\\Mark:Hospital.01\"/1330 Hospital 4 6 1 \"Strings\\schedules\\Mark:Hospital.02\"/1600 Custom_MarkHouseInterior 8 15 3 mark_computer/2400 Custom_MarkHouseInterior 15 13 3 mark_sleep",
-  "winter_17": "900 Custom_MarkFarmCave 8 9 1 clint_hammer/1530 Beach 40 36 2 \"Strings\\schedules\\Mark:NightMarket_Mark\"/2300 Custom_MarkHouseInterior 15 13 3 mark_sleep",
+  "winter_17": "900 Custom_MarkFarmCave 8 9 1 clint_hammer/1200 Custom_MarkHouseInterior 5 4 2 mark_read2/1530 Beach 40 36 2 \"Strings\\schedules\\Mark:NightMarket_Mark\"/2300 Custom_MarkHouseInterior 15 13 3 mark_sleep",
 
   "winter_Mon": "GOTO Mon",
-  "winter_Tue": "900 Custom_MarkFarmCave 8 9 1 clint_hammer/1200 Custom_MarkHouseInterior 5 4 2 mark_read2/1600 Custom_MarkHouseInterior 14 5 0 square_5_1_0/1730 Saloon 42 20 3 mark_drink/2400 Custom_MarkHouseInterior 15 13 3 mark_sleep",
-  "winter_Wed": "900 Custom_MarkFarmCave 8 9 1 clint_hammer/1200 Custom_MarkHouseInterior 5 4 2 mark_read2/1600 Custom_MarkHouseInterior 8 15 3 mark_computer/2400 Custom_MarkHouseInterior 15 13 3 mark_sleep",
-  "winter_Thu": "GOTO Thu",
-  "winter_Fri": "900 Custom_MarkFarmCave 8 9 1 clint_hammer/1200 Custom_MarkHouseInterior 5 4 2 mark_read2/1600 Custom_MarkHouseInterior 14 5 0 square_5_1_0/1730 Saloon 40 22 3 mark_drink/2400 Custom_MarkHouseInterior 15 13 3 mark_sleep",//GOTO winter_Tue
-  "winter_Sat": "GOTO winter_Tue",
+  "winter_Tue": "900 Custom_MarkFarmCave 8 9 1 clint_hammer/1200 Custom_MarkHouseInterior 5 4 2 mark_read2/1400 Custom_MarkHouseInterior 14 5 0 square_5_1_0/1520 Saloon 42 20 3 mark_drink/2330 Custom_MarkHouseInterior 15 13 3 mark_sleep",
+  "winter_Wed": "900 Custom_MarkFarmCave 8 9 1 clint_hammer/1200 Custom_MarkHouseInterior 5 4 2 mark_read2/1500 Custom_MarkHouseInterior 8 15 3 mark_computer/2400 Custom_MarkHouseInterior 15 13 3 mark_sleep",
+  "winter_Thu": "900 Town 64 30 0/1230 Blacksmith 4 15 0/1600 Custom_MarkHouseInterior 5 4 2 mark_read2/1930 Custom_MarkHouseInterior 8 15 3 mark_computer/2400 Custom_MarkHouseInterior 15 13 3 mark_sleep",
+  "winter_Fri": "900 Custom_MarkFarmCave 8 9 1 clint_hammer/1200 Custom_MarkHouseInterior 5 4 2 mark_read2/1400 Custom_MarkHouseInterior 14 5 0 square_5_1_0/1550 Saloon 40 22 3 mark_drink/2330 Custom_MarkHouseInterior 15 13 3 mark_sleep",//GOTO winter_Tue
+  "winter_Sat": "900 Custom_MarkFarmCave 8 9 1 clint_hammer/1200 Custom_MarkHouseInterior 5 4 2 mark_read2/1400 Custom_MarkHouseInterior 14 5 0 square_5_1_0/1550 Saloon 42 20 3 mark_drink/2330 Custom_MarkHouseInterior 15 13 3 mark_sleep",
   "winter_Sun": "900 Custom_MarkHouseInterior 5 4 2 mark_read2/1600 Custom_MarkHouseInterior 8 15 3 mark_computer/2300 Custom_MarkHouseInterior 15 13 3 mark_sleep",
 
-  "winter": "900 Custom_MarkFarmCave 8 9 1 clint_hammer/2400 Custom_MarkHouseInterior 15 13 3 mark_sleep",
-
-  "Mon": "800 SeedShop 2 21 3 square_1_5_3/1040 SeedShop 9 27 1 square_1_5_1/1600 Custom_MarkHouseInterior 14 5 0 square_5_1_0/1900 Custom_MarkHouseInterior 8 15 3 mark_computer/2300 Custom_MarkHouseInterior 15 13 3 mark_sleep",
-  "Tue": "900 Custom_MarkFarm 24 16 3 mark_garden_L/1100 Custom_MarkFarm 19 12 2 mark_garden/1300 Custom_MarkFarm 15 14 1 mark_garden_R/1500 Custom_MarkFarmCave 8 9 1 clint_hammer/1730 Saloon 42 20 3 mark_drink/2400 Custom_MarkHouseInterior 15 13 3 mark_sleep",
-  "Wed": "900 Custom_MarkFarm 24 13 3 mark_garden_L/1100 Custom_MarkFarm 17 12 2 mark_garden/1300 Custom_MarkFarm 15 16 1 mark_garden_R/1500 Custom_MarkFarm 22 27 2 mark_read/1900 Custom_MarkHouseInterior 8 15 3 mark_computer/2400 Custom_MarkHouseInterior 15 13 3 mark_sleep",
-  "Thu": "900 Town 64 30 0/1100 Blacksmith 4 15 0/1650 Custom_MarkHouseInterior 14 5 0 square_5_1_0/2400 Custom_MarkHouseInterior 15 13 3 mark_sleep",
-  "Fri": "900 Custom_MarkFarm 24 14 3 mark_garden_L/1100 Custom_MarkFarm 21 12 2 mark_garden/1300 Custom_MarkFarm 15 15 1 mark_garden_R/1500 Custom_MarkFarmCave 8 9 1 clint_hammer/1730 Saloon 40 22 3 mark_drink/2400 Custom_MarkHouseInterior 15 13 3 mark_sleep",
+  "Mon": "900 SeedShop 2 22 3/1230 SeedShop 9 27 1 square_1_5_1/1400 SeedShop 12 27 3 square_1_5_3/1600 Custom_MarkHouseInterior 14 5 0 square_5_1_0/2000 Custom_MarkHouseInterior 8 15 3 mark_computer/2400 Custom_MarkHouseInterior 15 13 3 mark_sleep",
+  "Tue": "900 Custom_MarkFarm 24 16 3 mark_garden_L/1100 Custom_MarkFarm 19 12 2 mark_garden/1230 Custom_MarkFarm 15 14 1 mark_garden_R/1400 Custom_MarkFarmCave 8 9 1 clint_hammer/1530 Saloon 42 20 3 mark_drink/2330 Custom_MarkHouseInterior 15 13 3 mark_sleep",
+  "Wed": "900 Custom_MarkFarm 24 13 3 mark_garden_L/1100 Custom_MarkFarm 17 12 2 mark_garden/1230 Custom_MarkFarm 15 16 1 mark_garden_R/1400 Custom_MarkFarm 22 27 2 mark_read/1900 Custom_MarkHouseInterior 8 15 3 mark_computer/2400 Custom_MarkHouseInterior 15 13 3 mark_sleep",
+  "Thu": "900 Town 64 30 0/1230 Blacksmith 4 15 0/1600 Saloon 20 19 3 mark_drink/1900 Custom_MarkHouseInterior 14 5 0 square_5_1_0/2400 Custom_MarkHouseInterior 15 13 3 mark_sleep",
+  "Fri": "900 Custom_MarkFarm 24 14 3 mark_garden_L/1100 Custom_MarkFarm 21 12 2 mark_garden/1230 Custom_MarkFarm 15 15 1 mark_garden_R/1400 Custom_MarkFarmCave 8 9 1 clint_hammer/1600 Saloon 40 22 3 mark_drink/2330 Custom_MarkHouseInterior 15 13 3 mark_sleep",
   "Sun": "900 Custom_MarkHouseInterior 5 4 2 mark_read2/1200 Custom_MarkFarm 30 12 2 mark_music/1600 Custom_MarkHouseInterior 8 15 3 mark_computer/2300 Custom_MarkHouseInterior 15 13 3 mark_sleep",
 
-  //"summer": "900 Custom_MarkFarm 24 14 3 mark_garden_L/1100 Custom_MarkFarm 21 12 2 mark_garden/1300 Custom_MarkFarm 15 16 1 mark_garden_R/1500 Custom_MarkFarmCave 8 9 1 clint_hammer/1730 Saloon 42 20 3 mark_drink/2430 Custom_MarkHouseInterior 15 13 3 mark_sleep",
-
-  "spring": "900 Custom_MarkFarm 24 14 3 mark_garden_L/1100 Custom_MarkFarm 21 12 2 mark_garden/1300 Custom_MarkFarm 15 15 1 mark_garden_R/1500 Custom_MarkFarmCave 8 9 1 clint_hammer/1730 Saloon 42 20 3 mark_drink/2400 Custom_MarkHouseInterior 15 13 3 mark_sleep"
+  "spring": "900 Custom_MarkFarm 24 14 3 mark_garden_L/1100 Custom_MarkFarm 21 12 2 mark_garden/1230 Custom_MarkFarm 15 15 1 mark_garden_R/1400 Custom_MarkFarmCave 8 9 1 clint_hammer/1550 Saloon 42 20 3 mark_drink/2330 Custom_MarkHouseInterior 15 13 3 mark_sleep"
 }
 //(0 = up, 1 = right, 2 = down, 3 = left)
-
 
 //610 SeedShop 2 21 3 square_1_5_3 (travel time 200)
 //610 Lángos (travel time 150)

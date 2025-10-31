@@ -1,43 +1,42 @@
 {  
-  "rain": "1100 Forest 28 65 2 Bence_Chill/1300 Custom_BenceCabinInterior 3 18 2 Bence_Chill/1600 Custom_BenceCabinInterior 9 5 2/2500 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
+  "rain": "1100 Forest 28 65 2 Bence_Chill/1300 Custom_BenceCabinInterior 4 12 2 Bence_Chill/1600 Custom_BenceCabinInterior 9 5 2/2330 Custom_BenceCabinInterior 4 12 2/2500 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
 
   "GreenRain": "GOTO rain",
 
-  "marriage_DesertFestival": "900 Desert 36 53 2 Bence_Chill \"Strings\\schedules\\Bence:DesertFestival_Bence_marriage\"/2400 bed",
-  "DesertFestival": "700 Desert 36 53 2 Bence_Chill \"Strings\\schedules\\Bence:DesertFestival_Bence\"/2400 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
+  "marriage_DesertFestival": "900 Desert 36 53 2 Bence_Chill \"Strings\\schedules\\Bence:DesertFestival_Bence_marriage\"/2530 bed",
+  "DesertFestival": "700 Desert 36 53 2 Bence_Chill \"Strings\\schedules\\Bence:DesertFestival_Bence\"/2530 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
 
-  "marriage_Sat": "900 Forest 86 44 3 Bence_ChillL \"Strings\\schedules\\Bence:marriage_Sat.01\"/1800 Saloon 36 20 1 Bence_Pizza \"Strings\\schedules\\Bence:marriage_Sat.02\"/2400 bed",
+  "marriage_Sat": "900 Forest 86 44 3 Bence_ChillL \"Strings\\schedules\\Bence:marriage_Sat.01\"/1310 Town 53 104 3 Bence_ChillL \"Strings\\schedules\\Bence:marriage_Sat.01\"/1630 Town 43 77 2 Bence_BenchChill \"Strings\\schedules\\Bence:marriage_Sat.01\"/1740 Saloon 36 20 1 Bence_Pizza \"Strings\\schedules\\Bence:marriage_Sat.02\"/2330 bed",
 
-  "fall_10": "1000 Hospital 12 14 0 Bence_Chill \"Strings\\schedules\\Bence:Hospital.01\"/1330 Hospital 4 6 1 \"Strings\\schedules\\Bence:Hospital.02\"/1600 Forest 33 66 1 Bence_ChillR/2130 Custom_BenceCabinInterior 3 5 0 square_5_1_0/2230 Custom_BenceCabinInterior 4 6 2 Bence_Pizza/2330 Custom_BenceCabinInterior 4 11 1/2500 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
+  "fall_10": "1000 Hospital 12 14 0 Bence_Chill \"Strings\\schedules\\Bence:Hospital.01\"/1330 Hospital 4 6 1 \"Strings\\schedules\\Bence:Hospital.02\"/1600 Forest 33 66 1 Bence_ChillR/2130 Custom_BenceCabinInterior 3 5 0 square_5_1_0/2330 Custom_BenceCabinInterior 4 11 1/2500 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
   "winter_15": "1100 Forest 31 67 2 Bence_Chill/1300 Forest 87 44 1 Bence_ChillR/1530 Beach 38 36 2 Bence_Chill \"Strings\\schedules\\Bence:NightMarket_Bence\"/2340 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
   
-  "winter_Tue": "1100 SeedShop 12 27 3 square_1_5_3 \"Strings\\schedules\\Bence:SeedShop.03\"/1700 Town 73 54 2 Bence_Chill/1820 Saloon 36 20 1 Bence_Pizza/2400 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
-  "winter_Wed": "1100 Town 86 103 2 Bence_Chill/1500 Town 83 101 3 Bence_ChillL/2200 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
-  "winter_Thu": "1100 Town 64 30 0/1500 ScienceHouse 7 20 0/2200 Custom_BenceCabinInterior 3 11 3/2400 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
-  "winter_Fri": "1100 Custom_BlueMoonVineyard 22 55 2 Bence_Chill/1830 Saloon 38 22 1 Bence_Pizza/2400 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
-  "winter_Sat": "GOTO winter_Fri",
+  "winter_Mon": "1100 Forest 31 67 2 Bence_Chill/1300 Forest 87 44 1 Bence_ChillR/1530 Forest 34 25 2 Bence_Chill/1800 Custom_BenceCabinInterior 3 11 3/2400 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
+  "winter_Tue": "1100 SeedShop 12 27 3 square_1_5_3 \"Strings\\schedules\\Bence:SeedShop.03\"/1540 Town 73 54 2 Bence_Chill/1720 Saloon 36 20 1 Bence_Pizza/2330 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
+  "winter_Wed": "1100 Saloon 2 20 1 Bence_Pizza/1530 Town 10 94 2 Bence_Chill/2000 Custom_BenceCabinInterior 3 11 3/2400 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
+  "winter_Thu": "1100 Town 64 30 0/1500 ScienceHouse 7 20 0/1650 Town 26 30 0/2000 Town 10 94 2 Bence_Chill/2300 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
+  "winter_Fri": "1100 Custom_BlueMoonVineyard 22 55 2 Bence_Chill/1650 Saloon 38 22 1 Bence_Pizza/2330 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
+  "winter_Sat": "1100 Custom_BlueMoonVineyard 22 55 2 Bence_Chill/1650 Saloon 36 20 1 Bence_Pizza/2330 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
   "winter_Sun": "GOTO Sun",
 
-  "winter": "1100 Forest 31 67 2 Bence_Chill/1300 Forest 87 44 1 Bence_ChillR/1700 Custom_BenceCabinInterior 3 11 3/2400 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
+  "summer_20": "1200 Forest 33 66 1 Bence_ChillR/1300 Forest 60 50 2 Bence_Chill/1600 Town 43 77 2 Bence_BenchChill/1740 Saloon 36 20 1 Bence_Pizza/2330 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
+  "summer_21": "1200 Forest 33 66 1 Bence_ChillR/1300 Forest 60 50 2 Bence_Chill/1600 Custom_BenceCabinInterior 9 5 2/2330 Custom_BenceCabinInterior 4 11 1/2430 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
 
-  "summer_20": "1200 Forest 33 66 1 Bence_ChillR/1300 Forest 60 50 2 Bence_Chill/1600 Town 43 77 2 Bence_BenchChill/1840 Saloon 36 20 1 Bence_Pizza/2400 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
-  "summer_21": "1200 Forest 33 66 1 Bence_ChillR/1300 Forest 60 50 2 Bence_Chill/1600 Custom_BenceCabinInterior 9 5 2/2430 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
-
-  "summer_Tue": "1200 SeedShop 11 23 0 square_3_1_0 \"Strings\\schedules\\Bence:SeedShop.02\"/1700 Town 43 77 2 Bence_BenchChill/1840 Saloon 36 20 1 Bence_Pizza/2400 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
+  "summer_Tue": "1130 SeedShop 11 23 0 square_3_1_0 \"Strings\\schedules\\Bence:SeedShop.02\"/1550 Town 43 77 2 Bence_BenchChill/1720 Saloon 36 20 1 Bence_Pizza/2330 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
   "summet_Thu": "GOTO Thu",
-  "summer_Fri": "1200 Custom_BlueMoonVineyard 22 55 2 Bence_Chill/1600 Custom_BlueMoonVineyard 24 54 2 Bence_BenchChill/1830 Saloon 38 22 1 Bence_Pizza/2400 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
-  "summer_Sat": "1200 Forest 21 29 1 Bence_ChillR/1400 Town 53 104 3 Bence_ChillL/1700 Town 43 77 2 Bence_BenchChill/1840 Saloon 36 20 1 Bence_Pizza/2330 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
-  "summer_Sun": "1200 Forest 87 44 1 Bence_ChillR/1400 Forest 34 25 2 Bence_Chill/1600 Custom_BenceCabinInterior 9 5 2/2430 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
+  "summer_Fri": "1200 Custom_BlueMoonVineyard 22 55 2 Bence_Chill/1700 Saloon 38 22 1 Bence_Pizza/2330 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
+  "summer_Sat": "1200 Forest 21 29 1 Bence_ChillR/1430 Town 43 77 2 Bence_BenchChill/1740 Saloon 36 20 1 Bence_Pizza/2330 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
+  "summer_Sun": "1200 Forest 87 44 1 Bence_ChillR/1430 Forest 34 25 2 Bence_Chill/1700 Custom_BenceCabinInterior 9 5 2/2330 Custom_BenceCabinInterior 4 11 1/2500 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
 
-  "summer": "1200 Forest 31 67 2 Bence_Chill/1400 Forest 13 66 2 Bence_Woodcut/1600 Forest 33 66 1 Bence_ChillR/2230 Custom_BenceCabinInterior 3 5 0 square_5_1_0/2330 Custom_BenceCabinInterior 4 6 2 Bence_Pizza/2430 Custom_BenceCabinInterior 4 11 1/2530 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
+  "summer": "1200 Forest 31 67 2 Bence_Chill/1400 Forest 13 66 2 Bence_Woodcut/1600 Forest 33 66 1 Bence_ChillR/2230 Custom_BenceCabinInterior 3 5 0 square_5_1_0/2430 Custom_BenceCabinInterior 4 11 1/2530 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
 
-  "Tue": "1100 SeedShop 11 23 0 square_3_1_0 \"Strings\\schedules\\Bence:SeedShop.01\"/1700 Town 43 77 2 Bence_BenchChill/1820 Saloon 36 20 1 Bence_Pizza/2400 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
-  "Thu": "1100 Town 64 30 0/1500 ScienceHouse 7 20 0/1630 Forest 31 67 2 Bence_Chill/2400 Custom_BenceCabinInterior 13 7 3 Bence_sleep", //Bence arrives at 1550 in the ScienceHouse
-  "Fri": "1100 Forest 31 67 2 Bence_Chill/1330 Forest 13 66 2 Bence_Woodcut/1630 Forest 60 50 2 Bence_Chill/1800 Saloon 38 22 1 Bence_Pizza/2400 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
-  "Sat": "1100 Forest 21 29 1 Bence_ChillR/1300 Town 53 104 3 Bence_ChillL/1700 Town 43 77 2 Bence_BenchChill/1840 Saloon 36 20 1 Bence_Pizza/2330 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
-  "Sun": "1100 Forest 87 44 1 Bence_ChillR/1400 Forest 34 25 2 Bence_Chill/1600 Custom_BenceCabinInterior 9 5 2/2400 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
+  "Tue": "1100 SeedShop 11 23 0 square_3_1_0 \"Strings\\schedules\\Bence:SeedShop.01\"/1600 Town 43 77 2 Bence_BenchChill/1720 Saloon 36 20 1 Bence_Pizza/2330 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
+  "Thu": "1100 Town 64 30 0/1500 ScienceHouse 7 20 0/1650 Forest 31 67 2 Bence_Chill/2400 Custom_BenceCabinInterior 13 7 3 Bence_sleep", //Bence arrives at 1550 in the ScienceHouse
+  "Fri": "1100 Forest 31 67 2 Bence_Chill/1230 Forest 13 66 2 Bence_Woodcut/1420 Forest 60 50 2 Bence_Chill/1610 Saloon 38 22 1 Bence_Pizza/2330 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
+  "Sat": "1100 Forest 21 29 1 Bence_ChillR/1310 Town 53 104 3 Bence_ChillL/1630 Town 43 77 2 Bence_BenchChill/1740 Saloon 36 20 1 Bence_Pizza/2330 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
+  "Sun": "1100 Forest 87 44 1 Bence_ChillR/1400 Forest 34 25 2 Bence_Chill/1630 Custom_BenceCabinInterior 9 5 2/2330 Custom_BenceCabinInterior 4 11 1/2500 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
 
-  "spring": "1100 Forest 31 67 2 Bence_Chill/1330 Forest 13 66 2 Bence_Woodcut/1700 Forest 33 66 1 Bence_ChillR/2130 Custom_BenceCabinInterior 3 5 0 square_5_1_0/2230 Custom_BenceCabinInterior 4 6 2 Bence_Pizza/2330 Custom_BenceCabinInterior 4 11 1/2500 Custom_BenceCabinInterior 13 7 3 Bence_sleep"
+  "spring": "1100 Forest 31 67 2 Bence_Chill/1330 Forest 13 66 2 Bence_Woodcut/1700 Forest 33 66 1 Bence_ChillR/2130 Custom_BenceCabinInterior 3 5 0 square_5_1_0/2330 Custom_BenceCabinInterior 4 11 1/2500 Custom_BenceCabinInterior 13 7 3 Bence_sleep"
 }
 
 //(0 = up, 1 = right, 2 = down, 3 = left)
@@ -49,7 +48,9 @@
 //610 SeedShop (travel time 240)
 //610 Lángos (travel time 320)
 //610 ScienceHouse 7 20 0 (travel time 400)
+//610 BlueMoonVineyard 22 55 0 (travel time 320)
 
+//Farmhouse -> 130
 
 //Cut Schedule Parts
 //610 Forest 9 68 2 Bence_BenchRest/

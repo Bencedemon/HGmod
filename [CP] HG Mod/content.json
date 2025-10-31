@@ -148,7 +148,7 @@
         {
           "LogName": "Shop",
           "Action": "Include",
-          "FromFile": "Data/Shops/HG/LangosArus.json, Data/Shops/HG/DesertFestival.json, Data/Shops/vanilla/Pierre.json, Data/Shops/vanilla/Suki.json, Data/Shops/HG/HGCave.json, Data/Shops/HG/Concert.json"
+          "FromFile": "Data/Shops/HG/LangosArus.json, Data/Shops/HG/DesertFestival.json, Data/Shops/vanilla/Alex.json, Data/Shops/vanilla/Pierre.json, Data/Shops/vanilla/Suki.json, Data/Shops/HG/HGCave.json, Data/Shops/HG/Concert.json"
         },
         {
           "LogName": "Recipes",

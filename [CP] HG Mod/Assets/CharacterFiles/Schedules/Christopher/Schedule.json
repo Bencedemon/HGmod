@@ -1,6 +1,6 @@
 {  
-  "rain": "610 Beach 11 39 2 dick_fish/1000 FishShop 4 6 0/1130 Beach 11 39 2 dick_fish/2400 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
-  "rain2": "610 Beach 11 39 2 dick_fish/1000 FishShop 4 6 0/1130 Beach 11 39 2 dick_fish/1800 Saloon 39 19 2 Christopher_drink/2400 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
+  "rain": "610 Beach 11 39 2 dick_fish/1000 FishShop 4 6 0/1200 Beach 11 39 2 dick_fish/2330 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
+  "rain2": "610 Beach 11 39 2 dick_fish/1000 FishShop 4 6 0/1200 Beach 11 39 2 dick_fish/1700 Saloon 39 19 2 Christopher_drink/2330 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
   "GreenRain": "GOTO rain",
 
   "marriage_DesertFestival": "900 Desert 32 55 2 dick_fish \"Strings\\schedules\\Christopher:DesertFestival_Christopher_marriage\"/2430 bed",
@@ -9,32 +9,38 @@
   "TroutDerby": "610 Forest 62 51 2 dick_fish/2530 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
   "SquidFest": "610 Beach 11 39 2 dick_fish/2530 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
 
-  "marriage_TroutDerby": "610 Forest 62 51 2 dick_fish \"Strings\\schedules\\Christopher:TroutDerby_marriage\"/2530 bed",
+  "marriage_TroutDerby": "610 Forest 62 51 2 dick_fish \"Strings\\schedules\\Christopher:TroutDerby_marriage\"/2000 bed",
   //"marriage_SquidFest": "610 Beach 11 39 2 dick_fish/2530 bed",
 
-  "marriage_Sat": "800 Beach 11 39 2 dick_fish \"Strings\\schedules\\Christopher:marriage_Sat.01\"/1800 Saloon 39 19 2 Christopher_drink \"Strings\\schedules\\Christopher:marriage_Sat.02\"/2400 bed",
+  "marriage_Sat": "800 Beach 11 39 2 dick_fish \"Strings\\schedules\\Christopher:marriage_Sat.01\"/1630 Saloon 39 19 2 Christopher_drink \"Strings\\schedules\\Christopher:marriage_Sat.02\"/2330 bed",
 
-  "summer_10": "700 Beach 11 39 2 dick_fish/1030 Hospital 12 14 0 \"Strings\\schedules\\Christopher:Hospital.01\"/1330 Hospital 4 6 1 \"Strings\\schedules\\Christopher:Hospital.02\"/1600 Saloon 26 18 2 Christopher_drink/2400 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
-  "winter_15": "800 Beach 11 39 2 dick_fish/1000 FishShop 4 6 0/1130 Beach 11 39 2 dick_fish/1630 Saloon 26 18 2 Christopher_drink \"Strings\\schedules\\Christopher:NightMarket_Christopher\"/2200 Town 50 70 3 Christopher_smoke/2400 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
-  "winter_16": "800 Town 71 101 2 dick_fish/1100 FishShop 4 6 0/1230 Town 71 101 2 dick_fish/1630 Saloon 39 19 2 Christopher_drink \"Strings\\schedules\\Christopher:NightMarket_Christopher\"/2400 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
-  "winter_17": "MAIL beachBridgeFixed/GOTO winter_15/800 Beach 88 40 2 dick_fish/1630 Saloon 26 18 2 Christopher_drink \"Strings\\schedules\\Christopher:NightMarket_Christopher\"/2400 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
+  "summer_10": "700 Beach 11 39 2 dick_fish/1030 Hospital 12 14 0 \"Strings\\schedules\\Christopher:Hospital.01\"/1330 Hospital 4 6 1 \"Strings\\schedules\\Christopher:Hospital.02\"/1600 Saloon 4 19 2 Christopher_drink/2330 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
+  "winter_15": "800 Beach 11 39 2 dick_fish/1000 FishShop 4 6 0/1200 Beach 11 39 2 dick_fish/1630 Saloon 11 21 2 Christopher_drink \"Strings\\schedules\\Christopher:NightMarket_Christopher\"/2200 Town 50 70 3 Christopher_smoke/2330 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
+  "winter_16": "800 Town 64 100 2 dick_fish/1100 FishShop 4 6 0/1330 Town 64 100 2 dick_fish/1700 Saloon 39 19 2 Christopher_drink \"Strings\\schedules\\Christopher:NightMarket_Christopher\"/2330 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
+  "winter_17": "MAIL beachBridgeFixed/GOTO winter_15/800 Beach 88 40 2 dick_fish/1630 Saloon 11 21 2 Christopher_drink \"Strings\\schedules\\Christopher:NightMarket_Christopher\"/2330 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
 
-  "summer_Mon": "700 Beach 11 39 2 dick_fish/900 FishShop 4 6 0/1030 Beach 11 39 2 dick_fish/1400 Beach 4 22 0 Christopher_bike/1830 Saloon 26 18 2 Christopher_drink/2200 Town 50 70 3 Christopher_smoke/2430 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
-  "summer_Tue": "700 Town 71 101 2 dick_fish/1000 FishShop 4 6 0/1130 Town 71 101 2 dick_fish/1830 Saloon 39 19 2 Christopher_drink/2430 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
-  "summer_Wed": "MAIL beachBridgeFixed/GOTO summer_Mon/700 Beach 88 40 2 dick_fish/1400 Beach 4 22 0 Christopher_bike/1830 Saloon 26 18 2 Christopher_drink/2430 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
-  "summer_Thu": "700 Beach 11 39 2 dick_fish/930 Town 64 30 0/1300 Mountain 68 24 2 dick_fish/1800 Saloon 26 18 2 Christopher_drink/2200 Town 50 70 3 Christopher_smoke/2430 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
-  "summer_Fri": "700 Forest 62 51 2 dick_fish/1400 Beach 4 22 0 Christopher_bike/1830 Saloon 39 19 2 Christopher_drink/2400 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
-  "summer_Sat": "700 Beach 11 39 2 dick_fish/1400 Beach 4 22 0 Christopher_bike/1830 Saloon 39 19 2 Christopher_drink/2400 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
+  "summer_Mon": "700 Beach 11 39 2 dick_fish/900 FishShop 4 6 0/1030 Beach 11 39 2 dick_fish/1400 Beach 4 22 0 Christopher_bike/1640 Saloon 10 21 2 Christopher_drink/2200 Town 50 70 3 Christopher_smoke/2330 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
+  "summer_Tue": "700 Town 33 103 2 dick_fish/1100 FishShop 4 6 0/1330 Town 33 103 2 dick_fish/1700 Saloon 39 19 2 Christopher_drink/2330 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
+  "summer_Wed": "MAIL beachBridgeFixed/GOTO summer_Mon/700 Beach 88 40 2 dick_fish/1400 Beach 4 22 0 Christopher_bike/1640 Saloon 4 19 2 Christopher_drink/2330 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
+  "summer_Thu": "700 Beach 11 39 2 dick_fish/930 Town 63 30 0/1300 Mountain 68 24 2 dick_fish/1700 Saloon 10 21 2 Christopher_drink/2200 Town 50 70 3 Christopher_smoke/2330 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
+  "summer_Fri": "700 Forest 62 51 2 dick_fish/1240 Beach 4 22 0 Christopher_bike/1630 Saloon 39 19 2 Christopher_drink/2330 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
+  "summer_Sat": "700 Beach 11 39 2 dick_fish/1240 Beach 4 22 0 Christopher_bike/1640 Saloon 39 19 2 Christopher_drink/2330 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
 
-  "Mon": "800 Beach 11 39 2 dick_fish/1000 FishShop 4 6 0/1130 Beach 11 39 2 dick_fish/1800 Saloon 26 18 2 Christopher_drink/2200 Town 50 70 3 Christopher_smoke/2400 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
-  "Tue": "800 Town 71 101 2 dick_fish/1100 FishShop 4 6 0/1230 Town 71 101 2 dick_fish/1800 Saloon 39 19 2 Christopher_drink/2400 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
-  "Wed": "MAIL beachBridgeFixed/GOTO Mon/800 Beach 88 40 2 dick_fish/1800 Saloon 26 18 2 Christopher_drink/2400 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
-  "Thu": "800 Beach 11 39 2 dick_fish/930 Town 64 30 0/1300 Mountain 68 24 2 dick_fish/1800 Saloon 26 18 2 Christopher_drink/2200 Town 50 70 3 Christopher_smoke/2400 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
-  "Fri": "800 Beach 11 39 2 dick_fish/1000 FishShop 4 6 0/1130 Forest 62 51 2 dick_fish/1800 Saloon 39 19 2 Christopher_drink/2400 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
-  "Sat": "800 Beach 11 39 2 dick_fish/1800 Saloon 39 19 2 Christopher_drink/2400 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
-  "Sun": "800 Beach 11 39 2 dick_fish/1600 Custom_ChristopherHouseInterior 4 7 1 Christopher_gaming/2400 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
+  "Mon": "800 Beach 11 39 2 dick_fish/1000 FishShop 4 6 0/1200 Beach 11 39 2 dick_fish/1630 Saloon 10 21 2 Christopher_drink/2200 Town 50 70 3 Christopher_smoke/2330 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
+  "Tue": "800 Town 64 100 2 dick_fish/1100 FishShop 4 6 0/1330 Town 64 100 2 dick_fish/1700 Saloon 39 19 2 Christopher_drink/2330 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
+  "Wed": "MAIL beachBridgeFixed/GOTO Mon/800 Beach 88 40 2 dick_fish/1600 Saloon 4 19 2 Christopher_drink/2330 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
+  "Thu": "800 Beach 11 39 2 dick_fish/930 Town 63 30 0/1300 Mountain 68 24 2 dick_fish/1630 Saloon 10 21 2 Christopher_drink/2200 Town 50 70 3 Christopher_smoke/2330 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
+  "Fri": "800 Beach 11 39 2 dick_fish/1000 FishShop 4 6 0/1130 Forest 62 51 2 dick_fish/1610 Saloon 39 19 2 Christopher_drink/2330 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
+  "Sat": "800 Beach 11 39 2 dick_fish/1630 Saloon 39 19 2 Christopher_drink/2330 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
+  "Sun": "800 Beach 11 39 2 dick_fish/1600 Custom_ChristopherHouseInterior 4 7 1 Christopher_gaming/2330 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
 
-  "spring": "800 Beach 11 39 2 dick_fish/1000 FishShop 4 6 0/1130 Beach 11 39 2 dick_fish/1800 Saloon 26 18 2 Christopher_drink/2200 Town 50 70 3 Christopher_smoke/2400 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep"
+  "spring": "800 Beach 11 39 2 dick_fish/1000 FishShop 4 6 0/1200 Beach 11 39 2 dick_fish/1700 Saloon 10 21 2 Christopher_drink/2200 Town 50 70 3 Christopher_smoke/2330 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep"
 }
 
 //(0 = up, 1 = right, 2 = down, 3 = left)
+
+//Beach -> Fishshop 0040
+//Fishshop -> Forest 0250
+//Bike -> Saloon 0130
+//Town 33 103 -> Fishshop 0120
+//Home -> Forest 0250

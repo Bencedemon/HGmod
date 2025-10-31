@@ -17,5 +17,23 @@
                 }
 			]
 		},
+        { //LEWIS SCHEDULE EDITS
+            "Action": "EditData",
+            "Target": "characters/schedules/Lewis",
+            "When": {
+                "HasSeenEvent |contains=5553210": false
+            },
+            "Entries": {
+                "spring_4": "610 ManorHouse 8 5 0/730 Town 107 100 0/1000 Town 104 104 0/1100 Town 99 100 2/1200 Town 100 68 0/1400 Town 63 30 0/1600 Town 38 14 0/1800 ManorHouse 3 6 0/2100 ManorHouse 22 4 1 lewis_sleep",
+                "spring_11": "620 ManorHouse 6 5 0/730 Town 107 100 0/1000 Town 104 104 0/1100 Town 99 100 2/1200 Town 100 68 0/1400 Town 63 30 0/1600 Town 38 14 0/1800 ManorHouse 3 6 0/2100 ManorHouse 22 4 1 lewis_sleep",
+                "spring_18": "610 ManorHouse 7 5 0/730 Town 107 100 0/1000 Town 104 104 0/1100 Town 99 100 2/1200 Town 100 68 0/1400 Town 63 30 0/1600 Town 38 14 0/1800 ManorHouse 3 6 0/2100 ManorHouse 22 4 1 lewis_sleep",
+                "summer_4": "610 ManorHouse 8 5 0/730 Town 107 100 0/1000 Town 104 104 0/1100 Town 99 100 2/1200 Town 100 68 0/1400 Town 63 30 0/1600 Town 38 14 0/1800 ManorHouse 3 6 0/2100 ManorHouse 22 4 1 lewis_sleep",
+                "summer_11": "610 ManorHouse 7 5 0/730 Town 107 100 0/1000 Town 104 104 0/1100 Town 99 100 2/1200 Town 100 68 0/1400 Town 63 30 0/1600 Town 38 14 0/1800 ManorHouse 3 6 0/2100 ManorHouse 22 4 1 lewis_sleep",
+                "summer_25": "610 ManorHouse 7 5 0/730 Town 107 100 0/1000 Town 104 104 0/1100 Town 99 100 2/1200 Town 100 68 0/1400 Town 63 30 0/1600 Town 38 14 0/1800 ManorHouse 3 6 0/2100 ManorHouse 22 4 1 lewis_sleep",
+                "fall_11": "610 ManorHouse 7 5 0/730 Town 107 100 0/1000 Town 104 104 0/1100 Town 99 100 2/1200 Town 100 68 0/1400 Town 63 30 0/1600 Town 38 14 0/1800 ManorHouse 3 6 0/2100 ManorHouse 22 4 1 lewis_sleep",
+                "fall_18": "620 ManorHouse 6 5 0/730 Town 107 100 0/1000 Town 104 104 0/1100 Town 99 100 2/1200 Town 100 68 0/1400 Town 63 30 0/1600 Town 38 14 0/1800 ManorHouse 3 6 0/2100 ManorHouse 22 4 1 lewis_sleep",
+                "fall_25": "610 ManorHouse 8 5 0/730 Town 107 100 0/1000 Town 104 104 0/1100 Town 99 100 2/1200 Town 100 68 0/1400 Town 63 30 0/1600 Town 38 14 0/1800 ManorHouse 3 6 0/2100 ManorHouse 22 4 1 lewis_sleep",
+            }
+        }
 	]
 }

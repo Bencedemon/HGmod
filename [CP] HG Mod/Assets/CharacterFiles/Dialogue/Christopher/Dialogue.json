@@ -59,7 +59,8 @@
           "winter_12": "{{i18n:Christopher.SquidFest1}}",
           "winter_13": "{{i18n:Christopher.SquidFest2}}",
           //SPECIFIC MAP AND COORDINATES DIALOGUE
-          "Saloon_26_18": "{{i18n:Christopher.LocationDialogue.Saloon}}", 
+          "Saloon_10_21": "{{i18n:Christopher.LocationDialogue.Saloon}}", 
+          "Saloon_4_19": "{{i18n:Christopher.LocationDialogue.Saloon}}", 
 
           //"Beach_11_39": "{{i18n:Christopher.LocationDialogue.001}}",
           //"Forest_57_53": "{{i18n:Christopher.LocationDialogue.002}}",
