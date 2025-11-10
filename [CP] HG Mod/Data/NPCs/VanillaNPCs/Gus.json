@@ -45,7 +45,7 @@
                 "Thu": "{{i18n:Gus.CharacterDialogue.01}}",
                 "Thu4": "{{i18n:Gus.CharacterDialogue.02}}",
                 "eventSeen_2001002": "{{i18n:Gus.Christopher.4heart}}",
-                "eventSeen_200100_memory_oneweek": "{{i18n:Gus.Christopher.8heart}}",
+                "eventSeen_200100_memory_oneday": "{{i18n:Gus.Christopher.8heart}}",
                 "eventSeen_winnerBet_memory_oneweek": "{{i18n:Gus.Mark.8heart}}"
             }
         }

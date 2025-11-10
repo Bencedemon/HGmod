@@ -107,14 +107,12 @@
           "winter_Sun": "{{i18n:Mark.WinterCharacterDialogue.011}}",
           //Conversation topics
           "eventSeen_2001201_memory_oneday": "{{i18n:Mark.2heart.Topic}}",
-          "eventSeen_2001203_memory_oneday": "{{i18n:Mark.6heart.Topic}}",
           "eventSeen_2001205_memory_oneday": "{{i18n:Mark.8heart.Topic}}",
           "eventSeen_winnerBet_memory_oneweek": "{{i18n:Mark.8heart.Topic.Win}}",
           "eventSeen_2001207_memory_oneday": "{{i18n:Mark.10heart.Topic}}",
           "eventSeen_2123243_memory_oneweek": "{{i18n:Mark.Emily.8heart}}",
           "eventSeen_2001104_memory_oneweek": "{{i18n:Mark.Bence.8heart}}",
           "eventSeen_2001006_memory_oneweek": "{{i18n:Mark.Christopher.10heart}}",
-          "eventSeen_4081148": "{{i18n:Mark.Sam.Concert}}",
           "mineArea_80_memory_oneweek": "{{i18n:Mark.mineArea_80}}",
           "structureBuilt_Stable_memory_oneweek": "{{i18n:Mark.structureBuilt_Stable}}"
         },
