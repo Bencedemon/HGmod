@@ -770,15 +770,15 @@
                         "PerItemCondition": null
                     }
                     ],
-                    "Forage": [],
+                    "Forage": []
                 },
                 "Custom_Island_Shelter": {
                     "DisplayName": "{{i18n:Island_ShelterShelter.Name}}",
                     "CreateOnLoad": {
                         "MapPath": "Maps/Custom_Island_Shelter"
                     }
-                },
+                }
             }
-        },
+        }
     ]
 }

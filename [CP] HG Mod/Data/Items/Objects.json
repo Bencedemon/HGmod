@@ -50,11 +50,12 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                      "color_white",
-                      "trash_item"
+                        "color_white",
+                        "trash_item"
                     ],
                     "CustomFields": null
                 },
+                /*---===CUT CONTENT===---
                 "Bencedemon.HG_Sawdust": {
                     "Name": "Sawdust",
                     "DisplayName": "{{i18n:Object.Sawdust.Name}}",
@@ -162,7 +163,7 @@
                       "wood_item"
                     ],
                     "CustomFields": null
-                },
+                },*/
                 "Bencedemon.HG_Fishing_Elixir": {
                     "Name": "Fishing Elixir",
                     "DisplayName": "{{i18n:Object.Fishing-elixir.Name}}",
@@ -199,9 +200,9 @@
                                 "CriticalChanceMultiplier": 0.0,
                                 "CriticalPowerMultiplier": 0.0,
                                 "WeaponPrecisionMultiplier": 0.0
-                            },
-                        },
-                    ],
+                            }
+                        }
+                    ]
                 },
 				"Bencedemon.HG_Lemon": {
                     "Name": "Lemon",
@@ -236,7 +237,7 @@
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": true,
                     "ExcludeFromShippingCollection": false,
-                    "ExcludeFromRandomSale": false,
+                    "ExcludeFromRandomSale": false
                 },
                 "Bencedemon.HG_HelloGuysToken": {
                     "Name": "Hello Guys Token",
@@ -287,7 +288,7 @@
                     "ExcludeFromRandomSale": false,
                     "ContextTags": null,
                     "CustomFields": null
-                },
+                }
             }
         }
     ]

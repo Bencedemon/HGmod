@@ -1,18 +1,17 @@
 {
     "Changes": [
-      {
-        "Action": "EditData",
-        "Target": "Strings/schedules/Isti",
-        "Entries": 
         {
-            "NightMarket_Isti": "{{i18n:Isti.NightMarket.01}}",
-            "DesertFestival_Isti_marriage": "{{i18n:Isti.DesertFestival_marriage.01}}",
-            "DesertFestival_Isti": "{{i18n:Isti.DesertFestival.01}}",
-            "Hospital.01": "{{i18n:Isti.Hospital.01}}",
-            "Hospital.02": "{{i18n:Isti.Hospital.02}}",
-            "marriage_Sat.01": "{{i18n:Isti.marriage_Sat.01}}",
-            "marriage_Sat.02": "{{i18n:Isti.marriage_Sat.02}}"
-        },
-      },
+            "Action": "EditData",
+            "Target": "Strings/Schedules/Isti",
+            "Entries": {
+                "NightMarket_Isti": "{{i18n:Isti.NightMarket.01}}",
+                "DesertFestival_Isti_marriage": "{{i18n:Isti.DesertFestival_marriage.01}}",
+                "DesertFestival_Isti": "{{i18n:Isti.DesertFestival.01}}",
+                "Hospital.01": "{{i18n:Isti.Hospital.01}}",
+                "Hospital.02": "{{i18n:Isti.Hospital.02}}",
+                "marriage_Sat.01": "{{i18n:Isti.marriage_Sat.01}}",
+                "marriage_Sat.02": "{{i18n:Isti.marriage_Sat.02}}"
+            }
+        }
     ]
 }

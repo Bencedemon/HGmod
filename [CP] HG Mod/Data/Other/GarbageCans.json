@@ -18,7 +18,7 @@
                 "Id": "Bence PizzaBox",
                 "Condition": "RANDOM 0.75",
                 "ItemId": "(O)Bencedemon.HG_PizzaBox"
-              },
+              }
             ]
           },
           "Mark": {
@@ -108,7 +108,7 @@
                 "Id": "Abandoned_Cabin Pine Cone",
                 "Condition": "RANDOM 0.01",
                 "ItemId": "(O)311"
-              },
+              }
             ]
           },
           "Isti": {
@@ -118,9 +118,9 @@
                 "Id": "Isti Trash",
                 "Condition": "RANDOM 0.15",
                 "ItemId": "(O)168"
-              },
+              }
             ]
-          },
+          }
         }
       }
     ]

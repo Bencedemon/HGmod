@@ -10,11 +10,6 @@
             "Default": "true",
             "AllowValues": "true, false",
             "Description": "Adds leafs on the ground in certain areas."
-        },
-        "ExtraPets": {
-            "Default": "false",
-            "AllowValues": "true, false",
-            "Description": "Adds a new \"strange\" pet into the game. WARNING The pet is not 100% complete!"
         }
     },
     "CustomLocations":[
@@ -96,290 +91,148 @@
         }
     ],
     "DynamicTokens": [
-      {
-        "Name": "ApplesHere",
-        "Value": "{{HasSeenEvent: currentPlayer, hostPlayer |contains=7775927}}"
-      },
+        {
+            "Name": "ApplesHere",
+            "Value": "{{HasSeenEvent: currentPlayer, hostPlayer |contains=7775927}}"
+        }
     ],
     "Changes": [
+        //---===TitleScreen Change===---
         {
-          "Action": "EditImage",
-          "LogName": "TitleButtons - logo ",
-          "Target": "Minigames/TitleButtons",
-          "FromFile": "assets/Minigames/modLogo.png",
-          //Old "ToArea": { "X": 130, "Y": 170, "Width": 138, "Height": 17 },
-          "ToArea": { "X": 92, "Y": 160, "Width": 215, "Height": 27 },
+            "Action": "EditImage",
+            "LogName": "TitleButtons - logo ",
+            "Target": "Minigames/TitleButtons",
+            "FromFile": "assets/Minigames/modLogo.png",
+            "ToArea": { "X": 92, "Y": 160, "Width": 215, "Height": 27 }
+        },
+        //---===BLANK loads===---
+        {
+            //Dialogue Blank Loads
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Characters/Dialogue/Christopher, Characters/Dialogue/MarriageDialogueChristopher, Characters/Dialogue/Bence, Characters/Dialogue/MarriageDialogueBence, Characters/Dialogue/Mark, Characters/Dialogue/MarriageDialogueMark, Characters/Dialogue/Isti, Characters/Dialogue/MarriageDialogueIsti",
+            "FromFile": "Assets/Blank.json"
         },
         {
-            "LogName": "Tilesheets",
+            //Schedule Dialogue Blank Loads
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Strings/schedules/Christopher, Strings/schedules/Bence, Strings/schedules/Mark, Strings/schedules/Isti",
+            "FromFile": "Assets/Blank.json"
+        },
+        {
+            //Load HGEmojisData Blank
+            "Action": "Load",
+            "Target": "Mods/Bencedemon.HG/HGEmojisData",
+            "FromFile": "Assets/Blank.json"
+        },
+        {
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Data/Events/Custom_ChristopherHouseInterior, Data/Events/Custom_BenceCabinInterior, Data/Events/Custom_MarkFarm, Data/Events/Custom_MarkHouseInterior, Data/Events/Custom_MarkFarmCave, Data/Events/Custom_HGCave, Data/Events/Custom_AbandonedCabinInterior, Data/Events/Custom_IslandNorthWest, Data/Events/Custom_Island_Shelter",
+            "FromFile": "Assets/Blank.json"
+        },
+        //---===fall6 Festival===---
+        {
+            "LogName": "Red Rockets Concert",
+            "Action": "EditData",
+            "Target": "Data/Festivals/FestivalDates",
+            "Entries": { "fall6": "{{i18n:Festival.Concert.Name}}" },
+            "When": { "HasFlag": "HGCave_Opening" }
+        },
+        {
+            "LogName": "Festival Data",
+            "Action": "Load",
+            "Target": "Data/Festivals/fall6",
+            "FromFile": "Assets/Blank.json",
+            "When": { "HasFlag": "HGCave_Opening" }
+        },
+        //---===Data JSON loads===---
+        {
+            "LogName": "Events",
             "Action": "Include",
-            "FromFile": "Data/Tilesheets.json"
+            "FromFile": "Data/Events/HG_Events.json, Data/Events/SO_Events.json, Data/Events/SVE_Events.json"
+        },
+        {
+            "LogName": "Festivals",
+            "Action": "Include",
+            "FromFile": "Data/Festivals/communityday.json, Data/Festivals/jojaday.json, Data/Festivals/spring13.json, Data/Festivals/spring24.json, Data/Festivals/Summer11.json, Data/Festivals/Summer28.json, Data/Festivals/fall6.json, Data/Festivals/Fall16.json, Data/Festivals/Fall27.json, Data/Festivals/Winter8.json, Data/Festivals/Winter25.json"
+        },   
+        {
+            "LogName": "Items",
+            "Action": "Include",
+            "FromFile": "Data/Items/AdditionalWallpaperFlooring.json, Data/Items/BigCraftables.json, Data/Items/CookingRecipes.json, Data/Items/CraftingRecipes.json, Data/Items/FoodItem.json, Data/Items/Furnitures.json, Data/Items/Hats.json, Data/Items/Machines.json, Data/Items/Objects.json, Data/Items/Shirts.json, Data/Items/Weapons.json"
+        },
+        {// !!!MapPatches.json needs to be loaded first!!!
+            "LogName": "Locations",
+            "Action": "Include",
+            "FromFile": "Data/Locations/ChairTiles.json, Data/Locations/Edits.json, Data/Locations/MapPatches.json, Data/Locations/GardenPatches.json, Data/Locations/SleepTiles.json, Data/Locations/WorldMap.json"
+        },
+        {
+            "LogName": "NPCs/SVE Characters",
+            "Action": "Include",
+            "FromFile": "Data/NPCs/SveNPCs/Andy.json, Data/NPCs/SveNPCs/Apples.json, Data/NPCs/SveNPCs/Claire.json, Data/NPCs/SveNPCs/Gunther.json, Data/NPCs/SveNPCs/Lance.json, Data/NPCs/SveNPCs/Marlon.json, Data/NPCs/SveNPCs/Martin.json, Data/NPCs/SveNPCs/Morgan.json, Data/NPCs/SveNPCs/Morris.json, Data/NPCs/SveNPCs/Olivia.json, Data/NPCs/SveNPCs/Scarlett.json, Data/NPCs/SveNPCs/Sophia.json, Data/NPCs/SveNPCs/Susan.json, Data/NPCs/SveNPCs/Victor.json"
+        },
+        {
+            "LogName": "NPCs/Vanilla Characters",
+            "Action": "Include",
+            "FromFile": "Data/NPCs/VanillaNPCs/Abigail.json, Data/NPCs/VanillaNPCs/Alex.json, Data/NPCs/VanillaNPCs/Caroline.json, Data/NPCs/VanillaNPCs/Clint.json, Data/NPCs/VanillaNPCs/Demetrius.json, Data/NPCs/VanillaNPCs/Dwarf.json, Data/NPCs/VanillaNPCs/Elliott.json, Data/NPCs/VanillaNPCs/Emily.json, Data/NPCs/VanillaNPCs/Evelyn.json, Data/NPCs/VanillaNPCs/George.json, Data/NPCs/VanillaNPCs/Gus.json, Data/NPCs/VanillaNPCs/Haley.json, Data/NPCs/VanillaNPCs/Harvey.json, Data/NPCs/VanillaNPCs/Jas.json, Data/NPCs/VanillaNPCs/Jodi.json, Data/NPCs/VanillaNPCs/Kent.json, Data/NPCs/VanillaNPCs/Krobus.json, Data/NPCs/VanillaNPCs/Leah.json, Data/NPCs/VanillaNPCs/Leo.json, Data/NPCs/VanillaNPCs/Lewis.json, Data/NPCs/VanillaNPCs/Linus.json, Data/NPCs/VanillaNPCs/Marnie.json, Data/NPCs/VanillaNPCs/Maru.json, Data/NPCs/VanillaNPCs/Pam.json, Data/NPCs/VanillaNPCs/Penny.json, Data/NPCs/VanillaNPCs/Robin.json, Data/NPCs/VanillaNPCs/Sam.json, Data/NPCs/VanillaNPCs/Sandy.json, Data/NPCs/VanillaNPCs/Sebastian.json, Data/NPCs/VanillaNPCs/Shane.json, Data/NPCs/VanillaNPCs/Vincent.json, Data/NPCs/VanillaNPCs/Willy.json, Data/NPCs/VanillaNPCs/Wizard.json"
+        },
+        {
+            "LogName": "NPCs/Characters",
+            "Action": "Include",
+            "FromFile": "Data/NPCs/Christopher.json, Data/NPCs/Bence.json, Data/NPCs/Mark.json, Data/NPCs/Isti.json"
+        },
+        {
+            "LogName": "Other",
+            "Action": "Include",
+            "FromFile": "Data/Other/Bundles.json, Data/Other/GarbageCans.json, Data/Other/IncomingPhoneCalls.json, Data/Other/Jukebox.json, Data/Other/Mail.json, Data/Other/Minecarts.json, Data/Other/Movies.json, Data/Other/PrizeTicketMachines.json, Data/Other/Quests.json, Data/Other/SpecialOrders.json"
+        },
+        {
+            "LogName": "OtherMods",
+            "Action": "Include",
+            "FromFile": "Data/OtherMods/CJBCheatsMenu.json, Data/OtherMods/NPCMapLocations.json"
+        }, 
+        {
+            "LogName": "Shops/HG",
+            "Action": "Include",
+            "FromFile": "Data/Shops/HG/Concert.json, Data/Shops/HG/DesertFestival.json, Data/Shops/HG/HGCave.json, Data/Shops/HG/LangosVendor.json"
+        },
+        {
+            "LogName": "Shops/vanilla",
+            "Action": "Include",
+            "FromFile": "Data/Shops/vanilla/Alex.json, Data/Shops/vanilla/Suki.json, Data/Shops/vanilla/Pierre.json"
+        },
+        {
+            "LogName": "Strings",
+            "Action": "Include",
+            "FromFile": "Data/Strings/Objects.json, Data/Strings/StringsFromMaps.json, Data/Strings/SpecialOrderStrings.json"
+        },
+        {
+            "LogName": "Trees",
+            "Action": "Include",
+            "FromFile": "Data/Trees/FruitTrees.json"
         },
         {
             "LogName": "Spritesheets",
             "Action": "Include",
             "FromFile": "Data/Spritesheets.json"
         },
-        //{
-        //  "LogName": "Mapssheets",
-        //  "Action": "Include",
-        //  "FromFile": "Data/Mapsheets.json"
-        //},
         {
-            "LogName": "MapPatch",
+            "LogName": "Tilesheets",
             "Action": "Include",
-            "FromFile": "Data/Locations/MapPatches.json"
+            "FromFile": "Data/Tilesheets.json"
         },
+        //---===Character Dialogue loads===---
         {
-            "LogName": "GardenPatches",
+            "LogName": "Dialogue",
             "Action": "Include",
-            "FromFile": "Data/Locations/GardenPatches.json"
+            "FromFile": "Assets/CharacterFiles/Dialogue/Christopher/dialogue.json, Assets/CharacterFiles/Dialogue/Christopher/MarriageDialogue.json, Assets/CharacterFiles/Dialogue/Bence/dialogue.json, Assets/CharacterFiles/Dialogue/Bence/MarriageDialogue.json, Assets/CharacterFiles/Dialogue/Mark/dialogue.json, Assets/CharacterFiles/Dialogue/Mark/MarriageDialogue.json, Assets/CharacterFiles/Dialogue/Isti/dialogue.json, Assets/CharacterFiles/Dialogue/Isti/MarriageDialogue.json"
         },
         {
-            "LogName": "SleepTiles",
+            "LogName": "ScheduleDialogue",
             "Action": "Include",
-            "FromFile": "Data/Locations/SleepTiles.json"
-        },
-        {
-            "LogName": "Cooking",
-            "Action": "Include",
-            "FromFile": "Data/Items/FoodItem.json"
-        },
-        {
-          "LogName": "Shop",
-          "Action": "Include",
-          "FromFile": "Data/Shops/HG/LangosArus.json, Data/Shops/HG/DesertFestival.json, Data/Shops/vanilla/Alex.json, Data/Shops/vanilla/Pierre.json, Data/Shops/vanilla/Suki.json, Data/Shops/HG/HGCave.json, Data/Shops/HG/Concert.json"
-        },
-        {
-          "LogName": "Recipes",
-          "Action": "Include",
-          "FromFile": "Data/Items/CookingRecipes.json"
-        },
-        {
-          "LogName": "Recipes",
-          "Action": "Include",
-          "FromFile": "Data/Items/CraftingRecipes.json"
-        },
-        {
-          "LogName": "Furnitures",
-          "Action": "Include",
-          "FromFile": "Data/Items/Furnitures.json"
-        },
-        {
-          "LogName": "Hats",
-          "Action": "Include",
-          "FromFile": "Data/Items/Hats.json"
-        },
-        {
-          "LogName": "Objects",
-          "Action": "Include",
-          "FromFile": "Data/Items/Objects.json"
-        },
-        {
-          "LogName": "Shirts",
-          "Action": "Include",
-          "FromFile": "Data/Items/Shirts.json"
-        },
-        {
-          "LogName": "Weapons",
-          "Action": "Include",
-          "FromFile": "Data/Items/Weapons.json"
-        },
-        {
-          "LogName": "AdditionalWallpaperFlooring",
-          "Action": "Include",
-          "FromFile": "Data/Items/AdditionalWallpaperFlooring.json"
-        },
-        {
-          "LogName": "Maps",
-          "Action": "Include",
-          "FromFile": "Data/Locations/WorldMap.json"
-        },
-        {
-          "LogName": "Edits",
-          "Action": "Include",
-          "FromFile": "Data/Locations/Edits.json"
-        },
-        {
-          "LogName": "ChairTiles",
-          "Action": "Include",
-          "FromFile": "Data/Locations/ChairTiles.json"
-        },
-        //Character Loads
-        {
-          //Dialogue Blank Loads
-          "Action": "Load",
-          "Priority": "Low",
-          "Target": "Characters/Dialogue/Christopher, Characters/Dialogue/MarriageDialogueChristopher, Characters/Dialogue/Bence, Characters/Dialogue/MarriageDialogueBence, Characters/Dialogue/Mark, Characters/Dialogue/MarriageDialogueMark, Characters/Dialogue/Isti, Characters/Dialogue/MarriageDialogueIsti",
-          "FromFile": "Assets/Blank.json"
-        },
-        {
-          //Schedule Dialogue Blank Loads
-          "Action": "Load",
-          "Priority": "Low",
-          "Target": "Strings/schedules/Christopher, Strings/schedules/Bence, Strings/schedules/Mark, Strings/schedules/Isti",
-          "FromFile": "Assets/Blank.json"
-        },
-        {
-          //Load HGEmojisData Blank
-          "Action": "Load",
-          "Target": "Mods/Bencedemon.HG/HGEmojisData",
-          "FromFile": "Assets/Blank.json"
-        },
-        {
-          "LogName": "Dialogue",
-          "Action": "Include",
-          "FromFile": "Assets/CharacterFiles/Dialogue/Christopher/dialogue.json, Assets/CharacterFiles/Dialogue/Christopher/MarriageDialogue.json, Assets/CharacterFiles/Dialogue/Bence/dialogue.json, Assets/CharacterFiles/Dialogue/Bence/MarriageDialogue.json, Assets/CharacterFiles/Dialogue/Mark/dialogue.json, Assets/CharacterFiles/Dialogue/Mark/MarriageDialogue.json, Assets/CharacterFiles/Dialogue/Isti/dialogue.json, Assets/CharacterFiles/Dialogue/Isti/MarriageDialogue.json"
-        },
-        {
-          "LogName": "ScheduleDialogue",
-          "Action": "Include",
-          "FromFile": "Assets/CharacterFiles/Schedules/Christopher/ScheduleDialogue.json, Assets/CharacterFiles/Schedules/Bence/ScheduleDialogue.json, Assets/CharacterFiles/Schedules/Mark/ScheduleDialogue.json, Assets/CharacterFiles/Schedules/Isti/ScheduleDialogue.json"
-        },
-        {
-          "LogName": "Characters",
-          "Action": "Include",
-          "FromFile": "Data/NPCs/Christopher.json, Data/NPCs/Bence.json, Data/NPCs/Mark.json, Data/NPCs/Isti.json"
-        },
-        {
-          "LogName": "Vanilla Characters",
-          "Action": "Include",
-          "FromFile": "Data/NPCs/VanillaNPCs/Abigail.json, Data/NPCs/VanillaNPCs/Alex.json, Data/NPCs/VanillaNPCs/Caroline.json, Data/NPCs/VanillaNPCs/Clint.json, Data/NPCs/VanillaNPCs/Demetrius.json, Data/NPCs/VanillaNPCs/Dwarf.json, Data/NPCs/VanillaNPCs/Elliott.json, Data/NPCs/VanillaNPCs/Emily.json, Data/NPCs/VanillaNPCs/Evelyn.json, Data/NPCs/VanillaNPCs/George.json, Data/NPCs/VanillaNPCs/Gus.json, Data/NPCs/VanillaNPCs/Haley.json, Data/NPCs/VanillaNPCs/Harvey.json, Data/NPCs/VanillaNPCs/Jas.json, Data/NPCs/VanillaNPCs/Jodi.json, Data/NPCs/VanillaNPCs/Kent.json, Data/NPCs/VanillaNPCs/Krobus.json, Data/NPCs/VanillaNPCs/Leah.json, Data/NPCs/VanillaNPCs/Leo.json, Data/NPCs/VanillaNPCs/Lewis.json, Data/NPCs/VanillaNPCs/Linus.json, Data/NPCs/VanillaNPCs/Marnie.json, Data/NPCs/VanillaNPCs/Maru.json, Data/NPCs/VanillaNPCs/Pam.json, Data/NPCs/VanillaNPCs/Penny.json, Data/NPCs/VanillaNPCs/Robin.json, Data/NPCs/VanillaNPCs/Sam.json, Data/NPCs/VanillaNPCs/Sandy.json, Data/NPCs/VanillaNPCs/Sebastian.json, Data/NPCs/VanillaNPCs/Shane.json, Data/NPCs/VanillaNPCs/Vincent.json, Data/NPCs/VanillaNPCs/Willy.json, Data/NPCs/VanillaNPCs/Wizard.json"
-        },
-        {
-          "LogName": "SVE Characters",
-          "Action": "Include",
-          "FromFile": "Data/NPCs/SveNPCs/Andy.json, Data/NPCs/SveNPCs/Apples.json, Data/NPCs/SveNPCs/Claire.json, Data/NPCs/SveNPCs/Gunther.json, Data/NPCs/SveNPCs/Lance.json, Data/NPCs/SveNPCs/Marlon.json, Data/NPCs/SveNPCs/Martin.json, Data/NPCs/SveNPCs/Morgan.json, Data/NPCs/SveNPCs/Morris.json, Data/NPCs/SveNPCs/Olivia.json, Data/NPCs/SveNPCs/Scarlett.json, Data/NPCs/SveNPCs/Sophia.json, Data/NPCs/SveNPCs/Susan.json, Data/NPCs/SveNPCs/Victor.json"
-        },
-        //{
-        //  "LogName": "Buildings",
-        //  "Action": "Include",
-        //  "FromFile": "Data/Other/Buildings.json"
-        //},
-        {
-          "LogName": "Bundles",
-          "Action": "Include",
-          "FromFile": "Data/Other/Bundles.json"
-        },
-        /*{
-          "LogName": "Fish",
-          "Action": "Include",
-          "FromFile": "Data/Other/Fish.json"
-        },*/
-        {
-          "LogName": "BigCraftables",
-          "Action": "Include",
-          "FromFile": "Data/Items/BigCraftables.json"
-        },
-        {
-          "LogName": "Machines",
-          "Action": "Include",
-          "FromFile": "Data/Items/Machines.json"
-        },
-        {
-          "LogName": "Strings",
-          "Action": "Include",
-          "FromFile": "Data/Other/SpeechBubbles.json, Data/Other/Strings.json, Data/Other/SpecialOrderStrings.json"
-        },
-        {
-          "LogName": "OtherMods",
-          "Action": "Include",
-          "FromFile": "Data/OtherMods/CJBCheatsMenu.json, Data/OtherMods/NPCMapLocations.json"
-        },
-        {
-          "LogName": "Events",
-          "Action": "Include",
-          "FromFile": "Data/Events/HG_Events.json, Data/Events/SO_Events.json, Data/Events/SVE_Events.json"
-        },
-        {
-          "LogName": "Festivals",
-          "Action": "Include",
-          "FromFile": "Data/Festivals/communityday.json, Data/Festivals/jojaday.json, Data/Festivals/spring13.json, Data/Festivals/spring24.json, Data/Festivals/Summer11.json, Data/Festivals/Summer28.json, Data/Festivals/Fall16.json, Data/Festivals/Fall27.json, Data/Festivals/Winter8.json, Data/Festivals/Winter25.json" //Data/Festivals/MondoCon.json
-        },    
-        {
-          "LogName": "Red Rockets Concert",
-          "Action": "EditData",
-          "Target": "Data/Festivals/FestivalDates",
-          "Entries": { "fall6": "{{i18n:Festival.Concert.Name}}", },
-          "When": { "HasFlag": "HGCave_Opening", }
-        },
-        {
-          "LogName": "Festival Data",
-          "Action": "Load",
-          "Target": "Data/Festivals/fall6",
-          "FromFile": "Assets/Blank.json",
-          "When": { "HasFlag": "HGCave_Opening", }
-        },
-        {
-          "LogName": "fall6",
-          "Action": "Include",
-          "FromFile": "Data/Festivals/fall6.json"
-        },
-        {
-          "LogName": "Quests",
-          "Action": "Include",
-          "FromFile": "Data/Other/Quests.json"
-        },
-        {
-          "LogName": "SpecialOrders",
-          "Action": "Include",
-          "FromFile": "Data/Other/SpecialOrders.json"
-        },
-        {
-          "LogName": "Mails",
-          "Action": "Include",
-          "FromFile": "Data/Other/Mail.json"
-        },
-        {
-          "LogName": "Minecarts",
-          "Action": "Include",
-          "FromFile": "Data/Other/Minecarts.json"
-        },
-        {
-          "LogName": "GarbageCans",
-          "Action": "Include",
-          "FromFile": "Data/Other/GarbageCans.json"
-        },
-        {
-          "LogName": "IncomingPhoneCalls",
-          "Action": "Include",
-          "FromFile": "Data/Other/IncomingPhoneCalls.json"
-        },
-        {
-          "LogName": "Music",
-          "Action": "Include",
-          "FromFile": "Data/Other/Music.json"
-        },
-        {
-          "LogName": "Jukebox",
-          "Action": "Include",
-          "FromFile": "Data/Other/Jukebox.json"
-        },
-        {
-          "LogName": "Movies",
-          "Action": "Include",
-          "FromFile": "Data/Other/Movies.json"
-        },
-        {
-          "LogName": "Pets",
-          "Action": "Include",
-          "FromFile": "Data/Other/Pets.json"
-        },
-        {
-          "LogName": "PrizeTicketMachines",
-          "Action": "Include",
-          "FromFile": "Data/Other/PrizeTicketMachines.json"
-        },
-        {
-          "LogName": "Trees",
-          "Action": "Include",
-          "FromFile": "Data/Trees/FruitTrees.json"
-        },
-        {
-          "Action": "Load",
-          "Priority": "Low",
-          "Target": "Data/Events/Custom_ChristopherHouseInterior, Data/Events/Custom_BenceCabinInterior, Data/Events/Custom_MarkFarm, Data/Events/Custom_MarkHouseInterior, Data/Events/Custom_MarkFarmCave, Data/Events/Custom_HGCave, Data/Events/Custom_AbandonedCabinInterior, Data/Events/Custom_IslandNorthWest, Data/Events/Custom_Island_Shelter",
-          "FromFile": "Assets/Blank.json"
-        },
+            "FromFile": "Assets/CharacterFiles/Schedules/Christopher/ScheduleDialogue.json, Assets/CharacterFiles/Schedules/Bence/ScheduleDialogue.json, Assets/CharacterFiles/Schedules/Mark/ScheduleDialogue.json, Assets/CharacterFiles/Schedules/Isti/ScheduleDialogue.json"
+        }
     ]
 }

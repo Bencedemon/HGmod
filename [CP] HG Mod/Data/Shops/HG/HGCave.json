@@ -10,16 +10,16 @@
                             "Condition": null,
                             "Portrait": "Mods/Bencedemon.HG/Bob",
                             "Dialogues": [
-                            {
-                                "Id": "Default",
-                                "Condition": null,
-                                "Dialogue": null,
-                                "RandomDialogue": [
-                                    "{{i18n:CaveGiftShop.01}}",
-                                    "{{i18n:CaveGiftShop.02}}",
-                                    "{{i18n:CaveGiftShop.03}}"
-                                ]
-                            }
+                                {
+                                    "Id": "Default",
+                                    "Condition": null,
+                                    "Dialogue": null,
+                                    "RandomDialogue": [
+                                        "{{i18n:CaveGiftShop.01}}",
+                                        "{{i18n:CaveGiftShop.02}}",
+                                        "{{i18n:CaveGiftShop.03}}"
+                                    ]
+                                }
                             ],
                             "RandomizeDialogueOnOpen": true,
                             "ClosedMessage": null,
@@ -233,15 +233,15 @@
                             "Condition": null,
                             "Portrait": "Mods/Bencedemon.HG/Dod",
                             "Dialogues": [
-                            {
-                                "Id": "Default",
-                                "Condition": null,
-                                "Dialogue": null,
-                                "RandomDialogue": [
-                                    "{{i18n:CaveBar.01}}",
-                                    "{{i18n:CaveBar.02}}"
-                                ]
-                            }
+                                {
+                                    "Id": "Default",
+                                    "Condition": null,
+                                    "Dialogue": null,
+                                    "RandomDialogue": [
+                                        "{{i18n:CaveBar.01}}",
+                                        "{{i18n:CaveBar.02}}"
+                                    ]
+                                }
                             ],
                             "RandomizeDialogueOnOpen": true,
                             "ClosedMessage": null,
@@ -394,7 +394,7 @@
                             "Condition": null,
                             "Price": 150,
                             "IsRecipe": "true"
-                        },
+                        }
                     ]
                 }
             },
@@ -415,15 +415,15 @@
                             "Condition": null,
                             "Portrait": null,
                             "Dialogues": [
-                            {
-                                "Id": "Default",
-                                "Condition": null,
-                                "Dialogue": null,
-                                "RandomDialogue": [
-                                    "{{i18n:CaveResupply.01}}",
-                                    "{{i18n:CaveResupply.02}}"
-                                ]
-                            }
+                                {
+                                    "Id": "Default",
+                                    "Condition": null,
+                                    "Dialogue": null,
+                                    "RandomDialogue": [
+                                        "{{i18n:CaveResupply.01}}",
+                                        "{{i18n:CaveResupply.02}}"
+                                    ]
+                                }
                             ],
                             "RandomizeDialogueOnOpen": true,
                             "ClosedMessage": null,
@@ -439,7 +439,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Global",
                             "Id": "(O)78",
-                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken"
                         },
                         {//Eggplant 60g Fall
                             "Condition": "SYNCED_RANDOM day Resupply_eggplant 0.2",
@@ -449,7 +449,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Global",
                             "Id": "(O)272",
-                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken"
                         },
                         {//Potato 80g Spring
                             "Condition": "SYNCED_RANDOM day Resupply_potato 0.2",
@@ -459,7 +459,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Global",
                             "Id": "(O)192",
-                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken"
                         },
                         {//Tea 50g Spring, Summer, Fall
                             "Condition": "SYNCED_RANDOM day Resupply_tea 0.2",
@@ -469,7 +469,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Global",
                             "Id": "(O)815",
-                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken"
                         },
                         {//Corn 50g Summer, Fall
                             "Condition": "SYNCED_RANDOM day Resupply_corn 0.2",
@@ -479,7 +479,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Global",
                             "Id": "(O)270",
-                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken"
                         },
                         {//Tomato 60g Summer
                             "Condition": "SYNCED_RANDOM day Resupply_tomato 0.2",
@@ -489,7 +489,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Global",
                             "Id": "(O)256",
-                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken"
                         },
                         {//Strawberry 120g Spring
                             "Condition": "SYNCED_RANDOM day Resupply_strawberry 0.2",
@@ -499,7 +499,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Global",
                             "Id": "(O)400",
-                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken"
                         },
                         {//Lemon 70g All season
                             "Condition": "SYNCED_RANDOM day Resupply_lemon 0.2",
@@ -509,7 +509,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Global",
                             "Id": "(O)Bencedemon.HG_Lemon",
-                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken"
                         },
                         {//Cherry 80g Spring
                             "Condition": "SYNCED_RANDOM day Resupply_cherry 0.1",
@@ -519,7 +519,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Global",
                             "Id": "(O)638",
-                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken"
                         },
                         {//Ginger 60g All
                             "Condition": "PLAYER_VISITED_LOCATION Any IslandSouth,SYNCED_RANDOM day Resupply_ginger 0.2",
@@ -529,7 +529,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Global",
                             "Id": "(O)829",
-                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken"
                         },
                         {//Hazelnut 90g Fall
                             "Condition": "SYNCED_RANDOM day Resupply_hazelnut 0.1",
@@ -539,7 +539,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Global",
                             "Id": "(O)408",
-                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken"
                         },
                         {//Cheese 230g All season
                             "Condition": "SYNCED_RANDOM day Resupply_cheese 0.2",
@@ -549,7 +549,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Global",
                             "Id": "(O)424",
-                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken"
                         },
                         {//Butter 215g All
                             "Condition": "SYNCED_RANDOM day Resupply_butter 0.2",
@@ -559,7 +559,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Global",
                             "Id": "(O)FlashShifter.StardewValleyExpandedCP_Butter",
-                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken"
                         },
                         {//Bread 60g Summer, Fall
                             "Condition": "SYNCED_RANDOM day Resupply_bread 0.2",
@@ -569,7 +569,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Global",
                             "Id": "(O)216",
-                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken"
                         },
                         {//Puppyfish 250g Spring, Summer, Fall
                             "Condition": "SYNCED_RANDOM day Resupply_puppyfish 0.1",
@@ -579,7 +579,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Global",
                             "Id": "FlashShifter.StardewValleyExpandedCP_Puppyfish",
-                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                            "ItemId": "(O)Bencedemon.HG_HelloGuysToken"
                         }
                     ]
                 }

@@ -1,11 +1,10 @@
 {
     "Changes": [
-        
         //Fruit Trees
         {
             "Action": "Load",
             "Target": "Mods/Bencedemon.HG/HGLemonTree",
-            "FromFile": "Assets/Trees/HG_Lemon_Tree.png",
+            "FromFile": "Assets/Trees/HG_Lemon_Tree.png"
         },
         {
             "Action": "EditData",
@@ -43,6 +42,6 @@
                     "CustomFields": {}
                 }
             }
-        },
+        }
     ]
 }

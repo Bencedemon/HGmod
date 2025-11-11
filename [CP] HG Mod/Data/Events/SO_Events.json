@@ -13,6 +13,6 @@
             "Entries": {
                 "2001402/n MarkReward2":"50s/36 20/farmer 30 22 1 Mark 35 20 0 Robin 38 20 3/positionOffset Robin  0 -30/skippable/move farmer 6 0 0 true/animate Robin false true 100 24 25 26 27 27 27 27 27 27 27 27/pause 200/playSound crafting/pause 1200/playSound crafting/pause 1200/playSound crafting/pause 1200/playSound crafting/pause 500/stopAnimation Robin/faceDirection Robin 2 true/pause 200/faceDirection Mark 2/speak Mark \"{{i18n:SO_Event.Mark2.01}}\"/quickQuestion {{i18n:SO_Event.Mark2.Question}}#{{i18n:SO_Event.Mark2.Answer1}}#{{i18n:SO_Event.Mark2.Answer2}}#{{i18n:SO_Event.Mark2.Answer3}}(break)--<answer1 script>\\emote Robin 20 true\\pause 100\\emote Mark 20\\speak Mark \"{{i18n:SO_Event.Mark2.02}}\"\\Friendship Mark 10 Robin 10(break)--<answer2 script>\\emote Robin 32 true\\pause 100\\emote Mark 32\\speak Mark \"{{i18n:SO_Event.Mark2.03}}\"(break)--<answer3 script>\\faceDirection Robin 3\\emote Robin 28 true\\pause 100\\emote Mark 28\\speak Mark \"{{i18n:SO_Event.Mark2.04}}\"\\Friendship Mark -10 Robin -10//pause 1000/globalFade/viewport -1000 -1000/end"
             }
-        },
+        }
     ]
 }

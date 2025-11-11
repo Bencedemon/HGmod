@@ -10,16 +10,16 @@
                             "Condition": null,
                             "Portrait": "Mods/Bencedemon.HG/Bob",
                             "Dialogues": [
-                            {
-                                "Id": "Default",
-                                "Condition": null,
-                                "Dialogue": null,
-                                "RandomDialogue": [
-                                    "{{i18n:CaveGiftShop.01}}",
-                                    "{{i18n:CaveGiftShop.02}}",
-                                    "{{i18n:CaveGiftShop.03}}"
-                                ]
-                            }
+                                {
+                                    "Id": "Default",
+                                    "Condition": null,
+                                    "Dialogue": null,
+                                    "RandomDialogue": [
+                                        "{{i18n:CaveGiftShop.01}}",
+                                        "{{i18n:CaveGiftShop.02}}",
+                                        "{{i18n:CaveGiftShop.03}}"
+                                    ]
+                                }
                             ],
                             "RandomizeDialogueOnOpen": true,
                             "ClosedMessage": null,

@@ -1,199 +1,199 @@
 {
-  "Changes": [
-    {
-      "Action": "EditData",
-      "Target": "Data/Festivals/spring13",
-      "Entries": {
-        "set-up": "fallFest/27 60/farmer 12 54 1/changeToTemporaryMap Town-EggFestival/loadActors Set-Up/positionOffset Bence 0 16/animate Bence false true 100 32/advancedMove Andy true 1 9000 -6 0 0 -8 4 7000 0 8 6 0 1 8000/advancedMove Vincent true -2 0 0 -2 2 0 0 2/advancedMove Jas true 2 0 0 2 -2 0 0 -2/advancedMove Leo true 0 -2 2 0 0 2 -2 0/advancedMove Pam true 0 -1 3 5000 0 2 3 5000 0 -1 3 4000/advancedMove Clint true 1 7000 0 1 3 7000 0 -1/advancedMove Demetrius true 2 15000 -3 0 0 8 3 20000 0 -8 3 0/advancedMove Willy true 2 25000 -4 0 0 -12 4 0 0 -1 4 30000 0 1 -4 0 0 12 4 0/advancedMove Shane true 4 40000 2 0 0 2 1 35000 0 -2 -2 0/advancedMove Harvey true 0 6 -6 0 0 9 -3 0 3 15000 3 0 0 3 20 0 0 -19 -14 0 0 1 2 30000/playerControl eggFestival",
-        "mainEvent": "pause 400/playMusic none/pause 500/globalFade/viewport -1000 -1000/loadActors MainEvent/warpFarmers 27 69 0 25 68 1 27 70 0 33 68 3 33 70 3 30 71 0 29 72 0 27 72 0 left 34 70 3/pause 1000/viewport 27 67 true unfreeze/pause 2000/speak Lewis \"{{i18n:EggFestival.07}}\"/pause 100/jump Jas/pause 100/jump Vincent/pause 250/pause 1200/speak Lewis \"{{i18n:EggFestival.08}}\"/pause 100/faceDirection Vincent 3 true/faceDirection Jas 1 true/pause 1000/faceDirection Vincent 0 true/faceDirection Jas 0 /pause 800/faceDirection Lewis 3/faceDirection Lewis 2/faceDirection Lewis 1/faceDirection Lewis 2/pause 800/speak Lewis \"{{i18n:EggFestival.09}}\"/pause 1000/waitForOtherPlayers startContest/jump Lewis/pause 1000/speak Lewis \"{{i18n:EggFestival.10}}\"/advancedMove Sophia false 0 -13 -12 0 0 20 16 0 0 16 -18 0 0 4 4 0 0 -12 8 0 4 5000/advancedMove Maru false -2 0 0 6 -9 0 0 -2 -9 0 0 -1 2 0 0 -12 6 0 0 -4 15 0 0 1 3 0 0 1 5 0 0 2 12 0 0 11/advancedMove Abigail false 0 21 -20 0 0 3 7 0 0 -2 26 0 0 5 25 0/advancedMove Jas false 0 12 8 0 0 10 3 0 0 4 14 0 0 -21 -5 0 0 7 -18 0/advancedMove Sam false 4 0 0 -4 2 0 0 -4 12 0 0 -6 18 0 0 20 0 -20 0 20/advancedMove Mark false 0 -3 6 0 0 -2 11 0 0 3 10 0 0 2 1 0 0 3 4 0 0 3 7 0 0 22 -30 0 0 -4 10 0/advancedMove Vincent false 0 3 24 0 0 22 15 0 0 -21 -25 0 4 7000/advancedMove Leo false -1 0 0 10 4 0 0 13 11 0 0 4 27 0 0 4 -12 0 0 -28 4 0 0 -7 10 0 0 -13/playSound whistle/playMusic tickTock/playerControl eggHunt",
-        "mainEvent_y2": "pause 500/playMusic none/pause 500/globalFade/viewport -1000 -1000/loadActors MainEvent/warpFarmers 29 70 0 26 68 1 27 70 0 33 68 3 33 70 3 30 71 0 29 72 0 27 72 0 left 34 70 3/pause 1000/positionOffset Demetrius 5 -10/positionOffset Jodi 5 -8/positionOffset Marnie -12 10/positionOffset Shane -6 -6/viewport 29 69 true unfreeze/pause 2000/speak Lewis \"{{i18n:EggFestival.07}}\"/pause 100/jump Jas/jump Vincent/pause 1000/speak Lewis \"{{i18n:EggFestival.08}}\"/pause 100/faceDirection Vincent 1 true/faceDirection Jas 3 true/pause 1000/faceDirection Vincent 0 true/faceDirection Jas 0/pause 800/faceDirection Lewis 3/pause 100/faceDirection Lewis 2/pause 125/faceDirection Lewis 1/pause 100/faceDirection Lewis 2/pause 800/speak Lewis \"{{i18n:EggFestival.09}}\"/pause 1000/waitForOtherPlayers startContest/jump Lewis/pause 1000/speak Lewis \"{{i18n:EggFestival.10}}\"/advancedMove Sophia false -1 0 0 -13 -11 0 0 6 -6 0 0 15 12 0 0 -1 19 0 0 -5 16 0 0 26/advancedMove Abigail false 0 5 -12 0 0 13 -6 0 0 4 31 0 0 10 -12 0 0 19 21 0 0 31/advancedMove Sam false 0 11 26 0 0 -9 -5 0 0 -19 17 0 0 20/advancedMove Jas false 3 0 0 2 20 0 0 28 12 0 0 -7 3 0 0 -20 -10 0 0 -9 -13 0/advancedMove Mark false 0 -2 1 0 0 -3 2 0 0 -1 2 0 0 -2 12 0 0 -6 18 0 0 19 -30 0 0 1 -8 0 0 -5/advancedMove Vincent false 4 0 0 2 20 0 0 28 12 0 0 -7 3 0 0 -20 -10 0 0 -9 -12 0/advancedMove Maru false 5 0 0 -7 11 0 0 2 19 0 0 8 -13 0 0 24 -15 0 0 -5 -2 0 0 10 6 0 0 -3/advancedMove Leo false 0 9 2 0 0 13 11 0 0 4 27 0 0 -3 4 0 0 -23/advancedMove Haley true 3 7000 2 5000/advancedMove Gus true 1 5500 0 -2 4 400 1 7000 2 400 0 2 2 400 1 1000/playSound whistle/playMusic tickTock/playerControl eggHunt",
-        "Christopher": "{{i18n:Christopher.Egg}}",
-        "Christopher_y2": "{{i18n:Christopher.Egg2}}",
-        "Bence": "{{i18n:Bence.Egg}}",
-        "Bence_y2": "{{i18n:Bence.Egg2}}",
-        "Mark": "{{i18n:Mark.Egg}}",
-        "Mark_y2": "{{i18n:Mark.Egg2}}",
-        "Isti": "{{i18n:Isti.Egg}}",
-        "Isti_y2": "{{i18n:Isti.Egg2}}",
-      }
-    },
-    //YEAR ONE HG NPC egg festival data
-    {
-      "Action": "EditData",
-      "Target": "Data/Festivals/spring13",
-      "TextOperations": [
-        { //Christopher
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "Set-Up_additionalCharacters"
-          ],
-          "Value": "Christopher 42 73 left",
-          "Delimiter": "/"
-        },
+    "Changes": [
         {
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "MainEvent_additionalCharacters"
-          ],
-          "Value": "Christopher 38 70 left",
-          "Delimiter": "/"
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "Entries": {
+                "set-up": "fallFest/27 60/farmer 12 54 1/changeToTemporaryMap Town-EggFestival/loadActors Set-Up/positionOffset Bence 0 16/animate Bence false true 100 32/advancedMove Andy true 1 9000 -6 0 0 -8 4 7000 0 8 6 0 1 8000/advancedMove Vincent true -2 0 0 -2 2 0 0 2/advancedMove Jas true 2 0 0 2 -2 0 0 -2/advancedMove Leo true 0 -2 2 0 0 2 -2 0/advancedMove Pam true 0 -1 3 5000 0 2 3 5000 0 -1 3 4000/advancedMove Clint true 1 7000 0 1 3 7000 0 -1/advancedMove Demetrius true 2 15000 -3 0 0 8 3 20000 0 -8 3 0/advancedMove Willy true 2 25000 -4 0 0 -12 4 0 0 -1 4 30000 0 1 -4 0 0 12 4 0/advancedMove Shane true 4 40000 2 0 0 2 1 35000 0 -2 -2 0/advancedMove Harvey true 0 6 -6 0 0 9 -3 0 3 15000 3 0 0 3 20 0 0 -19 -14 0 0 1 2 30000/playerControl eggFestival",
+                "mainEvent": "pause 400/playMusic none/pause 500/globalFade/viewport -1000 -1000/loadActors MainEvent/warpFarmers 27 69 0 25 68 1 27 70 0 33 68 3 33 70 3 30 71 0 29 72 0 27 72 0 left 34 70 3/pause 1000/viewport 27 67 true unfreeze/pause 2000/speak Lewis \"{{i18n:EggFestival.07}}\"/pause 100/jump Jas/pause 100/jump Vincent/pause 250/pause 1200/speak Lewis \"{{i18n:EggFestival.08}}\"/pause 100/faceDirection Vincent 3 true/faceDirection Jas 1 true/pause 1000/faceDirection Vincent 0 true/faceDirection Jas 0 /pause 800/faceDirection Lewis 3/faceDirection Lewis 2/faceDirection Lewis 1/faceDirection Lewis 2/pause 800/speak Lewis \"{{i18n:EggFestival.09}}\"/pause 1000/waitForOtherPlayers startContest/jump Lewis/pause 1000/speak Lewis \"{{i18n:EggFestival.10}}\"/advancedMove Sophia false 0 -13 -12 0 0 20 16 0 0 16 -18 0 0 4 4 0 0 -12 8 0 4 5000/advancedMove Maru false -2 0 0 6 -9 0 0 -2 -9 0 0 -1 2 0 0 -12 6 0 0 -4 15 0 0 1 3 0 0 1 5 0 0 2 12 0 0 11/advancedMove Abigail false 0 21 -20 0 0 3 7 0 0 -2 26 0 0 5 25 0/advancedMove Jas false 0 12 8 0 0 10 3 0 0 4 14 0 0 -21 -5 0 0 7 -18 0/advancedMove Sam false 4 0 0 -4 2 0 0 -4 12 0 0 -6 18 0 0 20 0 -20 0 20/advancedMove Mark false 0 -3 6 0 0 -2 11 0 0 3 10 0 0 2 1 0 0 3 4 0 0 3 7 0 0 22 -30 0 0 -4 10 0/advancedMove Vincent false 0 3 24 0 0 22 15 0 0 -21 -25 0 4 7000/advancedMove Leo false -1 0 0 10 4 0 0 13 11 0 0 4 27 0 0 4 -12 0 0 -28 4 0 0 -7 10 0 0 -13/playSound whistle/playMusic tickTock/playerControl eggHunt",
+                "mainEvent_y2": "pause 500/playMusic none/pause 500/globalFade/viewport -1000 -1000/loadActors MainEvent/warpFarmers 29 70 0 26 68 1 27 70 0 33 68 3 33 70 3 30 71 0 29 72 0 27 72 0 left 34 70 3/pause 1000/positionOffset Demetrius 5 -10/positionOffset Jodi 5 -8/positionOffset Marnie -12 10/positionOffset Shane -6 -6/viewport 29 69 true unfreeze/pause 2000/speak Lewis \"{{i18n:EggFestival.07}}\"/pause 100/jump Jas/jump Vincent/pause 1000/speak Lewis \"{{i18n:EggFestival.08}}\"/pause 100/faceDirection Vincent 1 true/faceDirection Jas 3 true/pause 1000/faceDirection Vincent 0 true/faceDirection Jas 0/pause 800/faceDirection Lewis 3/pause 100/faceDirection Lewis 2/pause 125/faceDirection Lewis 1/pause 100/faceDirection Lewis 2/pause 800/speak Lewis \"{{i18n:EggFestival.09}}\"/pause 1000/waitForOtherPlayers startContest/jump Lewis/pause 1000/speak Lewis \"{{i18n:EggFestival.10}}\"/advancedMove Sophia false -1 0 0 -13 -11 0 0 6 -6 0 0 15 12 0 0 -1 19 0 0 -5 16 0 0 26/advancedMove Abigail false 0 5 -12 0 0 13 -6 0 0 4 31 0 0 10 -12 0 0 19 21 0 0 31/advancedMove Sam false 0 11 26 0 0 -9 -5 0 0 -19 17 0 0 20/advancedMove Jas false 3 0 0 2 20 0 0 28 12 0 0 -7 3 0 0 -20 -10 0 0 -9 -13 0/advancedMove Mark false 0 -2 1 0 0 -3 2 0 0 -1 2 0 0 -2 12 0 0 -6 18 0 0 19 -30 0 0 1 -8 0 0 -5/advancedMove Vincent false 4 0 0 2 20 0 0 28 12 0 0 -7 3 0 0 -20 -10 0 0 -9 -12 0/advancedMove Maru false 5 0 0 -7 11 0 0 2 19 0 0 8 -13 0 0 24 -15 0 0 -5 -2 0 0 10 6 0 0 -3/advancedMove Leo false 0 9 2 0 0 13 11 0 0 4 27 0 0 -3 4 0 0 -23/advancedMove Haley true 3 7000 2 5000/advancedMove Gus true 1 5500 0 -2 4 400 1 7000 2 400 0 2 2 400 1 1000/playSound whistle/playMusic tickTock/playerControl eggHunt",
+                "Christopher": "{{i18n:Christopher.Egg}}",
+                "Christopher_y2": "{{i18n:Christopher.Egg2}}",
+                "Bence": "{{i18n:Bence.Egg}}",
+                "Bence_y2": "{{i18n:Bence.Egg2}}",
+                "Mark": "{{i18n:Mark.Egg}}",
+                "Mark_y2": "{{i18n:Mark.Egg2}}",
+                "Isti": "{{i18n:Isti.Egg}}",
+                "Isti_y2": "{{i18n:Isti.Egg2}}"
+            }
         },
-        { //Bence
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "Set-Up_additionalCharacters"
-          ],
-          "Value": "Bence 43 77 down",//"Bence 41 74 up",
-          "Delimiter": "/"
-        },
+        //YEAR ONE HG NPC egg festival data
         {
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "MainEvent_additionalCharacters"
-          ],
-          "Value": "Bence 37 68 left",
-          "Delimiter": "/"
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                { //Christopher
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Christopher 42 73 left",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Christopher 38 70 left",
+                    "Delimiter": "/"
+                },
+                { //Bence
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Bence 43 77 down",//"Bence 41 74 up",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Bence 37 68 left",
+                    "Delimiter": "/"
+                },
+                { //Mark
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Mark 42 78 right",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Mark 31 67 left",
+                    "Delimiter": "/"
+                }
+            ]
         },
-        { //Mark
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "Set-Up_additionalCharacters"
-          ],
-          "Value": "Mark 42 78 right",
-          "Delimiter": "/"
-        },
+        //YEAR TWO HG NPC egg festival data
         {
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "MainEvent_additionalCharacters"
-          ],
-          "Value": "Mark 31 67 left",
-          "Delimiter": "/"
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                { //Christopher
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Christopher 27 68 up",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters_y2"
+                    ],
+                    "Value": "Christopher 34 64 down",
+                    "Delimiter": "/"
+                },
+                { //Bence
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Bence 37 60 left",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters_y2"
+                    ],
+                    "Value": "Bence 33 58 left",
+                    "Delimiter": "/"
+                },
+                { //Mark
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Mark 25 66 left",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters_y2"
+                    ],
+                    "Value": "Mark 32 68 left",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        //YEAR ONE ISTI NPC egg festival data
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "When": {
+                "HasSeenEvent: anyPlayer|contains=IstiReturn": true
+            },
+            "TextOperations": [
+                { //Isti
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Isti 40 73 right",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Isti 38 71 left",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        //YEAR TWO ISTI NPC egg festival data
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "When": {
+                "HasSeenEvent: anyPlayer|contains=IstiReturn": true
+            },
+            "TextOperations": [
+                { //Isti
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Isti 34 71 right",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters_y2"
+                    ],
+                    "Value": "Isti 26 73 up",
+                    "Delimiter": "/"
+                }
+            ]
         }
-      ]
-    },
-    //YEAR TWO HG NPC egg festival data
-    {
-      "Action": "EditData",
-      "Target": "Data/Festivals/spring13",
-      "TextOperations": [
-        { //Christopher
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "Set-Up_additionalCharacters_y2"
-          ],
-          "Value": "Christopher 27 68 up",
-          "Delimiter": "/"
-        },
-        {
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "MainEvent_additionalCharacters_y2"
-          ],
-          "Value": "Christopher 34 64 down",
-          "Delimiter": "/"
-        },
-        { //Bence
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "Set-Up_additionalCharacters_y2"
-          ],
-          "Value": "Bence 37 60 left",
-          "Delimiter": "/"
-        },
-        {
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "MainEvent_additionalCharacters_y2"
-          ],
-          "Value": "Bence 33 58 left",
-          "Delimiter": "/"
-        },
-        { //Mark
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "Set-Up_additionalCharacters_y2"
-          ],
-          "Value": "Mark 25 66 left",
-          "Delimiter": "/"
-        },
-        {
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "MainEvent_additionalCharacters_y2"
-          ],
-          "Value": "Mark 32 68 left",
-          "Delimiter": "/"
-        }
-      ]
-    },
-    //YEAR ONE ISTI NPC egg festival data
-    {
-      "Action": "EditData",
-      "Target": "Data/Festivals/spring13",
-      "When": {
-        "HasSeenEvent: anyPlayer|contains=IstiReturn": true
-      },
-      "TextOperations": [
-        { //Isti
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "Set-Up_additionalCharacters"
-          ],
-          "Value": "Isti 40 73 right",
-          "Delimiter": "/"
-        },
-        {
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "MainEvent_additionalCharacters"
-          ],
-          "Value": "Isti 38 71 left",
-          "Delimiter": "/"
-        }
-      ]
-    },
-    //YEAR TWO ISTI NPC egg festival data
-    {
-      "Action": "EditData",
-      "Target": "Data/Festivals/spring13",
-      "When": {
-        "HasSeenEvent: anyPlayer|contains=IstiReturn": true
-      },
-      "TextOperations": [
-        { //Isti
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "Set-Up_additionalCharacters_y2"
-          ],
-          "Value": "Isti 34 71 right",
-          "Delimiter": "/"
-        },
-        {
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "MainEvent_additionalCharacters_y2"
-          ],
-          "Value": "Isti 26 73 up",
-          "Delimiter": "/"
-        }
-      ]
-    }
-  ]
+    ]
 }

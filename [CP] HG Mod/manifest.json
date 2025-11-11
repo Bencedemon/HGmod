@@ -16,6 +16,10 @@
         {
             "UniqueID": "DLX.Bundles",
             "IsRequired": true
-        }
+        },
+        {
+			"UniqueID": "spacechase0.SpaceCore",
+    		"IsRequired": false
+  		}
     ]
 }

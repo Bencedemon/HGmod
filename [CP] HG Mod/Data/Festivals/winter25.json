@@ -1,126 +1,126 @@
 {
     "Changes": [
-      {
-        "Action": "EditData",
-        "Target": "Data/Festivals/winter25",
-        "Entries": {
-          "secretSanta": "none/-1000 -1000/farmer 30 69 0/warp Emily 24 67/faceDirection Emily 2 true/warp Haley 35 74/warp secretSanta 29 75/faceDirection secretSanta 0/viewport 30 67 true/pause 2000/move secretSanta 0 -4 0/move secretSanta 1 0 0/pause 500/shake secretSanta 100/playSound stoneStep/specificTemporarySprite secretGift/pause 100/faceDirection farmer 2/pause 200/jump farmer/pause 700/emote farmer 16/pause 100/move secretSanta -1 0 0/move secretSanta 0 -2 0/pause 700/faceDirection farmer 3/pause 300/faceDirection farmer 0/pause 500/faceDirection secretSanta 1/pause 500/speak secretSanta \"dialogue1\"/pause 300/faceDirection farmer 2/pause 800/showFrame 4/pause 300/playSound cut/specificTemporarySprite secretGiftOpen/pause 400/stopAnimation farmer/faceDirection farmer 2/pause 1000/cutscene addSecretSantaItem/pause 3000/null/faceDirection farmer 3/speak secretSanta \"dialogue2\"/pause 600/eyes 1 -1500/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/warp Emily 29 72/faceDirection Emily 0 true/warp Haley 30 72/warp secretSanta warpX warpY/faceDirection farmer 2/cutscene clearTempSprites/playMusic christmasTheme/viewport 30 67 true/playerControl christmas2",
-  
-          "Christopher": "{{i18n:Christopher.Star}}",
-          "Christopher_y2": "{{i18n:Christopher.Star2}}",
-          "Bence": "{{i18n:Bence.Star}}",
-          "Bence_y2": "{{i18n:Bence.Star2}}",
-          "Mark": "{{i18n:Mark.Star}}",
-          "Mark_y2": "{{i18n:Mark.Star2}}",
-          "Isti": "{{i18n:Isti.Star}}",
-          "Isti_y2": "{{i18n:Isti.Star2}}",
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "Entries": {
+                "secretSanta": "none/-1000 -1000/farmer 30 69 0/warp Emily 24 67/faceDirection Emily 2 true/warp Haley 35 74/warp secretSanta 29 75/faceDirection secretSanta 0/viewport 30 67 true/pause 2000/move secretSanta 0 -4 0/move secretSanta 1 0 0/pause 500/shake secretSanta 100/playSound stoneStep/specificTemporarySprite secretGift/pause 100/faceDirection farmer 2/pause 200/jump farmer/pause 700/emote farmer 16/pause 100/move secretSanta -1 0 0/move secretSanta 0 -2 0/pause 700/faceDirection farmer 3/pause 300/faceDirection farmer 0/pause 500/faceDirection secretSanta 1/pause 500/speak secretSanta \"dialogue1\"/pause 300/faceDirection farmer 2/pause 800/showFrame 4/pause 300/playSound cut/specificTemporarySprite secretGiftOpen/pause 400/stopAnimation farmer/faceDirection farmer 2/pause 1000/cutscene addSecretSantaItem/pause 3000/null/faceDirection farmer 3/speak secretSanta \"dialogue2\"/pause 600/eyes 1 -1500/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/warp Emily 29 72/faceDirection Emily 0 true/warp Haley 30 72/warp secretSanta warpX warpY/faceDirection farmer 2/cutscene clearTempSprites/playMusic christmasTheme/viewport 30 67 true/playerControl christmas2",
+        
+                "Christopher": "{{i18n:Christopher.Star}}",
+                "Christopher_y2": "{{i18n:Christopher.Star2}}",
+                "Bence": "{{i18n:Bence.Star}}",
+                "Bence_y2": "{{i18n:Bence.Star2}}",
+                "Mark": "{{i18n:Mark.Star}}",
+                "Mark_y2": "{{i18n:Mark.Star2}}",
+                "Isti": "{{i18n:Isti.Star}}",
+                "Isti_y2": "{{i18n:Isti.Star2}}"
+            }
+        },
+        //YEAR ONE HG NPC festival data
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Christopher 27 55 up",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Bence 23 74 up",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Mark 25 68 left",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        //YEAR TWO HG NPC festival data
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                { //Christopher
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Christopher 20 49 right",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Bence 22 49 left",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Mark 21 48 down",
+                    "Delimiter": "/"
+                }
+            ]
+        },  
+        //YEAR ONE ISTI NPC festival data
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "When": {
+                "HasSeenEvent: anyPlayer|contains=IstiReturn": true
+            },
+            "TextOperations": [
+                { //Isti
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Isti 21 63 right",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        //YEAR TWO ISTI NPC festival data
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "When": {
+                "HasSeenEvent: anyPlayer|contains=IstiReturn": true
+            },
+            "TextOperations": [
+                { //Isti
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Isti 20 50 right",
+                    "Delimiter": "/"
+                }
+            ]
         }
-      },
-      //YEAR ONE HG NPC festival data
-      {
-        "Action": "EditData",
-        "Target": "Data/Festivals/winter25",
-        "TextOperations": [
-          {
-            "Operation": "Append",
-            "Target": [
-              "Entries",
-              "Set-Up_additionalCharacters"
-            ],
-            "Value": "Christopher 27 55 up",
-            "Delimiter": "/"
-          },
-          {
-            "Operation": "Append",
-            "Target": [
-              "Entries",
-              "Set-Up_additionalCharacters"
-            ],
-            "Value": "Bence 23 74 up",
-            "Delimiter": "/"
-          },
-          {
-            "Operation": "Append",
-            "Target": [
-              "Entries",
-              "Set-Up_additionalCharacters"
-            ],
-            "Value": "Mark 25 68 left",
-            "Delimiter": "/"
-          }
-        ]
-      },
-      //YEAR TWO HG NPC festival data
-      {
-        "Action": "EditData",
-        "Target": "Data/Festivals/winter25",
-        "TextOperations": [
-          { //Christopher
-            "Operation": "Append",
-            "Target": [
-              "Entries",
-              "Set-Up_additionalCharacters_y2"
-            ],
-            "Value": "Christopher 20 49 right",
-            "Delimiter": "/"
-          },
-          {
-            "Operation": "Append",
-            "Target": [
-              "Entries",
-              "Set-Up_additionalCharacters_y2"
-            ],
-            "Value": "Bence 22 49 left",
-            "Delimiter": "/"
-          },
-          {
-            "Operation": "Append",
-            "Target": [
-              "Entries",
-              "Set-Up_additionalCharacters_y2"
-            ],
-            "Value": "Mark 21 48 down",
-            "Delimiter": "/"
-          }
-        ]
-      },  
-      //YEAR ONE ISTI NPC festival data
-      {
-        "Action": "EditData",
-        "Target": "Data/Festivals/winter25",
-        "When": {
-          "HasSeenEvent: anyPlayer|contains=IstiReturn": true
-        },
-        "TextOperations": [
-          { //Isti
-            "Operation": "Append",
-            "Target": [
-              "Entries",
-              "Set-Up_additionalCharacters"
-            ],
-            "Value": "Isti 21 63 right",
-            "Delimiter": "/"
-          }
-        ]
-      },
-      //YEAR TWO ISTI NPC festival data
-      {
-        "Action": "EditData",
-        "Target": "Data/Festivals/winter25",
-        "When": {
-          "HasSeenEvent: anyPlayer|contains=IstiReturn": true
-        },
-        "TextOperations": [
-          { //Isti
-            "Operation": "Append",
-            "Target": [
-              "Entries",
-              "Set-Up_additionalCharacters_y2"
-            ],
-            "Value": "Isti 20 50 right",
-            "Delimiter": "/"
-          }
-        ]
-      }
     ]
-  }
+}

@@ -5,51 +5,50 @@
             "Target": "UnlockableBundles/PrizeTicketMachines",
             "Entries": {
                 "Bencedemon.HG_CavePrizeMachine": { //Unique Prize Machine Id 
-                "Cost": {
-                    "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
-                    "Amount": 1
-                },
-                "MenuTexture": "{{InternalAssetKey: Assets/Textures/HG_PrizeTicketMenu.png}}",
-                "GuarenteedRewards": {
-                    "5": { "ItemId": "(O)645", "Amount": 1 }, //Iridium Sprinkler
-                    "10": { "ItemId": "(BC)21", "Amount": 1 }, //Crystalarium
-                    "15": { "ItemId": "(BC)9", "Amount": 1 }, //Lightning Rod
-                    "20": { "ItemId": "(BC)FishSmoker", "Amount": 1 },
-                    "25": { "ItemId": "(BC)DeluxeWormBin", "Amount": 1 },
-                    "30": { "ItemId": "(O)Bencedemon.HG_Lemon_Sapling", "Amount": 1 },
-                },
-                "RandomRewards": {
-                    "(O)688": 10, //Warp Totem: Farm
-                    "(O)689": 8, //Warp Totem: Mountains
-                    "(O)690": 7, //Warp Totem: Beach
-                    "(O)621": 2, //Quality Sprinkler
-                    "(O)709": 30, //Hardwood
-                    "(O)388": 250, //Wood
-                    "(O)390": 250, //Stone
-                    "(O)885": 20, //Fiber Seeds
-                    "(O)749": 15, //Omni Geode
-                    "(O)334": 10, //Copper Bar
-                    "(O)335": 5, //Iron Bar
-                    "(O)336": 2, //Gold Bar
-                    "(O)337": 1, //Iridium Bar
-                    "(O)338": 10, //Refined Quartz
-                    "(O)368": 30, //Basic Fertilizer
-                    "(O)369": 20, //Quality Fertilizer
-                    "(O)919": 10, //Delxue Fertilizer
-                    "(O)465": 30, //Speed-Gro
-                    "(O)466": 20, //Deluxe Speed-Gro
-                    "(O)918": 10, //Hyper Speed-Gro
-                    "(O)770": 20, //Mixed Seeds
-                    "(O)685": 30, //Bait
-                    "(O)DeluxeBait": 10, //DeluxeBait
-                    "(O)ChallengeBait": 5, //ChallengeBait
-                    "(O)286": 15, //Cherry Bomb
-                    "(O)287": 10, //Bomb
-                    "(O)288": 5, //Mega Bomb
-                }
+                    "Cost": {
+                        "ItemId": "(O)Bencedemon.HG_HelloGuysToken",
+                        "Amount": 1
+                    },
+                    "MenuTexture": "{{InternalAssetKey: Assets/Minigames/HG_PrizeTicketMenu.png}}",
+                    "GuarenteedRewards": {
+                        "5": { "ItemId": "(O)645", "Amount": 1 }, //Iridium Sprinkler
+                        "10": { "ItemId": "(BC)21", "Amount": 1 }, //Crystalarium
+                        "15": { "ItemId": "(BC)9", "Amount": 1 }, //Lightning Rod
+                        "20": { "ItemId": "(BC)FishSmoker", "Amount": 1 },
+                        "25": { "ItemId": "(BC)DeluxeWormBin", "Amount": 1 },
+                        "30": { "ItemId": "(O)Bencedemon.HG_Lemon_Sapling", "Amount": 1 }
+                    },
+                    "RandomRewards": {
+                        "(O)688": 10, //Warp Totem: Farm
+                        "(O)689": 8, //Warp Totem: Mountains
+                        "(O)690": 7, //Warp Totem: Beach
+                        "(O)621": 2, //Quality Sprinkler
+                        "(O)709": 30, //Hardwood
+                        "(O)388": 250, //Wood
+                        "(O)390": 250, //Stone
+                        "(O)885": 20, //Fiber Seeds
+                        "(O)749": 15, //Omni Geode
+                        "(O)334": 10, //Copper Bar
+                        "(O)335": 5, //Iron Bar
+                        "(O)336": 2, //Gold Bar
+                        "(O)337": 1, //Iridium Bar
+                        "(O)338": 10, //Refined Quartz
+                        "(O)368": 30, //Basic Fertilizer
+                        "(O)369": 20, //Quality Fertilizer
+                        "(O)919": 10, //Delxue Fertilizer
+                        "(O)465": 30, //Speed-Gro
+                        "(O)466": 20, //Deluxe Speed-Gro
+                        "(O)918": 10, //Hyper Speed-Gro
+                        "(O)770": 20, //Mixed Seeds
+                        "(O)685": 30, //Bait
+                        "(O)DeluxeBait": 10, //DeluxeBait
+                        "(O)ChallengeBait": 5, //ChallengeBait
+                        "(O)286": 15, //Cherry Bomb
+                        "(O)287": 10, //Bomb
+                        "(O)288": 5 //Mega Bomb
+                    }
                 }
             }
-            }
-
+        }
     ]
 }

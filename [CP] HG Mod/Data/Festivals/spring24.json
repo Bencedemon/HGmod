@@ -1,198 +1,198 @@
 {
     "Changes": [
-      {
-        "Action": "EditData",
-        "Target": "Data/Festivals/spring24",
-        "Entries": {
-          "set-up": "event1/22 22/farmer 76 17 1/changeToTemporaryMap Forest-FlowerFestival/loadActors Set-Up/advancedMove Bence true 0 -2 -13 0 0 -5 -4 0 2 8000 4 0 0 5 13 0 0 2 2 8000/advancedMove Sophia true 4 8000 -2 0 4 5000 2 0/advancedMove Vincent true -6 0 0 -1 6 0 0 1/advancedMove Jas true 1 0 0 1 -6 0 0 -1 5 0/advancedMove Pam true 2 25000 0 -3 2 0 4 25000 -2 0 0 3/advancedMove Haley true 0 1 2 3000 2 0 0 -1 -2 0 3 500 4 500 1 500 2 500 2 0 1 500 2 500 3 500 4 500 0 2 0 -2 -2 0/advancedMove Caroline true 7 0 0 1 1 18000 0 -1 -7 0 3 18000/advancedMove Willy true 2 7000 4 0 2 8000 -4 0/playerControl flowerFestival",
-                
-          "Christopher": "{{i18n:Christopher.Flower}}",
-          "Christopher_y2": "{{i18n:Christopher.Flower2}}",
-          "Bence": "{{i18n:Bence.Flower}}",
-          "Bence_y2": "{{i18n:Bence.Flower2}}",
-          "Mark": "{{i18n:Mark.Flower}}",
-          "Mark_y2": "{{i18n:Mark.Flower2}}",
-          "Isti": "{{i18n:Isti.Flower}}",
-          "Isti_y2": "{{i18n:Isti.Flower2}}",
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "Entries": {
+                "set-up": "event1/22 22/farmer 76 17 1/changeToTemporaryMap Forest-FlowerFestival/loadActors Set-Up/advancedMove Bence true 0 -2 -13 0 0 -5 -4 0 2 8000 4 0 0 5 13 0 0 2 2 8000/advancedMove Sophia true 4 8000 -2 0 4 5000 2 0/advancedMove Vincent true -6 0 0 -1 6 0 0 1/advancedMove Jas true 1 0 0 1 -6 0 0 -1 5 0/advancedMove Pam true 2 25000 0 -3 2 0 4 25000 -2 0 0 3/advancedMove Haley true 0 1 2 3000 2 0 0 -1 -2 0 3 500 4 500 1 500 2 500 2 0 1 500 2 500 3 500 4 500 0 2 0 -2 -2 0/advancedMove Caroline true 7 0 0 1 1 18000 0 -1 -7 0 3 18000/advancedMove Willy true 2 7000 4 0 2 8000 -4 0/playerControl flowerFestival",
+                        
+                "Christopher": "{{i18n:Christopher.Flower}}",
+                "Christopher_y2": "{{i18n:Christopher.Flower2}}",
+                "Bence": "{{i18n:Bence.Flower}}",
+                "Bence_y2": "{{i18n:Bence.Flower2}}",
+                "Mark": "{{i18n:Mark.Flower}}",
+                "Mark_y2": "{{i18n:Mark.Flower2}}",
+                "Isti": "{{i18n:Isti.Flower}}",
+                "Isti_y2": "{{i18n:Isti.Flower2}}"
+            }
+        },
+        //YEAR ONE HG NPC flower festival data
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                { //Christopher
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Christopher 22 41 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Christopher 19 32 up",
+                    "Delimiter": "/"
+                },
+                { //Bence
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Bence 24 41 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Bence 23 27 left",
+                    "Delimiter": "/"
+                },
+                { //Mark
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Mark 23 41 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Mark 18 32 up",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        //YEAR TWO HG NPC flower festival data
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                { //Christopher
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Christopher 19 41 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters_y2"
+                    ],
+                    "Value": "Christopher 18 32 up",
+                    "Delimiter": "/"
+                },
+                { //Bence
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Bence 6 41 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters_y2"
+                    ],
+                    "Value": "Bence 19 32 up",
+                    "Delimiter": "/"
+                },
+                { //Mark
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Mark 5 41 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters_y2"
+                    ],
+                    "Value": "Mark 23 23 left",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        //YEAR ONE ISTI NPC flower festival data
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "When": {
+                "HasSeenEvent: anyPlayer|contains=IstiReturn": true
+            },
+            "TextOperations": [
+                { //Isti
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Isti 6 41 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Isti 21 32 up",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        //YEAR TWO ISTI NPC flower festival data
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "When": {
+                "HasSeenEvent: anyPlayer|contains=IstiReturn": true
+            },
+            "TextOperations": [
+                { //Isti
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Isti 13 34 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters_y2"
+                    ],
+                    "Value": "Isti 22 21 down",
+                    "Delimiter": "/"
+                }
+            ]
         }
-      },
-      //YEAR ONE HG NPC flower festival data
-      {
-        "Action": "EditData",
-        "Target": "Data/Festivals/spring24",
-        "TextOperations": [
-          { //Christopher
-            "Operation": "Append",
-            "Target": [
-              "Entries",
-              "Set-Up_additionalCharacters"
-            ],
-            "Value": "Christopher 22 41 down",
-            "Delimiter": "/"
-          },
-          {
-            "Operation": "Append",
-            "Target": [
-              "Entries",
-              "MainEvent_additionalCharacters"
-            ],
-            "Value": "Christopher 19 32 up",
-            "Delimiter": "/"
-          },
-          { //Bence
-            "Operation": "Append",
-            "Target": [
-              "Entries",
-              "Set-Up_additionalCharacters"
-            ],
-            "Value": "Bence 24 41 down",
-            "Delimiter": "/"
-          },
-          {
-            "Operation": "Append",
-            "Target": [
-              "Entries",
-              "MainEvent_additionalCharacters"
-            ],
-            "Value": "Bence 23 27 left",
-            "Delimiter": "/"
-          },
-          { //Mark
-            "Operation": "Append",
-            "Target": [
-              "Entries",
-              "Set-Up_additionalCharacters"
-            ],
-            "Value": "Mark 23 41 down",
-            "Delimiter": "/"
-          },
-          {
-            "Operation": "Append",
-            "Target": [
-              "Entries",
-              "MainEvent_additionalCharacters"
-            ],
-            "Value": "Mark 18 32 up",
-            "Delimiter": "/"
-          }
-        ]
-      },
-      //YEAR TWO HG NPC flower festival data
-      {
-        "Action": "EditData",
-        "Target": "Data/Festivals/spring24",
-        "TextOperations": [
-          { //Christopher
-            "Operation": "Append",
-            "Target": [
-              "Entries",
-              "Set-Up_additionalCharacters_y2"
-            ],
-            "Value": "Christopher 19 41 down",
-            "Delimiter": "/"
-          },
-          {
-            "Operation": "Append",
-            "Target": [
-              "Entries",
-              "MainEvent_additionalCharacters_y2"
-            ],
-            "Value": "Christopher 18 32 up",
-            "Delimiter": "/"
-          },
-          { //Bence
-            "Operation": "Append",
-            "Target": [
-              "Entries",
-              "Set-Up_additionalCharacters_y2"
-            ],
-            "Value": "Bence 6 41 down",
-            "Delimiter": "/"
-          },
-          {
-            "Operation": "Append",
-            "Target": [
-              "Entries",
-              "MainEvent_additionalCharacters_y2"
-            ],
-            "Value": "Bence 19 32 up",
-            "Delimiter": "/"
-          },
-          { //Mark
-            "Operation": "Append",
-            "Target": [
-              "Entries",
-              "Set-Up_additionalCharacters_y2"
-            ],
-            "Value": "Mark 5 41 down",
-            "Delimiter": "/"
-          },
-          {
-            "Operation": "Append",
-            "Target": [
-              "Entries",
-              "MainEvent_additionalCharacters_y2"
-            ],
-            "Value": "Mark 23 23 left",
-            "Delimiter": "/"
-          }
-        ]
-      },
-      //YEAR ONE ISTI NPC flower festival data
-      {
-        "Action": "EditData",
-        "Target": "Data/Festivals/spring24",
-        "When": {
-          "HasSeenEvent: anyPlayer|contains=IstiReturn": true
-        },
-        "TextOperations": [
-          { //Isti
-            "Operation": "Append",
-            "Target": [
-              "Entries",
-              "Set-Up_additionalCharacters"
-            ],
-            "Value": "Isti 6 41 down",
-            "Delimiter": "/"
-          },
-          {
-            "Operation": "Append",
-            "Target": [
-              "Entries",
-              "MainEvent_additionalCharacters"
-            ],
-            "Value": "Isti 21 32 up",
-            "Delimiter": "/"
-          }
-        ]
-      },
-      //YEAR TWO ISTI NPC flower festival data
-      {
-        "Action": "EditData",
-        "Target": "Data/Festivals/spring24",
-        "When": {
-          "HasSeenEvent: anyPlayer|contains=IstiReturn": true
-        },
-        "TextOperations": [
-          { //Isti
-            "Operation": "Append",
-            "Target": [
-              "Entries",
-              "Set-Up_additionalCharacters_y2"
-            ],
-            "Value": "Isti 13 34 down",
-            "Delimiter": "/"
-          },
-          {
-            "Operation": "Append",
-            "Target": [
-              "Entries",
-              "MainEvent_additionalCharacters_y2"
-            ],
-            "Value": "Isti 22 21 down",
-            "Delimiter": "/"
-          }
-        ]
-      }
     ]
-  }
+}

@@ -25,7 +25,7 @@
 
                 "IstiGuitar": "{{i18n:Mail.Isti}}",
 
-                "IstiReturnReminder": "{{i18n:Mail.IstiReturnReminder}}",
+                "IstiReturnReminder": "{{i18n:Mail.IstiReturnReminder}}"
             }
         }
     ]

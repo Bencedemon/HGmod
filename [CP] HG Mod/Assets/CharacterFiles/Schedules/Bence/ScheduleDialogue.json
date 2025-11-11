@@ -1,21 +1,20 @@
 {
     "Changes": [
-      {
-        "Action": "EditData",
-        "Target": "Strings/schedules/Bence",
-        "Entries": 
         {
-            "NightMarket_Bence": "{{i18n:Bence.NightMarket.01}}",
-            "DesertFestival_Bence_marriage": "{{i18n:Bence.DesertFestival_marriage.01}}",
-            "DesertFestival_Bence": "{{i18n:Bence.DesertFestival.01}}",
-            "Hospital.01": "{{i18n:Bence.Hospital.01}}",
-            "Hospital.02": "{{i18n:Bence.Hospital.02}}",
-            "SeedShop.01": "{{i18n:Bence.SeedShop.01}}",
-            "SeedShop.02": "{{i18n:Bence.SeedShop.02}}",
-            "SeedShop.03": "{{i18n:Bence.SeedShop.03}}",
-            "marriage_Sat.01": "{{i18n:Bence.marriage_Sat.01}}",
-            "marriage_Sat.02": "{{i18n:Bence.marriage_Sat.02}}"
-        },
-      },
+            "Action": "EditData",
+            "Target": "Strings/Schedules/Bence",
+            "Entries": {
+                "NightMarket_Bence": "{{i18n:Bence.NightMarket.01}}",
+                "DesertFestival_Bence_marriage": "{{i18n:Bence.DesertFestival_marriage.01}}",
+                "DesertFestival_Bence": "{{i18n:Bence.DesertFestival.01}}",
+                "Hospital.01": "{{i18n:Bence.Hospital.01}}",
+                "Hospital.02": "{{i18n:Bence.Hospital.02}}",
+                "SeedShop.01": "{{i18n:Bence.SeedShop.01}}",
+                "SeedShop.02": "{{i18n:Bence.SeedShop.02}}",
+                "SeedShop.03": "{{i18n:Bence.SeedShop.03}}",
+                "marriage_Sat.01": "{{i18n:Bence.marriage_Sat.01}}",
+                "marriage_Sat.02": "{{i18n:Bence.marriage_Sat.02}}"
+            }
+        }
     ]
 }

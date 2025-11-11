@@ -1,26 +1,5 @@
 {
     "Changes": [
-		{
-            "Action": "Load",
-            "Target": "Mods/Bencedemon.HG/HG_Furniture_TileSheet",
-            "FromFile": "assets/Textures/HG_Furniture_TileSheet.png"
-        },
-		{
-            "Action": "Load",
-            "Target": "Mods/Bencedemon.HG/HG_Portraits",
-            "When": {
-                "MarkLegacyLook": false
-            },
-            "FromFile": "assets/Textures/HG_Portraits.png"
-        },
-		{// Legacy
-            "Action": "Load",
-            "Target": "Mods/Bencedemon.HG/HG_Portraits",
-            "When": {
-                "MarkLegacyLook": true
-            },
-            "FromFile": "assets/Textures/HG_Portraits_Legacy.png"
-        },
         {
             "Action": "EditData",
             "Target": "Data/Furniture",
@@ -68,7 +47,7 @@
                 "Bencedemon.HG_ChristopherPortrait": "ChristopherPortrait/painting/2 2/2 2/1/999/-1/{{i18n:Furniture.ChristopherPortrait}}/0/Mods\\Bencedemon.HG\\HG_Portraits/true",
                 "Bencedemon.HG_BencePortrait": "BencePortrait/painting/2 2/2 2/1/999/-1/{{i18n:Furniture.BencePortrait}}/2/Mods\\Bencedemon.HG\\HG_Portraits/true",
                 "Bencedemon.HG_MarkPortrait": "MarkPortrait/painting/2 2/2 2/1/999/-1/{{i18n:Furniture.MarkPortrait}}/4/Mods\\Bencedemon.HG\\HG_Portraits/true",
-                "Bencedemon.HG_IstiPortrait": "IstiPortrait/painting/2 2/2 2/1/999/-1/{{i18n:Furniture.IstiPortrait}}/6/Mods\\Bencedemon.HG\\HG_Portraits/true",
+                "Bencedemon.HG_IstiPortrait": "IstiPortrait/painting/2 2/2 2/1/999/-1/{{i18n:Furniture.IstiPortrait}}/6/Mods\\Bencedemon.HG\\HG_Portraits/true"
             }
         }
     ]

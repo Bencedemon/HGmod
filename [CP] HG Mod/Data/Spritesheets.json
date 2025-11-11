@@ -24,7 +24,59 @@
             "Action": "EditImage",
             "Target": "TileSheets/Projectiles",
             "FromFile": "Assets/Textures/Projectiles.png",
-            "ToArea": { "X": 0, "Y": 48, "Width": 64, "Height": 16 },
+            "ToArea": { "X": 0, "Y": 48, "Width": 64, "Height": 16 }
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/Bencedemon.HG/HG_Wallpapers",
+            "FromFile": "Assets/Textures/HG_Wallpapers.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/Bencedemon.HG/HG_Floorings",
+            "FromFile": "Assets/Textures/HG_Floorings.png"
+        },
+		{
+            "Action": "Load",
+            "Target": "Mods/Bencedemon.HG/HG_Furniture_TileSheet",
+            "FromFile": "Assets/Textures/HG_Furniture_TileSheet.png"
+        },
+		{
+            "Action": "Load",
+            "Target": "Mods/Bencedemon.HG/HG_Portraits",
+            "When": {
+                "MarkLegacyLook": false
+            },
+            "FromFile": "Assets/Textures/HG_Portraits.png"
+        },
+		{// Legacy
+            "Action": "Load",
+            "Target": "Mods/Bencedemon.HG/HG_Portraits",
+            "When": {
+                "MarkLegacyLook": true
+            },
+            "FromFile": "Assets/Textures/HG_Portraits_Legacy.png"
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/Hats",
+            "When": {
+                "MarkLegacyLook": false
+            },
+            "FromFile": "Assets/Textures/HG_Hats.png"
+        },
+        {//Hats Legacy
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Bencedemon.HG/Hats",
+            "When": {
+                "MarkLegacyLook": true
+            },
+            "FromFile": "Assets/Textures/HG_Hats_Legacy.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/Bencedemon.HG/Shirts",
+            "FromFile": "Assets/Textures/HG_Shirts.png"
         }
     ]
 }

@@ -1,0 +1,11 @@
+{
+	"Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Strings/Objects",
+            "Entries": {
+				"PalinkaOutput": "{{i18n:Palinka.Flavored}}"
+            }
+        }
+    ]
+}

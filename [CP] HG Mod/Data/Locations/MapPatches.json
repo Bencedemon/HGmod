@@ -3,103 +3,247 @@
           {
                "Action": "EditMap",
                "Target": "Maps/Beach",
-               "FromFile": "assets/Maps/MapPatches/ChristopherHouse.tmx",
+               "FromFile": "Assets/Maps/MapPatches/ChristopherHouse.tmx",
                "ToArea": {
                     "X": 2,
                     "Y": 17,
                     "Width": 9,
                     "Height": 9
                },
-               "MapProperties": {
-                    "Light": "3 21 4 44 31 4 90 35 4 44 32 6 90 36 6",
-                    "DayTiles": "AlwaysFront 3 21 369 Front 44 31 369 Front 90 35 369",
-                    "NightTiles": "AlwaysFront 3 21 368 Front 44 31 368 Front 90 35 368"
-               }
+               "TextOperations": [
+                    {
+                         "Operation": "Append",
+                         "Target": [
+                              "MapProperties",
+                              "Light"
+                         ],
+                         "Value": "3 21 4",
+                         "Delimiter": " "
+                    },
+                    {
+                         "Operation": "Append",
+                         "Target": [
+                              "MapProperties",
+                              "DayTiles"
+                         ],
+                         "Value": "AlwaysFront 3 21 369",
+                         "Delimiter": " "
+                    },
+                    {
+                         "Operation": "Append",
+                         "Target": [
+                              "MapProperties",
+                              "NightTiles"
+                         ],
+                         "Value": "AlwaysFront 3 21 368",
+                         "Delimiter": " "
+                    }
+               ]
           },
           {
                "Action": "EditMap",
                "Target": "Maps/Beach-NightMarket",
-               "FromFile": "assets/Maps/MapPatches/ChristopherHouse.tmx",
+               "FromFile": "Assets/Maps/MapPatches/ChristopherHouse.tmx",
                "ToArea": {
                     "X": 2,
                     "Y": 17,
                     "Width": 9,
                     "Height": 9
                },
-               "MapProperties": {
-                    "Light": "3 21 4 44 31 4 90 35 4 44 32 6 90 36 6",
-                    "DayTiles": "AlwaysFront 3 21 369 Front 44 31 369 Front 90 35 369",
-                    "NightTiles": "AlwaysFront 3 21 368 Front 44 31 368 Front 90 35 368"
-               }
+               "TextOperations": [
+                    {
+                         "Operation": "Append",
+                         "Target": [
+                              "MapProperties",
+                              "Light"
+                         ],
+                         "Value": "3 21 4",
+                         "Delimiter": " "
+                    },
+                    {
+                         "Operation": "Append",
+                         "Target": [
+                              "MapProperties",
+                              "DayTiles"
+                         ],
+                         "Value": "AlwaysFront 3 21 369",
+                         "Delimiter": " "
+                    },
+                    {
+                         "Operation": "Append",
+                         "Target": [
+                              "MapProperties",
+                              "NightTiles"
+                         ],
+                         "Value": "AlwaysFront 3 21 368",
+                         "Delimiter": " "
+                    }
+               ]
           },
           {
                "Action": "EditMap",
                "Target": "Maps/Beach-Jellies",
-               "FromFile": "assets/Maps/MapPatches/ChristopherHouseJellies.tmx",
+               "FromFile": "Assets/Maps/MapPatches/ChristopherHouseJellies.tmx",
                "ToArea": {
                     "X": 1,
                     "Y": 17,
                     "Width": 10,
                     "Height": 10
                },
-               "MapProperties": {
-                    "Light": "3 21 4 44 31 4 90 35 4 44 32 6 90 36 6",
-                    "DayTiles": "AlwaysFront 3 21 369 Front 44 31 369 Front 90 35 369",
-                    "NightTiles": "AlwaysFront 3 21 368 Front 44 31 368 Front 90 35 368"
-               }
+               "TextOperations": [
+                    {
+                         "Operation": "Append",
+                         "Target": [
+                              "MapProperties",
+                              "Light"
+                         ],
+                         "Value": "3 21 4",
+                         "Delimiter": " "
+                    },
+                    {
+                         "Operation": "Append",
+                         "Target": [
+                              "MapProperties",
+                              "DayTiles"
+                         ],
+                         "Value": "AlwaysFront 3 21 369",
+                         "Delimiter": " "
+                    },
+                    {
+                         "Operation": "Append",
+                         "Target": [
+                              "MapProperties",
+                              "NightTiles"
+                         ],
+                         "Value": "AlwaysFront 3 21 368",
+                         "Delimiter": " "
+                    }
+               ]
           },
           {
                "Action": "EditMap",
                "Target": "Maps/Beach-Jellies2",
-               "FromFile": "assets/Maps/MapPatches/ChristopherHouseJellies.tmx",
+               "FromFile": "Assets/Maps/MapPatches/ChristopherHouseJellies.tmx",
                "ToArea": {
                     "X": 1,
                     "Y": 17,
                     "Width": 10,
                     "Height": 10
                },
-               "MapProperties": {
-                    "Light": "3 21 4 44 31 4 90 35 4 44 32 6 90 36 6",
-                    "DayTiles": "AlwaysFront 3 21 369 Front 44 31 369 Front 90 35 369",
-                    "NightTiles": "AlwaysFront 3 21 368 Front 44 31 368 Front 90 35 368"
-               }
+               "TextOperations": [
+                    {
+                         "Operation": "Append",
+                         "Target": [
+                              "MapProperties",
+                              "Light"
+                         ],
+                         "Value": "3 21 4",
+                         "Delimiter": " "
+                    },
+                    {
+                         "Operation": "Append",
+                         "Target": [
+                              "MapProperties",
+                              "DayTiles"
+                         ],
+                         "Value": "AlwaysFront 3 21 369",
+                         "Delimiter": " "
+                    },
+                    {
+                         "Operation": "Append",
+                         "Target": [
+                              "MapProperties",
+                              "NightTiles"
+                         ],
+                         "Value": "AlwaysFront 3 21 368",
+                         "Delimiter": " "
+                    }
+               ]
           },
           {
                "Action": "EditMap",
                "Target": "Maps/Beach-Luau",
-               "FromFile": "assets/Maps/MapPatches/ChristopherHouse.tmx",
+               "FromFile": "Assets/Maps/MapPatches/ChristopherHouse.tmx",
                "ToArea": {
                     "X": 2,
                     "Y": 17,
                     "Width": 9,
                     "Height": 9
                },
-               "MapProperties": {
-                    "Light": "3 21 4 44 31 4 90 35 4 44 32 6 90 36 6",
-                    "DayTiles": "AlwaysFront 3 21 369 Front 44 31 369 Front 90 35 369",
-                    "NightTiles": "AlwaysFront 3 21 368 Front 44 31 368 Front 90 35 368"
-               }
+               "TextOperations": [
+                    {
+                         "Operation": "Append",
+                         "Target": [
+                              "MapProperties",
+                              "Light"
+                         ],
+                         "Value": "3 21 4",
+                         "Delimiter": " "
+                    },
+                    {
+                         "Operation": "Append",
+                         "Target": [
+                              "MapProperties",
+                              "DayTiles"
+                         ],
+                         "Value": "AlwaysFront 3 21 369",
+                         "Delimiter": " "
+                    },
+                    {
+                         "Operation": "Append",
+                         "Target": [
+                              "MapProperties",
+                              "NightTiles"
+                         ],
+                         "Value": "AlwaysFront 3 21 368",
+                         "Delimiter": " "
+                    }
+               ]
           },
           {
                "Action": "EditMap",
                "Target": "Maps/Beach-Luau2",
-               "FromFile": "assets/Maps/MapPatches/ChristopherHouse.tmx",
+               "FromFile": "Assets/Maps/MapPatches/ChristopherHouse.tmx",
                "ToArea": {
                     "X": 2,
                     "Y": 17,
                     "Width": 9,
                     "Height": 9
                },
-               "MapProperties": {
-                    "Light": "3 21 4 44 31 4 90 35 4 44 32 6 90 36 6",
-                    "DayTiles": "AlwaysFront 3 21 369 Front 44 31 369 Front 90 35 369",
-                    "NightTiles": "AlwaysFront 3 21 368 Front 44 31 368 Front 90 35 368"
-               }
+               "TextOperations": [
+                    {
+                         "Operation": "Append",
+                         "Target": [
+                              "MapProperties",
+                              "Light"
+                         ],
+                         "Value": "3 21 4",
+                         "Delimiter": " "
+                    },
+                    {
+                         "Operation": "Append",
+                         "Target": [
+                              "MapProperties",
+                              "DayTiles"
+                         ],
+                         "Value": "AlwaysFront 3 21 369",
+                         "Delimiter": " "
+                    },
+                    {
+                         "Operation": "Append",
+                         "Target": [
+                              "MapProperties",
+                              "NightTiles"
+                         ],
+                         "Value": "AlwaysFront 3 21 368",
+                         "Delimiter": " "
+                    }
+               ]
           },
           {
                "Action": "EditMap",
                "Target": "Maps/Forest",
-               "FromFile": "assets/Maps/MapPatches/BenceCabin.tmx",
+               "FromFile": "Assets/Maps/MapPatches/BenceCabin.tmx",
                "ToArea": {
                     "X": 7,
                     "Y": 58,
@@ -115,7 +259,8 @@
                          ],
                          "Value": "30 63 4",
                          "Delimiter": " "
-                    },{
+                    },
+                    {
                          "Operation": "Append",
                          "Target": [
                               "MapProperties",
@@ -123,7 +268,8 @@
                          ],
                          "Value": "Front 30 63 80",
                          "Delimiter": " "
-                    },{
+                    },
+                    {
                          "Operation": "Append",
                          "Target": [
                               "MapProperties",
@@ -131,18 +277,13 @@
                          ],
                          "Value": "Front 30 63 83",
                          "Delimiter": " "
-                    },
+                    }
                ]
-               /*"MapProperties": {
-                    "Light": "30 63 4 117 21 4 104 21 4 90 14 4 87 6 4 61 65 4 9 19 4",
-                    "DayTiles": "Buildings 30 63 80 AlwaysFront 104 19 907 AlwaysFront 117 19 907",
-                    "NightTiles": "Buildings 30 63 83 AlwaysFront 104 19 908 AlwaysFront 117 19 908"
-               }*/
           },
           { //Leaf patches Bence
                "Action": "EditMap",
                "Target": "Maps/Forest",
-               "FromFile": "assets/Maps/MapPatches/BenceCabin_Leaves.tbin",
+               "FromFile": "Assets/Maps/MapPatches/BenceCabin_Leaves.tbin",
                "When": {
                     "Season": "Fall",
                     "SeasonalEdits": true
@@ -162,21 +303,18 @@
                }
           },
           {
-              "Action": "EditMap",
-              "Target": "Maps/Mountain",
-              "MapProperties": {
-                    "Warp": "29 6 Tent 2 5 14 41 Town 81 0 15 41 Town 81 0 16 41 Town 81 0 -1 13 Custom_MarkFarm 44 22 -1 12 Custom_MarkFarm 44 22 -1 14 Custom_MarkFarm 44 22 9 -1 Railroad 29 59 10 -1 Railroad 29 59 85 41 Town 98 1 57 41 Town 90 1 78 -1 Custom_AdventurerSummit 32 41 79 -1 Custom_AdventurerSummit 32 41 80 -1 Custom_AdventurerSummit 32 41"
-              }
-               /*"AddWarps": [
+               "Action": "EditMap",
+               "Target": "Maps/Mountain",
+               "AddWarps": [
                     "-1 13 Custom_MarkFarm 44 22",
                     "-1 12 Custom_MarkFarm 44 22",
                     "-1 14 Custom_MarkFarm 44 22"
-              ]*/
+               ]
           },
           {
                "Action": "EditMap",
                "Target": "Maps/Town",
-               "FromFile": "assets/Maps/MapPatches/Langosos.tmx",
+               "FromFile": "Assets/Maps/MapPatches/LangosVendor.tmx",
                "ToArea": {
                     "X": 57,
                     "Y": 26,
@@ -192,7 +330,7 @@
           { //Christopher Furnace
                "Action": "EditMap",
                "Target": "Maps/Custom_ChristopherHouseInterior",
-               "FromFile": "assets/Maps/MapPatches/ChristopherHouseInterior_Furnace.tmx",
+               "FromFile": "Assets/Maps/MapPatches/ChristopherHouseInterior_Furnace.tmx",
                "ToArea": {
                     "X": 1,
                     "Y": 5,
@@ -211,7 +349,7 @@
           { //Christopher Furnace NON Winter
                "Action": "EditMap",
                "Target": "Maps/Custom_ChristopherHouseInterior",
-               "FromFile": "assets/Maps/MapPatches/ChristopherHouseInterior_Furnace.tmx",
+               "FromFile": "Assets/Maps/MapPatches/ChristopherHouseInterior_Furnace.tmx",
                "ToArea": {
                     "X": 1,
                     "Y": 5,
@@ -230,7 +368,7 @@
           { //Bence Desert
                "Action": "EditMap",
                "Target": "Maps/Desert-Festival",
-               "FromFile": "assets/Maps/MapPatches/Desert_BenceShop.tmx",
+               "FromFile": "Assets/Maps/MapPatches/Desert_BenceShop.tmx",
                "ToArea": {
                     "X": 33,
                     "Y": 48,
@@ -241,7 +379,7 @@
           { //Chris Bike
                "Action": "EditMap",
                "Target": "Maps/Beach",
-               "FromFile": "assets/Maps/MapPatches/ChrisBike.tmx",
+               "FromFile": "Assets/Maps/MapPatches/ChrisBike.tmx",
                "ToArea": {
                     "X": 3,
                     "Y": 20,
@@ -253,29 +391,10 @@
                     "Season": "Summer"
                }
           },
-          /*{ //Chris heart event Bikes
-               "Action": "EditMap",
-               "Target": "Maps/BusStop",
-               "FromFile": "Assets/Maps/MapPatches/Bikes.tmx",
-               "ToArea": {
-                    "X": 23,
-                    "Y": 12,
-                    "Width": 5,
-                    "Height": 3
-               },
-               "Update": "OnLocationChange",
-               "When": {
-                    "HasSeenEvent: currentPlayer|contains=2001006": false,
-                    "Time": "{{Range: 1130, 1330}}",
-                    "Weather |contains=Rain, Storm": false,
-                    "Season": "Spring,Summer,Fall",
-                    "HasFlag": "BikeWChris"
-               }
-          },*/
           { //Bence Furnace
                "Action": "EditMap",
                "Target": "Maps/Custom_BenceCabinInterior",
-               "FromFile": "assets/Maps/MapPatches/BenceCabinInterior_Furnace.tmx",
+               "FromFile": "Assets/Maps/MapPatches/BenceCabinInterior_Furnace.tmx",
                "ToArea": {
                     "X": 1,
                     "Y": 10,
@@ -293,7 +412,7 @@
           { //Bence Jukebox
                "Action": "EditMap",
                "Target": "Maps/Custom_BenceCabinInterior",
-               "FromFile": "assets/Maps/MapPatches/BenceJukebox.tmx",
+               "FromFile": "Assets/Maps/MapPatches/BenceJukebox.tmx",
                "ToArea": {
                     "X": 12,
                     "Y": 2,
@@ -308,7 +427,7 @@
           { //Bence axe
                "Action": "EditMap",
                "Target": "Maps/Forest",
-               "FromFile": "assets/Maps/MapPatches/BenceAxe.tmx",
+               "FromFile": "Assets/Maps/MapPatches/BenceAxe.tmx",
                "ToArea": {
                     "X": 13,
                     "Y": 66,
@@ -324,7 +443,7 @@
           { //Bence axe2
                "Action": "EditMap",
                "Target": "Maps/Forest",
-               "FromFile": "assets/Maps/MapPatches/BenceAxe2.tmx",
+               "FromFile": "Assets/Maps/MapPatches/BenceAxe2.tmx",
                "ToArea": {
                     "X": 16,
                     "Y": 65,
@@ -340,7 +459,7 @@
           { //Bence axe3 Sunday
                "Action": "EditMap",
                "Target": "Maps/Custom_BenceCabinInterior",
-               "FromFile": "assets/Maps/MapPatches/BenceAxe3.tmx",
+               "FromFile": "Assets/Maps/MapPatches/BenceAxe3.tmx",
                "ToArea": {
                     "X": 8,
                     "Y": 4,
@@ -356,7 +475,7 @@
           { //Bence axe3 Rain
                "Action": "EditMap",
                "Target": "Maps/Custom_BenceCabinInterior",
-               "FromFile": "assets/Maps/MapPatches/BenceAxe3.tmx",
+               "FromFile": "Assets/Maps/MapPatches/BenceAxe3.tmx",
                "ToArea": {
                     "X": 8,
                     "Y": 4,
@@ -371,7 +490,7 @@
           { //Bence axe3 Winter
                "Action": "EditMap",
                "Target": "Maps/Custom_BenceCabinInterior",
-               "FromFile": "assets/Maps/MapPatches/BenceAxe3.tmx",
+               "FromFile": "Assets/Maps/MapPatches/BenceAxe3.tmx",
                "ToArea": {
                     "X": 8,
                     "Y": 4,
@@ -385,7 +504,7 @@
           { //Mark Shortcut
                "Action": "EditMap",
                "Target": "Maps/Town",
-               "FromFile": "assets/Maps/MapPatches/Shortcut_MarkFarm.tmx",
+               "FromFile": "Assets/Maps/MapPatches/Shortcut_MarkFarm.tmx",
                "ToArea": {
                     "X": 4,
                     "Y": 0,
@@ -405,21 +524,13 @@
                          ],
                          "Value": "7 -1 Custom_MarkFarm 42 34 6 -1 Custom_MarkFarm 42 34 8 -1 Custom_MarkFarm 42 34",
                          "Delimiter": " "
-                    },
+                    }
                ]
-              /*"MapProperties": {
-                    "Warp": "-1 54 BusStop 42 23 -1 55 BusStop 42 24 81 -1 Mountain 15 40 79 -1 Mountain 15 40 80 -1 Mountain 15 40 82 -1 Mountain 15 40 83 -1 Mountain 15 40 7 -1 Custom_MarkFarm 42 34 6 -1 Custom_MarkFarm 42 34 8 -1 Custom_MarkFarm 42 34 -1 90 Forest 118 25 -1 89 Forest 118 25 -1 91 Forest 118 25 92 45 MovieTheater 13 4 119 72 Custom_ShearwaterBridge 0 20 119 73 Custom_ShearwaterBridge 0 20 119 74 Custom_ShearwaterBridge 0 20 119 75 Custom_ShearwaterBridge 0 20 119 76 Custom_ShearwaterBridge 0 20 57 116 Beach 38 0 58 116 Beach 38 0 59 116 Beach 38 0 60 116 Beach 38 0"
-              }*/
-              /*"AddWarps": [
-                    "7 -1 Custom_MarkFarm 42 34",
-                    "6 -1 Custom_MarkFarm 42 34",
-                    "8 -1 Custom_MarkFarm 42 34"
-              ]*/
           },
           { //Mark Shortcut EggFestival
                "Action": "EditMap",
                "Target": "Maps/Town-EggFestival",
-               "FromFile": "assets/Maps/MapPatches/Shortcut_MarkFarm.tmx",
+               "FromFile": "Assets/Maps/MapPatches/Shortcut_MarkFarm.tmx",
                "ToArea": {
                     "X": 4,
                     "Y": 0,
@@ -430,7 +541,7 @@
           { //Mark Shortcut EggFestival2
                "Action": "EditMap",
                "Target": "Maps/Town-EggFestival2",
-               "FromFile": "assets/Maps/MapPatches/Shortcut_MarkFarm.tmx",
+               "FromFile": "Assets/Maps/MapPatches/Shortcut_MarkFarm.tmx",
                "ToArea": {
                     "X": 4,
                     "Y": 0,
@@ -441,7 +552,7 @@
           { //Mark Shortcut Fair
                "Action": "EditMap",
                "Target": "Maps/Town-Fair",
-               "FromFile": "assets/Maps/MapPatches/Shortcut_MarkFarm-Fair.tmx",
+               "FromFile": "Assets/Maps/MapPatches/Shortcut_MarkFarm-Fair.tmx",
                "ToArea": {
                     "X": 4,
                     "Y": 0,
@@ -452,7 +563,7 @@
           { //Mark Shortcut Fair2
                "Action": "EditMap",
                "Target": "Maps/Town-Fair2",
-               "FromFile": "assets/Maps/MapPatches/Shortcut_MarkFarm.tmx",
+               "FromFile": "Assets/Maps/MapPatches/Shortcut_MarkFarm.tmx",
                "ToArea": {
                     "X": 4,
                     "Y": 0,
@@ -463,7 +574,7 @@
           { //Mark Shortcut Halloween
                "Action": "EditMap",
                "Target": "Maps/Town-Halloween",
-               "FromFile": "assets/Maps/MapPatches/Shortcut_MarkFarm-Halloween.tmx",
+               "FromFile": "Assets/Maps/MapPatches/Shortcut_MarkFarm-Halloween.tmx",
                "ToArea": {
                     "X": 4,
                     "Y": 0,
@@ -474,7 +585,7 @@
           { //Mark Shortcut Halloween2
                "Action": "EditMap",
                "Target": "Maps/Town-Halloween2",
-               "FromFile": "assets/Maps/MapPatches/Shortcut_MarkFarm-Halloween2.tmx",
+               "FromFile": "Assets/Maps/MapPatches/Shortcut_MarkFarm-Halloween2.tmx",
                "ToArea": {
                     "X": 4,
                     "Y": 0,
@@ -485,7 +596,7 @@
           { //Mark Shortcut Christmas
                "Action": "EditMap",
                "Target": "Maps/Town-Christmas",
-               "FromFile": "assets/Maps/MapPatches/Shortcut_MarkFarm.tmx",
+               "FromFile": "Assets/Maps/MapPatches/Shortcut_MarkFarm.tmx",
                "ToArea": {
                     "X": 4,
                     "Y": 0,
@@ -496,7 +607,7 @@
           { //Mark Shortcut Christmas2
                "Action": "EditMap",
                "Target": "Maps/Town-Christmas2",
-               "FromFile": "assets/Maps/MapPatches/Shortcut_MarkFarm.tmx",
+               "FromFile": "Assets/Maps/MapPatches/Shortcut_MarkFarm.tmx",
                "ToArea": {
                     "X": 4,
                     "Y": 0,
@@ -507,7 +618,7 @@
           { //Leaf patches
                "Action": "EditMap",
                "Target": "Maps/Custom_MarkFarm",
-               "FromFile": "assets/Maps/MapPatches/MarkFarm_Leaves.tbin",
+               "FromFile": "Assets/Maps/MapPatches/MarkFarm_Leaves.tbin",
                "When": {
                     "Season": "Fall",
                     "SeasonalEdits": true
@@ -522,7 +633,7 @@
           { //Mark Backwoods Sign
                "Action": "EditMap",
                "Target": "Maps/Backwoods",
-               "FromFile": "assets/Maps/MapPatches/Backwoods_Sign.tmx",
+               "FromFile": "Assets/Maps/MapPatches/Backwoods_Sign.tmx",
                "ToArea": {
                     "X": 43,
                     "Y": 12,
@@ -541,9 +652,6 @@
                     "Height": 2
                },
                "When": {
-                    //"Season": "Summer",
-                    //"Day": "27",
-                    //"Year": "1"
                     "HasFlag": "summer_27_1",
                     "HasReadLetter |contains=summer_27_1": false
                }
@@ -559,9 +667,7 @@
                     "Height": 2
                },
                "When": {
-                    //"HasFlag": "summer_27_1",
                     "HasActiveQuest": "2201"
-                    //"HasActiveQuest |contains=2201": true
                }
           },
           { //Mark Farm Sign
@@ -581,7 +687,7 @@
           { //HG_Cave Entrance
                "Action": "EditMap",
                "Target": "Maps/Custom_MarkFarmCave",
-               "FromFile": "assets/Maps/MapPatches/HGCave_Entrance.tbin",
+               "FromFile": "Assets/Maps/MapPatches/HGCave_Entrance.tbin",
                "ToArea": {
                     "X": 4,
                     "Y": 1,
@@ -596,7 +702,7 @@
           { //Mark Furnace
                "Action": "EditMap",
                "Target": "Maps/Custom_MarkHouseInterior",
-               "FromFile": "assets/Maps/MapPatches/FurnaceFire.tbin",
+               "FromFile": "Assets/Maps/MapPatches/FurnaceFire.tbin",
                "ToArea": {
                     "X": 8,
                     "Y": 3,
@@ -615,7 +721,7 @@
           { //Mark Furnace NON Winter
                "Action": "EditMap",
                "Target": "Maps/Custom_MarkHouseInterior",
-               "FromFile": "assets/Maps/MapPatches/FurnaceFire.tbin",
+               "FromFile": "Assets/Maps/MapPatches/FurnaceFire.tbin",
                "ToArea": {
                     "X": 8,
                     "Y": 3,
@@ -635,7 +741,7 @@
           {
                "Action": "EditMap",
                "Target": "Maps/Mountain",
-               "FromFile": "assets/Maps/MapPatches/AbandonedCabin.tmx",
+               "FromFile": "Assets/Maps/MapPatches/AbandonedCabin.tmx",
                "When":{
                     "HasSeenEvent: anyPlayer|contains=IstiReturn": false
                },
@@ -652,7 +758,7 @@
           {
                "Action": "EditMap",
                "Target": "Maps/Mountain",
-               "FromFile": "assets/Maps/MapPatches/AbandonedCabin2.tmx",
+               "FromFile": "Assets/Maps/MapPatches/AbandonedCabin2.tmx",
                "When":{
                     "HasSeenEvent: anyPlayer|contains=IstiReturn": true,
                     "HasSeenEvent: anyPlayer|contains=2001505": false
@@ -667,7 +773,7 @@
           {
                "Action": "EditMap",
                "Target": "Maps/Mountain",
-               "FromFile": "assets/Maps/MapPatches/AbandonedCabin_Refurbished.tmx",
+               "FromFile": "Assets/Maps/MapPatches/AbandonedCabin_Refurbished.tmx",
                "When":{
                     "HasSeenEvent: anyPlayer|contains=2001505": true
                },
@@ -682,7 +788,7 @@
           {
                "Action": "EditMap",
                "Target": "Maps/Custom_IstiCabinInterior",
-               "FromFile": "assets/Maps/MapPatches/AbandonedCabinInterior_Refurbished.tmx",
+               "FromFile": "Assets/Maps/MapPatches/AbandonedCabinInterior_Refurbished.tmx",
                "When":{
                     "HasSeenEvent: anyPlayer|contains=2001505": true
                },
@@ -703,7 +809,7 @@
           { //Isti Furnace
                "Action": "EditMap",
                "Target": "Maps/Custom_IstiCabinInterior",
-               "FromFile": "assets/Maps/MapPatches/FurnaceFire.tbin",
+               "FromFile": "Assets/Maps/MapPatches/FurnaceFire.tbin",
                "ToArea": {
                     "X": 7,
                     "Y": 3,
@@ -723,7 +829,7 @@
           { //Isti Furnace NON Winter
                "Action": "EditMap",
                "Target": "Maps/Custom_IstiCabinInterior",
-               "FromFile": "assets/Maps/MapPatches/FurnaceFire.tbin",
+               "FromFile": "Assets/Maps/MapPatches/FurnaceFire.tbin",
                "ToArea": {
                     "X": 7,
                     "Y": 3,
@@ -747,7 +853,7 @@
           {
                "Action": "EditMap",
                "Target": "Maps/Island_N",
-               "FromFile": "assets/Maps/MapPatches/Island_N_to_NW.tbin",
+               "FromFile": "Assets/Maps/MapPatches/Island_N_to_NW.tbin",
                "ToArea": {
                     "X": 0,
                     "Y": 32,
@@ -759,16 +865,6 @@
                     "-1 35 Custom_IslandNorthWest 43 30",
                     "-1 36 Custom_IslandNorthWest 43 30"
                ]
-          },
-          /*{ //NPC Warp
-               "Action": "EditMap",
-               "Target": "Maps/Custom_Island_Shelter",
-               "When": {
-                    "HasSeenEvent: anyPlayer|contains=IstiReturn": true
-               },
-               "MapProperties": {
-                    "NPCWarp": "3 3 Custom_IstiCabinInterior 3 4"
-               }
-          }*/
+          }
      ]
 }

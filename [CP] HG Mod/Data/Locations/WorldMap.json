@@ -1,123 +1,122 @@
 {
     "Changes": [
-        //Edits journey map to fern isles
-        {
+        {//Edits journey map
             "Action": "EditImage",
             "Target": "Minigames/boatJourneyMap",
             "FromFile": "Assets/Maps/WorldMaps/boatJourney/{{season}}_HG_boatJourneyMap.png",
-            "PatchMode": "Replace",
+            "PatchMode": "Replace"
         },
         {
             "Action": "Load", "Priority": "Low",
             "Target": "Mods/Bencedemon.HG/spring_ChristopherHouseMap",
-            "FromFile": "assets/Maps/WorldMaps/Patches/spring_ChristopherHouseMap.png"
+            "FromFile": "Assets/Maps/WorldMaps/Patches/spring_ChristopherHouseMap.png"
         },
         {
             "Action": "Load", "Priority": "Low",
             "Target": "Mods/Bencedemon.HG/summer_ChristopherHouseMap",
-            "FromFile": "assets/Maps/WorldMaps/Patches/summer_ChristopherHouseMap.png"
+            "FromFile": "Assets/Maps/WorldMaps/Patches/summer_ChristopherHouseMap.png"
         },
         {
             "Action": "Load", "Priority": "Low",
             "Target": "Mods/Bencedemon.HG/fall_ChristopherHouseMap",
-            "FromFile": "assets/Maps/WorldMaps/Patches/fall_ChristopherHouseMap.png"
+            "FromFile": "Assets/Maps/WorldMaps/Patches/fall_ChristopherHouseMap.png"
         },
         {
             "Action": "Load", "Priority": "Low",
             "Target": "Mods/Bencedemon.HG/winter_ChristopherHouseMap",
-            "FromFile": "assets/Maps/WorldMaps/Patches/winter_ChristopherHouseMap.png"
+            "FromFile": "Assets/Maps/WorldMaps/Patches/winter_ChristopherHouseMap.png"
         },
         {
             "Action": "Load", "Priority": "Low",
             "Target": "Mods/Bencedemon.HG/spring_BenceCabinMap",
-            "FromFile": "assets/Maps/WorldMaps/Patches/spring_BenceCabinMap.png"
+            "FromFile": "Assets/Maps/WorldMaps/Patches/spring_BenceCabinMap.png"
         },
         {
             "Action": "Load", "Priority": "Low",
             "Target": "Mods/Bencedemon.HG/summer_BenceCabinMap",
-            "FromFile": "assets/Maps/WorldMaps/Patches/summer_BenceCabinMap.png"
+            "FromFile": "Assets/Maps/WorldMaps/Patches/summer_BenceCabinMap.png"
         },
         {
             "Action": "Load", "Priority": "Low",
             "Target": "Mods/Bencedemon.HG/fall_BenceCabinMap",
-            "FromFile": "assets/Maps/WorldMaps/Patches/fall_BenceCabinMap.png"
+            "FromFile": "Assets/Maps/WorldMaps/Patches/fall_BenceCabinMap.png"
         },
         {
             "Action": "Load", "Priority": "Low",
             "Target": "Mods/Bencedemon.HG/winter_BenceCabinMap",
-            "FromFile": "assets/Maps/WorldMaps/Patches/winter_BenceCabinMap.png"
+            "FromFile": "Assets/Maps/WorldMaps/Patches/winter_BenceCabinMap.png"
         },
         {
             "Action": "Load", "Priority": "Low",
             "Target": "Mods/Bencedemon.HG/spring_MarkFarmMap",
-            "FromFile": "assets/Maps/WorldMaps/Patches/spring_MarkFarmMap.png"
+            "FromFile": "Assets/Maps/WorldMaps/Patches/spring_MarkFarmMap.png"
         },
         {
             "Action": "Load", "Priority": "Low",
             "Target": "Mods/Bencedemon.HG/summer_MarkFarmMap",
-            "FromFile": "assets/Maps/WorldMaps/Patches/summer_MarkFarmMap.png"
+            "FromFile": "Assets/Maps/WorldMaps/Patches/summer_MarkFarmMap.png"
         },
         {
             "Action": "Load", "Priority": "Low",
             "Target": "Mods/Bencedemon.HG/fall_MarkFarmMap",
-            "FromFile": "assets/Maps/WorldMaps/Patches/fall_MarkFarmMap.png"
+            "FromFile": "Assets/Maps/WorldMaps/Patches/fall_MarkFarmMap.png"
         },
         {
             "Action": "Load", "Priority": "Low",
             "Target": "Mods/Bencedemon.HG/winter_MarkFarmMap",
-            "FromFile": "assets/Maps/WorldMaps/Patches/winter_MarkFarmMap.png"
+            "FromFile": "Assets/Maps/WorldMaps/Patches/winter_MarkFarmMap.png"
         },
         {
             "Action": "Load", "Priority": "Low",
             "Target": "Mods/Bencedemon.HG/spring_AbandonedCabinMap",
-            "FromFile": "assets/Maps/WorldMaps/Patches/spring_AbandonedCabinMap.png"
+            "FromFile": "Assets/Maps/WorldMaps/Patches/spring_AbandonedCabinMap.png"
         },
         {
             "Action": "Load", "Priority": "Low",
             "Target": "Mods/Bencedemon.HG/summer_AbandonedCabinMap",
-            "FromFile": "assets/Maps/WorldMaps/Patches/summer_AbandonedCabinMap.png"
+            "FromFile": "Assets/Maps/WorldMaps/Patches/summer_AbandonedCabinMap.png"
         },
         {
             "Action": "Load", "Priority": "Low",
             "Target": "Mods/Bencedemon.HG/fall_AbandonedCabinMap",
-            "FromFile": "assets/Maps/WorldMaps/Patches/fall_AbandonedCabinMap.png"
+            "FromFile": "Assets/Maps/WorldMaps/Patches/fall_AbandonedCabinMap.png"
         },
         {
             "Action": "Load", "Priority": "Low",
             "Target": "Mods/Bencedemon.HG/winter_AbandonedCabinMap",
-            "FromFile": "assets/Maps/WorldMaps/Patches/winter_AbandonedCabinMap.png"
+            "FromFile": "Assets/Maps/WorldMaps/Patches/winter_AbandonedCabinMap.png"
         },
         {
             "Action": "Load", "Priority": "Low",
             "Target": "Mods/Bencedemon.HG/spring_IstiCabinMap",
-            "FromFile": "assets/Maps/WorldMaps/Patches/spring_IstiCabinMap.png"
+            "FromFile": "Assets/Maps/WorldMaps/Patches/spring_IstiCabinMap.png"
         },
         {
             "Action": "Load", "Priority": "Low",
             "Target": "Mods/Bencedemon.HG/summer_IstiCabinMap",
-            "FromFile": "assets/Maps/WorldMaps/Patches/summer_IstiCabinMap.png"
+            "FromFile": "Assets/Maps/WorldMaps/Patches/summer_IstiCabinMap.png"
         },
         {
             "Action": "Load", "Priority": "Low",
             "Target": "Mods/Bencedemon.HG/fall_IstiCabinMap",
-            "FromFile": "assets/Maps/WorldMaps/Patches/fall_IstiCabinMap.png"
+            "FromFile": "Assets/Maps/WorldMaps/Patches/fall_IstiCabinMap.png"
         },
         {
             "Action": "Load", "Priority": "Low",
             "Target": "Mods/Bencedemon.HG/winter_IstiCabinMap",
-            "FromFile": "assets/Maps/WorldMaps/Patches/winter_IstiCabinMap.png"
+            "FromFile": "Assets/Maps/WorldMaps/Patches/winter_IstiCabinMap.png"
         },
         {
             "Action": "Load", "Priority": "Low",
             "Target": "Mods/Bencedemon.HG/Island_NW",
-            "FromFile": "assets/Maps/WorldMaps/Patches/Island_NW.png"
+            "FromFile": "Assets/Maps/WorldMaps/Patches/Island_NW.png"
         },
         {
             "Action": "EditData",
             "Target": "Data/WorldMap",
             "TargetField": [
                 "Valley",
-                "MapAreas",
+                "MapAreas"
             ],
             "Entries": {
                 "Bencedemon.HG_ChristopherHouseOutside": {
@@ -388,7 +387,7 @@
                                 "Height": 0
                             }
                         }
-                    ],
+                    ]
                 },
                 "Bencedemon.HG_MarkFarmCave": {
                     "Id": "Custom_MarkFarmCave",
@@ -410,7 +409,7 @@
                                 "Height": 0
                             }
                         }
-                    ],
+                    ]
                 },
                 "Bencedemon.HG_Cave": {
                     "Id": "Custom_HGCave",
@@ -432,7 +431,7 @@
                                 "Height": 0
                             }
                         }
-                    ],
+                    ]
                 },
                 "Bencedemon.HG_AbandonedCabin": {
                     "Id": "Custom_AbandonedCabin",
@@ -442,7 +441,6 @@
                         "Width": 6,
                         "Height": 8
                     },
-                    //"ScrollText": "{{i18n:AbandonedCabin.Name}}",
                     "WorldPositions": [
                         {
                             "Id": "Custom_AbandonedCabinInterior",
@@ -498,7 +496,7 @@
                                 "Height": 8
                             },
                             "Condition": "PLAYER_HAS_SEEN_EVENT Any IstiReturn"  
-                        },
+                        }
                     ],
                     "Textures": [
                         {
@@ -598,7 +596,7 @@
             "Target": "Data/WorldMap",
             "TargetField": [
                 "GingerIsland",
-                "MapAreas",
+                "MapAreas"
             ],
             "Entries": {
                 "Bencedemon.HG_Island_NW": {
@@ -631,8 +629,8 @@
                                 "Y": 43,
                                 "Width": 55,
                                 "Height": 31
-                            },
-                        },
+                            }
+                        }
                     ]
                 },
                 "Bencedemon.HG_Island_Shelter": {
@@ -643,7 +641,6 @@
                         "Width": 7,
                         "Height": 8
                     },
-                    //"ScrollText": "{{i18n:Island_Shelter.Name}}",
                     "WorldPositions": [
                         {
                             "Id": "Custom_Island_Shelter",
@@ -680,7 +677,7 @@
                             "Condition": "PLAYER_HAS_SEEN_EVENT Current 2001500" 
                         }
                     ]
-                },
+                }
             }
         }
     ]

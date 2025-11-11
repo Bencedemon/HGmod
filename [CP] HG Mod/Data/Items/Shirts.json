@@ -25,8 +25,8 @@
                     "Price": 50,
                     "Texture": "Mods\\Bencedemon.HG\\Shirts",
                     "SpriteIndex": 1,
-                    "DefaultColor": null,
-                    "CanBeDyed": false,
+                    "DefaultColor": "189 0 0",
+                    "CanBeDyed": true,
                     "IsPrismatic": false,
                     "HasSleeves": true,
                     "CanChooseDuringCharacterCustomization": false,
@@ -39,7 +39,7 @@
                     "Price": 50,
                     "Texture": "Mods\\Bencedemon.HG\\Shirts",
                     "SpriteIndex": 2,
-                    "DefaultColor": "27 27 27",
+                    "DefaultColor": null,
                     "CanBeDyed": true,
                     "IsPrismatic": false,
                     "HasSleeves": true,
@@ -67,7 +67,7 @@
                     "Price": 50,
                     "Texture": "Mods\\Bencedemon.HG\\Shirts",
                     "SpriteIndex": 4,
-                    "DefaultColor": "27 27 27",
+                    "DefaultColor": null,
                     "CanBeDyed": false,
                     "IsPrismatic": false,
                     "HasSleeves": true,
@@ -81,21 +81,14 @@
                     "Price": 50,
                     "Texture": "Mods\\Bencedemon.HG\\Shirts",
                     "SpriteIndex": 4,
-                    "DefaultColor": "27 27 27",
+                    "DefaultColor": null,
                     "CanBeDyed": false,
                     "IsPrismatic": false,
                     "HasSleeves": false,
                     "CanChooseDuringCharacterCustomization": false,
                     "CustomFields": null
-                },
+                }
             }
-            
-        },
-        // load Shirts tilesheet
-        {
-            "Action": "Load",
-            "Target": "Mods/Bencedemon.HG/Shirts",
-            "FromFile": "Assets/Textures/HG_Shirts.png"
         }
     ]
 }

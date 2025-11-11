@@ -13,7 +13,7 @@
 
                     "TargetLocation": "Custom_HGCave",
                     "TargetTile": { "X": 12, "Y": 24 },
-                    "TargetDirection": "right",
+                    "TargetDirection": "right"
                 }
             },
             "Update": "OnLocationChange",

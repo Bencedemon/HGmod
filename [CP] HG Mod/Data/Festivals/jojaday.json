@@ -7,8 +7,8 @@
 				"HasSeenEvent": "502261"
 			},
 			"Entries": {
-				"22": "800 Beach 11 39 2 dick_fish/1000 Beach 34 15 1/1050 JojaMart 16 5 2 Christopher_drink \"Strings\\schedules\\Christopher:JojaDay_Christopher\"/1600 JojaMart 11 26 3 \"Strings\\schedules\\Christopher:JojaDay1_Christopher\"/1630 Saloon 26 18 2 Christopher_drink/2200 Town 50 70 3 Christopher_smoke/2400 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
-			},
+				"22": "800 Beach 11 39 2 dick_fish/1000 Beach 34 15 1/1050 JojaMart 16 5 2 christopher_drink \"Strings\\schedules\\Christopher:JojaDay_Christopher\"/1600 JojaMart 11 26 3 \"Strings\\schedules\\Christopher:JojaDay1_Christopher\"/1630 Saloon 26 18 2 christopher_drink/2200 Town 50 70 3 christopher_smoke/2400 Custom_ChristopherHouseInterior 2 4 3 christopher_sleep"
+			}
 		},
 		{ //CHRISTOPHER Joja Day Schedule - MARRIED
 			"Action": "EditData",
@@ -19,15 +19,15 @@
 				"Day": "22"
 			},
 			"Entries": {
-				"marriage_Mon": "940 JojaMart 16 5 2 Christopher_drink \"Strings\\schedules\\Christopher:JojaDay_Christopher\"/1600 JojaMart 11 26 3 \"Strings\\schedules\\Christopher:JojaDay1_Christopher\"/1630 Saloon 26 18 2 Christopher_drink/2200 bed",
-			},
+				"marriage_Mon": "940 JojaMart 16 5 2 christopher_drink \"Strings\\schedules\\Christopher:JojaDay_Christopher\"/1600 JojaMart 11 26 3 \"Strings\\schedules\\Christopher:JojaDay1_Christopher\"/1630 Saloon 26 18 2 christopher_drink/2200 bed"
+			}
 		},
 		{ //Schedule Strings
 			"Action": "EditData",
 			"Target": "strings/schedules/Christopher",
 			"Entries": {
 				"JojaDay_Christopher": "{{i18n:Christopher.JojaDay.01}}",
-				"JojaDay1_Christopher": "{{i18n:Christopher.JojaDay.02}}",
+				"JojaDay1_Christopher": "{{i18n:Christopher.JojaDay.02}}"
 			}
 		},
 		{ //Christopher Joja Day Marriage Dialogue
@@ -39,8 +39,8 @@
 				"Day": "22"
 			},
 			"Entries": {
-				"funLeave_Christopher": "{{i18n:Christopher.JojaDay.funLeave}}",
-			},
+				"funLeave_Christopher": "{{i18n:Christopher.JojaDay.funLeave}}"
+			}
 		},
 		{ //BENCE Joja Day Schedule
 			"Action": "EditData",
@@ -49,8 +49,8 @@
 				"HasSeenEvent": "502261"
 			},
 			"Entries": {
-				"22": "1100 JojaMart 5 19 3 Bence_ChillL \"Strings\\schedules\\Bence:JojaDay_Bence\"/1610 JojaMart 11 25 3 \"Strings\\schedules\\Bence:JojaDay1_Bence\"/1630 Custom_BenceCabinInterior 3 5 0 square_5_1_0/2230 Custom_BenceCabinInterior 4 6 2 Bence_Pizza/2330 Custom_BenceCabinInterior 4 11 1/2500 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
-			},
+				"22": "1100 JojaMart 5 19 3 bence_chill_L \"Strings\\schedules\\Bence:JojaDay_Bence\"/1610 JojaMart 11 25 3 \"Strings\\schedules\\Bence:JojaDay1_Bence\"/1630 Custom_BenceCabinInterior 3 5 0 square_5_1_0/2230 Custom_BenceCabinInterior 4 6 2 bence_pizza/2330 Custom_BenceCabinInterior 4 11 1/2500 Custom_BenceCabinInterior 13 7 3 bence_sleep"
+			}
 		},
 		{ //BENCE Joja Day Schedule - MARRIED
 			"Action": "EditData",
@@ -61,15 +61,15 @@
 				"Day": "22"
 			},
 			"Entries": {
-				"marriage_Mon": "1100 JojaMart 5 19 3 Bence_ChillL \"Strings\\schedules\\Bence:JojaDay_Bence\"/1610 JojaMart 11 25 3 \"Strings\\schedules\\Bence:JojaDay1_Bence\"/1630 Town 78 56 3 Bence_ChillL/2200 bed",
-			},
+				"marriage_Mon": "1100 JojaMart 5 19 3 bence_chill_L \"Strings\\schedules\\Bence:JojaDay_Bence\"/1610 JojaMart 11 25 3 \"Strings\\schedules\\Bence:JojaDay1_Bence\"/1630 Town 78 56 3 bence_chill_L/2200 bed"
+			}
 		},
 		{ //Schedule Strings
 			"Action": "EditData",
 			"Target": "strings/schedules/Bence",
 			"Entries": {
 				"JojaDay_Bence": "{{i18n:Bence.JojaDay.01}}",
-				"JojaDay1_Bence": "{{i18n:Bence.JojaDay.02}}",
+				"JojaDay1_Bence": "{{i18n:Bence.JojaDay.02}}"
 			}
 		},
 		{ //Bence Joja Day Marriage Dialogue
@@ -81,8 +81,8 @@
 				"Day": "22"
 			},
 			"Entries": {
-				"funLeave_Bence": "{{i18n:Bence.JojaDay.funLeave}}",
-			},
+				"funLeave_Bence": "{{i18n:Bence.JojaDay.funLeave}}"
+			}
 		},
 		{ //MARK Joja Day Schedule
 			"Action": "EditData",
@@ -91,8 +91,8 @@
 				"HasSeenEvent": "502261"
 			},
 			"Entries": {
-				"22": "800 Custom_MarkHouseInterior 12 5 0/1040 JojaMart 22 18 1 \"Strings\\schedules\\Mark:JojaDay_Mark\"/1340 JojaMart 8 8 0 \"Strings\\schedules\\Mark:JojaDay_Mark\"/1440 JojaMart 17 6 3 \"Strings\\schedules\\Mark:JojaDay_Mark\"/1600 JojaMart 11 24 3 \"Strings\\schedules\\Mark:JojaDay1_Mark\"/1630 Custom_MarkHouseInterior 14 5 0 square_5_1_0/2200 Custom_MarkHouseInterior 15 13 3 mark_sleep",
-			},
+				"22": "800 Custom_MarkHouseInterior 12 5 0/1040 JojaMart 22 18 1 \"Strings\\schedules\\Mark:JojaDay_Mark\"/1340 JojaMart 8 8 0 \"Strings\\schedules\\Mark:JojaDay_Mark\"/1440 JojaMart 17 6 3 \"Strings\\schedules\\Mark:JojaDay_Mark\"/1600 JojaMart 11 24 3 \"Strings\\schedules\\Mark:JojaDay1_Mark\"/1630 Custom_MarkHouseInterior 14 5 0 square_5_1_0/2200 Custom_MarkHouseInterior 15 13 3 mark_sleep"
+			}
 		},
 		{ //MARK Joja Day Schedule - MARRIED
 			"Action": "EditData",
@@ -103,15 +103,15 @@
 				"Day": "22"
 			},
 			"Entries": {
-				"marriage_Mon": "1000 JojaMart 22 18 1 \"Strings\\schedules\\Mark:JojaDay_Mark\"/1340 JojaMart 8 8 0 \"Strings\\schedules\\Mark:JojaDay_Mark\"/1440 JojaMart 17 6 3 \"Strings\\schedules\\Mark:JojaDay_Mark\"/1600 JojaMart 11 24 3 \"Strings\\schedules\\Mark:JojaDay1_Mark\"/1630 bed",
-			},
+				"marriage_Mon": "1000 JojaMart 22 18 1 \"Strings\\schedules\\Mark:JojaDay_Mark\"/1340 JojaMart 8 8 0 \"Strings\\schedules\\Mark:JojaDay_Mark\"/1440 JojaMart 17 6 3 \"Strings\\schedules\\Mark:JojaDay_Mark\"/1600 JojaMart 11 24 3 \"Strings\\schedules\\Mark:JojaDay1_Mark\"/1630 bed"
+			}
 		},
 		{ //Schedule Strings
 			"Action": "EditData",
 			"Target": "strings/schedules/Mark",
 			"Entries": {
 				"JojaDay_Mark": "{{i18n:Mark.JojaDay.01}}",
-				"JojaDay1_Mark": "{{i18n:Mark.JojaDay.02}}",
+				"JojaDay1_Mark": "{{i18n:Mark.JojaDay.02}}"
 			}
 		},
 		{ //Mark Joja Day Marriage Dialogue
@@ -123,8 +123,8 @@
 				"Day": "22"
 			},
 			"Entries": {
-				"funLeave_Mark": "{{i18n:Mark.JojaDay.03}}",
-			},
+				"funLeave_Mark": "{{i18n:Mark.JojaDay.03}}"
+			}
 		},
 		{ //Isti Joja Day Schedule
 			"Action": "EditData",
@@ -134,8 +134,8 @@
 				"HasSeenEvent: anyPlayer|contains=IstiReturn": true
 			},
 			"Entries": {
-				"22": "800 Custom_IstiHouseInterior 12 5 0/1040 JojaMart 22 18 1 \"Strings\\schedules\\Isti:JojaDay_Isti\"/1340 JojaMart 8 8 0 \"Strings\\schedules\\Isti:JojaDay_Isti\"/1440 JojaMart 17 6 3 \"Strings\\schedules\\Isti:JojaDay_Isti\"/1600 JojaMart 11 24 3 \"Strings\\schedules\\Isti:JojaDay1_Isti\"/1630 Custom_IstiHouseInterior 14 5 0 square_5_1_0/2200 Custom_IstiHouseInterior 15 13 3 Isti_sleep",
-			},
+				"22": "800 Custom_IstiHouseInterior 12 5 0/1040 JojaMart 15 22 0 \"Strings\\schedules\\Isti:JojaDay_Isti\"/1500 JojaMart 11 24 3 \"Strings\\schedules\\Isti:JojaDay1_Isti\"/1630 Custom_IstiHouseInterior 14 5 0 square_5_1_0/2200 Custom_IstiCabinInterior 1 4 2 isti_sleep"
+			}
 		},
 		{ //Isti Joja Day Schedule - MARRIED
 			"Action": "EditData",
@@ -147,19 +147,19 @@
 				"HasSeenEvent: anyPlayer|contains=IstiReturn": true
 			},
 			"Entries": {
-				"marriage_Mon": "1000 JojaMart 22 18 1 \"Strings\\schedules\\Isti:JojaDay_Isti\"/1340 JojaMart 8 8 0 \"Strings\\schedules\\Isti:JojaDay_Isti\"/1440 JojaMart 17 6 3 \"Strings\\schedules\\Isti:JojaDay_Isti\"/1600 JojaMart 11 24 3 \"Strings\\schedules\\Isti:JojaDay1_Isti\"/1630 bed",
-			},
+				"marriage_Mon": "1000 JojaMart 15 22 0 \"Strings\\schedules\\Isti:JojaDay_Isti\"/1500 JojaMart 11 24 3 \"Strings\\schedules\\Isti:JojaDay1_Isti\"/1630 bed"
+			}
 		},
 		{ //Schedule Strings
 			"Action": "EditData",
 			"Target": "strings/schedules/Isti",
 			"Entries": {
 				"JojaDay_Isti": "{{i18n:Isti.JojaDay.01}}",
-				"JojaDay1_Isti": "{{i18n:Isti.JojaDay.02}}",
+				"JojaDay1_Isti": "{{i18n:Isti.JojaDay.02}}"
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer|contains=IstiReturn": true
-			},
+			}
 		},
 		{ //Isti Joja Day Marriage Dialogue
 			"Action": "EditData",
@@ -171,8 +171,8 @@
 				"HasSeenEvent: anyPlayer|contains=IstiReturn": true
 			},
 			"Entries": {
-				"funLeave_Isti": "{{i18n:Isti.JojaDay.03}}",
-			},
-		},
+				"funLeave_Isti": "{{i18n:Isti.JojaDay.03}}"
+			}
+		}
     ]
 }

@@ -8,7 +8,7 @@
                     "ID": "Bencedemon.HG_Horthy",
                     "Category": "Music",
                     "FilePaths": [
-                        "{{AbsoluteFilePath: assets/Music/Horthy.ogg}}"
+                        "{{AbsoluteFilePath: Assets/Music/Horthy.ogg}}"
                     ],
                     "StreamedVorbis": true,
                     "Looped": true
@@ -17,7 +17,7 @@
                     "ID": "Bencedemon.HG_Sif",
                     "Category": "Music",
                     "FilePaths": [
-                        "{{AbsoluteFilePath: assets/Music/Sif.ogg}}"
+                        "{{AbsoluteFilePath: Assets/Music/Sif.ogg}}"
                     ],
                     "StreamedVorbis": true,
                     "Looped": true
@@ -26,7 +26,7 @@
                     "ID": "Bencedemon.HG_ChrisDrum",
                     "Category": "Sound",
                     "FilePaths": [
-                        "{{AbsoluteFilePath: assets/Music/ChrisDrum.ogg}}"
+                        "{{AbsoluteFilePath: Assets/Music/ChrisDrum.ogg}}"
                     ],
                     "StreamedVorbis": true,
                     "Looped": false
@@ -35,7 +35,7 @@
                     "ID": "Bencedemon.HG_BenceCabin",
                     "Category": "Sound",
                     "FilePaths": [
-                        "{{AbsoluteFilePath: assets/Music/BenceCabin.ogg}}"
+                        "{{AbsoluteFilePath: Assets/Music/BenceCabin.ogg}}"
                     ],
                     "StreamedVorbis": true,
                     "Looped": true
@@ -44,7 +44,7 @@
                     "ID": "Bencedemon.HG_SotetUtakon",
                     "Category": "Music",
                     "FilePaths": [
-                        "{{AbsoluteFilePath: assets/Music/SotetUtakon.ogg}}"
+                        "{{AbsoluteFilePath: Assets/Music/SotetUtakon.ogg}}"
                     ],
                     "StreamedVorbis": true,
                     "Looped": true
@@ -53,7 +53,7 @@
                     "ID": "Bencedemon.HG_Uuuuus",
                     "Category": "Music",
                     "FilePaths": [
-                        "{{AbsoluteFilePath: assets/Music/Uuuuus.ogg}}"
+                        "{{AbsoluteFilePath: Assets/Music/Uuuuus.ogg}}"
                     ],
                     "StreamedVorbis": true,
                     "Looped": false
@@ -62,7 +62,7 @@
                     "ID": "Bencedemon.HG_Again",
                     "Category": "Music",
                     "FilePaths": [
-                        "{{AbsoluteFilePath: assets/Music/Again.ogg}}"
+                        "{{AbsoluteFilePath: Assets/Music/Again.ogg}}"
                     ],
                     "StreamedVorbis": true,
                     "Looped": false
@@ -71,12 +71,12 @@
                     "ID": "Bencedemon.HG_Kchan",
                     "Category": "Music",
                     "FilePaths": [
-                        "{{AbsoluteFilePath: assets/Music/Kchan.ogg}}"
+                        "{{AbsoluteFilePath: Assets/Music/Kchan.ogg}}"
                     ],
                     "StreamedVorbis": true,
                     "Looped": false
-                },
-            },
+                }
+            }
         },
         {
             "Action": "EditData",

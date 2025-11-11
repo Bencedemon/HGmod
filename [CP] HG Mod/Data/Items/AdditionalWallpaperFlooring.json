@@ -17,20 +17,6 @@
                     "Count": 4
                 }
             }
-        },
-
-        // load wallpaper tilesheet
-        {
-            "Action": "Load",
-            "Target": "Mods/Bencedemon.HG/HG_Wallpapers",
-            "FromFile": "Assets/Textures/HG_Wallpapers.png"
-        },
-
-        // load flooring tilesheet
-        {
-            "Action": "Load",
-            "Target": "Mods/Bencedemon.HG/HG_Floorings",
-            "FromFile": "Assets/Textures/HG_Floorings.png"
         }
     ]
 }

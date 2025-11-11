@@ -14,26 +14,26 @@
                     "PriceModifiers": null,
                     "PriceModifierMode": "Stack",
                     "Owners": [
-                    {
-                        "Condition": null,
-                        "Portrait": null,
-                        "Dialogues": [
                         {
-                            "Id": "Default",
                             "Condition": null,
-                            "Dialogue": null,
-                            "RandomDialogue": [
-                                "{{i18n:Bence.DesertShop.01}}",
-                                "{{i18n:Bence.DesertShop.02}}",
-                                "{{i18n:Bence.DesertShop.03}}"
-                            ]
+                            "Portrait": null,
+                            "Dialogues": [
+                                {
+                                    "Id": "Default",
+                                    "Condition": null,
+                                    "Dialogue": null,
+                                    "RandomDialogue": [
+                                        "{{i18n:Bence.DesertShop.01}}",
+                                        "{{i18n:Bence.DesertShop.02}}",
+                                        "{{i18n:Bence.DesertShop.03}}"
+                                    ]
+                                }
+                            ],
+                            "RandomizeDialogueOnOpen": true,
+                            "ClosedMessage": null,
+                            "Id": "Bence",
+                            "Name": "Bence"
                         }
-                        ],
-                        "RandomizeDialogueOnOpen": true,
-                        "ClosedMessage": null,
-                        "Id": "Bence",
-                        "Name": "Bence"
-                    }
                     ],
                     "VisualTheme": null,
                     "SalableItemTags": null,
@@ -45,7 +45,7 @@
                             "AvailableStock": -1,
                             "AvailableStockLimit": "Player",
                             "Id": "(W)Bencedemon.HG_Rebellion",
-                            "ItemId": "(W)Bencedemon.HG_Rebellion",
+                            "ItemId": "(W)Bencedemon.HG_Rebellion"
                         },
                         {
                             "TradeItemId": "CalicoEgg",
@@ -54,7 +54,7 @@
                             "AvailableStock": -1,
                             "AvailableStockLimit": "Player",
                             "Id": "(W)Bencedemon.HG_Yamato",
-                            "ItemId": "(W)Bencedemon.HG_Yamato",
+                            "ItemId": "(W)Bencedemon.HG_Yamato"
                         },
                         {
                             "TradeItemId": "CalicoEgg",
@@ -63,7 +63,7 @@
                             "AvailableStock": -1,
                             "AvailableStockLimit": "Player",
                             "Id": "(W)Bencedemon.HG_DragonSlayer",
-                            "ItemId": "(W)Bencedemon.HG_DragonSlayer",
+                            "ItemId": "(W)Bencedemon.HG_DragonSlayer"
                         },
                         {
                             "TradeItemId": "CalicoEgg",
@@ -72,7 +72,7 @@
                             "AvailableStock": -1,
                             "AvailableStockLimit": "Player",
                             "Id": "(W)Bencedemon.HG_DiamondSword",
-                            "ItemId": "(W)Bencedemon.HG_DiamondSword",
+                            "ItemId": "(W)Bencedemon.HG_DiamondSword"
                         },
                         {
                             "TradeItemId": "CalicoEgg",
@@ -81,7 +81,7 @@
                             "AvailableStock": -1,
                             "AvailableStockLimit": "Player",
                             "Id": "(W)Bencedemon.HG_Shanker",
-                            "ItemId": "(W)Bencedemon.HG_Shanker",
+                            "ItemId": "(W)Bencedemon.HG_Shanker"
                         },
                         {
                             "TradeItemId": "CalicoEgg",
@@ -90,7 +90,7 @@
                             "AvailableStock": -1,
                             "AvailableStockLimit": "Player",
                             "Id": "(W)Bencedemon.HG_SpectralSword",
-                            "ItemId": "(W)Bencedemon.HG_SpectralSword",
+                            "ItemId": "(W)Bencedemon.HG_SpectralSword"
                         },
                         {
                             "TradeItemId": "CalicoEgg",
@@ -99,7 +99,7 @@
                             "AvailableStock": -1,
                             "AvailableStockLimit": "Player",
                             "Id": "(W)Bencedemon.HG_ChirstophersFishingrod",
-                            "ItemId": "(W)Bencedemon.HG_ChirstophersFishingrod",
+                            "ItemId": "(W)Bencedemon.HG_ChirstophersFishingrod"
                         },
                         {
                             "TradeItemId": "CalicoEgg",
@@ -108,7 +108,7 @@
                             "AvailableStock": -1,
                             "AvailableStockLimit": "Player",
                             "Id": "(W)Bencedemon.HG_BencesAxe",
-                            "ItemId": "(W)Bencedemon.HG_BencesAxe",
+                            "ItemId": "(W)Bencedemon.HG_BencesAxe"
                         },
                         {
                             "TradeItemId": "CalicoEgg",
@@ -119,10 +119,10 @@
                             "Id": "(W)Bencedemon.HG_IstisGuitar",
                             "ItemId": "(W)Bencedemon.HG_IstisGuitar",
                             "Condition": "PLAYER_HAS_SEEN_EVENT Any IstiReturn"
-                        },
+                        }
                     ],
                     "CustomFields": null
-                },
+                }
             }
         }
     ]

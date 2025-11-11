@@ -141,9 +141,9 @@
                 "Isti_y2": "{{i18n:Festival.Concert.Isti_y2}}",
 
                 "Andy_y2": "{{i18n:Festival.Concert.Andy_y2}}",
-                "Susan_y2": "{{i18n:Festival.Concert.Susan_y2}}",
+                "Susan_y2": "{{i18n:Festival.Concert.Susan_y2}}"
             },
-            "When": { "HasFlag": "HGCave_Opening", }
+            "When": { "HasFlag": "HGCave_Opening" }
         },
         
         { //HG_Cave MinecartOnEvent

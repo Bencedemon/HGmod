@@ -1,196 +1,196 @@
 {
-  "Changes": [
-    {
-      "Action": "EditData",
-      "Target": "Data/Festivals/summer11",
-      "Entries": {
-        "Christopher": "{{i18n:Christopher.Luau}}",
-        "Christopher_y2": "{{i18n:Christopher.Luau2}}",
-        "Bence": "{{i18n:Bence.Luau}}",
-        "Bence_y2": "{{i18n:Bence.Luau2}}",
-        "Mark": "{{i18n:Mark.Luau}}",
-        "Mark_y2": "{{i18n:Mark.Luau2}}",
-        "Isti": "{{i18n:Isti.Luau}}",
-        "Isti_y2": "{{i18n:Isti.Luau2}}",
-      }
-    },
-    //YEAR ONE HG NPC festival data
-    {
-      "Action": "EditData",
-      "Target": "Data/Festivals/summer11",
-      "TextOperations": [
-        { //Christopher
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "Set-Up_additionalCharacters"
-          ],
-          "Value": "Christopher 15 5 down",
-          "Delimiter": "/"
-        },
+    "Changes": [
         {
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "MainEvent_additionalCharacters"
-          ],
-          "Value": "Christopher 37 6 down",
-          "Delimiter": "/"
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "Entries": {
+                "Christopher": "{{i18n:Christopher.Luau}}",
+                "Christopher_y2": "{{i18n:Christopher.Luau2}}",
+                "Bence": "{{i18n:Bence.Luau}}",
+                "Bence_y2": "{{i18n:Bence.Luau2}}",
+                "Mark": "{{i18n:Mark.Luau}}",
+                "Mark_y2": "{{i18n:Mark.Luau2}}",
+                "Isti": "{{i18n:Isti.Luau}}",
+                "Isti_y2": "{{i18n:Isti.Luau2}}"
+            }
         },
-        { //Bence
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "Set-Up_additionalCharacters"
-          ],
-          "Value": "Bence 32 7 down",
-          "Delimiter": "/"
-        },
+        //YEAR ONE HG NPC festival data
         {
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "MainEvent_additionalCharacters"
-          ],
-          "Value": "Bence 30 11 right",
-          "Delimiter": "/"
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                { //Christopher
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Christopher 15 5 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Christopher 37 6 down",
+                    "Delimiter": "/"
+                },
+                { //Bence
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Bence 32 7 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Bence 30 11 right",
+                    "Delimiter": "/"
+                },
+                { //Mark
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Mark 13 6 right",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Mark 34 15 up",
+                    "Delimiter": "/"
+                }
+            ]
         },
-        { //Mark
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "Set-Up_additionalCharacters"
-          ],
-          "Value": "Mark 13 6 right",
-          "Delimiter": "/"
-        },
+        //YEAR TWO HG NPC festival data
         {
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "MainEvent_additionalCharacters"
-          ],
-          "Value": "Mark 34 15 up",
-          "Delimiter": "/"
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                { //Christopher
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Christopher 41 6 left",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters_y2"
+                    ],
+                    "Value": "Christopher 33 13 left",
+                    "Delimiter": "/"
+                },
+                { //Bence
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Bence 40 5 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters_y2"
+                    ],
+                    "Value": "Bence 16 9 right",
+                    "Delimiter": "/"
+                },
+                { //Mark
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Mark 39 6 right",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters_y2"
+                    ],
+                    "Value": "Mark 33 11 left",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        //YEAR ONE ISTI NPC festival data
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "When": {
+                "HasSeenEvent: anyPlayer|contains=IstiReturn": true
+            },
+            "TextOperations": [
+                { //Isti
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Isti 17 6 left",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Isti 36 6 down",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        //YEAR TWO ISTI NPC festival data
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "When": {
+                "HasSeenEvent: anyPlayer|contains=IstiReturn": true
+            },
+            "TextOperations": [
+                { //Isti
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Isti 29 6 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters_y2"
+                    ],
+                    "Value": "Isti 16 13 right",
+                    "Delimiter": "/"
+                }
+            ]
         }
-      ]
-    },
-    //YEAR TWO HG NPC festival data
-    {
-      "Action": "EditData",
-      "Target": "Data/Festivals/summer11",
-      "TextOperations": [
-        { //Christopher
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "Set-Up_additionalCharacters_y2"
-          ],
-          "Value": "Christopher 41 6 left",
-          "Delimiter": "/"
-        },
-        {
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "MainEvent_additionalCharacters_y2"
-          ],
-          "Value": "Christopher 33 13 left",
-          "Delimiter": "/"
-        },
-        { //Bence
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "Set-Up_additionalCharacters_y2"
-          ],
-          "Value": "Bence 40 5 down",
-          "Delimiter": "/"
-        },
-        {
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "MainEvent_additionalCharacters_y2"
-          ],
-          "Value": "Bence 16 9 right",
-          "Delimiter": "/"
-        },
-        { //Mark
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "Set-Up_additionalCharacters_y2"
-          ],
-          "Value": "Mark 39 6 right",
-          "Delimiter": "/"
-        },
-        {
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "MainEvent_additionalCharacters_y2"
-          ],
-          "Value": "Mark 33 11 left",
-          "Delimiter": "/"
-        }
-      ]
-    },
-    //YEAR ONE ISTI NPC festival data
-    {
-      "Action": "EditData",
-      "Target": "Data/Festivals/summer11",
-      "When": {
-        "HasSeenEvent: anyPlayer|contains=IstiReturn": true
-      },
-      "TextOperations": [
-        { //Isti
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "Set-Up_additionalCharacters"
-          ],
-          "Value": "Isti 17 6 left",
-          "Delimiter": "/"
-        },
-        {
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "MainEvent_additionalCharacters"
-          ],
-          "Value": "Isti 36 6 down",
-          "Delimiter": "/"
-        }
-      ]
-    },
-    //YEAR TWO ISTI NPC festival data
-    {
-      "Action": "EditData",
-      "Target": "Data/Festivals/summer11",
-      "When": {
-        "HasSeenEvent: anyPlayer|contains=IstiReturn": true
-      },
-      "TextOperations": [
-        { //Isti
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "Set-Up_additionalCharacters_y2"
-          ],
-          "Value": "Isti 29 6 down",
-          "Delimiter": "/"
-        },
-        {
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "MainEvent_additionalCharacters_y2"
-          ],
-          "Value": "Isti 16 13 right",
-          "Delimiter": "/"
-        }
-      ]
-    }
-  ]
+    ]
 }

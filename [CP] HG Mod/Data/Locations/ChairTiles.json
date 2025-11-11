@@ -4,15 +4,15 @@
             "Action": "EditData",
             "Target": "Data/ChairTiles",
             "Entries": {
-                    "spring_BenceCabinTilesheet/5/10": "2/1/down/bench/0/0/true",
-                    "spring_BenceCabinTilesheet/4/4": "1/1/right/custom 0.1 0.3 0/0/0/true",
-                    "HG_Cave/0/7": "1/1/down/stool/-1/-1/false",
-                    "HG_Cave/1/7": "1/1/down/stool/-1/-1/false",
-                    "AbandonedCabinInteriorTilesheet/4/4": "1/1/up/stool/-1/-1/false",
-                    "AbandonedCabinInteriorTilesheet/9/4": "1/1/up/stool/-1/-1/false",
-                    "AbandonedCabinInteriorTilesheet/3/3": "1/1/down/couch/-1/-1/false",
-                    "AbandonedCabinInteriorTilesheet/8/3": "1/1/down/couch/-1/-1/false",
+                "spring_BenceCabinTilesheet/5/10": "2/1/down/bench/0/0/true",
+                "spring_BenceCabinTilesheet/4/4": "1/1/right/custom 0.1 0.3 0/0/0/true",
+                "HG_Cave/0/7": "1/1/down/stool/-1/-1/false",
+                "HG_Cave/1/7": "1/1/down/stool/-1/-1/false",
+                "AbandonedCabinInteriorTilesheet/4/4": "1/1/up/stool/-1/-1/false",
+                "AbandonedCabinInteriorTilesheet/9/4": "1/1/up/stool/-1/-1/false",
+                "AbandonedCabinInteriorTilesheet/3/3": "1/1/down/couch/-1/-1/false",
+                "AbandonedCabinInteriorTilesheet/8/3": "1/1/down/couch/-1/-1/false"
             }
-        },
+        }
     ]
 }

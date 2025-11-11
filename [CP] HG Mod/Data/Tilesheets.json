@@ -10,41 +10,41 @@
             "Target": "Maps/BenceCabinInteriorTilesheet",
             "FromFile": "Assets/Tilesheets/BenceCabinInteriorTilesheet.png"
         },
-        { //Adds custom tilesheets and allows other modders to target SVE assets
+        {
             "Action": "Load",
             "Priority": "Low",
             "Target": "Maps/spring_ChristopherHouseTilesheet,Maps/summer_ChristopherHouseTilesheet,Maps/fall_ChristopherHouseTilesheet,Maps/winter_ChristopherHouseTilesheet",
-            "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png",
+            "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png"
         },
         {
             "Action": "Load",
             "Priority": "Low",
-            "Target": "Maps/spring_LangososTilesheet,Maps/summer_LangososTilesheet,Maps/fall_LangososTilesheet,Maps/winter_LangososTilesheet",
-            "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png",
+            "Target": "Maps/spring_LangosVendor,Maps/summer_LangosVendor,Maps/fall_LangosVendor,Maps/winter_LangosVendor",
+            "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png"
         },
         {
             "Action": "Load",
             "Priority": "Low",
             "Target": "Maps/spring_BenceCabinTilesheet,Maps/summer_BenceCabinTilesheet,Maps/fall_BenceCabinTilesheet,Maps/winter_BenceCabinTilesheet",
-            "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png",
+            "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png"
         },
         {
             "Action": "Load",
             "Priority": "Low",
             "Target": "Maps/spring_MarkHouse,Maps/summer_MarkHouse,Maps/fall_MarkHouse,Maps/winter_MarkHouse",
-            "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png",
+            "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png"
         },
         {
             "Action": "Load",
             "Priority": "Low",
             "Target": "Maps/spring_GardenCrops,Maps/summer_GardenCrops,Maps/fall_GardenCrops,Maps/winter_GardenCrops",
-            "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png",
+            "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png"
         },
         {
             "Action": "Load",
             "Priority": "Low",
             "Target": "Maps/spring_HG_Shadows,Maps/summer_HG_Shadows,Maps/fall_HG_Shadows,Maps/winter_HG_Shadows",
-            "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png",
+            "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png"
         },
         {
             "Action": "Load",
@@ -76,12 +76,6 @@
             "Target": "Maps/HG_Concert",
             "FromFile": "Assets/Tilesheets/HG_Concert.png"
         },
-        //{
-        //    "Action": "Load",
-        //    "Priority": "Low",
-        //    "Target": "Maps/hg_mine",
-        //    "FromFile": "Assets/Tilesheets/hg_mine.png"
-        //},
         {
             "Action": "Load",
             "Priority": "Low",
@@ -99,6 +93,48 @@
             "Priority": "Low",
             "Target": "Maps/MarkHouseInteriorTilesheet",
             "FromFile": "Assets/Tilesheets/MarkHouseInteriorTilesheet.png"
+        },
+        {
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Maps/AbandonedCabinInteriorTilesheet",
+            "FromFile": "Assets/Tilesheets/AbandonedCabinInteriorTilesheet.png"
+        },
+        {
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Maps/benceGame",
+            "FromFile": "Assets/Tilesheets/benceGame.png"
+        },
+        {
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Maps/cave_bg",
+            "FromFile": "Assets/Tilesheets/cave_bg.png"
+        },
+        {
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Maps/spring_AbandonedCabin,Maps/summer_AbandonedCabin,Maps/fall_AbandonedCabin,Maps/winter_AbandonedCabin",
+            "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png"
+        },
+        {
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Maps/horserace_tiles",
+            "FromFile": "Assets/Tilesheets/horserace_tiles.png"
+        },
+        {
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Maps/Island_NW_Hut",
+            "FromFile": "Assets/Tilesheets/Island_NW_Hut.png"
+        },
+        {
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Maps/Island_Shelter_tilesheet",
+            "FromFile": "Assets/Tilesheets/Island_Shelter_tilesheet.png"
         }
     ]
 }

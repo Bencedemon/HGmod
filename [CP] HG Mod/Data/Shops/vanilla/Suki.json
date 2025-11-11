@@ -24,7 +24,7 @@
                     "ItemId": "(F)Bencedemon.HG_ChristopherPortrait",
                     "IsRecipe": false,
                     "StackModifierMode": "Stack",
-                    "QualityModifierMode": "Stack",
+                    "QualityModifierMode": "Stack"
                 },
                 "Bencedemon.HG_BencePortrait":{
                     "Price": 30000,
@@ -41,7 +41,7 @@
                     "ItemId": "(F)Bencedemon.HG_BencePortrait",
                     "IsRecipe": false,
                     "StackModifierMode": "Stack",
-                    "QualityModifierMode": "Stack",
+                    "QualityModifierMode": "Stack"
                 },
                 "Bencedemon.HG_MarkPortrait":{
                     "Price": 30000,
@@ -58,7 +58,7 @@
                     "ItemId": "(F)Bencedemon.HG_MarkPortrait",
                     "IsRecipe": false,
                     "StackModifierMode": "Stack",
-                    "QualityModifierMode": "Stack",
+                    "QualityModifierMode": "Stack"
                 },
                 "Bencedemon.HG_IstiPortrait":{
                     "Price": 30000,
@@ -75,9 +75,9 @@
                     "ItemId": "(F)Bencedemon.HG_IstiPortrait",
                     "IsRecipe": false,
                     "StackModifierMode": "Stack",
-                    "QualityModifierMode": "Stack",
-                },
-            },
-		},
+                    "QualityModifierMode": "Stack"
+                }
+            }
+		}
     ]
 }

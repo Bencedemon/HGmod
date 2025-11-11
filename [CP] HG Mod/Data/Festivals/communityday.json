@@ -2,14 +2,14 @@
 	"Changes": [
 		{ //Christopher Community Day Schedule
 			"Action": "EditData",
-			"Target": "characters/schedules/Christopher",
+			"Target": "Characters/Schedules/Christopher",
 			"Entries": {
-				"FlashShifter.StardewValleyExpandedCP_CommunityDay": "800 Beach 11 39 2 dick_fish/1000 Beach 35 16 0/1050 CommunityCenter 39 10 0 \"Strings\\schedules\\Christopher:CommunityDay_Christopher\"/1330 CommunityCenter 5 5 0 \"Strings\\schedules\\Christopher:CommunityDay_Christopher\"/1410 CommunityCenter 7 7 2 Christopher_drink \"Strings\\schedules\\Christopher:CommunityDay_Christopher\"/1550 CommunityCenter 37 9 2 Christopher_drink \"Strings\\schedules\\Christopher:CommunityDay_Christopher\"/1800 Beach 11 39 2 dick_fish/2300 Custom_ChristopherHouseInterior 2 4 3 Christopher_Sleep",
-			},
+				"FlashShifter.StardewValleyExpandedCP_CommunityDay": "800 Beach 11 39 2 dick_fish/1000 Beach 35 16 0/1050 CommunityCenter 39 10 0 \"Strings\\schedules\\Christopher:CommunityDay_Christopher\"/1330 CommunityCenter 5 5 0 \"Strings\\schedules\\Christopher:CommunityDay_Christopher\"/1410 CommunityCenter 7 7 2 christopher_drink \"Strings\\schedules\\Christopher:CommunityDay_Christopher\"/1550 CommunityCenter 37 9 2 christopher_drink \"Strings\\schedules\\Christopher:CommunityDay_Christopher\"/1800 Beach 11 39 2 dick_fish/2300 Custom_ChristopherHouseInterior 2 4 3 christopher_sleep"
+			}
 		},
 		{ //Spring Dialogue
 			"Action": "EditData",
-			"Target": "strings/schedules/Christopher",
+			"Target": "Strings/Schedules/Christopher",
 			"When": {
 				"Season": "Spring",
 				"Season |contains=Summer, Fall, Winter": false
@@ -20,7 +20,7 @@
 		},
 		{ //Summer Dialogue
 			"Action": "EditData",
-			"Target": "strings/schedules/Christopher",
+			"Target": "Strings/Schedules/Christopher",
 			"When": {
 				"Season": "Summer",
 				"Season |contains=Spring, Fall, Winter": false
@@ -31,7 +31,7 @@
 		},
 		{ //Fall Dialogue
 			"Action": "EditData",
-			"Target": "strings/schedules/Christopher",
+			"Target": "Strings/Schedules/Christopher",
 			"When": {
 				"Season": "Fall",
 				"Season |contains=Spring, Summer, Winter": false
@@ -42,7 +42,7 @@
 		},
 		{ //Winter Dialogue
 			"Action": "EditData",
-			"Target": "strings/schedules/Christopher",
+			"Target": "Strings/Schedules/Christopher",
 			"When": {
 				"Season": "Winter",
 				"Season |contains=Spring, Summer, Fall": false
@@ -53,14 +53,14 @@
 		},
 		{ //Christopher Community Day Schedule - MARRIED
 			"Action": "EditData",
-			"Target": "characters/schedules/Christopher",
+			"Target": "Characters/Schedules/Christopher",
 			"Entries": {
-				"marriage_FlashShifter.StardewValleyExpandedCP_CommunityDay": "1030 CommunityCenter 39 10 0 \"Strings\\schedules\\Christopher:CommunityDay_Christopher_Married\"/1330 CommunityCenter 5 5 0 \"Strings\\schedules\\Christopher:CommunityDay_Christopher_Married\"/1410 CommunityCenter 7 7 2 Christopher_drink \"Strings\\schedules\\Christopher:CommunityDay_Christopher_Married\"/1550 CommunityCenter 37 9 2 Christopher_drink \"Strings\\schedules\\Christopher:CommunityDay_Christopher_Married\"/1800 bed",
-			},
+				"marriage_FlashShifter.StardewValleyExpandedCP_CommunityDay": "1030 CommunityCenter 39 10 0 \"Strings\\schedules\\Christopher:CommunityDay_Christopher_Married\"/1330 CommunityCenter 5 5 0 \"Strings\\schedules\\Christopher:CommunityDay_Christopher_Married\"/1410 CommunityCenter 7 7 2 christopher_drink \"Strings\\schedules\\Christopher:CommunityDay_Christopher_Married\"/1550 CommunityCenter 37 9 2 christopher_drink \"Strings\\schedules\\Christopher:CommunityDay_Christopher_Married\"/1800 bed"
+			}
 		},
 		{ //Spring Dialogue - MARRIED
 			"Action": "EditData",
-			"Target": "strings/schedules/Christopher",
+			"Target": "Strings/Schedules/Christopher",
 			"When": {
 				"Season": "Spring",
 				"Season |contains=Summer, Fall, Winter": false
@@ -71,7 +71,7 @@
 		},
 		{ //Summer Dialogue - MARRIED
 			"Action": "EditData",
-			"Target": "strings/schedules/Christopher",
+			"Target": "Strings/Schedules/Christopher",
 			"When": {
 				"Season": "Summer",
 				"Season |contains=Spring, Fall, Winter": false
@@ -82,7 +82,7 @@
 		},
 		{ //Fall Dialogue - MARRIED
 			"Action": "EditData",
-			"Target": "strings/schedules/Christopher",
+			"Target": "Strings/Schedules/Christopher",
 			"When": {
 				"Season": "Fall",
 				"Season |contains=Spring, Summer, Winter": false
@@ -93,7 +93,7 @@
 		},
 		{ //Winter Dialogue - MARRIED
 			"Action": "EditData",
-			"Target": "strings/schedules/Christopher",
+			"Target": "Strings/Schedules/Christopher",
 			"When": {
 				"Season": "Winter",
 				"Season |contains=Spring, Summer, Fall": false
@@ -105,22 +105,22 @@
 		
 		{ //LEAH Community Day Schedule
 			"Action": "EditData",
-			"Target": "characters/schedules/Leah",
+			"Target": "Characters/Schedules/Leah",
 			"Entries": {
-				"FlashShifter.StardewValleyExpandedCP_CommunityDay": "830 LeahHouse 12 14 0/1050 Forest 100 34 3/1120 CommunityCenter 36 17 1 \"Strings\\schedules\\Leah:CommunityDay_Leah\"/1410 CommunityCenter 38 16 2 \"Strings\\schedules\\Leah:CommunityDay_Leah\"/1430 CommunityCenter 41 14 2 leah_draw \"Strings\\schedules\\Leah:CommunityDay_Leah\"/1700 CommunityCenter 37 16 2 \"Strings\\schedules\\Leah:CommunityDay_Leah\"/1740 LeahHouse 2 4 3 leah_sleep",
-			},
+				"FlashShifter.StardewValleyExpandedCP_CommunityDay": "830 LeahHouse 12 14 0/1050 Forest 100 34 3/1120 CommunityCenter 36 17 1 \"Strings\\schedules\\Leah:CommunityDay_Leah\"/1410 CommunityCenter 38 16 2 \"Strings\\schedules\\Leah:CommunityDay_Leah\"/1430 CommunityCenter 41 14 2 leah_draw \"Strings\\schedules\\Leah:CommunityDay_Leah\"/1700 CommunityCenter 37 16 2 \"Strings\\schedules\\Leah:CommunityDay_Leah\"/1740 LeahHouse 2 4 3 leah_sleep"
+			}
 		},
 		{ //BENCE Community Day Schedule
 			"Action": "EditData",
-			"Target": "characters/schedules/Bence",
+			"Target": "Characters/Schedules/Bence",
 			"Entries": {
-				//"FlashShifter.StardewValleyExpandedCP_CommunityDay": "1000 CommunityCenter 36 18 1 Bence_ChillR \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1420 CommunityCenter 15 26 0 \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1510 CommunityCenter 17 26 0 \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1530 CommunityCenter 17 27 2 \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1550 CommunityCenter 18 27 1 \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1640 CommunityCenter 42 16 2 \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1740 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
-				"FlashShifter.StardewValleyExpandedCP_CommunityDay": "950 Forest 99 34 1/1120 CommunityCenter 36 18 1 Bence_ChillR \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1420 CommunityCenter 15 26 0 \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1510 CommunityCenter 17 26 0 \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1530 CommunityCenter 17 27 2 \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1550 CommunityCenter 18 27 1 \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1610 CommunityCenter 38 10 3 Bence Bence_ChillL \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1710 CommunityCenter 38 16 2 \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1740 Custom_BenceCabinInterior 13 7 3 Bence_sleep",
-			},
+				//"FlashShifter.StardewValleyExpandedCP_CommunityDay": "1000 CommunityCenter 36 18 1 bence_chillR \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1420 CommunityCenter 15 26 0 \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1510 CommunityCenter 17 26 0 \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1530 CommunityCenter 17 27 2 \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1550 CommunityCenter 18 27 1 \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1640 CommunityCenter 42 16 2 \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1740 Custom_BenceCabinInterior 13 7 3 bence_sleep",
+				"FlashShifter.StardewValleyExpandedCP_CommunityDay": "950 Forest 99 34 1/1120 CommunityCenter 36 18 1 bence_chill_R \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1420 CommunityCenter 15 26 0 \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1510 CommunityCenter 17 26 0 \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1530 CommunityCenter 17 27 2 \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1550 CommunityCenter 18 27 1 \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1610 CommunityCenter 38 10 3 Bence bence_chill_L \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1710 CommunityCenter 38 16 2 \"Strings\\schedules\\Bence:CommunityDay_Bence\"/1740 Custom_BenceCabinInterior 13 7 3 bence_sleep"
+			}
 		},
 		{ //Spring Dialogue
 			"Action": "EditData",
-			"Target": "strings/schedules/Bence",
+			"Target": "Strings/Schedules/Bence",
 			"When": {
 				"Season": "Spring",
 				"Season |contains=Summer, Fall, Winter": false
@@ -131,7 +131,7 @@
 		},
 		{ //Summer Dialogue
 			"Action": "EditData",
-			"Target": "strings/schedules/Bence",
+			"Target": "Strings/Schedules/Bence",
 			"When": {
 				"Season": "Summer",
 				"Season |contains=Spring, Fall, Winter": false
@@ -142,7 +142,7 @@
 		},
 		{ //Fall Dialogue
 			"Action": "EditData",
-			"Target": "strings/schedules/Bence",
+			"Target": "Strings/Schedules/Bence",
 			"When": {
 				"Season": "Fall",
 				"Season |contains=Spring, Summer, Winter": false
@@ -153,7 +153,7 @@
 		},
 		{ //Winter Dialogue
 			"Action": "EditData",
-			"Target": "strings/schedules/Bence",
+			"Target": "Strings/Schedules/Bence",
 			"When": {
 				"Season": "Winter",
 				"Season |contains=Spring, Summer, Fall": false
@@ -164,14 +164,14 @@
 		},
 		{ //BENCE Community Day Schedule - MARRIED
 			"Action": "EditData",
-			"Target": "characters/schedules/Bence",
+			"Target": "Characters/Schedules/Bence",
 			"Entries": {
-				"marriage_FlashShifter.StardewValleyExpandedCP_CommunityDay": "1030 CommunityCenter 15 26 0 \"Strings\\schedules\\Bence:CommunityDay_Bence_Married\"/1420 CommunityCenter 16 24 2 \"Strings\\schedules\\Bence:CommunityDay_Bence_Married\"/1510 CommunityCenter 17 26 0 \"Strings\\schedules\\Bence:CommunityDay_Bence_Married\"/1530 CommunityCenter 17 27 2 \"Strings\\schedules\\Bence:CommunityDay_Bence_Married\"/1550 CommunityCenter 18 27 1 \"Strings\\schedules\\Bence:CommunityDay_Bence_Married\"/1610 CommunityCenter 38 10 3 Bence Bence_ChillL \"Strings\\schedules\\Bence:CommunityDay_Bence_Married\"/1710 bed",
-			},
+				"marriage_FlashShifter.StardewValleyExpandedCP_CommunityDay": "1030 CommunityCenter 15 26 0 \"Strings\\schedules\\Bence:CommunityDay_Bence_Married\"/1420 CommunityCenter 16 24 2 \"Strings\\schedules\\Bence:CommunityDay_Bence_Married\"/1510 CommunityCenter 17 26 0 \"Strings\\schedules\\Bence:CommunityDay_Bence_Married\"/1530 CommunityCenter 17 27 2 \"Strings\\schedules\\Bence:CommunityDay_Bence_Married\"/1550 CommunityCenter 18 27 1 \"Strings\\schedules\\Bence:CommunityDay_Bence_Married\"/1610 CommunityCenter 38 10 3 Bence bence_chill_L \"Strings\\schedules\\Bence:CommunityDay_Bence_Married\"/1710 bed"
+			}
 		},
 		{ //Spring Dialogue - MARRIED
 			"Action": "EditData",
-			"Target": "strings/schedules/Bence",
+			"Target": "Strings/Schedules/Bence",
 			"When": {
 				"Season": "Spring",
 				"Season |contains=Summer, Fall, Winter": false
@@ -182,7 +182,7 @@
 		},
 		{ //Summer Dialogue - MARRIED
 			"Action": "EditData",
-			"Target": "strings/schedules/Bence",
+			"Target": "Strings/Schedules/Bence",
 			"When": {
 				"Season": "Summer",
 				"Season |contains=Spring, Fall, Winter": false
@@ -193,7 +193,7 @@
 		},
 		{ //Fall Dialogue - MARRIED
 			"Action": "EditData",
-			"Target": "strings/schedules/Bence",
+			"Target": "Strings/Schedules/Bence",
 			"When": {
 				"Season": "Fall",
 				"Season |contains=Spring, Summer, Winter": false
@@ -204,7 +204,7 @@
 		},
 		{ //Winter Dialogue - MARRIED
 			"Action": "EditData",
-			"Target": "strings/schedules/Bence",
+			"Target": "Strings/Schedules/Bence",
 			"When": {
 				"Season": "Winter",
 				"Season |contains=Spring, Summer, Fall": false
@@ -216,14 +216,14 @@
 		
 		{ //Mark Community Day Schedule
 			"Action": "EditData",
-			"Target": "characters/schedules/Mark",
+			"Target": "Characters/Schedules/Mark",
 			"Entries": {
-				"FlashShifter.StardewValleyExpandedCP_CommunityDay": "800 Custom_MarkHouseInterior 14 5 0/1030 CommunityCenter 9 6 3 mark_drink \"Strings\\schedules\\Mark:CommunityDay_Mark\"/1600 CommunityCenter 13 27 3 \"Strings\\schedules\\Mark:CommunityDay_Mark\"/1800 Custom_MarkHouseInterior 15 13 3 mark_sleep",
-			},
+				"FlashShifter.StardewValleyExpandedCP_CommunityDay": "800 Custom_MarkHouseInterior 14 5 0/1030 CommunityCenter 9 6 3 mark_drink \"Strings\\schedules\\Mark:CommunityDay_Mark\"/1600 CommunityCenter 13 27 3 \"Strings\\schedules\\Mark:CommunityDay_Mark\"/1800 Custom_MarkHouseInterior 15 13 3 mark_sleep"
+			}
 		},
 		{ //Spring Dialogue
 			"Action": "EditData",
-			"Target": "strings/schedules/Mark",
+			"Target": "Strings/Schedules/Mark",
 			"When": {
 				"Season": "Spring",
 				"Season |contains=Summer, Fall, Winter": false
@@ -234,7 +234,7 @@
 		},
 		{ //Summer Dialogue
 			"Action": "EditData",
-			"Target": "strings/schedules/Mark",
+			"Target": "Strings/Schedules/Mark",
 			"When": {
 				"Season": "Summer",
 				"Season |contains=Spring, Fall, Winter": false
@@ -245,7 +245,7 @@
 		},
 		{ //Fall Dialogue
 			"Action": "EditData",
-			"Target": "strings/schedules/Mark",
+			"Target": "Strings/Schedules/Mark",
 			"When": {
 				"Season": "Fall",
 				"Season |contains=Spring, Summer, Winter": false
@@ -256,7 +256,7 @@
 		},
 		{ //Winter Dialogue
 			"Action": "EditData",
-			"Target": "strings/schedules/Mark",
+			"Target": "Strings/Schedules/Mark",
 			"When": {
 				"Season": "Winter",
 				"Season |contains=Spring, Summer, Fall": false
@@ -267,14 +267,14 @@
 		},
 		{ //Mark Community Day Schedule - MARRIED
 			"Action": "EditData",
-			"Target": "characters/schedules/Mark",
+			"Target": "Characters/Schedules/Mark",
 			"Entries": {
-				"marriage_FlashShifter.StardewValleyExpandedCP_CommunityDay": "1030 CommunityCenter 9 6 3 mark_drink \"Strings\\schedules\\Mark:CommunityDay_Mark_Married\"/1300 CommunityCenter 44 14 3 mark_music_L \"Strings\\schedules\\Mark:CommunityDay_Mark_Married\"/1610 CommunityCenter 37 11 0/1800 bed",
-			},
+				"marriage_FlashShifter.StardewValleyExpandedCP_CommunityDay": "1030 CommunityCenter 9 6 3 mark_drink \"Strings\\schedules\\Mark:CommunityDay_Mark_Married\"/1300 CommunityCenter 44 14 3 mark_music_L \"Strings\\schedules\\Mark:CommunityDay_Mark_Married\"/1610 CommunityCenter 37 11 0/1800 bed"
+			}
 		},
 		{ //Spring Dialogue - MARRIED
 			"Action": "EditData",
-			"Target": "strings/schedules/Mark",
+			"Target": "Strings/Schedules/Mark",
 			"When": {
 				"Season": "Spring",
 				"Season |contains=Summer, Fall, Winter": false
@@ -285,7 +285,7 @@
 		},
 		{ //Summer Dialogue - MARRIED
 			"Action": "EditData",
-			"Target": "strings/schedules/Mark",
+			"Target": "Strings/Schedules/Mark",
 			"When": {
 				"Season": "Summer",
 				"Season |contains=Spring, Fall, Winter": false
@@ -296,7 +296,7 @@
 		},
 		{ //Fall Dialogue - MARRIED
 			"Action": "EditData",
-			"Target": "strings/schedules/Mark",
+			"Target": "Strings/Schedules/Mark",
 			"When": {
 				"Season": "Fall",
 				"Season |contains=Spring, Summer, Winter": false
@@ -307,7 +307,7 @@
 		},
 		{ //Winter Dialogue - MARRIED
 			"Action": "EditData",
-			"Target": "strings/schedules/Mark",
+			"Target": "Strings/Schedules/Mark",
 			"When": {
 				"Season": "Winter",
 				"Season |contains=Spring, Summer, Fall": false
@@ -319,9 +319,9 @@
 		
 		{ //Isti Community Day Schedule
 			"Action": "EditData",
-			"Target": "characters/schedules/Isti",
+			"Target": "Characters/Schedules/Isti",
 			"Entries": {
-				"FlashShifter.StardewValleyExpandedCP_CommunityDay": "800 Custom_IstiHouseInterior 14 5 0/1030 CommunityCenter 9 6 3 Isti_drink \"Strings\\schedules\\Isti:CommunityDay_Isti\"/1600 CommunityCenter 13 27 3 \"Strings\\schedules\\Isti:CommunityDay_Isti\"/1800 Custom_IstiHouseInterior 15 13 3 Isti_sleep",
+				"FlashShifter.StardewValleyExpandedCP_CommunityDay": "800 Custom_IstiHouseInterior 14 5 0/1030 CommunityCenter 55 13 2 isti_drink \"Strings\\schedules\\Isti:CommunityDay_Isti\"/1830 Custom_IstiCabinInterior 1 4 2 isti_sleep"
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer|contains=IstiReturn": true
@@ -329,7 +329,7 @@
 		},
 		{ //Spring Dialogue
 			"Action": "EditData",
-			"Target": "strings/schedules/Isti",
+			"Target": "Strings/Schedules/Isti",
 			"When": {
 				"Season": "Spring",
 				"Season |contains=Summer, Fall, Winter": false,
@@ -341,7 +341,7 @@
 		},
 		{ //Summer Dialogue
 			"Action": "EditData",
-			"Target": "strings/schedules/Isti",
+			"Target": "Strings/Schedules/Isti",
 			"When": {
 				"Season": "Summer",
 				"Season |contains=Spring, Fall, Winter": false,
@@ -353,7 +353,7 @@
 		},
 		{ //Fall Dialogue
 			"Action": "EditData",
-			"Target": "strings/schedules/Isti",
+			"Target": "Strings/Schedules/Isti",
 			"When": {
 				"Season": "Fall",
 				"Season |contains=Spring, Summer, Winter": false,
@@ -365,7 +365,7 @@
 		},
 		{ //Winter Dialogue
 			"Action": "EditData",
-			"Target": "strings/schedules/Isti",
+			"Target": "Strings/Schedules/Isti",
 			"When": {
 				"Season": "Winter",
 				"Season |contains=Spring, Summer, Fall": false,
@@ -377,9 +377,9 @@
 		},
 		{ //Isti Community Day Schedule - MARRIED
 			"Action": "EditData",
-			"Target": "characters/schedules/Isti",
+			"Target": "Characters/Schedules/Isti",
 			"Entries": {
-				"marriage_FlashShifter.StardewValleyExpandedCP_CommunityDay": "1030 CommunityCenter 9 6 3 Isti_drink \"Strings\\schedules\\Isti:CommunityDay_Isti_Married\"/1300 CommunityCenter 44 14 3 Isti_music_L \"Strings\\schedules\\Isti:CommunityDay_Isti_Married\"/1610 CommunityCenter 37 11 0/1800 bed",
+				"marriage_FlashShifter.StardewValleyExpandedCP_CommunityDay": "1030 CommunityCenter 55 13 2 isti_drink \"Strings\\schedules\\Isti:CommunityDay_Isti_Married\"/1800 bed"
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer|contains=IstiReturn": true
@@ -387,7 +387,7 @@
 		},
 		{ //Spring Dialogue - MARRIED
 			"Action": "EditData",
-			"Target": "strings/schedules/Isti",
+			"Target": "Strings/Schedules/Isti",
 			"When": {
 				"Season": "Spring",
 				"Season |contains=Summer, Fall, Winter": false,
@@ -399,7 +399,7 @@
 		},
 		{ //Summer Dialogue - MARRIED
 			"Action": "EditData",
-			"Target": "strings/schedules/Isti",
+			"Target": "Strings/Schedules/Isti",
 			"When": {
 				"Season": "Summer",
 				"Season |contains=Spring, Fall, Winter": false,
@@ -411,7 +411,7 @@
 		},
 		{ //Fall Dialogue - MARRIED
 			"Action": "EditData",
-			"Target": "strings/schedules/Isti",
+			"Target": "Strings/Schedules/Isti",
 			"When": {
 				"Season": "Fall",
 				"Season |contains=Spring, Summer, Winter": false,
@@ -423,7 +423,7 @@
 		},
 		{ //Winter Dialogue - MARRIED
 			"Action": "EditData",
-			"Target": "strings/schedules/Isti",
+			"Target": "Strings/Schedules/Isti",
 			"When": {
 				"Season": "Winter",
 				"Season |contains=Spring, Summer, Fall": false,
@@ -432,6 +432,6 @@
 			"Entries": {
 				"CommunityDay_Isti_Married": "{{i18n:Isti.CommunityDay.08}}"
 			}
-		},
+		}
     ]
 }

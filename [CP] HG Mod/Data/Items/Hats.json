@@ -9,24 +9,6 @@
                 "Bencedemon.HG_MarkMask": "MarkMask/{{i18n:Hat.MarkMask.Desc}}/true/true//{{i18n:Hat.MarkMask.Name}}/2/Mods\\Bencedemon.HG\\Hats",
                 "Bencedemon.HG_IstiMask": "IstiMask/{{i18n:Hat.IstiMask.Desc}}/true/true//{{i18n:Hat.IstiMask.Name}}/3/Mods\\Bencedemon.HG\\Hats"
             }
-        },
-        {
-            //Hats
-            "Action": "Load", "Priority": "Low",
-            "Target": "Mods/Bencedemon.HG/Hats",
-            "When": {
-                "MarkLegacyLook": false
-            },
-            "FromFile": "Assets/Textures/HG_Hats.png"
-        },
-        {
-            //Hats Legacy
-            "Action": "Load", "Priority": "Low",
-            "Target": "Mods/Bencedemon.HG/Hats",
-            "When": {
-                "MarkLegacyLook": true
-            },
-            "FromFile": "Assets/Textures/HG_Hats_Legacy.png"
         }
     ]
 }

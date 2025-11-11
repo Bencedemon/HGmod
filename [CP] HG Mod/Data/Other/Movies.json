@@ -12,197 +12,197 @@
             "Target": "Data/Movies",
             "Entries":{
                 "Summer_HGhorror_0": {
-                "ID": "Summer_HGhorror_0",
-                "Seasons": [ "Summer", "Fall" ],
-                "SheetIndex": 8,
-                "Title": "{{i18n:HGHorror.Title}}",
-                "Description": "{{i18n:HGHorror.Desc}}",
-                "Tags": [
-                "horror",
-                "comedy"
-                ],
-                "CranePrizes":[
-                {
-                    "Rarity": 1,
-                    "Condition": null,
-                    "Id": "Bencedemon.HG_HorrorPoster",
-                    "ItemId": "(F)Bencedemon.HG_HorrorPoster",
-                    "RandomItemId": null,
-                    "MaxItems": null,
-                    "MinStack": -1,
-                    "MaxStack": -1,
-                    "Quality": -1,
-                    "ObjectInternalName": null,
-                    "ObjectDisplayName": null,
-                    "ObjectColor": null,
-                    "ToolUpgradeLevel": -1,
-                    "IsRecipe": false,
-                    "StackModifiers": null,
-                    "StackModifierMode": "Stack",
-                    "QualityModifiers": null,
-                    "QualityModifierMode": "Stack",
-                    "ModData": null,
-                    "PerItemCondition": null
+                    "ID": "Summer_HGhorror_0",
+                    "Seasons": [ "Summer", "Fall" ],
+                    "SheetIndex": 8,
+                    "Title": "{{i18n:HGHorror.Title}}",
+                    "Description": "{{i18n:HGHorror.Desc}}",
+                    "Tags": [
+                        "horror",
+                        "comedy"
+                    ],
+                    "CranePrizes":[
+                        {
+                            "Rarity": 1,
+                            "Condition": null,
+                            "Id": "Bencedemon.HG_HorrorPoster",
+                            "ItemId": "(F)Bencedemon.HG_HorrorPoster",
+                            "RandomItemId": null,
+                            "MaxItems": null,
+                            "MinStack": -1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "ObjectInternalName": null,
+                            "ObjectDisplayName": null,
+                            "ObjectColor": null,
+                            "ToolUpgradeLevel": -1,
+                            "IsRecipe": false,
+                            "StackModifiers": null,
+                            "StackModifierMode": "Stack",
+                            "QualityModifiers": null,
+                            "QualityModifierMode": "Stack",
+                            "ModData": null,
+                            "PerItemCondition": null
+                        }
+                    ],
+                    "Scenes": [
+                        {
+                            "Image": 0,
+                            "Music": "",
+                            "Sound": "thunder",
+                            "MessageDelay": 500,
+                            "Script": "",
+                            "Text": "{{i18n:HGHorror.01}}",
+                            "Shake": false,
+                            "ResponsePoint": null,
+                            "ID": "HGhorror0_0"
+                        },
+                        {
+                            "Image": 1,
+                            "Music": "",
+                            "Sound": "",
+                            "MessageDelay": 500,
+                            "Script": "",
+                            "Text": "{{i18n:HGHorror.02}}",
+                            "Shake": false,
+                            "ResponsePoint": null,
+                            "ID": "HGhorror0_1"
+                        },
+                        {
+                            "Image": 2,
+                            "Music": "",
+                            "Sound": "thunder_small",
+                            "MessageDelay": 500,
+                            "Script": "",
+                            "Text": "{{i18n:HGHorror.03}}",
+                            "Shake": false,
+                            "ResponsePoint": null,
+                            "ID": "HGhorror0_2"
+                        },
+                        {
+                            "Image": 1,
+                            "Music": "",
+                            "Sound": "",
+                            "MessageDelay": 500,
+                            "Script": "",
+                            "Text": "{{i18n:HGHorror.04}}",
+                            "Shake": false,
+                            "ResponsePoint": null,
+                            "ID": "HGhorror0_3"
+                        },
+                        {
+                            "Image": 3,
+                            "Music": "",
+                            "Sound": "",
+                            "MessageDelay": 500,
+                            "Script": "",
+                            "Text": "{{i18n:HGHorror.05}}",
+                            "Shake": false,
+                            "ResponsePoint": null,
+                            "ID": "HGhorror0_4"
+                        },
+                        {
+                            "Image": 4,
+                            "Music": "",
+                            "Sound": "death",
+                            "MessageDelay": 500,
+                            "Script": "",
+                            "Text": "{{i18n:HGHorror.06}}",
+                            "Shake": true,
+                            "ResponsePoint": null,
+                            "ID": "HGhorror0_5"
+                        },
+                        {
+                            "Image": 5,
+                            "Music": "",
+                            "Sound": "doorOpen",
+                            "MessageDelay": 500,
+                            "Script": "",
+                            "Text": "{{i18n:HGHorror.07}}",
+                            "Shake": false,
+                            "ResponsePoint": null,
+                            "ID": "HGhorror0_6"
+                        },
+                        {
+                            "Image": 5,
+                            "Music": "",
+                            "Sound": "",
+                            "MessageDelay": 500,
+                            "Script": "",
+                            "Text": "{{i18n:HGHorror.08}}",
+                            "Shake": false,
+                            "ResponsePoint": null,
+                            "ID": "HGhorror0_7"
+                        },
+                        {
+                            "Image": 6,
+                            "Music": "",
+                            "Sound": "",
+                            "MessageDelay": 500,
+                            "Script": "",
+                            "Text": "{{i18n:HGHorror.09}}",
+                            "Shake": false,
+                            "ResponsePoint": null,
+                            "ID": "HGhorror0_8"
+                        },
+                        {
+                            "Image": 7,
+                            "Music": "",
+                            "Sound": "ghost",
+                            "MessageDelay": 500,
+                            "Script": "",
+                            "Text": "{{i18n:HGHorror.10}}",
+                            "Shake": false,
+                            "ResponsePoint": null,
+                            "ID": "HGhorror0_9"
+                        },
+                        {
+                            "Image": 6,
+                            "Music": "",
+                            "Sound": "",
+                            "MessageDelay": 500,
+                            "Script": "",
+                            "Text": "{{i18n:HGHorror.11}}",
+                            "Shake": false,
+                            "ResponsePoint": null,
+                            "ID": "HGhorror0_10"
+                        },
+                        {
+                            "Image": 8,
+                            "Music": "",
+                            "Sound": "death",
+                            "MessageDelay": 500,
+                            "Script": "",
+                            "Text": "{{i18n:HGHorror.12}}",
+                            "Shake": true,
+                            "ResponsePoint": null,
+                            "ID": "HGhorror0_11"
+                        },
+                        {
+                            "Image": 9,
+                            "Music": "",
+                            "Sound": "death",
+                            "MessageDelay": 500,
+                            "Script": "",
+                            "Text": "{{i18n:HGHorror.13}}",
+                            "Shake": true,
+                            "ResponsePoint": null,
+                            "ID": "HGhorror0_12"
+                        },
+                        {
+                            "Image": 0,
+                            "Music": "",
+                            "Sound": "thunder",
+                            "MessageDelay": 500,
+                            "Script": "",
+                            "Text": "{{i18n:HGHorror.14}}",
+                            "Shake": false,
+                            "ResponsePoint": null,
+                            "ID": "HGhorror0_13"
+                        }
+                    ]
                 }
-                ],
-                "Scenes": [
-                {
-                    "Image": 0,
-                    "Music": "",
-                    "Sound": "thunder",
-                    "MessageDelay": 500,
-                    "Script": "",
-                    "Text": "{{i18n:HGHorror.01}}",
-                    "Shake": false,
-                    "ResponsePoint": null,
-                    "ID": "HGhorror0_0"
-                },
-                {
-                    "Image": 1,
-                    "Music": "",
-                    "Sound": "",
-                    "MessageDelay": 500,
-                    "Script": "",
-                    "Text": "{{i18n:HGHorror.02}}",
-                    "Shake": false,
-                    "ResponsePoint": null,
-                    "ID": "HGhorror0_1"
-                },
-                {
-                    "Image": 2,
-                    "Music": "",
-                    "Sound": "thunder_small",
-                    "MessageDelay": 500,
-                    "Script": "",
-                    "Text": "{{i18n:HGHorror.03}}",
-                    "Shake": false,
-                    "ResponsePoint": null,
-                    "ID": "HGhorror0_2"
-                },
-                {
-                    "Image": 1,
-                    "Music": "",
-                    "Sound": "",
-                    "MessageDelay": 500,
-                    "Script": "",
-                    "Text": "{{i18n:HGHorror.04}}",
-                    "Shake": false,
-                    "ResponsePoint": null,
-                    "ID": "HGhorror0_3"
-                },
-                {
-                    "Image": 3,
-                    "Music": "",
-                    "Sound": "",
-                    "MessageDelay": 500,
-                    "Script": "",
-                    "Text": "{{i18n:HGHorror.05}}",
-                    "Shake": false,
-                    "ResponsePoint": null,
-                    "ID": "HGhorror0_4"
-                },
-                {
-                    "Image": 4,
-                    "Music": "",
-                    "Sound": "death",
-                    "MessageDelay": 500,
-                    "Script": "",
-                    "Text": "{{i18n:HGHorror.06}}",
-                    "Shake": true,
-                    "ResponsePoint": null,
-                    "ID": "HGhorror0_5"
-                },
-                {
-                    "Image": 5,
-                    "Music": "",
-                    "Sound": "doorOpen",
-                    "MessageDelay": 500,
-                    "Script": "",
-                    "Text": "{{i18n:HGHorror.07}}",
-                    "Shake": false,
-                    "ResponsePoint": null,
-                    "ID": "HGhorror0_6"
-                },
-                {
-                    "Image": 5,
-                    "Music": "",
-                    "Sound": "",
-                    "MessageDelay": 500,
-                    "Script": "",
-                    "Text": "{{i18n:HGHorror.08}}",
-                    "Shake": false,
-                    "ResponsePoint": null,
-                    "ID": "HGhorror0_7"
-                },
-                {
-                    "Image": 6,
-                    "Music": "",
-                    "Sound": "",
-                    "MessageDelay": 500,
-                    "Script": "",
-                    "Text": "{{i18n:HGHorror.09}}",
-                    "Shake": false,
-                    "ResponsePoint": null,
-                    "ID": "HGhorror0_8"
-                },
-                {
-                    "Image": 7,
-                    "Music": "",
-                    "Sound": "ghost",
-                    "MessageDelay": 500,
-                    "Script": "",
-                    "Text": "{{i18n:HGHorror.10}}",
-                    "Shake": false,
-                    "ResponsePoint": null,
-                    "ID": "HGhorror0_9"
-                },
-                {
-                    "Image": 6,
-                    "Music": "",
-                    "Sound": "",
-                    "MessageDelay": 500,
-                    "Script": "",
-                    "Text": "{{i18n:HGHorror.11}}",
-                    "Shake": false,
-                    "ResponsePoint": null,
-                    "ID": "HGhorror0_10"
-                },
-                {
-                    "Image": 8,
-                    "Music": "",
-                    "Sound": "death",
-                    "MessageDelay": 500,
-                    "Script": "",
-                    "Text": "{{i18n:HGHorror.12}}",
-                    "Shake": true,
-                    "ResponsePoint": null,
-                    "ID": "HGhorror0_11"
-                },
-                {
-                    "Image": 9,
-                    "Music": "",
-                    "Sound": "death",
-                    "MessageDelay": 500,
-                    "Script": "",
-                    "Text": "{{i18n:HGHorror.13}}",
-                    "Shake": true,
-                    "ResponsePoint": null,
-                    "ID": "HGhorror0_12"
-                },
-                {
-                    "Image": 0,
-                    "Music": "",
-                    "Sound": "thunder",
-                    "MessageDelay": 500,
-                    "Script": "",
-                    "Text": "{{i18n:HGHorror.14}}",
-                    "Shake": false,
-                    "ResponsePoint": null,
-                    "ID": "HGhorror0_13"
-                },
-                ]
-            },
-            },
-        },
+            }
+        }
     ]
 }

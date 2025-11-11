@@ -34,7 +34,7 @@
 				"2481135/f Alex 1000/t 900 1600": "sweet/-1000 -1000/farmer 42 73 1 Alex 53 69 0 Caroline 45 60 1 Olivia 47 60 3 Pam 71 69 2 Evelyn 62 57 0 Bence 43 77 2/addTemporaryActor Dusty 16 32 -300 -300 2 true/positionOffset Alex -30 0/positionOffset Bence 0 16/skippable/showFrame Bence 32/hideShadow Bence true/viewport 54 69 true/move farmer 12 0 0 true/pause 1000/speak Alex \"{{i18n:Alex.4heart.01}}\"/pause 300/playSound dog_pant/pause 300/playSound dog_pant true/speak Dusty \"{{i18n:Alex.4heart.02}}\"/pause 100/speak Alex \"{{i18n:Alex.4heart.03}}\"/pause 600/move farmer 0 -4 3/pause 300/faceDirection Alex 1/pause 180/jump Alex/pause 700/speak Alex \"{{i18n:Alex.4heart.04}}\"/pause 1000/question fork1 \"{{i18n:Alex.4heart.05}}\"/fork didntHear/switchEvent AlexFourHeart",
 				"didntHear": "pause 400/pause 100/faceDirection Alex 1/speak Alex \"{{i18n:Alex.4heart.didntHear.01}}\"/switchEvent AlexFourHeart",
 				"AlexFourHeart": "pause 500/faceDirection Alex 2/pause 1000/showFrame Alex 27/pause 600/playMusic desolate/emote Alex 28/speak Alex \"{{i18n:Alex.4heart.AlexFourHeart.01}}\"/pause 1000/showFrame Alex 4 true/faceDirection Alex 1/pause 500/speak Alex \"{{i18n:Alex.4heart.AlexFourHeart.02}}\"/faceDirection Alex 0/speak Alex \"{{i18n:Alex.4heart.AlexFourHeart.03}}\"/pause 800/speak Alex \"{{i18n:Alex.4heart.AlexFourHeart.04}}\"/pause 2000/emote Alex 40/faceDirection Alex 1/playMusic spring_day_ambient/speak Alex \"{{i18n:Alex.4heart.AlexFourHeart.05}}\"/pause 500/speak Alex \"{{i18n:Alex.4heart.AlexFourHeart.06}}\"/faceDirection Alex 0/pause 300/playSound dog_bark/pause 300/move farmer 0 0 0/pause 200/playSound dog_bark/speak Dusty \"{{i18n:Alex.4heart.AlexFourHeart.07}}\"/pause 400/globalFade/viewport -1000 -1000/end"
-			},
-		},
+			}
+		}
 	]
 }

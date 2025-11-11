@@ -17,7 +17,7 @@
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": true,
                     "ExcludeFromShippingCollection": false,
-                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromRandomSale": true
                 },
                 "Bencedemon.HG_Palinka": {
                     "Name": "Palinka",
@@ -76,7 +76,7 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "food_party"
-                    ],
+                    ]
                 },
                 "Bencedemon.HG_Pretzel": {
                     "Name": "Pretzel",
@@ -94,7 +94,7 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_brown"
-                    ],
+                    ]
                 },
                 "Bencedemon.HG_Popcorn": {
                     "Name": "Popcorn",
@@ -112,7 +112,7 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_white"
-                    ],
+                    ]
                 },
                 "Bencedemon.HG_CottonCandy": {
                     "Name": "CottonCandy",
@@ -130,7 +130,7 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_pink"
-                    ],
+                    ]
                 },
                 "Bencedemon.HG_Fries": {
                     "Name": "Fries",
@@ -148,7 +148,7 @@
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_pink"
-                    ],
+                    ]
                 },
                 "Bencedemon.HG_StrawberrySundae": {
                     "Name": "StrawberrySundae",
@@ -175,8 +175,8 @@
                                 "Speed": 1,
                                 "Defense": 1,
                                 "Attack": 1
-                            },
-                        },
+                            }
+                        }
                     ],
                     "ExcludeFromFishingCollection": true,
                     "ExcludeFromShippingCollection": false,
@@ -373,7 +373,7 @@
                     ],
                     "ExcludeFromFishingCollection": true,
                     "ExcludeFromShippingCollection": false,
-                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromRandomSale": true
                 },
                 "Bencedemon.HG_PizzaHun": {
                     "Name": "PizzaHun",
@@ -420,7 +420,7 @@
                     ],
                     "ExcludeFromFishingCollection": true,
                     "ExcludeFromShippingCollection": false,
-                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromRandomSale": true
                 },
                 "Bencedemon.HG_TropicThunder": {
                     "Name": "TropicThunder",
@@ -471,7 +471,7 @@
                     "ContextTags": [
                         "drink_item"
                     ]
-                },
+                }
             }
         }
     ]

@@ -408,8 +408,8 @@
   "Jukebox.Kchan" : "Kurisutofu-chan",
 
   //Buildings -CUTCONTENT-
-  "Building.Sawmill.Name": "Fűrészmalom",
-  "Building.Sawmill.Desc": "Fűrészmalom leírás",
+  //"Building.Sawmill.Name": "Fűrészmalom",
+  //"Building.Sawmill.Desc": "Fűrészmalom leírás",
   
   //BigCraftables
   "BigCraftables.PalinkaDistillery.Name": "Pálinkafőző",
@@ -448,7 +448,7 @@
   "FoodItem.Fries.Desc": "Vékony burgonyaszeletek, amiket jól átsütnek, majd könnyedén megsóznak.", //Thin slices of potato, deep fried and then lightly salted.
 
   "FoodItem.StrawberrySundae.Name": "Strawberry Sundae",
-  "FoodItem.StrawberrySundae.Desc": "Nem csak gyerekeknek.",//Not just for kids.
+  "FoodItem.StrawberrySundae.Desc": "Nem csak gyerekeknek.",//Not just for kids. //(!)
 
   "FoodItem.Lemonade.Name": "Limonádé",
   "FoodItem.Lemonade.Desc": "Frissítő ital.",
@@ -475,17 +475,17 @@
   "Object.PizzaBox.Name": "Üres pizzás doboz",
   "Object.PizzaBox.Desc": "Ez csak szemét.",
 
-  "Object.Sawdust.Name": "Fűrészpor",
-  "Object.Sawdust.Desc": "(Csak eladás)",
+  //"Object.Sawdust.Name": "Fűrészpor",
+  //"Object.Sawdust.Desc": "(Csak eladás)",
 
-  "Object.Plankwood.Name": "Fa deszka",
-  "Object.Plankwood.Desc": "(Csak eladás)",
+  //"Object.Plankwood.Name": "Fa deszka",
+  //"Object.Plankwood.Desc": "(Csak eladás)",
 
-  "Object.SawdustHW.Name": "Fűrészpor (Keményfa)",
-  "Object.SawdustHW.Desc": "(Csak eladás)",
+  //"Object.SawdustHW.Name": "Fűrészpor (Keményfa)",
+  //"Object.SawdustHW.Desc": "(Csak eladás)",
 
-  "Object.PlankwoodHW.Name": "Keményfa deszka",
-  "Object.PlankwoodHW.Desc": "(Csak eladás)",
+  //"Object.PlankwoodHW.Name": "Keményfa deszka",
+  //"Object.PlankwoodHW.Desc": "(Csak eladás)",
 
   "Object.Fishing-elixir.Name": "Horgász Elixír",
   "Object.Fishing-elixir.Desc": "Kristóf saját készítésű elixírje. (Én nem innám meg.)",
@@ -611,12 +611,9 @@
   "BenceCabin.Axe": "Régi fejsze.",
   "BenceCabin.Phone": "Önnek 3db nem fogadott üzenete van.",
   "BenceCabin.Laptop": "Bence laptopja.",
-  "BenceCabin.Papers": "Papers", //DELTED
   "BenceCabin.Fridge": "Egy eléggé üres hűtőszekrény, csak nagyon kevés dolog van benne.",
   "BenceCabin.Pizza": "Egy pizza valószínüleg a szalonból.",
   "BenceCabin.Firewood": "Frissen vágott fahasábok.",
-  "BenceCabin.Furnace": "Furnace", //DELTED
-  "BenceCabin.FurnaceLit": "Furnace", //DELTED
   "BenceCabin.Bookshelf": "Egy poros könyvespolc.",
 
   "BenceCabinOutside.Axe": "Bence iridium baltálya.",

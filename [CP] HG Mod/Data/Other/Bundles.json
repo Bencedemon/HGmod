@@ -189,26 +189,26 @@
          "Target": "UnlockableBundles/CompletionRibbons",
          "Entries": {
             "Bencedemon.Ribbon": { //The ribbon id should be unique.
-               "Texture": "{{InternalAssetKey: Assets/Textures/HG_BundleRibbon.png}}", 
+               "Texture": "{{InternalAssetKey: Assets/Minigames/HG_BundleRibbon.png}}", 
                "TextureSource": { "X": 0, "Y": 0, "Width": 161, "Height": 71 },
                "CompletedTextPosition": "25, 33",//"80, 45",
                "Effects": [
                   {
-                     "Texture": "{{InternalAssetKey: Assets/Textures/HG_BundleRibbon_Animation00.png}}",
+                     "Texture": "{{InternalAssetKey: Assets/Minigames/HG_BundleRibbon_Animation00.png}}",
                      "TextureSource": { "X": 0, "Y": 0, "Width": 1, "Height": 25 },
                      "Animation": "0@500, 1-25@25",
                      "Area": { "X": 86, "Y": 40, "Width": 0, "Height": 0 },
                      "Repeat": true,
-                     "Drag": false,
+                     "Drag": false
                   },
                   {
-                     "Texture": "{{InternalAssetKey: Assets/Textures/HG_BundleRibbon_Animation01.png}}",
+                     "Texture": "{{InternalAssetKey: Assets/Minigames/HG_BundleRibbon_Animation01.png}}",
                      "TextureSource": { "X": 0, "Y": 0, "Width": 1, "Height": 38 },
                      "Animation": "0@850, 1-38@25",
                      "Area": { "X": 47, "Y": 27, "Width": 0, "Height": 0 },
                      "Repeat": true,
-                     "Drag": false,
-                  },
+                     "Drag": false
+                  }
                ]
             }
          }
@@ -216,7 +216,7 @@
       { //HG_Cave Final
          "Action": "EditMap",
          "Target": "Maps/Custom_HGCave",
-         "FromFile": "assets/Maps/MapPatches/HGCave_Final.tbin",
+         "FromFile": "Assets/Maps/MapPatches/HGCave_Final.tbin",
          "ToArea": {
             "X": 0,
             "Y": 0,
@@ -232,7 +232,7 @@
       { //HG_Cave Dwarfs
          "Action": "EditMap",
          "Target": "Maps/Custom_HGCave",
-         "FromFile": "assets/Maps/MapPatches/HGCave_Dwarfs.tbin",
+         "FromFile": "Assets/Maps/MapPatches/HGCave_Dwarfs.tbin",
          "ToArea": {
             "X": 0,
             "Y": 0,
@@ -243,13 +243,13 @@
          "PatchMode": "Overlay",
          "When": {
             "HasFlag": "HGCave_Opening",
-            "Day": "6, 7, 13, 14, 20, 21, 27, 28",
+            "Day": "6, 7, 13, 14, 20, 21, 27, 28"
          }
       },
       { //HG_Cave Visitors
          "Action": "EditMap",
          "Target": "Maps/Custom_HGCave",
-         "FromFile": "assets/Maps/MapPatches/HGCave_Visitors.tbin",
+         "FromFile": "Assets/Maps/MapPatches/HGCave_Visitors.tbin",
          "ToArea": {
             "X": 0,
             "Y": 0,
