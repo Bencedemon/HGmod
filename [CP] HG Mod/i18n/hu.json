@@ -1,16 +1,16 @@
 {
   //Festivals
-  "EggFestival.07": "It's time for the highlight of today's festivities... The Annual Spring Egg Hunt! $h",
-  "EggFestival.08": "Calm down now, kiddos. You're going to need all your energy if you hope to find the most eggs and take home the exclusive prize.",
-  "EggFestival.09": "Now... Is everyone ready?",
-  "EggFestival.10": "Let the egg hunt begin! $h",
+  "EggFestival.07": "És elérkezett az idő a mai ünnepség fénypontjához... Az idei tavaszi Tojásvadászathoz!$h",
+  "EggFestival.08": "Csillapodjatok le gyerekek! Minden energiátokra szükség lesz, ha ti szeretnétek megtalálni a legtöbb tojást, és haza kívánjátok vinni az exkluzív ajándékot.",
+  "EggFestival.09": "Nos... Mindenki készen áll?",
+  "EggFestival.10": "Kezdődjék a tojásvadászat!$h",
   "MoonlightJellies.Message": "A nyár sugara most elhalványult... és a holdfény medúzák továbbmennek a nagy ismeretlenbe.",
 
   //SVE_Events
-  "Olivia.OrderEvent.01": "I must say, this event turned out perfectly!$3#$b#It's all thanks to you, dear. The wine and cheese from %farm Farm is nothing short of perfection!$1",
-  "Olivia.OrderEvent.02": "This local wine and cheese is delectable!$0#$b#Tell me farmer, what's your secret?$1",
-  "Olivia.OrderEvent.03": "I sense my friendship with the reception's guests has increased. I've also learned how to properly sample wine - increasing health and stamina healed when I drink it!",
-  "Olivia.OrderEvent.04": "My reception was a huge success! Thank you, @.$3#$e#I must watch my pocket book for the time being. The event was fun, but was quite expensive!$6",
+  "Olivia.OrderEvent.01": "Azt kell mondanom, hogy ez az esemény tökéletesen sikerült!$3#$b#Mindez neked köszönhető, kedvesem. A bor és a sajt%Farm Farm nem kevesebb, mint a tökéletesség!$1",
+  "Olivia.OrderEvent.02": "Ez a helyi bor és sajt ínycsiklandó!$0#$b#Mondd csak farmer, mi a titkod?$1",
+  "Olivia.OrderEvent.03": "Úgy érzem, hogy a barátságom a fogadás vendégeivel megnőtt. Azt is megtanultam, hogyan kell helyesen kóstolni a bort - az egészség és az állóképesség növelése gyógyult, amikor megiszom!",
+  "Olivia.OrderEvent.04": "A fogadásom hatalmas siker volt! Köszönöm!@.$3#$e#Egyelőre vigyáznom kell a zsebemre. Az esemény szórakoztató volt, de elég drága volt!$6",
   
   //Abigail 8 Heart Event
   "Abigail.8hearts.01": "Hé! Reméltem, hogy felbukkansz. Mutatni akarok neked valamit.",
@@ -27,22 +27,22 @@
   "Abigail.8hearts.12": "Oké, hozok be D.O.T.S.-ot meg könyvet.",
 
   //Emily Event Saloon 
-  "Emily.Event.01": "Hey!",
-  "Emily.Event.02": "@! It's great to see you!$1",
-  "Emily.Event.03": "Gus, may I make @ a drink on the house?$0",
-  "Emily.Event.04": "Sure, Emily!$0#$b#@, enjoy the free drink. We appreciate the business you've given the saloon!$1",
-  "Emily.Event.05": "Hmm... I see.",
-  "Emily.Event.06": "Yay! Here's our cocktail menu. Which drink would you like?$1",
-  "Emily.Event.07": "$q -1 null#*** ** **STARDROP SALOON COCKTAIL MENU** ** ***#$r -1 0 emily_event1#'SHOOTING COMET' - Ingredients: Whiskey, Lime Juice, Mint Leaves, Sugar#$r -1 0 emily_event2#'LUNAR HORIZON' - Ingredients: Gin, Sugar Syrup, Lime Juice, Sparkling Water#$r -1 0 emily_event3#'ROSETTE NEBULA' - Ingredients: Vodka, Cranberry Juice, Cointreau, Lime Juice#$r -1 0 emily_event4#'THE BIG BANG' - Ingredients: White Rum, Dark Rum, Orange Curacao, Orgeat Syrup, Lemon Juice#$r -1 0 emily_event5#'HAZY SUNRISE' - Ingredients: Orange Juice, Lemon Juice, Soda, Grenadine Syrup",
-  "Emily.Event.08": "Give me just a moment while I whip this up for you!$1",
+  "Emily.Event.01": "Hé, hé, hé!",
+  "Emily.Event.02": "@! Örülök, hogy látlak!$1",
+  "Emily.Event.03": "Gus, megkérhetem, hogy@ egy italt a ház számlájára?$0",
+  "Emily.Event.04": "Persze, Emily!$0#$b#@Élvezd az ingyen italt. Nagyra értékeljük az üzletet, amit a kocsmának adtál!$1",
+  "Emily.Event.05": "Hmm... Értem.",
+  "Emily.Event.06": "Ez az! Itt a koktélkínálatunk. Melyik italt szeretné?$1",
+  "Emily.Event.07": "$q -1 null#*** ** **HULLÓCSILLAG SZALON KOKTÉL MENÜ** ** ***#$r -1 0 emily_event1#'LÖVŐ ÜSTÖKÖS' - Hozzávalók: Whisky, Limelé, Mentalevél, Cukor#$r -1 0 emily_event2#'HOLDHORIZONT' - Hozzávalók: Gin, Cukor Szirup, Limelé, Szénsavas Víz#$r -1 0 emily_event3#'ROSETTA NEBULA' - Hozzávalók: Vodka, Áfonyalé, Cointreau, Limelé#$r -1 0 emily_event4#'AZ ŐSROBBANÁS' - Hozzávalók: Fehér Rum, Sötét Rum, Narancs Curacao, Orgeat Szirup, Citromlé#$r -1 0 emily_event5#'KÖDÖS NAPFELKELTE' - Hozzávalók: Narancslé, Citromlé, Szóda, Grenadine Szirup",
+  "Emily.Event.08": "Adj egy percet, amíg összeállítom ezt neked!$1",
   "Emily.Event.Christopher": "*böff*",
-  "Emily.Event.09": "Of course, Pam!",
-  "Emily.Event.10": "Voila! Here you are, @. I hope you enjoy it!$1",
-  "Emily.Event.11": "Here you are!",
-  "Emily.Event.12": "I see... Then it's settled, Marlon.",
-  "Emily.Event.13": "How was the beverage? Did you like it?#The drink was amazing.#It tasted horrible...",
-  "Emily.Event.14": "Oh... I'm sorry, @.$2#$b#Well umm... I'm going to get back to work. I'm really sorry it didn't turn out well.$2",
-  "Emily.Event.15": "I'm sorry that drink wasn't up your alley... Let's try a different one next time.$2",
+  "Emily.Event.09": "Természetesen, Pam!",
+  "Emily.Event.10": "Voila! Tessék,@. Remélem, ízleni fog!$1",
+  "Emily.Event.11": "Tessék!",
+  "Emily.Event.12": "Látom... Akkor el van intézve, Marlon.",
+  "Emily.Event.13": "Milyen volt az ital? Tetszett?#The drink was amazing.#Borzalmas íze volt...",
+  "Emily.Event.14": "Ó... sajnálom,@.$2#$b#Nos... Vissza kell mennem dolgozni. Nagyon sajnálom, hogy nem sikerült jól.$2",
+  "Emily.Event.15": "Sajnálom, hogy az az ital nem volt a kedvenced... Legközelebb próbáljunk ki valami mást.$2",
 
   //Emily 8 Heart Event
   "Emily.8hearts.01": "Üdvözlünk a ruhaterápián!",
@@ -84,12 +84,12 @@
   "Emily.8hearts.37": "Értem most már. Most elmegyek... Gratulálok, @.$7",
 
   //Sam 8 Heart Event
-  "Sam.8hearts.01": "Hi @. Thanks for coming.",
-  "Sam.8hearts.02": "Well, our gear's loaded already... Looks like everything's set.",
-  "Sam.8hearts.03": "Alright, everyone... let's get in the bus!$u",
-  "Sam.8hearts.04": "*gulp*... I'm starting to get really nervous.$8",
-  "Sam.8hearts.05": "Okay, here we are... wish me luck!$u",
-  "Sam.8hearts.06": "Hey. The show was a great success! Thanks again, @.",
+  "Sam.8hearts.01": "Szia @. Köszönöm, hogy eljöttél.",
+  "Sam.8hearts.02": "Nos, a felszerelésünk már be van csomagolva... Úgy tűnik minden készen áll.",
+  "Sam.8hearts.03": "Rendben mindenki... szálljunk be a buszba!$u",
+  "Sam.8hearts.04": "*nyel*... Kezdek nagyon ideges lenni.$8",
+  "Sam.8hearts.05": "Rendben, itt is volnánk... kívánj sok sikert!$u",
+  "Sam.8hearts.06": "Hé. A műsornak nagy sikere volt! Ismét köszönöm, @.",
 
   //Elliott 4 Heart Event
   "Elliott.4hearts.01": "Üdv. Egy pillanat és felveszem a rendelésed.",
@@ -118,238 +118,238 @@
   "Clint.3hearts.15": "*sóhaj*$s#$b#Végem van...$s",
 
   //Alex 4 Heart
-  "Alex.4heart.01": "That's a good boy, Dusty.",
+  "Alex.4heart.01": "Jó fiú vagy, Dusty.",
   "Alex.4heart.02": "!!!$4",
-  "Alex.4heart.03": "You might be the only one around here who understands me.$s#$b#No one else has seen the kind of stuff you and I have.$s",
-  "Alex.4heart.04": "@! Did you overhear me talking?$7",
-  "Alex.4heart.05": "#Yes, I heard everything.#Not really... why?",
-  "Alex.4heart.didntHear.01": "Oh... I was talking to Dusty.#$b#He and I have a lot in common, actually.$s",
-  "Alex.4heart.AlexFourHeart.01": "I don't really like to talk about it, but I guess I'll explain...$s",
-  "Alex.4heart.AlexFourHeart.02": "Have you ever wondered why I live with my grandparents?$s#$b#You see, my father wasn't a good guy... He... Well, he ruined everything for me and my mom.$a#$b#Half the time he was gone... The other half he'd drink all night and tell me I'm worthless, that I'd never amount to anything.$a#$b#I think he resented me for being young... Bitter because he'd wasted his youth doing nothing and had gotten nowhere in life.",
-  "Alex.4heart.AlexFourHeart.03": "Well... that's my take on it, anyway. Who knows what was going on in his mind.$a",
-  "Alex.4heart.AlexFourHeart.04": "One day he left, and soon after that Mom got sick and passed away. I had no choice but to move in with my grandparents.$s",
-  "Alex.4heart.AlexFourHeart.05": "You seem like someone I can trust... That's why I'm telling you this, @. I don't want any sympathy.$s#$b#If there's one good thing about my past, it's that it made me strong.",
-  "Alex.4heart.AlexFourHeart.06": "Now... let me show you what Dusty will do for a barbecued steak. $h",
+  "Alex.4heart.03": "Talán te vagy az egyetlen itt, aki megért engem.$s#$b#Senki más nem látott olyan dolgokat, mint te és én.$s",
+  "Alex.4heart.04": "@! Hallottad, hogy beszéltem?$7",
+  "Alex.4heart.05": "#Yes, I heard everything.#Nem igazán... miért?",
+  "Alex.4heart.didntHear.01": "Oh... Dustyval beszéltem.#$b#Sok közös van bennünk, igazából.$s",
+  "Alex.4heart.AlexFourHeart.01": "Nem igazán szeretek erről beszélni, de azt hiszem, megmagyarázom...$s",
+  "Alex.4heart.AlexFourHeart.02": "Gondolkoztál már azon, hogy miért élek a nagyszüleimnél?$s#$b#Tudod, apám nem volt egy jó ember... Ő... Hát, mindent tönkretett nekem és anyámnak.$a#$b#Az idő felében, amikor elment... A másik felében egész éjjel ivott, és azt mondta, hogy értéktelen vagyok, hogy sosem lesz belőlem semmi.$a#$b#Azt hiszem, neheztelt rám, mert fiatal voltam... Keserű volt, mert elpazarolta a fiatalságát semmire, és nem jutott semmire az életben.",
+  "Alex.4heart.AlexFourHeart.03": "Hát... én legalábbis így látom. Ki tudja, mi járt a fejében.$a",
+  "Alex.4heart.AlexFourHeart.04": "Egy nap elment, és nem sokkal ezután anya megbetegedett és meghalt. Nem volt más választásom, mint a nagyszüleimhez költözni.$s",
+  "Alex.4heart.AlexFourHeart.05": "Úgy nézel ki, mint akiben megbízhatok... Ezért mondom ezt el neked,@. Nem akarok együttérzést.$s#$b#Ha van valami jó dolog a múltamban, az az, hogy erőssé tett.",
+  "Alex.4heart.AlexFourHeart.06": "Most pedig... hadd mutassam meg, mit tesz Dusty egy barbecue steakért.$h",
   "Alex.4heart.AlexFourHeart.07": "Bark!!!$1",
 
-  //Elliott BookReading
-  "Elliott.BookReading.01": "@, you made it! $h#$b#I feel so relieved to be done with my book... it's like an elephant's been lifted off my shoulders.",
-  "Elliott.BookReading.02": "Well, I'd better get started with the reading... Wish me luck.$8",
-  "Elliott.BookReading.03": "Good afternoon, everyone.",
-  "Elliott.BookReading.04": "Hi!",
-  "Elliott.BookReading.05": "Ever since I was a young boy, I've dreamt of becoming a writer.#$b#When the time came for me to leave home and start my own life, I moved here. I was drawn to the peaceful beauty of the valley, and hoped that days of quiet reflection in this idyllic atmosphere would fan the literary flames.",
-  "Elliott.BookReading.06": "After countless hours scribbling at my writing desk, I present to you my first novel: 'The Rise And Fall Of Planet Yazzo'... It's a sci-fi epic spanning thousands of years in an exotic planetary system.",
-  "Elliott.BookReading.07": "Chapter One.#$b#Commander Yutkin stepped through the golden archway as the airlock snapped shut behind him. Today was his first day on Planet Yazzo, and all 14 of the alliance delegates had been summoned to the Grand Spire...",
-  "Elliott.BookReading.08": "...And as the 7th moon descended beneath the horizon, the planet of Yazzo would begin its sinister transformation... an event for which Commander Yutkin was completely unprepared.",
-  "Elliott.BookReading.09": "Well, that concludes my reading. I'll be selling signed copies of the book by the front desk. Thanks for listening! $h",
-  "Elliott.BookReading.10": "Well, how was it?",
-  "Elliott.BookReading.11": "Thanks. $h#$b#You know, I got the idea for making a sci-fi book from you. Do you remember?#$b#That's why I've dedicated this book to you...$l",
-  "Elliott.BookReading.mysteryBook.01": "After countless hours scribbling at my writing desk, I present to you my first book: 'Blue Tower'... It's a mystery novel set in a surreal, dystopian future.",
-  "Elliott.BookReading.mysteryBook.02": "Chapter One.#$b#From the shadows emerged a man, radiating with enigmatic omniscience. 'Good Evening, Mr. Lu,' he said, the corners of his mouth quivering. Lu seemed astonished. 'How did you know my name?'",
-  "Elliott.BookReading.mysteryBook.03": "Lu checked Jenu's pockets, then stood up and walked into the bedroom. He quickly found the small golden key that he was looking for and slipped it into his coat pocket.",
-  "Elliott.BookReading.mysteryBook.04": "Well, that concludes my reading. I'll be selling signed copies of the book by the front desk. Thanks for listening! $h",
-  "Elliott.BookReading.mysteryBook.05": "Well, how was it?",
-  "Elliott.BookReading.mysteryBook.06": "Thanks. $h#$b#You know, I got the idea for making a mystery from you. Do you remember?#$b#That's why I've dedicated this book to you...$l",
-  "Elliott.BookReading.romanceBook.01": "After countless hours scribbling at my writing desk, I present to you my first novel: 'Camellia Station'... It's a romance novel about a train stewardess who falls in love with a traveling architect...",
-  "Elliott.BookReading.romanceBook.02": "Chapter One.#$b#'Your ticket, sir?' Ticket collector Gozman extended a gloved hand towards the young commuter. 'Ah, yes. I have it right here,' he replied, reaching into his coat pocket. Mortified, he discovered that the ticket was missing.",
-  "Elliott.BookReading.romanceBook.03": "...'Clara, there's something I must tell you,' he blurted as she turned to leave. Clara turned, slowly, and saw the look of desperation in Horatio's eye. At that moment Gozman burst into the compartment, red-faced.",
-  "Elliott.BookReading.romanceBook.04": "Well, that concludes my reading. I'll be selling signed copies of the book by the front desk. Thanks for listening! $h",
-  "Elliott.BookReading.romanceBook.05": "Well, how was it?",
-  "Elliott.BookReading.romanceBook.06": "Thanks. $h#$b#You know, I got the idea for writing a romance novel from you. Do you remember?#$b#That's why I've dedicated this book to you...$l",
+  //Elliott BookReading  
+  "Elliott.BookReading.01": "@, hát itt vagy!$h#$b#Annyira megkönnyebbültem, hogy végeztem a könyvemmel... mintha egy elefánt került volna le a vállamról.",
+  "Elliott.BookReading.02": "Nos, elkezdhetném az olvasást... Kívánj nekem szerencsét!$8",
+  "Elliott.BookReading.03": "Szép délutánt mindenkinek.",
+  "Elliott.BookReading.04": "Szia!",  
+  "Elliott.BookReading.05": "Egészen fiatal korom óta ábrándoztam arról, hogy író leszek.#$b#Mikor eljött az idő, hogy elhagyjam az otthonom és saját életet kezdjek, ide költöztem. Bevonzott engem a völgy békés szépsége, és reménykedtem benne, hogy csendes napjaim ebben az idilli légkörben irodalmi érzékeimet lángra lobbantják majd.",
+  "Elliott.BookReading.06": "Az íróasztalomnál töltött számtalan órányi firkálás után bemutatom első regényemet: 'A Yazzo bolygó felemelkedése és bukása'... Ez egy epikus sci-fi, ami több ezer évet ölel fel egy egzotikus naprendszerben.",
+  "Elliott.BookReading.07": "Első fejezet.#$b#Yutkin parancsnok belépett az arany folyosóra, miközben mögötte bezárult a légzsilip. Ez volt számára a Yazzo bolygón töltött első nap, és mind a 14 szövetségi küldöttet ide idézték a Nagy spirálhoz...",
+  "Elliott.BookReading.08": "...És amint a 7. hold is eltűnt a horizontról, a Yazzo bolygó megkezdte ádáz átalakulását... egy olyan eseményt, amire még Yutkin parancsnok se volt felkészülve.",
+  "Elliott.BookReading.09": "Nos, ennyi lett volna a felolvasás. Az első asztalnál aláírt példányokat fogok eladni. Köszönöm, hogy meghallgattátok!$h",
+  "Elliott.BookReading.10": "Nos, milyen volt?",
+  "Elliott.BookReading.11": "Köszönöm. $h#$b#Tudod, a sci-fi témát még te dobtad fel nekem ötletként. Emlékszel?#$b#Ezért is dedikáltam ezt a könyvet neked...$l",
+  "Elliott.BookReading.mysteryBook.01": "Az íróasztalomnál töltött számtalan órányi firkálás után bemutatom első regényemet: 'A kék torony'... Ez egy rejtélyes regény, ami egy szürreális, disztópikus jövőben játszódik.",
+  "Elliott.BookReading.mysteryBook.02": "Első fejezet.#$b#Az árnyékok közül kiemelkedett egy férfi, titokzatos mindentudással ragyogva. 'Jó estét, Mr. Lu,' mondta remegő szájjal. Lu meglepődöttnek tűnt. 'Honnan tudja a nevem?'",
+  "Elliott.BookReading.mysteryBook.03": "Lu átkutatta Jenu zsebeit, majd felállt, és bement a hálószobába. Gyorsan megtalálta azt az apró aranykulcsot, amit ezidáig keresett, és becsúsztatta a kabátjának zsebébe.",
+  "Elliott.BookReading.mysteryBook.04": "Nos, ennyi lett volna a felolvasás. Az első asztalnál aláírt példányokat fogok eladni. Köszönöm, hogy meghallgattátok!$h",
+  "Elliott.BookReading.mysteryBook.05": "Nos, milyen volt?",
+  "Elliott.BookReading.mysteryBook.06": "Köszönöm. $h#$b#Tudod, a rejtélyes témát még te dobtad fel nekem ötletként. Emlékszel?#$b#Ezért is dedikáltam ezt a könyvet neked...$l",
+  "Elliott.BookReading.romanceBook.01": "Az íróasztalomnál töltött számtalan órányi firkálás után bemutatom első regényemet: 'Kamélia állomás'... Ez egy romantikus regény, ami egy vonaton dolgozó hölgyről szól, aki szerelmes lesz egy utazó építészbe...",
+  "Elliott.BookReading.romanceBook.02": "Első fejezet.#$b#'Kérem a jegyét, uram!' A jegygyűjtő Gozman kinyújtotta kesztyűs kezét a fiatal utas felé. 'Ah, igen. Pont itt van,' válaszolta a férfi, azzal belenyúlt a zsebébe. Nagyon rémülten vette tudomásul, hogy a jegye nem volt nála.",
+  "Elliott.BookReading.romanceBook.03": "...'Clara, el kell mondanom neked valamit,' kiáltotta a távozó lány után. Clara lassan visszafordult, és látta Horatio kétségbeesett tekintetét. Abban a pillanatban Gozman berontott a fülkébe, elvörösödött fejjel.",
+  "Elliott.BookReading.romanceBook.04": "Nos, ennyi lett volna a felolvasás. Az első asztalnál aláírt példányokat fogok eladni. Köszönöm, hogy meghallgattátok!$h",
+  "Elliott.BookReading.romanceBook.05": "Nos, milyen volt?",
+  "Elliott.BookReading.romanceBook.06": "Köszönöm. $h#$b#Tudod, a romantikus témát még te dobtad fel nekem ötletként. Emlékszel?#$b#Ezért is dedikáltam ezt a könyvet neked...$l",
   
   //Leah's art show
-  "Leah.ArtShow.01": "@! You're here! $h#$b#Okay... I guess I'd better introduce my pieces. Wish me luck!$l",
-  "Leah.ArtShow.02": "Umm... Okay everyone!",
-  "Leah.ArtShow.03": "Thanks for coming to my art show.$l",
-  "Leah.ArtShow.04": "As some of you know, I came to this town because I wanted to draw inspiration from the beautiful surroundings.",
-  "Leah.ArtShow.05": "This place really feels like home now. $h#$b#Okay. I'm going to introduce my sculptures now.",
-  "Leah.ArtShow.06": "I haven't named this one, yet. She started out as an exercise in human anatomy, but I ended up seeing her through to completion.#$b#Her expression is intentionally unclear... is she embarrassed, amused, pained? I'll leave that for you to decide.",
-  "Leah.ArtShow.07": "This one's called 'Post-Dimensional Nullspace'. It represents the boundary of human imagination.$u#$b#The shape and color came to me vividly when I was in a 'trance state'.",
-  "Leah.ArtShow.08": "I've been calling this one 'Egg Heads'. I wanted to create an animatronic humanoid statue to toy with the viewer's ability to properly attribute personhood to a physical entity. ",
-  "Leah.ArtShow.09": "And the last one is called 'Wood Sculpture 3'. It's a celebration of my favorite sculpting material... wood.",
-  "Leah.ArtShow.10": "Well, those are my sculptures!$l#$b#Oh! One last thing.",
-  "Leah.ArtShow.11": "I'd like to say thanks to my special friend, @.#$b#He gave me the idea for this show and the courage to go through with it. I know that sounds cheesy, but it's true.^She gave me the idea for this show and the courage to go through with it. I know that sounds cheesy, but it's true.",
-  "Leah.ArtShow.12": "I'm proud of you, Leah! Events like this really breathe life into our little town! $h",
-  "Leah.ArtShow.13": "Great stuff!",
-  "Leah.ArtShow.14": "I love your art, Leah! 'Post-Dimensional Nullspace' is my favorite. $h",
-  "Leah.ArtShow.15": "Great use of wood!",
-  "Leah.ArtShow.16": "Thanks for doing this! $h",
-  "Leah.ArtShow.17": "Exquisite art, Leah!$3",
-  "Leah.ArtShow.18": "Thanks, everyone! $h",
-  "Leah.ArtShow.19": "Now let's start the bidding on these wonderful art pieces... A marvelous addition to your home! $h#$b#Do I hear 5000g for the pink one?",
-  "Leah.ArtShow.20": "Wow! I'm exhausted.#$b#My show was a real success, wasn't it?$h",
+  "Leah.ArtShow.01": "@! Hát itt vagy!$h#$b#Oké... Azt hiszem jobb, ha bemutatom amiket készítettem. Kívánj sok szerencsét!$l",
+  "Leah.ArtShow.02": "Őőő... Oké, mindenki!",
+  "Leah.ArtShow.03": "Köszönöm, hogy eljöttetek a művészeti kiállításomra.$l",
+  "Leah.ArtShow.04": "Mint páran tudjátok, azért jöttem ebbe a városba, mivel inspirációt akartam meríteni a gyönyörű környezetből.",
+  "Leah.ArtShow.05": "Ez a hely valóban az otthonommá vált.$h#$b#Oké. Most pedig bemutatom a szobraimat.",
+  "Leah.ArtShow.06": "Ezt még nem neveztem el. Az emberi anatómia tanulmányozására készült, de a végén teljesen befejeztem őt.#$b#Az érzelmei direkt nehezen érthetőek... zavart, szórakozott, gyötrődik? A döntést rátok bízom.",
+  "Leah.ArtShow.07": "Ezt 'Poszt-dimenzionális nulltérnek' neveztem el. Ez az emberi képzelőerő határait jelképezi.$u#$b#Az alakja és színe élénken ugrott be számomra, mikor egyfajta 'transzban' voltam.",
+  "Leah.ArtShow.08": "Ezt 'Tojásfejeknek' neveztem el. Egy animatronikus humanoid szobrot akartam készíteni, ami eljátszik a nézők képességeivel, hogy helyesen ruházzanak fel személyiséggel egy fizikai entitást.",
+  "Leah.ArtShow.09": "És az utolsó neve pedig '3. faszobor'. Ez az általam legjobban kedvelt és megmunkálható anyag ünnepléséről szól... a fáról.",
+  "Leah.ArtShow.10": "Nos, ezek a szobraim!$l#$b#Ó! Még egy utolsó dolog.",
+  "Leah.ArtShow.11": "Szeretném, ha köszönet érné a különleges barátomat, @ gazdát.#$b#Ő adta az ötletet ehhez a kiállításhoz, valamint a bátorságot, hogy véghez vigyem. Tudom, ez kissé furán hangzik, de igaz.",
+  "Leah.ArtShow.12": "Büszke vagyok rád, Leah! Az ilyen események azok, amik életet adnak kicsiny városunkba!$h",
+  "Leah.ArtShow.13": "Remek cuccok!",
+  "Leah.ArtShow.14": "Tetszik a művészeted, Leah! A 'Poszt-dimenzionális nulltér' a kedvencem.$h",
+  "Leah.ArtShow.15": "Remek famegmunkálás!",
+  "Leah.ArtShow.16": "Köszönöm, hogy ezt megcsináltad!$h",
+  "Leah.ArtShow.17": "Kiváló művészet, Leah!$3",
+  "Leah.ArtShow.18": "Mindenkinek köszönöm!$h",
+  "Leah.ArtShow.19": "És most kezdjük meg a licitálást ezekre a gyönyörű művészeti alkotásokra... Remekül jönnek bárki otthonába!$h#$b#Jól hallom, hogy 5.000g-t ajánlott valaki a rózsaszínért?",
+  "Leah.ArtShow.20": "Váó! Elfáradtam.#$b#Ugye, hogy milyen sikeres volt a műsorom?$h",
 
   //ANDY 2 Heart event - 'New Regulations'
-  "Andy.2hearts.01": "Andy, as I said before, you can't ignore-$2",
-  "Andy.2hearts.02": "No! You listen to me! What in tarnation is that supposed to mean!?$5#$b#Don't come tellin' me I owe more! I'm doin' just fine with Fairhaven Farm. Don't you go tellin me this bad news!$2",
-  "Andy.2hearts.03": "It's out of my hands. The Ferngill government adjust-$2",
-  "Andy.2hearts.04": "I'M NOT HEARIN' ANY OF THIS! THIS WILL RUIN ME, YA HEAR!?$7",
-  "Andy.2hearts.05": "I thought this valley SUPPORTED local farmers!?$5",
-  "Andy.2hearts.06": "The mayor of Grampleton isn't happy with this either. I'm in no way trying to-$2",
-  "Andy.2hearts.07": "NO! THE ANSWER IS NO, LEWIS! I CAN BARELY AFFORD MY SEEDS FOR NEW HARVESTS! I CAN'T AFFORD THIS AT ALL!$7",
-  "Andy.2hearts.08": "Andy, everything will be okay. I'm going to divert funds from the fest-$2",
-  "Andy.2hearts.09": "I DON'T NEED NO ONE'S HELP! I DON'T ACCEPT HANDOUTS! I'LL FIGURE SOMETHIN' OUT!$7",
+  "Andy.2hearts.01": "Andy, ahogy már mondtam, nem hagyhatod figyelmen kívül...$2",
+  "Andy.2hearts.02": "Nem! Te figyelj rám! Mi a fenét akar ez jelenteni?!?$5#$b#Ne mondd, hogy többel tartozom! Jól megvagyok a Fairhaven Farmmal. Ne mondd nekem ezt a rossz hírt!$2",
+  "Andy.2hearts.03": "Nem az én kezemben van. A Ferngill kormány...$2",
+  "Andy.2hearts.04": "ÉN EZT NEM HALLGATOM MEG! EZ TÖNKRETESZ ENGEM, HALLOD?!$7",
+  "Andy.2hearts.05": "Azt hittem, ez a völgy a helyi gazdákat támogatja.$5",
+  "Andy.2hearts.06": "Grampleton polgármestere sem örül ennek. Nem akarom, hogy...$2",
+  "Andy.2hearts.07": "NEM! A VÁLASZOM AZ, HOGY NEM, LEWIS! ALIG ENGEDHETEM MEG MAGAMNAK A VETŐMAGOT AZ ÚJ TERMÉSRE! EZT EGYÁLTALÁN NEM ENGEDHETEM MEG MAGAMNAK!$7",
+  "Andy.2hearts.08": "Andy, minden rendben lesz. Átirányítom a pénzt a fesztiválról...$2",
+  "Andy.2hearts.09": "NINCS SZÜKSÉGEM SENKI SEGÍTSÉGÉRE! NEM FOGADOK EL ALAMIZSNÁT! MAJD KITALÁLOK VALAMIT!$7",
   "Andy.2hearts.10": "Andy...$2",
-  "Andy.2hearts.11": "THIS CONVERSATION IS OVER! I'M LEAVIN'!!!$7",
+  "Andy.2hearts.11": "ENNEK A BESZÉLGETÉSNEK VÉGE! ELMEGYEK!!!$7",
   "Andy.2hearts.12": "...$8",
-  "Andy.2hearts.13": "Hello, @. You heard all of that, didn't you?$2",
-  "Andy.2hearts.14": "*sigh*... The Ferngill government is introducing new 'regulations'.$2#$b#I don't think they understand the negative impact it's having on small communities like this one.$2",
-  "Andy.2hearts.15": "I've tried negotiating, but they wouldn't listen to me.$3",
-  "Andy.2hearts.16": "I'm aware Andy is... struggling, and he isn't doing well financially.$0",
-  "Andy.2hearts.17": "Rest assured, @. Kendra and I are drafting an elaborate proposal.$3",
-  "Andy.2hearts.18": "Can you do me a favor and check on Andy?$0",
-  "Andy.2hearts.19": "#I'll go check on him.#He'll take his anger out on me too...",
-  "Andy.2hearts.20": "Ah, that's... understandable. I'll check on him later today then.$2",
-  "Andy.2hearts.21": "I'm going to start on that draft now. Have a nice day, @.$0",
-  "Andy.2hearts.22": "Andy gave me quite the howler.$2",
-  "Andy.2hearts.TalkAndy.01": "Thank you, @. This is most appreciated.$1",
-  "Andy.2hearts.TalkAndy.02": "I'm going to start on that draft now. Have a nice day, @.$0",
-  "Andy.2hearts.TalkAndy.03": "What's that now? Lewis is gonna draft up a new proposal? Good. That old geezer is doin' somethin' right for once.$0#$e#I have work to do, @. Leave me alone.$2#$e#%Andy is now ignoring you.",
+  "Andy.2hearts.13": "Helló,@. Hallottad az egészet, ugye?$2",
+  "Andy.2hearts.14": "*sóhaj*... A Ferngill kormány új szabályokat vezet be.$2#$b#Nem hiszem, hogy felfogják, hogy ez milyen negatív hatással van az ilyen kis közösségekre, mint ez itt.$2",
+  "Andy.2hearts.15": "Próbáltam tárgyalni, de nem hallgattak rám.$3",
+  "Andy.2hearts.16": "Tudom, hogy Andy... küzd, és nem áll jól anyagilag.$0",
+  "Andy.2hearts.17": "Nyugodt lehetsz,@. Kendra és én kidolgozunk egy jól kidolgozott javaslatot.$3",
+  "Andy.2hearts.18": "Megtenne nekem egy szívességet, és megnézné, hogy van Andy?$0",
+  "Andy.2hearts.19": "#I'll go check on him.#Rajtam is ki fogja vezetni a dühét...",
+  "Andy.2hearts.20": "Ah, ez... érthető. Akkor később megnézem.$2",
+  "Andy.2hearts.21": "Elkezdek dolgozni a tervezeten. Szép napot!@.$0",
+  "Andy.2hearts.22": "Andy eléggé kiabált velem.$2",
+  "Andy.2hearts.TalkAndy.01": "Köszönöm. Köszönöm,@. Ezt nagyra értékelem.$1",
+  "Andy.2hearts.TalkAndy.02": "Most nekilátok a tervezetnek. Szép napot!@.$0",
+  "Andy.2hearts.TalkAndy.03": "Mi az már megint? Lewis egy új javaslatot fog készíteni? Igen. Ez az öreg fickó most az egyszer valamit jól csinál.$0#$e#Nekem dolgom van,@. Hagyjatok békén.$2#$e#%Andy most nem vesz tudomást rólad.",
   
   //ANDY 8 Heart event 'Thank You'
-  "Andy.8hearts.01": "Hey there, farmer! You caught me in midst of foragin'.$1#$b#Lots of the good stuff today. Rain helps 'em pop up.$0",
-  "Andy.8hearts.02": "I enjoy lookin' for forage in the forest. If I could, I'd make this my full-time job.$1#$b#Not much money in foragin' though. I'd be no better off than that Linus fella'. I for one enjoy sleepin' in a heated house with a fridge.$2",
-  "Andy.8hearts.03": "Say, you busy? I have some things to talk with ya about.$0",
-  "Andy.8hearts.04": "Things are tough when you're all on your own, farmer.#$b#I don't have many people I'd call close friends in my life.$2",
-  "Andy.8hearts.05": "Ya know, I tried talkin' Mayor Lewis into lettin' the other farmers and I take over your grandpa's farm. It was good land bein' left to spoil.$0#$b#There was nothing Lewis could do 'bout it. Your grandpa still owned the deed to that there land.$2#$b#You showed up outta no where and took it over. Been doin' a Yoba darn good job too.$0",
-  "Andy.8hearts.06": "... What I'm tryin' to say is.$0",
-  "Andy.8hearts.07": "I'm proud of you.$0",
-  "Andy.8hearts.08": "I won't lie. I use' to be jealous of ya. You only started farm work recently, relatively speakin'. I've been doin' this all my life and I haven't amounted to much.$5#$b#At first, I thought you'd move out of the valley because you couldn't handle the farmwork. City kid. Goin' from that office job to farmin' is a radical change in lifestyle.$2#$b#But you didn't. You kept at it. Kept improvin' and showin' me I was wrong. I can tell you're passionate about farmin' as best you can.$0#$b#You've brought more commerce to the valley with the publicity of %farm Farm. All the farmers are sellin' more as a result.$3",
-  "Andy.8hearts.09": "I suppose what what I'm really tryin' to say here is...",
-  "Andy.8hearts.10": "Thank you.$8",
-  "Andy.8hearts.11": "Thank you for inspirin' me to be a better person and givin' Fairhaven Farm more business. It's helped my life more'n you know.$0",
-  "Andy.8hearts.12": "Good view from here.$0#$b#Gotta say. This right here is the Ferngillian dream. Livin' in Stardew Valley.$1#$b#Thanks for bein' a good friend and showin' me compassion, farmer.",
-  "Andy.8hearts.13": "Thanks for everythin', @. I know I might have a strange view on things, but that didn't stop you from bein' a good friend to an old oaf like me.$1#$b#Here, take this. Found it in the forest while foragin'. Not so sure what it is. Maybe you could use 'em.[114]$0#$e#Have an excellent day, farmer. Keep up all the good work you're always doin'.$1",
+  "Andy.8hearts.01": "Hé, te gazda! Elkaptál a kukorékolás közepén.$1#$b#Ma sok a jó cucc. Az eső segít felbukkanni.$0",
+  "Andy.8hearts.02": "Élvezem az erdőben keresni a takarmányt. Ha tehetném, ez lenne a főállásom.$1#$b#Bár nem sok pénz van a vadászatban. Nem lennék jobb helyzetben, mint az a Linus fickó. Én viszont szeretek fűtött házban aludni, hűtővel.$2",
+  "Andy.8hearts.03": "Mondd csak, elfoglalt vagy? Van néhány dolog, amiről beszélnünk kell.$0",
+  "Andy.8hearts.04": "Nehéz a helyzet, ha az ember egyedül van, farmer.#$b#Nem sok olyan ember van az életemben, akit közeli barátnak neveznék.$2",
+  "Andy.8hearts.05": "Tudod, próbáltam rábeszélni Lewis polgármestert, hogy engedje meg, hogy a többi farmer és én átvegyük a nagyapád farmját. Jó föld volt, amit hagytak elpusztulni.$0#$b#Lewis nem tehetett semmit. A nagyapád még mindig birtokolta azt a földet.$2#$b#Aztán a semmiből felbukkantál és átvetted. És átkozottul jó munkát végeztél.$0",
+  "Andy.8hearts.06": "... Amit mondani akarok, az az.$0",
+  "Andy.8hearts.07": "Büszke vagyok rád.$0",
+  "Andy.8hearts.08": "Nem fogok hazudni. Régebben féltékeny voltam rád. Csak nemrég kezdtél el dolgozni a farmon, viszonylag nemrég. Én egész életemben ezt csináltam, és mégsem értem el sokat.$5#$b#Először azt hittem, hogy elköltözöl a völgyből, mert nem bírod a farmmunkát. Városi gyerek. Az irodai munkából a földművelésre váltani gyökeres életmódváltás.$2#$b#De nem tetted. Kitartottál mellette. Folyton fejlődtél és megmutattad, hogy tévedtem. Látszik rajtad, hogy szenvedélyesen szeretsz gazdálkodni, amennyire csak tudsz.$0#$b#Több kereskedelmet hoztál a völgybe azzal a hírveréssel.%Farm Farmmal. Ennek eredményeképpen a farmerek többet adnak el.$3",
+  "Andy.8hearts.09": "Azt hiszem, azt akarom mondani, hogy...",
+  "Andy.8hearts.10": "Köszönöm.$8",
+  "Andy.8hearts.11": "Köszönöm, hogy inspiráltál, hogy jobb ember legyek, és hogy több üzletet adtál a Fairhaven Farmnak. Sokat segített az életemben.$0",
+  "Andy.8hearts.12": "Jó a kilátás innen.$0#$b#Meg kell mondjam. Ez itt a Ferngillian álom. Stardew Valley-ben élni.$1#$b#Köszönöm, hogy jó barát vagy és együttérző vagy velem, farmer.",
+  "Andy.8hearts.13": "Köszönök mindent,@. Tudom, hogy furcsán látom a dolgokat, de ez nem akadályozott meg abban, hogy jó barátja legyél egy ilyen vén trottynak, mint én.$1#$b#Tessék, fogd ezt. Az erdőben találtam, miközben vadásztam. Nem tudom, mi ez. Talán hasznát vehetnéd.[114]$0#$e#Legyen szép napja, farmer. Folytassa csak a jó munkát, amit mindig is csinált.$1",
   
   //Claire 2 heart event
-  "Claire.2hearts.01": "Hello. May I have the healthy garden salad please?$1",
-  "Claire.2hearts.02": "Of course, ma'am!$1#$b#That'll be 220g.$0",
-  "Claire.2hearts.03": "O-oh... 220g? But it was 200g last week...$2",
-  "Claire.2hearts.04": "My other supplier moved, so I had to find another. The ingredients are higher quality, but more expensive.$0",
+  "Claire.2hearts.01": "Jó napot, uram. Kaphatnék egy egészséges kerti salátát?$1",
+  "Claire.2hearts.02": "Természetesen, asszonyom!$1#$b#Az 220 gramm lesz.$0",
+  "Claire.2hearts.03": "Ó... 220g? De a múlt héten 200g volt...$2",
+  "Claire.2hearts.04": "A másik beszállítóm elköltözött, így keresnem kellett egy másikat. A hozzávalók jobb minőségűek, de drágábbak.$0",
   "Claire.2hearts.05": "...$2",
-  "Claire.2hearts.06": "(What should I do?)#Offer to help pay#Do nothing",
-  "Claire.2hearts.07": "Thank you for your time...$2",
-  "Claire.2hearts.08": "I don't think I'll ever get used to the taste of frozen Joja meals...$2",
-  "Claire.2hearts.09": "Oh? Hi...$2",
-  "Claire.2hearts.10": "You're offering to help pay for my meal?$2#$b#Um...$2#$b#Thank you...$0#$b#I-I promise to pay you back.$1",
-  "Claire.2hearts.11": "One healthy garden salad please.$1",
-  "Claire.2hearts.12": "Thank you for helping me pay for my meal...$1#$b#Um. I'm a bit embarrassed.$2#$e#Now the whole town will know I'm grasping for pennies...$2",
+  "Claire.2hearts.06": "(Mit tegyek?)#Offer to help pay#Ne csinálj semmit.",
+  "Claire.2hearts.07": "Köszönöm az idejét...$2",
+  "Claire.2hearts.08": "Nem hiszem, hogy valaha is meg fogom szokni a fagyasztott Joja ételek ízét...$2",
+  "Claire.2hearts.09": "Ó? Üdv...$2",
+  "Claire.2hearts.10": "Felajánlod, hogy segítesz kifizetni az étkezésemet?$2#$b#Hát...$2#$b#Köszönöm...$0#$b#Ígérem, hogy visszafizetem.$1",
+  "Claire.2hearts.11": "Egy egészséges kerti salátát kérek.$1",
+  "Claire.2hearts.12": "Köszönöm, hogy segít kifizetni az étkezésemet...$1#$b#Kicsit zavarban vagyok.$2#$e#Most az egész város tudni fogja, hogy fillérekért kapkodok...$2",
   
   //OLIVIA 4 HEART EVENT
-  "Olivia.4hearts.01": "That's hilarious, Olivia. I've had similar experiences with Vincent. Moments like this with Victor are a treasure.$1",
-  "Olivia.4hearts.02": "Abigail used to do that too.$0",
-  "Olivia.4hearts.03": "Imagine if you'd known this is what parenthood is like!$1",
-  "Olivia.4hearts.04": "Hi, @!$0",
-  "Olivia.4hearts.05": "Hello, @! Beautiful day today, isn't it?$0",
-  "Olivia.4hearts.06": "Hello, dear! Wonderful to see you!$1",
-  "Olivia.4hearts.07": "Ah, yes! That is what I mean, Lewis.",
-  "Olivia.4hearts.08": "@, I heard about %farm Farm on the radio a few days ago. You're making so much progress!$0",
-  "Olivia.4hearts.09": "Oh, yes! You are, @. You've helped our little community to grow.$1",
-  "Olivia.4hearts.10": "Vineyards are quite profitable in this region. I heard rumors about how much Sophia makes each quarter.$3",
-  "Olivia.4hearts.11": "How much is it!?",
-  "Olivia.4hearts.12": "I'm happy to hear that, Pierre.",
-  "Olivia.4hearts.13": "It's over six figures!$1",
-  "Olivia.4hearts.14": "@. Have you considered turning %farm Farm into a vineyard, like Blue Moon Vineyard?$1",
-  "Olivia.4hearts.15": "(What should I say?)#I'm already making wine.#Wine production isn't the path I want to go down.#I'm not at the level where I can make large amounts of wine yet.",
-  "Olivia.4hearts.16": "I understand. Take your time, dear. If you do ever decide to turn your hand to winemaking, let me know. I want to try the first batch!$3",
-  "Olivia.4hearts.17": "Pierre loves getting shipments of your crops from Mayor Lewis, @!$0#$b#He says they rival the quality of his own produce.$0",
-  "Olivia.4hearts.18": "I wish Susan sold her crops locally. She ships her produce out of the valley.$6#$b#She once let me purchase one of her fresh melons. It was so delicious!$1",
-  "Olivia.4hearts.19": "You're a great friend, Lewis!",
-  "Olivia.4hearts.20": "I'm just relieved Pierre never sells Andy's crops in his store. I think they're shipped to low income villages.$6",
-  "Olivia.4hearts.21": "It's true, Olivia. My husband and Andy had an argument recently.$2#$b#Pierre would only allow Andy's produce in the store if it was specifically labeled as: 'Grown at Fairhaven Farm'. Andy didn't like that...$2",
-  "Olivia.4hearts.22": "Well, this conversation certainly turned sour.$2",
-  "Olivia.4hearts.23": "@, we're going back to chatting about parenthood.$6",
-  "Olivia.4hearts.24": "It was nice seeing you, @!$0",
-  "Olivia.4hearts.25": "Bye, @.$0",
-  "Olivia.4hearts.26": "Come chat with us again next time, dear.$3",
-  "Olivia.4hearts.MakesWine.01": "Oh, my! I wasn't aware you were making wine, @! I'll speak to Mayor Lewis about purchasing several bottles from your shipments.$3",
-  "Olivia.4hearts.MakesWine.02": "Pierre loves getting shipments of your crops from Mayor Lewis, @!$0#$b#He says they rival the quality of his own produce.$0",
-  "Olivia.4hearts.MakesWine.03": "I wish Susan sold her crops locally. She ships her produce out of the valley.$6#$b#She once let me purchase one of her fresh melons. It was so delicious!$1",
-  "Olivia.4hearts.MakesWine.04": "I'm just relieved Pierre never sells Andy's crops in his store. I believe his crops are shipped to low income villages.$6",
-  "Olivia.4hearts.MakesWine.05": "It's true, Olivia. My husband and Andy had an argument recently.$2#$b#Pierre would only allow Andy's produce in the store if it was specifically labeled as: 'Grown at Fairhaven Farm'. Andy didn't like that...$2",
+  "Olivia.4hearts.01": "Ez nagyon vicces, Olivia. Nekem is voltak hasonló tapasztalataim Vincenttel. Az ilyen pillanatok Victorral kincset érnek.$1",
+  "Olivia.4hearts.02": "Abigail is ezt csinálta.$0",
+  "Olivia.4hearts.03": "Képzeld el, ha tudtad volna, hogy ilyen a szülőség!$1",
+  "Olivia.4hearts.04": "Szia! Szia!@!$0",
+  "Olivia.4hearts.05": "Helló,@! Gyönyörű nap van ma, nem igaz?$0",
+  "Olivia.4hearts.06": "Helló, drágám! Örülök, hogy látlak!$1",
+  "Olivia.4hearts.07": "Ah, igen! Erre gondoltam, Lewis.",
+  "Olivia.4hearts.08": "@, hallottam róla.%a farmról a rádióban néhány napja. Nagyon sokat fejlődtél!$0",
+  "Olivia.4hearts.09": "Ó, igen! Tényleg,@. Segítettél a mi kis közösségünknek növekedni.$1",
+  "Olivia.4hearts.10": "A szőlőültetvények elég jövedelmezőek ezen a vidéken. Hallottam pletykákat arról, hogy Sophia mennyit keres negyedévente.$3",
+  "Olivia.4hearts.11": "Mennyi is az?",
+  "Olivia.4hearts.12": "Ezt örömmel hallom, Pierre.",
+  "Olivia.4hearts.13": "Több mint hat számjegyű!$1",
+  "Olivia.4hearts.14": "@. Gondoltál már arra, hogy%a Farm Farmból szőlőskertet csináljon, mint a Blue Moon Vineyard?$1",
+  "Olivia.4hearts.15": "(Mit is mondhatnék?)#I'm already making wine.#A bortermelés nem az az út, amin én szeretnék elindulni.#Még nem vagyok azon a szinten, hogy nagy mennyiségű bort tudnék készíteni.",
+  "Olivia.4hearts.16": "Értem én. Csak nyugodtan, kedvesem. Ha valaha is úgy döntesz, hogy borászkodni fogsz, szólj nekem. Szeretném megkóstolni az első adagot!$3",
+  "Olivia.4hearts.17": "Pierre imádja, hogy Lewis polgármestertől kapja a terményeit,@!$0#$b#Azt mondja, a saját terményei minőségével vetekszik.$0",
+  "Olivia.4hearts.18": "Bárcsak Susan helyben árulná a termését. Ő a völgyből szállítja a terményeit.$6#$b#Egyszer megengedte, hogy megvegyem az egyik friss dinnyéjét. Nagyon finom volt!$1",
+  "Olivia.4hearts.19": "Nagyszerű barát vagy, Lewis!",
+  "Olivia.4hearts.20": "Megkönnyebbültem, hogy Pierre sosem árulja Andy termését a boltjában. Szerintem alacsony jövedelmű falvakba szállítják.$6",
+  "Olivia.4hearts.21": "Ez igaz, Olivia. A férjem és Andy nemrég összevesztek.$2#$b#Pierre csak akkor engedi be Andy terményeit a boltba, ha az kifejezetten úgy van felcímkézve, hogy: A Fairhaven Farmon termesztett. Andy-nek ez nem tetszett...$2",
+  "Olivia.4hearts.22": "Nos, ez a beszélgetés bizonyára savanyú lett.$2",
+  "Olivia.4hearts.23": "@, visszatérünk a szülői létről való beszélgetéshez.$6",
+  "Olivia.4hearts.24": "Örülök, hogy találkoztunk,@!$0",
+  "Olivia.4hearts.25": "Viszlát. Viszlát,@.$0",
+  "Olivia.4hearts.26": "Legközelebb is beszélgess velünk, drágám.$3",
+  "Olivia.4hearts.MakesWine.01": "Ó, te jó ég! Nem tudtam, hogy bort készítesz,@! Beszélek Lewis polgármesterrel, hogy vegyünk néhány palackot a szállítmányaiból.$3",
+  "Olivia.4hearts.MakesWine.02": "Pierre szereti, ha Lewis polgármester szállítmányt kap a termésedből,@!$0#$b#Azt mondja, hogy a saját terményei minőségével vetekszik.$0",
+  "Olivia.4hearts.MakesWine.03": "Bárcsak Susan helyben árulná a termését. Ő a völgyből szállítja a terményeit.$6#$b#Egyszer megengedte, hogy megvegyem az egyik friss dinnyéjét. Nagyon finom volt!$1",
+  "Olivia.4hearts.MakesWine.04": "Megkönnyebbültem, hogy Pierre soha nem árulja Andy termését a boltjában. Azt hiszem, a terményeit alacsony jövedelmű falvakba szállítják.$6",
+  "Olivia.4hearts.MakesWine.05": "Ez igaz, Olivia. A férjem és Andy nemrég összevesztek.$2#$b#Pierre csak akkor engedi Andy terményeit a boltba, ha az külön fel van tüntetve, hogy...: A Fairhaven Farmon termesztett. Andy-nek ez nem tetszett...$2",
   "Olivia.4hearts.MakesWine.06": "...$2",
-  "Olivia.4hearts.MakesWine.07": "Well, this conversation certainly turned sour.$2#$b#@, we're going back to chatting about parenthood.$0",
-  "Olivia.4hearts.MakesWine.08": "Nice seeing you, @!$0",
-  "Olivia.4hearts.MakesWine.09": "Bye, @.$0",
-  "Olivia.4hearts.MakesWine.10": "Come chat with us again, dear.$3",
+  "Olivia.4hearts.MakesWine.07": "Nos, ez a beszélgetés bizonyára savanyú lett.$2#$b#@, visszatérünk a szülői létről való beszélgetéshez.$0",
+  "Olivia.4hearts.MakesWine.08": "Örülök, hogy találkoztunk,@!$0",
+  "Olivia.4hearts.MakesWine.09": "Viszlát,@.$0",
+  "Olivia.4hearts.MakesWine.10": "Gyere, beszélgess velünk újra, drágám.$3",
   
   //OLIVIA 8 HEART EVENT
-  "Olivia.8hearts.01": "A 'Lunzar Horizon' please!",
-  "Olivia.8hearts.02": "Watch out!",
-  "Olivia.8hearts.03": "Okay, Maru!",
-  "Olivia.8hearts.04": "Thanks, Harvey!",
-  "Olivia.8hearts.05": "Gah! I died...",
-  "Olivia.8hearts.06": "Thanks, Gus.",
-  "Olivia.8hearts.07": "@! Over here, dear!$1",
+  "Olivia.8hearts.01": "Egy Lunzar Horizon-t kérek!",
+  "Olivia.8hearts.02": "Vigyázz!",
+  "Olivia.8hearts.03": "Oké, Maru!",
+  "Olivia.8hearts.04": "Kösz, Harvey!",
+  "Olivia.8hearts.05": "Gah! Meghaltam...",
+  "Olivia.8hearts.06": "Kösz, Gus.",
+  "Olivia.8hearts.07": "@! Ide, drágám!$1",
   "Olivia.8hearts.08": "Haha!",
   "Olivia.8hearts.09": "Marnie! Haha!",
-  "Olivia.8hearts.10": "It's a full house at the saloon tonight. I don't think I've ever seen it this packed.$1",
+  "Olivia.8hearts.10": "Telt ház van ma este a kocsmában. Nem hiszem, hogy valaha is láttam volna ilyen tömöttnek.$1",
   "Olivia.8hearts.11": "Hahaha!",
-  "Olivia.8hearts.12": "Emily will take your order soon.$0#$b#I'll wave her down for you when she sees us.$1",
-  "Olivia.8hearts.13": "Here, Maru!",
-  "Olivia.8hearts.14": "I'm sampling a new brand of wine from Sunshine Vineyard. It came all this way from the Fern Islands.$3#$b#They never cease to amaze me!$1",
-  "Olivia.8hearts.15": "Gus!!!",
-  "Olivia.8hearts.16": "I strongly dislike beer. It tastes like moldy bread to me...$2#$b#I prefer dry red wine.$3",
-  "Olivia.8hearts.17": "Hmm... I see.",
-  "Olivia.8hearts.18": "Thank you!",
-  "Olivia.8hearts.19": "The life of a farmer seems very demanding. I sometimes catch a glimpse of you going about your days with great haste.$3#$b#Tell me... how do you do it?$6",
+  "Olivia.8hearts.12": "Emily hamarosan felveszi a rendelést.$0#$b#Majd leintem, ha meglát minket.$1",
+  "Olivia.8hearts.13": "Tessék, Maru!",
+  "Olivia.8hearts.14": "Egy új bormárkát kóstolok a Sunshine Vineyardtól. Egészen idáig jött a Fern-szigetekről.$3#$b#Mindig elkápráztatnak!$1",
+  "Olivia.8hearts.15": "Gus!",
+  "Olivia.8hearts.16": "Nagyon nem szeretem a sört. Olyan az íze, mint a penészes kenyérnek...$2#$b#Inkább a száraz vörösbort szeretem.$3",
+  "Olivia.8hearts.17": "Hmm... Értem.",
+  "Olivia.8hearts.18": "Köszönöm!",
+  "Olivia.8hearts.19": "A farmerek élete nagyon megterhelőnek tűnik. Néha megpillantom önt, amint sietve végzi a napjait.$3#$b#Mondja csak... hogyan csinálja?$6",
   "Olivia.8hearts.20": "!!!",
-  "Olivia.8hearts.21": "Foraging and making food 'on-the-go'? My, my...$6#$b#If you ever require a home-cooked meal, don't hesitate to drop by my residence.$3",
-  "Olivia.8hearts.22": "Coming up, Pam!",
-  "Olivia.8hearts.23": "Sorry, @! I've had my hands full tonight. There are so many people!$0",
+  "Olivia.8hearts.21": "Gyűjtögetés és ételkészítés útközben? Hűha, hűha...$6#$b#Ha bármikor szüksége lenne egy házi kosztra, ne habozzon beugrani hozzám.$3",
+  "Olivia.8hearts.22": "Jövök, Pam!",
+  "Olivia.8hearts.23": "Bocsánat,@! Ma este nagyon elfoglalt vagyok. Annyi ember van itt!$0",
   "Olivia.8hearts.24": "Haha!",
-  "Olivia.8hearts.25": "What would you like to drink?$1",
+  "Olivia.8hearts.25": "Mit szeretnél inni?$1",
   "Olivia.8hearts.26": "$q -1 null#*** ** **STARDROP SALOON COCKTAIL MENU** ** ***#$r -1 0 emily_event1#'SHOOTING COMET' - Ingredients: Whiskey, Lime Juice, Mint Leaves, Sugar#$r -1 0 emily_event2#'LUNAR HORIZON' - Ingredients: Gin, Sugar Syrup, Lime Juice, Sparkling Water#$r -1 0 emily_event3#'ROSETTE NEBULA' - Ingredients: Vodka, Cranberry Juice, Cointreau, Lime Juice#$r -1 0 emily_event4#'THE BIG BANG' - Ingredients: White Rum, Dark Rum, Orange Curacao, Orgeat Syrup, Lemon Juice#$r -1 0 emily_event5#'HAZY SUNRISE' - Ingredients: Orange Juice, Lemon Juice, Soda, Grenadine Syrup",
-  "Olivia.8hearts.27": "Here, Pam!",
-  "Olivia.8hearts.28": "I'll be right back with your drink, @!$0",
-  "Olivia.8hearts.29": "Oh, I see!",
-  "Olivia.8hearts.30": "Thanks!",
-  "Olivia.8hearts.31": "Emily is a wonderful waitress. My favorite cocktail is the Rosette Nebula.$1#$b#I'm satisfied with my wine for tonight though.$6",
-  "Olivia.8hearts.32": "Haha!!",
-  "Olivia.8hearts.33": "It is time then...",
-  "Olivia.8hearts.34": "Try harder!",
-  "Olivia.8hearts.35": "Here you are, @! Enjoy!$1",
+  "Olivia.8hearts.27": "Tessék, Pam!",
+  "Olivia.8hearts.28": "Mindjárt hozom az italodat,@!$0",
+  "Olivia.8hearts.29": "Ó, értem már!",
+  "Olivia.8hearts.30": "Köszönöm!",
+  "Olivia.8hearts.31": "Emily csodálatos pincérnő. A kedvenc koktélom a Rosette Nebula.$1#$b#De ma estére megelégszem a borral.$6",
+  "Olivia.8hearts.32": "Haha!!!",
+  "Olivia.8hearts.33": "Akkor itt az idő...",
+  "Olivia.8hearts.34": "Próbáld keményebben!",
+  "Olivia.8hearts.35": "Tessék,@! Jó szórakozást!$1",
   "Olivia.8hearts.36": "Haha!!!",
-  "Olivia.8hearts.37": "I want to tell you about some of my family residing in the Gotoro Empire, dear...$3",
-  "Olivia.8hearts.38": "I enjoyed chatting over a drink at the saloon with you.$3#$b#Perhaps we can arrange for that again in the future, dear.$1",
+  "Olivia.8hearts.37": "Szeretnék mesélni neked a Gotoro birodalomban élő családomról, kedves...$3",
+  "Olivia.8hearts.38": "Élveztem a beszélgetést egy ital mellett a kocsmában veled.$3#$b#Talán a jövőben újra összejöhetnénk, kedvesem.$1",
   
   //Scarlett event - working at fairhaven farm [spring]
-  "Scarlett.Fairhaven.01": "Hello farmer, good to see ya.$3",
-  "Scarlett.Fairhaven.02": "I never thought I'd see the day where I could afford a farmhand. The jam business is no joke.$0#$b#I need all the help I can get durin' this time o' year. More shipments yield more profit!$3",
-  "Scarlett.Fairhaven.03": "Hey Andy, this batch of strawberries are ready.$0#$b#And hi, @!$1",
-  "Scarlett.Fairhaven.04": "Since you're here, mind helpin' us dump these strawberries in casks? It'll go faster if the three of us work together.$0",
-  "Scarlett.Fairhaven.05": "You'd be paid for your labor, o' course. Equal pay for equal work. That's how I run things here.#Sure, I'd like to help out.#Sorry, but no.",
-  "Scarlett.Fairhaven.06": "Hmm. That's fine by me.$0",
-  "Scarlett.Fairhaven.07": "Well, Scarlett and I better get to it. Daylight is burnin'.$0",
-  "Scarlett.Fairhaven.08": "Bye, @!$0",
-  "Scarlett.Fairhaven.09": "Scarlett is a hard worker. I sure do appreciate havin' her help out durin' the spring.",
-  "Scarlett.Fairhaven.3691382_HelpAndy.01": "You're gonna help out! Woohoo!$1",
-  "Scarlett.Fairhaven.3691382_HelpAndy.02": "Let's get this wagon of strawberries into the cellar.$0",
-  "Scarlett.Fairhaven.3691382_HelpAndy.03": "All right. I'll start over here on this corner. You two handle this side.",
-  "Scarlett.Fairhaven.3691382_HelpAndy.04": "Let's go!$1",
-  "Scarlett.Fairhaven.3691382_HelpAndy.05": "Thank ya kindly for your hard work. You'll receive payment in the mail soon, farmer.$3",
+  "Scarlett.Fairhaven.01": "Helló, farmer, örülök, hogy látlak.$3",
+  "Scarlett.Fairhaven.02": "Soha nem gondoltam volna, hogy megérem azt a napot, amikor megengedhetek magamnak egy segédmunkást. A lekvárüzlet nem vicc.$0#$b#Minden segítségre szükségem van ebben az évszakban. Több szállítmány több profitot hoz!$3",
+  "Scarlett.Fairhaven.03": "Hé Andy, ez a rakás eper készen van.$0#$b#És szia,@!$1",
+  "Scarlett.Fairhaven.04": "Ha már itt vagy, segítenél nekünk, hogy ezeket az epreket hordókba töltsük? Gyorsabban megy, ha hárman együtt dolgozunk.$0",
+  "Scarlett.Fairhaven.05": "A munkádért persze fizetést kapsz. Egyenlő fizetés egyenlő munkáért. Én így vezetem itt a dolgokat.#Sure, I'd like to help out.#Sajnálom, de nem.",
+  "Scarlett.Fairhaven.06": "Hmm. Nekem megfelel.$0",
+  "Scarlett.Fairhaven.07": "Nos, Scarlett és én jobb, ha nekilátunk. A napfény éget.$0",
+  "Scarlett.Fairhaven.08": "Viszlát,@!$0",
+  "Scarlett.Fairhaven.09": "Scarlett keményen dolgozik. Nagyra értékelem, hogy segít nekem tavasszal.",
+  "Scarlett.Fairhaven.3691382_HelpAndy.01": "Segíteni fogsz! Húúúúú!$1",
+  "Scarlett.Fairhaven.3691382_HelpAndy.02": "Vigyük ezt a szekér epret a pincébe!$0",
+  "Scarlett.Fairhaven.3691382_HelpAndy.03": "Jól van. Itt kezdem a sarkon. Ti ketten foglalkozzatok ezzel az oldallal.",
+  "Scarlett.Fairhaven.3691382_HelpAndy.04": "Gyerünk, gyerünk!$1",
+  "Scarlett.Fairhaven.3691382_HelpAndy.05": "Köszönöm szépen a kemény munkát. Hamarosan megkapja a fizetséget postán, farmer.$3",
 
   //Town - 4 heart - The Doctor Appointment
-  "Sophia.4hearts.01": "O-oh! Um. Hi, @.$2",
-  "Sophia.4hearts.02": "#Hey! How are you doing?#Tell me why you were in the hospital!",
-  "Sophia.4hearts.03": "I don't owe you an explanation. Leave me alone.$3#$e#Stop it!$6#$e#...$12#$e#%Sophia is crying.",
-  "Sophia.4hearts.HowAreYou.01": "Um...$2#$b#...$6#$b#I-I've been better. W-why are you asking?$6",
-  "Sophia.4hearts.HowAreYou.02": "I should do something to cheer up Sophia...",
-  "Sophia.4hearts.HowAreYou.03": "#Want to pet Dusty with me?#Are you hungry? We can get food at the saloon.",
-  "Sophia.4hearts.HowAreYou.04": "F-food? Um...$6",
-  "Sophia.4hearts.HowAreYou.05": "I-I am a little... hungry.$2#$b#Um. Yeah. I can go for a bite.$1",
-  "Sophia.4hearts.HowAreYou.06": "Grampleton orange chicken please!$9",
-  "Sophia.4hearts.HowAreYou.07": "Of course, Sophia! Anything for a close family friend!$1#$b#I'll try something new with this dish! I know you will enjoy it.$0",
-  "Sophia.4hearts.HowAreYou.08": "*whisper* Food is on the house, @.$0",
-  "Sophia.4hearts.HowAreYou.09": "Sophia gobbled up her food quickly! We both left the saloon with full stomachs and laughter.",
-  "Sophia.4hearts.HowAreYou.10": "Hey, @. Thanks for inviting me out for food.$2#$b#Um. It really helped.$1#$e#Hey, I'll see your around, okay?$9",
-  "Sophia.4hearts.Dusty.01": "D-Dusty? Um...$2",
-  "Sophia.4hearts.Dusty.02": "I'd like that.$2#$b#Sure. Let's go.$1",
+  "Sophia.4hearts.01": "O-oh! Um. Szia,@.$2",
+  "Sophia.4hearts.02": "#Szia! Hogy vagy?#Mondd, miért voltál a kórházban?!",
+  "Sophia.4hearts.03": "Nem tartozom magyarázattal. Hagyj békén!$3#$e#Hagyd abba! Hagyd abba!$6#$e#...$12#$e#%Sophia sír.",
+  "Sophia.4hearts.HowAreYou.01": "Sophia sír.$2#$b#...$6#$b#Voltam már jobban is. Miért kérdezed?$6",
+  "Sophia.4hearts.HowAreYou.02": "Valamit tennem kéne, hogy felvidítsam Sophiát...",
+  "Sophia.4hearts.HowAreYou.03": "#Want to pet Dusty with me?#Éhes vagy? Kaphatunk ételt a kocsmában.",
+  "Sophia.4hearts.HowAreYou.04": "F-étel? Hm...$6",
+  "Sophia.4hearts.HowAreYou.05": "Én egy kicsit... éhes vagyok.$2#$b#Um. Igen. Elmehetek egy harapásra.$1",
+  "Sophia.4hearts.HowAreYou.06": "Grampleton narancsos csirkét kérek!$9",
+  "Sophia.4hearts.HowAreYou.07": "Természetesen, Sophia! Bármit egy közeli családi barátért!$1#$b#Kipróbálok valami újat ezzel az étellel! Tudom, hogy ízleni fog.$0",
+  "Sophia.4hearts.HowAreYou.08": "*suttogás* Erre az ételre a ház vendége,@.$0",
+  "Sophia.4hearts.HowAreYou.09": "Sophia gyorsan megette az ételt! Mindketten teli hassal és nevetve hagytuk el a kocsmát.",
+  "Sophia.4hearts.HowAreYou.10": "Hé, szia!@. Köszi, hogy meghívtál kajálni.$2#$b#Um. Ez tényleg segített.$1#$e#Hé, majd találkozzunk, oké?$9",
+  "Sophia.4hearts.Dusty.01": "D-poros? Hát...$2",
+  "Sophia.4hearts.Dusty.02": "Az jó lenne.$2#$b#Persze. Menjünk.$1",
   "Sophia.4hearts.Dusty.03": "!!!$1",
-  "Sophia.4hearts.Dusty.04": "Oh my gosh! Aren't you just so so so adorable!?$9",
+  "Sophia.4hearts.Dusty.04": "Ó, Istenem! Hát nem imádnivaló vagy?!$9",
   "Sophia.4hearts.Dusty.05": "!!!$4",
-  "Sophia.4hearts.Dusty.06": "We gave Dusty many pets. Sophia laughed a lot. She feels better.",
-  "Sophia.4hearts.Dusty.07": "Dusty is such a good boy.$1#$b#Um. Petting him cheered me up.$9#$e#Thanks, @.$1",
+  "Sophia.4hearts.Dusty.06": "Sok háziállatot adtunk Dusty-nak. Sophia sokat nevetett. Jobban érzi magát.",
+  "Sophia.4hearts.Dusty.07": "Dusty olyan jó fiú.$1#$b#A simogatása felvidított.$9#$e#Köszi. Köszönöm,@.$1",
 
   //Willy Boat Event
   "Willy.Boat.01": "Ahoy!",
@@ -374,19 +374,19 @@
   //================//
 
   //CONFIGS
-  "Config.MarkLegacyLook.name": "Mark Legacy Look",
-  "Config.MarkLegacyLook.description": "Uses the old version of Mark's sprite and portrait.",
-  "Config.SeasonalEdits.name": "Seasonal Edits",
-  "Config.SeasonalEdits.description": "Adds leafs on the ground in certain areas.",
+  "Config.MarkLegacyLook.name": "Márk Legacy Kinézet",
+  "Config.MarkLegacyLook.description": "Márk sprite-jának és portréjának régi verzióját használja.",
+  "Config.SeasonalEdits.name": "Szezonális szerkesztések",
+  "Config.SeasonalEdits.description": "Ősszel leveleket ad bizonyos területekre.",
 
   //Signs
-  "Sign.TownMarkFarm": "` Grace Field Farm^> Pelikánváros",
-  "Sign.Backwoods": "= {{FarmName}} Farm^> Grace Field Farm^> Mountain",
+  "Sign.TownMarkFarm": "` Grace Field Farm^> Pelican Town",
+  "Sign.Backwoods": "= {{FarmName}} Farm^> Grace Field Farm^> Hegyek",
   
   //Shops
   "Bence.DesertShop.01": "What're ya buyin'?",
-  "Bence.DesertShop.02": "Got some rare things on sale, stranger!",
-  "Bence.DesertShop.03": "Got a selection of good things on sale, stranger!",
+  "Bence.DesertShop.02": "Van pár ritka portékám eladásra, idegen.",
+  "Bence.DesertShop.03": "Hasznos cuccaim vannak eladásra, idegen.",
 
   "CaveGiftShop.01": "Mit vesz?",
   "CaveGiftShop.02": "Lenni jó termékek olcsó.",
@@ -418,7 +418,7 @@
   "BigCraftables.DeluxBeeHive.Name": "Luxus Méhkaptár",
   "BigCraftables.DeluxBeeHive.Desc": "Rakd a szabadba, és várj a finom mézre! Kétszer annyi mézet termel mint a sima Méhkaptár. (Kivéve Télen).",
 
-  "BigCraftables.Excavator.Name": "Excavator",
+  "BigCraftables.Excavator.Name": "Bányászgép",
   "BigCraftables.Excavator.Desc": "Rakj bele egy Elemcsomagot. Idővel érceket bányászik.",
 
   "BigCraftables.SakeBarrel.Name": "Moromi-oke",
@@ -433,22 +433,22 @@
   "Palinka.Desc": "Hagyományos magyar gyümölcspárlat, melyet kizárólag erjesztett gyümölcscefre vagy gyümölcsvelő lepárlásával készítenek.",
 
   "FoodItem.Hotdog.Name": "Hotdog",
-  "FoodItem.Hotdog.Desc": "Népszerű, gyorséttermi étel, mely egy virsli és egy puha, hosszúkás kifli kombinációjából áll",
+  "FoodItem.Hotdog.Desc": "Népszerű, gyorséttermi étel, mely egy virsli és egy puha, hosszúkás kifli kombinációjából áll.",
 
   "FoodItem.Pretzel.Name": "Perec",
   "FoodItem.Pretzel.Desc": "Sós péksütemény, melynek jellegzetes formája egy összefonódó, majd visszaforduló tésztacsíkból áll.",
   
   "FoodItem.Popcorn.Name": "Pattogatott kukorica",
-  "FoodItem.Popcorn.Desc": "Pattogatott kukoricamag, könnyed sóba hintve és vajjal megkenve.", //Popped kernels of corn, dusted lightly with salt and drizzled with butter.
+  "FoodItem.Popcorn.Desc": "Pattogatott kukoricamag, könnyed sóba hintve és vajjal megkenve.",
   
-  "FoodItem.CottonCandy.Name": "Vattacukor",//Cotton Candy
-  "FoodItem.CottonCandy.Desc": "Egy hatalmas, rózsaszín felhőnyi fonott cukor.", //A large pink cloud of spun sugar.
+  "FoodItem.CottonCandy.Name": "Vattacukor",
+  "FoodItem.CottonCandy.Desc": "Egy hatalmas, rózsaszín felhőnyi fonott cukor.",
   
   "FoodItem.Fries.Name": "Sültkrumpli",
-  "FoodItem.Fries.Desc": "Vékony burgonyaszeletek, amiket jól átsütnek, majd könnyedén megsóznak.", //Thin slices of potato, deep fried and then lightly salted.
+  "FoodItem.Fries.Desc": "Vékony burgonyaszeletek, amiket jól átsütnek, majd könnyedén megsóznak.",
 
   "FoodItem.StrawberrySundae.Name": "Strawberry Sundae",
-  "FoodItem.StrawberrySundae.Desc": "Klasszikus desszert, fagylalttal, édes eperszósszal a tetején.",//A classic dessert made with ice cream topped with a sweet strawberry sauce.
+  "FoodItem.StrawberrySundae.Desc": "Klasszikus desszert, fagylalttal, édes eperszósszal a tetején.",
 
   "FoodItem.Lemonade.Name": "Limonádé",
   "FoodItem.Lemonade.Desc": "Frissítő ital.",
@@ -466,7 +466,7 @@
   "FoodItem.PizzaHun.Desc": "Erős, füstös, és minden falatban ott a paprika.",
 
   "FoodItem.TropicThunder.Name": "Trópusi vihar",
-  "FoodItem.TropicThunder.Desc": "Különleges ital, a szigeten találató növényekből készül.",
+  "FoodItem.TropicThunder.Desc": "Különleges ital, a szigeten található növényekből készül.",
 
   //Items (Object)
   "Object.ChrisFishingrod.Name": "Elveszett horgászbot",
@@ -491,7 +491,7 @@
   "Object.Fishing-elixir.Desc": "Kristóf saját készítésű elixírje. (Én nem innám meg.)",
 
   "Object.Lemon.Name": "Citrom",
-  "Object.Lemon.Desc": "Savanykás ízű gyümölcs, amely a citrusfélék családjába tartozik",
+  "Object.Lemon.Desc": "Savanykás ízű gyümölcs, amely a citrusfélék családjába tartozik.",
 
   "Object.Lemon-sapling.Name": "Citromfa csemete",
   "Object.Lemon-sapling.Desc": "28 nap múlva érik meg, és citromfa lesz belőle. Minden évszakban hoz gyümölcsöt. Csak akkor nő meg, ha a 8 környező \"négyzet\" üres.",
@@ -580,10 +580,10 @@
 
   //Weapons
   "Weapon.Rebellion.Name": "Rebellion",
-  "Weapon.Rebellion.Description": "Egy figyelemre méltóan erős mágikus kard.", //A remarkably powerful magical sword.
+  "Weapon.Rebellion.Description": "Egy figyelemre méltóan erős mágikus kard.",
   
   "Weapon.Yamato.Name": "Yamato",
-  "Weapon.Yamato.Description": "Yamato sokkal élesebb, mint a közönséges pengék, és hatalmas démoni erővel van átitatva. Állítólag a kard bármit képes átvágni, még magát az tér szövetét is.",//Yamato is far sharper than ordinary blades, and is imbued with tremendous demonic power. The sword is said to be able to cut through anything, even the very fabric of space itself.
+  "Weapon.Yamato.Description": "Yamato sokkal élesebb, mint a közönséges pengék, és hatalmas démoni erővel van átitatva. Állítólag a kard bármit képes átvágni, még magát az tér szövetét is.",
   
   "Weapon.DragonSlayer.Name": "Dragon Slayer",
   "Weapon.DragonSlayer.Description": "Too big, too thick, too heavy, and too rough, it's more like a large hunk of iron.",
@@ -594,14 +594,14 @@
   "Weapon.Shanker.Name": "Shanker",
   "Weapon.Shanker.Description": "Egy törött boros üveg.", 
   
-  "Weapon.SpectralSword.Name": "Spectral Sword",
-  "Weapon.SpectralSword.Description": "Ez a kísérteties kard képes kísértetpengéket kilőni.", //This ghastly sword has the power to shoot out spectral blades.
+  "Weapon.SpectralSword.Name": "Spektrális kard",
+  "Weapon.SpectralSword.Description": "Ez a kísérteties kard képes kísértetpengéket kilőni.",
   
   "Weapon.CF.Name": "Kristóf horgászbotja",
   "Weapon.CF.Description": "Horgászásra alkalmatlan.", 
   
   "Weapon.BencesAxe.Name": "Bence baltája",
-  "Weapon.BencesAxe.Description": "Here's Johnny!", //Here's Johnny
+  "Weapon.BencesAxe.Description": "Itt van Johnny!",
 
   "Weapon.IstisGuitar.Name": "Isti gitárja",
   "Weapon.IstisGuitar.Description": "Let's rock!",
@@ -609,14 +609,14 @@
   //Bence interacts for now
   "BenceCabin.Jukebox": "Egy elromlott zenegép.",
   "BenceCabin.Axe": "Régi fejsze.",
-  "BenceCabin.Phone": "Önnek 3db nem fogadott üzenete van.",
+  "BenceCabin.Phone": "Önnek 3 db nem fogadott hívása van.",
   "BenceCabin.Laptop": "Bence laptopja.",
   "BenceCabin.Fridge": "Egy eléggé üres hűtőszekrény, csak nagyon kevés dolog van benne.",
   "BenceCabin.Pizza": "Egy pizza valószínüleg a szalonból.",
   "BenceCabin.Firewood": "Frissen vágott fahasábok.",
   "BenceCabin.Bookshelf": "Egy poros könyvespolc.",
 
-  "BenceCabinOutside.Axe": "Bence iridium baltálya.",
+  "BenceCabinOutside.Axe": "Bence iridium baltája.",
   "BenceCabinOutside.Mailbox": "-Bence rezidenciája-",
   "BenceCabinOutside.Firewood": "Frissen vágott fahasábok.",
   "BenceCabinOutside.Firewood2": "Aprításra váró farönkök.",
@@ -626,8 +626,8 @@
   "MarkHouse.Copper": "Valódi kopper érc.",
   "MarkHouse.Gold": "Valódi arany érc.",
   "MarkHouse.Firewood": "Frissen vágott fahasábok.",
-  "MarkHouse.PC": "Márk számító gépe. Animés háttérképpel.",
-  "MarkHouse.Lantern": "Egy régi bányában haszált lámpás.",
+  "MarkHouse.PC": "Márkszámító gépe. Animés háttérképpel.",
+  "MarkHouse.Lantern": "Egy régi bányában használt lámpás.",
   "MarkHouse.PressBench": "Fekvenyomó pad, ahogy látom mindkét oldalán 60kg van.",//Nem tudom Márk mennyit tud kinyomni. 
 
   "MarkFarm.Mailbox": "-Márk rezidenciája-",
@@ -637,7 +637,7 @@
 	"MarkFarmCave.Ore": "Egy hatalmas kőkupac tele mindenféle értékes drágakővel.",
 
   //AbandonedCabin
-  "AbandonedCabin.Door": "Az ajtó teljesen le van deszkázvan.",
+  "AbandonedCabin.Door": "Az ajtó teljesen le van deszkázva.",
   "AbandonedCabin.Window": "Az ablak be van deszkázva, de mintha látnék egy lyukat a hátsó falon.",
   "AbandonedCabin.Mailbox": "Ha tippelnem kellene azt mondanám, hogy itt valószínüleg egy postaláda volt.",
 
@@ -679,7 +679,7 @@
   "HGCave.Name": "Hello Guys barlang",
   "AbandonedCabin.Name": "Elhagyatott kabin",
   "IstiCabin.Name": "Isti háza",
-  "IslandNorthWest.Name": "Ginger Island North-West",
+  "IslandNorthWest.Name": "Gyömbér-sziget északnyugati része",
   "Island_ShelterShelter.Name": "Isti menedéke",
 
   //Bundles
@@ -696,7 +696,7 @@
   "Bundle.Seats.Name": "Ülőhelyek",
   "Bundle.Seats.Desc": "Magakarod építeni az ülőhelyeket?",
   "Bundle.Final.Name": "Megnyitó",
-  "Bundle.Final.Desc": "Oda akarod adományozni az italokat e magnyitóhoz?",
+  "Bundle.Final.Desc": "Oda akarod adományozni az italokat a megnyitóhoz?",
 
   //GeneralMails
   "Mail.HGCaveOpening": "Helló @!^Mégegyszer szeretnénk megköszönni a segítségedet. Nélküled soha nem végeztünk volna.^A megnyitót a tervek szerint a hétvégén fogjuk tartani, reméljük eltudsz jönni.^ -Hello Guys[#]Hello Guys Barlang megnyitó meghívás",
@@ -748,27 +748,24 @@
 
   "Mark_SO.Name": "Bányász kaland",
   "Mark_SO.Text": "Azt terveztem, hogy tartok egy bányászós napot, de ez a megfelelő eszközök nélkül nehéz lenne. Valaki lenne olyan rendes és kisegítene néhány eszközzel.",
-  //"Mark_SO.Objective_0": "Szállíts le Márk házához 25db bombát.",
-  //"Mark_SO.Objective_1": "Szállíts le Márk házához 35db fáklyát.",
-  //"Mark_SO.Objective_2": "Szállíts le Márk házához 5db Bányászok eledelét.",
-  "Mark_SO.Objective_0": "Helyezd a bombát Márk háza előtti fa ládába.",
-  "Mark_SO.Objective_1": "Helyezd a fáklyát Márk háza előtti fa ládába.",
-  "Mark_SO.Objective_2": "Helyezd a Bányászok eledelét Márk háza előtti fa ládába.",
+  "Mark_SO.Objective_0": "Szállíts le Márk házához 25db bombát.",//Helyezd a bombát Márk háza előtti fa ládába.
+  "Mark_SO.Objective_1": "Szállíts le Márk házához 35db fáklyát.",//Helyezd a fáklyát Márk háza előtti fa ládába.
+  "Mark_SO.Objective_2": "Szállíts le Márk házához 5db Bányászok eledelét.",//Helyezd a Bányászok eledelét Márk háza előtti fa ládába.
 
   "Mail.MarkReward": "Csá @!^Köszönöm az adományodat.^ -Márk[#]Márk köszönete",
 
   "Mail.MarkReward_return": "Csá @!^Vissza tértem!^Nem volt egyszerű de szerencsére rendesen fel voltam szerelkezve.^^Hogy a jövőben ne keljen kockáztatnom az életemet néhány ércért, ezért kitaláltam egy új eszközt ami segíthet a nyersanyag szerzésben.^Remélem te is hasznát tudod venni.^ -Márk%item craftingRecipe Excavator%%[#]Márk visszatérése",
 
   "Mark2_SO.Name": "Farm tábla",
-  "Mark2_SO.Text": "Egy ideje már gondolkodok rajta és nem lenne rosz ha az én farmomnál is lenne egy tábla. Ha valaki tudna nekem szállítani néhány keményfát azt igazán megköszönném.",
+  "Mark2_SO.Text": "Egy ideje már gondolkodok rajta és nem lenne rossz ha az én farmomnál is lenne egy tábla. Ha valaki tudna nekem szállítani néhány keményfát azt igazán megköszönném.",
   "Mark2_SO.Objective_0": "Helyezd a keményfát Márk háza előtti fa ládába.",
 
-  "Mail.MarkReward2": "Csá @!^Köszönöm a keményfát. Robinnal már neki is láttunk a tábla építéséhez ha van időd gyere és nézd meg mit alkottunk.^ -Márk ^^UI: A segítségért cserébe megosztok veled egy igazán hasznos receptet ;)%item craftingRecipe SakeBarrel%%[#]Márk táblája",
+  "Mail.MarkReward2": "Csá @!^Köszönöm a keményfát. Robinnal már neki is láttunk a tábla építéséhez, ha van időd gyere és nézd meg mit alkottunk.^ -Márk ^^UI: A segítségért cserébe megosztok veled egy igazán hasznos receptet ;)%item craftingRecipe SakeBarrel%%[#]Márk táblája",
 
   "Isti_SO.Name": "Trópusi vihar",
   "Isti_SO.Text": "Újra el szeretném készíteni a régi italomat amit még a szigeten ittam. Valaki tudna nekem hozni hozzá alapanyagokat?",
-  "Isti_SO.Objective_0": "Gyűjts be 25 '{Isti_Fruit:Text}'-t.",
-  "Isti_SO.Objective_1": "Szállíts le Istinek a 25db '{Isti_Fruit:Text}'-t.",
+  "Isti_SO.Objective_0": "Gyűjts be 25 {Isti_Fruit:Text}-t.",
+  "Isti_SO.Objective_1": "Szállíts le Istinek a 25db {Isti_Fruit:Text}-t.",
 
   "Mail.IstiReward": "Csá @!^Köszönöm az alapanyagokat. Ez az ital sok régi emléket hoz vissza. Ha te is ki szeretnéd próbálni, elküldtem a receptjét.^^ -Isti%item cookingRecipe TropicThunder%%[#]Trópusi vihar",
 
@@ -809,16 +806,16 @@
 	"HG_Cave.EmptyCreate": "Üres doboz.",
   "HG_Cave.Minecart": "Hello Guys Barlang",
 
-  "HG_Cave.EmployeesOnly": "Csak alkalmazottak",
+  "HG_Cave.EmployeesOnly": "Csak alkalmazottak!",
   "HG_Cave.Telescope": "A teleszkóppal sokkal jobban lehet látni a cseppköveket.",
   "HG_Cave.MinecartRide": "Nem tűnik biztonságosnak. Inkább kihagyom.",
   "HG_Cave.MinecartRideTicketMachine": "500g/Személy",
 
   //HG Cave Events
 
-  "HG_Cave.Unlock.01": "Helló @!", //Bence
-  "HG_Cave.Unlock.02": "Oh... csá @!", //Kristof
-  "HG_Cave.Unlock.03": "Éppen arra készülünk, hogy berobbantsuk a falat a barlangban.", //Bence
+  "HG_Cave.Unlock.01": "Helló @!",
+  "HG_Cave.Unlock.02": "Oh... csá @!",
+  "HG_Cave.Unlock.03": "Éppen arra készülünk, hogy berobbantsuk a falat a barlangban.",
   "HG_Cave.Unlock.04": "Aztán reméljük sikerülni fog.",
   "HG_Cave.Unlock.05": "Na meg persze az is megtörténhet, hogy beomlik az egész barlang.$u",
   "HG_Cave.Unlock.06": "Na ja. $h",
@@ -831,7 +828,7 @@
   "HG_Cave.Unlock.13": "Oké, kész vagyok.",
   "HG_Cave.Unlock.14": "Oké... én is megvagyok.",
   "HG_Cave.Unlock.15": "Gyere @, legyen tiéd a megtiszteltetés.",
-  "HG_Cave.Unlock.16": "Hát, talán sikerült.",
+  "HG_Cave.Unlock.16": "Hát... talán sikerült.",
   "HG_Cave.Unlock.17": "Menjünk nézzük meg!",
   "HG_Cave.Unlock.18": "Wow, azt kell mondjam pozitívan csalódtam.#$b#Nem gondoltam volna, hogy egy ekkora barlangot fogunk találni.",
   "HG_Cave.Unlock.19": "Mondjuk én egy kicsit több ércre számítottam.$s",
@@ -843,7 +840,7 @@
   "HG_Cave.Unlock.25": "Nem tudom mit lehetne itt csinálni, nincs itt semmi érdekes.",
   "HG_Cave.Unlock.26": "És mi lenne ha lenne.",
   "HG_Cave.Unlock.27": "Mert mire gondolsz Bence?",
-  "HG_Cave.Unlock.28": "Nyithatnánk itt egy kaland parkot, hullámvasúttal meg ajándékboltal.#$b#Ide akár kerülhetne akár egy kilátó.",
+  "HG_Cave.Unlock.28": "Nyithatnánk itt egy kaland parkot, hullámvasúttal meg ajándékboltal.#$b#Ide akár kerülhetne egy kilátó.",
   "HG_Cave.Unlock.29": "Ide meg akár kerülhetne egy jó kis bár, piával meg mindennel.",
   "HG_Cave.Unlock.30": "Akár.",
   "HG_Cave.Unlock.31": "Valószínűleg sok munka lesz és rengeteg nyersanyagra lesz szükségünk.",
@@ -1013,9 +1010,9 @@
   "Festival.Concert.Andy_y2": "Huh, a zene minden ütemét érzem! Ez igazán ütős.",//(AI)
   "Festival.Concert.Susan_y2": "Ez fantasztikus! Olyan felszabadító érzés.",//(AI)
 
-  //==================//
-  // Christopher NPC  //
-  //==================//
+  //=================//
+  // Christopher NPC //
+  //=================//
 
   //SPECIAL DIALOGUE
   "Christopher.Introduction": "Csáó. Te nemrég költöztél ide nem igaz? Én Kristóf vagyok örülök, hogy megismerhetlek.",
@@ -1025,7 +1022,7 @@
   "Christopher.Resort_Leaving": "Ez jól esett.",
   "Christopher.Resort_Shore": "Lehet elhozhattam volna a horgászfelszerelésemet.",
   "Christopher.Resort_Chair": "Egy ilyen széket beszerezhetnék otthonra is.",
-  "Christopher.Resort_Bar": "Gyere igyál velem valamit! $h",
+  "Christopher.Resort_Bar": "Gyere, igyál velem valamit! $h",
   "Christopher.Resort": "Ez a hely mindig megnyugtat. Itt még valahogy a sör is jobban esik. $h",
   "Christopher.AcceptBouquet": "Wow, ezt tényleg nekem... nem is tudom mit mon- *böff* $l",
   "Christopher.Reject_458": "Bocsi de még annyira nem ismerjük egymást. $s",
@@ -1034,7 +1031,7 @@
   "Christopher.fishCaught_Legend": "Hallom kifogtál egy Legendát, le a kalappal előtted! $h",
   "Christopher.fishCaught_MutantCarp": "Ez a szag? Csak nem kifogtál egy Mutáns pontyot?$0#$b#Ja várj, ez belőlem jön.$h",
   "Christopher.GiftBeer": "Király! $h#$b#Már egy ideje úgyis szomjas vagyok. $h",
-  "Christopher.GiftLegend": "Ez... egy legenda! Fogalmam sincs, hogy kaptad el, de le a kalappal! $h",
+  "Christopher.GiftLegend": "Ez... egy legenda! Fogalmam sincs, hogy kaptad el, de nagyon szépen köszönöm! $h",
   "Christopher.GiftDeluxBait": "Köszönöm, ezt holnap ki is próbálom.",
   "Christopher.GiftLangos": "Köszi, finomnak tűnik. $h",
   "Christopher.GiftPalinka": "Uh bazdmeg, hány fokos? Hu hu hu#$b#A kurva szádat, hány fokos?",
@@ -1179,7 +1176,7 @@
   "Mail.ChristopherRecipe" : "Hali @!^Szeretnék megosztani veled egy receptet.^^Remélem ízleni fog. ^ -Kristóf%item cookingRecipe %%[#]Kristóf receptje",
   "Mail.BikeWChris" : "Hali @!^Előkészítettem mindent a bicikli túránkra.^^Délután találkozzunk a buszmegállónál.^ -Kristóf^^UI:Esős időben elnapoljuk.%%[#]Kristóf meghívója",
   //Phone
-  "Phone.Christopher": "XD LOL *BÖFF* #$b#*click*",
+  "Phone.Christopher": "XD LOL *BÖFF* #$b#*katt*",
   
   //ScheduleDialogue
   "Christopher.NightMarket.01": "Nem igazán rajongok az Éjszakai piacért, ne ércs félre mókás meg minden, de sajnos a sok ember elriasztja a halakat.$s#$e#A tengeralattjáróból meg a tavalyi incidens óta ki vagyok tiltva.$s",
@@ -1198,7 +1195,7 @@
   "Christopher.Sam.Concert": "Láttalak Sam koncertjén, nem gondoltam volna, hogy koncertes alak vagy.",//4081148
   "Christopher.Bence.8heart": "Bence mesélte, hogy megmutatta a játékot amit csinál.$0#$b#Ha kérdeznéd minden ami a játékban volt tényleg megtörtént.$h",//2001104
 
-  "Christopher.fishCaught_Catfish": "Látom sikerült kifognod egy harcsát.$0#$b#Jó nagyra megtudnak nőlni.$0#$b#Remélem hamarosan ismét megdöntöm a rekordomat.$h",
+  "Christopher.fishCaught_Catfish": "Látom sikerült kifognod egy harcsát.$0#$b#Jó nagyra megtudnak nőlni.$0#$b#Remélem nem döntöd meg a rekordomat.$h",
   "Christopher.fishCaught_Blobfish": "Láttam voltál a tengeralatjáróban, gondolom sikerült fognod pár Pacalhalat... $0#$b#Akarom mondani, Pacahalat.$h",
   "Christopher.fishCaught_Carp": "Emlékszek még az én első pontyomra.$0#$b#Na meg persze az ezredikre is.$h",
   
@@ -1226,12 +1223,12 @@
 
   "Christopher.4heart.Question.01": "Haza tudnál segíteni?",
   "Christopher.4heart.Answer.01": "Te ittál túl sokat, old meg magadnak.",
-  "Christopher.4heart.Answer.02": "Igen, gyere kapaszkodj belém!",
+  "Christopher.4heart.Answer.02": "Igen, gyere, kapaszkodj belém!",
 
   "Christopher.4heart.02": "Köszi, tudtam, hogy rád számíthatok. *böff*$6",
   "Christopher.4heart.03": "Innét már azthiszem... *böff* boldogulok. $6#$b#Köszönöm mégegyszer @. $6#$b#Ha te nem vagy ma este is az utcán alszok. XD$h",
   "Christopher.4heart.04": "Melyik zsebembe is tettem a kulcsomat?$6",
-  "Christopher.4heart.05": "Oké megvan... $6",
+  "Christopher.4heart.05": "Oké, megvan... $6",
 
   //6heart
   "Christopher.6heart.01": "Csá @!$7#$b#Gyere csak nyugodtan beljebb.$7",
@@ -1243,10 +1240,10 @@
   "Christopher.6heart.Answer.02": "Köszönöm, de most kihagynám.",
 
   //8heart
-  "Christopher.8heart.GusWelcome": "Jó estét. Hozhatok valamit?",
+  "Christopher.8heart.GusWelcome": "Kerülj beljebb, kerülj beljebb!",
 
-  "Christopher.8heart.01": "@! Ez én emberem, gyere ma ünnepelünk. $h",
-  "Christopher.8heart.02": "Képzeld sikerült kifognom az eddigi legnagyobb halamat.$0#$b#Egy két méteres 68kg-os harcsát.$0#$b#Gondolom mondanom se kell, hogy közel egy órán át fárasztottam.$0#$b#Baszod, konkrétan nagyobb a hal mint én. $h#$b#És hát elég nagy summát kaptam érte szóval...$0",
+  "Christopher.8heart.01": "@! Ez én emberem, gyere, ma ünnepelünk. $h",
+  "Christopher.8heart.02": "Képzeld, sikerült kifognom az eddigi legnagyobb halamat.$0#$b#Egy két méteres 68kg-os harcsát.$0#$b#Gondolom mondanom se kell, hogy közel egy órán át fárasztottam.$0#$b#Baszod, konkrétan nagyobb a hal mint én. $h#$b#És hát elég nagy summát kaptam érte szóval...$0",
   "Christopher.8heart.03": "Ennek örömére, MA MINDENKI A VENDÉGEM! $h",
 
   "Christopher.8heart.End": "Egy vedelős estével később.",
@@ -1264,7 +1261,7 @@
 
   //10heart II
   "Christopher.10heartII.01": "Csá, @.",
-  "Christopher.10heartII.02": "Előkészültem mindennel szóval akár indulhatunk is.",
+  "Christopher.10heartII.02": "Előkészültem mindennel, szóval akár indulhatunk is.",
 
   "Christopher.10heartII.03": "Tudok errefelé egy jó helyet ahol megállhatunk pihenni.",
   "Christopher.10heartII.04": "Hát igen... nincs is jobb mint egy finom frissítő sör egy kiadós biciklizés után. $h#$b#Örülök, hogy eljöttél velem @.$l#$b#Többieket sosem tudom rá venni, hogy csatlakozzanak.$s",
@@ -1283,7 +1280,7 @@
   "Christopher.Engagement.1": "Szeretek a parton élni, de ha csak arra gondolok, hogy mennyit ihatunk együt a farmon nem tudok nem boldog lenni. $h",
 
   //CommunityDay
-  "Christopher.CommunityDay.01": "Lehet több hal kellene a z akváriumba, nem gondolod?",
+  "Christopher.CommunityDay.01": "Lehet több hal kellene az akváriumba, nem gondolod?",
   "Christopher.CommunityDay.02": "Willyvel később elugrunk horgászni, nem tartasz velünk?",
   "Christopher.CommunityDay.03": "*böff* Ez már a hetedik söröm ma. $h",
   "Christopher.CommunityDay.04": "Nincs is jobb mint összegyülni és közösen inni.",
@@ -1321,7 +1318,7 @@
   "Christopher.TwoKids.01": "Ma láttam %kid2-t ahogy megpróbálta elérni a sörömet az asztalon. #$b#Nem is lehetnék büszkébb.",
   "Christopher.TwoKids.02": "Szerintem %kid1 és %kid2 már elég idősek ahhoz, hogy koncertre menjünk velük, nem gondolod?",
   "Christopher.TwoKids.03": "Családi programként elvihetnénk a gyerekeket pecázni.",
-  "Christopher.TwoKids.04": "Ne aggódj, majd megetetem %kid2-t. Te csak koncentrálj a farm üzemeltetésére. #$b#Na most, hol is lehet %kid2?",
+  "Christopher.TwoKids.04": "Ne aggódj, majd megetetem a gyerekeket. Te csak koncentrálj a farm üzemeltetésére. #$b#Na most, hol is lehet %kid2?",
   
   "Christopher.MarriageDialogue.spring_Christopher": "Idén lehet többet fogok gyakorolni gitáron.",
   "Christopher.MarriageDialogue.spring_1": "Nos, eljött az újév. Van valami terved, hogy mit szeretnél elérni ebben az évben?#$e#Én tele vagyok reménnyel és sörrel.",
@@ -1329,7 +1326,7 @@
   "Christopher.MarriageDialogue.spring_23": "Holnap remélem felkérsz táncolni.$l",
 
   "Christopher.MarriageDialogue.summer_Christopher": "Eljött a nyár, ez tudod mit jelent?$0#$e#Ideje sört főzni!$h",
-  "Christopher.MarriageDialogue.summer_1": "Nehogy hőgutát kapj, kedvesem.#$e#Igyál sok sört, tessék itt is van egy.[346]",
+  "Christopher.MarriageDialogue.summer_1": "Nehogy hőgutát kapj, kedvesem.#$e#Igyál sok sört, tessék, itt is van egy.[346]",
   "Christopher.MarriageDialogue.summer_8": "*szimat* Elnézést, megint alkohol szagom van... Tegnap nem tudtam aludni ezért egész este sört ittam.",
   "Christopher.MarriageDialogue.summer_15": "Nyár van... vagyis a ház tele van legyekkel.#$e#Ne aggódj, párat fingok és egy se marad.",
   "Christopher.MarriageDialogue.summer_19": "Alig várom a holnapi pisztráng derbit, ha van időd kijöhetnél és horgászhatnánk együtt.",
@@ -1358,8 +1355,8 @@
 
   "Christopher.MarriageDialogue.Outdoor_Christopher": "Élvezem ezt a farmer életet.#$b#Friss ételek, gyümölcsök és persze nem felejthetem el a házi sört sem.",
 
-  "Christopher.MarriageDialogue.Outdoor_0": "Ma csodálatos napunk van, nemde?$h#$e#Az ilyen napok igazán jó dolgozni.",
-  "Christopher.MarriageDialogue.Outdoor_1": "Ma csak pihenné is inni fogok és körbenézni a farmon, ugye nem gond?",
+  "Christopher.MarriageDialogue.Outdoor_0": "Ma csodálatos napunk van, nemde?$h#$e#Az ilyen napokon igazán jó dolgozni.",
+  "Christopher.MarriageDialogue.Outdoor_1": "Ma csak pihenni és inni fogok és körbenézni a farmon, ugye nem gond?",
   //"Christopher.MarriageDialogue.Outdoor_2": "-",
   //"Christopher.MarriageDialogue.Outdoor_3": "-",
   "Christopher.MarriageDialogue.Outdoor_4": "Ne hajszold túl magad, drágám.#$e#Néha azért pihengess is egy kicsit, vagy igyál egy sört.$h",
@@ -1420,9 +1417,9 @@
   "Christopher.MarriageDialogue.NoBed_2": "Tegnap este a padlón kellett aludnom...$0#$b#Szerencsére már megszoktam.$h",
   "Christopher.MarriageDialogue.NoBed_3": "Történt valami az ágyunkkal...?",
 
-  //************************
-  // Bence NPC
-  //************************
+  //===============//
+  //   Bence NPC   //
+  //===============//
 
   //SPECIAL DIALOGUE
   "Bence.Introduction": "Oh... Helló, te lennél az új farmer igaz? Örvendek a találkozásnak én Bence vagyok.",
@@ -1473,7 +1470,7 @@
   "Bence.CharacterDialogue.004": "*ásít* Bocs csak egy kicsit fáradt vagyok.$6",
   "Bence.CharacterDialogue.005": "Nem aludtam tegnap este valami jól.$6#$e#Lehet előbb kellene lefeküdnöm?$6",
   "Bence.CharacterDialogue.006": "*tüsszent*$0#$e#*tüsszent* A francba már.$a",
-  "Bence.CharacterDialogue.007": "*tüsszent* Valaki öljön meg! *tüsszent*",
+  "Bence.CharacterDialogue.007": "*tüsszent*#$b#*tüsszent*#$b#*tüsszent* Valaki öljön meg! *tüsszent*",
   "Bence.CharacterDialogue.008": "Próbáltad már a helyi pizzát? #$b#Higgy nekem nagyon megéri.",
   "Bence.CharacterDialogue.009": "Oh... @! Na csá, kicsit megijesztettél, éppen elvoltam mélyültve a gondolataimban.",
   "Bence.CharacterDialogue.010": "Légy óvatos ha bemész az erdőbe, elég sok arrafelé a vadállat. #$b#Ha meg mégis összetalálkoznál egyel remélem jó futó vagy.",
@@ -1576,7 +1573,7 @@
   "Mail.BenceRecipe" : "Helló @!^^Gondoltam megosztok veled egy különleges receptet. ^^Ha elkészíted ne felejtkezz meg rólam. ;) ^^ -Bence%item cookingRecipe %%[#]Bence receptje",
   
   //Phone
-  "Phone.Bence": "Halló, egy nagy magyaros pizzát szeretnék rendelni. #$b#Hoppá, téves szám. #$b#Attólmég @, tudnál nekem hozni egyet? #$b#*click*",
+  "Phone.Bence": "Halló, egy nagy magyaros pizzát szeretnék rendelni. #$b#Hoppá, téves szám. #$b#Attólmég @, tudnál nekem hozni egyet? #$b#*katt*",
   
   //ScheduleDialogue
   "Bence.NightMarket.01": "Nem hiszem, hogy fogok venni bármit is, de azért kijöttem körülnézni.",
@@ -1750,7 +1747,7 @@
   "Bence.TwoKids.04": "Lefáraszt ez a két gyerek.$6",
   
   "Bence.MarriageDialogue.spring_Bence": "Most, hogy tavasz lett gondolom elég sok a teendő a farmon.#$b#Akarod, hogy segítsek?",
-  "Bence.MarriageDialogue.spring_1": "*ásít* Máris tavasz van?#$b#Olyan érzés mintha átaludtam volna a telet.$6",
+  "Bence.MarriageDialogue.spring_1": "*ásít* Máris tavasz van?$6#$b#Olyan érzés mintha átaludtam volna a telet.$6",
   "Bence.MarriageDialogue.spring_8": "Nos...? Minden rendben a farmal?",
   "Bence.MarriageDialogue.spring_23": "Oh... holnap lesz a virág tánc?#$b#Teljesen ki ment a fejemből.",
 
@@ -1790,7 +1787,7 @@
   //"Bence.MarriageDialogue.Outdoor_4": "-",
 
   "Bence.MarriageDialogue.Rainy_Day_0": "Esik odakint. Lehet miután eláll elmegyek sétálni egyet.#$b#Eső után mindig jobb a levegő.",
-  "Bence.MarriageDialogue.Rainy_Day_1": "Esik! Szóval ma nem kell megöntöznünk a termést.$h#$b#",
+  "Bence.MarriageDialogue.Rainy_Day_1": "Esik! Szóval ma nem kell megöntöznünk a termést.$h",
   "Bence.MarriageDialogue.Rainy_Day_2": "Reggelt! Nem tudtam aludni, gondoltam készítek reggeli. [194 195 201 211 215]  $6#$e#*ásít* Ha megbocsáltasz ma lehet csak pihenni fogok.$6",
   "Bence.MarriageDialogue.Rainy_Day_3": "Van terved mára, drágám?#$e#Nem akarok kimenni ilyen időben... Valószínűleg ma a projektemen fogok dolgozni.",
   "Bence.MarriageDialogue.Rainy_Day_4": "Van ötleted hogy mi legyen a vacsora?",
@@ -1802,7 +1799,7 @@
   "Bence.MarriageDialogue.Indoor_Night_4": "*nyújtózkodik* Épp nemrég fejeztem be mára a projectemet. Végre együtt tölthetjük az időt.$h#$e#Szóval, történt veled ma valami érdekes?$l#$e#...$h",
 
   "Bence.MarriageDialogue.Rainy_Night_0": "Olyan csodálatos ez az este, csak te meg én és az eső hangja ahogyan kobog a farmházon.$l",
-  "Bence.MarriageDialogue.Rainy_Night_1": "Hallod az eső kopogását a tetőn, @?#$b#Remélem nem fogunk beázni.",
+  "Bence.MarriageDialogue.Rainy_Night_1": "Hallod az eső kopogását a tetőn, @?$0#$b#Remélem nem fogunk beázni.$u",
   "Bence.MarriageDialogue.Rainy_Night_2": "Áh... Az eső nyugtató hangja... Ma este jól fogok aludni.$6",
   "Bence.MarriageDialogue.Rainy_Night_3": "Eléggé lehült a levegő az eső miattt, jobb lesz össze bújni az ágyban.$l",
   "Bence.MarriageDialogue.Rainy_Night_4": "Bár én annyira nem vagyok oda érte, de gondoltam készítek neked egy kis levest vacsorára. [199 218 219 727 730]$h#$e#Az ilyen napokon valami forróra van szükséged!$h",
@@ -1811,7 +1808,7 @@
   //"Bence.MarriageDialogue.Good_0": "-",
   "Bence.MarriageDialogue.Good_1": "Tudod, mindig is gondoltam, hogy egy nap együtt leszünk.$l",
   //"Bence.MarriageDialogue.Good_2": "-",
-  "Bence.MarriageDialogue.Good_3": "Mindig elfelejtem, hogy milyen jóképű vagy!$l^Mindig elfelejtem, hogy milyen csodálatos vagy.$l",
+  "Bence.MarriageDialogue.Good_3": "Mindig elfelejtem, hogy milyen jóképű vagy!$l^Mindig elfelejtem, hogy milyen gyönyörű vagy.$l",
   "Bence.MarriageDialogue.Good_4": "Úgy érzem megtaláltam az igazi otthonomat.$l",
   "Bence.MarriageDialogue.Good_5": "Épp az esküvői talizmánomat nézegettem... Csodálatos. Azt akarom, hogy majd a talizmánnal temessenek el.$l",
   "Bence.MarriageDialogue.Good_6": "Légy óvatos odakint!",
@@ -1841,9 +1838,9 @@
   //"Bence.MarriageDialogue.Bad_8": "-",
   //"Bence.MarriageDialogue.Bad_9": "-",
 
-  //************************
-  // Mark NPC
-  //************************
+  //==============//
+  //   Mark NPC   //
+  //==============//
 
   //SPECIAL DIALOGUE
   "Mark.Introduction": "Üdv, szia! Márk vagyok!",
@@ -1994,7 +1991,7 @@
   "Mail.Mark" : "Csá @!^Szükségem lenne a segítségedre.^^A tegnapi vihar erősen megrongálta a házam tetőjét. Ha megkérhetlek tudnál nekem hozni keményfát, hogy minél hamarabb nekiállhassak a javításnak.^^Előre is köszönöm.^-Márk%item quest 2201 %%[#]Törött tető",
   
   //Phone
-  "Phone.Mark": "Csá @! Nálad van internet?#$b#Oh várj... visszajött, akkor semmi.#$b#*click*",
+  "Phone.Mark": "Csá @! Nálad van internet?#$b#Oh várj... visszajött, akkor semmi.#$b#*katt*",
   
   //ScheduleDialogue
   "Mark.NightMarket.01": "Vajon árul itt valaki mangát?",
@@ -2063,7 +2060,7 @@
   "Mark.8heartI.Answer.01": "Elmegyek veled.",
   "Mark.8heartI.Answer.02": "Bocsi de nincs kedvem hozzá.",
   "Mark.8heartI.02": "Jólvan, akkor úgy néz ki egyedül megyek.$s",
-  "Mark.8heartI.03": "Oké, akkor majd délután találkozzunk a buszmegállónál.#$b#Addig is, good bye.",
+  "Mark.8heartI.03": "Oké, akkor majd délután találkozzunk a buszmegállónál.#$b#Addig is, goodbye.",
 
   //8heartII
   "Mark.8heartII.01": "Csá @!#$b#Örülök, hogy itt vagy. Akkor szerintem indulhatunk is.",
@@ -2171,7 +2168,7 @@
   "Mark.funLeave.summer": "*sóhaj* Le fogok égni mire elérek a szalonba.",
   "Mark.funReturn.summer": "Huh... Nagyon meleg van kint.",
   "Mark.funLeave.fall": "Később jövök.#$e#Elmegyek inni a többiekkel a szalonba.",
-  "Mark.funReturn.fall": "*böff* Lehet a tekila már nem kelett volna.",
+  "Mark.funReturn.fall": "*böff* Lehet a tekila már nem kellett volna.",
   "Mark.funLeave.winter": "Ellapátoltad az összes havat az útból?",
   "Mark.funReturn.winter": "Öltözz fel melegen, hideg van!",
 
@@ -2276,35 +2273,35 @@
   //"Mark.MarriageDialogue.Bad_8": "-",
   //"Mark.MarriageDialogue.Bad_9": "-",
 
-  //==================//
-  // Isti NPC  //
-  //==================//
+  //==============//
+  //   Isti NPC   //
+  //==============//
 
   //SPECIAL DIALOGUE
   //"Isti.Introduction": "-",
-  "Isti.AcceptBouquet": "Óó, komolyan? Ez nagyon jól esik... olyan, mintha egy Cannibal Corpse riff szétrobbantotta volna a szívem! $h",
-  "Isti.Reject_458": "Bocs, de a szívem most más ritmusra dübörög. Inkább egy sör mellett haverkodjunk. $u",
-  "Isti.GreenRain": "Ez a zöld eső olyan, mintha valami poszt-apokaliptikus animében lennénk. Totál Kenshiro vibe! $a",
-  "Isti.GreenRainFinished": "Vége a zöld rémálomnak! Egy korsó sör, és minden jobb lesz. $h",
-  "Isti.GiftBeer": "Most mondjam azt, hogy azonnal a legjobb barátom lettél? Ez aranyat ér! $h",
-  "Isti.GiftLangos": "Lángos? Haver, ez a legjobb koncertkajám volt mindig is. Köszi! $h",
-  "Isti.GiftPalinka": "Pálinka? Húú, ez csúszni fog, mint a Slayer-szóló! $h",
-  "Isti.AcceptBirthdayGift_Positive": "Ez... ez nagyon király! Köszi, haver, feldobtad a napom! $h",
-  "Isti.AcceptBirthdayGift_Negative": "Őő... figyelj, értékelem a próbálkozást, de ez nem igazán az én stílusom. $u",
-  "Isti.AcceptGift_alcohol_item": "Most már tudod, mivel kell megnyerni a szívemet! $h",
-  "Isti.DumpsterDiveComment": "Haha, nem ítélkezem! Tudod, mennyi jó cuccomat húztam már ki konténerből koncertek után? $h",
-  "Isti.married_Christopher": "Na, báty, látom, révbe értél! Büszke vagyok rád, haver. $h",
-  "Isti.married_Bence": "Óó, Bence megtalálta a boldogságát! Na, erre igyunk! $h",
-  "Isti.married_Mark": "Márk is révbe ért... gratulálok, haver! Ez megér egy koccintást. $h",
-  "Isti.breakUp": "Ó... értem. Hát, nem könnyű ez. De igyunk egy sört, és túléljük. $s",
-  "Isti.divorced": "Az élet kemény riffeket játszik... de hidd el, lesz még refrén. $u",
-  "Isti.MovieInvitation": "Mozizni? Hát, remélem nem egy romantikus komédia... inkább valami akció vagy animés! $a",
+  "Isti.AcceptBouquet": "[MISSING TEXT]",
+  "Isti.Reject_458": "[MISSING TEXT]",
+  "Isti.GreenRain": "[MISSING TEXT]",
+  "Isti.GreenRainFinished": "[MISSING TEXT]",
+  "Isti.GiftBeer": "[MISSING TEXT]",
+  "Isti.GiftLangos": "[MISSING TEXT]",
+  "Isti.GiftPalinka": "[MISSING TEXT]",
+  "Isti.AcceptBirthdayGift_Positive": "[MISSING TEXT]",
+  "Isti.AcceptBirthdayGift_Negative": "[MISSING TEXT]",
+  "Isti.AcceptGift_alcohol_item": "[MISSING TEXT]",
+  "Isti.DumpsterDiveComment": "[MISSING TEXT]",
+  "Isti.married_Christopher": "[MISSING TEXT]",
+  "Isti.married_Bence": "[MISSING TEXT]",
+  "Isti.married_Mark": "[MISSING TEXT]",
+  "Isti.breakUp": "[MISSING TEXT]",
+  "Isti.divorced": "[MISSING TEXT]",
+  "Isti.MovieInvitation": "[MISSING TEXT]",
   //"Isti.RejectBouquet_NpcAlreadyMarried": "-",
   //"Isti.RejectBouquet_AlreadyAccepted": "-",
   //"Isti.RejectBouquet_Divorced": "-",
   //"Isti.RejectBouquet_VeryLowHearts": "-",
   //"Isti.RejectBouquet_LowHearts": "-",
-  "Isti.RejectGift_Divorced": "Őő, inkább ne... most nem vagyok abban a hangulatban. $u",
+  "Isti.RejectGift_Divorced": "[MISSING TEXT]",
   //"Isti.RejectMermaidPendant_AlreadyAccepted": "-",
   //"Isti.RejectMermaidPendant_Divorced": "-",
   //"Isti.RejectMermaidPendant_NeedHouseUpgrade": "-",
@@ -2315,290 +2312,290 @@
   //"Isti.Dating": "-",
 
   //FESTIVALS
-  "Isti.FlowerDance_Accept": "Na, ez lesz ám az igazi headbangelős tánc, készülj! $h",
-  "Isti.FlowerDance_Decline": "Őszintén? A tánc nem az én stílusom... hacsak nem circle pitben van. $u",
-  "Isti.WinterStar_GiveGift_Before": "Remélem, hogy a kis ajándékom úgy betalál majd, mint egy Slayer riff! $h",
-  "Isti.WinterStar_GiveGift_After": "Na? Hogy tetszik? Remélem, betalált! $h",
-  "Isti.WinterStar_ReceiveGift": "Óó, haver, ez nagyon király! Pont ilyet szerettem volna. Ez jobb, mint egy új lemezpremier! $h",
-  "Isti.TroutDerby1": "Horgászat és hideg sör... ezt hívom én igazi fesztiválnak! $h",
-  "Isti.TroutDerby2": "Ha kifogok egy nagy halat, bátysz biztosan féltékeny lesz. $a",
-  "Isti.SquidFest1": "Tintahalvadászat? Ez tiszta olyan, mint egy régi videojáték küldetés. $h",
-  "Isti.SquidFest2": "Ha ebből koncertposztert lehetne csinálni, az lenne a legkeményebb borító! $h",
+  "Isti.FlowerDance_Accept": "[MISSING TEXT]",
+  "Isti.FlowerDance_Decline": "[MISSING TEXT]",
+  "Isti.WinterStar_GiveGift_Before": "[MISSING TEXT]",
+  "Isti.WinterStar_GiveGift_After": "[MISSING TEXT]",
+  "Isti.WinterStar_ReceiveGift": "-",
+  "Isti.TroutDerby1": "[MISSING TEXT]",
+  "Isti.TroutDerby2": "[MISSING TEXT]",
+  "Isti.SquidFest1": "[MISSING TEXT]",
+  "Isti.SquidFest2": "[MISSING TEXT]",
 
   //SPECIFIC MAP AND COORDINATES DIALOGUE
-  "Isti.LocationDialogue.Saloon": "Ez a hely azonnal otthonos, amíg van hideg sör és valaki beszélgetni. Néha még gitárt is hozok, hogy felrázzam a hangulatot! $h",
+  "Isti.LocationDialogue.Saloon": "[MISSING TEXT]",
 
   //SPRING AND GENERAL DIALOGUE
-  "Isti.CharacterDialogue.001": "Amikor hajótörést szenvedtem, azt hittem, vége mindennek. De a sziget adott nekem egy új életet... és sok kókuszt. Nagyon sok kókuszt. $h",
-  "Isti.CharacterDialogue.002": "A régi gitárom a tenger fenekén pihen... de néha farigcsálok fadarabokat, és úgy teszek, mintha játszanék rajta. A ritmus a fejemben mindig él. $h",
-  "Isti.CharacterDialogue.003": "Néha elképzelem, hogy a hullámok a Cannibal Corpse dobjait verik. Ha becsukom a szemem, szinte hallom a riffeket. $a",
-  "Isti.CharacterDialogue.004": "A szigeten minden egyszerűbb. Nincs város, nincs rohanás, csak a nap, a homok és a túlélés. Meg persze egy kis kókusztej. $h",
-  "Isti.CharacterDialogue.005": "Fura, de a kókusztej kezd úgy ízleni, mint régen a sör... vagy csak az agyam játszik velem? $u",
-  "Isti.CharacterDialogue.006": "Bátysz mindig mondta, hogy gondoskodjak magamról. Ha most látna, nevetne rajtam, ahogy pálmalevélből próbálok sapkát hajtogatni. $h",
-  "Isti.CharacterDialogue.007": "Amikor egyedül vagy a szigeten, minden hangosabb. A szél, a víz, a gondolataid... néha mégis olyan, mintha egy egész koncert dübörögne körülöttem. $a",
+  "Isti.CharacterDialogue.001": "[MISSING TEXT]",
+  "Isti.CharacterDialogue.002": "[MISSING TEXT]",
+  "Isti.CharacterDialogue.003": "[MISSING TEXT]",
+  "Isti.CharacterDialogue.004": "[MISSING TEXT]",
+  "Isti.CharacterDialogue.005": "[MISSING TEXT]",
+  "Isti.CharacterDialogue.006": "[MISSING TEXT]",
+  "Isti.CharacterDialogue.007": "[MISSING TEXT]",
   //SUMMER DIALOGUE
-  "Isti.CharacterDialogue.008": "A nap néha úgy perzsel, mintha egy metál koncert reflektora alatt állnék. Csak itt a közönség sirályokból áll. $h",
-  "Isti.CharacterDialogue.009": "Megtanultam, hogyan kell halat fogni puszta kézzel. Nem Doom, de azért van benne adrenalin. $a",
-  "Isti.CharacterDialogue.010": "Kókusz, kókusz, kókusz... néha álmodom róla, hogy egy óriási kókusz üldöz. Talán túl sokat iszom belőle. $u",
-  "Isti.CharacterDialogue.011": "Egyszer találtam egy sodródó deszkát a parton. Úgy képzeltem, hogy ez a régi gitárom... játszottam rajta egy teljes koncertet a sirályoknak. $h",
-  "Isti.CharacterDialogue.012": "A sziget csendje jó. De azért hiányzik a zaj, a beszélgetés, a barátok. bátysz biztosan röhögne rajtam, hogy ezt mondom. $s",
-  "Isti.CharacterDialogue.013": "Volt egy pillanat, amikor azt hittem, sose jutok haza. De valahogy mindig találtam erőt... talán a zene adott erőt bennem. $h",
-  "Isti.CharacterDialogue.014": "Ha egyszer elhagyom a szigetet, tuti írok egy albumot róla. Az első szám címe: 'Coconut Thrash' lesz. $a",
+  "Isti.CharacterDialogue.008": "[MISSING TEXT]",
+  "Isti.CharacterDialogue.009": "[MISSING TEXT]",
+  "Isti.CharacterDialogue.010": "[MISSING TEXT]",
+  "Isti.CharacterDialogue.011": "[MISSING TEXT]",
+  "Isti.CharacterDialogue.012": "[MISSING TEXT]",
+  "Isti.CharacterDialogue.013": "[MISSING TEXT]",
+  "Isti.CharacterDialogue.014": "[MISSING TEXT]",
   //FALL DIALOGUE
-  "Isti.CharacterDialogue.015": "Ha lenne itt koncerthely, már most pengetném a fadarab gitárom... de a sirályok a közönségem. $h",
-  "Isti.CharacterDialogue.016": "Kókusztej minden reggel... néha azt hiszem, ez az új söröm. $u",
-  "Isti.CharacterDialogue.017": "Bátysz biztos röhögne, ha látná, hogyan próbálok improvizálni hangszerek nélkül. $a",
-  "Isti.CharacterDialogue.018": "A hullámok meg a szél ritmusa jobb, mint egy metál dobcucc. Legalábbis én így érzem. $h",
-  "Isti.CharacterDialogue.019": "Néha összeszedek egy pár kavicsot, és úgy játszom velük, mintha basszusgitár lenne... működik. $u",
-  "Isti.CharacterDialogue.020": "A sziget néha unalmasnak tűnik... aztán rájövök, hogy minden kókuszdió egy mini kaland! $h",
-  "Isti.CharacterDialogue.021": "Ha valaki meglátna, biztos röhögnének: én, egy hajótörött, és a saját 'metal bandámmal' a parton. $a",
+  "Isti.CharacterDialogue.015": "[MISSING TEXT]",
+  "Isti.CharacterDialogue.016": "[MISSING TEXT]",
+  "Isti.CharacterDialogue.017": "[MISSING TEXT]",
+  "Isti.CharacterDialogue.018": "[MISSING TEXT]",
+  "Isti.CharacterDialogue.019": "[MISSING TEXT]",
+  "Isti.CharacterDialogue.020": "[MISSING TEXT]",
+  "Isti.CharacterDialogue.021": "[MISSING TEXT]",
   //WINTER DIALOGUE
-  "Isti.CharacterDialogue.022": "A szél olyan hideg, hogy a fadarab gitáromon a pengető majdnem lefagyott. $h",
-  "Isti.CharacterDialogue.023": "Kókusztej hidegben... hmm, ez is valami extrém sportnak számít. $u",
-  "Isti.CharacterDialogue.024": "Bátysz biztos azt mondaná: 'Isti, ez túl vad!' Hát igen, ez az én stílusom. $a",
-  "Isti.CharacterDialogue.025": "Néha próbálok énekelni, de a sirályok mindig ráimprovizálnak. Legalább nem unalmas! $h",
-  "Isti.CharacterDialogue.026": "Ha lenne söröm... na, akkor igazán headbangelhetnék. De a kókusztej is elég... majdnem. $u",
-  "Isti.CharacterDialogue.027": "Fura, de a magányos sziget nekem tökéletes metal vibe-ot ad. Komolyan mondom! $a",
-  "Isti.CharacterDialogue.028": "Ha valaki meglátna itt a parton, biztos azt hinné: 'Ez az ember bolond!' Talán igazuk van... de élvezem. $h",
+  "Isti.CharacterDialogue.022": "[MISSING TEXT]",
+  "Isti.CharacterDialogue.023": "[MISSING TEXT]",
+  "Isti.CharacterDialogue.024": "[MISSING TEXT]",
+  "Isti.CharacterDialogue.025": "[MISSING TEXT]",
+  "Isti.CharacterDialogue.026": "[MISSING TEXT]",
+  "Isti.CharacterDialogue.027": "[MISSING TEXT]",
+  "Isti.CharacterDialogue.028": "[MISSING TEXT]",
 
-  //SPRING AND GENERAL DIALOGUE (REGULAR) IN VALLEY
-  "Isti.CharacterDialogue_regular.001": "Hát, a tavasz itt egészen más, mint a szigeten... a fák virágoznak, a madarak koncertet adnak. $h",
-  "Isti.CharacterDialogue_regular.002": "Bátysz biztos röhögne, ha látná, hogy mennyit rohanok a piacra a friss zöldségekért. $u",
-  "Isti.CharacterDialogue_regular.003": "Szeretem a városi életet... de néha hiányzik, amikor csak a hullámokat hallgattam. $s",
-  "Isti.CharacterDialogue_regular.004": "Az egyik legjobb dolog a városban? Hogy végre sörhöz is jutok, nem csak kókusztejhez. $h",
-  "Isti.CharacterDialogue_regular.005": "Ha lenne itt koncerthely, biztosan megpróbálnék egy kis metal headbangelést. $a",
-  "Isti.CharacterDialogue_regular.006": "A napfény és a friss levegő... tökéletes arra, hogy kicsit elmerüljek az új riffekben. $h",
-  "Isti.CharacterDialogue_regular.007": "Néha elgondolkodom, mennyire más az élet itt, mennyivel több lehetőség van. De azért a sziget mindig a szívemben marad. $u",
-  //SUMMER DIALOGUE (REGULAR) IN VALLEY
-  "Isti.CharacterDialogue_regular.008": "Nyár van, a Nap tűz, de én mégis inkább a koncert hangulatát érzem. $h",
-  "Isti.CharacterDialogue_regular.009": "Bátysz, Bence, Márk... ezek a nevek mindig mosolyt csalnak az arcomra. $a",
-  "Isti.CharacterDialogue_regular.010": "Ha valaki megkérdezné, miért szeretem a nyarat... azt mondanám: mert a sör hideg, a barátok közel, és a riffek hangosak. $h",
-  "Isti.CharacterDialogue_regular.011": "Sokszor álmodom a szigetről, de itt is lehet buli, csak a parton most más a közönség. $u",
-  "Isti.CharacterDialogue_regular.012": "Egy kis anime este a barátokkal... tökéletes kombináció a nyári éjszakákhoz. $h",
-  "Isti.CharacterDialogue_regular.013": "Ha lenne hangszereim, biztos játszanék egy mini koncertet a város közepén. $a",
-  "Isti.CharacterDialogue_regular.014": "A nyár mindig emlékeztet arra, hogy mennyire szerencsés vagyok, hogy új életet kezdhettem. $u",
-  //FALL DIALOGUE (REGULAR) IN VALLEY
-  "Isti.CharacterDialogue_regular.015": "Ősz van... a levelek hullanak, a sör kicsit melegebb, de a metal sosem változik. $h",
-  "Isti.CharacterDialogue_regular.016": "Néha komolyan elgondolkodom a múltamról. Hajótörés, sziget... minden kaland formálta az életem. $u",
-  "Isti.CharacterDialogue_regular.017": "Bátysz biztos mosolyogna, ha látná, milyen magabiztos vagyok itt a városban. $a",
-  "Isti.CharacterDialogue_regular.018": "A levegő hűvösebb, de egy jó sör és egy kis metál mindig melegít. $h",
-  "Isti.CharacterDialogue_regular.019": "Őszintén, néha csak leülök és bámulom a fák színeit... meg a kókusztej még mindig viccesen eszembe jut. $u",
-  "Isti.CharacterDialogue_regular.020": "Ha lenne koncert a város közepén, biztos mindenki headbangelne velem. $a",
-  "Isti.CharacterDialogue_regular.021": "Őszintén? Ez a város néha annyira nyugodt, hogy szinte hallani a saját gondolataim riffjeit. $h",
-  //WINTER DIALOGUE (REGULAR) IN VALLEY
-  "Isti.CharacterDialogue_regular.022": "Tél van, a hó esik... ideje bekapcsolni a fűtést, és egy kis zenével bemelegíteni. $h",
-  "Isti.CharacterDialogue_regular.023": "Bátysz mindig mondta: a hideg sem állíthat meg egy igazi metalhead-et. $a",
-  "Isti.CharacterDialogue_regular.024": "Szeretem a téli estéket, amikor csak a zene és egy jó társaság számít. $u",
-  "Isti.CharacterDialogue_regular.025": "Ha lenne egy hideg söröm... nah, az lenne a tökéletes beállítás a riffekhez. $h",
-  "Isti.CharacterDialogue_regular.026": "Néha kicsit nosztalgiázom a szigeten töltött napokról... de itt is jó életem van. $u",
-  "Isti.CharacterDialogue_regular.027": "Ha esik a hó, az olyan, mintha egy teljesen új albumot indítanék a világban. $a",
-  "Isti.CharacterDialogue_regular.028": "Tél, zene, barátok... talán ez az igazi élet. $h",
+  //SPRING AND GENERAL DIALOGUE (REGULAR)
+  "Isti.CharacterDialogue_regular.001": "[MISSING TEXT]",
+  "Isti.CharacterDialogue_regular.002": "[MISSING TEXT]",
+  "Isti.CharacterDialogue_regular.003": "[MISSING TEXT]",
+  "Isti.CharacterDialogue_regular.004": "[MISSING TEXT]",
+  "Isti.CharacterDialogue_regular.005": "[MISSING TEXT]",
+  "Isti.CharacterDialogue_regular.006": "[MISSING TEXT]",
+  "Isti.CharacterDialogue_regular.007": "[MISSING TEXT]",
+  //SUMMER DIALOGUE (REGULAR)
+  "Isti.CharacterDialogue_regular.008": "[MISSING TEXT]",
+  "Isti.CharacterDialogue_regular.009": "[MISSING TEXT]",
+  "Isti.CharacterDialogue_regular.010": "[MISSING TEXT]",
+  "Isti.CharacterDialogue_regular.011": "[MISSING TEXT]",
+  "Isti.CharacterDialogue_regular.012": "[MISSING TEXT]",
+  "Isti.CharacterDialogue_regular.013": "[MISSING TEXT]",
+  "Isti.CharacterDialogue_regular.014": "[MISSING TEXT]",
+  //FALL DIALOGUE (REGULAR)
+  "Isti.CharacterDialogue_regular.015": "[MISSING TEXT]",
+  "Isti.CharacterDialogue_regular.016": "[MISSING TEXT]",
+  "Isti.CharacterDialogue_regular.017": "[MISSING TEXT]",
+  "Isti.CharacterDialogue_regular.018": "[MISSING TEXT]",
+  "Isti.CharacterDialogue_regular.019": "[MISSING TEXT]",
+  "Isti.CharacterDialogue_regular.020": "[MISSING TEXT]",
+  "Isti.CharacterDialogue_regular.021": "[MISSING TEXT]",
+  //WINTER DIALOGUE (REGULAR)
+  "Isti.CharacterDialogue_regular.022": "[MISSING TEXT]",
+  "Isti.CharacterDialogue_regular.023": "[MISSING TEXT]",
+  "Isti.CharacterDialogue_regular.024": "[MISSING TEXT]",
+  "Isti.CharacterDialogue_regular.025": "[MISSING TEXT]",
+  "Isti.CharacterDialogue_regular.026": "[MISSING TEXT]",
+  "Isti.CharacterDialogue_regular.027": "[MISSING TEXT]",
+  "Isti.CharacterDialogue_regular.028": "[MISSING TEXT]",
 
   //Isti Gift Tastes
-  "Isti.Gifts.Loved": "Ez a cucc fantasztikus! Igazi metal riff a kezem alatt! $h",
-  "Isti.Gifts.Liked": "Hát, ez király! Olyan, mint egy jól sikerült koncert. $a",
-  "Isti.Gifts.Disliked": "Hát... nem rossz, de inkább egy kókusztej lenne most jó. $u",
-  "Isti.Gifts.Hated": "Ez... hát, ezt inkább a sirályoknak adnám. $l",
-  "Isti.Gifts.Neutral": "Hát, semleges érzés... de legalább próbáltad! $h",
+  "Isti.Gifts.Loved": "[MISSING TEXT]",
+  "Isti.Gifts.Liked": "[MISSING TEXT]",
+  "Isti.Gifts.Disliked": "[MISSING TEXT]",
+  "Isti.Gifts.Hated": "[MISSING TEXT]",
+  "Isti.Gifts.Neutral": "[MISSING TEXT]",
 
   //Isti spring13
-  "Isti.Egg": "Hú, ez a tojás olyan, mint egy mini dobverő. Megütni nem szabad, de cuki! $a",
-  "Isti.Egg2": "Na, ki nyerte meg a tojásvadászatot? Remélem, nem én, mert az egész nap kókusztejet kéne vinnem! $h",
+  "Isti.Egg": "[MISSING TEXT]",
+  "Isti.Egg2": "[MISSING TEXT]",
 
   //Isti spring24
-  "Isti.Flower": "Ez a tánc valahogy olyan, mintha egy metal riffhez mozognánk... érdekes kombináció! $a",
-  "Isti.Flower2": "Remélem, bátysz is élvezi a táncot... vagy legalább ne nevessen rajtam túl sokat. $h",
+  "Isti.Flower": "[MISSING TEXT]",
+  "Isti.Flower2": "[MISSING TEXT]",
 
   //Isti summer11
-  "Isti.Luau": "Hát, ez a parti jobban hangzik, mint a szigeten valaha volt. Igazi fesztivál vibe! $a",
-  "Isti.Luau2": "A kókusztej itt is jól jönne... na jó, van valami hasonló. Cheers! $h",
+  "Isti.Luau": "[MISSING TEXT]",
+  "Isti.Luau2": "[MISSING TEXT]",
 
   //Isti summer28
-  "Isti.Jellies": "Nézd ezeket a medúzákat... olyan, mint a hangok egy extrém metal szám közepén! $h",
-  "Isti.Jellies2": "Ha bátysz itt lenne, tuti próbálná őket headbangelésre inspirálni. $a",
+  "Isti.Jellies": "[MISSING TEXT]",
+  "Isti.Jellies2": "[MISSING TEXT]",
 
   //Isti fall16 
-  "Isti.Fair": "Ez a vásár olyan, mint egy mini koncert... csak a dobok helyett ételek vannak. $h",
-  "Isti.Fair2": "Szeretem a standokat... de a kedvenc részem mindig a barátokkal való lógás. $a",
+  "Isti.Fair": "[MISSING TEXT]",
+  "Isti.Fair2": "[MISSING TEXT]",
 
   //Isti fall27
-  "Isti.Spirit": "Halloween? Remek, ez majdnem olyan, mint egy metal koncert a sötétben. $h",
-  "Isti.Spirit2": "Ha lenne itt a sziget, biztos kókusztejet innék jelmezben... de így is megoldjuk! $a",
+  "Isti.Spirit": "[MISSING TEXT]",
+  "Isti.Spirit2": "[MISSING TEXT]",
 
   //Isti winter8 
-  "Isti.Ice": "Hó, jég, hideg... na ez már tényleg extrém sport, de imádom! $h",
-  "Isti.Ice2": "Egy jó riff és egy forró ital... tökéletes kombináció a jégen! $a",
+  "Isti.Ice": "[MISSING TEXT]",
+  "Isti.Ice2": "[MISSING TEXT]",
 
   //Isti winter25
-  "Isti.star": "Karácsony... a világ talán megőrült, de legalább van sör és jó társaság! $h",
-  "Isti.star2": "Remélem, bátysz és a többiek is élvezik az ajándékokat... én legalább adok nekik egy jó riffet a hangulatért! $a",
+  "Isti.star": "[MISSING TEXT]",
+  "Isti.star2": "[MISSING TEXT]",
 
   //Mails
   "Mail.Isti" : "Csá @!^Lenne egy kérésem. Volt régen egy gitárom, valószínüleg még mindig ott kell lennie a régi házamban. Ha megkérlek eltudnád hozni nekem?^^-Isti%item quest 2502%%[#]Isti kérése",
   
   //ScheduleDialogue
-  "Isti.NightMarket.01": "Az éjszakai piac? Remek, mintha egy titkos metál koncertről lenne szó. bátysz biztos örülne! $a",
-  "Isti.DesertFestival_marriage.01": "Huh, házasokként a sivatagi fesztivál... hát, legalább a riffek még mindig szólhatnak! $h",
-  "Isti.DesertFestival.01": "Ez a sivatagi buli tényleg extrém! Ha lenne söröm... vagy kókusztejem, tuti nagyobb lenne a hangulat. $u",
-  "Isti.Hospital.01": "Csak egy éves ellenőrzés, semmi komoly! Remélem a doki nem próbál rábeszélni a zöldségekre... $h",
-  "Isti.Hospital.02": "Őszintén, ez a sztetoszkóp hidegebb, mint a tenger télen! $a",
-  "Isti.marriage_Sat.01": "Ma csak lazítok egy kicsit a városban. Néha jó más embereket is látni, nem csak a tyúkokat! $h",
-  "Isti.marriage_Sat.02": "A szalonban vagyok a többiekkel. Csak pár sört iszunk... vagy hármat. $h",
+  "Isti.NightMarket.01": "[MISSING TEXT]",
+  "Isti.DesertFestival_marriage.01": "[MISSING TEXT]",
+  "Isti.DesertFestival.01": "[MISSING TEXT]",
+  "Isti.Hospital.01": "[MISSING TEXT]",
+  "Isti.Hospital.02": "[MISSING TEXT]",
+  "Isti.marriage_Sat.01": "[MISSING TEXT]",
+  "Isti.marriage_Sat.02": "[MISSING TEXT]",
   
   //Isti Conversation topics 
 
   //Isti Events
   
   //MoviesReactions
-  "Isti.Movies.01": "Hmm, ez a film... kíváncsi vagyok, mennyire metal lesz a vége. $h",
-  "Isti.Movies.02": "Ez fantasztikus volt! Olyan, mintha egy teljes albumot néztem volna végig! $a",
-  "Isti.Movies.03": "Ez tetszett... bár a dobhangok kicsit hiányoztak. $h",
-  "Isti.Movies.04": "Hát, jól szórakoztam, de valami keményebb riff jobb lett volna. $u",
-  "Isti.Movies.05": "Ezt komolyan? Ez annyira lassú... nem az én stílusom. $l",
-  "Isti.Movies.06": "Na jó, az utolsó fél óra megmentette, de azért hiányzott a metal feeling. $u",
+  "Isti.Movies.01": "[MISSING TEXT]",
+  "Isti.Movies.02": "[MISSING TEXT]",
+  "Isti.Movies.03": "[MISSING TEXT]",
+  "Isti.Movies.04": "[MISSING TEXT]",
+  "Isti.Movies.05": "[MISSING TEXT]",
+  "Isti.Movies.06": "[MISSING TEXT]",
 
   //Engagement
-  "Isti.Engagement.0": "Wow, elsemhiszem, hogy megházasodunk! Ez majdnem olyan izgalmas, mint egy hajótörés túlélése... majdnem. $a",
-  "Isti.Engagement.1": "Ez a nagy nap! Vigyázzatok, hogy a buli ne fulladjon kókusztejbe. $h",
+  "Isti.Engagement.0": "[MISSING TEXT]",
+  "Isti.Engagement.1": "[MISSING TEXT]",
 
   //CommunityDay
-  "Isti.CommunityDay.01": "Ez a közösségi nap mindig jó lehetőség egy kis baráti metal improvizációra. $h",
-  "Isti.CommunityDay.02": "Bátysz biztos itt lenne, ha tudná... bár talán a riffjeim túl hangosak neki. $a",
-  "Isti.CommunityDay.03": "Érdekes látni mindenkit együtt... mintha egy hatalmas koncert lenne. $h",
-  "Isti.CommunityDay.04": "Néha egy kis káosz jó... főleg, ha kókusztejjel kevered. $u",
+  "Isti.CommunityDay.01": "[MISSING TEXT]",
+  "Isti.CommunityDay.02": "[MISSING TEXT]",
+  "Isti.CommunityDay.03": "[MISSING TEXT]",
+  "Isti.CommunityDay.04": "[MISSING TEXT]",
   //CommunityDay - MARRIED
-  "Isti.CommunityDay.05": "Wow, ez a pár fantasztikus! Gratulálok! $a",
-  "Isti.CommunityDay.06": "Szeretem látni a boldog arcokat... ez ad erőt a következő riffhez. $h",
-  "Isti.CommunityDay.07": "Ez az igazi közösségi élmény, mint egy fesztivál a város szívében. $a",
-  "Isti.CommunityDay.08": "Ha valaki megtalálna egy elrejtett kókuszdiót, én biztos örülnék. $u",
+  "Isti.CommunityDay.05": "[MISSING TEXT]",
+  "Isti.CommunityDay.06": "[MISSING TEXT]",
+  "Isti.CommunityDay.07": "[MISSING TEXT]",
+  "Isti.CommunityDay.08": "[MISSING TEXT]",
 
   //JojaDay
-  "Isti.JojaDay.01": "Hát, ez a Joja nap... legalább a metal hangulat megvan. $h",
-  "Isti.JojaDay.02": "Ha bátysz itt lenne, biztos röhögne, hogy én így bulizok a városi boltok között. $a",
-  "Isti.JojaDay.funLeave": "Na jó, ideje indulni... de előtte még egy utolsó riffet eljátszok magamban! $h",
+  "Isti.JojaDay.01": "[MISSING TEXT]",
+  "Isti.JojaDay.02": "[MISSING TEXT]",
+  "Isti.JojaDay.funLeave": "[MISSING TEXT]",
 
   //MarriageDialogue
-  "Isti.Patio": "Ez a veranda tökéletes lenne egy kis esti pengetéshez. Vagy egy kókusztejes koktélhoz. $h",
+  "Isti.Patio": "[MISSING TEXT]",
 
-  "Isti.spouseRoom.1": "Hé, nézd csak! A szobánk... végre nem a hajótörött sziget a nappalink. $a",
-  "Isti.spouseRoom.2": "Ha hallanál, milyen riffeket játszok ágy mellett, lehet, hogy a párna is tapsolna. $u",
-  "Isti.spouseRoom.3": "Néha itt ülök, nézem a szoba csendjét, és eszembe jut a sziget... jó, hogy itt vagy. $h",
-  "Isti.spouseRoom.4": "Ha túl hangos lennék, szólj... bár a metál néha hangos. $a",
+  "Isti.spouseRoom.1": "[MISSING TEXT]",
+  "Isti.spouseRoom.2": "[MISSING TEXT]",
+  "Isti.spouseRoom.3": "[MISSING TEXT]",
+  "Isti.spouseRoom.4": "[MISSING TEXT]",
 
-  "Isti.funLeave.Spring": "Ideje egy kis szalon bulihoz menni! bátysz biztos röhögne, ha látná. $h",
-  "Isti.funLeave.Summer": "Nyári szórakozás? Remek, lehet egy kis improvizáció a bárpult mellett. $a",
-  "Isti.funLeave.Fall": "Őszi sörözés helyett marad a kókusztej... de a hangulat így is szuper! $u",
-  "Isti.funLeave.Winter": "Téli estéken a szalon a meleg, a zene és a barátok helye. $h",
-  "Isti.funReturn.Spring": "Vissza a farmra... de a riffek még a fejemben szólnak! $a",
-  "Isti.funReturn.Summer": "Itt vagyok, és még mindig érzem a buli ritmusát a lépteimben. $h",
-  "Isti.funReturn.Fall": "Hazajöttem... a kókusztej maradt a kezemben. $u",
-  "Isti.funReturn.Winter": "Brrrr... hideg van, de a zene melegít. $a",
+  "Isti.funLeave.Spring.1": "[MISSING TEXT]",
+  "Isti.funLeave.Summer.1": "[MISSING TEXT]",
+  "Isti.funLeave.Fall.1": "[MISSING TEXT]",
+  "Isti.funLeave.Winter.1": "[MISSING TEXT]",
+  "Isti.funReturn.Spring.1": "[MISSING TEXT]",
+  "Isti.funReturn.Summer.1": "[MISSING TEXT]",
+  "Isti.funReturn.Fall.1": "[MISSING TEXT]",
+  "Isti.funReturn.Winter.1": "[MISSING TEXT]",
 
-  "Isti.OneKid.00": "Wow, egy kis metál fan érkezett! $h",
-  "Isti.OneKid.01": "Ez a kölyök biztos élvezni fogja a gitározást. $a",
-  "Isti.OneKid.02": "Talán már most hallom, hogy dobol a kis ujjacskáival. $u",
-  "Isti.OneKid.03": "Huh, egy új kaland kezdődik... dupla riff és dupla kókusztej! $h",
-  "Isti.OneKid.04": "Bátysz biztosan örülne, hogy egy új generációt nevelünk. $a",
-  "Isti.TwoKids.00": "Két kis metál rajongó! Ez már majdnem koncert! $h",
-  "Isti.TwoKids.01": "Néha nehéz egyszerre két riffet játszani... de élvezem. $a",
-  "Isti.TwoKids.02": "Ezek a gyerekek biztosan jobban gitároznak majd nálam. $u",
-  "Isti.TwoKids.03": "Csak remélni tudom, hogy a kókusztej elfogy egyszer... $h",
-  "Isti.TwoKids.04": "Úgy érzem, hogy egy igazi családi bandát építünk. $a",
+  "Isti.OneKid.00": "[MISSING TEXT]",
+  "Isti.OneKid.01": "[MISSING TEXT]",
+  "Isti.OneKid.02": "[MISSING TEXT]",
+  "Isti.OneKid.03": "[MISSING TEXT]",
+  "Isti.OneKid.04": "[MISSING TEXT]",
+  "Isti.TwoKids.00": "[MISSING TEXT]",
+  "Isti.TwoKids.01": "[MISSING TEXT]",
+  "Isti.TwoKids.02": "[MISSING TEXT]",
+  "Isti.TwoKids.03": "[MISSING TEXT]",
+  "Isti.TwoKids.04": "[MISSING TEXT]",
+
+  "Isti.MarriageDialogue.spring_Isti": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.spring_1": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.spring_13": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.spring_24": "[MISSING TEXT]",
+
+  "Isti.MarriageDialogue.summer_Isti": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.summer_1": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.summer_11": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.summer_28": "[MISSING TEXT]",
+
+  "Isti.MarriageDialogue.fall_Isti": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.fall_1": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.fall_16": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.fall_27": "[MISSING TEXT]",
   
-  "Isti.MarriageDialogue.spring_Isti": "Tavaszi nap, friss levegő... tökéletes a kerti riffhez! $h",
-  "Isti.MarriageDialogue.spring_1": "A virágok szépek, de a riffek hangosabbak. $a",
-  "Isti.MarriageDialogue.spring_13": "Ez a nap a nevetésről és a jó hangulatról szól. $u",
-  "Isti.MarriageDialogue.spring_24": "Bátysz biztosan örülne, hogy ilyen vidám a tavasz. $h",
-
-  "Isti.MarriageDialogue.summer_Isti": "Nyári forróság... de a riffek hűsítik a lelket. $a",
-  "Isti.MarriageDialogue.summer_1": "Egy kis kerti buli kókusztejjel... tökéletes. $h",
-  "Isti.MarriageDialogue.summer_11": "Ha hallanád, milyen hangos a szomszédság a metál miatt... $u",
-  "Isti.MarriageDialogue.summer_28": "Huh, a nyár sose tűnik el, amíg a zene velünk van. $a",
-
-  "Isti.MarriageDialogue.fall_Isti": "Őszi levelek, hideg reggel... de a riffek felmelegítenek. $h",
-  "Isti.MarriageDialogue.fall_1": "Egy kis őszi séta, gitár a kézben... tökéletes. $a",
-  "Isti.MarriageDialogue.fall_16": "Néha a szél és a zene egyszerre szól... mintha együtt játszanánk. $u",
-  "Isti.MarriageDialogue.fall_27": "Halloweeni hangulat, de én inkább kókusztejjel keverem a sötét riffeket. $h",
+  "Isti.MarriageDialogue.winter_Isti": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.winter_1": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.winter_8": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.winter_12": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.winter_25": "[MISSING TEXT]",
   
-  "Isti.MarriageDialogue.winter_Isti": "Téli hideg, de a lelkem meleg a riffektől. $a",
-  "Isti.MarriageDialogue.winter_1": "Ha bátysz itt lenne, biztos röhögne a meleg zoknik miatt. $h",
-  "Isti.MarriageDialogue.winter_8": "Jégfesztivál? Inkább egy meleg gitár koncertet! $u",
-  "Isti.MarriageDialogue.winter_12": "Karácsony közeleg... de a metál mindig velünk marad. $h",
-  "Isti.MarriageDialogue.winter_25": "Boldog Karácsonyt! Legyen tele a napunk kókusztejjel és riffekkel. $a",
+  "Isti.MarriageDialogue.Rainy_Day": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Rainy_Night": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Indoor_Day": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Indoor_Night": "[MISSING TEXT]",
   
-  "Isti.MarriageDialogue.Rainy_Day": "Esős nap, de a zene mindig napsütés. $h",
-  "Isti.MarriageDialogue.Rainy_Night": "Eső éjszaka... tökéletes egy kis akusztikus riffhez a kandalló mellett. $a",
-  "Isti.MarriageDialogue.Indoor_Day": "Benti nap? Semmi gond, a riffek itt is jól szólnak. $u",
-  "Isti.MarriageDialogue.Indoor_Night": "Éjszakai hangulat, gyertyafény, és egy kis metál... tökéletes. $h",
-  
-  "Isti.MarriageDialogue.Indoor_Day_0": "Kávé a kézben, riff a fejben. $a",
-  "Isti.MarriageDialogue.Indoor_Day_1": "Ha hallanád, milyen hangos a belső zeném... $h",
-  "Isti.MarriageDialogue.Indoor_Day_2": "Kókusztej és napfény... így indul a nap! $u",
-  "Isti.MarriageDialogue.Indoor_Day_3": "Gyerekek a szobában, riffek a szívemben. $a",
-  "Isti.MarriageDialogue.Indoor_Day_4": "Semmi sem tökéletesebb, mint a család és egy jó dallam. $h",
+  "Isti.MarriageDialogue.Indoor_Day_0": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Indoor_Day_1": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Indoor_Day_2": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Indoor_Day_3": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Indoor_Day_4": "[MISSING TEXT]",
 
-  "Isti.MarriageDialogue.Outdoor_Isti": "Kinti levegő, friss hangulat... lehetne koncert helyszín! $a",
+  "Isti.MarriageDialogue.Outdoor_Isti": "[MISSING TEXT]",
 
-  "Isti.MarriageDialogue.Outdoor_0": "Egy kis kerti munka és riffek a háttérben... $h",
-  "Isti.MarriageDialogue.Outdoor_1": "Ha a nap süt, a gitár is jobban szól. $a",
-  "Isti.MarriageDialogue.Outdoor_2": "Bátysz biztos röhögne, hogy ennyire lelkes vagyok. $u",
-  "Isti.MarriageDialogue.Outdoor_3": "A gyerekek játszanak, én pengetek... így teljes a nap. $h",
-  "Isti.MarriageDialogue.Outdoor_4": "Egy kis friss levegő, egy kis metál... tökéletes kombináció. $a",
+  "Isti.MarriageDialogue.Outdoor_0": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Outdoor_1": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Outdoor_2": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Outdoor_3": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Outdoor_4": "[MISSING TEXT]",
 
-  "Isti.MarriageDialogue.Rainy_Day_0": "Esik az eső... de egy kis zene és kókusztej mindent jobbá tesz. $h",
-  "Isti.MarriageDialogue.Rainy_Day_1": "Az ablakon kopog az eső, a riffek meg bennem zenélnek. $a",
-  "Isti.MarriageDialogue.Rainy_Day_2": "Talán egy esernyő riffet kéne írnom... vicces lenne, nem? $u",
-  "Isti.MarriageDialogue.Rainy_Day_3": "Bátysz biztos röhögne, hogy esőben is metal vagyok. $h",
+  "Isti.MarriageDialogue.Rainy_Day_0": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Rainy_Day_1": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Rainy_Day_2": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Rainy_Day_3": "[MISSING TEXT]",
 
-  "Isti.MarriageDialogue.Indoor_Night_0": "Éjszakai hangulat... gyertyafény és kókusztej, minden adott a riffhez. $a",
-  "Isti.MarriageDialogue.Indoor_Night_1": "Hallod a csendet? Én hallom, és zenélni akarok. $h",
-  "Isti.MarriageDialogue.Indoor_Night_2": "Talán egy kis akusztikus improvizáció a gyerekek mellett... $u",
-  "Isti.MarriageDialogue.Indoor_Night_3": "Egy nyugodt este... de a fejemben a metál dübörög. $h",
-  "Isti.MarriageDialogue.Indoor_Night_4": "Csak mi ketten, egy jó riff, és minden rendben. $a",
+  "Isti.MarriageDialogue.Indoor_Night_0": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Indoor_Night_1": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Indoor_Night_2": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Indoor_Night_3": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Indoor_Night_4": "[MISSING TEXT]",
 
-  "Isti.MarriageDialogue.Rainy_Night_0": "Esőcseppek a tetőn... ez a ritmus tökéletes egy éjszakai dalhoz. $h",
-  "Isti.MarriageDialogue.Rainy_Night_1": "Kandalló, kókusztej, és a zene... így érdemes az éjszakát tölteni. $a",
-  "Isti.MarriageDialogue.Rainy_Night_2": "Bátysz biztos röhögne, hogy milyen kreatív vagyok esős éjszakán. $u",
-  "Isti.MarriageDialogue.Rainy_Night_3": "Az eső kopogása ritmusra, és én pengetek... tökéletes kombináció. $h",
-  "Isti.MarriageDialogue.Rainy_Night_4": "Egy kis metál és eső... talán új dal születik most. $a",
+  "Isti.MarriageDialogue.Rainy_Night_0": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Rainy_Night_1": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Rainy_Night_2": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Rainy_Night_3": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Rainy_Night_4": "[MISSING TEXT]",
 
-  "Isti.MarriageDialogue.Good_0": "Ma minden klappol... riff, kókusztej és jó hangulat! $h",
-  "Isti.MarriageDialogue.Good_1": "Ez a nap igazán szép... még a szomszédok is tapsolhatnának a riffjeimre. $a",
-  "Isti.MarriageDialogue.Good_2": "Vidám nap, vidám riff... tökéletes kombináció. $h",
-  "Isti.MarriageDialogue.Good_3": "Ha hallanád, milyen jó hangulat van bennem... $a",
-  "Isti.MarriageDialogue.Good_4": "Csak így tovább... minden nap lehet egy kis koncert. $h",
-  "Isti.MarriageDialogue.Good_5": "Bátysz biztosan büszke lenne, ha itt lenne. $a",
-  "Isti.MarriageDialogue.Good_6": "Ma minden oké... és a kókusztej is pont jó. $h",
-  "Isti.MarriageDialogue.Good_7": "Egy tökéletes nap a farmon, a riffekkel a háttérben. $a",
-  "Isti.MarriageDialogue.Good_8": "Minden rendben van, és a zene is velünk van. $h",
-  "Isti.MarriageDialogue.Good_9": "Ma tényleg minden a helyén van... $a",
+  "Isti.MarriageDialogue.Good_0": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Good_1": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Good_2": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Good_3": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Good_4": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Good_5": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Good_6": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Good_7": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Good_8": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Good_9": "[MISSING TEXT]",
 
-  "Isti.MarriageDialogue.Neutral_0": "Ma minden olyan átlagos... de a riffek feldobják. $u",
-  "Isti.MarriageDialogue.Neutral_1": "Semmi különös, csak egy normál nap a farmon. $h",
-  "Isti.MarriageDialogue.Neutral_2": "Talán egy kicsit több kókusztej feldobná a hangulatot. $u",
-  "Isti.MarriageDialogue.Neutral_3": "Ma semmi különös... de a zene mindig velünk van. $h",
-  "Isti.MarriageDialogue.Neutral_4": "Ez az átlagos nap is lehet jó, ha együtt vagyunk. $a",
-  "Isti.MarriageDialogue.Neutral_5": "Csak egy csendes nap... de a riffek a fejemben zenélnek. $u",
-  "Isti.MarriageDialogue.Neutral_6": "Ma minden simán megy... és ez jó. $h",
-  "Isti.MarriageDialogue.Neutral_7": "Semmi különös, csak mi ketten és a farm. $a",
-  "Isti.MarriageDialogue.Neutral_8": "Egy átlagos nap is lehet szép. $h",
-  "Isti.MarriageDialogue.Neutral_9": "Ma nincs nagy kaland... de a kókusztej mindig ott van. $u",
+  "Isti.MarriageDialogue.Neutral_0": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Neutral_1": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Neutral_2": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Neutral_3": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Neutral_4": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Neutral_5": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Neutral_6": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Neutral_7": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Neutral_8": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Neutral_9": "[MISSING TEXT]",
 
-  "Isti.MarriageDialogue.Bad_0": "Huh... ma valami nem stimmel... talán túl sok riffet próbáltam. $h",
-  "Isti.MarriageDialogue.Bad_1": "Ez a nap elég fárasztó... de a zene talán segít. $u",
-  "Isti.MarriageDialogue.Bad_2": "Néha a kókusztej sem old meg mindent... $h",
-  "Isti.MarriageDialogue.Bad_3": "Huh, egy rossz nap... remélem, holnap jobb lesz. $u",
-  "Isti.MarriageDialogue.Bad_4": "Ma minden idegesítőnek tűnik... $h",
-  "Isti.MarriageDialogue.Bad_5": "Bátysz biztos röhögne, ha látná a helyzetet... $u",
-  "Isti.MarriageDialogue.Bad_6": "Talán egy kis metál feldobná... de most nincs kedvem. $h",
-  "Isti.MarriageDialogue.Bad_7": "Ez a nap tényleg kemény... $u",
-  "Isti.MarriageDialogue.Bad_8": "Néha minden rossznak tűnik... $h",
-  "Isti.MarriageDialogue.Bad_9": "Ma egyszerűen nem megy semmi... $u",
+  "Isti.MarriageDialogue.Bad_0": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Bad_1": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Bad_2": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Bad_3": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Bad_4": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Bad_5": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Bad_6": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Bad_7": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Bad_8": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.Bad_9": "[MISSING TEXT]",
 
-  "Isti.MarriageDialogue.NoBed_0": "Huh, nincs ágy... talán a földön is lehet riffet játszani. $h",
-  "Isti.MarriageDialogue.NoBed_1": "Semmi ágy, de legalább a zene itt van velem. $u",
-  "Isti.MarriageDialogue.NoBed_2": "Talán a kanapén... vagy a padlón... mindenhol jó a riff. $h",
-  "Isti.MarriageDialogue.NoBed_3": "Nincs ágy, de a hangulat nem csorbul. $a",
+  "Isti.MarriageDialogue.NoBed_0": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.NoBed_1": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.NoBed_2": "[MISSING TEXT]",
+  "Isti.MarriageDialogue.NoBed_3": "[MISSING TEXT]",
 
   //==================//
   //   Vanilla NPCs   //
@@ -2608,7 +2605,7 @@
   "Haley.CharacterDialogue.02": "Tényleg hozzá mentél a Kristófhoz?#$b#Fura egy izlésed van.",//married_Christopher
 
   "Leah.CharacterDialogue.01": "Tavaly készítettem Bencének pár dekorációt de ahogy láttam nem tette ki őket.#$b#Vajon nem tetszett neki... vagy csak lusta volt kitenni őket?",//fall_Tue2
-  "Leah.CharacterDialogue.02": "Bence nagyon kreatí személy... Biztos vagyok benne, hogy egyik napod sem lesz unalmas.$h",//married_Bence
+  "Leah.CharacterDialogue.02": "Bence nagyon kreatív személy... Biztos vagyok benne, hogy egyik napod sem lesz unalmas.$h",//married_Bence
 
   "Emily.CharacterDialogue.01": "Kiváncsi vagyok Márk barátom hogyan viseli az idei hőséget.#$b#Mindig nagyon könnyen leég.",//summer_Tue2
   "Emily.CharacterDialogue.02": "Csodálatos volt az esküvő... Mindig is éreztem, hogy összetartoztok a Márkal.$h",//married_Mark
@@ -2620,15 +2617,15 @@
   "Robin.CharacterDialogue.01": "Márk háza óta nem volt ekkora projektemen mint a te farmházad.",//houseUpgrade_1_memory_oneweek
   
   "Gus.CharacterDialogue.01": "Pam és Kristóf majd minden este betérnek a szalonba.#$e#Valószínűleg tönkremennék, ha nem jönnének többet.$h#$e#Szóval kérlek ne üldözd el őket!",//Thu
-  "Gus.CharacterDialogue.02": "Kristóf majd minden nap bejön a Szalonba és egy rakat pénzt költ.$0#$b#Nem gondoltam volna, hogy ennyi pénz lehet e horgászatban.$h",//Thu4
+  "Gus.CharacterDialogue.02": "Kristóf majd minden nap bejön a Szalonba és egy rakat pénzt költ.$0#$b#Nem gondoltam volna, hogy ennyi pénz lehet a horgászatban.$h",//Thu4
 
   "Clint.CharacterDialogue.01": "Márk az egyik leggyakoribb vásárlóm.#$b#Tegnap például hozott egy nagyon érdekes geódát, amit aztán kinyitottunk és egy elég értékes ásványt találtunk benne.",//Fri4
 
   //Conversation topics 
   "Willy.Christopher.2heart": "Aye... hallom Kristóffal jól megküzdöttetek egy hallal.$0#$b#De ne csüggedjetek van még hal a tengerben.$h",
   "Gus.Christopher.4heart": "Tudsz valamit a Kristófról? Tegnap jóval többet fogyasztott mint szokott.#$b#Mikor távozott nem igazán tűnt úgy mint aki haza tudna menni.",
-  "Willy.Christopher.8heart": "Aye... még sosem láttam akkora harcsát mint amit a Kristóf kifogott.#$b#Még sosem voltam ennyire böszke valakire.",
-  "Gus.Christopher.8heart": "Hála Kirstófnak, rekord mennyiségű bevételem volt tegnap este.",
+  "Willy.Christopher.8heart": "Aye... még sosem láttam akkora harcsát mint amit a Kristóf kifogott.#$b#Még sosem voltam ennyire büszke valakire.",
+  "Gus.Christopher.8heart": "Hála Kristófnak, rekord mennyiségű bevételem volt tegnap este.",
   "Pam.Christopher.8heart": "Milyen rendes Kristóftol, hogy mindenkit meghívott.$h#$b#Minden embernek ilyen barátra van szüksége, igazam van kölyök?$h",
 
   "Robin.Bence.2heart": "Hé @, esetleg nem tudod Bence, hogy áll a megbízással?#$b#Nagyon jól jönne nekem most az a sok fa amit kértem tőle.",
@@ -2636,5 +2633,5 @@
   "Robin.Bence.4heart": "Úgyfest Bence összeszedte magát. Sokkal hamarabb végez a megbízásokkal mint régebben.#$b#Persze még mindig nem időben, de legalább mát látom a fejlődést.",
   "Andy.Bence.6heart": "A szomszéd egész nap zenét bömböltet és ez már kezd az agyamra menni.",
 
-  "Gus.Mark.8heart": "Hallom sok pénz nyertetek Márkal a derbin.$0#$b#Majd betérhetnétek a szalonba ünnepelni.$h"
+  "Gus.Mark.8heart": "Hallom sok pénzt nyertetek Márkal a derbin.$0#$b#Majd betérhetnétek a szalonba ünnepelni.$h"
 }
