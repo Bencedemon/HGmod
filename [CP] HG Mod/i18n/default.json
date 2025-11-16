@@ -366,7 +366,7 @@
   "Willy.Boat.12": "#What's wrong?#Everything okay?",
   "Willy.Boat.13": "Aye... well, business has been tough, lately.$s#$b#It all started about the same time that old community center fell to ruin... me fish just don't sell like they used to...#$b#I've been working double-time just to make ends meet!",
   "Willy.Boat.14": "No time for me own projects...$s#$b#But, if things picked back up around here, I might have the time to show ya somethin'...",
-  "Willy.Boat.15": "Heh heh... yep. She's back there... an 'old friend' that's seen better days...$h",
+  "Willy.Boat.15": "Heh heh... yep. She's back there... an 'old friend' that's seen better days...$h#$b#And well, enough time has passed since the incident.$s#$b#It's time to move on.$s",
   "Willy.Boat.16": "Some day, ${lad^miss}$... you'll see what I mean.",
   
   //================//
@@ -2610,7 +2610,7 @@
   "Emily.CharacterDialogue.01": "I'm curious how my friend Márk is coping with this year's heat.#$b#He always gets sunburned very easily.",//summer_Tue2
   "Emily.CharacterDialogue.02": "That was a beautiful wedding... I always felt that you and Márk belonged together.$h",//married_Mark
 
-  "Willy.CharacterDialogue.01": "Ahoy there! It's nice to see young folk movin' in to the valley. It's not very common these days.#$e#You're the first one since Kristóf and the others moved here and that wasn't even last week.",//Introduction
+  "Willy.CharacterDialogue.01": "Ahoy there! It's nice to see young folk movin' in to the valley. It's not very common these days.#$e#I hope you'll enjoy fishing as much as Kristóf does.$h#$b#Just don't spend all your income on beer like him.$s",//Introduction
   "Willy.CharacterDialogue.02": "Without Kristóf, I probably would have closed my shop by now.$0#$e#Not many young people are interested in fishing.$s",//Sat4
   "Willy.CharacterDialogue.03": "Giving up the ${bachelor^single}$ life, eh?#$b#Just don't forget to make time for fishing with Kristóf...$0#$b#Although I don't think he's the kind of person who would just give up on something like that.$h",//married_Christopher
 

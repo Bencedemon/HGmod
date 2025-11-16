@@ -2610,7 +2610,7 @@
   "Emily.CharacterDialogue.01": "Kiváncsi vagyok Márk barátom hogyan viseli az idei hőséget.#$b#Mindig nagyon könnyen leég.",//summer_Tue2
   "Emily.CharacterDialogue.02": "Csodálatos volt az esküvő... Mindig is éreztem, hogy összetartoztok a Márkal.$h",//married_Mark
 
-  "Willy.CharacterDialogue.01": "Üdvözletem! Jó látni fiatalokat költözni a völgybe. Manapság nem ez a megszokott.#$e#Kristófék óta te vagy az első és hát ök se multhéten költöztek ide.",//Introduction
+  "Willy.CharacterDialogue.01": "Üdvözletem! Jó látni fiatalokat költözni a völgybe. Manapság nem ez a megszokott.#$e#Remélem te is épp annyira fogod élvezni a horgászatot mint a Kristóf.$h#$b#Csak ne költsd te is minden bevételed sörre.$s",//Introduction
   "Willy.CharacterDialogue.02": "Kristóf nélkül valószínűleg már be kellett volna zárnom a boltomat.$0#$e#Nem sok fiatal mutat érdeklődést a horgászat iránt.$s",//Sat4
   "Willy.CharacterDialogue.03": "Felhagysz ${az agglegény^a szingli}$ élettel, mi?#$b#Csak ne felejtsetek időt szakítani Kristóffal a horgászásra...$0#$b#Bár nem hiszem, hogy ő az a fajta ember lenne aki csak úgy felhagy az ilyesmivel.$h",//married_Christopher
 
