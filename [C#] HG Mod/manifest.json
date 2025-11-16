@@ -1,10 +1,10 @@
 {
-  "Name": "[C#] HG Mod",
-  "Author": "Bencedemon",
-  "Version": "0.1.0",
-  "Description": "This mod ROCKS!",
-  "UniqueID": "Bencedemon.HGCode",
-  "EntryDll": "HGmod.dll",
-  "MinimumApiVersion": "4.0.0",
-  "UpdateKeys": []
+    "Name": "Hello Guys Mod",
+    "Author": "Bencedemon",
+    "Version": "1.0.0",
+    "Description": "The official Hello Guys Stardew Valley mod.",
+    "UniqueID": "Bencedemon.HGCode",
+    "EntryDll": "HGmod.dll",
+    "MinimumApiVersion": "4.0.0",
+    "UpdateKeys": []
 }
