@@ -186,7 +186,7 @@
         {
             "LogName": "Other",
             "Action": "Include",
-            "FromFile": "Data/Other/Bundles.json, Data/Other/GarbageCans.json, Data/Other/IncomingPhoneCalls.json, Data/Other/Jukebox.json, Data/Other/Mail.json, Data/Other/Minecarts.json, Data/Other/Movies.json, Data/Other/PrizeTicketMachines.json, Data/Other/Quests.json, Data/Other/SpecialOrders.json"
+            "FromFile": "Data/Other/Bundles.json, Data/Other/GarbageCans.json, Data/Other/IncomingPhoneCalls.json, Data/Other/Jukebox.json, Data/Other/Mail.json, Data/Other/Minecarts.json, Data/Other/Movies.json, Data/Other/Music.json, Data/Other/PrizeTicketMachines.json, Data/Other/Quests.json, Data/Other/SpecialOrders.json"
         },
         {
             "LogName": "OtherMods",
