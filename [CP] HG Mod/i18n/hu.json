@@ -611,7 +611,7 @@
   "BenceCabin.Axe": "Régi fejsze.",
   "BenceCabin.Phone": "Önnek 3 db nem fogadott hívása van.",
   "BenceCabin.Laptop": "Bence laptopja.",
-  "BenceCabin.Fridge": "Egy eléggé üres hűtőszekrény, csak nagyon kevés dolog van benne.",
+  "BenceCabin.Fridge": "Bence hűtője, csak májkrémes konzervek, zsemlék és energia italok vannak benne.",
   "BenceCabin.Pizza": "Egy pizza valószínüleg a szalonból.",
   "BenceCabin.Firewood": "Frissen vágott fahasábok.",
   "BenceCabin.Bookshelf": "Egy poros könyvespolc.",
@@ -644,7 +644,7 @@
   "AbandonedCabin.PC": "Poros számítógép, egy ideje biztos nem volt elindítva.",
   "AbandonedCabin.Firewood": "Régi poros fahasábok.",
   "AbandonedCabin.Box": "A dobozok tele vannak személyes tárgyakkal.",
-  "AbandonedCabin.Fridge": "Egy lejárt sörösrekeszen kívül nincs benne semmi.",
+  "AbandonedCabin.Fridge": "A hűtőszekrény teljesen üres.",
   "AbandonedCabin.TV": "Nem tudom bekapcsolni. Valószínűleg elromlott.",
 
   "AbandonedCabin2.WallPlanks": "Igénytelenül bedeszkázott fal. De legalább senki nem jöhet be hivatlanul.",
@@ -1590,7 +1590,7 @@
   //Bence Conversation topics 
   "Bence.2heart.Topic": "Képzeld @.$0#$b#Végre neki álltam a megbízásnak.$h",
   "Bence.6heart.Topic": "Olyan jó hogy végre sikerült megcsinálnom a zenegépet.$0#$b#Azért sokkal jobb azon zenét hallgatni mint a laptopomon.$h#$b#Bár remélem senkit nem zavarok vele.$u",
-  "Bence.8heart.Topic": "Sikerült bővítenem a játékomat mióta mutattam.$#$e#Szerintem legközelebb akkor mutatom meg csak ha már elkészült.$h#$b#Ami valószínűleg nem idén lesz.$u",
+  "Bence.8heart.Topic": "Sikerült bővítenem a játékomat mióta mutattam.#$e#Szerintem legközelebb akkor mutatom meg csak ha már elkészült.$h#$b#Ami valószínűleg nem idén lesz.$u",
   "Bence.10heart.Topic": "Csodálatosan éreztem magam veled tegnap este.$l#$b#Még majd csinálhatnánk hasnonló dolgokat a jövőben.$l",
   //"Bence.Sam.Concert": "Jól láttam, hogy te is ott voltál Samék koncertjén, igaz?#$b#Nem mondom eléggé megleptek, rosszabbra számítottam.",//4081148
   "Bence.Christopher.10heart": "Hallom biciklizni voltatok Kristóffal.$6#$b#Végre nem minket csesztet vele.$6",//2001006

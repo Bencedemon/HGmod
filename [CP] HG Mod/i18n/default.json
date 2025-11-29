@@ -611,7 +611,7 @@
   "BenceCabin.Axe": "Old axe.",
   "BenceCabin.Phone": "You have 3 missed calls.",
   "BenceCabin.Laptop": "Bence's laptop.",
-  "BenceCabin.Fridge": "A fairly empty refrigerator, with very few things in it.",
+  "BenceCabin.Fridge": "Bence's fridge, contains only liver pate cans, rolls and energy drinks.",
   "BenceCabin.Pizza": "A pizza, probably from the saloon.",
   "BenceCabin.Firewood": "Freshly cut wood logs.",
   "BenceCabin.Bookshelf": "A dusty bookshelf.",
@@ -644,7 +644,7 @@
   "AbandonedCabin.PC": "Dusty computer, probably hasn't been turned on in a while.",
   "AbandonedCabin.Firewood": "Old dusty wooden logs.",
   "AbandonedCabin.Box": "The boxes are full of personal belongings.",
-  "AbandonedCabin.Fridge": "There's nothing in it except an expired sixpack.",
+  "AbandonedCabin.Fridge": "The refrigerator is completely empty.",
   "AbandonedCabin.TV": "I can't turn it on. It's probably broken.",
 
   "AbandonedCabin2.WallPlanks": "An undemanding boarded-up wall. But at least no one can come in without an invitation.",
@@ -1590,7 +1590,7 @@
   //Bence Conversation topics 
   "Bence.2heart.Topic": "Guess what, @.$0#$b#I finally started working on the assignment.$h",
   "Bence.6heart.Topic": "I'm so glad I finally managed to fix the jukebox.$0#$b#It's so much better listening to music on it than on my laptop.$h#$b#Though I hope I'm not bothering anyone with it.$u",
-  "Bence.8heart.Topic": "I've managed to expand my game since I last showed it to you.$#$e#I think I'll only show it again once it's finished.$h#$b#Which probably won't be this year.$u",
+  "Bence.8heart.Topic": "I've managed to expand my game since I last showed it to you.#$e#I think I'll only show it again once it's finished.$h#$b#Which probably won't be this year.$u",
   "Bence.10heart.Topic": "I had a wonderful time with you last night.$l#$b#We should do similar things again in the future.$l",
   //"Bence.Sam.Concert": "I saw it right, that you were at Sam's concert, right?#$b#I can't say I was surprised, I expected worse.",
   "Bence.Christopher.10heart": "I heard you went cycling with Kristóf.$6#$b#Finally he's not gonna bother us with it.$6",
@@ -1890,7 +1890,7 @@
   //SPRING AND GENERAL DIALOGUE
   "Mark.CharacterDialogue.001": "The flowers are so colorful.",
   "Mark.CharacterDialogue.002": "Have you watched any good anime lately?",
-  "Mark.CharacterDialogue.003": "Hello.#$q Shonen/Isekai/Action/Fantasy/Non Tue_old#What's your favorite anime genre?#$r Shonen 5 Tue_Shonen#Shonen.$#$r Isekai -5 Tue_Isekai#Isekai.$#$r Action 5 Tue_Action#Action.$#$r Fantasy 5 Tue_Fantasy#Fantasy.$#$r Non -10 Tue_Non#I don't like anime.",
+  "Mark.CharacterDialogue.003": "Hello.#$q Shonen/Isekai/Action/Fantasy/Non Tue_old#What's your favorite anime genre?#$r Shonen 5 Tue_Shonen#Shonen.#$r Isekai -5 Tue_Isekai#Isekai.#$r Action 5 Tue_Action#Action.#$r Fantasy 5 Tue_Fantasy#Fantasy.#$r Non -10 Tue_Non#I don't like anime.",
   "Mark.CharacterDialogue.004": "Have you been watching any anime lately?", //Tue_old
   "Mark.CharacterDialogue.Shonen": "Shonen? That's a really good genre.$h",
   "Mark.CharacterDialogue.Isekai": "Isekai...? Well, there are some good ones, but these days most isekai anime aren't that great.$s",

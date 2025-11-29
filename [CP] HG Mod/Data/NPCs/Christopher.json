@@ -18,7 +18,7 @@
                     "IsDarkSkinned": false,
                     "CanBeRomanced": true,
                     "KissSpriteIndex": 36,
-                    "LoveInterest": "",
+                    "LoveInterest": "Haley",
                     "Calendar": "AlwaysShown",
                     "SocialTab": "UnknownUntilMet",
                     "CanSocialize": true,
@@ -60,8 +60,7 @@
                     },
                     "FriendsAndFamily": {
                         "Mark": "",
-                        "Bence": "",
-                        "Isti": ""
+                        "Bence": ""
                     },
                     "WinterStarGifts": [
                         {
